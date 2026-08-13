@@ -7,11 +7,22 @@
   background: var(--ground);
 }
 .brand {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 17px;
-  color: var(--text-heading);
+  display: flex;
+  align-items: center;
+  gap: 9px;
 }
 .brand:hover {
   text-decoration: none;
+}
+.brandMark {
+  display: block;
+  flex-shrink: 0;
+  color: var(--accent);
+}
+.brandName {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: -0.015em;
+  color: var(--text-heading);
 }

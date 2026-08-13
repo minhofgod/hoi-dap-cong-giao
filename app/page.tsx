@@ -10,6 +10,7 @@ import { resolveReference } from '@/lib/bibleRefs';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { FeaturedQuestion, type HeroQuestion } from '@/components/FeaturedQuestion';
 import { ReadingProgressBar, PartProgressBar } from '@/components/ReadingProgress';
+import { BrandMark } from '@/components/BrandMark';
 import styles from './page.module.css';
 
 // First two body paragraphs as a plain-text teaser (drop quotes, headings, lists, and Markdown).
@@ -187,8 +188,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div className={styles.fullBleed} />
+      {/* Empty full-bleed spacer removed at request. */}
+      {/* <div className={styles.fullBleed} /> */}
 
+      {/* "Về trang này / Nguồn" band hidden at request — kept here in case it's wanted back.
       <section className={styles.support}>
         <div className={styles.supportCol}>
           <h3 className={styles.supportHeading}>Về trang này</h3>
@@ -206,13 +209,19 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+      */}
 
       <footer className={styles.footer}>
         <div className={styles.footerBrand}>
-          <div className={styles.footerName}>Hỏi Đáp Công Giáo</div>
+          <div className={styles.footerName}>
+            <BrandMark size={35} cut={9} id="footer" className={styles.footerMark} />
+            <span>Hỏi Đáp Công Giáo</span>
+          </div>
+          {/* Placeholder credit lines hidden until filled in.
           <p className={styles.footerCredit}>Bản dịch Giáo Lý: [nguồn]</p>
-          <p className={styles.footerCredit}>Bản văn Giáo Phụ: phạm vi công cộng</p>
           <p className={styles.footerCredit}>Thực hiện bởi: [tên]</p>
+          */}
+          <p className={styles.footerCredit}>Bản văn Giáo Phụ: phạm vi công cộng</p>
         </div>
         <div className={styles.footerCols}>
           <div className={styles.footerCol}>

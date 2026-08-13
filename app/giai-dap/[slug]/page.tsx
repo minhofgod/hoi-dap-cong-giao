@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronLeft } from 'lucide-react';
+import { SiteHeader } from '@/components/SiteHeader';
 import { getAllQuestions, getQuestionBySlug, type GiaiDapQuestion } from '@/lib/giaiDap';
 import { ScriptureRef } from '@/components/ScriptureRef';
 import { ScriptureBody } from '@/components/ScriptureBody';
@@ -39,14 +39,27 @@ function Refs({ ccc, scripture }: { ccc: number[]; scripture: string[] }) {
   );
 }
 
-function MobileBar() {
+function PrevNext({ prev, next }: { prev?: GiaiDapQuestion; next?: GiaiDapQuestion }) {
+  if (!prev && !next) return null;
   return (
-    <header className={styles.mobileHeader}>
-      <Link href="/giai-dap" className={styles.iconButton} aria-label="Quay lại">
-        <ChevronLeft size={20} color="var(--accent-deep)" />
-      </Link>
-      <span className={styles.mobileBrand}>Hỏi Đáp Công Giáo</span>
-    </header>
+    <nav className={styles.navRow}>
+      {prev ? (
+        <Link href={`/giai-dap/${prev.slug}`} className={styles.navPrev}>
+          <span className={styles.navLabel}>← Câu trước</span>
+          <span className={styles.navQ}>{prev.questionVi}</span>
+        </Link>
+      ) : (
+        <span />
+      )}
+      {next ? (
+        <Link href={`/giai-dap/${next.slug}`} className={styles.navNext}>
+          <span className={styles.navLabel}>Câu sau →</span>
+          <span className={styles.navQ}>{next.questionVi}</span>
+        </Link>
+      ) : (
+        <span />
+      )}
+    </nav>
   );
 }
 
@@ -62,103 +75,124 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
   const related = load(question.related);
   const parent = question.partOf ? getQuestionBySlug(question.partOf) : undefined;
 
+  // Prev/next across all questions (vi-alphabetical order from getAllQuestions).
+  const all = getAllQuestions();
+  const idx = all.findIndex((q) => q.slug === slug);
+  const prev = idx > 0 ? all[idx - 1] : undefined;
+  const next = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : undefined;
+
   // Main/anchor question → assemble the whole article with a side nav.
   if (parts.length > 0) {
     return (
-      <div className={styles.page}>
-        <MobileBar />
-        <div className={styles.articleLayout}>
-          <article className={styles.articleBody}>
-            <div className={styles.chipRow}>
-              <span className={styles.categoryChip}>{question.category}</span>
-              {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
-            </div>
-            <h1 className={styles.question}>{question.questionVi}</h1>
+      <>
+        <SiteHeader />
+        <div className={styles.page}>
+          <div className={styles.articleLayout}>
+            <article className={styles.articleBody}>
+              <Link href="/giai-dap" className={styles.backLink}>
+                ‹ Tất cả câu hỏi
+              </Link>
+              <div className={styles.chipRow}>
+                <span className={styles.categoryChip}>{question.category}</span>
+                {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
+              </div>
+              <h1 className={styles.question}>{question.questionVi}</h1>
 
-            <section id="tong-quan" className={styles.section}>
-              <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />
-              <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
-            </section>
-
-            {parts.map((p) => (
-              <section key={p.slug} id={p.slug} className={styles.section}>
-                <h2 className={styles.sectionHeading}>{p.questionVi}</h2>
-                <ScriptureBody className={styles.answer} {...enrichBody(p.bodyHtml)} />
-                <Refs ccc={p.refsCcc} scripture={p.refsScripture} />
+              <section id="tong-quan" className={styles.section}>
+                <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />
+                <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
               </section>
-            ))}
 
-            {related.length > 0 && (
-              <>
-                <div className={styles.hairline} />
-                <div className={styles.eyebrow}>CÂU HỎI LIÊN QUAN</div>
-                <ul className={styles.relatedList}>
-                  {related.map((r) => (
-                    <li key={r.slug} className={styles.relatedRow}>
-                      <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
-          </article>
-
-          <aside className={styles.toc}>
-            <div className={styles.tocLabel}>Trong bài này</div>
-            <nav className={styles.tocNav}>
-              <a href="#tong-quan" className={styles.tocLink}>
-                Tổng quan
-              </a>
               {parts.map((p) => (
-                <a key={p.slug} href={`#${p.slug}`} className={styles.tocLink}>
-                  {p.questionVi}
-                </a>
+                <section key={p.slug} id={p.slug} className={styles.section}>
+                  <h2 className={styles.sectionHeading}>{p.questionVi}</h2>
+                  <ScriptureBody className={styles.answer} {...enrichBody(p.bodyHtml)} />
+                  <Refs ccc={p.refsCcc} scripture={p.refsScripture} />
+                </section>
               ))}
-            </nav>
-          </aside>
+
+              {related.length > 0 && (
+                <>
+                  <div className={styles.hairline} />
+                  <div className={styles.eyebrow}>CÂU HỎI LIÊN QUAN</div>
+                  <ul className={styles.relatedList}>
+                    {related.map((r) => (
+                      <li key={r.slug} className={styles.relatedRow}>
+                        <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              <PrevNext prev={prev} next={next} />
+            </article>
+
+            <aside className={styles.toc}>
+              <div className={styles.tocLabel}>Trong bài này</div>
+              <nav className={styles.tocNav}>
+                <a href="#tong-quan" className={styles.tocLink}>
+                  Tổng quan
+                </a>
+                {parts.map((p) => (
+                  <a key={p.slug} href={`#${p.slug}`} className={styles.tocLink}>
+                    {p.questionVi}
+                  </a>
+                ))}
+              </nav>
+            </aside>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 
   // Single question (including a sub-question that belongs to an article).
   return (
-    <div className={styles.page}>
-      <MobileBar />
-      <div className={styles.layout}>
-        {parent && (
-          <Link href={`/giai-dap/${parent.slug}`} className={styles.partOf}>
-            ‹ Thuộc loạt bài: {parent.questionVi}
-          </Link>
-        )}
-        <div className={styles.chipRow}>
-          <span className={styles.categoryChip}>{question.category}</span>
-          {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
-        </div>
-        <h1 className={styles.question}>{question.questionVi}</h1>
-        <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />
-
-        {(question.refsCcc.length > 0 || question.refsScripture.length > 0) && (
-          <div className={styles.refsSection}>
-            <div className={styles.eyebrow}>THAM CHIẾU</div>
-            <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
+    <>
+      <SiteHeader />
+      <div className={styles.page}>
+        <div className={styles.layout}>
+          {parent ? (
+            <Link href={`/giai-dap/${parent.slug}`} className={styles.backLink}>
+              ‹ Thuộc loạt bài: {parent.questionVi}
+            </Link>
+          ) : (
+            <Link href="/giai-dap" className={styles.backLink}>
+              ‹ Tất cả câu hỏi
+            </Link>
+          )}
+          <div className={styles.chipRow}>
+            <span className={styles.categoryChip}>{question.category}</span>
+            {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
           </div>
-        )}
+          <h1 className={styles.question}>{question.questionVi}</h1>
+          <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />
 
-        {related.length > 0 && (
-          <>
-            <div className={styles.hairline} />
-            <div className={styles.eyebrow}>CÂU HỎI LIÊN QUAN</div>
-            <ul className={styles.relatedList}>
-              {related.map((r) => (
-                <li key={r.slug} className={styles.relatedRow}>
-                  <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
+          {(question.refsCcc.length > 0 || question.refsScripture.length > 0) && (
+            <div className={styles.refsSection}>
+              <div className={styles.eyebrow}>THAM CHIẾU</div>
+              <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
+            </div>
+          )}
+
+          {related.length > 0 && (
+            <>
+              <div className={styles.hairline} />
+              <div className={styles.eyebrow}>CÂU HỎI LIÊN QUAN</div>
+              <ul className={styles.relatedList}>
+                {related.map((r) => (
+                  <li key={r.slug} className={styles.relatedRow}>
+                    <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+
+          <PrevNext prev={prev} next={next} />
+        </div>
       </div>
-    </div>
+    </>
   );
 }

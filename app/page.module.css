@@ -349,11 +349,22 @@ a.card:hover {
 }
 
 .footerName {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 12px;
+}
+.footerMark {
+  display: block;
+  flex-shrink: 0;
+  color: #a29a91;
+}
+.footerName span {
   font-family: var(--font-serif);
   font-weight: 600;
-  font-size: 17px;
-  color: var(--text-heading);
-  margin-bottom: 12px;
+  font-size: 15px;
+  letter-spacing: -0.015em;
+  color: var(--text-muted);
 }
 
 .footerCredit {

@@ -1,7 +1,13 @@
 .wrap {
-  max-width: var(--measure-prose);
+  max-width: 860px;
   margin: 0 auto;
-  padding: 48px var(--mobile-gutter) 80px;
+  padding: 48px var(--page-gutter) 80px;
+}
+@media (max-width: 900px) {
+  .wrap {
+    padding-left: var(--mobile-gutter);
+    padding-right: var(--mobile-gutter);
+  }
 }
 
 .header {
@@ -184,4 +190,114 @@
   font-size: 13.5px;
   color: var(--text-quiet);
   line-height: 1.6;
+}
+
+/* --- Topic cards (index) — one card per topic, mirroring the Catechism grid --- */
+.section {
+  margin-bottom: 34px;
+}
+.sectionLabel {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 14px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  color: var(--text);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.card:hover {
+  text-decoration: none;
+  border-color: var(--sage);
+  background: #FBF6EE;
+}
+.banner {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  background: #efe7db;
+}
+.bannerImg {
+  object-fit: cover;
+  object-position: 50% 22%;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  padding: 20px 22px 22px;
+}
+.cardName {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.22;
+  color: var(--text-heading);
+}
+.cardDesc {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-quiet);
+  flex: 1;
+}
+.cardCount {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--sage-deep);
+  margin-top: 2px;
+}
+
+/* --- Matching individual questions (shown while searching) --- */
+.results {
+  display: flex;
+  flex-direction: column;
+}
+.resultRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 15px 4px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+.resultRow:hover {
+  text-decoration: none;
+  background: #FBF6EE;
+}
+.resultQuestion {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 15.5px;
+  line-height: 1.4;
+  color: var(--text-heading);
+}
+.resultTopic {
+  flex-shrink: 0;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--sage-deep);
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -23,6 +23,20 @@ Sections (`app/`):
 
 ---
 
+## Deployment
+
+- **GitHub:** https://github.com/minhofgod/hoi-dap-cong-giao (owner `minhofgod`, branch `main`).
+- **Vercel:** connected via the GitHub integration (Vercel dashboard → Add New → Import repo), same
+  pattern as the Visual Rosary site. **Every push to `main` auto-deploys** — no CLI needed. Vercel
+  auto-detects Next.js; no `vercel.json` required.
+- **To ship a change:** `git add -A && git commit && git push origin main` → Vercel builds + deploys automatically.
+- **Env vars:** none required. Leave `NEXT_PUBLIC_SCRIPTURE_POPOVER` **unset** to keep the Scripture
+  popover off (copyrighted CGKPV text). `content/bible.json` is gitignored; `lib/bibleRefs.ts` degrades
+  to inert chips when it's absent, so the production build is safe without it.
+- Initial commit `c481fad`; git identity `minhofgod <minh.c.tran1992@gmail.com>` (repo-local).
+
+---
+
 ## Current status
 
 ### Giáo Phụ (Church Fathers) — active

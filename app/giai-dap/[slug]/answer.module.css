@@ -110,16 +110,60 @@
   border-left-color: var(--accent);
 }
 
-.partOf {
+.partOf,
+.backLink {
   display: inline-block;
   font-size: 13px;
   font-weight: 500;
   color: var(--accent-deep);
   margin-bottom: 18px;
 }
-.partOf:hover {
+.partOf:hover,
+.backLink:hover {
   text-decoration: none;
   color: var(--accent);
+}
+
+.navRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: var(--measure-prose);
+  margin-top: 44px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.navPrev,
+.navNext {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 47%;
+  color: var(--text);
+}
+.navNext {
+  text-align: right;
+  margin-left: auto;
+}
+.navPrev:hover,
+.navNext:hover {
+  text-decoration: none;
+}
+.navLabel {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--accent-deep);
+}
+.navQ {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--text-heading);
+}
+.navPrev:hover .navQ,
+.navNext:hover .navQ {
+  color: var(--accent-deep);
 }
 
 .chipRow {

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#241F1B" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- frame -->
+  <rect x="8" y="8" width="704" height="544" rx="16" fill="#FBF8F3" stroke="#EDE4D6"/>
+
+  <!-- eyebrow + question -->
+  <text x="44" y="58" font-size="13" font-weight="600" letter-spacing="2" fill="#8A837C">GIẢI ĐÁP · BÍ TÍCH</text>
+  <text x="44" y="100" font-family="'Times New Roman', Georgia, serif" font-size="28" font-weight="600" fill="#241F1B">Vì sao phải xưng tội với linh mục?</text>
+
+  <!-- answer paragraph -->
+  <g font-family="'Times New Roman', Georgia, serif" font-size="19" fill="#3A342E">
+    <text x="44" y="152">Chính Chúa Giê-su đã trao quyền tha tội cho các Tông</text>
+    <text x="44" y="185">Đồ</text>
+    <text x="181" y="185">), rồi trao lại cho những người kế vị các ngài.</text>
+    <text x="79" y="185" fill="#3A342E">(</text>
+  </g>
+
+  <!-- clicked reference (open state) -->
+  <rect x="90" y="168" width="86" height="24" rx="5" fill="#DCE4CB"/>
+  <text x="98" y="185" font-family="'Times New Roman', Georgia, serif" font-size="18" fill="#3F4C29">Ga 20,23</text>
+  <line x1="98" y1="189" x2="169" y2="189" stroke="#56663B" stroke-width="1"/>
+
+  <!-- cursor pointer indicating a click -->
+  <g transform="translate(182,186)">
+    <path d="M0 0 L0 20 L5.5 15 L9 22 L12 20.5 L8.5 14 L15 14 Z" fill="#241F1B" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M18 2 A9 9 0 0 1 24 8" fill="none" stroke="#7A8A5E" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M22 -2 A13 13 0 0 1 30 8" fill="none" stroke="#7A8A5E" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- popover caret -->
+  <path d="M154 212 L163 202 L172 212" fill="#FFFFFF" stroke="#EDE4D6" stroke-width="1"/>
+  <!-- popover card -->
+  <rect x="44" y="212" width="384" height="176" rx="14" fill="#FFFFFF" stroke="#EDE4D6" filter="url(#cardShadow)"/>
+  <!-- re-draw caret over shadow seam -->
+  <path d="M155 212 L163 203.5 L171 212 Z" fill="#FFFFFF"/>
+  <path d="M154 212 L163 202 L172 212" fill="none" stroke="#EDE4D6" stroke-width="1"/>
+
+  <!-- label row -->
+  <text x="64" y="244" font-size="12" font-weight="600" letter-spacing="1.2" fill="#56663B">GIOAN 20,23<tspan fill="#A29A91"> · CGKPV</tspan></text>
+  <text x="408" y="245" font-size="13" fill="#8A837C" text-anchor="end">✕</text>
+
+  <!-- verse text -->
+  <g font-family="'Times New Roman', Georgia, serif" font-size="16.5" fill="#241F1B">
+    <text x="64" y="278"><tspan font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#7A8A5E" baseline-shift="super">23 </tspan>Anh em tha tội cho ai, thì người ấy được</text>
+    <text x="64" y="304">tha; anh em cầm giữ ai, thì người ấy bị cầm giữ.</text>
+  </g>
+
+  <!-- divider + footer -->
+  <line x1="64" y1="340" x2="408" y2="340" stroke="#F2EAE0" stroke-width="1"/>
+  <text x="64" y="366" font-size="12.5" font-weight="500" fill="#56663B">Xem thêm ngữ cảnh</text>
+  <text x="408" y="366" font-size="11" fill="#A29A91" text-anchor="end">Ga 20,19–23</text>
+
+  <!-- annotation to the right of the popover -->
+  <path d="M428 296 L456 296" fill="none" stroke="#B4ABA1" stroke-width="1.2"/>
+  <circle cx="456" cy="296" r="2.5" fill="#7A8A5E"/>
+  <g font-size="13" fill="#56663B">
+    <text x="466" y="290">Toàn văn câu Kinh Thánh</text>
+    <text x="466" y="309">(bản dịch CGKPV) hiện ra</text>
+    <text x="466" y="328">ngay khi người đọc bấm.</text>
+  </g>
+
+  <!-- caption -->
+  <line x1="44" y1="452" x2="676" y2="452" stroke="#EDE4D6" stroke-width="1"/>
+  <g font-size="14.5" fill="#5C554E">
+    <text x="44" y="486">Minh hoạ tính năng: người đọc <tspan font-weight="600" fill="#3A342E">bấm vào một câu được trích dẫn</tspan> để xem</text>
+    <text x="44" y="510">toàn văn câu — không phải rời khỏi bài viết. Trọn bộ Kinh Thánh không được đăng tải.</text>
+  </g>
+</svg>
