@@ -1,0 +1,219 @@
+{
+  "no": 12,
+  "slug": "pachomius",
+  "era": "ante-nicene",
+  "name": {
+    "vi": "Pacômiô Cả",
+    "en": "Pachomius"
+  },
+  "role": {
+    "vi": "Viện phụ, người sáng lập các đan viện; suốt đời vẫn là giáo dân",
+    "en": "Abbot and founder of monasteries; remained a layman his entire life"
+  },
+  "dates": {
+    "display": "c. 292 — 348",
+    "born": 292,
+    "died": 348
+  },
+  "quote": {
+    "vi": "Chúng ta phải phục vụ lẫn nhau, theo giới răn của Chúa: 'Người ta cứ dấu này mà nhận biết các con là môn đệ Thầy, là các con yêu thương nhau.'",
+    "en": "It is right that we should serve one another, according to the Lord's commandment: 'By this shall all know that you are my disciples, if you have love for one another.'",
+    "source": {
+      "vi": "Theo truyền thống đan tu Pacômiô, phản ánh Gioan 13,35",
+      "en": "Attributed within the Pachomian monastic tradition, reflecting John 13:35"
+    }
+  },
+  "life": [
+    {
+      "vi": "Trở lại đạo sau khi trải nghiệm lòng bác ái của các Kitô hữu khi bị bắt lính. Có thời gian là môn đệ của ẩn sĩ Palamon trước khi lập cộng đoàn riêng khoảng năm 320.",
+      "en": "Converted after experiencing Christian charity as a conscripted soldier. Briefly a disciple of the hermit Palamon before founding his own community c. 320 AD."
+    },
+    {
+      "vi": "Chuyển đổi đời sống đan tu từ các ẩn sĩ sống rải rác sang đời sống cộng đoàn có tổ chức (cộng tu). Đến khi qua đời, đã lập mười một đan viện với hơn 7.000 đan sĩ và nữ tu.",
+      "en": "Transformed monasticism from scattered hermits into organized, structured communal (cenobitic) life. By his death, founded eleven monasteries with over 7,000 monks and nuns combined."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 292",
+        "en": "c. 292 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "năm 348",
+        "en": "348 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Tabennisi, Thượng Ai Cập (Thêbaiđê)",
+        "en": "Tabennisi, Upper Egypt (the Thebaid)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "9 tháng 5",
+        "en": "May 9"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "1 tác phẩm",
+        "en": "1 work"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Tu Luật Pacômiô",
+        "en": "The Pachomian Rule"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Pacômiô sinh khoảng năm 292 trong một gia đình ngoại giáo tại vùng Thebaid, và theo truyền thống được lưu giữ trong các bản Đời Sống tiếng Coptic Bohairic và Hy Lạp, ngài bị bắt lính vào quân đội La Mã khi còn trẻ trong các cuộc nội chiến đầu thập niên 310. Trong khi các tân binh bị giam giữ tại Thebes chờ vận chuyển, những Kitô hữu địa phương hằng ngày đến mang thức ăn và sự an ủi cho các tân binh đang sợ hãi, đói khát mà không mong đợi điều gì đáp lại; Pacômiô, xúc động trước một lòng bác ái mà ngài chưa từng gặp trước đó, đã thề rằng nếu sống sót, ngài sẽ dành cả đời mình để phục vụ theo cách tương tự. Ngài được phóng thích mà không phải tham chiến, tìm học giáo lý Kitô giáo, và chịu phép Rửa. Sau vài năm làm môn đệ của một ẩn sĩ đã thành danh tên là Palamon, mà lối khổ hạnh cá nhân khắc nghiệt của ông Pacômiô dần cảm thấy không phải là câu trả lời trọn vẹn, ngài lên đường vào khoảng năm 323 để thành lập cộng đoàn riêng của mình tại Tabennisi bên bờ sông Nile — không phải một am ẩn tu khác, mà là một mái nhà chung nơi các tân tòng chưa từng có kinh nghiệm khổ hạnh đơn độc có thể được đào tạo cùng nhau dưới một luật chung.",
+        "en": "Pachomius was born around 292 to a pagan family in the Thebaid and, according to the tradition preserved in the Bohairic and Greek Lives, was conscripted as a young man into the Roman army during the civil wars of the early 310s. While the conscripts were held under guard at Thebes awaiting transport, local Christians came daily to bring the frightened, hungry recruits food and comfort without expecting anything in return; Pachomius, struck by a charity he had never previously encountered, vowed that if he survived he would spend his life in the same kind of service. He was released without seeing combat, sought out Christian instruction, and was baptized. After several years as the disciple of an established hermit named Palamon, whose harsh individual asceticism Pachomius came to feel was not the whole answer, he set out around 323 to found his own community at Tabennisi on the Nile — not another hermitage, but a common household where converts with no experience of solitary asceticism could be formed together under a shared rule."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Bộ sưu tập Luật Pacômiô bằng tiếng Ethiopic, được dịch sang tiếng Anh vào thế kỷ XIX, lưu giữ một cảnh tượng huyền thoại đáng chú ý về việc một thiên thần đọc Luật cho Pacômiô chép lại, trong đó chính Pacômiô phản đối rằng lịch cầu nguyện vừa được trao cho ngài quá nhẹ: \"Những lời cầu nguyện này ít quá,\" ngài nói. Câu trả lời của thiên thần được lưu giữ như sau: \"Ta đã truyền điều này để cả những người yếu đuối cũng có thể đạt tới và thi hành quy định này mà không phải khổ sở; nhưng những người hoàn thiện thì không mong muốn cho mình một quy định, vì chính họ, trong nơi cư ngụ của mình, đã phó thác trọn cả đời sống cho Chúa, Đấng thấy điều đó; nhưng những điều này Ta đã quy định cho những ai không có người hướng dẫn, để họ ít nhất có thể chu toàn như một việc phụng sự điều đã được truyền dạy cho họ.\" Học thuật hiện đại, kể cả bộ Coptic Encyclopedia, coi trình thuật \"Luật của Thiên Thần\" này là một sự tô điểm huyền thoại về sau chứ không phải lịch sử — được phân biệt rõ ràng với Luật Pacômiô đích thực (Praecepta), vốn còn lưu lại chủ yếu qua bản dịch Latinh của Giêrônimô và phản ánh việc lập luật dần dần, thực tiễn của chính Pacômiô, chứ không phải một lần đọc chép từ thiên thần.",
+        "en": "The Ethiopic collection of Pachomian Rules, translated into English in the nineteenth century, preserves a striking legendary scene of an angel dictating the Rule to Pachomius, in which Pachomius himself objects that the schedule of prayers he has just been given is too light: \"Few are these prayers,\" he says. The angel's reply is preserved as follows: \"This I have commanded that also the weak may be able to attain and to do this ordinance without grieving themselves; but the perfect do not desire for themselves an ordinance, for they themselves in their dwellings have resigned their whole lives to the Lord who sees it; but these things I have ordained for those who have no advisers, so that they may be able at least to do as a service what has been commanded them.\" Modern scholarship, including the Coptic Encyclopedia, treats this \"Rule of the Angel\" narrative as a later legendary embellishment rather than history — explicitly distinguished from the authentic Pachomian Rule (the Praecepta), which survives mainly through Jerome's Latin translation and reflects gradual, practical lawgiving by Pachomius himself rather than a single angelic dictation."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Đổi mới thực sự của Pacômiô không hẳn là một hệ thống giáo lý mà là một kiến trúc của đời sống chung: những ngôi nhà từ hai mươi đến bốn mươi đan sĩ được nhóm theo nghề (thợ dệt, thợ may, đầu bếp, người làm vườn) dưới một người quản gia, các ngôi nhà này lại được tập hợp thành một đan viện lớn hơn dưới một viện phụ, và toàn bộ liên minh các đan viện đặt dưới chính Pacômiô với tư cách bề trên tổng quyền — một chuỗi thẩm quyền cho phép một cộng đoàn hàng ngàn người vận hành một cách mạch lạc. Các điều khoản của Luật quản lý những chi tiết nhỏ nhặt nhất của đời sống chung (im lặng trong bữa ăn, giờ giấc cầu nguyện cố định, một kho chung mà mỗi đan sĩ lấy y phục từ đó thay vì sở hữu riêng bất cứ thứ gì) không phải vì bản thân những điều đó, mà vì Pacômiô cho rằng việc quy phục ý chí trong những việc nhỏ nhặt hằng ngày tự nó chính là kỷ luật khổ hạnh — có thể lập luận rằng đây là một kỷ luật khó khăn hơn cả những kỳ công đơn độc ngoạn mục của các ẩn sĩ như Antôn. Lao động chân tay là bắt buộc và sản phẩm được bán để nuôi các đan viện và bố thí cho người nghèo bên ngoài các bức tường của họ, gắn kết đời sống khổ hạnh cộng đoàn với nền kinh tế rộng lớn hơn thay vì tách biệt hoàn toàn các đan sĩ khỏi nó.",
+        "en": "Pachomius's real innovation was less a body of doctrine than an architecture of shared life: houses of twenty to forty monks grouped by trade (weavers, tailors, cooks, gardeners) under a housemaster, the houses themselves gathered into a larger monastery under an abbot, with the whole federation of monasteries under Pachomius himself as general superior — a chain of authority that let a community of thousands function coherently. The Rule's provisions govern the smallest details of common life (silence during meals, fixed hours of prayer, a common store from which each monk drew clothing rather than owning anything privately) not for their own sake but because Pachomius held that submitting the will in small daily matters was itself the ascetic discipline, arguably a harder one than the dramatic solitary feats of hermits like Anthony. Manual labor was mandatory and its produce sold to support the monasteries and give alms to the poor beyond their walls, tying cenobitic asceticism to the wider economy rather than removing monks from it entirely."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Pacômiô không phải là một vị tử đạo; ngài qua đời năm 346 hoặc 348 (các nguồn không thống nhất) trong một trận dịch bệnh, có lẽ là bệnh sốt phát ban, lan tràn dọc sông Nile và qua các đan viện của ngài trong những năm cuối đời, ngay sau một nạn đói trước đó đã làm cạn kiệt nguồn lực của các cộng đoàn. Ngài ở lại với các đan sĩ của mình suốt trận dịch thay vì rút lui đến nơi an toàn, và đến khi chính ngài qua đời, ngài đã mất đi một số lượng đáng kể đan sĩ, trong đó có cả những người ngài đang đào tạo để lãnh đạo trong tương lai. Cách thức cái chết đơn giản của ngài — một đợt bùng phát dịch bệnh cộng đồng bình thường chứ không phải một hành động bách hại — phù hợp với đặc tính của toàn bộ dự án của ngài: sự thánh thiện của Pacômiô được thể hiện qua việc sáng lập, tổ chức, và hiện diện bên trong một đời sống chung bình dị, chứ không qua sự đối đầu cá nhân ngoạn mục, và điều này vẫn đúng ngay cả trong cách ngài qua đời.",
+        "en": "Pachomius was not a martyr; he died in 346 or 348 (sources vary) during an epidemic, probably typhus, that swept along the Nile and through his monasteries in the final years of his life, following close on an earlier famine that had already strained the communities' resources. He remained with his monks throughout the outbreak rather than withdrawing to safety, and by the time of his own death he had already lost a significant number of them, including some he had been grooming for future leadership. The straightforward manner of his death — an ordinary communal disease outbreak rather than any act of persecution — fits the character of his whole project: Pachomius's holiness was expressed through founding, organizing, and staying present within an ordinary shared life, not through dramatic individual confrontation, and this held true even in how he died."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Luật Pacômiô đến được với thế giới Kitô giáo rộng lớn hơn chủ yếu qua Giêrônimô, người vào năm 404, theo yêu cầu của các đan sĩ nói tiếng Latinh tại Bêlem không đọc được bản gốc tiếng Coptic, đã dịch nó sang tiếng Latinh — bản dịch mà qua đó phần lớn truyền thống đan tu phương Tây sẽ biết đến nó, bởi vì các bản gốc Coptic và Hy Lạp ngày nay chỉ còn tồn tại từng mảnh. Basiliô Cả đã đến thăm các cộng đoàn Pacômiô tại Ai Cập và đưa các nguyên tắc đời sống cộng đoàn vào các bộ Luật đan tu có ảnh hưởng của chính ngài ở phương Đông; một thế hệ sau, Gioan Cassianô, người cũng đã trải qua nhiều năm giữa các đan sĩ Ai Cập, đã mang toàn bộ khối kinh nghiệm này về phương Tây đến xứ Gaul trong các tác phẩm Institutes và Conferences của mình, và chính phần lớn qua các trước tác của Cassianô mà Biển Đức thành Nursia, khi viết Luật riêng của mình vào khoảng năm 530, đã thừa hưởng mô hình Pacômiô về đời sống chung, sở hữu chung, và vâng phục bề trên — mô hình vẫn còn định hình đời sống tu trì Công giáo cho đến ngày nay.",
+        "en": "The Pachomian Rule reached the wider Christian world chiefly through Jerome, who in 404, at the request of Latin-speaking monks at Bethlehem who could not read the Coptic original, translated it into Latin — the version through which most of the Western monastic tradition would come to know it, since the Coptic and Greek originals survive today only fragmentarily. Basil the Great visited Pachomian communities in Egypt and incorporated cenobitic principles into his own influential monastic Rules in the East; a generation later John Cassian, who had likewise spent years among Egyptian monks, carried this whole body of experience west to Gaul in his Institutes and Conferences, and it was substantially through Cassian's writings that Benedict of Nursia, writing his own Rule around 530, inherited the Pachomian model of common life, common ownership, and obedience to a superior that still structures Catholic religious life today."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Armand Veilleux (dịch), Pachomian Koinonia, 3 tập (bộ Cistercian Studies 45–47, Cistercian Publications, 1980–1982) — bản dịch tiếng Anh hiện đại chuẩn mực về các Đời Sống, Luật và Huấn Thị. Philip Rousseau, Pachomius: The Making of a Community in Fourth-Century Egypt (University of California Press, 1985; tái bản 1999 kèm lời tựa mới) — công trình nghiên cứu lịch sử hiện đại chuẩn mực. Bản dịch năm 1885 của G.H. Schodde về các Luật tiếng Ethiopic có thể tìm thấy miễn phí trong các bản tái bản thuộc phạm vi công cộng.",
+        "en": "Armand Veilleux, trans., Pachomian Koinonia, 3 vols. (Cistercian Studies 45–47, Cistercian Publications, 1980–1982) — the standard modern English translation of the Lives, Rules, and Instructions. Philip Rousseau, Pachomius: The Making of a Community in Fourth-Century Egypt (University of California Press, 1985; reissued 1999 with a new preface) — the standard modern historical study. G.H. Schodde's 1885 translation of the Ethiopic Rules is freely available in older public-domain reprints."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Pacômiô dạy gì về Cội nguồn cổ xưa của các dòng tu Công giáo?",
+        "en": "What does Pachomius teach about Ancient roots of Catholic religious orders?"
+      },
+      "a": {
+        "vi": "Mọi cộng đoàn tu trì sau này với lời khấn, tu luật chung và sự vâng phục một bề trên đều có gốc rễ cơ cấu từ sáng kiến ban đầu của Pacômiô.",
+        "en": "Every later religious community with vows, a common rule, and obedience to a superior traces its structural DNA back to Pachomius's original innovation."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Pacômiô dạy gì về Vâng phục như một kỷ luật thiêng liêng?",
+        "en": "What does Pachomius teach about Obedience as spiritual discipline?"
+      },
+      "a": {
+        "vi": "Việc Pacômiô nhấn mạnh việc quy phục ý riêng vào một tu luật chung phản ánh nguyên tắc rộng hơn của Công giáo rằng sự thánh thiện đích thực bao gồm cả việc quy phục thẩm quyền hợp pháp.",
+        "en": "Pachomius's insistence on submitting individual will to a common rule reflects a broader Catholic principle that authentic holiness includes submission to legitimate authority."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/pachomius.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

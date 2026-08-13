@@ -1,0 +1,255 @@
+{
+  "no": 27,
+  "slug": "gregory-the-great",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Thánh Giáo hoàng Grêgôriô Cả",
+    "en": "Gregory the Great"
+  },
+  "role": {
+    "vi": "Giáo hoàng",
+    "en": "Pope"
+  },
+  "dates": {
+    "display": "c. 540 — 604",
+    "born": 540,
+    "died": 604
+  },
+  "quote": {
+    "vi": "Tôi tớ các tôi tớ Thiên Chúa (Servus servorum Dei).",
+    "en": "Servant of the servants of God (Servus servorum Dei).",
+    "source": {
+      "vi": "Danh hiệu Grêgôriô chọn cho ngôi vị Giáo hoàng, vẫn được các Giáo hoàng dùng đến ngày nay",
+      "en": "Papal title Gregory adopted, still used by popes today"
+    }
+  },
+  "life": [
+    {
+      "vi": "Xuất thân từ một gia đình quý tộc giàu có tại Rôma; từng làm Tổng trấn Rôma trước khi trở thành đan sĩ. Từng là khâm sứ Tòa Thánh tại Constantinôpôli.",
+      "en": "From a wealthy senatorial Roman family; served as Prefect of Rome before becoming a monk. Served as papal legate to Constantinople."
+    },
+    {
+      "vi": "Sai Thánh Augustinô thành Canterbury đi truyền giáo cho người Anglo-Saxon tại Anh (597), khai sinh Giáo hội tại Anh. Được ghi công tổ chức và hệ thống hóa nghi thức thánh ca mang tên ngài — Thánh ca Grêgôriô. Trong thời kỳ quân Lombard xâm lấn, ngài còn đóng vai trò như người quản trị dân sự của Rôma.",
+      "en": "Sent St. Augustine of Canterbury to evangelize the Anglo-Saxons in England (597 AD). Credited with organizing Gregorian chant. Acted as Rome's civil administrator during Lombard invasion."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 540",
+        "en": "c. 540 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "12 tháng 3, năm 604",
+        "en": "March 12, 604 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Rôma",
+        "en": "Rome"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "3 tháng 9 (lịch Rôma hiện hành)",
+        "en": "September 3 (current Roman calendar)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Giáo hoàng",
+        "en": "Pope"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "3 tác phẩm",
+        "en": "3 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Tu Luật Mục Vụ",
+        "en": "Pastoral Rule"
+      },
+      "latin": "Regula Pastoralis",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Moralia in Job",
+        "en": "Moralia in Job"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Các Đối Thoại",
+        "en": "Dialogues"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Grêgôriô không tìm kiếm ngôi vị giáo hoàng — theo chính lời kể của ngài, ngài đã cố gắng tránh né, sau khi đã từ bỏ sự nghiệp làm quan chức dân sự cấp cao (Tổng trấn Rôma) để trở thành đan sĩ, và ngài được bầu năm 590 vào một tình thế gần như sụp đổ hoàn toàn. Quân đội Lombard đang tàn phá nước Ý gần như không bị ngăn cản, vì viên tổng trấn Byzantine đóng tại Ravenna xa xôi không thể cung cấp sự bảo vệ thực sự nào cho Rôma; một trận lụt tàn khốc của sông Tiber vừa xảy ra thì tiếp theo là một trận dịch nghiêm trọng đến mức giết chết chính vị tiền nhiệm của Grêgôriô, Đức Giáo Hoàng Pêlagiô II. Không có bộ máy hành chính đế quốc nào hoạt động để giúp đỡ, Grêgôriô thấy mình phải đóng vai trò thống đốc dân sự của Rôma bên cạnh vai trò giám mục — tự mình đàm phán các hiệp định đình chiến với các chỉ huy quân Lombard, tổ chức nguồn cung cấp lương thực cho thành phố, và chi trả cho việc phòng thủ — một vai trò bị hoàn cảnh ép buộc chứ không phải điều ngài chủ động tìm kiếm, nhưng lại tạo ra một tiền lệ lâu dài cho quyền lực thế tục sau này của ngôi giáo hoàng thời trung cổ tại miền trung nước Ý.",
+        "en": "Gregory did not seek the papacy — by his own account he tried to avoid it, having already given up a career as a high civil official (Prefect of Rome) to become a monk, and he was elected in 590 into conditions close to collapse. Lombard armies were ravaging Italy largely unchecked, since the Byzantine exarch based in distant Ravenna could offer little real protection to Rome; a catastrophic flood of the Tiber had just been followed by a plague so severe it killed Gregory's own predecessor, Pope Pelagius II. With no functioning imperial administration able to help, Gregory found himself acting as Rome's civil governor in addition to its bishop — negotiating truces with Lombard commanders on his own authority, organizing the city's grain supply, and paying for its defense — a role forced on him by circumstance rather than one he sought, but one that set a lasting precedent for the medieval papacy's later temporal power in central Italy."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Từ phần mở đầu của Quy Tắc Mục Vụ, về lý do vì sao việc lãnh đạo tâm linh đòi hỏi sự chuẩn bị nhiều hơn người ta thường nghĩ: \"Không ai dám dạy một nghệ thuật khi chưa học nó trước với sự chuyên tâm suy xét. Vậy thì thật liều lĩnh biết bao khi kẻ vô kinh nghiệm lại nhận lấy quyền bính mục vụ, vì việc cai quản các linh hồn là nghệ thuật của mọi nghệ thuật!\" (Quy Tắc Mục Vụ, quyển I, chương 1, theo bản dịch Barmby) Và về cuộc tranh chấp danh hiệu đã sản sinh ra chữ ký giáo hoàng nổi tiếng của ngài: khi Gioan Ăn Chay, Thượng phụ Constantinốp, nhận danh hiệu \"Thượng Phụ Đại Kết,\" Grêgôriô đã phản đối mạnh mẽ, viết rằng \"bất cứ ai tự xưng mình là linh mục phổ quát, hay mong muốn được gọi như vậy, trong sự kiêu ngạo của mình là kẻ tiền phong của Kẻ Địch Kitô\" — và cố ý bắt đầu ký các bức thư của chính mình là \"tôi tớ của các tôi tớ Thiên Chúa\" để đối lập trực tiếp, một danh hiệu mà mọi vị giáo hoàng đã dùng kể từ đó.",
+        "en": "From the opening of the Pastoral Rule, on why spiritual leadership requires more preparation than people give it: \"No one presumes to teach an art till he has first, with intent meditation, learned it. What rashness is it, then, for the unskilful to assume pastoral authority, since the government of souls is the art of arts!\" (Pastoral Rule, Book I, ch. 1, Barmby translation) And on the title dispute that produced his famous papal signature: when John the Faster, Patriarch of Constantinople, adopted the title \"Ecumenical Patriarch,\" Gregory objected sharply, writing that \"whosoever calls himself universal priest, or desires to be called so, is in his elation the precursor of Antichrist\" — and pointedly began signing his own letters \"servant of the servants of God\" in direct contrast, a title every pope has used since."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Grêgôriô không phải trước hết là một nhà thần học hệ thống hay tư biện theo khuôn mẫu của các Giáo Phụ Cappađôkia hay Augustinô; đóng góp thần học lâu bền của ngài mang tính thực hành và mục vụ. Quy Tắc Mục Vụ xem việc chăm sóc các linh hồn là một nghệ thuật thực sự đòi hỏi kỹ năng thực sự — chẩn đoán các tình trạng tâm linh khác nhau giống như một thầy thuốc chẩn đoán các bệnh tật thể xác khác nhau, và điều chỉnh việc giảng dạy cũng như sửa lỗi cho phù hợp với những cám dỗ và hoàn cảnh riêng của từng người, thay vì áp dụng một cách tiếp cận duy nhất cho tất cả mọi người. Moralia in Job, tác phẩm lớn khác của ngài, đọc những đau khổ của ông Gióp theo nghĩa bóng như một suy niệm về sự quan phòng, lòng kiên nhẫn và đời sống luân lý, kết hợp việc chú giải Kinh Thánh sát nghĩa với suy niệm tâm linh sâu sắc theo một phong cách đã trở thành khuôn mẫu cho việc giải thích Kinh Thánh trong đời sống đan tu suốt nhiều thế kỷ. Xuyên suốt cả hai tác phẩm là một xác tín nhất quán rằng quyền bính trong Giáo Hội là một gánh nặng phục vụ chứ không phải một đặc quyền — cùng một xác tín đã sản sinh ra danh hiệu \"tôi tớ của các tôi tớ Thiên Chúa.\"",
+        "en": "Gregory was not primarily a systematic or speculative theologian in the mold of the Cappadocians or Augustine; his enduring theological contribution is practical and pastoral. The Pastoral Rule treats the care of souls as a genuine art requiring real skill — diagnosing different spiritual conditions the way a physician diagnoses different bodily ailments, and adjusting preaching and correction to fit each person's particular temptations and station in life, rather than applying one approach to everyone. The Moralia in Job, his other major work, reads Job's sufferings allegorically as a meditation on providence, patience, and the moral life, blending close scriptural commentary with sustained spiritual reflection in a style that became a model for centuries of monastic scriptural interpretation. Running through both works is a consistent conviction that authority in the Church is a burden of service rather than a privilege — the same conviction that produced \"servant of the servants of God.\""
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Grêgôriô qua đời một cách tự nhiên vào ngày 12 tháng 3 năm 604, sau nhiều năm sức khỏe yếu kém kinh niên — ngài mắc bệnh gút và các chứng rối loạn tiêu hóa nghiêm trọng đến mức thường xuyên phải nằm liệt giường và phải đọc cho người khác chép lại phần lớn thư từ và tác phẩm của mình trong những năm cuối đời thay vì tự viết, một điều đáng kinh ngạc xét đến khối lượng đồ sộ các bức thư và tác phẩm ngài đã sản sinh trong điều kiện đó. Lễ kính của ngài sau này được dời trong lịch Rôma hiện đại sang ngày 3 tháng 9, ngày ngài được tấn phong giám mục năm 590, để không còn rơi vào Mùa Chay nữa. Cái chết của ngài không phải là kết quả của cuộc bách hại; nếu có gì, thì đó là gánh nặng của việc cùng lúc điều hành các công việc dân sự và tâm linh của Rôma suốt nhiều năm chiến tranh, đói kém và dịch bệnh, điều nói chung được cho là đã bào mòn một cơ thể vốn đã yếu ớt.",
+        "en": "Gregory died naturally on March 12, 604, after years of chronic poor health — he suffered from gout and digestive ailments severe enough that he was often confined to bed and dictated much of his later correspondence and writing rather than composing it himself, remarkable given the sheer volume of letters and works he produced under those conditions. His feast was later moved in the modern Roman calendar to September 3, the date of his episcopal consecration in 590, so that it would no longer fall within Lent. His death was not the result of persecution; if anything, the strain of governing Rome's civil and spiritual affairs simultaneously through years of war, famine, and plague is generally understood to have worn down an already frail constitution."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Ba điều khác nhau mang tên Grêgôriô thường được người đời gán cho ngài với những mức độ chính xác khác nhau, và điều đáng làm là tách bạch chúng ra. Bình ca Grêgôriô là điều gây tranh cãi nhiều nhất: truyền thuyết cho rằng Grêgôriô đích thân nhận được các giai điệu qua ơn linh hứng thần linh, một con chim bồ câu thì thầm vào tai ngài, nhưng ngành âm nhạc học hiện đại đặt sự hình thành thực sự của kho tàng bình ca cốt lõi vào thời gian sau đó, chủ yếu tại xứ Gaul (Francia) thế kỷ VIII dưới triều đại Carolingian, với một số học giả cho rằng truyền thống này nên được gắn với vị giáo hoàng muộn hơn nhiều, Grêgôriô II. Cuộc cải cách lịch Grêgôriô (1582) và \"Cuộc Cải Cách Grêgôriô\" thế kỷ XI về độc thân giáo sĩ và việc tấn phong giáo sĩ bởi giáo dân hoàn toàn không liên quan gì đến Grêgôriô I — đó lần lượt là Đức Giáo Hoàng Grêgôriô XIII và Đức Giáo Hoàng Grêgôriô VII, một nguồn nhầm lẫn phổ biến do có quá nhiều giáo hoàng cùng mang tên này. Điều thực sự là thành tựu riêng của Grêgôriô I là sứ vụ truyền giáo năm 597 đến nước Anh: chính ngài đã tuyển chọn và cử Augustinô thành Canterbury cùng khoảng 40 đan sĩ, thư từ qua lại với họ suốt những khó khăn của sứ vụ, và được công nhận đúng đắn là người sáng lập Giáo Hội Anh — câu chuyện sau này của Bêđa rằng Grêgôriô đã xúc động khi thấy những nô lệ Anh tóc vàng tại một khu chợ Rôma và chơi chữ rằng họ trông giống \"Thiên thần\" (Angeli) hơn là \"người Angle\" (Angli) là, theo chính cách trình bày của Bêđa, một truyền thống truyền khẩu được lưu lại chứ không phải một tường thuật của nhân chứng, nên nó cần được xem như một truyền thuyết đáng yêu minh họa nguồn gốc của sứ vụ hơn là lịch sử đã được xác minh.",
+        "en": "Three different things bearing Gregory's name are often popularly credited to him with varying degrees of accuracy, and it's worth separating them. Gregorian chant is the most contested: legend holds that Gregory personally received the melodies by divine inspiration, a dove whispering them in his ear, but modern musicology places the core chant repertoire's actual formation later, largely in 8th-century Francia under Carolingian rule, with some scholars arguing the tradition is better associated with the much later Pope Gregory II. The Gregorian calendar reform (1582) and the 11th-century \"Gregorian Reform\" of clerical celibacy and lay investiture are unrelated to Gregory I entirely — those are Pope Gregory XIII and Pope Gregory VII respectively, a common source of confusion given how many popes have shared the name. What is solidly Gregory I's own achievement is the 597 mission to England: he personally selected and dispatched Augustine of Canterbury and roughly 40 monks, corresponded with them throughout the mission's difficulties, and is properly credited as the founder of the English Church — Bede's later story that Gregory was moved to send the mission after seeing fair-haired English slaves in a Roman market and punning that they looked less like \"Angles\" than \"Angels\" is, by Bede's own framing, an oral tradition handed down rather than an eyewitness account, so it should be treated as beloved legend illustrating the mission's origin rather than verified history."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Henry Davis (dịch), St. Gregory the Great: Pastoral Care (bộ Ancient Christian Writers số 11, Newman Press, 1950). Carole Straw, Gregory the Great: Perfection in Imperfection (University of California Press, 1988) — một công trình nghiên cứu học thuật hiện đại quan trọng về thần học của ngài. Toàn văn Moralia in Job và Pastoral Rule (bản dịch Barmby) có sẵn miễn phí tại newadvent.org.",
+        "en": "Henry Davis, trans., St. Gregory the Great: Pastoral Care (Ancient Christian Writers No. 11, Newman Press, 1950). Carole Straw, Gregory the Great: Perfection in Imperfection (University of California Press, 1988) — a major modern scholarly study of his theology. The full Moralia in Job and Pastoral Rule (Barmby translation) are freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Thánh dạy gì về Ngôi vị Giáo hoàng là phục vụ, không phải thống trị?",
+        "en": "What does Gregory teach about Papacy as service, not domination?"
+      },
+      "a": {
+        "vi": "Danh hiệu \"Tôi Tớ Các Tôi Tớ Thiên Chúa\" mà ngài chọn, vẫn được mọi Giáo hoàng dùng đến ngày nay, cho thấy ngôi vị Giáo hoàng về căn bản là sự phục vụ khiêm nhường.",
+        "en": "His title 'Servant of the Servants of God,' still used by every pope today, shows the papacy is meant fundamentally as humble service."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Thánh dạy gì về Vai trò của Giáo hoàng trong việc truyền giáo?",
+        "en": "What does Gregory teach about Papacy's role in evangelization?"
+      },
+      "a": {
+        "vi": "Sứ mạng gửi đến nước Anh năm 597 là một trường hợp lịch sử được ghi chép rõ ràng về việc chính Giáo hoàng đích thân chỉ đạo công cuộc truyền giáo quy mô lớn.",
+        "en": "The mission to England in 597 AD is a documented case of the papacy personally directing large-scale missionary evangelization."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "",
+    "medium": {
+      "vi": "",
+      "en": ""
+    },
+    "source": "",
+    "license": "",
+    "available": false
+  }
+}

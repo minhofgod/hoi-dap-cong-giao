@@ -1,0 +1,832 @@
+{
+  "schema_version": "1.0",
+  "source": "Bộ nội dung Các Giáo Phụ Hội Thánh (bản dịch tiếng Việt)",
+  "language": "vi",
+  "mirrors": "church_fathers_dataset.json (English, same field structure)",
+  "notes": "Bản dịch tiếng Việt của bộ 30 Giáo Phụ, dùng cùng cấu trúc trường dữ liệu với bản tiếng Anh để dễ tích hợp vào ứng dụng song ngữ. Tên các thánh và thuật ngữ thần học được đối chiếu với các nguồn Công giáo Việt Nam (tgpsaigon.net, hdgmvietnam.com, simonhoadalat.com, giaophanvinhlong.net, và các trang giáo phận khác). Các trích dẫn (key_quote) là bản dịch làm việc phục vụ mục đích học hỏi, không phải bản dịch phụng vụ chính thức — nên đối chiếu lại nếu dùng cho mục đích xuất bản chính thức.",
+  "figures": [
+    {
+      "id": 1,
+      "full_name": "Clêmentê thành Rôma (Thánh Giáo hoàng Clêmentê I)",
+      "nickname": "Không có biệt danh phổ biến",
+      "birth_year": "khoảng năm 35",
+      "death_year": "khoảng năm 99",
+      "era": "Giáo phụ Tông truyền",
+      "region_see": "Rôma",
+      "role": "Giám mục Rôma",
+      "pope": { "is_pope": true, "detail": "Thánh Giáo hoàng Clêmentê I, theo truyền thống là Giáo hoàng thứ 4 (sau Thánh Phêrô, Thánh Linô và Thánh Anaclêtô)" },
+      "lineage": "Truyền thống và các nguồn cổ (kể cả Thánh Irênê) cho rằng ngài đã từng gặp và nghe chính các Thánh Tông Đồ Phêrô và Phaolô giảng dạy. Một số truyền thống sau này đồng nhất ngài với người tên Clêmentê được Thánh Phaolô nhắc đến trong thư gửi tín hữu Philípphê 4,3, dù điều này còn được tranh luận.",
+      "known_for": "Tác giả bức thư Kitô giáo cổ nhất ngoài Tân Ước có tác giả xác định rõ ràng — Thư gửi tín hữu Côrintô (khoảng năm 96). Với tư cách Giám mục Rôma, ngài đã can thiệp vào một cuộc tranh chấp tại giáo đoàn Côrintô ở xa, kêu gọi lập lại trật tự — một minh chứng sớm cho thấy Rôma thực thi thẩm quyền vượt ra ngoài giáo hội địa phương của mình.",
+      "key_writings": [
+        { "title": "Thư gửi tín hữu Côrintô (Clêmentê thư I)", "description": "Tác phẩm chắc chắn là của ngài còn lưu lại, kêu gọi khiêm nhường và vâng phục những người lãnh đạo hợp pháp, đặt nền cho giáo lý về việc kế vị các Thánh Tông Đồ." }
+      ],
+      "key_quote": { "text": "Các Tông Đồ của chúng ta cũng biết, nhờ Chúa Giêsu Kitô, rằng sẽ có tranh chấp về chức vụ giám mục. Vì lý do đó... các ngài đã thêm một điều khoản: nếu những vị ấy an nghỉ, thì những người khác đã được thử thách sẽ kế vị chức vụ của họ.", "citation": "Thư Clêmentê I, đoạn 44" },
+      "controversy_councils": "Không liên quan đến công đồng nào (trước thời các công đồng đại kết); bức thư của ngài giải quyết một cuộc ly khai nội bộ tại Côrintô, không phải một lạc giáo.",
+      "martyrdom": "Theo truyền thống, ngài chịu tử đạo dưới thời hoàng đế Trajanô, bị đày đến Krym và bị ném xuống biển với một chiếc neo buộc vào cổ — dù chi tiết này ít chắc chắn về mặt lịch sử hơn là việc ngài là tác giả bức thư.",
+      "feast_day": "23 tháng 11",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Quyền tối thượng của Rôma / quyền Giáo hoàng", "text": "Bức thư của Clêmentê là một trong những bằng chứng sớm nhất cho thấy Giáo hội Rôma thực thi thẩm quyền vượt ra ngoài thành phố của mình, chỉ một thế hệ sau các Tông Đồ — điều này thường được trích dẫn khi biện hộ cho tính cổ xưa của quyền tối thượng Rôma, dù đây vẫn là điểm còn tranh luận, nên trình bày như bằng chứng gợi mở chứ không phải bằng chứng tuyệt đối." },
+        { "topic": "Kế vị các Thánh Tông Đồ", "text": "Clêmentê minh nhiên đặt nền cho việc lãnh đạo Giáo hội hợp pháp trên một chuỗi liên tục không gián đoạn từ Đức Kitô, đến các Tông Đồ, đến các giám mục được các Tông Đồ đặt lên, rồi đến những người kế vị họ — một căn cứ Kinh Thánh/văn bản rất sớm cho giáo lý kế vị tông truyền." }
+      ]
+    },
+    {
+      "id": 2,
+      "full_name": "Inhaxiô thành Antiôkia (Thánh Inhaxiô)",
+      "nickname": "Thêôphôrô (\"Người mang Chúa\")",
+      "birth_year": "khoảng năm 35",
+      "death_year": "khoảng năm 108 (một số nguồn cho đến năm 140; còn tranh luận)",
+      "era": "Giáo phụ Tông truyền",
+      "region_see": "Antiôkia, Syria",
+      "role": "Giám mục thứ 3 của Antiôkia",
+      "pope": { "is_pope": false, "detail": "Giám mục Antiôkia, không phải Rôma" },
+      "lineage": "Theo truyền thống, ngài là môn đệ của Thánh Gioan Tông Đồ, và có thể được chính Thánh Phêrô đặt làm giám mục. Ngài viết lá thư cuối cùng gửi Thánh Pôlycarpô thành Smyrna, một môn đệ khác của Thánh Gioan.",
+      "known_for": "Chứng nhân sớm nhất và rõ ràng nhất về cơ cấu Giáo hội một giám mục duy nhất (chế độ giám mục). Lần đầu tiên dùng thuật ngữ \"Giáo Hội Công Giáo\" trong Thư gửi tín hữu Smyrna. Viết cả bảy bức thư còn lưu lại trong khi bị áp giải đến Rôma để chịu xử tử.",
+      "key_writings": [
+        { "title": "Bảy Bức Thư", "description": "Viết khoảng năm 107 trên đường chịu tử đạo: gửi tín hữu Êphêsô, Magiêsia, Trallê, Rôma, Philađenphia, Smyrna, và gửi Thánh Pôlycarpô — bàn về sự hiệp nhất Giáo hội, Bí tích Thánh Thể, và cảnh báo về thuyết Ảo thân (Docetism)." }
+      ],
+      "key_quote": { "text": "Ở đâu có Đức Kitô Giêsu, ở đó có Hội Thánh Công Giáo.", "citation": "Thư gửi tín hữu Smyrna, 8:2" },
+      "controversy_councils": "Mạnh mẽ chống lại thuyết Ảo thân (Docetism) — niềm tin cho rằng Đức Kitô chỉ có vẻ ngoài như một thân xác và chỉ dường như đau khổ, chứ không thực sự là người.",
+      "martyrdom": "Bị kết án dưới thời hoàng đế Trajanô, bị áp giải từ Antiôkia đến Rôma, và bị thú dữ giết tại đấu trường, khoảng năm 108 (một số nguồn cho đến năm 140).",
+      "feast_day": "17 tháng 10 (Tây phương); 20 tháng 12 (Đông phương); 1 tháng 2 (lịch Rôma cũ, trước 1969)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Thẩm quyền giám mục", "text": "\"Nơi nào giám mục hiện diện, ở đó có cộng đoàn; cũng như nơi nào có Đức Kitô, ở đó có Hội Thánh Công Giáo\" (Thư gửi tín hữu Smyrna, 8:2). Viết chỉ một thế hệ sau các Tông Đồ, đây là bằng chứng mạnh mẽ cho thấy cơ cấu một giám mục duy nhất không phải là phát minh về sau mà đã hiện diện từ những ngày đầu sau thời các Tông Đồ." },
+        { "topic": "Sự Hiện Diện Thực Sự trong Bí tích Thánh Thể", "text": "Inhaxiô phê phán những người theo thuyết Ảo thân vì họ \"không tham dự Bí tích Thánh Thể... vì họ không tuyên xưng Bí tích Thánh Thể là thịt của Đấng Cứu Độ chúng ta, Chúa Giêsu Kitô\" (Thư gửi Smyrna, 7:1). Đây là một trong những chứng từ sớm nhất và rõ ràng nhất về niềm tin vào sự hiện diện thực sự, chứ không chỉ mang tính biểu tượng, của Đức Kitô trong Bí tích Thánh Thể." }
+      ]
+    },
+    {
+      "id": 3,
+      "full_name": "Pôlycarpô thành Smyrna (Thánh Pôlycarpô)",
+      "nickname": "\"Mối liên kết sống động cuối cùng với các Tông Đồ\" (cách gọi hiện đại, không phải danh xưng cổ)",
+      "birth_year": "khoảng năm 69",
+      "death_year": "khoảng năm 155/156",
+      "era": "Giáo phụ Tông truyền",
+      "region_see": "Smyrna, Tiểu Á (nay là Izmir, Thổ Nhĩ Kỳ)",
+      "role": "Giám mục Smyrna",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Môn đệ trực tiếp của Thánh Gioan Tông Đồ, và là bạn/người trao đổi thư từ với Thánh Inhaxiô thành Antiôkia. Chính ngài đã đào tạo Thánh Irênê thành Lyon từ khi còn nhỏ.",
+      "known_for": "Nhân vật cầu nối giữa thời các Tông Đồ và thời các Giáo Phụ. Đi Rôma khoảng năm 154 để bàn với Đức Giáo hoàng Anicêtô về ngày mừng lễ Phục Sinh; hai vị không đồng ý về cách thực hành nhưng vẫn duy trì hiệp thông. Trình thuật về cuộc tử đạo của ngài là chứng từ đáng tin cậy đầy đủ đầu tiên về cái chết của một Kitô hữu vì đức tin.",
+      "key_writings": [
+        { "title": "Thư gửi tín hữu Philípphê", "description": "Tác phẩm chắc chắn duy nhất của ngài còn lưu lại." },
+        { "title": "Cuộc Tử Đạo của Thánh Pôlycarpô", "description": "Do chính giáo đoàn của ngài viết ngay sau khi ngài qua đời; chứng từ mắt thấy sớm nhất còn lưu lại về một cuộc tử đạo Kitô giáo." }
+      ],
+      "key_quote": { "text": "Tám mươi sáu năm tôi đã phụng sự Người, và Người chưa từng làm điều gì sai trái với tôi. Làm sao tôi có thể phạm thượng đến Vua đã cứu độ tôi?", "citation": "Cuộc Tử Đạo của Thánh Pôlycarpô, đoạn 9" },
+      "controversy_councils": "Liên quan đến tranh luận sớm về ngày mừng lễ Phục Sinh (tranh cãi Quartodeciman) — được giải quyết bằng sự tôn trọng lẫn nhau chứ không qua một công đồng chính thức trong đời ngài.",
+      "martyrdom": "Bị thiêu sống tại đấu trường Smyrna sau khi từ chối chối bỏ Đức Kitô; theo trình thuật, ngọn lửa không thiêu cháy ngài nên ngài bị đâm chết. Theo truyền thống, ngày 23 tháng 2, năm 155.",
+      "feast_day": "23 tháng 2",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Thánh Truyền và kế vị tông truyền", "text": "Chuỗi liên kết từ Thánh Gioan, đến Pôlycarpô, đến Irênê là một trong những luận cứ lịch sử mạnh mẽ nhất cho tính đáng tin cậy của Thánh Truyền — Irênê đã viện dẫn chính ký ức cá nhân của mình về Pôlycarpô để bác bỏ những tuyên bố của phái Ngộ Đạo về các giáo lý bí mật khác." },
+        { "topic": "Việc tôn kính hài cốt các thánh", "text": "Sau khi ngài chịu tử đạo, giáo dân Smyrna đã thu thập hài cốt của ngài, mô tả đó là \"quý hơn đá quý và có giá trị hơn vàng\" (Cuộc Tử Đạo của Thánh Pôlycarpô, 18) — một trong những chứng cứ sớm nhất về việc Kitô hữu tôn kính hài cốt của một vị tử đạo." }
+      ]
+    },
+    {
+      "id": 4,
+      "full_name": "Justinô Tử Đạo (Justinô Triết Gia)",
+      "nickname": "Nhà Triết Học",
+      "birth_year": "khoảng năm 100",
+      "death_year": "khoảng năm 165",
+      "era": "Giáo phụ tiền Nixêa",
+      "region_see": "Sinh tại Flavia Neapolis (nay là Nablus); giảng dạy và chịu tử đạo tại Rôma",
+      "role": "Nhà thần học và hộ giáo giáo dân; chưa từng được thụ phong",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Người ngoại giáo trở lại, từng theo học triết học phái Khắc kỷ, Tiêu dao, Pythagore và Platon trước khi trở lại đạo Kitô. Giảng dạy tại Rôma; trong số học trò có Tatianô.",
+      "known_for": "Nhà trí thức Kitô giáo lớn đầu tiên đối thoại với triết học ngoại giáo bằng chính ngôn ngữ của nó, đề xuất rằng có một \"hạt giống của Ngôi Lời\" hiện diện ngay cả nơi các triết gia tiền Kitô giáo. Tác phẩm Hộ Giáo Thứ Nhất của ngài chứa mô tả chi tiết sớm nhất từ bên ngoài về phụng vụ Chúa Nhật của Kitô hữu, gồm cả Bí tích Thánh Thể.",
+      "key_writings": [
+        { "title": "Hộ Giáo Thứ Nhất", "description": "Gửi hoàng đế Antôninô Piô, bênh vực đạo đức Kitô giáo và mô tả chi tiết việc thờ phượng của Kitô hữu." },
+        { "title": "Hộ Giáo Thứ Hai", "description": "Bản bênh vực bổ sung ngắn hơn." },
+        { "title": "Đối Thoại với Tryphô", "description": "Cuộc đối thoại dài lập luận rằng Đức Kitô ứng nghiệm các lời tiên tri Cựu Ước." }
+      ],
+      "key_quote": { "text": "Vì chúng tôi không nhận lấy những thứ này như bánh thường và thức uống thường; nhưng... của ăn đã được thánh hiến bằng lời cầu nguyện... chính là thịt và máu của Chúa Giêsu, Đấng đã nhập thể.", "citation": "Hộ Giáo Thứ Nhất, đoạn 66" },
+      "controversy_councils": "Tranh luận với triết gia phái Khuyển Nho Crescens tại Rôma; mối thù này theo truyền thống được cho là nguyên nhân dẫn đến việc ngài bị bắt và xử tử.",
+      "martyrdom": "Bị chém đầu tại Rôma, khoảng năm 165, cùng với sáu bạn đồng hành, dưới thời quan trấn thủ Rusticus, sau khi từ chối tế lễ các thần Rôma.",
+      "feast_day": "1 tháng 6",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Bí tích Thánh Thể như hy lễ và Sự Hiện Diện Thực Sự", "text": "Hộ Giáo Thứ Nhất (66-67) của Justinô cho ta mô tả chi tiết sớm nhất từ bên ngoài về Thánh Lễ, mô tả bánh và rượu trở thành \"thịt và máu của Chúa Giêsu, Đấng đã nhập thể\" — chứng từ rất sớm về Sự Hiện Diện Thực Sự, viết cho một hoàng đế ngoại giáo thù nghịch nên không có động cơ để phóng đại." },
+        { "topic": "Đức tin và lý trí", "text": "Lập luận của Justinô rằng triết học tiền Kitô giáo chứa đựng chân lý thật sự, dù chỉ một phần, là mẫu mực cho việc đối thoại chân thành với triết học thế tục và các hệ tư tưởng khác." }
+      ]
+    },
+    {
+      "id": 5,
+      "full_name": "Irênê thành Lyon",
+      "nickname": "\"Tiến Sĩ Hiệp Nhất\" (danh hiệu được ban năm 2022)",
+      "birth_year": "khoảng năm 130",
+      "death_year": "khoảng năm 202",
+      "era": "Giáo phụ tiền Nixêa",
+      "region_see": "Lyon (Lugdunum), xứ Gaul — nay là Lyon, Pháp",
+      "role": "Giám mục thứ 2 của Lyon",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Khi còn nhỏ tại Smyrna, ngài đã được chính Thánh Pôlycarpô dạy dỗ, mà Thánh Pôlycarpô lại được chính Thánh Gioan Tông Đồ dạy dỗ.",
+      "known_for": "Người bác bỏ thuyết Ngộ Đạo có hệ thống và triệt để nhất trong số các Giáo Phụ tiên khởi. Phát triển thần học \"quy tụ lại mọi sự trong Đức Kitô\" (recapitulation). Liệt kê danh sách kế vị các giám mục Rôma từ Thánh Phêrô đến thời ngài để chống lại các tuyên bố của phái Ngộ Đạo về giáo lý bí mật.",
+      "key_writings": [
+        { "title": "Chống Lạc Giáo (Adversus Haereses)", "description": "Bộ năm cuốn bác bỏ thuyết Ngộ Đạo, đặc biệt là phái Valentinô." },
+        { "title": "Trình Bày Giáo Lý Các Tông Đồ", "description": "Bản tóm lược giáo lý Kitô giáo ngắn gọn hơn." }
+      ],
+      "key_quote": { "text": "Mọi người, ở khắp mọi Giáo hội, đều có thể chiêm ngắm truyền thống của các Tông Đồ đã được biểu lộ ra khắp thế giới; và chúng ta có thể liệt kê những ai đã được các Tông Đồ đặt làm giám mục trong các Giáo hội, và chứng minh sự kế vị của những vị này cho đến thời chúng ta.", "citation": "Chống Lạc Giáo, III.3.1" },
+      "controversy_councils": "Viết nhiều để chống thuyết Ngộ Đạo và thuyết Marcion. Làm trung gian hòa giải trong tranh cãi sớm về ngày lễ Phục Sinh giữa Rôma và các Giáo hội Đông phương.",
+      "martyrdom": "Truyền thống cho rằng ngài chịu tử đạo, dù bằng chứng lịch sử mỏng hơn so với trường hợp Inhaxiô hay Pôlycarpô; hoàn cảnh cái chết của ngài (khoảng năm 202) không được ghi chép rõ ràng.",
+      "feast_day": "28 tháng 6 (Tây phương); 23 tháng 8 (Đông phương)",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Quyền tối thượng của Rôma", "text": "\"Cần thiết là mọi Giáo hội phải đồng thuận với Giáo hội này [Rôma], vì thẩm quyền vượt trội của Giáo hội ấy\" (Chống Lạc Giáo, III.3.2) — một trong những văn bản sớm nhất và rõ ràng nhất khẳng định thẩm quyền đặc biệt, có tính ràng buộc, thuộc về Giáo hội Rôma." },
+        { "topic": "Kế vị tông truyền chống lại việc giải thích riêng tư", "text": "Lập luận cốt lõi của Irênê chống lại phái Ngộ Đạo là: giáo huấn tông truyền đích thực mang tính công khai và có thể truy nguyên qua một chuỗi giám mục liên tục, có tên tuổi rõ ràng — chứ không phải bí mật hay được sáng tạo lại." }
+      ]
+    },
+    {
+      "id": 6,
+      "full_name": "Clêmentê thành Alexandria (Titus Flavius Clemens)",
+      "nickname": "Không có biệt danh phổ biến",
+      "birth_year": "khoảng năm 150",
+      "death_year": "khoảng năm 215",
+      "era": "Giáo phụ tiền Nixêa",
+      "region_see": "Alexandria, Ai Cập (có thể sinh tại Athens)",
+      "role": "Linh mục và trưởng Trường Giáo lý Alexandria",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Học trò của Pantênô, người sáng lập Trường Giáo lý Alexandria, mà ngài đã kế vị làm trưởng trường khoảng năm 180. Học trò nổi tiếng nhất của ngài là Ôrigênê.",
+      "known_for": "Nhà tư tưởng Kitô giáo đầu tiên nỗ lực tổng hợp triết học Hy Lạp với đức tin Kitô giáo cách có hệ thống. Giành lại từ \"gnosis\" (tri thức) cho sự khôn ngoan Kitô giáo chính thống. Chạy trốn khỏi Alexandria trong cuộc bách hại của hoàng đế Septimiô Sêvêrô năm 202.",
+      "key_writings": [
+        { "title": "Protrepticus (Lời Khuyên Gửi Người Hy Lạp)", "description": "Lời kêu gọi từ bỏ ngoại giáo để đến với Đức Kitô." },
+        { "title": "Paedagogus (Người Thầy)", "description": "Hướng dẫn luân lý thực hành cho các Kitô hữu mới." },
+        { "title": "Stromata (Tạp Lục)", "description": "Tác phẩm thần học sâu sắc hơn, bàn về triết học, đạo đức và Kinh Thánh." }
+      ],
+      "key_quote": { "text": "Triết học... là người thầy dẫn dắt tâm trí người Hy Lạp, cũng như Lề Luật dẫn dắt người Do Thái, đến với Đức Kitô.", "citation": "Stromata, I.5" },
+      "controversy_councils": "Không có phiên tòa lạc giáo trực tiếp nào, dù một số quan điểm mang tính suy đoán của ngài về sau bị xem xét kỹ lưỡng hơn.",
+      "martyrdom": "Không phải tử đạo — chạy trốn cuộc bách hại đến Cappadocia và qua đời tại đó vì lý do tự nhiên, khoảng năm 215.",
+      "feast_day": "Trước đây là 23 tháng 11 (Tây phương, không còn trong lịch Rôma hiện hành); 24 tháng 11 (Đông phương)",
+      "doctor_of_the_church": false,
+      "canonized": false,
+      "canonization_note": "Bị loại khỏi Sổ Tử Đạo Rôma dưới thời Đức Giáo hoàng Clêmentê VIII theo đề nghị của Hồng y Baronius, vì một số nghi vấn về giáo lý và thiếu một sự tôn kính cổ xưa rõ ràng. Được tôn kính trong Chính Thống giáo Đông phương; không có trong lịch các thánh hiện hành của Giáo hội Công giáo hoàn vũ.",
+      "apologetics_corner": [
+        { "topic": "Đức tin và lý trí", "text": "Mô hình của Clêmentê — dùng những gì tốt đẹp nhất của triết học thế tục làm cầu nối đến chân lý Kitô giáo — là tiền lệ nền tảng cho niềm xác tín sau này của truyền thống Công giáo rằng lý trí chân chính và đức tin chân chính không thể mâu thuẫn với nhau." }
+      ]
+    },
+    {
+      "id": 7,
+      "full_name": "Tertulianô (Quintus Septimius Florens Tertullianus)",
+      "nickname": "\"Cha đẻ của Kitô giáo Latinh\"",
+      "birth_year": "khoảng năm 155",
+      "death_year": "sau năm 220 (không rõ năm mất chính xác)",
+      "era": "Giáo phụ tiền Nixêa",
+      "region_see": "Carthage, Bắc Phi",
+      "role": "Theo truyền thống được coi là linh mục tại Carthage, dù một số học giả nghi ngờ điều này",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Được đào tạo làm luật sư và nhà hùng biện trước khi trở lại đạo khoảng năm 197. Khoảng năm 207, ngài rời khỏi Giáo hội chính thống để gia nhập phái Montanô.",
+      "known_for": "Gần như một mình tạo ra phần lớn từ vựng thần học Latinh mà Kitô giáo Tây phương sẽ sử dụng trong 1.500 năm sau đó, bao gồm các từ Trinitas (Ba Ngôi), persona (ngôi vị) và substantia (bản thể). Tác phẩm Apologeticus của ngài là một trong những bản bênh vực sắc bén nhất gửi các quan chức Rôma. Lưu ý quan trọng: vì cuối cùng đã rời khỏi Giáo hội để theo phái Montanô, Tertulianô chưa bao giờ được phong thánh, dù có ảnh hưởng to lớn và lâu dài.",
+      "key_writings": [
+        { "title": "Apologeticus", "description": "Bản bênh vực mang tính pháp lý gửi các quan chức Rôma." },
+        { "title": "Chống Praxeas", "description": "Trình bày có hệ thống đầu tiên bằng tiếng Latinh về Ba Ngôi." },
+        { "title": "Quy Định Chống Lạc Giáo (De Praescriptione Haereticorum)", "description": "Lập luận rằng những người lạc giáo không có quyền hợp pháp để giải thích Kinh Thánh." },
+        { "title": "Về Phép Rửa", "description": "Khảo luận Kitô giáo sớm nhất còn lưu lại chỉ bàn về một bí tích duy nhất." }
+      ],
+      "key_quote": { "text": "Máu các vị tử đạo là hạt giống của Giáo hội.", "citation": "Apologeticus, đoạn 50" },
+      "controversy_councils": "Rời khỏi Giáo hội chính thống để theo phái Montanô khoảng năm 207, một phần vì tin rằng Giáo hội đã trở nên quá lỏng lẻo về kỷ luật.",
+      "martyrdom": "Qua đời vì lý do tự nhiên, có lẽ tại Carthage; không rõ ngày tháng và hoàn cảnh chính xác.",
+      "feast_day": null,
+      "doctor_of_the_church": false,
+      "canonized": false,
+      "canonization_note": "Chưa bao giờ được phong thánh vì cuối cùng đã rời bỏ Giáo hội theo phái Montanô, dù có ảnh hưởng thần học to lớn và lâu dài.",
+      "apologetics_corner": [
+        { "topic": "Kinh Thánh thuộc về Giáo hội", "text": "Lập luận \"quy định pháp lý\" của Tertulianô — rằng những người lạc giáo không có quyền viện dẫn Kinh Thánh vì Kinh Thánh đã được giao phó và gìn giữ bởi Giáo hội tông truyền — là công cụ sắc bén, rất sớm chống lại quan điểm cho rằng ai cũng có quyền giải thích Kinh Thánh ngang nhau, tách rời khỏi thẩm quyền và Thánh Truyền của Giáo hội." },
+        { "topic": "Ngôn ngữ Ba Ngôi", "text": "Chính từ vựng mà các công đồng sau này dùng để định tín Ba Ngôi và Ngôi Vị Đức Kitô bắt nguồn trực tiếp từ thuật ngữ Latinh của Tertulianô." }
+      ]
+    },
+    {
+      "id": 8,
+      "full_name": "Hippôlytô thành Rôma",
+      "nickname": "\"Ngụy giáo hoàng đầu tiên\" (vị ngụy giáo hoàng duy nhất được tôn kính như một vị thánh)",
+      "birth_year": "khoảng năm 170",
+      "death_year": "khoảng năm 235",
+      "era": "Giáo phụ tiền Nixêa",
+      "region_see": "Rôma",
+      "role": "Linh mục/giám mục tại Rôma; tự lập làm giám mục đối lập (ngụy giáo hoàng) khoảng năm 217-235",
+      "pope": { "is_pope": "phức tạp", "detail": "Là ngụy giáo hoàng, không phải giáo hoàng hợp pháp — lãnh đạo một phe ly khai tại Rôma trước khi hòa giải với vị Giáo hoàng hợp pháp, Thánh Pontianô, khi cả hai cùng bị đày đến các mỏ đá ở Sardinia." },
+      "lineage": "Không có mối liên hệ thầy trò được xác nhận rõ ràng.",
+      "known_for": "Nhà thần học hàng đầu tại Rôma thời của ngài. Cáo buộc các Giáo hoàng Zêphyrinô và Callistô I là lỏng lẻo về giáo lý và dung túng thuyết Modal (phủ nhận Ba Ngôi Vị riêng biệt). Tác giả cuốn Truyền Thống Tông Đồ, mà lời nguyện Thánh Thể trong đó đã trực tiếp là nguồn cảm hứng cho Kinh Nguyện Thánh Thể II trong Sách Lễ Rôma hiện đại.",
+      "key_writings": [
+        { "title": "Truyền Thống Tông Đồ", "description": "Sách nghi thức mô tả phép rửa, nghi thức truyền chức và phụng vụ Thánh Thể tại Rôma đầu thế kỷ III." },
+        { "title": "Bác Bỏ Mọi Lạc Giáo (Philosophumena)", "description": "Khảo sát và bác bỏ các lạc giáo đương thời." },
+        { "title": "Chú Giải Sách Đanien", "description": "Bản chú giải Kinh Thánh Kitô giáo hoàn chỉnh sớm nhất còn lưu lại." }
+      ],
+      "key_quote": { "text": "Chúng con tạ ơn Chúa, lạy Thiên Chúa, qua Con yêu dấu của Chúa là Chúa Giêsu Kitô, Đấng mà trong thời sau hết Chúa đã sai đến với chúng con như Đấng Cứu Độ, Đấng Cứu Chuộc, và sứ giả của thánh ý Chúa.", "citation": "Truyền Thống Tông Đồ, lời nguyện Thánh Thể (nền tảng của Kinh Nguyện Thánh Thể II hiện nay)" },
+      "controversy_councils": "Lãnh đạo một cuộc ly khai tại Rôma suốt gần một thế hệ vì tranh chấp về kỷ luật Giáo hội và nghi ngờ thuyết Modal nơi các Giáo hoàng đương nhiệm.",
+      "martyrdom": "Qua đời tại các mỏ đá ở Sardinia, khoảng năm 235, trong cuộc bách hại của hoàng đế Maximinô Thraxô — đã hòa giải với Giáo hội ngay trước khi qua đời.",
+      "feast_day": "13 tháng 8 (chung với Thánh Giáo hoàng Pontianô); 30 tháng 1 (Đông phương)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Tính liên tục của phụng vụ", "text": "Lời nguyện Thánh Thể trong Truyền Thống Tông Đồ là tổ tiên trực tiếp của một lời nguyện mà người Công giáo nghe trong Thánh Lễ ngày nay (Kinh Nguyện Thánh Thể II) — bằng chứng cụ thể cho thấy Thánh Lễ hiện đại liên tục với việc thờ phượng Kitô giáo thế kỷ III." },
+        { "topic": "Ly khai và hòa giải", "text": "Câu chuyện của Hippôlytô — một nhà thần học uyên bác rơi vào ly khai nhưng đã hòa giải trước khi qua đời — là mẫu mực cho thấy cả tính nghiêm trọng thực sự của ly khai lẫn sự sẵn sàng luôn có của Giáo hội đón nhận sự hòa giải chân thành." }
+      ]
+    },
+    {
+      "id": 9,
+      "full_name": "Ôrigênê thành Alexandria (Origen Adamantiô)",
+      "nickname": "\"Adamantiô\" (\"người bằng thép\", chỉ sức làm việc bền bỉ)",
+      "birth_year": "khoảng năm 184",
+      "death_year": "khoảng năm 253",
+      "era": "Giáo phụ tiền Nixêa",
+      "region_see": "Alexandria, Ai Cập; sau đó Caesarea Maritima",
+      "role": "Giáo dân đứng đầu Trường Giáo lý Alexandria (kế vị Clêmentê); sau này được truyền chức linh mục tại Caesarea mà không có phép của giám mục mình",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Con của Lêônidê, người chịu tử đạo khoảng năm 202 khi Ôrigênê còn là thiếu niên. Học trò và người kế vị Clêmentê thành Alexandria làm trưởng Trường Giáo lý.",
+      "known_for": "Học giả Kinh Thánh có ảnh hưởng và năng suất nhất của Giáo hội sơ khai. Biên soạn bộ Hexapla. Viết Về Các Nguyên Lý Đầu Tiên, có thể là tác phẩm thần học Kitô giáo có hệ thống đầu tiên. Một số quan điểm suy đoán của ngài về sau bị kết án sau khi ngài qua đời (gọi là \"thuyết Ôrigênê\") tại Công đồng Constantinôpôli II năm 553.",
+      "key_writings": [
+        { "title": "Về Các Nguyên Lý Đầu Tiên (De Principiis)", "description": "Trình bày có hệ thống đầu tiên về giáo lý Kitô giáo." },
+        { "title": "Hexapla", "description": "Bản đối chiếu phê bình đồ sộ về Cựu Ước." },
+        { "title": "Chống Celsô (Contra Celsum)", "description": "Bản bác bỏ triết học chi tiết đối với nhà phê bình ngoại giáo Celsô." }
+      ],
+      "key_quote": { "text": "Kinh Thánh được viết bởi Thần Khí Thiên Chúa, và có một ý nghĩa... không chỉ là ý nghĩa hiển nhiên, mà còn một ý nghĩa khác ẩn giấu đối với phần đông độc giả.", "citation": "Về Các Nguyên Lý Đầu Tiên, Lời tựa" },
+      "controversy_councils": "Bị giám mục Đêmêtriô của mình rút phép thông công tại Alexandria vì việc truyền chức không phép và những lo ngại về giáo lý. Một số quan điểm suy đoán của ngài chính thức bị kết án là lạc giáo tại Công đồng Constantinôpôli II (553), ba thế kỷ sau khi ngài qua đời.",
+      "martyrdom": "Không trực tiếp chịu tử đạo, nhưng bị cầm tù và tra tấn nặng nề trong cuộc bách hại của hoàng đế Đêciô (khoảng năm 250); qua đời khoảng năm 253 vì những thương tích trong tù.",
+      "feast_day": null,
+      "doctor_of_the_church": false,
+      "canonized": false,
+      "canonization_note": "Chưa bao giờ được phong thánh do việc kết án sau khi qua đời đối với một số quan điểm thần học suy đoán, dù có ảnh hưởng vô cùng to lớn.",
+      "apologetics_corner": [
+        { "topic": "Đối thoại trí thức với những người phê phán", "text": "Chống Celsô là một trong những bản bênh vực Kitô giáo có chiều sâu triết học đáng kể nhất từng được viết để đối đầu với một nhà phê bình ngoại giáo tinh vi." },
+        { "topic": "Vai trò của Huấn Quyền", "text": "Ôrigênê là ví dụ nhắc nhở rằng ngay cả những nhà thần học lỗi lạc, nền tảng cũng có thể có những quan điểm về sau bị xem là sai lầm — minh họa vì sao Giáo hội cần các công đồng và một Huấn Quyền sống động để phân định chính thống với lạc giáo qua thời gian." }
+      ]
+    },
+    {
+      "id": 10,
+      "full_name": "Ciprianô thành Carthage (Thascius Caecilius Cyprianus)",
+      "nickname": "Không có biệt danh phổ biến",
+      "birth_year": "khoảng năm 200/210",
+      "death_year": "năm 258",
+      "era": "Giáo phụ tiền Nixêa",
+      "region_see": "Carthage, Bắc Phi",
+      "role": "Giám mục Carthage",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Nhà hùng biện giàu có trước khi trở lại đạo khoảng năm 246. Trao đổi thư từ và đôi khi bất đồng với Đức Giáo hoàng Stêphanô I.",
+      "known_for": "Hướng dẫn Carthage vượt qua cuộc bách hại của hoàng đế Đêciô (250-251) và một trận dịch trong vùng. Các văn bản của ngài về sự hiệp nhất Giáo hội, tập trung vào sự hiệp thông giữa các giám mục, vẫn là nền tảng cho giáo hội học Công giáo.",
+      "key_writings": [
+        { "title": "Về Sự Hiệp Nhất Giáo Hội Công Giáo (De Unitate Ecclesiae)", "description": "Lập luận rằng sự hiệp nhất được tìm thấy qua hiệp thông với tập thể các giám mục." },
+        { "title": "Về Những Người Sa Ngã (De Lapsis)", "description": "Bàn về cách đối xử với những Kitô hữu đã chối bỏ đức tin dưới áp lực bách hại nhưng muốn quay lại." }
+      ],
+      "key_quote": { "text": "Kẻ không còn Giáo hội làm Mẹ thì không thể còn Thiên Chúa làm Cha.", "citation": "Về Sự Hiệp Nhất Giáo Hội Công Giáo, đoạn 6" },
+      "controversy_councils": "Tranh cãi về những người sa ngã (Lapsi) — cách đối xử với những Kitô hữu đã tế lễ ngoại giáo dưới áp lực bách hại. Bất đồng thực sự và sâu sắc với Đức Giáo hoàng Stêphanô I về hiệu lực của phép rửa do người lạc giáo/ly khai cử hành — lập trường của Rôma cuối cùng đã thắng thế và trở thành giáo lý chính thức.",
+      "martyrdom": "Bị chém đầu ngày 14 tháng 9 năm 258, trong cuộc bách hại của hoàng đế Valêrianô.",
+      "feast_day": "16 tháng 9 (chung với Thánh Cornêliô)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Sự cần thiết của hiệp nhất Giáo hội hữu hình", "text": "Giáo huấn của Ciprianô rằng không thể có Thiên Chúa là Cha nếu không có Giáo hội là Mẹ là văn bản nền tảng của các Giáo Phụ cho nguyên tắc \"ngoài Giáo hội không có ơn cứu độ\" (extra Ecclesiam nulla salus)." },
+        { "topic": "Xử lý trung thực bất đồng với một Giáo hoàng", "text": "Tranh cãi về việc rửa tội lại với Đức Giáo hoàng Stêphanô I cho thấy một vị thánh giám mục có thể bất đồng sâu sắc với Rôma về một vấn đề cụ thể mà không có nghĩa là ly khai hay chối bỏ tính hợp pháp của quyền Giáo hoàng." }
+      ]
+    },
+    {
+      "id": 11,
+      "full_name": "Antôn Cả (Thánh Antôn Ai Cập)",
+      "nickname": "\"Cha của mọi đan sĩ\"",
+      "birth_year": "12 tháng 1, năm 251",
+      "death_year": "17 tháng 1, năm 356",
+      "era": "Giáo phụ đan tu/sa mạc",
+      "region_see": "Ai Cập — làng Côma gần sa mạc Thêbaiđê; sau đó núi Pispir và núi Colzim",
+      "role": "Đan sĩ và ẩn sĩ; chưa từng được thụ phong",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Không có thầy dạy chính thức. Bạn thân thiết của Thánh Athanasiô thành Alexandria, người đã viết tiểu sử về ngài.",
+      "known_for": "Được xem rộng rãi là người sáng lập đời sống đan tu Kitô giáo. Sống đến 105 tuổi. Rời sa mạc năm 338 để công khai ủng hộ Athanasiô chống lại thuyết Ariô.",
+      "key_writings": [
+        { "title": "Tiểu Sử Thánh Antôn (do Athanasiô viết)", "description": "Nguồn chính về cuộc đời ngài, không phải do chính ngài viết; là động lực trực tiếp cho việc lan rộng đời sống đan tu." },
+        { "title": "Các Thư", "description": "Một tuyển tập nhỏ được cho là của Antôn." }
+      ],
+      "key_quote": { "text": "Tôi thấy những cạm bẫy mà kẻ thù giăng ra khắp thế gian, và tôi than thở: 'Ai có thể thoát khỏi những cạm bẫy như thế?' Rồi tôi nghe một tiếng nói với tôi: 'Sự khiêm nhường.'", "citation": "Ngôn Sứ Các Giáo Phụ Sa Mạc (Apophthegmata Patrum)" },
+      "controversy_councils": "Không tham gia công đồng nào chính thức, nhưng đã rời sa mạc đặc biệt để công khai chống thuyết Ariô và ủng hộ Athanasiô.",
+      "martyrdom": "Qua đời bình an vì tuổi già ở tuổi 105.",
+      "feast_day": "17 tháng 1",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Tính hợp pháp của đời sống thánh hiến", "text": "Khi cuộc bách hại công khai phần lớn chấm dứt vào thế kỷ IV, Antôn đã tiên phong một hình thức mới của việc hiến dâng trọn vẹn cho Thiên Chúa — cội nguồn lịch sử trực tiếp của mọi hình thức đời sống thánh hiến Công giáo về sau." },
+        { "topic": "Tiếng nói giáo dân bảo vệ giáo lý", "text": "Antôn không phải là giám mục hay nhà thần học, nhưng sự ủng hộ công khai của ngài dành cho Athanasiô có trọng lượng thực sự trong cuộc chiến chống thuyết Ariô." }
+      ]
+    },
+    {
+      "id": 12,
+      "full_name": "Pacômiô Cả (Thánh Pacômiô)",
+      "nickname": "\"Cha của đời sống đan tu cộng đoàn\"",
+      "birth_year": "khoảng năm 292",
+      "death_year": "năm 348",
+      "era": "Giáo phụ đan tu/sa mạc",
+      "region_see": "Tabennisi, Thượng Ai Cập (Thêbaiđê)",
+      "role": "Viện phụ, người sáng lập các đan viện; suốt đời vẫn là giáo dân",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Trở lại đạo sau khi trải nghiệm lòng bác ái của các Kitô hữu khi bị bắt lính. Có thời gian là môn đệ của ẩn sĩ Palamon trước khi lập cộng đoàn riêng khoảng năm 320.",
+      "known_for": "Chuyển đổi đời sống đan tu từ các ẩn sĩ sống rải rác sang đời sống cộng đoàn có tổ chức (cộng tu). Đến khi qua đời, đã lập mười một đan viện với hơn 7.000 đan sĩ và nữ tu.",
+      "key_writings": [
+        { "title": "Tu Luật Pacômiô", "description": "Bản tu luật đan tu Kitô giáo cổ nhất còn lưu lại; ảnh hưởng sâu sắc đến các tu luật của Thánh Basiliô Cả và, qua đó, đến Tu Luật của Thánh Bênêđictô." }
+      ],
+      "key_quote": { "text": "Chúng ta phải phục vụ lẫn nhau, theo giới răn của Chúa: 'Người ta cứ dấu này mà nhận biết các con là môn đệ Thầy, là các con yêu thương nhau.'", "citation": "Theo truyền thống đan tu Pacômiô, phản ánh Gioan 13,35" },
+      "controversy_councils": "Không liên quan trực tiếp đến các tranh cãi hay công đồng về giáo lý.",
+      "martyrdom": "Qua đời trong một trận dịch (có thể là sốt phát ban) lan qua các đan viện của ngài, năm 346-348.",
+      "feast_day": "9 tháng 5",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Cội nguồn cổ xưa của các dòng tu Công giáo", "text": "Mọi cộng đoàn tu trì sau này với lời khấn, tu luật chung và sự vâng phục một bề trên đều có gốc rễ cơ cấu từ sáng kiến ban đầu của Pacômiô." },
+        { "topic": "Vâng phục như một kỷ luật thiêng liêng", "text": "Việc Pacômiô nhấn mạnh việc quy phục ý riêng vào một tu luật chung phản ánh nguyên tắc rộng hơn của Công giáo rằng sự thánh thiện đích thực bao gồm cả việc quy phục thẩm quyền hợp pháp." }
+      ]
+    },
+    {
+      "id": 13,
+      "full_name": "Athanasiô thành Alexandria",
+      "nickname": "\"Athanasiô Chống Lại Cả Thế Giới\" (Contra Mundum)",
+      "birth_year": "khoảng năm 293",
+      "death_year": "2 tháng 5, năm 373",
+      "era": "Giáo phụ thời Nixêa",
+      "region_see": "Alexandria, Ai Cập",
+      "role": "Giám mục (Thượng phụ) Alexandria, vị thứ 20",
+      "pope": { "is_pope": "cần giải thích thêm", "detail": "Không phải Giáo hoàng Rôma, nhưng theo truyền thống cổ xưa của Alexandria, Giám mục Alexandria mang danh hiệu \"Giáo hoàng Alexandria\", khác với ngôi vị Giáo hoàng Rôma." },
+      "lineage": "Thư ký và phó tế của Giám mục Alexanđê thành Alexandria, người ngài đã tháp tùng đến Công đồng Nixêa I (325) trước khi kế vị làm giám mục năm 328. Bạn thân của Thánh Antôn Cả.",
+      "known_for": "Người bảo vệ chính yếu cho giáo lý Nixêa chống lại thuyết Ariô. Bị lưu đày năm lần. Thư Mục Vụ năm 367 của ngài chứa danh sách sớm nhất được biết đến liệt kê chính xác 27 cuốn Tân Ước như hiện nay.",
+      "key_writings": [
+        { "title": "Về Sự Nhập Thể (De Incarnatione)", "description": "Tác phẩm nền tảng về lý do Thiên Chúa làm người." },
+        { "title": "Các Bài Diễn Từ Chống Ariô", "description": "Bản bác bỏ thần học trung tâm của ngài đối với giáo lý Ariô." },
+        { "title": "Tiểu Sử Thánh Antôn", "description": "Giúp lan rộng đời sống đan tu khắp thế giới Kitô giáo." },
+        { "title": "Thư Mục Vụ 39 (năm 367)", "description": "Danh sách sớm nhất còn lưu lại khớp đầy đủ với 27 cuốn Tân Ước." }
+      ],
+      "key_quote": { "text": "Người đã làm người để chúng ta được trở nên như Thiên Chúa.", "citation": "Về Sự Nhập Thể, đoạn 54" },
+      "controversy_councils": "Nhân vật trung tâm tại Công đồng Nixêa I (325); bảo vệ các kết luận của công đồng chống thuyết Ariô suốt đời với cái giá cá nhân rất lớn qua năm lần lưu đày.",
+      "martyrdom": "Không tử đạo — qua đời bình an năm 373, được phục hồi chức vụ trong những năm cuối đời.",
+      "feast_day": "2 tháng 5",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Sự hình thành quy điển Kinh Thánh", "text": "Thư Mục Vụ 39 của Athanasiô là văn bản sớm nhất còn lưu lại liệt kê chính xác 27 cuốn Tân Ước được dùng ngày nay — đính chính huyền thoại phổ biến cho rằng quy điển được quyết định bằng biểu quyết tại Công đồng Nixêa (thực ra Nixêa năm 325 không hề bàn đến quy điển)." },
+        { "topic": "Chân lý đối lại số đông", "text": "Athanasiô đã đứng vững nhiều năm chống lại một sự đồng thuận thiên về Ariô trên khắp đế quốc. Sự minh oan cuối cùng của ngài là một trong những câu trả lời lịch sử mạnh mẽ nhất cho lập luận rằng chân lý giáo lý chỉ đơn giản là những gì đa số hay những người nắm quyền lực tin theo." }
+      ]
+    },
+    {
+      "id": 14,
+      "full_name": "Ephrem người Syria (Thánh Ephrem thành Nisibis/Êđessa)",
+      "nickname": "\"Đàn Hạc của Chúa Thánh Thần\"",
+      "birth_year": "khoảng năm 306",
+      "death_year": "năm 373",
+      "era": "Giáo phụ thời Nixêa",
+      "region_see": "Nisibis, sau đó Êđessa, vùng nói tiếng Syriac (Lưỡng Hà)",
+      "role": "Phó tế; từ chối chức linh mục/giám mục",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Liên hệ với Thánh Giacôbê thành Nisibis, giám mục của ngài. Giảng dạy tại Trường Nisibis.",
+      "known_for": "Nhà thơ-thần học lớn nhất của Giáo hội nói tiếng Syriac. Viết hơn 400 bài thánh ca còn lưu lại chống lạc giáo qua thơ ca. Là một trong những chứng từ sớm nhất và phong phú nhất về lòng sùng kính Đức Mẹ trong thời các Giáo Phụ.",
+      "key_writings": [
+        { "title": "Các Thánh Ca Về Giáng Sinh", "description": null },
+        { "title": "Các Thánh Ca Chống Lạc Giáo", "description": null },
+        { "title": "Các Thánh Ca Về Thiên Đàng", "description": null },
+        { "title": "Các Thánh Ca Về Đức Tin", "description": null }
+      ],
+      "key_quote": { "text": "Chỉ mình Ngài và Mẹ Ngài đẹp hơn mọi kẻ khác: vì nơi Ngài không có vết nhơ, và nơi Mẹ Ngài cũng không có tì ố nào.", "citation": "Các Thánh Ca Nisibê, 27" },
+      "controversy_councils": "Chống thuyết Ariô, thuyết Mani, và các giáo lý Ngộ Đạo địa phương chủ yếu qua thánh ca.",
+      "martyrdom": "Không tử đạo — theo truyền thống, ngài qua đời năm 373 sau khi mắc dịch bệnh trong lúc chăm sóc các nạn nhân dịch bệnh ở Êđessa.",
+      "feast_day": "9 tháng 6",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Lòng sùng kính Đức Mẹ thời sơ khai", "text": "Các thánh ca của Ephrem ca ngợi Đức Mẹ là \"vô tì tích\" là một trong những chứng từ sớm nhất và phong phú nhất về lòng sùng kính Đức Mẹ trong thời các Giáo Phụ." },
+        { "topic": "Phụng vụ như phương tiện truyền tải giáo lý", "text": "Cách tiếp cận của Ephrem — dạy giáo lý chính thống qua thánh ca thay vì chỉ qua lý luận — minh họa nguyên tắc \"luật cầu nguyện là luật đức tin\" (lex orandi, lex credendi)." }
+      ]
+    },
+    {
+      "id": 15,
+      "full_name": "Hilariô thành Poitiers",
+      "nickname": "\"Athanasiô của Tây phương\" / \"Búa Đập Phái Ariô\"",
+      "birth_year": "khoảng năm 315",
+      "death_year": "khoảng năm 367",
+      "era": "Giáo phụ thời Nixêa",
+      "region_see": "Poitiers, xứ Gaul (nay là Pháp)",
+      "role": "Giám mục Poitiers",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Người trở lại đạo từ triết học Tân Platon; đã kết hôn và có một con gái trước khi được truyền chức giám mục. Bảo vệ lập trường của Athanasiô tại Tây phương.",
+      "known_for": "Người bảo vệ chính giáo lý Nixêa chống thuyết Ariô hàng đầu tại Giáo hội Tây phương. Bị lưu đày đến Phrygia (356-360) vì từ chối lên án Athanasiô. Viết khảo luận Latinh có hệ thống đầu tiên về Ba Ngôi.",
+      "key_writings": [
+        { "title": "Về Ba Ngôi (De Trinitate)", "description": "Khảo luận Latinh có hệ thống lớn đầu tiên về giáo lý Ba Ngôi." },
+        { "title": "Về Các Công Đồng (De Synodis)", "description": "Lịch sử và phân tích các bản tuyên tín cạnh tranh trong cuộc tranh cãi về thuyết Ariô." }
+      ],
+      "key_quote": { "text": "Kinh Thánh không nằm ở việc đọc, mà nằm ở việc hiểu.", "citation": "Về Ba Ngôi, II.3" },
+      "controversy_councils": "Nhân vật trung tâm trong việc chống thuyết Ariô tại Tây phương; bị lưu đày đến Phrygia 356-360.",
+      "martyrdom": "Qua đời bình an năm 367, sau khi được phục hồi chức vụ.",
+      "feast_day": "13 tháng 1",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Kinh Thánh cần được giải thích đúng đắn", "text": "Câu nói của Hilariô rằng Kinh Thánh \"không nằm ở việc đọc, mà nằm ở việc hiểu\" là một cách diễn đạt sắc bén, rất sớm về nguyên tắc rằng Kinh Thánh không tự giải thích chính mình, mà cần một sự hiểu biết được hướng dẫn." },
+        { "topic": "Giáo sĩ có gia đình như một kỷ luật lịch sử", "text": "Cuộc đời Hilariô như một người đã kết hôn và có con gái trước khi làm giám mục cho thấy độc thân linh mục luôn là một kỷ luật của Giáo hội, chứ không phải một đòi hỏi phổ quát bất biến từ những ngày đầu." }
+      ]
+    },
+    {
+      "id": 16,
+      "full_name": "Cyrillô thành Giêrusalem",
+      "nickname": "Không có biệt danh phổ biến",
+      "birth_year": "khoảng năm 315",
+      "death_year": "năm 386",
+      "era": "Giáo phụ thời Nixêa",
+      "region_see": "Giêrusalem",
+      "role": "Giám mục Giêrusalem",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Được tấn phong giám mục bởi Acaciô thành Caesarea, một giám mục có khuynh hướng Ariô, dù chính Cyrillô giữ quan điểm chính thống.",
+      "known_for": "Bộ Bài Giáo Lý (Catecheses) của ngài là hồ sơ đầy đủ nhất còn lưu lại về cách Giáo hội sơ khai giáo huấn các người dự tòng và giải thích các bí tích. Góp phần phát triển Giêrusalem thành trung tâm hành hương lớn.",
+      "key_writings": [
+        { "title": "Các Bài Giáo Lý (Catecheses)", "description": "18 bài giáo lý dự tòng cộng với 5 Bài Giáo Lý Nhiệm Tích dành cho những người mới rửa tội, giải thích phép rửa, thêm sức và Bí tích Thánh Thể." }
+      ],
+      "key_quote": { "text": "Vậy đừng coi bánh và rượu chỉ đơn thuần như thế, vì theo lời tuyên bố của Chúa, đó chính là mình và máu Đức Kitô; dù giác quan gợi ý điều khác, hãy để đức tin làm cho con vững vàng.", "citation": "Các Bài Giáo Lý Nhiệm Tích, IV" },
+      "controversy_councils": "Bị lưu đày ba lần trong khoảng 357-378, chủ yếu do xung đột với Acaciô thành Caesarea.",
+      "martyrdom": "Qua đời bình an năm 386.",
+      "feast_day": "18 tháng 3",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Sự Hiện Diện Thực Sự được dạy cho các tân tòng", "text": "Các Bài Giáo Lý Nhiệm Tích của Cyrillô đưa ra giáo huấn rõ ràng thế kỷ IV về Sự Hiện Diện Thực Sự — được giảng dạy như giáo lý căn bản cho những Kitô hữu mới, chứ không phải thần học cao siêu dành riêng cho giới học giả." },
+        { "topic": "Cội nguồn cổ xưa của chương trình dự tòng", "text": "Các bài giáo lý của Cyrillô lưu giữ một quy trình có cấu trúc để chuẩn bị người trở lại đạo — tương ứng trực tiếp với chương trình dự tòng (RCIA/OCIA) của Công giáo ngày nay." }
+      ]
+    },
+    {
+      "id": 17,
+      "full_name": "Grêgôriô thành Nazianzô (Grêgôriô Nazianzênô)",
+      "nickname": "\"Nhà Thần Học\" (Ho Theologos)",
+      "birth_year": "khoảng năm 329",
+      "death_year": "25 tháng 1, năm 390",
+      "era": "Giáo phụ thời Nixêa (Cappađôcia)",
+      "region_see": "Nazianzô, Cappađôcia; một thời gian ngắn là Tổng giám mục Constantinôpôli",
+      "role": "Giám mục Sasima (một thời gian ngắn); sau đó Tổng giám mục Constantinôpôli (380-381)",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Bạn thân của Thánh Basiliô Cả, cùng học tại Athens. Một trong ba Giáo Phụ Cappađôcia.",
+      "known_for": "Chủ tọa Công đồng Constantinôpôli I (381), hoàn thiện Kinh Tin Kính Nixêa-Constantinôpôli. Từ nhiệm chức vụ không lâu sau đó vì hòa bình.",
+      "key_writings": [
+        { "title": "Năm Bài Diễn Từ Thần Học (Diễn Từ 27-31)", "description": "Bản bênh vực giáo lý Ba Ngôi kinh điển, đặc biệt về thiên tính của Chúa Thánh Thần." }
+      ],
+      "key_quote": { "text": "Điều gì không được đảm nhận thì không được cứu chữa.", "citation": "Thư gửi Clêđôniô, 101" },
+      "controversy_councils": "Nhân vật trung tâm tại Công đồng Constantinôpôli I (381), lên án phần còn lại của thuyết Ariô và thuyết Apollinariô.",
+      "martyrdom": "Không tử đạo — qua đời bình an năm 390, khi đã lui về nghỉ hưu.",
+      "feast_day": "2 tháng 1 (chung với Thánh Basiliô Cả)",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Nhân tính trọn vẹn của Đức Kitô", "text": "\"Điều gì không được đảm nhận thì không được cứu chữa\" giải thích lý do Đức Kitô phải mang một bản tính nhân loại trọn vẹn, đích thực để cứu chuộc trọn vẹn con người." },
+        { "topic": "Khiêm nhường vượt trên chức vị", "text": "Việc Grêgôriô tự nguyện từ nhiệm khỏi Constantinôpôli để gìn giữ hòa bình cho thấy sự phân biệt giữa thẩm quyền Giáo hội hợp pháp và đức khiêm nhường cá nhân được đòi hỏi nơi người nắm giữ thẩm quyền ấy." }
+      ]
+    },
+    {
+      "id": 18,
+      "full_name": "Basiliô Cả (Basiliô thành Caesarea)",
+      "nickname": "\"Đấng Cả\"",
+      "birth_year": "khoảng năm 329",
+      "death_year": "1 tháng 1, năm 379",
+      "era": "Giáo phụ thời Nixêa (Cappađôcia)",
+      "region_see": "Caesarea vùng Cappađôcia",
+      "role": "Giám mục Caesarea",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Anh của Thánh Grêgôriô thành Nyssa và Thánh Macrina Trẻ. Bạn thân của Thánh Grêgôriô thành Nazianzô. Một trong ba Giáo Phụ Cappađôcia.",
+      "known_for": "\"Cha của đời sống đan tu Đông phương.\" Giúp xác định từ vựng thần học Ba Ngôi (ousia, hypostasis). Xây dựng Basiliađô, một quần thể bệnh viện, nhà tế bần và trại tị nạn cho người nghèo.",
+      "key_writings": [
+        { "title": "Về Chúa Thánh Thần (De Spiritu Sancto)", "description": "Bản bênh vực nền tảng cho thiên tính trọn vẹn của Chúa Thánh Thần." },
+        { "title": "Hexaemeron", "description": "Các bài giảng về sáu ngày tạo dựng." },
+        { "title": "Tu Luật Dài và Tu Luật Ngắn", "description": "Bộ luật đan tu nền tảng cho Kitô giáo Đông phương." }
+      ],
+      "key_quote": { "text": "Bánh mì con không dùng đến là bánh mì của người đói; áo con treo trong tủ là áo của người trần trụi.", "citation": "Bài giảng về Luca 12,18" },
+      "controversy_councils": "Bênh vực thiên tính trọn vẹn của Chúa Thánh Thần chống lại phái Pneumatomachi (\"kẻ chống Thánh Thần\").",
+      "martyrdom": "Không tử đạo — qua đời bình an, ngày 1 tháng 1 năm 379.",
+      "feast_day": "2 tháng 1 (chung với Thánh Grêgôriô thành Nazianzô)",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Làm phúc bố thí như công bằng", "text": "Giáo huấn của Basiliô rằng của cải dư thừa thuộc về người nghèo là nền tảng của giáo huấn xã hội Công giáo về mục đích phổ quát của của cải." },
+        { "topic": "Tổ chức bác ái của Giáo hội", "text": "Basiliađô là một trong những ví dụ cụ thể sớm nhất về việc thể chế hóa lòng bác ái Kitô giáo, đặt nền cho truyền thống Công giáo về bệnh viện và các dòng bác ái." }
+      ]
+    },
+    {
+      "id": 19,
+      "full_name": "Grêgôriô thành Nyssa",
+      "nickname": "Nhà thần học suy tư sâu sắc nhất trong ba Giáo Phụ Cappađôcia",
+      "birth_year": "khoảng năm 335",
+      "death_year": "khoảng năm 395",
+      "era": "Giáo phụ thời Nixêa (Cappađôcia)",
+      "region_see": "Nyssa, Cappađôcia",
+      "role": "Giám mục Nyssa",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Em của Thánh Basiliô Cả; cũng là em của Thánh Macrina Trẻ, người có ảnh hưởng sâu sắc đến tư tưởng của ngài. Một trong ba Giáo Phụ Cappađôcia.",
+      "known_for": "Phát triển khái niệm epektasis — vì Thiên Chúa là vô hạn, sự tăng trưởng của linh hồn trong sự kết hợp với Thiên Chúa tiếp diễn mãi mãi, ngay cả trên thiên đàng. Bảo vệ chính giáo Ba Ngôi tại Công đồng Constantinôpôli I (381).",
+      "key_writings": [
+        { "title": "Không Có Ba Thiên Chúa (Ad Ablabium)", "description": "Giải thích cách Chúa Cha, Chúa Con và Chúa Thánh Thần là một Thiên Chúa, không phải ba, qua một loại suy về bản tính nhân loại chung." },
+        { "title": "Cuộc Đời Môsê", "description": "Cách đọc huyền nhiệm, ngụ ý về cuộc đời Môsê như mẫu mực cho hành trình linh hồn tiến về Thiên Chúa." },
+        { "title": "Về Linh Hồn và Sự Sống Lại", "description": "Cuộc đối thoại triết học về cái chết và sự sống lại." }
+      ],
+      "key_quote": { "text": "Đây thật sự là thị kiến về Thiên Chúa: không bao giờ thỏa mãn trong khát vọng chiêm ngắm Người.", "citation": "Cuộc Đời Môsê, II.239" },
+      "controversy_councils": "Bảo vệ chính giáo Ba Ngôi tại Công đồng Constantinôpôli I (381) chống lại các phái còn lại của thuyết Ariô và Pneumatomachi.",
+      "martyrdom": "Không tử đạo — qua đời bình an, khoảng năm 395.",
+      "feast_day": "9 tháng 3 (Tây phương); 10 tháng 1 (Đông phương)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Giải thích tính hợp lý của Ba Ngôi", "text": "Loại suy của Grêgôriô — so sánh (với những giới hạn quan trọng) ba Ngôi Vị riêng biệt cùng chia sẻ một bản tính Thiên Chúa với cách nhiều người cùng chia sẻ một bản tính nhân loại — vẫn là công cụ hữu ích để giải thích tính hợp lý của Ba Ngôi." },
+        { "topic": "Thiên đàng như sự tăng trưởng bất tận", "text": "Giáo huấn của ngài về epektasis đưa ra một hình ảnh về sự sống đời đời như mối tương quan ngày càng sâu sắc, thay vì một phần thưởng tĩnh tại, đã \"hoàn tất\"." }
+      ]
+    },
+    {
+      "id": 20,
+      "full_name": "Ambrôsiô thành Milanô",
+      "nickname": "Được ghi nhận là người khởi xướng thánh ca đối đáp và Lễ nghi Ambrôsiô",
+      "birth_year": "năm 339",
+      "death_year": "4 tháng 4, năm 397",
+      "era": "Giáo phụ thời Nixêa",
+      "region_see": "Milanô, Ý",
+      "role": "Giám mục Milanô",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Được đào tạo làm luật sư và tổng đốc Rôma trước khi được dân chúng tôn phong làm giám mục lúc còn là dự tòng. Đích thân dạy giáo lý và rửa tội cho Thánh Augustinô năm 387.",
+      "known_for": "Buộc hoàng đế Thêôđôsiô I phải đền tội công khai sau vụ thảm sát Thêxalônica (390) trước khi được rước lễ trở lại. Bài giảng của ngài đóng vai trò quyết định trong việc Augustinô trở lại đạo.",
+      "key_writings": [
+        { "title": "Về Bổn Phận Hàng Giáo Sĩ (De Officiis Ministrorum)", "description": "Tác phẩm Kitô giáo có hệ thống đầu tiên về đạo đức giáo sĩ." },
+        { "title": "Về Các Mầu Nhiệm / Về Các Bí Tích", "description": "Các văn bản then chốt về các bí tích, đặc biệt về Bí tích Thánh Thể." }
+      ],
+      "key_quote": { "text": "Trước lời Đức Kitô, đó là chén rượu và nước; sau khi truyền phép, đó là máu Đức Kitô đã cứu chuộc dân Người... Trước lời Đức Kitô, chén ấy trống rỗng; sau khi truyền phép, chén ấy được đổ đầy đức tin.", "citation": "Về Các Bí Tích, IV" },
+      "controversy_councils": "Đối đầu với hoàng đế Thêôđôsiô I về vụ thảm sát Thêxalônica. Chống lại triều đình theo phái Ariô khi họ tìm cách chiếm một vương cung thánh đường ở Milanô.",
+      "martyrdom": "Không tử đạo — qua đời bình an, ngày 4 tháng 4 năm 397.",
+      "feast_day": "7 tháng 12",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Thẩm quyền Giáo hội đối với việc rước lễ", "text": "Việc Ambrôsiô đối đầu với Thêôđôsiô — đòi hỏi người quyền lực nhất thế giới Rôma phải đền tội công khai trước khi được rước lễ trở lại — là một trong những minh chứng rõ ràng nhất trong lịch sử cho thấy chính Giáo hội, chứ không phải nhà nước hay địa vị cá nhân, có tiếng nói cuối cùng về việc rước lễ xứng đáng." },
+        { "topic": "Sự Hiện Diện Thực Sự, Đông và Tây cùng chứng thực", "text": "Giáo huấn rõ ràng của Ambrôsiô về Sự Hiện Diện Thực Sự, cùng với chứng từ tương tự của Justinô, Cyrillô Giêrusalem và Hippôlytô, tạo nên một luận cứ rộng khắp về mặt địa lý cho thấy niềm tin vào Sự Hiện Diện Thực Sự là phổ quát và liên tục." }
+      ]
+    },
+    {
+      "id": 21,
+      "full_name": "Giêrônimô (Eusebius Sophronius Hieronymus)",
+      "nickname": "Không có biệt danh phổ biến",
+      "birth_year": "khoảng năm 347",
+      "death_year": "30 tháng 9, năm 420",
+      "era": "Giáo phụ hậu Nixêa",
+      "region_see": "Sinh tại Stridon (Đalmatia); sống tại Rôma; đan viện tại Bêlem từ khoảng năm 389",
+      "role": "Linh mục, đan sĩ và học giả Kinh Thánh; không phải giám mục",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Thư ký của Đức Giáo hoàng Đamasô I tại Rôma, người đã ủy thác cho ngài dịch một bản Kinh Thánh Latinh chuẩn. Từng học chú giải tiếng Hy Lạp với Grêgôriô thành Nazianzô. Cùng thời với Augustinô.",
+      "known_for": "Dịch toàn bộ Kinh Thánh sang tiếng Latinh trực tiếp từ nguyên bản Do Thái và Hy Lạp, tạo nên bản Vulgata — bản Kinh Thánh chuẩn của Giáo hội Tây phương trong hơn một ngàn năm.",
+      "key_writings": [
+        { "title": "Bản Vulgata", "description": "Bản dịch Latinh đồ sộ của toàn bộ Kinh Thánh." },
+        { "title": "Các Nhân Vật Lừng Danh (De Viris Illustribus)", "description": "Danh mục tiểu sử các tác giả Kitô giáo." }
+      ],
+      "key_quote": { "text": "Không biết Kinh Thánh là không biết Đức Kitô.", "citation": "Chú Giải Sách Isaia, Lời tựa" },
+      "controversy_councils": "Tranh luận thần học gay gắt với Rufinô về thuyết Ôrigênê và với những người theo thuyết Pêlagiô; đôi khi căng thẳng trong trao đổi với Augustinô.",
+      "martyrdom": "Qua đời bình an tại Bêlem, năm 420.",
+      "feast_day": "30 tháng 9",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Sự quan tâm của Giáo hội đối với Kinh Thánh", "text": "Sự tồn tại của bản Vulgata — một dự án kéo dài nhiều thập kỷ do chính một Giáo hoàng ủy thác để trao cho toàn Giáo hội một bản Kinh Thánh chính xác, dễ tiếp cận — là bằng chứng mạnh mẽ chống lại lập luận cho rằng Giáo hội Công giáo trong lịch sử không khuyến khích việc học hỏi Kinh Thánh." },
+        { "topic": "Kinh Thánh và Thánh Truyền song hành", "text": "Giêrônimô luôn đọc Kinh Thánh qua lăng kính các Giáo Phụ và Thánh Truyền, cho thấy việc học Kinh Thánh nghiêm túc và việc tôn trọng thẩm quyền giải thích của Giáo hội luôn đi đôi với nhau." }
+      ]
+    },
+    {
+      "id": 22,
+      "full_name": "Gioan thành Antiôkia (Gioan Kim Khẩu)",
+      "nickname": "\"Kim Khẩu\" (Chrysostomos — \"Miệng Vàng\")",
+      "birth_year": "khoảng năm 347",
+      "death_year": "14 tháng 9, năm 407",
+      "era": "Giáo phụ hậu Nixêa",
+      "region_see": "Antiôkia; Tổng giám mục Constantinôpôli từ năm 398",
+      "role": "Linh mục tại Antiôkia, sau đó Tổng giám mục Constantinôpôli",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Học hùng biện dưới thầy Libaniô. Thuộc trường phái chú giải Antiôkia.",
+      "known_for": "Nhà giảng thuyết vĩ đại nhất của Giáo hội sơ khai, khoảng 700 bài giảng còn lưu lại. Phụng Vụ Thánh Gioan Kim Khẩu vẫn là phụng vụ Thánh Thể chuẩn của Lễ nghi Byzantine ngày nay.",
+      "key_writings": [
+        { "title": "Các Bài Giảng Về Tin Mừng Mátthêu", "description": null },
+        { "title": "Các Bài Giảng Về Thư Thánh Phaolô", "description": null },
+        { "title": "Về Chức Linh Mục (De Sacerdotio)", "description": "Suy tư kinh điển về phẩm giá và khó khăn của thừa tác vụ linh mục." }
+      ],
+      "key_quote": { "text": "Bạn muốn tôn kính Mình Thánh Đức Kitô sao? Đừng bỏ quên Người khi Người trần trụi... Ích gì nếu bàn tiệc Thánh Thể đầy chén vàng, trong khi anh em bạn đang chết đói?", "citation": "Bài giảng về Tin Mừng Mátthêu, 50, 3-4" },
+      "controversy_councils": "Bị phế truất tại Công đồng Cây Sồi (403), do các đối thủ dàn xếp vì bất bình với việc ngài giảng chống lại sự xa hoa của triều đình.",
+      "martyrdom": "Qua đời ngày 14 tháng 9 năm 407, vì kiệt sức và bị ngược đãi trong các cuộc áp giải khi bị lưu đày.",
+      "feast_day": "13 tháng 9",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Kết hợp Thánh Thể với công bằng xã hội", "text": "Giáo huấn của Gioan Kim Khẩu gắn kết trực tiếp lòng sùng kính Thánh Thể với việc chăm sóc cụ thể người nghèo, chống lại bất kỳ sự tách rời nào giữa đạo đức cá nhân và công bằng xã hội." },
+        { "topic": "Tính liên tục của phụng vụ", "text": "Phụng vụ mang tên ngài vẫn được cử hành gần như nguyên vẹn trong Lễ nghi Byzantine ngày nay, minh chứng sống động cho một truyền thống phụng vụ liên tục hơn 1.600 năm." }
+      ]
+    },
+    {
+      "id": 23,
+      "full_name": "Augustinô thành Hippo (Aurelius Augustinus)",
+      "nickname": "\"Tiến Sĩ Ân Sủng\"",
+      "birth_year": "13 tháng 11, năm 354",
+      "death_year": "28 tháng 8, năm 430",
+      "era": "Giáo phụ hậu Nixêa",
+      "region_see": "Sinh tại Thagaste, Bắc Phi; Giám mục Hippo Regius (nay là Annaba, Algeria)",
+      "role": "Giám mục Hippo",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Con của Thánh Mônica và Patriciô. Từng theo thuyết Mani nhiều năm trước khi trở lại đạo. Được Thánh Ambrôsiô rửa tội tại Milanô năm 387.",
+      "known_for": "Có lẽ là nhà thần học có ảnh hưởng nhất trong lịch sử Kitô giáo Tây phương. Đối thủ chính của thuyết Pêlagiô và thuyết ly khai Đônatô. Tác phẩm Tự Thuật được xem là hồi ký thiêng liêng đầu tiên của phương Tây.",
+      "key_writings": [
+        { "title": "Tự Thuật (Confessiones)", "description": "Hồi ký thiêng liêng thân mật của ngài." },
+        { "title": "Thành Đô Thiên Chúa (De Civitate Dei)", "description": "Bản bênh vực Kitô giáo đồ sộ, viết sau vụ Rôma bị cướp phá năm 410." },
+        { "title": "Về Ba Ngôi (De Trinitate)", "description": null }
+      ],
+      "key_quote": { "text": "Lạy Chúa, Chúa đã dựng nên chúng con cho Chúa, và lòng chúng con khắc khoải cho đến khi được nghỉ yên trong Chúa.", "citation": "Tự Thuật, I.1" },
+      "controversy_councils": "Đối thủ thần học chính của thuyết Pêlagiô (về ân sủng và tự do ý chí) và thuyết ly khai Đônatô (về hiệu lực bí tích). Giáo huấn của ngài về ân sủng và tiền định về sau trở thành điểm tham chiếu — và tranh cãi — lớn trong cuộc Cải Cách Kháng Nghị.",
+      "martyrdom": "Qua đời bình an, ngày 28 tháng 8 năm 430, trong lúc quân Vandal vây hãm Hippo.",
+      "feast_day": "28 tháng 8",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Hiệu lực của các bí tích", "text": "Giáo huấn chống Đônatô của Augustinô — rằng các bí tích có hiệu lực nhờ chính Đức Kitô hoạt động qua Giáo hội, không phải nhờ sự thánh thiện cá nhân của thừa tác viên (về sau gọi là ex opere operato) — giải thích vì sao một bí tích Công giáo vẫn có giá trị dù được cử hành bởi một linh mục bất xứng." },
+        { "topic": "Ân sủng và tự do ý chí", "text": "Giáo huấn quân bình của Augustinô rằng ơn cứu độ cần ân sủng Thiên Chúa nhưng vẫn khẳng định tự do ý chí và sự cộng tác thật sự của con người, là điểm tham chiếu quân bình giữa \"chỉ nhờ đức tin\" và \"đức tin cùng việc làm\"." }
+      ]
+    },
+    {
+      "id": 24,
+      "full_name": "Gioan Cassianô",
+      "nickname": "Không có biệt danh phổ biến",
+      "birth_year": "khoảng năm 360",
+      "death_year": "năm 435",
+      "era": "Giáo phụ hậu Nixêa",
+      "region_see": "Sinh tại Scythia Nhỏ (nay là Dobruja, Rumani); lập đan viện tại Marseille, xứ Gaul",
+      "role": "Linh mục; viện phụ sáng lập Đan viện Thánh Victor gần Marseille",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Từng sống nhiều năm cùng các Giáo Phụ Sa Mạc tại Ai Cập. Được chính Thánh Gioan Kim Khẩu truyền chức phó tế tại Constantinôpôli.",
+      "known_for": "Mối liên kết thiết yếu truyền tải sự khôn ngoan đan tu Ai Cập sang Tây phương, ảnh hưởng trực tiếp đến Tu Luật của Thánh Bênêđictô một thế kỷ sau.",
+      "key_writings": [
+        { "title": "Các Chế Định (De Institutis Coenobiorum)", "description": "Luật lệ tổ chức thực hành cho các cộng đoàn đan tu." },
+        { "title": "Các Đàm Luận (Collationes)", "description": "24 cuộc đối thoại ghi lại giáo huấn thiêng liêng của các Giáo Phụ Sa Mạc Ai Cập." }
+      ],
+      "key_quote": { "text": "Cùng đích của đời sống chúng ta... là Nước Thiên Chúa... nhưng mục tiêu trước mắt là sự thanh khiết của tâm hồn, mà nếu không có nó thì không ai đạt được cùng đích ấy.", "citation": "Các Đàm Luận, I.4" },
+      "controversy_councils": "Giáo huấn của ngài về ân sủng và tự do ý chí (về sau gọi là \"thuyết Bán Pêlagiô\") bị xem là chưa chính xác và được điều chỉnh tại Công đồng Orange II (529), nhiều thập kỷ sau khi ngài qua đời.",
+      "martyrdom": "Qua đời bình an tại Marseille, năm 435.",
+      "feast_day": "23 tháng 7 (chỉ mừng ở một số nơi, không phải lịch chung)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "canonization_note": "Được tôn kính như một vị thánh trong truyền thống Công giáo và Chính Thống, nhưng không có trong lịch các thánh hoàn vũ hiện hành của Rôma; lễ kính chỉ được giữ ở một số giáo phận/dòng tu.",
+      "apologetics_corner": [
+        { "topic": "Cội nguồn cổ xưa của đời đan tu Tây phương", "text": "Hầu như mọi dòng tu Tây phương đều có gốc rễ, theo một nghĩa nào đó, từ công việc của Cassianô truyền tải sự khôn ngoan của các Giáo Phụ Sa Mạc cho Thánh Bênêđictô sử dụng." },
+        { "topic": "Sự phát triển của giáo lý về ân sủng", "text": "Giáo huấn chưa chính xác của chính Cassianô, về sau được điều chỉnh tại Orange, là ví dụ hữu ích cho thấy giáo lý Công giáo về ân sủng đã được làm rõ hơn qua thời gian như thế nào." }
+      ]
+    },
+    {
+      "id": 25,
+      "full_name": "Cyrillô thành Alexandria",
+      "nickname": "\"Cột Trụ Đức Tin\", \"Tiến Sĩ Nhập Thể\"",
+      "birth_year": "khoảng năm 375/376",
+      "death_year": "27 tháng 6, năm 444",
+      "era": "Giáo phụ hậu Nixêa",
+      "region_see": "Alexandria, Ai Cập",
+      "role": "Giám mục Alexandria",
+      "pope": { "is_pope": "cần giải thích thêm", "detail": "Không phải Giáo hoàng Rôma, nhưng giống như Athanasiô, mang danh hiệu cổ xưa \"Giáo hoàng Alexandria\"." },
+      "lineage": "Kế vị người chú, Giám mục Thêôphilô thành Alexandria, năm 412.",
+      "known_for": "Người bảo vệ chính cho sự hợp nhất Ngôi Vị Đức Kitô chống lại Nestôriô. Triệu tập và chủ trì Công đồng Êphêsô (431), tuyên xưng Đức Maria là \"Theotokos\" (Mẹ Thiên Chúa).",
+      "key_writings": [
+        { "title": "Mười Hai Chương Kết Án Nestôriô", "description": null },
+        { "title": "Thư Thứ Hai và Thứ Ba Gửi Nestôriô", "description": "Được chính thức công nhận là tuyên bố chính thống về Ngôi Vị Đức Kitô tại Công đồng Êphêsô." }
+      ],
+      "key_quote": { "text": "Nếu ai không tuyên xưng rằng Đấng Emmanuel thật sự là Thiên Chúa, và do đó Đức Trinh Nữ là Mẹ Thiên Chúa... thì bị vạ tuyệt thông.", "citation": "Chương Kết Án Thứ Nhất chống Nestôriô" },
+      "controversy_councils": "Nhân vật trung tâm tại Công đồng Êphêsô (431), lên án thuyết Nestôriô.",
+      "martyrdom": "Qua đời bình an, ngày 27 tháng 6 năm 444.",
+      "feast_day": "27 tháng 6",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Vì sao \"Mẹ Thiên Chúa\" là tước hiệu quy về Đức Kitô", "text": "Tước hiệu Theotokos, được xác quyết tại Êphêsô, trước hết là để bảo vệ chân lý về Đức Kitô — bảo vệ sự thật rằng Đấng sinh ra bởi Đức Maria thực sự và trọn vẹn là Thiên Chúa — chứ không phải là việc đề cao quá mức vai trò của Đức Maria." },
+        { "topic": "Sự hợp nhất của Đức Kitô và Bí tích Thánh Thể", "text": "Việc Cyrillô nhấn mạnh sự hợp nhất trọn vẹn của Ngôi Vị Đức Kitô làm nền cho giáo lý Công giáo về sau rằng chính Đức Kitô trọn vẹn hiện diện thật sự trong Bí tích Thánh Thể." }
+      ]
+    },
+    {
+      "id": 26,
+      "full_name": "Thánh Giáo hoàng Lêô Cả (Lêô I)",
+      "nickname": "\"Đấng Cả\" — một trong hai Giáo hoàng duy nhất trong lịch sử mang danh hiệu này",
+      "birth_year": "khoảng năm 400",
+      "death_year": "10 tháng 11, năm 461",
+      "era": "Giáo phụ hậu Nixêa",
+      "region_see": "Rôma",
+      "role": "Giáo hoàng",
+      "pope": { "is_pope": true, "detail": "Thánh Giáo hoàng Lêô I \"Cả\", triều đại 440-461" },
+      "lineage": "Thăng tiến qua hàng giáo sĩ Rôma với chức phó tế trước khi được bầu làm Giáo hoàng năm 440.",
+      "known_for": "Bức Thư Tôma của ngài cung cấp công thức Kitô học quyết định được Công đồng Calcêđônia (451) đón nhận. Nổi tiếng với cuộc gặp gỡ trực tiếp Attila Rợ Hung ngoài thành Rôma năm 452, thuyết phục ông không cướp phá thành phố.",
+      "key_writings": [
+        { "title": "Thư Tôma (gửi Flaviano thành Constantinôpôli)", "description": "Công thức Kitô học quyết định được xác nhận tại Calcêđônia." }
+      ],
+      "key_quote": { "text": "Mỗi bản tính, giữ nguyên đặc tính riêng của mình mà không mất đi, kết hợp với bản tính kia trong một Ngôi Vị duy nhất.", "citation": "Thư Tôma" },
+      "controversy_councils": "Nhân vật trung tâm tại Công đồng Calcêđônia (451), lên án thuyết Eutykhê/Đơn tính (Monophysite).",
+      "martyrdom": "Qua đời bình an, ngày 10 tháng 11 năm 461.",
+      "feast_day": "10 tháng 11",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Thẩm quyền giáo huấn của Giáo hoàng, được công đồng xác nhận", "text": "Lời hô vang của các giám mục tại Calcêđônia — \"Phêrô đã nói qua miệng Lêô!\" — khi Thư Tôma được đọc lên là một trong những chứng từ cổ xưa sống động và rõ ràng nhất về thẩm quyền giáo huấn đặc biệt của Giám mục Rôma với tư cách người kế vị Thánh Phêrô." },
+        { "topic": "Kitô học đã được xác lập của Giáo hội", "text": "Công thức của Lêô — một Ngôi Vị, hai bản tính trọn vẹn và không hòa lẫn — vẫn là giáo lý Kitô học của Giáo hội cho đến ngày nay." }
+      ]
+    },
+    {
+      "id": 27,
+      "full_name": "Thánh Giáo hoàng Grêgôriô Cả (Grêgôriô I)",
+      "nickname": "\"Đấng Cả\"; khởi xướng danh hiệu \"Tôi Tớ Các Tôi Tớ Thiên Chúa\"",
+      "birth_year": "khoảng năm 540",
+      "death_year": "12 tháng 3, năm 604",
+      "era": "Giáo phụ cuối thời (Hậu kỳ Giáo Phụ)",
+      "region_see": "Rôma",
+      "role": "Giáo hoàng",
+      "pope": { "is_pope": true, "detail": "Thánh Giáo hoàng Grêgôriô I \"Cả\", triều đại 590-604" },
+      "lineage": "Xuất thân từ một gia đình quý tộc giàu có tại Rôma; từng làm Tổng trấn Rôma trước khi trở thành đan sĩ. Từng là khâm sứ Tòa Thánh tại Constantinôpôli.",
+      "known_for": "Sai Thánh Augustinô thành Canterbury đi truyền giáo cho người Anglo-Saxon tại Anh (597), khai sinh Giáo hội tại Anh. Được ghi công tổ chức và hệ thống hóa nghi thức thánh ca mang tên ngài — Thánh ca Grêgôriô. Trong thời kỳ quân Lombard xâm lấn, ngài còn đóng vai trò như người quản trị dân sự của Rôma.",
+      "key_writings": [
+        { "title": "Tu Luật Mục Vụ (Regula Pastoralis)", "description": "Cẩm nang có ảnh hưởng lớn về bổn phận và đời sống thiêng liêng của các giám mục." },
+        { "title": "Moralia in Job", "description": "Bản chú giải thiêng liêng đồ sộ về sách Gióp." },
+        { "title": "Các Đối Thoại", "description": "Bao gồm nguồn tiểu sử sớm chính yếu về Thánh Bênêđictô thành Norcia." }
+      ],
+      "key_quote": { "text": "Tôi tớ các tôi tớ Thiên Chúa (Servus servorum Dei).", "citation": "Danh hiệu Grêgôriô chọn cho ngôi vị Giáo hoàng, vẫn được các Giáo hoàng dùng đến ngày nay" },
+      "controversy_councils": "Không có cuộc tranh cãi lạc giáo lớn nào trong thời của ngài; chủ yếu được biết đến qua công việc quản trị, mục vụ và truyền giáo.",
+      "martyrdom": "Qua đời bình an, ngày 12 tháng 3 năm 604.",
+      "feast_day": "3 tháng 9 (lịch Rôma hiện hành)",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Ngôi vị Giáo hoàng là phục vụ, không phải thống trị", "text": "Danh hiệu \"Tôi Tớ Các Tôi Tớ Thiên Chúa\" mà ngài chọn, vẫn được mọi Giáo hoàng dùng đến ngày nay, cho thấy ngôi vị Giáo hoàng về căn bản là sự phục vụ khiêm nhường." },
+        { "topic": "Vai trò của Giáo hoàng trong việc truyền giáo", "text": "Sứ mạng gửi đến nước Anh năm 597 là một trường hợp lịch sử được ghi chép rõ ràng về việc chính Giáo hoàng đích thân chỉ đạo công cuộc truyền giáo quy mô lớn." }
+      ]
+    },
+    {
+      "id": 28,
+      "full_name": "Isiđôrô thành Sevilla",
+      "nickname": "Được gọi không chính thức là \"Bổn mạng Internet\"",
+      "birth_year": "khoảng năm 560",
+      "death_year": "4 tháng 4, năm 636",
+      "era": "Giáo phụ cuối thời (Hậu kỳ Giáo Phụ)",
+      "region_see": "Sevilla, Tây Ban Nha thời Visigoth",
+      "role": "Tổng giám mục Sevilla",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Em của Thánh Lêanđê thành Sevilla (người tiền nhiệm và cũng là người dạy dỗ ngài), Thánh Fulgentiô và Thánh Florentina.",
+      "known_for": "Tác giả bộ Etymologiae, một bách khoa toàn thư 20 cuốn tổng hợp gần như toàn bộ tri thức nhân loại và thần linh thời bấy giờ, trở thành một trong những sách tham khảo có ảnh hưởng nhất thời Trung Cổ.",
+      "key_writings": [
+        { "title": "Etymologiae (Origines)", "description": "Bộ bách khoa toàn thư 20 cuốn của ngài." },
+        { "title": "Sententiae", "description": "Tác phẩm tổng hợp thần học và luân lý." }
+      ],
+      "key_quote": { "text": "Nếu không giữ được ý nghĩa của một từ, người ta sẽ mất đi sự hiểu biết về điều mà từ ấy biểu thị.", "citation": "Etymologiae, I.29 (bản dịch tương đối)" },
+      "controversy_councils": "Chủ tọa Công đồng Toledo IV (633), giải quyết ảnh hưởng còn sót lại của thuyết Ariô trong giới quý tộc Visigoth.",
+      "martyrdom": "Qua đời bình an, ngày 4 tháng 4 năm 636.",
+      "feast_day": "4 tháng 4",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Giáo hội gìn giữ tri thức, không phải triệt tiêu tri thức", "text": "Nỗ lực đồ sộ của Isiđôrô nhằm gìn giữ và truyền tải tri thức cổ điển và Kitô giáo qua thời kỳ sụp đổ của văn minh Rôma là câu trả lời lịch sử mạnh mẽ cho huyền thoại cho rằng Giáo hội đàn áp tri thức trong \"Thời Kỳ Đen Tối\"." },
+        { "topic": "Giáo hội đặt nền cho giáo dục", "text": "Việc ngài thúc đẩy tại Công đồng Toledo để mỗi giáo phận lập trường đào tạo giáo sĩ là tiền thân trực tiếp của hệ thống đại học Trung Cổ về sau." }
+      ]
+    },
+    {
+      "id": 29,
+      "full_name": "Maximô Tuyên Tín",
+      "nickname": "\"Đấng Tuyên Tín\"",
+      "birth_year": "khoảng năm 580",
+      "death_year": "13 tháng 8, năm 662",
+      "era": "Giáo phụ cuối thời (Hậu kỳ Giáo Phụ)",
+      "region_see": "Constantinôpôli; bị lưu đày đến Bắc Phi, Rôma, và cuối cùng Lazica (nay là Gruzia)",
+      "role": "Đan sĩ; trước đó là bí thư thứ nhất của hoàng đế Hêracliô",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Chịu ảnh hưởng sâu sắc từ thần học huyền nhiệm của Ngụy-Điônysiô Arêôpagitô và các Giáo Phụ Cappađôcia, đặc biệt Grêgôriô thành Nazianzô.",
+      "known_for": "Người bảo vệ chính cho thuyết \"nhị chí\" — giáo lý chính thống rằng Đức Kitô, có hai bản tính, cũng có hai ý chí riêng biệt (thần linh và nhân loại) — chống lại thuyết \"nhất chí\" (Monothelitism). Bị cắt lưỡi và chặt tay phải vì sự kháng cự của ngài; được minh oan tại Công đồng Constantinôpôli III (680-681).",
+      "key_writings": [
+        { "title": "Ambigua", "description": "Giải thích thần học sâu sắc các đoạn khó trong tác phẩm của Grêgôriô thành Nazianzô và Ngụy-Điônysiô." },
+        { "title": "Cuộc Tranh Luận với Pyrrhô", "description": "Cuộc tranh luận chính thức được ghi lại, bênh vực thuyết nhị chí." },
+        { "title": "Các Chương Về Đức Ái", "description": "Tác phẩm thiêng liêng dễ tiếp cận hơn." }
+      ],
+      "key_quote": { "text": "Người yêu mến Thiên Chúa không thể không yêu thương mọi người như chính mình.", "citation": "Các Chương Về Đức Ái, I.13" },
+      "controversy_councils": "Nhân vật trung tâm trong cuộc tranh cãi về thuyết nhất chí; bị hành hạ thể xác vì sự kháng cự của ngài. Giáo lý của ngài được minh oan tại Công đồng Constantinôpôli III (680-681).",
+      "martyrdom": "Qua đời không lâu sau khi bị hành hạ và lưu đày đến Lazica năm 662.",
+      "feast_day": "13 tháng 8 (Tây phương); 21 tháng 1 (Đông phương)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Vì sao sự chính xác về Kitô học lại quan trọng đến thế", "text": "Sự sẵn lòng chịu hành hạ để bảo vệ hai ý chí trọn vẹn của Đức Kitô là chứng từ sống động cho thấy vì sao sự chính xác về giáo lý lại đáng để chịu đau khổ: một Đức Kitô không có ý chí nhân loại thật sự thì không thể dâng lên sự vâng phục nhân loại tự do cho Thiên Chúa thay cho chúng ta." },
+        { "topic": "Thẩm quyền Giáo hội đứng vững trước quyền lực chính trị", "text": "Trường hợp của Maximô, cùng với Thánh Giáo hoàng Martinô I, cho thấy Giáo hội đã đứng vững trước quyền lực của chính hoàng đế Rôma Kitô giáo khi giáo lý cốt lõi bị đe dọa." }
+      ]
+    },
+    {
+      "id": 30,
+      "full_name": "Gioan thành Đamas",
+      "nickname": "\"Chrysorrhoas\" (\"Dòng Suối Vàng\")",
+      "birth_year": "khoảng năm 675/676",
+      "death_year": "4 tháng 12, năm 749",
+      "era": "Giáo phụ cuối thời — theo truyền thống là vị Giáo Phụ cuối cùng",
+      "region_see": "Đamas (dưới quyền cai trị Hồi giáo Umayyad); sau đó đan viện Mar Saba gần Giêrusalem",
+      "role": "Đan sĩ và linh mục tại đan viện Mar Saba",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Xuất thân từ một gia đình Kitô hữu Đamas có nhiều thế hệ phục vụ trong chính quyền Umayyad.",
+      "known_for": "Theo truyền thống, là vị Giáo Phụ cuối cùng của Hội Thánh. Là người bảo vệ thần học hàng đầu cho việc tôn kính ảnh tượng thánh trong cuộc tranh luận về Bài Trừ Thánh Tượng của Byzantine; lập trường của ngài được minh oan tại Công đồng Nixêa II (787).",
+      "key_writings": [
+        { "title": "Ngọn Nguồn Tri Thức (Pege Gnoseos)", "description": "Bộ tổng luận ba phần bao gồm triết học, các lạc giáo, và thần học có hệ thống." },
+        { "title": "Ba Luận Văn Về Các Ảnh Tượng Thánh", "description": "Bản bênh vực chính của ngài cho việc tôn kính ảnh tượng chống lại phong trào Bài Trừ Thánh Tượng." }
+      ],
+      "key_quote": { "text": "Tôi không thờ lạy vật chất, tôi thờ lạy Thiên Chúa của vật chất, Đấng đã trở nên vật chất vì tôi... và qua vật chất đã thực hiện ơn cứu độ cho tôi.", "citation": "Về Các Ảnh Tượng Thánh, I.16" },
+      "controversy_councils": "Cuộc tranh luận về Bài Trừ Thánh Tượng — trình bày sự phân biệt lâu bền giữa latria (sự thờ phượng chỉ dành cho Thiên Chúa) và dulia/proskynesis (sự tôn kính dành cho ảnh tượng, hài cốt, và các thánh). Lập trường của ngài được minh oan tại Công đồng Nixêa II (787).",
+      "martyrdom": "Qua đời bình an tại đan viện Mar Saba, ngày 4 tháng 12 năm 749.",
+      "feast_day": "4 tháng 12",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        { "topic": "Vì sao ảnh tượng và hài cốt không phải là ngẫu tượng", "text": "Sự phân biệt latria/dulia — rằng người Công giáo tôn kính ảnh tượng, hài cốt và các thánh, nhưng chỉ thờ phượng một mình Thiên Chúa — là câu trả lời kinh điển cho các cáo buộc thờ ngẫu tượng." },
+        { "topic": "Vật chất và Mầu nhiệm Nhập Thể", "text": "Việc tôn kính ảnh tượng thánh có thể thực hiện được chính vì Thiên Chúa đã mang lấy vật chất thật sự trong Mầu Nhiệm Nhập Thể, gắn kết trực tiếp việc tôn kính ảnh tượng với chính giáo lý Nhập Thể." }
+      ]
+    }
+  ]
+}

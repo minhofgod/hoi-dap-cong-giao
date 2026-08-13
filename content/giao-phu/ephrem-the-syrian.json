@@ -1,0 +1,253 @@
+{
+  "no": 14,
+  "slug": "ephrem-the-syrian",
+  "era": "nicene",
+  "name": {
+    "vi": "Ephrem người Syria",
+    "en": "Ephrem the Syrian"
+  },
+  "role": {
+    "vi": "Phó tế; từ chối chức linh mục/giám mục",
+    "en": "Deacon; declined priesthood/episcopate"
+  },
+  "dates": {
+    "display": "c. 306 — 373",
+    "born": 306,
+    "died": 373
+  },
+  "quote": {
+    "vi": "Chỉ mình Ngài và Mẹ Ngài đẹp hơn mọi kẻ khác: vì nơi Ngài không có vết nhơ, và nơi Mẹ Ngài cũng không có tì ố nào.",
+    "en": "You alone and your Mother are more beautiful than any others: for there is no blemish in you, nor any stain upon your Mother.",
+    "source": {
+      "vi": "Các Thánh Ca Nisibê, 27",
+      "en": "Nisibene Hymns, 27"
+    }
+  },
+  "life": [
+    {
+      "vi": "Liên hệ với Thánh Giacôbê thành Nisibis, giám mục của ngài. Giảng dạy tại Trường Nisibis.",
+      "en": "Associated with St. Jacob of Nisibis, his bishop. Taught at the School of Nisibis."
+    },
+    {
+      "vi": "Nhà thơ-thần học lớn nhất của Giáo hội nói tiếng Syriac. Viết hơn 400 bài thánh ca còn lưu lại chống lạc giáo qua thơ ca. Là một trong những chứng từ sớm nhất và phong phú nhất về lòng sùng kính Đức Mẹ trong thời các Giáo Phụ.",
+      "en": "The greatest poet-theologian of the Syriac-speaking Church. Wrote over 400 surviving hymns combating heresy through sung verse. Among the richest early expressions of devotion to Mary."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 306",
+        "en": "c. 306 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "năm 373",
+        "en": "373 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Nisibis, sau đó Êđessa, vùng nói tiếng Syriac (Lưỡng Hà)",
+        "en": "Nisibis, then Edessa, Syriac-speaking Mesopotamia"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "9 tháng 6",
+        "en": "June 9"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "4 tác phẩm",
+        "en": "4 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Các Thánh Ca Về Giáng Sinh",
+        "en": "Hymns on the Nativity"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Các Thánh Ca Chống Lạc Giáo",
+        "en": "Hymns Against Heresies"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Các Thánh Ca Về Thiên Đàng",
+        "en": "Hymns on Paradise"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Các Thánh Ca Về Đức Tin",
+        "en": "Hymns on the Faith"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Ephrem đã sống phần lớn cuộc đời làm việc của mình tại Nisibis, một thành phố biên giới La Mã trên đường ranh giới với Ba Tư, phục vụ với tư cách phó tế và giáo lý viên dưới sự kế nhiệm nhanh chóng của nhiều giám mục, bắt đầu với Giacôbê thành Nisibis, một trong những giám mục đã tham dự Công Đồng Nixêa năm 325. Nisibis bị vua Ba Tư Shapur II vây hãm ba lần riêng biệt trong thời gian Ephrem ở đó — vào các năm 338, 346, và 350 — và những thánh ca sớm nhất có thể xác định niên đại của ngài, chu kỳ thánh ca Nisibene, đáp lại trực tiếp các cuộc vây hãm này, có lúc ví thành phố bị bao vây như Con Tàu của Nôê vượt qua trận Đại Hồng Thủy. Nền hòa bình cuối cùng sụp đổ đối với cá nhân Ephrem vào năm 363, khi hoàng đế Juliano tử trận trong chiến dịch chống Ba Tư và hiệp ước nhục nhã sau đó nhượng hẳn Nisibis cho Shapur, với một trong những điều khoản rõ ràng của nó buộc toàn bộ dân số Kitô giáo phải rời khỏi thành phố. Ephrem, có lẽ khi đó đã ngoài năm mươi, trở thành người tị nạn cùng với cộng đoàn của mình và định cư lại cách đó chừng một trăm dặm về phía tây, tại Êđessa, nơi ngài trải qua thập kỷ cuối cùng của cuộc đời.",
+        "en": "Ephrem spent most of his working life at Nisibis, a Roman frontier city on the Persian border, serving as a deacon and teacher under a rapid succession of bishops beginning with Jacob of Nisibis, one of the bishops who had attended the Council of Nicaea in 325. Nisibis was besieged by the Persian king Shapur II three separate times during Ephrem's tenure there — in 338, 346, and 350 — and his earliest datable hymns, the Nisibene cycle, respond directly to these sieges, at one point comparing the beleaguered city to Noah's Ark riding out a flood. The peace finally collapsed for Ephrem personally in 363, when the emperor Julian was killed campaigning against Persia and the humiliating treaty that followed ceded Nisibis outright to Shapur, one of its explicit terms requiring the entire Christian population to leave the city. Ephrem, probably already in his late fifties, became a refugee along with his community and resettled roughly a hundred miles west in Edessa, where he spent the final decade of his life."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Những phát biểu tự thuật đích thực từ chính Ephrem cực kỳ hiếm hoi — hầu như mọi điều được biết đến rộng rãi về cuộc đời ngài đều đến từ các tiểu sử Hy Lạp và Syriac muộn hơn, thường không đáng tin cậy, chứ không phải từ chính tay ngài. Một trong số rất ít ngoại lệ là khổ thơ kết của Thánh Ca 26 Chống Lạc Giáo của ngài, nơi ngài viết: \"Hai điều này thuộc về Chúa chúng ta: thời điểm tôi phải bước vào thế giới được tạo dựng và khi nào việc tôi rời khỏi nó sẽ có ích. Tôi sinh ra trên con đường chân lý, dù thời thơ ấu tôi chưa ý thức được điều đó; nhưng một khi tôi ý thức được, tôi đã lãnh nhận nó trong lò lửa.\" \"Lò lửa\" là một hình ảnh tiêu chuẩn để chỉ phép Rửa trong truyền thống rửa tội Syriac (giếng rửa tội như \"lò lửa\" nơi hình ảnh Ađam được đổi mới), vì vậy những dòng này nên được hiểu là Ephrem đang nói rằng ngài sinh ra trong một gia đình Kitô giáo nhưng chỉ thực sự chiếm hữu đức tin một cách ý thức khi chính ngài chịu phép Rửa.",
+        "en": "Genuine autobiographical statements from Ephrem himself are extremely rare — almost everything popularly known about his life comes from later, often unreliable, Greek and Syriac biographies rather than his own hand. One of the very few exceptions is a closing stanza of his Hymn 26 Against the Heresies, where he writes: \"These two things belong to our Lord: the time when I was to enter into the created world and when it will be beneficial for me to leave it. I was born in the path of truth, even though my childhood was unaware; but once I grew aware I acquired it in the furnace.\" The \"furnace\" is a standard image for baptism in the Syriac baptismal tradition (the font as the \"furnace\" in which Adam's image is renewed), so the lines are best read as Ephrem saying he was born to Christian parents but only made the faith consciously his own at his own baptism."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Một trong những chiến lược thần học nổi bật nhất của Ephrem mang tính âm nhạc hơn là biện luận: theo sử gia Giáo Hội Sôzômênô, một giáo sư đối thủ tên Bardaisan cùng con trai ông là Harmoniô đã đặt lời thơ Syriac bình dân theo những nhịp điệu và giai điệu dễ nhớ từ nhiều thập kỷ trước để truyền bá những quan điểm mà Giáo Hội Nixêa coi là lạc giáo, và những người nói tiếng Syriac bình thường rất thích hát chúng. Thay vì đơn thuần lên án những bài hát đó, Ephrem đã nghiên cứu kỹ lưỡng các khuôn nhịp của Harmoniô và sáng tác những thánh ca mới của riêng mình, đúng chính thống về giáo lý nhưng theo cùng những nhịp điệu bình dân đó, và trong một số trường hợp, cùng những giai điệu quen thuộc — cố ý giành lại chính phương tiện mà đối thủ của ngài đã sử dụng hiệu quả đến vậy. Trình thuật của Sôzômênô về giai thoại này không hoàn toàn thoát khỏi sự tô điểm huyền thoại (nó cũng khẳng định, gần như chắc chắn sai, rằng chính thơ Syriac chỉ bắt đầu với Harmoniô), nhưng cốt lõi của câu chuyện — rằng các thánh ca của Ephrem được sáng tác cụ thể để hát át các phong trào thần học đối lập hơn là chỉ đơn thuần biện luận thắng họ — được coi là đáng tin cậy về mặt lịch sử và giúp giải thích vì sao thánh ca, chứ không phải các luận văn văn xuôi, đã trở thành phương tiện thần học chính của ngài.",
+        "en": "One of Ephrem's most striking theological strategies was musical rather than argumentative: according to the church historian Sozomen, a rival teacher named Bardaisan and his son Harmonius had already set popular Syriac verse to catchy meters and tunes decades earlier to spread views the Nicene Church regarded as unorthodox, and ordinary Syriac speakers loved singing them. Rather than simply condemning the songs, Ephrem studied Harmonius's metrical patterns closely and composed new hymns of his own, doctrinally orthodox but set to the same popular meters and, in some cases, the same familiar tunes — deliberately reclaiming the medium his opponents had used so effectively. Sozomen's account of this episode is not free of legendary polish (it also claims, almost certainly wrongly, that Syriac verse itself only began with Harmonius), but the substance of the story — that Ephrem's hymns were composed specifically to out-sing rival theological movements rather than simply out-argue them — is treated as historically credible and helps explain why hymnody, not prose treatises, became his primary theological medium."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Ephrem không tử đạo, và truyền thống cho rằng ngài qua đời vào tháng 6 năm 373 sau khi nhiễm bệnh dịch trong lúc đích thân tổ chức cứu trợ nạn đói tại Êđessa năm trước đó — một cái chết vì lòng bác ái anh hùng chứ không phải vì bách hại, như thẻ cơ bản đã ghi nhận. Học thuật Syriac hiện đại, dẫn đầu bởi Sebastian Brock, coi trình thuật cụ thể này về việc cứu trợ nạn đói là có khả năng đáng tin cậy, vì nó được lưu giữ độc lập trong cuốn Lausiac History bằng tiếng Hy Lạp sớm của Palladiô và phù hợp với niên biểu đã biết về một nạn đói khu vực có thật vào năm 372–373. Điều mà cùng nền học thuật đó đánh dấu là kém đáng tin cậy hơn nhiều là một số tuyên bố phổ biến khác về cuộc đời Ephrem lưu hành song song với nó: rằng ngài chính thức là một đan sĩ (gần như chắc chắn thay vào đó ngài thuộc về một truyền thống khổ hạnh Syriac cổ xưa hơn, gồm cả người có gia đình sống khiết tịnh, khác biệt với lối đan tu kiểu Ai Cập), rằng ngài đã đến Cappadocia để gặp trực tiếp Basiliô Cả (một cuộc gặp mà chính niên biểu đã xác định của Basiliô khiến trở nên bất khả về mặt thời gian), và rằng có lần ngài giả điên ngoài chợ cụ thể để tránh bị phong chức giám mục một cách cưỡng ép — một câu chuyện sống động mà các sử gia về sau như Sôzômênô có ghi lại, nhưng nhiều khả năng nhất bắt đầu như một lời giải thích được bịa ra về sau để lý giải vì sao một người có tầm vóc rõ ràng như Ephrem lại không bao giờ được thăng lên trên cấp bậc phó tế.",
+        "en": "Ephrem was not martyred, and tradition holds that he died in June 373 after contracting the plague while personally organizing famine relief in Edessa the previous year — a death of heroic charity rather than persecution, as the base card already notes. Modern Syriac scholarship, led by Sebastian Brock, treats this specific account of the famine relief as probably reliable, since it is preserved independently in the early Greek Lausiac History of Palladius and fits the known chronology of a genuine regional famine in 372–373. What the same scholarship flags as considerably less reliable are several other popular claims about Ephrem's life that circulate alongside it: that he was formally a monk (he almost certainly belonged instead to an older, married-and-celibate Syriac ascetic tradition distinct from Egyptian-style monasticism), that he traveled to Cappadocia to meet Basil the Great in person (a meeting Basil's own dated biography makes chronologically impossible), and that he once feigned madness in the marketplace specifically to avoid being forcibly consecrated a bishop — a vivid story later historians such as Sozomen record, but which most likely began as a later invented explanation for why a man of Ephrem's obvious stature never rose above the rank of deacon."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Danh tiếng của chính Ephrem lan rộng đến mức việc truyền tải chính xác các tác phẩm Syriac thực sự của ngài không theo kịp: trong phần lớn lịch sử Kitô giáo, độc giả trong thế giới nói tiếng Hy Lạp và Latinh biết đến ngài chủ yếu qua một khối lượng lớn văn bản tiếng Hy Lạp lưu hành dưới tên ngài — các học giả hiện đại gọi bộ sưu tập này là \"Ephrem Graecus\" — mà nghiên cứu gần đây đã cho thấy phần lớn áp đảo không hề là bản dịch các thánh ca Syriac đích thực của ngài, mà là những sáng tác Byzantine riêng biệt, thường vô danh, ra đời sau này chỉ đơn thuần mượn danh tiếng của ngài. Chỉ đến giữa thế kỷ XX, qua các ấn bản phê bình kiên nhẫn của học giả người Bỉ Dom Edmund Beck làm việc trực tiếp từ các bản chép tay Syriac sớm nhất, các văn bản đáng tin cậy của Ephrem đích thực mới trở nên khả dụng cho giới học thuật, có nghĩa là Ephrem thực sự được dịch trong các ấn bản hiện đại như ấn bản này chỉ mới được độc giả tiếng Anh tiếp cận trong vài thập kỷ, dù \"Ephrem\" dưới hình thức nào đó đã liên tục được đọc khắp Kitô giáo suốt hơn mười lăm thế kỷ.",
+        "en": "Ephrem's own fame spread so far beyond what accurate transmission of his actual Syriac works could keep pace with that, for most of Christian history, readers in the Greek- and Latin-speaking world knew him mainly through a large body of texts in Greek circulating under his name — modern scholars call this collection \"Ephrem Graecus\" — which recent research has shown are overwhelmingly not translations of his genuine Syriac hymns at all, but separate, often anonymous, later Byzantine compositions that simply borrowed his prestige. It was only in the mid-twentieth century, through the patient critical editions of the Belgian scholar Dom Edmund Beck working directly from the earliest Syriac manuscripts, that reliable texts of the authentic Ephrem became available to scholarship at all, meaning the real Ephrem translated in modern editions like this one has only been accessible to English readers for a few decades, even though \"Ephrem\" in some form had been continuously read across Christendom for over fifteen centuries."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Sebastian Brock (dịch), St. Ephrem the Syrian: Hymns on Paradise (St Vladimir's Seminary Press, 1990) — dẫn nhập, bản dịch và chú giải bởi học giả hàng đầu hiện đại về kho tác phẩm đích thực của Ephrem. Kathleen E. McVey (dịch), Ephrem the Syrian: Hymns (bộ Classics of Western Spirituality, Paulist Press, 1989), bao gồm các chu kỳ thánh ca Giáng Sinh, Nisibene, và một số chu kỳ khác. Toàn văn một số chu kỳ trong bản dịch Nicene and Post-Nicene Fathers cũ hơn miễn phí tại newadvent.org, dù độc giả nên lưu ý rằng một phần tài liệu cũ đó bắt nguồn từ kho \"Ephrem Graecus\" không đáng tin cậy chứ không phải các thánh ca Syriac đích thực.",
+        "en": "Sebastian Brock, trans., St. Ephrem the Syrian: Hymns on Paradise (St Vladimir's Seminary Press, 1990) — introduction, translation, and notes by the leading modern authority on Ephrem's authentic corpus. Kathleen E. McVey, trans., Ephrem the Syrian: Hymns (Classics of Western Spirituality, Paulist Press, 1989), covering the Nativity, Nisibene, and other hymn cycles. Full text of several cycles in the older Nicene and Post-Nicene Fathers translation is freely available at newadvent.org, though readers should be aware some of that older material derives from the unreliable \"Ephrem Graecus\" corpus rather than the authentic Syriac hymns."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Ephrem dạy gì về Lòng sùng kính Đức Mẹ thời sơ khai?",
+        "en": "What does Ephrem teach about Early Marian devotion?"
+      },
+      "a": {
+        "vi": "Các thánh ca của Ephrem ca ngợi Đức Mẹ là \"vô tì tích\" là một trong những chứng từ sớm nhất và phong phú nhất về lòng sùng kính Đức Mẹ trong thời các Giáo Phụ.",
+        "en": "Ephrem's hymns praising Mary as uniquely 'spotless' are among the earliest and richest witnesses to Marian devotion in the patristic era."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Ephrem dạy gì về Phụng vụ như phương tiện truyền tải giáo lý?",
+        "en": "What does Ephrem teach about Liturgy as a vehicle for doctrine?"
+      },
+      "a": {
+        "vi": "Cách tiếp cận của Ephrem — dạy giáo lý chính thống qua thánh ca thay vì chỉ qua lý luận — minh họa nguyên tắc \"luật cầu nguyện là luật đức tin\" (lex orandi, lex credendi).",
+        "en": "Ephrem's approach — teaching orthodox belief through hymnody rather than argument alone — illustrates lex orandi, lex credendi."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/ephrem-the-syrian.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

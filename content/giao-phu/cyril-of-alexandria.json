@@ -1,0 +1,237 @@
+{
+  "no": 25,
+  "slug": "cyril-of-alexandria",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Cyrillô thành Alexandria",
+    "en": "Cyril of Alexandria"
+  },
+  "role": {
+    "vi": "Giám mục Alexandria",
+    "en": "Bishop of Alexandria"
+  },
+  "dates": {
+    "display": "c. 375 — 444",
+    "born": 375,
+    "died": 444
+  },
+  "quote": {
+    "vi": "Nếu ai không tuyên xưng rằng Đấng Emmanuel thật sự là Thiên Chúa, và do đó Đức Trinh Nữ là Mẹ Thiên Chúa... thì bị vạ tuyệt thông.",
+    "en": "If anyone does not confess that the Emmanuel is very God, and that therefore the Holy Virgin is Theotokos... let him be anathema.",
+    "source": {
+      "vi": "Chương Kết Án Thứ Nhất chống Nestôriô",
+      "en": "First Anathema Against Nestorius"
+    }
+  },
+  "life": [
+    {
+      "vi": "Kế vị người chú, Giám mục Thêôphilô thành Alexandria, năm 412.",
+      "en": "Succeeded his uncle, Bishop Theophilus of Alexandria, in 412 AD."
+    },
+    {
+      "vi": "Người bảo vệ chính cho sự hợp nhất Ngôi Vị Đức Kitô chống lại Nestôriô. Triệu tập và chủ trì Công đồng Êphêsô (431), tuyên xưng Đức Maria là \"Theotokos\" (Mẹ Thiên Chúa).",
+      "en": "The chief defender of the unity of Christ's person against Nestorius. Convened and dominated the Council of Ephesus (431 AD), which affirmed Mary's title as Theotokos."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 375/376",
+        "en": "c. 375/376 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "27 tháng 6, năm 444",
+        "en": "June 27, 444 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Alexandria, Ai Cập",
+        "en": "Alexandria, Egypt"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "27 tháng 6",
+        "en": "June 27"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Mười Hai Chương Kết Án Nestôriô",
+        "en": "The Twelve Anathemas Against Nestorius"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Thư Thứ Hai và Thứ Ba Gửi Nestôriô",
+        "en": "Second and Third Letters to Nestorius"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Khi kế nhiệm chú mình là Thêôphilô làm Giám mục Alexandria năm 412, Cyrilô thừa hưởng không chỉ một tòa giám mục — ngài thừa hưởng một thành phố đã sẵn sàng cho xung đột. Alexandria đầu thế kỷ V là một hỗn hợp dễ bùng nổ gồm một cộng đồng Do Thái lớn, lâu đời; một nền văn hóa triết học ngoại giáo đang thu hẹp nhưng vẫn còn uy tín trí thức, tập trung quanh các định chế như Viện Bảo Tàng (Museum); một chính quyền dân sự đế quốc dưới quyền tổng trấn Orestê, mà tòa giám mục Alexandria đã có lịch sử lâu dài tranh giành quyền lực địa phương; và các Parabalani, một hội đoàn giáo dân Kitô hữu được chính thức công nhận, ban đầu tổ chức để chăm sóc người bệnh trong các đợt dịch, nhưng đến thời Cyrilô cũng đóng vai trò như một lực lượng cưỡng chế không chính thức, đôi khi bạo lực, mà vị giám mục có thể huy động. Trong những năm đầu làm giám mục của Cyrilô, sự bất ổn này đã tạo ra hai biến cố thực sự đen tối cần được nêu rõ thẳng thắn: việc trục xuất cưỡng bức cộng đồng Do Thái ở Alexandria sau các cuộc bạo loạn Kitô giáo-Do Thái năm 414-415, và, vào tháng 3 năm 415, vụ sát hại nhà triết học và toán học ngoại giáo Hypatia bởi một đám đông Kitô hữu được nhiều người tin là có sự tham gia của các Parabalani, những kẻ đã lôi bà ra khỏi xe ngựa, lột trần và giết chết bà trong một nhà thờ — một hành động bạo lực chính trị và tôn giáo xảy ra ngay trong, và có thể xem là phát sinh từ, bầu không khí xung đột dân sự giữa Cyrilô và Orestê đã âm ỉ nhiều tháng trước đó (được bàn kỹ hơn, với sự tinh tế cần thiết về trách nhiệm của chính Cyrilô, ở mục Tử Đạo dưới đây).",
+        "en": "Cyril inherited more than a see when he succeeded his uncle Theophilus as Bishop of Alexandria in 412 — he inherited a city already primed for conflict. Alexandria in the early 5th century was a combustible mix of a large, established Jewish community; a shrinking but still intellectually prestigious pagan philosophical culture centered on institutions like the Museum; an imperial civil administration under the prefect Orestes, with whom the see of Alexandria had a long history of contesting local power; and the Parabalani, an officially recognized order of Christian laymen originally organized to care for the sick during plagues, who by Cyril's time also served as an informal, sometimes violent enforcement arm the bishop could call on. Within Cyril's first years as bishop, this volatility produced two genuinely dark episodes worth naming plainly: the forced expulsion of Alexandria's Jewish population after violent Christian–Jewish rioting in 414–415, and, in March 415, the murder of the pagan philosopher and mathematician Hypatia by a mob of Christians widely believed to include Parabalani, who dragged her from her carriage, stripped her, and killed her in a church — an act of political and religious violence that occurred squarely within, and arguably grew out of, the atmosphere of civic conflict between Cyril and Orestes that had been building for months (discussed further, with the necessary nuance about Cyril's own responsibility, in the Martyrdom section below)."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Ngoài các lời tuyên án đã trích dẫn ở trên, phát biểu tích cực rõ ràng nhất của Cyrilô về Kitô học chính thống đến từ Thư Thứ Hai gửi Nestôriô (đầu năm 430), văn kiện sau này được đọc trước và chính thức thông qua tại Công Đồng Êphêsô: \"Chúng tôi không nói rằng bản tính của Ngôi Lời đã bị thay đổi và trở thành xác phàm... mà đúng hơn là Ngôi Lời, sau khi tự kết hợp với chính mình xác phàm được linh hồn có lý trí làm cho sống động, đã trở thành người theo một cách khôn tả và không thể hiểu thấu... vì hai bản tính được kết hợp lại trong một sự hợp nhất chân thật, có một Đức Kitô và một Con Duy Nhất từ cả hai; vì sự khác biệt giữa các bản tính không bị xóa bỏ bởi sự hợp nhất, mà đúng hơn thần tính và nhân tính hoàn tất nơi chúng ta một Chúa Giêsu Kitô duy nhất qua sự hợp nhất khôn tả và không thể diễn đạt của chúng.\" Đoạn văn này đáng được trích dẫn đầy đủ vì nó cho thấy Cyrilô ở trạng thái cẩn trọng nhất của mình: khẳng định một sự hợp nhất chân thật mà không làm sụp đổ hai bản tính vào nhau hay xóa bỏ sự khác biệt của chúng — cùng một công thức, được tinh chỉnh thành ngôn ngữ kỹ thuật hơn, mà Công Đồng Calcêđônia sẽ dựa vào hai mươi năm sau, ngay cả khi điều chỉnh một số thuật ngữ lỏng lẻo hơn của trường phái ngài.",
+        "en": "Beyond the anathemas already quoted above, Cyril's clearest positive statement of orthodox Christology comes from his Second Letter to Nestorius (early 430), the document later read into and formally adopted by the Council of Ephesus itself: \"We do not say that the nature of the Word was changed and became flesh... but rather that the Word, having personally united to himself flesh animated by a rational soul, did in an ineffable and inconceivable manner become man... for the two natures being brought together in a true union, there is of both one Christ and one Son; for the difference of the natures is not taken away by the union, but rather the divinity and the humanity make perfect for us the one Lord Jesus Christ by their ineffable and inexpressible union.\" The passage is worth quoting at length because it shows Cyril at his most careful: insisting on real union without collapsing the two natures into each other or erasing their distinction — the same formula, refined into more technical language, that Chalcedon would rely on twenty years later even while correcting some of his school's looser terminology."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Xác tín thần học trung tâm của Cyrilô là Đức Kitô phải được hiểu như một chủ thể duy nhất, không phân chia — một ngôi vị (hypostasis), một \"Tôi\" hành động duy nhất — vừa hoàn toàn là Thiên Chúa vừa hoàn toàn là người, đối lập với ngôn ngữ của Nestôriô (hay ít nhất là ngôn ngữ mà Cyrilô hiểu Nestôriô đang sử dụng) về hai chủ thể riêng biệt, thần linh và nhân loại, được kết hợp lỏng lẻo thay vì thực sự hợp nhất; theo cách đọc của Cyrilô, loại kết hợp lỏng lẻo đó không thể biện minh cho việc gọi Đức Maria là Theotokos, vì điều đó có nghĩa là bà chỉ sinh ra \"nửa\" nhân loại của một sự cộng tác chứ không phải chính Thiên Chúa. Một điểm phức tạp thực sự thú vị cần được nêu ở đây: công thức kỹ thuật ưa thích của Cyrilô để diễn tả sự hợp nhất này, \"mia physis tou theou logou sesarkomene\" (\"một bản tính nhập thể duy nhất của Thiên Chúa Ngôi Lời\"), mà ngài tin là đang trích dẫn từ nhà vô địch Nixêa vĩ đại Athanasiô, thực ra được rút từ một tác phẩm thực sự do Apollinariô thành Laodicea viết — một nhà thần học mà chính Kitô học của ông đã bị lên án là lạc giáo nhiều thập kỷ trước đó vì thực chất phủ nhận Đức Kitô có một linh hồn nhân loại trọn vẹn. Cyrilô sử dụng cụm từ này với thiện chí, không hay biết về sự gán nhầm tác giả, và thần học rộng hơn của ngài không mang tính Apollinarian; nhưng nguồn gốc gây tranh cãi của công thức này đã trở thành một trong những điểm nhức nhối kỹ thuật thực sự của thỏa thuận Calcêđônia sau này, vì những ai bác bỏ ngôn ngữ \"hai bản tính\" của Calcêđônia để theo cụm từ \"một bản tính\" của Cyrilô — truyền thống nay thường được gọi là Miaphysite, hiện vẫn được đại diện bởi các Giáo Hội Chính Thống Côptô, Syriac, Arménia và Êthiôpia — đã, mà không hoàn toàn nhận ra, bảo vệ một cụm từ có gốc gác văn bản kém vững chắc hơn nhiều so với họ tin tưởng.",
+        "en": "Cyril's central theological conviction was that Christ must be understood as a single, undivided subject — one hypostasis, one acting \"I\" — who is simultaneously and completely God and man, against Nestorius's language (or at least the language Cyril understood Nestorius to be using) of two distinct subjects, divine and human, loosely conjoined rather than truly united; on Cyril's reading, that kind of loose conjunction couldn't support Mary being called Theotokos, since it would mean she gave birth only to the human \"half\" of a partnership rather than to God himself. A genuinely interesting complication belongs here: Cyril's favorite technical formula for expressing this unity, \"mia physis tou theou logou sesarkomene\" (\"one incarnate nature of God the Word\"), which he believed he was quoting from the great Nicene champion Athanasius, was in fact drawn from a work actually written by Apollinarius of Laodicea — a theologian whose own Christology had been condemned as heretical decades earlier for effectively denying Christ a complete human soul. Cyril used the phrase in good faith, unaware of the misattribution, and his broader theology is not Apollinarian; but the formula's disputed origin became one of the genuine technical sore points of the later Chalcedonian settlement, since those who rejected Chalcedon's \"two natures\" language in favor of Cyril's \"one nature\" phrase — the tradition now generally called Miaphysite, still represented today by the Coptic, Syriac, Armenian, and Ethiopian Orthodox churches — were, without fully realizing it, defending a phrase whose textual pedigree was considerably shakier than they believed."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Cyrilô không phải là một vị tử đạo; ngài qua đời vì nguyên nhân tự nhiên tại Alexandria ngày 27 tháng 6 năm 444, sau 32 năm làm giám mục, và không có nguồn cổ đại nào gợi ý điều gì khác ngoài một cái chết bình an vì bệnh tật hoặc tuổi già — đáng chú ý là ngay cả sử gia Socrates Scholasticus, người vốn phê phán cách hành xử của Cyrilô, cũng ghi lại cái chết của ngài mà không có sự thù nghịch. Sự trung thực khó khăn hơn mà mục này cần thực hiện liên quan đến Hypatia, vì trình bày về Cyrilô mà không đề cập đến điều này một cách thẳng thắn sẽ là một sự thiếu sót thực sự. Điều mà học thuật hiện đại chính thống thực sự kết luận, chứ không phải một trong hai phiên bản cực đoan đôi khi được lặp lại trên mạng, là thế này: không có nguồn cổ đại nào khẳng định Cyrilô đích thân ra lệnh giết người, và không có sử gia nào đưa ra được bằng chứng trực tiếp rằng ngài đã làm vậy; tường thuật đương thời của Socrates Scholasticus ghi lại rằng một tin đồn đổ lỗi cho Hypatia vì cản trở việc hòa giải giữa Cyrilô và Orestê đã lan truyền trong số những người ủng hộ Cyrilô, và chính tin đồn này đã kích động đám đông, mà không nói rằng chính Cyrilô đã kích động nó. Đồng thời, Cyrilô mang một trách nhiệm thực sự, dù gián tiếp hơn, không nên bị giảm nhẹ: chính bầu không khí đối đầu kình địch với Orestê mà ngài đã đích thân làm leo thang trong những tháng trước đó, việc chính ngài sử dụng các Parabalani và những người ủng hộ khác như công cụ gây áp lực trong các tranh chấp dân sự, và việc ngài không điều tra hay kỷ luật bất kỳ ai sau đó vì một vụ giết người do những kẻ có liên hệ chặt chẽ với chính phe của ngài thực hiện, trong một nhà thờ, tất cả cộng lại khiến cách đọc \"chỉ là một đám đông không kiểm soát được, chẳng liên quan gì đến vị giám mục\" trở nên quá rộng lượng so với bằng chứng. Lập trường trung thực, và cũng là lập trường mà những sử gia hiện đại cẩn trọng nhất thực sự nắm giữ, nằm giữa sự minh oan hoàn toàn và trách nhiệm trực tiếp: Cyrilô không ra lệnh giết Hypatia, nhưng ngài đã xây dựng và sử dụng chính loại bạo lực tôn giáo được huy động vì mục đích chính trị đã khiến cái chết của bà trở nên khả thi, và ngài không phải đối mặt với bất kỳ hậu quả thực sự nào, từ cả Giáo Hội lẫn nhà nước, vì bầu không khí mà chính cách hành xử của ngài đã góp phần tạo ra.",
+        "en": "Cyril was not martyred; he died of natural causes in Alexandria on June 27, 444, after a 32-year episcopate, and no ancient source suggests anything but a peaceful death by illness or old age — worth noting, even the historian Socrates Scholasticus, who is otherwise critical of Cyril's conduct, records his death without hostility. The harder honesty this section owes concerns Hypatia, since presenting Cyril without addressing it plainly would be a real omission. What mainstream modern scholarship actually concludes, rather than either extreme version sometimes repeated online, is this: no ancient source claims Cyril personally ordered the murder, and no historian has produced direct evidence that he did; the contemporary account by Socrates Scholasticus reports that a rumor blaming Hypatia for blocking reconciliation between Cyril and Orestes circulated among Cyril's supporters and that this rumor is what incited the mob, without stating that Cyril incited it himself. At the same time, Cyril bears real, if less direct, responsibility that shouldn't be minimized: it was the atmosphere of confrontational rivalry with Orestes that he had personally escalated in the months before, his own use of the Parabalani and other supporters as instruments of pressure in civic disputes, and his failure afterward to investigate or discipline anyone for a murder committed by people closely associated with his own faction, in a church, that together make \"just an uncontrollable mob, nothing to do with the bishop\" too generous a reading of the evidence. The honest position, and the one most careful modern historians actually hold, sits between exoneration and direct culpability: Cyril did not order Hypatia's death, but he had built and wielded exactly the kind of politically mobilized religious violence that made her death possible, and he faced no real consequence, from either the Church or the state, for the climate his own conduct had helped create."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Hai mươi năm sau khi ngài qua đời, Công Đồng Calcêđônia (451) đã đặc biệt khẳng định rằng định nghĩa mới của chính công đồng về Đức Kitô \"trong hai bản tính\" hoàn toàn phù hợp với giáo huấn của Cyrilô, chính thức đọc Thư Thứ Hai và Thư Thứ Ba của ngài gửi Nestôriô vào biên bản công đồng như những chuẩn mực có thẩm quyền của chính thống, song song với Tome của Đức Giáo Hoàng Lêô — một vinh dự khác thường cho thấy thẩm quyền của Cyrilô đã nhanh chóng trở thành nền tảng chứ không chỉ đơn thuần là ý kiến của một giám mục trong số nhiều người khác. Tuy nhiên, chính công đồng đó đã vĩnh viễn chia rẽ thế giới Kitô giáo theo những đường ranh giới có thể truy nguyên trực tiếp về từ vựng Kitô học mà Cyrilô đã tranh đấu: những ai cảm thấy ngôn ngữ \"hai bản tính\" của Calcêđônia nhượng bộ quá nhiều cho Nestôriô đã tách ra thành cái nay được gọi là truyền thống Miaphysite (ngày nay là các Giáo Hội Chính Thống Côptô, Syriac, Arménia và Êthiôpia/Êritrea), trong khi Giáo Hội Đông phương, có trụ sở tại Ba Tư, đi theo hướng ngược lại và thực chất đứng về phía Nestôriô, hình thành cái mà lịch sử gọi là Giáo Hội Nestorian và lan rộng, đáng kinh ngạc, đến tận Ấn Độ và Trung Hoa trong các thế kỷ sau đó. Chính Cyrilô được tuyên phong Tiến Sĩ Hội Thánh năm 1882, và ngài vẫn là một trong rất ít Giáo Phụ được cả Công giáo, Chính Thống Đông phương, lẫn các Giáo Hội Chính Thống Phương Đông đã tách khỏi Rôma từ Calcêđônia tôn kính như nhau — một điểm chung thẩm quyền thực sự hiếm hoi xuyên suốt một sự chia rẽ vĩnh viễn, vẫn chưa được hàn gắn, mà chính các cuộc chiến thần học của ngài đã góp phần khơi mào.",
+        "en": "Twenty years after his death, the Council of Chalcedon (451) went out of its way to affirm that its own new definition of Christ \"in two natures\" was fully compatible with Cyril's teaching, formally reading his Second and Third Letters to Nestorius into the council's proceedings as authoritative touchstones of orthodoxy alongside Pope Leo's Tome — an unusual honor that shows how quickly Cyril's authority had become foundational rather than merely one bishop's opinion among others. That same council, though, permanently split the Christian world along lines that trace directly back to the christological vocabulary Cyril had fought over: those who felt Chalcedon's \"two natures\" language conceded too much to Nestorius broke away in what's now called the Miaphysite tradition (today's Coptic, Syriac, Armenian, and Ethiopian/Eritrean Orthodox churches), while the Church of the East, based in Persia, moved the opposite direction and effectively took Nestorius's side, forming what was historically called the Nestorian Church and spreading, remarkably, as far as India and China over the following centuries. Cyril himself was declared a Doctor of the Church in 1882, and he remains one of the very few Fathers claimed with equal reverence by Catholics, Eastern Orthodox, and the Oriental Orthodox churches that Chalcedon separated from Rome — a genuinely rare point of shared authority across a permanent, still-unhealed division that his own theological battles helped set in motion."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "John Anthony McGuckin, St. Cyril of Alexandria: The Christological Controversy — Its History, Theology, and Texts (Brill, 1994; tái bản St. Vladimir's Seminary Press, 2004) — công trình nghiên cứu phê bình hiện đại chuẩn mực, kèm bản dịch các văn bản chính. Norman Russell (dịch), Cyril of Alexandria (bộ Early Church Fathers, Routledge, 2000). NPNF Series II, tập 14 (Schaff/Wace) chứa các thư từ và các lời tuyên án trung tâm của Công Đồng Êphêsô, miễn phí tại newadvent.org.",
+        "en": "John Anthony McGuckin, St. Cyril of Alexandria: The Christological Controversy — Its History, Theology, and Texts (Brill, 1994; reprinted St. Vladimir's Seminary Press, 2004) — the standard modern critical study, including translations of key texts. Norman Russell, trans., Cyril of Alexandria (Early Church Fathers series, Routledge, 2000). NPNF Series II, Vol. 14 (Schaff/Wace) contains the letters and anathemas central to the Council of Ephesus, freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Cyrillô dạy gì về Vì sao \"Mẹ Thiên Chúa\" là tước hiệu quy về Đức Kitô?",
+        "en": "What does Cyril teach about Why 'Mother of God' is Christ-centered?"
+      },
+      "a": {
+        "vi": "Tước hiệu Theotokos, được xác quyết tại Êphêsô, trước hết là để bảo vệ chân lý về Đức Kitô — bảo vệ sự thật rằng Đấng sinh ra bởi Đức Maria thực sự và trọn vẹn là Thiên Chúa — chứ không phải là việc đề cao quá mức vai trò của Đức Maria.",
+        "en": "Theotokos is primarily a Christological safeguard protecting the truth that the person born of Mary is truly, fully God — not Marian overreach."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Cyrillô dạy gì về Sự hợp nhất của Đức Kitô và Bí tích Thánh Thể?",
+        "en": "What does Cyril teach about Unity of Christ and the Eucharist?"
+      },
+      "a": {
+        "vi": "Việc Cyrillô nhấn mạnh sự hợp nhất trọn vẹn của Ngôi Vị Đức Kitô làm nền cho giáo lý Công giáo về sau rằng chính Đức Kitô trọn vẹn hiện diện thật sự trong Bí tích Thánh Thể.",
+        "en": "Cyril's insistence on the unity of Christ's person underlies later Catholic teaching that the whole Christ is truly present in the Eucharist."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/cyril-of-alexandria.jpg",
+    "medium": {
+      "vi": "Biểu tượng (icon)",
+      "en": "Icon"
+    },
+    "source": "Wikimedia Commons / Ted",
+    "license": "CC BY-SA 2.0",
+    "available": true
+  }
+}

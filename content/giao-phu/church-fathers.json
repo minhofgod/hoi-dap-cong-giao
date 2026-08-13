@@ -1,0 +1,1150 @@
+{
+  "schema_version": "1.0",
+  "source": "Church Fathers Infographic Content Set",
+  "language": "en",
+  "translation_status": "pending_vietnamese",
+  "notes": "Structured export of the 30-figure Church Fathers content set for import into external apps (e.g. the Catechism app). Each figure follows the same 16-field template used in the print infographic cards. Fields left null/empty where not applicable (e.g. no feast day for uncanonized figures). 'canonized' is false for figures not currently on the universal Catholic calendar of saints.",
+  "figures": [
+    {
+      "id": 1,
+      "chronological_order": 1,
+      "full_name": "Clement of Rome (St. Clement I)",
+      "nickname": "None widely used",
+      "birth_year": "c. 35 AD",
+      "death_year": "c. 99 AD",
+      "era": "Apostolic Father",
+      "region_see": "Rome",
+      "role": "Bishop of Rome",
+      "pope": {
+        "is_pope": true,
+        "detail": "Pope St. Clement I, traditionally the 4th Bishop of Rome (after Peter, Linus, and Cletus/Anacletus)"
+      },
+      "lineage": "Tradition and early sources (including Irenaeus) describe him as having seen and heard the Apostles Peter and Paul directly. Some later traditions identify him with the 'Clement' mentioned by St. Paul in Philippians 4:3, though this is debated.",
+      "known_for": "Author of the earliest Christian document outside the New Testament with a securely known author, the Letter to the Corinthians (c. 96 AD). As Bishop of Rome, he intervened in a dispute in the distant church of Corinth, instructing them to restore order — an early instance of Rome exercising authority beyond its own local church.",
+      "key_writings": [
+        {
+          "title": "The Letter to the Corinthians (1 Clement)",
+          "description": "His only certainly authentic surviving work, addressing a schism in the Corinthian church and grounding church order in apostolic succession."
+        }
+      ],
+      "key_quote": {
+        "text": "Our Apostles also knew, through our Lord Jesus Christ, that there would be strife over the bishop's office. For this reason... they afterwards added an appendix, to the effect that if these should fall asleep, other approved men should succeed to their ministry.",
+        "citation": "1 Clement, 44"
+      },
+      "controversy_councils": "No council involvement (predates the era of ecumenical councils); his letter addresses internal church schism in Corinth, not a doctrinal heresy.",
+      "martyrdom": "Traditionally said to have been martyred under Emperor Trajan, exiled to the Crimea and thrown into the sea with an anchor tied to his neck — though this account is later and less historically certain than his authorship of the letter.",
+      "feast_day": "November 23",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Papal / Roman authority",
+          "text": "Clement's letter is one of the earliest pieces of evidence that the church of Rome exercised authority beyond its own city within a generation of the Apostles. This predates any developed doctrine of the papacy and is frequently cited in apologetics for the antiquity of Roman primacy, though it's contested territory — best presented as suggestive early evidence rather than an airtight proof."
+        },
+        {
+          "topic": "Apostolic succession",
+          "text": "Clement explicitly grounds legitimate church leadership in an unbroken chain from Christ, to the Apostles, to bishops the Apostles appointed, to their successors — a direct, very early textual basis for the doctrine of apostolic succession."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chronological_order": 2,
+      "full_name": "Ignatius of Antioch (St. Ignatius)",
+      "nickname": "Theophorus (\"the God-Bearer\")",
+      "birth_year": "c. 35 AD",
+      "death_year": "c. 108 AD (some sources up to c. 140 AD; disputed)",
+      "era": "Apostolic Father",
+      "region_see": "Antioch, Syria",
+      "role": "3rd Bishop of Antioch",
+      "pope": {
+        "is_pope": false,
+        "detail": "Bishop of Antioch, not Rome"
+      },
+      "lineage": "Traditionally a disciple of the Apostle John, and possibly appointed bishop by St. Peter. Wrote his final letter to St. Polycarp of Smyrna, a fellow disciple of John.",
+      "known_for": "The earliest clear witness to a single-bishop (monarchical) church structure. First recorded use of the term 'Catholic Church' in his Letter to the Smyrnaeans. Wrote all seven surviving letters under armed guard while being transported to Rome for execution.",
+      "key_writings": [
+        {
+          "title": "The Seven Letters",
+          "description": "Written c. 107 AD en route to martyrdom: to the Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, and to Polycarp — addressing church unity, the Eucharist, and warnings against Docetism."
+        }
+      ],
+      "key_quote": {
+        "text": "Where Jesus Christ is, there is the Catholic Church.",
+        "citation": "Letter to the Smyrnaeans, 8:2"
+      },
+      "controversy_councils": "Strongly opposed Docetism — the belief that Christ only appeared to have a physical body and to suffer, rather than truly being human.",
+      "martyrdom": "Condemned under Emperor Trajan, transported from Antioch to Rome under armed guard, and killed by wild beasts in the arena, c. 108 AD (dates range to c. 140 AD in some sources).",
+      "feast_day": "October 17 (Western); December 20 (Eastern); February 1 (older Roman calendar, pre-1969)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Episcopal authority",
+          "text": "\"Wherever the bishop appears, there let the people be, just as wherever Jesus Christ is, there is the Catholic Church\" (Letter to the Smyrnaeans, 8:2). Strong early evidence that the single-bishop structure of the Church is not a later invention but present from the earliest post-apostolic period."
+        },
+        {
+          "topic": "Real Presence",
+          "text": "Ignatius criticizes the Docetists because they \"abstain from the Eucharist... because they do not confess the Eucharist to be the flesh of our Savior Jesus Christ\" (Smyrnaeans, 7:1). One of the earliest and clearest witnesses to belief in a real, not merely symbolic, Eucharistic presence."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chronological_order": 3,
+      "full_name": "Polycarp of Smyrna (St. Polycarp)",
+      "nickname": "\"The last living link to the Apostles\" (modern descriptive title, not ancient)",
+      "birth_year": "c. 69 AD",
+      "death_year": "c. 155 AD (some scholarship to 156 or 167 AD)",
+      "era": "Apostolic Father",
+      "region_see": "Smyrna, Asia Minor (modern İzmir, Turkey)",
+      "role": "Bishop of Smyrna",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "A direct disciple of the Apostle John, and friend/correspondent of Ignatius of Antioch. Personally taught St. Irenaeus of Lyons as a boy.",
+      "known_for": "A bridge figure between the apostolic and patristic ages. Traveled to Rome c. 154 AD to discuss the Quartodeciman controversy with Pope Anicetus; disagreed on practice but maintained communion. His martyrdom account is the oldest fully reliable eyewitness record of a Christian's death for the faith.",
+      "key_writings": [
+        { "title": "Letter to the Philippians", "description": "His only certainly authentic surviving work." },
+        { "title": "The Martyrdom of Polycarp", "description": "Written by his own church shortly after his death; the earliest surviving eyewitness account of a Christian martyrdom." }
+      ],
+      "key_quote": {
+        "text": "Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?",
+        "citation": "The Martyrdom of Polycarp, 9"
+      },
+      "controversy_councils": "Involved in the early Quartodeciman controversy over the dating of Easter — resolved through mutual respect rather than a formal council in his lifetime.",
+      "martyrdom": "Burned at the stake in the stadium at Smyrna after refusing to renounce Christ; when the flames reportedly did not consume him, he was killed with a dagger. Traditionally dated February 23, 155 AD.",
+      "feast_day": "February 23",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Sacred Tradition and apostolic succession",
+          "text": "The chain from John, to Polycarp, to Irenaeus is one of the strongest historical arguments for the reliability of Sacred Tradition — Irenaeus appealed to his personal memory of Polycarp to refute Gnostic claims of secret, alternate teachings."
+        },
+        {
+          "topic": "Veneration of relics",
+          "text": "After his martyrdom, the Smyrnans gathered his bones, describing them as \"more precious than precious stones and more valuable than gold\" (Martyrdom of Polycarp, 18) — one of the earliest attested instances of Christians venerating a martyr's physical remains."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chronological_order": 4,
+      "full_name": "Justin Martyr (Justin the Philosopher)",
+      "nickname": "The Philosopher",
+      "birth_year": "c. 100 AD (as late as 114 in some sources)",
+      "death_year": "c. 165 AD (as late as 168 in some sources)",
+      "era": "Ante-Nicene Father",
+      "region_see": "Born Flavia Neapolis (modern Nablus); taught and martyred in Rome",
+      "role": "Lay theologian and apologist; never ordained",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "A pagan convert trained in Stoic, Peripatetic, Pythagorean, and Platonist philosophy before converting to Christianity. Taught in Rome; his students included Tatian.",
+      "known_for": "The first major Christian intellectual to engage pagan philosophy on its own terms, proposing a 'seed of the Word' (logos spermatikos) present even in pre-Christian thinkers. His First Apology contains the earliest detailed outside description of a Christian Sunday liturgy, including the Eucharist.",
+      "key_writings": [
+        { "title": "First Apology", "description": "Addressed to Emperor Antoninus Pius, defending Christian morality and describing Christian worship in detail." },
+        { "title": "Second Apology", "description": "A shorter supplementary defense." },
+        { "title": "Dialogue with Trypho", "description": "A lengthy dialogue arguing that Christ fulfills Old Testament prophecy." }
+      ],
+      "key_quote": {
+        "text": "For not as common bread and common drink do we receive these; but... the food which is blessed by the prayer of his word... is the flesh and blood of that Jesus who was made flesh.",
+        "citation": "First Apology, 66"
+      },
+      "controversy_councils": "Debated the Cynic philosopher Crescens in Rome; enmity traditionally linked to his eventual arrest and execution.",
+      "martyrdom": "Beheaded in Rome, c. 165 AD, along with six companions, under city prefect Rusticus, after refusing to sacrifice to Roman gods.",
+      "feast_day": "June 1",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Eucharist as sacrifice and Real Presence",
+          "text": "Justin's First Apology (66-67) gives the earliest surviving outside description of the Mass, describing bread and wine that become 'the flesh and blood of that Jesus who was made flesh' — very early testimony to the Real Presence, addressed to a hostile pagan emperor with no motive to exaggerate."
+        },
+        {
+          "topic": "Faith and reason",
+          "text": "Justin's argument that pre-Christian philosophy contained genuine, partial truth (logos spermatikos) models honest engagement with secular philosophy and other belief systems."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chronological_order": 5,
+      "full_name": "Irenaeus of Lyons",
+      "nickname": "\"The Doctor of Unity\" (title given 2022)",
+      "birth_year": "c. 130 AD",
+      "death_year": "c. 202 AD",
+      "era": "Ante-Nicene Father",
+      "region_see": "Lyons (Lugdunum), Gaul — modern Lyon, France",
+      "role": "2nd Bishop of Lyons",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "As a boy in Smyrna, personally knew and was taught by St. Polycarp, who had himself been taught by the Apostle John.",
+      "known_for": "The most systematic and thorough refuter of Gnosticism among the early Fathers. Developed the theology of 'recapitulation.' Listed the succession of bishops of Rome from Peter to his own day as proof against Gnostic claims of secret teaching.",
+      "key_writings": [
+        { "title": "Against Heresies (Adversus Haereses)", "description": "A massive five-book refutation of Gnosticism, especially Valentinianism." },
+        { "title": "Demonstration of the Apostolic Preaching", "description": "A shorter catechetical summary of the Christian faith." }
+      ],
+      "key_quote": {
+        "text": "It is within the power of all... to contemplate the tradition of the Apostles, made manifest throughout the whole world; and we are in a position to reckon up those who were by the Apostles instituted bishops in the Churches, and to demonstrate the succession of these men to our own times.",
+        "citation": "Against Heresies, III.3.1"
+      },
+      "controversy_councils": "Wrote extensively against Gnosticism and Marcionism. Mediated the Quartodeciman controversy between Rome and the Eastern churches.",
+      "martyrdom": "Tradition holds he died a martyr, though evidence is thinner than for Ignatius or Polycarp; circumstances of his death (c. 202 AD) are not reliably recorded.",
+      "feast_day": "June 28 (Western); August 23 (Eastern)",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Roman primacy",
+          "text": "\"It is a matter of necessity that every Church should agree with this Church [Rome], on account of its preeminent authority\" (Against Heresies, III.3.2) — one of the earliest and most explicit texts affirming a special, binding authority belonging to the Church of Rome."
+        },
+        {
+          "topic": "Apostolic succession against private interpretation",
+          "text": "Irenaeus's core argument against the Gnostics was that genuine apostolic teaching is public and traceable through a named, unbroken line of bishops — not secret or reinvented."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chronological_order": 6,
+      "full_name": "Titus Flavius Clemens (Clement of Alexandria)",
+      "nickname": "None standard",
+      "birth_year": "c. 150 AD",
+      "death_year": "c. 215 AD",
+      "era": "Ante-Nicene Father",
+      "region_see": "Alexandria, Egypt (possibly born in Athens)",
+      "role": "Priest and head of the Catechetical School of Alexandria",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Studied under Pantaenus, founder of the Alexandrian catechetical school, whom he succeeded c. 180 AD. His most famous student was Origen.",
+      "known_for": "The first Christian thinker to attempt a full, systematic synthesis of Greek philosophy and Christian faith. Reclaimed the term 'gnosis' for orthodox Christian wisdom. Fled Alexandria during the persecution of Septimius Severus in 202 AD.",
+      "key_writings": [
+        { "title": "Protrepticus (Exhortation to the Greeks)", "description": "A call to abandon paganism for Christ." },
+        { "title": "Paedagogus (The Tutor)", "description": "Practical moral instruction for new Christians." },
+        { "title": "Stromata (Miscellanies)", "description": "A deeper theological work touching philosophy, ethics, and Scripture." }
+      ],
+      "key_quote": {
+        "text": "Philosophy... was a schoolmaster to bring the Hellenic mind, as the Law brought the Hebrews, to Christ.",
+        "citation": "Stromata, I.5"
+      },
+      "controversy_councils": "No direct heresy trial, though some speculative opinions drew later scrutiny.",
+      "martyrdom": "Not a martyr — fled persecution to Cappadocia and died there of natural causes, c. 215 AD.",
+      "feast_day": "Historically November 23 (West, no longer on the current Roman calendar); November 24 (Eastern)",
+      "doctor_of_the_church": false,
+      "canonized": false,
+      "canonization_note": "Removed from the Roman Martyrology under Pope Clement VIII on the advice of Cardinal Baronius, due to uncertainty about some teachings and absence of a strong ancient cult. Honored in Eastern Orthodoxy; not on the current universal Catholic calendar.",
+      "apologetics_corner": [
+        {
+          "topic": "Faith and reason",
+          "text": "Clement's model — using the best of secular philosophy as a bridge toward Christian truth — is a foundational precedent for the Catholic tradition's later confidence that genuine reason and genuine faith cannot ultimately conflict."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chronological_order": 7,
+      "full_name": "Quintus Septimius Florens Tertullianus (Tertullian)",
+      "nickname": "\"The Father of Latin Christianity\"",
+      "birth_year": "c. 155 AD",
+      "death_year": "after 220 AD (exact date unknown)",
+      "era": "Ante-Nicene Father",
+      "region_see": "Carthage, North Africa",
+      "role": "Traditionally described as a priest of Carthage, though some scholars doubt formal ordination",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Trained as a lawyer/rhetorician before converting c. 197 AD. Left the mainstream Church for Montanism around 207 AD.",
+      "known_for": "Created much of the Latin theological vocabulary used by Western Christianity, including Trinitas, persona, and substantia. His Apologeticus is a sharp early defense of Christianity to Roman officials.",
+      "key_writings": [
+        { "title": "Apologeticus", "description": "A legal-style defense of Christianity addressed to Roman governors." },
+        { "title": "Against Praxeas", "description": "The first systematic Latin treatment of the Trinity." },
+        { "title": "Prescription Against Heretics", "description": "Argues heretics have no legitimate claim to interpret Scripture." },
+        { "title": "On Baptism", "description": "The earliest surviving Christian treatise devoted entirely to a single sacrament." }
+      ],
+      "key_quote": {
+        "text": "The blood of the martyrs is the seed of the Church.",
+        "citation": "Apologeticus, 50"
+      },
+      "controversy_councils": "Left the mainstream Church for Montanism around 207 AD, driven partly by belief the Church had become too lax in discipline.",
+      "martyrdom": "Died of natural causes, likely in Carthage; exact date and circumstances unknown.",
+      "feast_day": null,
+      "doctor_of_the_church": false,
+      "canonized": false,
+      "canonization_note": "Never canonized due to his eventual departure into Montanism, despite enormous and lasting theological influence.",
+      "apologetics_corner": [
+        {
+          "topic": "Scripture belonging to the Church",
+          "text": "Tertullian's 'prescription' argument — that heretics forfeit any right to argue from Scripture because it was entrusted to and preserved by the apostolic Church — is a sharp early tool against the claim that everyone has equal footing to interpret the Bible apart from Church authority and Tradition."
+        },
+        {
+          "topic": "Trinitarian language",
+          "text": "The vocabulary later councils used to define the Trinity and the Person of Christ traces directly back to Tertullian's Latin terminology."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chronological_order": 8,
+      "full_name": "Hippolytus of Rome",
+      "nickname": "\"The first antipope\" (only antipope venerated as a saint)",
+      "birth_year": "c. 170 AD",
+      "death_year": "c. 235 AD",
+      "era": "Ante-Nicene Father",
+      "region_see": "Rome",
+      "role": "Priest/bishop in Rome; set himself up as a rival bishop (antipope) c. 217-235 AD",
+      "pope": {
+        "is_pope": "complicated",
+        "detail": "An antipope, not a legitimate pope — led a schismatic faction in Rome before reconciling with the true Pope, St. Pontian, while both were condemned to the mines of Sardinia."
+      },
+      "lineage": "No confirmed direct discipleship link.",
+      "known_for": "The leading Roman theologian of his generation. Accused Popes Zephyrinus and Callixtus I of doctrinal laxity and tolerating Modalism. Author of the Apostolic Tradition, whose Eucharistic prayer directly inspired Eucharistic Prayer II in the modern Roman Missal.",
+      "key_writings": [
+        { "title": "The Apostolic Tradition", "description": "A church order describing baptism, ordination rites, and the Eucharistic liturgy in early 3rd-century Rome." },
+        { "title": "Refutation of All Heresies (Philosophumena)", "description": "A survey and rebuttal of contemporary heresies." },
+        { "title": "Commentary on Daniel", "description": "The earliest surviving complete Christian biblical commentary." }
+      ],
+      "key_quote": {
+        "text": "We give thanks to you, God, through your beloved Child Jesus Christ, whom in the last times you sent to us as savior and redeemer and angel of your will.",
+        "citation": "Apostolic Tradition, Eucharistic prayer (basis of modern Eucharistic Prayer II)"
+      },
+      "controversy_councils": "Led a schism in Rome for roughly a generation over disputes about church discipline and suspected Modalism among the reigning popes.",
+      "martyrdom": "Died in the mines of Sardinia, c. 235 AD, during the persecution of Emperor Maximinus Thrax — reconciled with the Church shortly before death.",
+      "feast_day": "August 13 (shared with Pope St. Pontian); January 30 (Eastern)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Liturgical continuity",
+          "text": "The Eucharistic prayer in the Apostolic Tradition is the direct ancestor of a prayer Catholics hear at Mass today (Eucharistic Prayer II) — concrete evidence the modern Mass is continuous with 3rd-century Christian worship."
+        },
+        {
+          "topic": "Schism and reconciliation",
+          "text": "Hippolytus's story — a learned churchman who fell into schism yet was reconciled before death — models both the real gravity of schism and the Church's consistent readiness to receive genuine reconciliation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chronological_order": 9,
+      "full_name": "Origen Adamantius (Origen of Alexandria)",
+      "nickname": "\"Adamantius\" (\"man of steel/adamant\")",
+      "birth_year": "c. 184 AD",
+      "death_year": "c. 253 AD",
+      "era": "Ante-Nicene Father",
+      "region_see": "Alexandria, Egypt; later Caesarea Maritima",
+      "role": "Lay head of the Catechetical School of Alexandria; later ordained priest at Caesarea without his bishop's permission",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Son of Leonides, martyred c. 202 AD. Studied under and succeeded Clement of Alexandria as head of the catechetical school.",
+      "known_for": "The most prolific and influential biblical scholar of the early Church. Produced the Hexapla. Wrote On First Principles, arguably the first systematic Christian theology. Some speculative opinions were posthumously condemned as 'Origenism' at the Second Council of Constantinople (553 AD).",
+      "key_writings": [
+        { "title": "On First Principles (De Principiis)", "description": "The first systematic exposition of Christian doctrine." },
+        { "title": "The Hexapla", "description": "A massive comparative critical edition of the Old Testament." },
+        { "title": "Against Celsus (Contra Celsum)", "description": "A detailed philosophical rebuttal of the pagan critic Celsus." }
+      ],
+      "key_quote": {
+        "text": "The Scriptures were written by the Spirit of God, and have a meaning... not only that which is obvious, but also another which is hidden from the majority of readers.",
+        "citation": "On First Principles, Preface"
+      },
+      "controversy_councils": "Excommunicated from Alexandria by his bishop Demetrius. Several speculative opinions formally condemned as heretical at the Second Council of Constantinople (553 AD), three centuries after his death.",
+      "martyrdom": "Not martyred outright, but imprisoned and tortured during the Decian persecution (c. 250 AD); died c. 253 AD from injuries sustained in prison.",
+      "feast_day": null,
+      "doctor_of_the_church": false,
+      "canonized": false,
+      "canonization_note": "Never canonized due to posthumous conciliar condemnation of some speculative theological opinions, despite enormous influence.",
+      "apologetics_corner": [
+        {
+          "topic": "Intellectual engagement with hostile critics",
+          "text": "Against Celsus is one of the most substantial and philosophically serious early defenses of Christianity ever written against a sophisticated pagan opponent."
+        },
+        {
+          "topic": "Role of the Magisterium",
+          "text": "Origen is a cautionary example: even brilliant, foundational theologians can hold views later judged erroneous — illustrating why the Church needs councils and a living Magisterium to authoritatively sort orthodox from unorthodox theology over time."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chronological_order": 10,
+      "full_name": "Thascius Caecilius Cyprianus (Cyprian of Carthage)",
+      "nickname": "None standard",
+      "birth_year": "c. 200/210 AD",
+      "death_year": "258 AD",
+      "era": "Ante-Nicene Father",
+      "region_see": "Carthage, North Africa",
+      "role": "Bishop of Carthage",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "A wealthy rhetorician before his conversion c. 246 AD. Corresponded and disagreed at times with Pope Stephen I.",
+      "known_for": "Guided Carthage through the Decian persecution (250-251 AD) and a regional plague. His writing on Church unity, centered on communion among bishops, remains foundational to Catholic ecclesiology.",
+      "key_writings": [
+        { "title": "On the Unity of the Catholic Church (De Unitate Ecclesiae)", "description": "Argues that unity is found through communion with the college of bishops." },
+        { "title": "On the Lapsed (De Lapsis)", "description": "Addresses how to treat Christians who denied the faith under persecution but sought readmission." }
+      ],
+      "key_quote": {
+        "text": "He can no longer have God for his Father, who has not the Church for his mother.",
+        "citation": "On the Unity of the Catholic Church, 6"
+      },
+      "controversy_councils": "The Lapsi controversy. Sharp disagreement with Pope Stephen I over the validity of baptism performed by heretics and schismatics — Rome's position ultimately prevailed as settled teaching.",
+      "martyrdom": "Beheaded September 14, 258 AD, under Emperor Valerian's persecution.",
+      "feast_day": "September 16 (with St. Cornelius)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Necessity of visible church unity",
+          "text": "Cyprian's teaching that one cannot have God as Father without the Church as Mother is a foundational patristic statement of extra Ecclesiam nulla salus."
+        },
+        {
+          "topic": "Honest handling of disagreement with a pope",
+          "text": "The rebaptism dispute with Pope Stephen I shows a canonized saint could sharply disagree with Rome on a specific question without that amounting to schism or denial of papal legitimacy in principle."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chronological_order": 11,
+      "full_name": "Anthony the Great (St. Anthony of Egypt)",
+      "nickname": "\"The Father of All Monks\"",
+      "birth_year": "January 12, 251 AD",
+      "death_year": "January 17, 356 AD",
+      "era": "Desert/Monastic Father",
+      "region_see": "Egypt — the village of Coma near the Thebaid desert; later Mount Pispir and Mount Colzim",
+      "role": "Monk and hermit; never ordained clergy",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "No formal teacher. Close personal friend of St. Athanasius of Alexandria, who wrote his biography.",
+      "known_for": "Widely regarded as the founder of Christian monasticism. Lived to age 105. Emerged from the desert in 338 AD to publicly support Athanasius against Arianism.",
+      "key_writings": [
+        { "title": "The Life of Antony (by Athanasius)", "description": "The primary source for his life, not written by Anthony himself; catalyzed the spread of monasticism." },
+        { "title": "Letters", "description": "A small collection attributed to Anthony." }
+      ],
+      "key_quote": {
+        "text": "I saw the snares that the enemy spreads out over the world, and I said groaning, 'What can get through from such snares?' Then I heard a voice saying to me, 'Humility.'",
+        "citation": "Apophthegmata Patrum (Sayings of the Desert Fathers)"
+      },
+      "controversy_councils": "Came out of desert seclusion specifically to publicly oppose Arianism and support Athanasius.",
+      "martyrdom": "Died peacefully of natural causes at age 105.",
+      "feast_day": "January 17",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Legitimacy of consecrated religious life",
+          "text": "Anthony pioneered a new form of total self-gift to God once open persecution ended — the direct historical root of every subsequent form of Catholic religious life."
+        },
+        {
+          "topic": "Lay voices defending doctrine",
+          "text": "Anthony was not a bishop or theologian, yet his public support of Athanasius carried real weight in the fight against Arianism."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chronological_order": 12,
+      "full_name": "Pachomius (St. Pachomius the Great)",
+      "nickname": "\"The Father of Cenobitic (Communal) Monasticism\"",
+      "birth_year": "c. 292 AD",
+      "death_year": "348 AD",
+      "era": "Desert/Monastic Father",
+      "region_see": "Tabennisi, Upper Egypt (the Thebaid)",
+      "role": "Abbot and founder of monasteries; remained a layman his entire life",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Converted after experiencing Christian charity as a conscripted soldier. Briefly a disciple of the hermit Palamon before founding his own community c. 320 AD.",
+      "known_for": "Transformed monasticism from scattered hermits into organized, structured communal (cenobitic) life. By his death, founded eleven monasteries with over 7,000 monks and nuns combined.",
+      "key_writings": [
+        { "title": "The Pachomian Rule", "description": "The earliest surviving Christian monastic rule; profoundly influenced Basil the Great's rules and, through that line, St. Benedict's Rule." }
+      ],
+      "key_quote": {
+        "text": "It is right that we should serve one another, according to the Lord's commandment: 'By this shall all know that you are my disciples, if you have love for one another.'",
+        "citation": "Attributed within the Pachomian monastic tradition, reflecting John 13:35"
+      },
+      "controversy_councils": "No direct involvement in doctrinal controversies or councils.",
+      "martyrdom": "Died of an epidemic (likely typhus) that swept through his monasteries, 346-348 AD.",
+      "feast_day": "May 9",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Ancient roots of Catholic religious orders",
+          "text": "Every later religious community with vows, a common rule, and obedience to a superior traces its structural DNA back to Pachomius's original innovation."
+        },
+        {
+          "topic": "Obedience as spiritual discipline",
+          "text": "Pachomius's insistence on submitting individual will to a common rule reflects a broader Catholic principle that authentic holiness includes submission to legitimate authority."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chronological_order": 13,
+      "full_name": "Athanasius of Alexandria",
+      "nickname": "\"Athanasius Contra Mundum\" (Against the World)",
+      "birth_year": "c. 293 AD",
+      "death_year": "May 2, 373 AD",
+      "era": "Nicene Father",
+      "region_see": "Alexandria, Egypt",
+      "role": "Bishop (Patriarch) of Alexandria, 20th holder of the see",
+      "pope": {
+        "is_pope": "nuanced",
+        "detail": "Not the Pope of Rome, but held the ancient Alexandrian title 'Pope of Alexandria,' distinct from the Roman papacy."
+      },
+      "lineage": "Secretary and deacon to Bishop Alexander of Alexandria, whom he accompanied to the First Council of Nicaea (325 AD) before succeeding him as bishop in 328. Close friend of Anthony the Great.",
+      "known_for": "The chief defender of Nicene orthodoxy against Arianism. Exiled five times. His Festal Letter of 367 AD contains the earliest known document listing exactly the 27 books of the New Testament as received today.",
+      "key_writings": [
+        { "title": "On the Incarnation (De Incarnatione)", "description": "A foundational work on why God became man." },
+        { "title": "Orations Against the Arians", "description": "His central theological refutation of Arian doctrine." },
+        { "title": "The Life of Antony", "description": "Helped spread monasticism across the Christian world." },
+        { "title": "Festal Letter 39 (367 AD)", "description": "The earliest surviving list matching the full 27-book New Testament canon." }
+      ],
+      "key_quote": {
+        "text": "He was made man that we might be made God.",
+        "citation": "On the Incarnation, 54"
+      },
+      "controversy_councils": "Central figure at the First Council of Nicaea (325 AD); defended its conclusions against Arianism at enormous personal cost across five exiles.",
+      "martyrdom": "Not martyred — died peacefully in 373, restored to his see in his last years.",
+      "feast_day": "May 2",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Formation of the biblical canon",
+          "text": "Athanasius's Festal Letter 39 is the earliest surviving document listing precisely the 27 New Testament books used today — a corrective to the myth that the canon was decided by a vote at Nicaea (it wasn't; Nicaea in 325 didn't address the canon)."
+        },
+        {
+          "topic": "Truth versus consensus",
+          "text": "Athanasius stood for years against an empire-wide Arian-leaning consensus. His eventual vindication answers the argument that doctrinal truth is simply whatever the majority or those in power believe."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chronological_order": 14,
+      "full_name": "Ephrem the Syrian (St. Ephrem of Nisibis/Edessa)",
+      "nickname": "\"Harp of the Holy Spirit\"",
+      "birth_year": "c. 306 AD",
+      "death_year": "373 AD",
+      "era": "Nicene Father",
+      "region_see": "Nisibis, then Edessa, Syriac-speaking Mesopotamia",
+      "role": "Deacon; declined priesthood/episcopate",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Associated with St. Jacob of Nisibis, his bishop. Taught at the School of Nisibis.",
+      "known_for": "The greatest poet-theologian of the Syriac-speaking Church. Wrote over 400 surviving hymns combating heresy through sung verse. Among the richest early expressions of devotion to Mary.",
+      "key_writings": [
+        { "title": "Hymns on the Nativity", "description": null },
+        { "title": "Hymns Against Heresies", "description": null },
+        { "title": "Hymns on Paradise", "description": null },
+        { "title": "Hymns on the Faith", "description": null }
+      ],
+      "key_quote": {
+        "text": "You alone and your Mother are more beautiful than any others: for there is no blemish in you, nor any stain upon your Mother.",
+        "citation": "Nisibene Hymns, 27"
+      },
+      "controversy_councils": "Combated Arianism, Manichaeism, and local Gnostic/Bardaisanite teachings primarily through hymnody.",
+      "martyrdom": "Not martyred — tradition holds he died in 373 after contracting plague while caring for plague victims in Edessa.",
+      "feast_day": "June 9",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Early Marian devotion",
+          "text": "Ephrem's hymns praising Mary as uniquely 'spotless' are among the earliest and richest witnesses to Marian devotion in the patristic era."
+        },
+        {
+          "topic": "Liturgy as a vehicle for doctrine",
+          "text": "Ephrem's approach — teaching orthodox belief through hymnody rather than argument alone — illustrates lex orandi, lex credendi."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chronological_order": 15,
+      "full_name": "Hilary of Poitiers",
+      "nickname": "\"The Athanasius of the West\" / \"Hammer of the Arians\"",
+      "birth_year": "c. 315 AD",
+      "death_year": "c. 367 AD",
+      "era": "Nicene Father",
+      "region_see": "Poitiers, Gaul (modern France)",
+      "role": "Bishop of Poitiers",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "A convert from Neoplatonist philosophy; married with a daughter before his episcopal ordination. Defended Athanasius's cause in the West.",
+      "known_for": "The leading defender of Nicene orthodoxy against Arianism in the Western Church. Exiled to Phrygia (356-360 AD) for refusing to condemn Athanasius. Wrote the first major Latin systematic treatment of the Trinity.",
+      "key_writings": [
+        { "title": "On the Trinity (De Trinitate)", "description": "The first great Latin systematic treatise on Trinitarian doctrine." },
+        { "title": "On the Synods (De Synodis)", "description": "A history and analysis of competing creeds during the Arian controversy." }
+      ],
+      "key_quote": {
+        "text": "Scripture is not in the reading, but in the understanding.",
+        "citation": "De Trinitate, II.3"
+      },
+      "controversy_councils": "Central figure in Western resistance to Arianism; exiled to Phrygia 356-360 AD.",
+      "martyrdom": "Died naturally in 367, restored to his see.",
+      "feast_day": "January 13",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Scripture requiring right interpretation",
+          "text": "Hilary's statement that Scripture 'is not in the reading, but in the understanding' is a resource against a bare Sola Scriptura approach."
+        },
+        {
+          "topic": "Married clergy as historical discipline",
+          "text": "Hilary's life as a married man with a daughter before becoming a bishop shows clerical celibacy has always been a matter of Church discipline rather than an unbroken universal requirement."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chronological_order": 16,
+      "full_name": "Cyril of Jerusalem",
+      "nickname": "None standard",
+      "birth_year": "c. 315 AD",
+      "death_year": "386 AD",
+      "era": "Nicene Father",
+      "region_see": "Jerusalem",
+      "role": "Bishop of Jerusalem",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Consecrated bishop by Acacius of Caesarea, an Arian-leaning bishop, though Cyril himself held orthodox views.",
+      "known_for": "His Catechetical Lectures are the fullest surviving record of how the early Church instructed converts and explained the sacraments. Fostered Jerusalem's growth as a pilgrimage center.",
+      "key_writings": [
+        { "title": "Catechetical Lectures (Catecheses)", "description": "18 pre-baptismal lectures plus 5 Mystagogical Catecheses on baptism, chrismation, and the Eucharist." }
+      ],
+      "key_quote": {
+        "text": "Do not, then, regard the bread and wine as simply that, for they are, according to the Master's declaration, the body and blood of Christ; even though the perception suggests otherwise, let faith establish you.",
+        "citation": "Mystagogical Catecheses, IV"
+      },
+      "controversy_councils": "Exiled three times between roughly 357 and 378, primarily due to conflict with Acacius of Caesarea.",
+      "martyrdom": "Died naturally in 386.",
+      "feast_day": "March 18",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Real Presence taught to ordinary converts",
+          "text": "Cyril's Mystagogical Catecheses give explicit 4th-century teaching on the Real Presence delivered as basic instruction for ordinary new Christians."
+        },
+        {
+          "topic": "Ancient roots of the catechumenate",
+          "text": "Cyril's lectures preserve a structured process for preparing converts, directly comparable to the modern Catholic RCIA/OCIA process."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chronological_order": 17,
+      "full_name": "Gregory of Nazianzus",
+      "nickname": "\"The Theologian\" (Ho Theologos)",
+      "birth_year": "c. 329 AD",
+      "death_year": "January 25, 390 AD",
+      "era": "Nicene Father (Cappadocian)",
+      "region_see": "Nazianzus, Cappadocia; briefly Archbishop of Constantinople",
+      "role": "Bishop of Sasima (briefly); later Archbishop of Constantinople (380-381)",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Close friend of Basil the Great, studied together in Athens. One of the three Cappadocian Fathers.",
+      "known_for": "Presided over the First Council of Constantinople (381 AD), finalizing the Nicene-Constantinopolitan Creed. Resigned his see shortly after for the sake of peace.",
+      "key_writings": [
+        { "title": "The Five Theological Orations (Orations 27-31)", "description": "A classic defense of Trinitarian doctrine, especially the divinity of the Holy Spirit." }
+      ],
+      "key_quote": {
+        "text": "That which He has not assumed He has not healed.",
+        "citation": "Letter to Cledonius, 101"
+      },
+      "controversy_councils": "Central figure at the First Council of Constantinople (381 AD), which condemned remaining Arianism and Apollinarianism and affirmed the divinity of the Holy Spirit.",
+      "martyrdom": "Not martyred — died naturally in 390, in retirement.",
+      "feast_day": "January 2 (shared with Basil the Great)",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Full humanity of Christ",
+          "text": "\"What was not assumed was not healed\" explains why Christ had to possess a complete, true human nature to fully redeem the whole human person."
+        },
+        {
+          "topic": "Humility over positional authority",
+          "text": "Gregory's voluntary resignation from Constantinople to preserve peace distinguishes valid ecclesiastical authority from the personal humility expected of those who hold it."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chronological_order": 18,
+      "full_name": "Basil of Caesarea (Basil the Great)",
+      "nickname": "\"The Great\"",
+      "birth_year": "c. 329 AD",
+      "death_year": "January 1, 379 AD",
+      "era": "Nicene Father (Cappadocian)",
+      "region_see": "Caesarea in Cappadocia",
+      "role": "Bishop of Caesarea",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Brother of Gregory of Nyssa and Macrina the Younger. Close friend of Gregory of Nazianzus. One of the three Cappadocian Fathers.",
+      "known_for": "The 'Father of Eastern Monasticism.' Helped define Trinitarian vocabulary (ousia, hypostasis). Built the Basiliad, a hospital, hospice, and poorhouse complex.",
+      "key_writings": [
+        { "title": "On the Holy Spirit (De Spiritu Sancto)", "description": "A landmark defense of the full divinity of the Holy Spirit." },
+        { "title": "The Hexaemeron", "description": "Homilies on the six days of creation." },
+        { "title": "The Longer Rules and Shorter Rules", "description": "Foundational monastic legislation for Eastern Christianity." }
+      ],
+      "key_quote": {
+        "text": "The bread which you do not use is the bread of the hungry; the garment hanging in your wardrobe is the garment of him who is naked.",
+        "citation": "Homily on Luke 12:18"
+      },
+      "controversy_councils": "Defended the full divinity of the Holy Spirit against the Pneumatomachians.",
+      "martyrdom": "Not martyred — died naturally, January 1, 379 AD.",
+      "feast_day": "January 2 (shared with Gregory of Nazianzus)",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Almsgiving as justice",
+          "text": "Basil's teaching that unused goods rightfully belong to the poor underlies Catholic social teaching on the universal destination of goods."
+        },
+        {
+          "topic": "The Church's institutional charity",
+          "text": "The Basiliad is one of the earliest concrete examples of organized Christian charity as an institution, grounding the later Catholic tradition of hospitals and charitable orders."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chronological_order": 19,
+      "full_name": "Gregory of Nyssa",
+      "nickname": "The most philosophically sophisticated of the Cappadocians",
+      "birth_year": "c. 335 AD",
+      "death_year": "c. 395 AD",
+      "era": "Nicene Father (Cappadocian)",
+      "region_see": "Nyssa, Cappadocia",
+      "role": "Bishop of Nyssa",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Younger brother of Basil the Great; also brother of Macrina the Younger, who deeply influenced his thought. One of the three Cappadocian Fathers.",
+      "known_for": "Developed the concept of epektasis — eternal growth of the soul in union with the infinite God. Defended Trinitarian orthodoxy at the First Council of Constantinople (381 AD).",
+      "key_writings": [
+        { "title": "On Not Three Gods (Ad Ablabium)", "description": "Explains how Father, Son, and Spirit are one God using an analogy from shared human nature." },
+        { "title": "The Life of Moses", "description": "A mystical, allegorical reading of Moses's life as a model for the soul's ascent to God." },
+        { "title": "On the Soul and the Resurrection", "description": "A philosophical dialogue on death and resurrection." }
+      ],
+      "key_quote": {
+        "text": "This truly is the vision of God: never to be satisfied in the desire to see Him.",
+        "citation": "The Life of Moses, II.239"
+      },
+      "controversy_councils": "Defended Nicene Trinitarian orthodoxy at the First Council of Constantinople (381 AD).",
+      "martyrdom": "Not martyred — died naturally, c. 395 AD.",
+      "feast_day": "March 9 (Western); January 10 (Eastern)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Explaining the Trinity's coherence",
+          "text": "Gregory's analogy comparing three Persons sharing one divine nature to how multiple humans share one human nature helps explain Trinitarian doctrine's coherence."
+        },
+        {
+          "topic": "Heaven as endless growth",
+          "text": "His teaching on epektasis offers a vision of eternal life as ever-deepening relationship rather than a static, 'finished' reward."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chronological_order": 20,
+      "full_name": "Ambrose of Milan",
+      "nickname": "Credited with introducing Ambrosian chant and the Ambrosian Rite",
+      "birth_year": "339 AD",
+      "death_year": "April 4, 397 AD",
+      "era": "Nicene Father",
+      "region_see": "Milan, Italy",
+      "role": "Bishop of Milan",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Trained as a lawyer and Roman civil governor before being spontaneously acclaimed bishop while still an unbaptized catechumen. Personally instructed and baptized Augustine of Hippo in 387 AD.",
+      "known_for": "Forced Emperor Theodosius I to perform public penance after the Massacre of Thessalonica (390 AD). His preaching was instrumental in Augustine's conversion.",
+      "key_writings": [
+        { "title": "On the Duties of the Clergy (De Officiis Ministrorum)", "description": "The first systematic Christian work on clerical ethics." },
+        { "title": "On the Mysteries / On the Sacraments", "description": "Key texts on the sacraments, especially the Eucharist." }
+      ],
+      "key_quote": {
+        "text": "Before the words of Christ it is a cup of wine and water; after the consecration it is the blood of Christ that redeemed the people... Before the words of Christ, the vessel is empty of any content, but after consecration is filled with faith.",
+        "citation": "On the Sacraments, IV"
+      },
+      "controversy_councils": "Confronted Emperor Theodosius I over the Massacre of Thessalonica. Resisted the Arian imperial court's attempt to seize a Milan basilica.",
+      "martyrdom": "Not martyred — died naturally, April 4, 397 AD.",
+      "feast_day": "December 7",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Church authority over reception of Communion",
+          "text": "Ambrose's confrontation with Theodosius is one of history's clearest demonstrations that the Church holds the final say over worthy reception of the sacraments."
+        },
+        {
+          "topic": "Real Presence, West and East together",
+          "text": "Ambrose's explicit Real Presence teaching, paired with Justin Martyr's, Cyril of Jerusalem's, and Hippolytus's, builds a broad patristic case that belief in the Real Presence was universal and unbroken."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chronological_order": 21,
+      "full_name": "Eusebius Sophronius Hieronymus (Jerome)",
+      "nickname": "None standard",
+      "birth_year": "c. 347 AD",
+      "death_year": "September 30, 420 AD",
+      "era": "Post-Nicene Father",
+      "region_see": "Born Stridon (Dalmatia); lived in Rome; monastery in Bethlehem from c. 389",
+      "role": "Priest, monk, and biblical scholar; never a bishop",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Secretary to Pope Damasus I in Rome, who commissioned the Vulgate. Studied Greek exegesis under Gregory of Nazianzus. Contemporary of Augustine.",
+      "known_for": "Translated the entire Bible into Latin from original Hebrew and Greek, producing the Vulgate — the standard Bible of the Western Church for over a thousand years.",
+      "key_writings": [
+        { "title": "The Vulgate", "description": "His monumental Latin translation of the entire Bible." },
+        { "title": "Lives of Illustrious Men (De Viris Illustribus)", "description": "A biographical catalog of Christian writers." }
+      ],
+      "key_quote": {
+        "text": "Ignorance of Scripture is ignorance of Christ.",
+        "citation": "Commentary on Isaiah, Prologue"
+      },
+      "controversy_councils": "Sharp theological disputes with Rufinus over Origenism and with proponents of Pelagianism; occasional tense exchanges with Augustine.",
+      "martyrdom": "Died naturally in Bethlehem, 420 AD.",
+      "feast_day": "September 30",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "The Church's commitment to Scripture",
+          "text": "The Vulgate's existence is strong evidence against the claim that the Catholic Church historically discouraged serious engagement with the Bible."
+        },
+        {
+          "topic": "Scripture and Tradition together",
+          "text": "Jerome constantly read Scripture through the lens of the Church Fathers and Tradition, showing biblical study and Church interpretive authority have always gone hand in hand."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chronological_order": 22,
+      "full_name": "John of Antioch (John Chrysostom)",
+      "nickname": "\"Chrysostom\" (\"Golden-Mouthed\")",
+      "birth_year": "c. 347 AD",
+      "death_year": "September 14, 407 AD",
+      "era": "Post-Nicene Father",
+      "region_see": "Antioch; Archbishop of Constantinople from 398 AD",
+      "role": "Priest in Antioch, then Archbishop of Constantinople",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Trained in rhetoric under Libanius. Associated with the Antiochene school of biblical interpretation.",
+      "known_for": "The greatest preacher of the early Church, ~700 sermons survive. The Divine Liturgy of St. John Chrysostom remains the standard eucharistic liturgy of the Byzantine Rite today.",
+      "key_writings": [
+        { "title": "Homilies on Matthew", "description": null },
+        { "title": "Homilies on the Epistles of Paul", "description": null },
+        { "title": "On the Priesthood (De Sacerdotio)", "description": "A classic reflection on the dignity and difficulty of priestly ministry." }
+      ],
+      "key_quote": {
+        "text": "Do you wish to honor the body of Christ? Do not ignore him when he is naked... What good is it if the Eucharistic table is overloaded with golden chalices, when your brother is dying of hunger?",
+        "citation": "Homily on Matthew, 50.3-4"
+      },
+      "controversy_councils": "Deposed by the Synod of the Oak (403 AD), engineered by rivals offended by his preaching against court luxury.",
+      "martyrdom": "Died September 14, 407 AD, from exhaustion and mistreatment during forced marches in exile.",
+      "feast_day": "September 13",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Uniting Eucharist and social justice",
+          "text": "Chrysostom's teaching ties sacramental devotion directly to concrete care for the poor, showing personal piety and social justice were always meant to be inseparable."
+        },
+        {
+          "topic": "Liturgical continuity",
+          "text": "The Divine Liturgy bearing his name is still prayed essentially unchanged in the Byzantine Rite today, continuous for over 1,600 years."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chronological_order": 23,
+      "full_name": "Aurelius Augustinus (Augustine of Hippo)",
+      "nickname": "\"Doctor of Grace\"",
+      "birth_year": "November 13, 354 AD",
+      "death_year": "August 28, 430 AD",
+      "era": "Post-Nicene Father",
+      "region_see": "Born Thagaste, North Africa; Bishop of Hippo Regius (modern Annaba, Algeria)",
+      "role": "Bishop of Hippo",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Son of St. Monica and Patricius. Adherent of Manichaeism before conversion. Baptized by Ambrose in Milan in 387 AD.",
+      "known_for": "Arguably the most influential theologian in Western Christianity. Central opponent of Pelagianism and Donatism. His Confessions is considered the first true Western spiritual autobiography.",
+      "key_writings": [
+        { "title": "Confessions", "description": "His intimate spiritual autobiography." },
+        { "title": "The City of God (De Civitate Dei)", "description": "A massive defense of Christianity written after the sack of Rome in 410 AD." },
+        { "title": "On the Trinity (De Trinitate)", "description": null }
+      ],
+      "key_quote": {
+        "text": "You have made us for Yourself, O Lord, and our heart is restless until it rests in You.",
+        "citation": "Confessions, I.1"
+      },
+      "controversy_councils": "Central theological opponent of Pelagianism and Donatism. His teaching on grace and predestination became a major reference point during the Protestant Reformation.",
+      "martyrdom": "Died naturally, August 28, 430 AD, during the Vandal siege of Hippo.",
+      "feast_day": "August 28",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Validity of the sacraments",
+          "text": "Augustine's anti-Donatist teaching (ex opere operato) explains why a sacrament remains valid even when administered by an unworthy priest."
+        },
+        {
+          "topic": "Grace and free will",
+          "text": "Augustine's balanced teaching that salvation requires grace while affirming genuine free will and cooperation navigates debates between 'faith alone' and 'faith and works.'"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chronological_order": 24,
+      "full_name": "John Cassian",
+      "nickname": "None standard",
+      "birth_year": "c. 360 AD",
+      "death_year": "435 AD",
+      "era": "Post-Nicene Father",
+      "region_see": "Born Scythia Minor (modern Dobruja, Romania); founded monasteries in Marseille, Gaul",
+      "role": "Priest; founding abbot of the Abbey of Saint-Victor near Marseille",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Lived among the Egyptian Desert Fathers. Ordained deacon by John Chrysostom in Constantinople.",
+      "known_for": "The crucial link who transmitted Egyptian desert monastic wisdom to the Latin West, directly shaping St. Benedict's Rule.",
+      "key_writings": [
+        { "title": "The Institutes (De Institutis Coenobiorum)", "description": "Practical, organizational legislation for monastic communities." },
+        { "title": "The Conferences (Collationes)", "description": "24 dialogues recording the spiritual teaching of the Egyptian Desert Fathers." }
+      ],
+      "key_quote": {
+        "text": "The end of our profession... is the kingdom of God... but the immediate aim, or goal, is purity of heart, without which no one can attain to that end.",
+        "citation": "Conferences, I.4"
+      },
+      "controversy_councils": "His teaching on grace and free will (later labeled 'Semipelagianism') was judged imprecise and effectively corrected at the Second Council of Orange (529 AD), decades after his death.",
+      "martyrdom": "Died naturally in Marseille, 435 AD.",
+      "feast_day": "July 23 (regional only)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "canonization_note": "Venerated as a saint in Catholic and Orthodox tradition, but not on the current universal Roman calendar; feast kept regionally (e.g. Archdiocese of Marseille, some monastic orders).",
+      "apologetics_corner": [
+        {
+          "topic": "Ancient roots of Western monasticism",
+          "text": "Virtually every Western Catholic religious order descends, in some real sense, from Cassian's work transmitting Desert Father wisdom to St. Benedict."
+        },
+        {
+          "topic": "Development of doctrine on grace",
+          "text": "Cassian's own imprecise teaching, later corrected at Orange, is a useful example for explaining how Catholic doctrine develops greater precision over time."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chronological_order": 25,
+      "full_name": "Cyril of Alexandria",
+      "nickname": "\"Pillar of Faith\", \"Doctor of the Incarnation\"",
+      "birth_year": "c. 375/376 AD",
+      "death_year": "June 27, 444 AD",
+      "era": "Post-Nicene Father",
+      "region_see": "Alexandria, Egypt",
+      "role": "Bishop of Alexandria",
+      "pope": {
+        "is_pope": "nuanced",
+        "detail": "Not the Pope of Rome, but held the ancient Alexandrian title 'Pope of Alexandria.'"
+      },
+      "lineage": "Succeeded his uncle, Bishop Theophilus of Alexandria, in 412 AD.",
+      "known_for": "The chief defender of the unity of Christ's person against Nestorius. Convened and dominated the Council of Ephesus (431 AD), which affirmed Mary's title as Theotokos.",
+      "key_writings": [
+        { "title": "The Twelve Anathemas Against Nestorius", "description": null },
+        { "title": "Second and Third Letters to Nestorius", "description": "Formally endorsed as authoritative statements of orthodox Christology at Ephesus." }
+      ],
+      "key_quote": {
+        "text": "If anyone does not confess that the Emmanuel is very God, and that therefore the Holy Virgin is Theotokos... let him be anathema.",
+        "citation": "First Anathema Against Nestorius"
+      },
+      "controversy_councils": "Central figure at the Council of Ephesus (431 AD), condemning Nestorianism.",
+      "martyrdom": "Died naturally, June 27, 444 AD.",
+      "feast_day": "June 27",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Why 'Mother of God' is Christ-centered",
+          "text": "Theotokos is primarily a Christological safeguard protecting the truth that the person born of Mary is truly, fully God — not Marian overreach."
+        },
+        {
+          "topic": "Unity of Christ and the Eucharist",
+          "text": "Cyril's insistence on the unity of Christ's person underlies later Catholic teaching that the whole Christ is truly present in the Eucharist."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chronological_order": 26,
+      "full_name": "Leo I (Leo the Great)",
+      "nickname": "\"The Great\"",
+      "birth_year": "c. 400 AD",
+      "death_year": "November 10, 461 AD",
+      "era": "Post-Nicene Father",
+      "region_see": "Rome",
+      "role": "Pope",
+      "pope": { "is_pope": true, "detail": "Pope St. Leo I 'the Great,' reigned 440-461 AD" },
+      "lineage": "Rose through the Roman clergy as a deacon before his election as pope in 440 AD.",
+      "known_for": "His Tome of Leo supplied the decisive Christological formula adopted at the Council of Chalcedon (451 AD). Met Attila the Hun outside Rome in 452 AD and persuaded him not to sack the city.",
+      "key_writings": [
+        { "title": "The Tome of Leo (Letter 28, to Flavian of Constantinople)", "description": "The defining Christological formula ratified at Chalcedon." }
+      ],
+      "key_quote": {
+        "text": "Each nature, retaining its own proper character without loss, unites with the other in one Person.",
+        "citation": "The Tome of Leo"
+      },
+      "controversy_councils": "Central figure at the Council of Chalcedon (451 AD), which condemned Eutychianism/Monophysitism.",
+      "martyrdom": "Died naturally, November 10, 461 AD.",
+      "feast_day": "November 10",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Papal teaching authority with conciliar force",
+          "text": "The bishops' acclamation at Chalcedon — 'Peter has spoken through the mouth of Leo!' — is an explicit, recorded, ecumenical-council-level acknowledgment of papal teaching authority."
+        },
+        {
+          "topic": "The Church's settled Christology",
+          "text": "Leo's formula — one Person, two complete and unconfused natures — remains the Church's Christological teaching today."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chronological_order": 27,
+      "full_name": "Gregory I (Gregory the Great)",
+      "nickname": "\"The Great\"; originated \"Servant of the Servants of God\"",
+      "birth_year": "c. 540 AD",
+      "death_year": "March 12, 604 AD",
+      "era": "Later Patristic",
+      "region_see": "Rome",
+      "role": "Pope",
+      "pope": { "is_pope": true, "detail": "Pope St. Gregory I 'the Great,' reigned 590-604 AD" },
+      "lineage": "From a wealthy senatorial Roman family; served as Prefect of Rome before becoming a monk. Served as papal legate to Constantinople.",
+      "known_for": "Sent St. Augustine of Canterbury to evangelize the Anglo-Saxons in England (597 AD). Credited with organizing Gregorian chant. Acted as Rome's civil administrator during Lombard invasion.",
+      "key_writings": [
+        { "title": "Pastoral Rule (Regula Pastoralis)", "description": "An enormously influential manual on the duties and spirituality of bishops." },
+        { "title": "Moralia in Job", "description": "A massive spiritual commentary on the Book of Job." },
+        { "title": "Dialogues", "description": "Includes the primary early biographical source on St. Benedict of Nursia." }
+      ],
+      "key_quote": {
+        "text": "Servant of the servants of God (Servus servorum Dei).",
+        "citation": "Papal title Gregory adopted, still used by popes today"
+      },
+      "controversy_councils": "No major heresy controversy of his own generation; primarily known for administrative, pastoral, and missionary work.",
+      "martyrdom": "Died naturally, March 12, 604 AD.",
+      "feast_day": "September 3 (current Roman calendar)",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Papacy as service, not domination",
+          "text": "His title 'Servant of the Servants of God,' still used by every pope today, shows the papacy is meant fundamentally as humble service."
+        },
+        {
+          "topic": "Papacy's role in evangelization",
+          "text": "The mission to England in 597 AD is a documented case of the papacy personally directing large-scale missionary evangelization."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chronological_order": 28,
+      "full_name": "Isidore of Seville",
+      "nickname": "Popularly called \"Patron of the Internet\" (unofficial)",
+      "birth_year": "c. 560 AD",
+      "death_year": "April 4, 636 AD",
+      "era": "Later Patristic",
+      "region_see": "Seville, Visigothic Spain",
+      "role": "Archbishop of Seville",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Younger brother of St. Leander of Seville (his predecessor and educator), St. Fulgentius, and St. Florentina.",
+      "known_for": "Author of the Etymologiae, a 20-book encyclopedia of essentially all human and divine knowledge, one of the most influential reference works of the Middle Ages.",
+      "key_writings": [
+        { "title": "Etymologiae (Origines)", "description": "His 20-book encyclopedia." },
+        { "title": "Sententiae", "description": "A theological and moral summary work." }
+      ],
+      "key_quote": {
+        "text": "Unless a person retains the meaning of a word, he loses the understanding of the thing it signifies.",
+        "citation": "Etymologiae, I.29 (approximate translation)"
+      },
+      "controversy_councils": "Presided over the Fourth Council of Toledo (633 AD), addressing remaining Arian influence among the Visigothic nobility.",
+      "martyrdom": "Died naturally, April 4, 636 AD.",
+      "feast_day": "April 4",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "The Church preserving learning",
+          "text": "Isidore's massive effort to preserve classical and Christian knowledge is a strong answer to the myth that the Church suppressed learning during the 'Dark Ages.'"
+        },
+        {
+          "topic": "The Church founding education",
+          "text": "His push at Toledo for diocesan clergy schools is a direct institutional ancestor of the later medieval university system."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chronological_order": 29,
+      "full_name": "Maximus the Confessor",
+      "nickname": "\"The Confessor\"",
+      "birth_year": "c. 580 AD",
+      "death_year": "August 13, 662 AD",
+      "era": "Later Patristic",
+      "region_see": "Constantinople; exiled to North Africa, Rome, and finally Lazica (modern Georgia)",
+      "role": "Monk; formerly first secretary to Emperor Heraclius",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "Deeply shaped by Pseudo-Dionysius the Areopagite and the Cappadocian Fathers, especially Gregory of Nazianzus.",
+      "known_for": "The chief theological defender of dyothelitism (Christ's two wills) against Monothelitism. Mutilated (tongue and right hand cut off) for his resistance; vindicated at the Third Council of Constantinople (680-681 AD).",
+      "key_writings": [
+        { "title": "Ambigua", "description": "Dense theological resolutions of difficult passages in Gregory of Nazianzus and Pseudo-Dionysius." },
+        { "title": "Disputation with Pyrrhus", "description": "A recorded formal debate defending dyothelitism." },
+        { "title": "Chapters on Love (Centuries on Charity)", "description": "A more accessible spiritual and ascetical work." }
+      ],
+      "key_quote": {
+        "text": "The one who loves God cannot help loving every man as himself.",
+        "citation": "Chapters on Love, I.13"
+      },
+      "controversy_councils": "Central figure in the Monothelite controversy; helped organize the Lateran Synod of 649 under Pope Martin I.",
+      "martyrdom": "Died shortly after mutilation and exile to Lazica in 662 AD.",
+      "feast_day": "August 13 (Western); January 21 (Eastern)",
+      "doctor_of_the_church": false,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Why precise Christology matters",
+          "text": "Maximus's willingness to suffer mutilation defending Christ's two full wills witnesses to why doctrinal precision mattered — a Christ without a real human will could not offer free human obedience on our behalf."
+        },
+        {
+          "topic": "Church authority resisting political power",
+          "text": "Maximus's case, alongside Pope Martin I, shows the Church standing firm against imperial power when core doctrine was at stake."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "chronological_order": 30,
+      "full_name": "John of Damascus (Yūḥannā ibn Manṣūr ibn Sarjūn)",
+      "nickname": "\"Chrysorrhoas\" (\"Streaming with Gold\")",
+      "birth_year": "c. 675/676 AD",
+      "death_year": "December 4, 749 AD",
+      "era": "Later Patristic — traditionally the last Church Father",
+      "region_see": "Damascus (under Umayyad rule); later the monastery of Mar Saba near Jerusalem",
+      "role": "Monk and priest at Mar Saba monastery",
+      "pope": { "is_pope": false, "detail": null },
+      "lineage": "From a prominent Damascene Christian family that served for generations in the Umayyad caliphal administration.",
+      "known_for": "Traditionally the last of the great Church Fathers. Leading theological defender of icon veneration during the Byzantine Iconoclast Controversy, vindicated at the Second Council of Nicaea (787 AD).",
+      "key_writings": [
+        { "title": "The Fount of Knowledge (Pege Gnoseos)", "description": "A three-part summa covering philosophy, heresies, and systematic theology." },
+        { "title": "Three Treatises on the Divine Images", "description": "His central defense of icon veneration against Iconoclasm." }
+      ],
+      "key_quote": {
+        "text": "I do not worship matter, I worship the God of matter, who became matter for my sake... and who, through matter, worked my salvation.",
+        "citation": "On the Divine Images, I.16"
+      },
+      "controversy_councils": "The Iconoclast Controversy — articulated the enduring distinction between latria (worship owed to God alone) and dulia/proskynesis (honor given to icons, relics, and saints). Vindicated at the Second Council of Nicaea (787 AD).",
+      "martyrdom": "Died naturally at Mar Saba monastery, December 4, 749 AD.",
+      "feast_day": "December 4",
+      "doctor_of_the_church": true,
+      "canonized": true,
+      "apologetics_corner": [
+        {
+          "topic": "Why images and relics are not idolatry",
+          "text": "The latria/dulia distinction — that Catholics venerate and honor images and saints, but worship God alone — is the classic answer to accusations of idolatry."
+        },
+        {
+          "topic": "Matter and the Incarnation",
+          "text": "Honoring sacred images is possible precisely because God himself took on real matter in the Incarnation, connecting image veneration directly to Incarnational doctrine."
+        }
+      ]
+    }
+  ]
+}

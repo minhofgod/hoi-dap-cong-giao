@@ -1,0 +1,233 @@
+{
+  "no": 7,
+  "slug": "tertullian",
+  "era": "ante-nicene",
+  "name": {
+    "vi": "Tertulianô",
+    "en": "Tertullian"
+  },
+  "role": {
+    "vi": "Theo truyền thống được coi là linh mục tại Carthage, dù một số học giả nghi ngờ điều này",
+    "en": "Traditionally described as a priest of Carthage, though some scholars doubt formal ordination"
+  },
+  "dates": {
+    "display": "c. 155 — 220",
+    "born": 155,
+    "died": 220
+  },
+  "quote": {
+    "vi": "Máu các vị tử đạo là hạt giống của Giáo hội.",
+    "en": "The blood of the martyrs is the seed of the Church.",
+    "source": {
+      "vi": "Apologeticus, đoạn 50",
+      "en": "Apologeticus, 50"
+    }
+  },
+  "life": [
+    {
+      "vi": "Được đào tạo làm luật sư và nhà hùng biện trước khi trở lại đạo khoảng năm 197. Khoảng năm 207, ngài rời khỏi Giáo hội chính thống để gia nhập phái Montanô.",
+      "en": "Trained as a lawyer/rhetorician before converting c. 197 AD. Left the mainstream Church for Montanism around 207 AD."
+    },
+    {
+      "vi": "Gần như một mình tạo ra phần lớn từ vựng thần học Latinh mà Kitô giáo Tây phương sẽ sử dụng trong 1.500 năm sau đó, bao gồm các từ Trinitas (Ba Ngôi), persona (ngôi vị) và substantia (bản thể). Tác phẩm Apologeticus của ngài là một trong những bản bênh vực sắc bén nhất gửi các quan chức Rôma. Lưu ý quan trọng: vì cuối cùng đã rời khỏi Giáo hội để theo phái Montanô, Tertulianô chưa bao giờ được phong thánh, dù có ảnh hưởng to lớn và lâu dài.",
+      "en": "Created much of the Latin theological vocabulary used by Western Christianity, including Trinitas, persona, and substantia. His Apologeticus is a sharp early defense of Christianity to Roman officials."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 155",
+        "en": "c. 155 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "sau năm 220 (không rõ năm mất chính xác)",
+        "en": "after 220 AD (exact date unknown)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Carthage, Bắc Phi",
+        "en": "Carthage, North Africa"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Không",
+        "en": "No"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "4 tác phẩm",
+        "en": "4 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Apologeticus",
+        "en": "Apologeticus"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Chống Praxeas",
+        "en": "Against Praxeas"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Quy Định Chống Lạc Giáo",
+        "en": "Prescription Against Heretics"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Về Phép Rửa",
+        "en": "On Baptism"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Tertulianô viết từ Carthage, thành phố lớn của Bắc Phi thuộc Rôma, trong một cộng đoàn Kitô hữu nói tiếng Latinh mà — khác với Rôma, Alexandria, hay phương Đông nói tiếng Hy Lạp — chưa có một từ vựng thần học riêng được phát triển; tiếng Hy Lạp vẫn là ngôn ngữ làm việc của tư tưởng Kitô giáo trong thế kỷ rưỡi đầu tiên. Là một luật sư và nhà hùng biện được đào tạo bài bản trước khi trở lại đạo khoảng năm 197, Tertulianô mang lập luận pháp đình và sự chính xác biện luận đến với một Giáo Hội đang rất cần cả hai, vào thời điểm các Kitô hữu Bắc Phi phải đối diện với những cuộc bách hại thực sự, dù không thường xuyên, và cần một sự biện hộ công khai, sắc bén, gửi trực tiếp đến các thống đốc Rôma — đó chính xác là điều Apologeticus của ngài làm. Tính hiếu chiến của ngài, điều sau này đẩy ngài ra khỏi Giáo Hội chính thống hoàn toàn, lại không thể tách rời khỏi chính điều khiến ngài hữu ích ngay từ đầu: đây không phải là một nhà hệ thống hóa thận trọng, mà là một nhà tranh luận viết như thể mọi câu hỏi đều có một câu trả lời rõ ràng, có thể bảo vệ được, và không có kiên nhẫn với sự nước đôi.",
+        "en": "Tertullian wrote from Carthage, the great city of Roman North Africa, in a Latin-speaking Christian community that — unlike Rome, Alexandria, or the Greek East — did not yet have a developed theological vocabulary of its own; Greek had been the working language of Christian thought for its first century and a half. A trained lawyer and rhetorician before his conversion around 197 AD, Tertullian brought courtroom argument and forensic precision to a Church that badly needed both, at a moment when North African Christians faced real, sporadic persecution and needed a sharp, public defense addressed directly to Roman governors — which is exactly what his Apologeticus is. His combativeness, which later drove him out of the mainstream Church entirely, was inseparable from what made him useful in the first place: this was not a cautious systematizer but a polemicist who wrote as if every question had a definite, defensible answer and no patience for hedging."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Tertulianô thường bị gán cho câu \"Tôi tin vì điều đó phi lý\" (credo quia absurdum) như thể ngài chấp nhận đức tin bất chấp mọi lý trí — nhưng ngài chưa bao giờ thực sự viết những lời đó, và đoạn văn thực sự, từ tác phẩm Về Xác Phàm Của Đức Kitô, lập luận một điều thận trọng hơn: \"Con Thiên Chúa đã chết; điều đó [hoàn toàn] đáng tin, chính vì nó không hợp lẽ; và Người đã được mai táng và sống lại; điều đó chắc chắn, chính vì nó không thể xảy ra\" — một lập luận tu từ rằng chính sự kỳ lạ tuyệt đối của mầu nhiệm Nhập Thể và Phục Sinh lại là bằng chứng cho thấy không ai có thể bịa ra một tuyên bố như vậy, chứ không phải một lời kêu gọi tin vào điều vô lý vì chính nó. Một câu nói thực sự và đã được xác minh của ngài, từ Apologeticus, đáng tin cậy hơn nhiều khi hiểu theo nghĩa đen: \"Kitô hữu được tạo thành, không phải sinh ra\" (Fiunt, non nascuntur, Christiani), câu trả lời thẳng thắn của ngài dành cho những người Rôma ngoại giáo vốn cho rằng căn tính Kitô hữu hẳn phải là một đặc điểm chủng tộc hay di truyền nào đó, chứ không phải một sự dấn thân được lựa chọn.",
+        "en": "Tertullian is often credited with the line \"I believe because it is absurd\" (credo quia absurdum) as if he embraced faith against all reason — but he never actually wrote those words, and the real passage, from On the Flesh of Christ, argues something more careful: \"the Son of God died; it is [utterly] credible, because it is unfitting; and he was buried and rose again; it is certain, because it is impossible\" — a rhetorical point about how the sheer strangeness of the Incarnation and Resurrection is itself evidence nobody would have invented such a claim, not a call to believe in nonsense for its own sake. A genuine and verified line of his, from the Apologeticus, is easier to trust at face value: \"Christians are made, not born\" (Fiunt, non nascuntur, Christiani), his blunt answer to pagan Romans who assumed Christian identity must be some kind of ethnic or hereditary trait rather than a chosen commitment."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Thành tựu thần học bền vững nhất của Tertulianô gần như vô hình chính vì nó đã thành công trọn vẹn: từ vựng Latinh mà ngài đặt ra hoặc tái sử dụng — Trinitas cho Chúa Ba Ngôi, persona cho mỗi Ngôi vị thần linh, substantia cho một bản thể thần linh chung duy nhất — đã trở thành ngôn ngữ kỹ thuật chuẩn mực mà mọi công đồng và nhà thần học Latinh sau này dùng để mô tả Chúa Ba Ngôi và hai bản tính của Đức Kitô, đến mức triệt để khiến độc giả đời sau có thể quên rằng đã từng có người phải sáng tạo ra nó. Tác phẩm Bác Bỏ Lạc Giáo (Prescription Against Heretics) của ngài đưa ra một lập luận mang tính thủ tục hơn là giáo lý, và tỏ ra bền vững không kém: những người lạc giáo, ngài lập luận, không có tư cách để thậm chí lập luận từ Kinh Thánh, bởi vì Kinh Thánh đã được giao phó cho và gìn giữ bởi các giáo hội do các Tông Đồ thành lập, chứ không trôi nổi tự do cho bất kỳ ai diễn giải theo ý riêng — một lập luận về việc ai có quyền diễn giải, chứ không chỉ về cách diễn giải nào là đúng. Việc ngài ngả sang thuyết Montanô vào cuối đời không đảo ngược di sản thần học này; ngay cả sau khi rời khỏi Giáo Hội chính thống, lập trường của ngài về Chúa Ba Ngôi và Kitô học không nằm trong số những điều thuyết Montanô thay đổi, đây cũng là một phần lý do vì sao các công đồng và các nhà thần học vẫn tiếp tục dùng từ vựng của ngài rất lâu sau khi tình trạng hiệp thông của chính ngài trở nên bất thường.",
+        "en": "Tertullian's most lasting theological achievement is almost invisible precisely because it succeeded completely: the Latin vocabulary he coined or repurposed — Trinitas for the Trinity, persona for each divine Person, substantia for the one shared divine substance — became the standard technical language every subsequent Latin council and theologian used to describe the Trinity and the two natures of Christ, so thoroughly that later readers can forget someone had to invent it. His Prescription Against Heretics made a procedural rather than doctrinal argument that proved just as durable: heretics, he argued, have no standing to even argue from Scripture, because Scripture was entrusted to and preserved by the churches founded by the Apostles, not floating free for anyone's private interpretation — an argument about who gets to interpret, not just what the correct interpretation is. His late turn to Montanism did not reverse this theological legacy; even after leaving the mainstream Church, his positions on the Trinity and Christology were not among the things Montanism changed, which is part of why councils and theologians kept using his vocabulary long after his own communion status became irregular."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Tertulianô không tử đạo và cái chết của ngài hầu như không được ghi chép — các nguồn chỉ đồng ý rằng ngài qua đời tại Carthage vào một thời điểm nào đó sau năm 220, vì nguyên nhân tự nhiên, không có ngày tháng, hoàn cảnh, hay thậm chí một truyền thống về nơi an táng được ghi lại, một sự tương phản rõ rệt so với mức độ được biết đến về sự nghiệp trước tác của ngài. Sự vắng bóng của bất kỳ trình thuật nào về cái chết phù hợp với khuôn mẫu chung của những năm cuối đời ngài: vào lúc qua đời, ngài đã rời Giáo Hội chính thống để theo thuyết Montanô và, theo truyền thống sau này (trong đó có Thánh Augustinô), cuối cùng còn tách khỏi cả nhóm Montanô để lập ra nhóm ly khai còn khắt khe hơn của riêng mình, đôi khi được gọi là \"phái Tertullianist\" — có nghĩa là rất có thể ngài đã qua đời hoàn toàn ngoài sự hiệp thông với Giáo Hội rộng lớn hơn, đây cũng chính là lý do trực tiếp vì sao ngài không có ngày lễ kính và chưa bao giờ được phong thánh, dù vẫn liên tục được các nhà thần học chính thống đọc và trích dẫn kể từ đó.",
+        "en": "Tertullian was not martyred and his death is barely documented at all — sources agree only that he died in Carthage sometime after 220 AD, of natural causes, with no recorded date, circumstances, or even a burial tradition, a striking contrast to how much is known about his writing career. The absence of any death narrative fits the broader pattern of his later years: by the time he died he had left the mainstream Church for Montanism and, according to later tradition (Augustine among others), eventually broke even from the Montanists to found his own stricter splinter group sometimes called the \"Tertullianists\" — meaning he likely died outside communion with the wider Church altogether, which is also the direct reason he has no feast day and was never canonized, despite being read and cited by orthodox theologians continuously ever since."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Nghịch lý của Tertulianô — ảnh hưởng to lớn, bền vững đến ngôn ngữ thần học Công giáo dù qua đời ngoài sự hiệp thông với Giáo Hội — khiến ngài trở thành một trong những minh họa rõ ràng nhất trong toàn bộ bộ sưu tập này về sự khác biệt giữa một \"Giáo Phụ\" (người mà Giáo Hội đã học hỏi được rất nhiều) và một vị thánh được phong (người mà Giáo Hội tôn vinh như mẫu mực thánh thiện); hai phạm trù này trùng lặp với hầu hết các nhân vật ở đây nhưng lại tách biệt rõ rệt đối với ngài. Thánh Augustinô thành Hippo, viết hơn một thế kỷ sau đó và cũng từ Bắc Phi, đã trực tiếp đối thoại với các lập luận của Tertulianô; thần học Ba Ngôi và Kitô học thời trung cổ và hiện đại tiếp tục vận hành trên nền từ vựng mà Tertulianô không hề biết sẽ tồn tại lâu hơn cả cuộc ly giáo mà ngài đã qua đời trong đó. Quỹ đạo cuộc đời ngài — một người bảo vệ đức tin nghiêm khắc cuối cùng lại rời bỏ chính đức tin đó vì đúng loại chủ nghĩa khắt khe không khoan nhượng đã từng khiến ngài trở nên hiệu quả — cũng khiến ngài trở thành một trường hợp nghiên cứu thường được nhắc lại trong suy tư Công giáo sau này về sự khác biệt giữa lòng nhiệt thành vì sự thánh thiện và lòng trung thành thực sự với Giáo Hội hữu hình, hiệp nhất.",
+        "en": "Tertullian's paradox — enormous, permanent influence on Catholic theological language despite dying outside the Church's communion — makes him one of the clearest illustrations in this whole set of the difference between a \"Church Father\" (someone the Church learned enormously from) and a canonized saint (someone the Church holds up as a model of holiness); the two categories overlap for most figures here but visibly diverge for him. Augustine of Hippo, writing more than a century later and also from North Africa, engaged with Tertullian's arguments directly; medieval and modern Trinitarian and Christological theology continued to run on vocabulary Tertullian had no idea would outlast the schism he died in. His trajectory — rigorous defender of the faith who eventually left it over exactly the kind of uncompromising rigorism that made him effective in the first place — has also made him a recurring case study in later Catholic reflection on the difference between zeal for holiness and actual fidelity to the visible, unified Church."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Geoffrey D. Dunn, Tertullian (bộ The Early Church Fathers, Routledge, 2004) — một dẫn nhập học thuật hiện đại dễ tiếp cận. Timothy David Barnes, Tertullian: A Historical and Literary Study (Oxford University Press, tái bản 1985) — tiểu sử phê bình chuẩn mực. Toàn văn các tác phẩm chính của ngài (bản dịch Roberts–Donaldson) miễn phí tại newadvent.org và tertullian.org (một kho lưu trữ học thuật chuyên biệt về toàn bộ tác phẩm và nguyên bản Latinh của ngài).",
+        "en": "Geoffrey D. Dunn, Tertullian (The Early Church Fathers series, Routledge, 2004) — an accessible modern scholarly introduction. Timothy David Barnes, Tertullian: A Historical and Literary Study (Oxford University Press, revised ed. 1985) — the standard critical biography. Full text of his major works (Roberts–Donaldson translation) freely available at newadvent.org and tertullian.org (a dedicated scholarly archive of his complete works and Latin texts)."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Tertulianô dạy gì về Kinh Thánh thuộc về Giáo hội?",
+        "en": "What does Tertullian teach about Scripture belonging to the Church?"
+      },
+      "a": {
+        "vi": "Lập luận \"quy định pháp lý\" của Tertulianô — rằng những người lạc giáo không có quyền viện dẫn Kinh Thánh vì Kinh Thánh đã được giao phó và gìn giữ bởi Giáo hội tông truyền — là công cụ sắc bén, rất sớm chống lại quan điểm cho rằng ai cũng có quyền giải thích Kinh Thánh ngang nhau, tách rời khỏi thẩm quyền và Thánh Truyền của Giáo hội.",
+        "en": "Tertullian's 'prescription' argument — that heretics forfeit any right to argue from Scripture because it was entrusted to and preserved by the apostolic Church — is a sharp early tool against the claim that everyone has equal footing to interpret the Bible apart from Church authority and Tradition."
+      }
+    },
+    {
+      "q": {
+        "vi": "Tertulianô dạy gì về Ngôn ngữ Ba Ngôi?",
+        "en": "What does Tertullian teach about Trinitarian language?"
+      },
+      "a": {
+        "vi": "Chính từ vựng mà các công đồng sau này dùng để định tín Ba Ngôi và Ngôi Vị Đức Kitô bắt nguồn trực tiếp từ thuật ngữ Latinh của Tertulianô.",
+        "en": "The vocabulary later councils used to define the Trinity and the Person of Christ traces directly back to Tertullian's Latin terminology."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/tertullian.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

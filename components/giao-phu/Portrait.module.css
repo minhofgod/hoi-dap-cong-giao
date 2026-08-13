@@ -1,0 +1,53 @@
+.frameRow {
+  position: relative;
+  display: block;
+  width: 56px;
+  aspect-ratio: 1 / 1.25;
+  border-radius: 50%;
+  border: 3px solid var(--surface);
+  outline: 1px solid var(--gold-border);
+  overflow: hidden;
+  flex: none;
+}
+
+.frameFrontispiece {
+  position: relative;
+  display: block;
+  width: 184px;
+  aspect-ratio: 1 / 1.25;
+  border-radius: 50%;
+  border: 6px solid var(--surface);
+  outline: 1px solid var(--gold-border);
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image {
+  object-fit: cover;
+  filter: saturate(0.82) contrast(0.94);
+}
+
+.empty {
+  /* --surface-warm (#F1EDE1) is the site's existing token for this exact fill — HANDOFF's
+     --tint-warm is the same color under this section's own name for it. */
+  background: var(--surface-warm);
+}
+
+.emptyWrap {
+  margin: 0 auto;
+  width: max-content;
+  text-align: center;
+}
+
+.caption {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+@media (max-width: 899px) {
+  .frameFrontispiece {
+    width: 148px;
+  }
+}

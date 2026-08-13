@@ -1,0 +1,235 @@
+{
+  "no": 19,
+  "slug": "gregory-of-nyssa",
+  "era": "nicene",
+  "name": {
+    "vi": "Grêgôriô thành Nyssa",
+    "en": "Gregory of Nyssa"
+  },
+  "role": {
+    "vi": "Giám mục Nyssa",
+    "en": "Bishop of Nyssa"
+  },
+  "dates": {
+    "display": "c. 335 — c. 395",
+    "born": 335,
+    "died": 395
+  },
+  "quote": {
+    "vi": "Đây thật sự là thị kiến về Thiên Chúa: không bao giờ thỏa mãn trong khát vọng chiêm ngắm Người.",
+    "en": "This truly is the vision of God: never to be satisfied in the desire to see Him.",
+    "source": {
+      "vi": "Cuộc Đời Môsê, II.239",
+      "en": "The Life of Moses, II.239"
+    }
+  },
+  "life": [
+    {
+      "vi": "Em của Thánh Basiliô Cả; cũng là em của Thánh Macrina Trẻ, người có ảnh hưởng sâu sắc đến tư tưởng của ngài. Một trong ba Giáo Phụ Cappađôcia.",
+      "en": "Younger brother of Basil the Great; also brother of Macrina the Younger, who deeply influenced his thought. One of the three Cappadocian Fathers."
+    },
+    {
+      "vi": "Phát triển khái niệm epektasis — vì Thiên Chúa là vô hạn, sự tăng trưởng của linh hồn trong sự kết hợp với Thiên Chúa tiếp diễn mãi mãi, ngay cả trên thiên đàng. Bảo vệ chính giáo Ba Ngôi tại Công đồng Constantinôpôli I (381).",
+      "en": "Developed the concept of epektasis — eternal growth of the soul in union with the infinite God. Defended Trinitarian orthodoxy at the First Council of Constantinople (381 AD)."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 335",
+        "en": "c. 335 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "khoảng năm 395",
+        "en": "c. 395 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Nyssa, Cappađôcia",
+        "en": "Nyssa, Cappadocia"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "9 tháng 3 (Tây phương); 10 tháng 1 (Đông phương)",
+        "en": "March 9 (Western); January 10 (Eastern)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "3 tác phẩm",
+        "en": "3 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Không Có Ba Thiên Chúa",
+        "en": "On Not Three Gods"
+      },
+      "latin": "Ad Ablabium",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Cuộc Đời Môsê",
+        "en": "The Life of Moses"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Về Linh Hồn và Sự Sống Lại",
+        "en": "On the Soul and the Resurrection"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Grêgôriô là người em trong một gia đình đã sản sinh ra nhiều vị thánh, và theo chính lời ngài kể lại, là người ít được đào tạo bài bản nhất trong ba vị Giáo Phụ Cappadocia: không giống như Basiliô và Grêgôriô thành Nazianzô, ngài chưa bao giờ học tại Athens, phần lớn được giáo dục tại nhà (rất có thể bởi chính Basiliô và người chị Macrina), và đã trải qua một giai đoạn tuổi trẻ làm thầy dạy hùng biện và, có vẻ như, đã lập gia đình, trước khi hướng trọn vẹn hơn về đời sống Giáo Hội. Sự hình thành quyết định của ngài đến ít hơn từ trường lớp chính quy mà từ chính gia đình mình, đặc biệt là Macrina Trẻ, người mà sau này ngài mô tả là thầy dạy triết học của mình, và cuộc trò chuyện bên giường bệnh của bà với ngài đã trở thành khung cảnh cho một trong những tác phẩm thần học lớn của ngài. Basiliô đã tấn phong ngài làm giám mục tòa giám mục nhỏ bé Nyssa năm 372, trong cùng nỗ lực rộng lớn hơn nhằm củng cố các giám mục theo tín lý Nixêa khắp Cappadocia, nỗ lực từng đưa Grêgôriô thành Nazianzô đến Sasima, và Grêgôriô thành Nyssa ban đầu tỏ ra, theo hầu hết các ghi chép kể cả những lời trêu chọc nhẹ nhàng từ chính bạn bè ngài, thiếu khéo léo trong quản trị và dễ dàng bị các đối thủ Ariô địa phương qua mặt, những người đã thành công trong việc phế truất và lưu đày ngài khoảng hai năm bắt đầu từ năm 376.",
+        "en": "Gregory was the younger brother in a family already producing saints, and by his own account the least formally accomplished of the Cappadocian trio: unlike Basil and Gregory of Nazianzus, he never studied in Athens, was largely educated at home (very possibly by Basil himself and by their sister Macrina), and spent a period of his young adulthood working as a teacher of rhetoric and, apparently, married, before turning more fully toward Church life. His decisive formation came less from formal schooling than from his family, especially Macrina the Younger, whom he later described as his teacher in philosophy and whose deathbed conversation with him became the frame for one of his major theological works. Basil consecrated him bishop of the minor see of Nyssa in 372, in the same broader push to shore up Nicene bishops across Cappadocia that had sent Gregory of Nazianzus to Sasima, and Gregory of Nyssa initially proved, by most accounts including his own friends' gentle teasing, administratively unpolished and easily outmaneuvered by local Arian opponents, who succeeded in having him deposed and exiled for roughly two years starting in 376."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Một câu thường được trích dẫn như thể đó là một câu cách ngôn trau chuốt của Grêgôriô — \"Khái niệm tạo ra ngẫu tượng; chỉ có sự kinh ngạc mới thấu hiểu được điều gì\" — trên thực tế không phải là lời nguyên văn của ngài; các học giả giáo phụ đã truy nguyên câu này về một bản diễn giải hiện đại (gắn liền với nhà thần học thế kỷ XX Jürgen Moltmann) được gợi hứng một cách lỏng lẻo từ, chứ không phải dịch lại, lập luận thực sự của Grêgôriô. Điều Grêgôriô thực sự viết, trong tác phẩm Cuộc Đời Môsê, mang tính kỹ thuật hơn và có lẽ thú vị hơn: \"Mọi khái niệm phát sinh từ một hình ảnh có thể hiểu được nào đó, qua một sự hiểu biết xấp xỉ và bằng cách phỏng đoán về bản tính thần linh, đều tạo thành một ngẫu tượng về Thiên Chúa và không loan báo về Thiên Chúa\" — một lập luận cho rằng bất kỳ hình ảnh hay định nghĩa nào chúng ta hình thành về Thiên Chúa, dù tinh vi đến đâu, vẫn là một cấu trúc do con người tạo ra chứ không phải chính Thiên Chúa, đây là lý do vì sao cuộc leo núi của Môsê lên ngọn núi tối tăm, phủ đầy mây trở thành hình ảnh trung tâm của Grêgôriô cho sự tiến gần thực sự của linh hồn đến với Thiên Chúa: một chuyển động đi vào sự không-biết ngày càng sâu hơn, chứ không phải những ý tưởng ngày càng rõ ràng hơn.",
+        "en": "A line often quoted as if it were a polished aphorism of Gregory's — \"Concepts create idols; only wonder comprehends anything\" — is not, in fact, his actual wording; patristic scholars have traced it to a modern paraphrase (associated with the 20th-century theologian Jürgen Moltmann) loosely inspired by, but not translating, Gregory's real argument. What Gregory actually wrote, in The Life of Moses, is more technical and arguably more interesting: \"Every concept which comes from some comprehensible image, by an approximate understanding and by guessing at the divine nature, constitutes an idol of God and does not proclaim God\" — an argument that any mental image or definition we form of God, however sophisticated, is still a human construction and not God himself, which is why Moses's ascent up the dark, cloud-covered mountain becomes Gregory's central image for the soul's real approach to God: a movement into deepening unknowing rather than increasingly clear ideas."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Đóng góp thần học đặc trưng nhất của Grêgôriô là khái niệm epektasis, rút ra từ ngôn ngữ của Thánh Phaolô trong Philípphê 3:13 về việc \"vươn mình tới trước\" — luận điểm của ngài, được phát triển đầy đủ nhất trong Cuộc Đời Môsê, rằng vì Thiên Chúa thực sự vô hạn, nên sự tăng trưởng của linh hồn trong sự kết hợp với Thiên Chúa không bao giờ có thể đạt đến một điểm dừng cuối cùng, hoàn tất, ngay cả trên thiên đàng, vì vậy sự sống đời đời được hiểu đúng nhất không phải như một phần thưởng tĩnh tại chỉ đơn giản được lãnh nhận rồi sở hữu, mà như một cuộc hành trình năng động bất tận của sự tham dự ngày càng sâu xa hơn vào Thiên Chúa. Bên cạnh đó, Grêgôriô cũng chủ trương, và bảo vệ trong nhiều hơn một tác phẩm, một hình thức phục hồi phổ quát (apokatastasis) gần với quan điểm của Ôrigênê — rằng ngay cả ma quỷ và những kẻ bị luận phạt cuối cùng, sau hình phạt thanh luyện qua các thời đại dài lâu, cũng có thể được phục hồi về với Thiên Chúa một khi chính sự dữ cuối cùng bị cạn kiệt. Đây là một điểm cần được ghi nhận trung thực mà trang web không nên bỏ qua: Ôrigênê sau này đã bị chính thức lên án nhiều thế kỷ sau đó, một phần chính vì ý tưởng này, trong khi Grêgôriô, người chủ trương một điều khá tương tự, chưa bao giờ bị lên án và thay vào đó trở thành một trong những kiến trúc sư được ca ngợi nhất của tín lý chính thống Nixêa — một sự bất cân xứng có thật trong cách truyền thống đối xử với hai nhà thần học có nhiều điểm trùng lặp đáng kể về một vấn đề gây tranh cãi, thường được giải thích bởi thành tích không thể chê trách của Grêgôriô trong việc bảo vệ tín lý chính thống Ba Ngôi tại Constantinôpôli năm 381, hơn là bởi bất kỳ sự khác biệt giáo lý rõ ràng nào về vấn đề cụ thể này.",
+        "en": "Gregory's most distinctive theological contribution is the concept of epektasis, drawn from Paul's language in Philippians 3:13 of \"straining forward\" — his claim, developed most fully in The Life of Moses, that because God is genuinely infinite, the soul's growth in union with God can never reach a final, completed stopping point, even in heaven, so that eternal life is best understood not as a static reward that is simply received and then possessed, but as an unending dynamic journey of ever-deeper participation in God. Alongside this, Gregory held, and defended in more than one work, a form of universal restoration (apokatastasis) close to Origen's — that even the devil and the damned might eventually, after purifying punishment across long ages, be restored to God once evil itself is finally exhausted. This deserves an honest note the site should not skip: Origen was formally condemned centuries later partly over this very idea, while Gregory, who taught something quite similar, was never condemned and instead became one of the most celebrated architects of Nicene orthodoxy — a genuine asymmetry in how the tradition has treated two theologians who overlapped significantly on a controversial point, generally explained by Gregory's unassailable record defending Trinitarian orthodoxy at Constantinople in 381 rather than by any clear doctrinal difference on this specific question."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Grêgôriô không tử đạo — ngài qua đời vì nguyên nhân tự nhiên khoảng năm 395, không có hoàn cảnh bi tráng nào được ghi lại, vài năm sau Basiliô và khoảng năm năm sau Grêgôriô thành Nazianzô. Giai đoạn đau khổ thực sự duy nhất của ngài vì đức tin mang tính hành chính hơn là thể lý: bị một thượng hội đồng gồm các giám mục thù địch, thân Ariô phế truất với cáo buộc kỹ thuật về quản lý tài chính sai trái năm 376 và bị trục xuất khỏi Nyssa khoảng hai năm, ngài được phục hồi khi làn sóng chính trị quay trở lại có lợi cho các giám mục theo tín lý Nixêa sau khi hoàng đế Valens qua đời năm 378. So với mười năm chiến đấu Giáo Hội đầy cam go, mệt mỏi của người anh Basiliô, sự nghiệp về sau của chính Grêgôriô đọc lên có vẻ tĩnh lặng và chiêm niệm hơn — ngài sống lâu hơn cả Basiliô lẫn Grêgôriô thành Nazianzô, và có lẽ chính trong những năm cuối đời ít bị vây hãm về chính trị hơn này, khi viết những tác phẩm như Cuộc Đời Môsê và Về Linh Hồn và Sự Sống Lại, ngài đã tạo ra nền thần học mà các học giả hiện đại nay coi là đóng góp nguyên bản và bền vững nhất của ngài.",
+        "en": "Gregory was not martyred — he died of natural causes around 395, with no dramatic circumstances recorded, some years after Basil and roughly five years after Gregory of Nazianzus. His one period of real suffering for the faith was administrative rather than physical: deposed by a synod of hostile, Arian-aligned bishops on a technical charge of financial mismanagement in 376 and driven from Nyssa for about two years, he was restored once the political tide turned back in favor of Nicene bishops after Emperor Valens's death in 378. Compared to his brother Basil's decade of exhausting, high-stakes ecclesiastical combat, Gregory's own later career reads as quieter and more contemplative — he outlived both Basil and Gregory of Nazianzus, and it is arguably in these last, less politically embattled years, writing works like The Life of Moses and On the Soul and the Resurrection, that he produced the theology modern scholars now consider his most original and lasting contribution."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Danh tiếng của Grêgôriô đi theo một quỹ đạo bất thường: bị lu mờ trong phần lớn lịch sử Giáo Hội bởi người anh và người bạn nổi bật hơn về mặt công khai của mình, ngài đã được tái khám phá đáng kể bởi các học giả thế kỷ XX, đặc biệt là các nhà thần học Dòng Tên Jean Daniélou và Hans Urs von Balthasar, những người nhận ra trong thần học thần bí và phủ định (apophatic — truyền thống mô tả Thiên Chúa nhiều hơn qua những gì Thiên Chúa không phải là, hơn là những gì có thể khẳng định tích cực) của ngài một chiều sâu và sự tinh vi triết học có thể nói là vượt qua cả công trình mang tính biện luận hay hùng biện hơn của Basiliô lẫn Grêgôriô thành Nazianzô. Khái niệm epektasis và phương pháp phủ định của ngài đã trở thành nền tảng cho thần học thần bí Kitô giáo Đông phương sau này, đặc biệt qua ảnh hưởng của nó đến Ngụy-Điônysiô Arêôpagitô, và qua đó định hình toàn bộ truyền thống văn chương chiêm niệm và thần bí Kitô giáo sau này ở cả Đông lẫn Tây. Giáo huấn của ngài về bản chất bất tận, ngày càng sâu xa của đời sống thiên đàng vẫn là một trong những sự điều chỉnh giáo phụ đặc trưng hơn cho hình ảnh biếm họa phổ biến về sự sống đời đời như một phần thưởng hoàn tất, tĩnh tại, thay vì một mối tương quan sống động vẫn còn khả năng tăng trưởng.",
+        "en": "Gregory's reputation followed an unusual arc: overshadowed for much of Church history by his more publicly prominent brother and friend, he was substantially rediscovered by 20th-century scholars, especially the Jesuit theologians Jean Daniélou and Hans Urs von Balthasar, who recognized in his mystical and apophatic theology (the tradition of describing God more by what God is not than by what can be positively affirmed) a depth and philosophical sophistication that arguably exceeds both Basil's and Gregory of Nazianzus's more polemical or rhetorical work. His concept of epektasis and his apophatic method became foundational to later Eastern Christian mystical theology, particularly through its influence on Pseudo-Dionysius the Areopagite, and by extension shaped the entire subsequent tradition of Christian contemplative and mystical writing in both East and West. His teaching on the unending, ever-deepening nature of heavenly life remains one of the more distinctive patristic correctives to the popular caricature of eternal life as a finished, static reward rather than a living relationship still capable of growth."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Abraham J. Malherbe và Everett Ferguson (dịch), Gregory of Nyssa: The Life of Moses (bộ Classics of Western Spirituality, Paulist Press, 1978) — bản dịch hiện đại dễ tiếp cận chuẩn mực. Anthony Meredith, S.J., Gregory of Nyssa (bộ The Early Church Fathers, Routledge, 1999) — một dẫn nhập học thuật hiện đại dễ tiếp cận. Catharine P. Roth (dịch), St. Gregory of Nyssa: On the Soul and the Resurrection (bộ Popular Patristics, St. Vladimir's Seminary Press, 1993). Toàn văn các tác phẩm chính của ngài (NPNF Series II, tập 5) miễn phí tại newadvent.org.",
+        "en": "Abraham J. Malherbe and Everett Ferguson, trans., Gregory of Nyssa: The Life of Moses (Classics of Western Spirituality series, Paulist Press, 1978) — the standard accessible modern translation. Anthony Meredith, S.J., Gregory of Nyssa (The Early Church Fathers series, Routledge, 1999) — an accessible modern scholarly introduction. Catharine P. Roth, trans., St. Gregory of Nyssa: On the Soul and the Resurrection (Popular Patristics Series, St. Vladimir's Seminary Press, 1993). Full text of his major works (NPNF Series II, Vol. 5) freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Grêgôriô dạy gì về Giải thích tính hợp lý của Ba Ngôi?",
+        "en": "What does Gregory teach about Explaining the Trinity's coherence?"
+      },
+      "a": {
+        "vi": "Loại suy của Grêgôriô — so sánh (với những giới hạn quan trọng) ba Ngôi Vị riêng biệt cùng chia sẻ một bản tính Thiên Chúa với cách nhiều người cùng chia sẻ một bản tính nhân loại — vẫn là công cụ hữu ích để giải thích tính hợp lý của Ba Ngôi.",
+        "en": "Gregory's analogy comparing three Persons sharing one divine nature to how multiple humans share one human nature helps explain Trinitarian doctrine's coherence."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Grêgôriô dạy gì về Thiên đàng như sự tăng trưởng bất tận?",
+        "en": "What does Gregory teach about Heaven as endless growth?"
+      },
+      "a": {
+        "vi": "Giáo huấn của ngài về epektasis đưa ra một hình ảnh về sự sống đời đời như mối tương quan ngày càng sâu sắc, thay vì một phần thưởng tĩnh tại, đã \"hoàn tất\".",
+        "en": "His teaching on epektasis offers a vision of eternal life as ever-deepening relationship rather than a static, 'finished' reward."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/gregory-of-nyssa.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "no": 5,
+  "slug": "irenaeus-of-lyons",
+  "era": "ante-nicene",
+  "name": {
+    "vi": "Irênê thành Lyon",
+    "en": "Irenaeus of Lyons"
+  },
+  "role": {
+    "vi": "Giám mục thứ 2 của Lyon · Tử đạo",
+    "en": "2nd Bishop of Lyons · Martyr"
+  },
+  "dates": {
+    "display": "c. 130 — c. 202",
+    "born": 130,
+    "died": 202
+  },
+  "quote": {
+    "vi": "Mọi người, ở khắp mọi Giáo hội, đều có thể chiêm ngắm truyền thống của các Tông Đồ đã được biểu lộ ra khắp thế giới; và chúng ta có thể liệt kê những ai đã được các Tông Đồ đặt làm giám mục trong các Giáo hội, và chứng minh sự kế vị của những vị này cho đến thời chúng ta.",
+    "en": "It is within the power of all... to contemplate the tradition of the Apostles, made manifest throughout the whole world; and we are in a position to reckon up those who were by the Apostles instituted bishops in the Churches, and to demonstrate the succession of these men to our own times.",
+    "source": {
+      "vi": "Chống Lạc Giáo, III.3.1",
+      "en": "Against Heresies, III.3.1"
+    }
+  },
+  "life": [
+    {
+      "vi": "Khi còn nhỏ tại Smyrna, ngài đã được chính Thánh Pôlycarpô dạy dỗ, mà Thánh Pôlycarpô lại được chính Thánh Gioan Tông Đồ dạy dỗ.",
+      "en": "As a boy in Smyrna, personally knew and was taught by St. Polycarp, who had himself been taught by the Apostle John."
+    },
+    {
+      "vi": "Người bác bỏ thuyết Ngộ Đạo có hệ thống và triệt để nhất trong số các Giáo Phụ tiên khởi. Phát triển thần học \"quy tụ lại mọi sự trong Đức Kitô\" (recapitulation). Liệt kê danh sách kế vị các giám mục Rôma từ Thánh Phêrô đến thời ngài để chống lại các tuyên bố của phái Ngộ Đạo về giáo lý bí mật.",
+      "en": "The most systematic and thorough refuter of Gnosticism among the early Fathers. Developed the theology of 'recapitulation.' Listed the succession of bishops of Rome from Peter to his own day as proof against Gnostic claims of secret teaching."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 130",
+        "en": "c. 130 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "khoảng năm 202",
+        "en": "c. 202 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Lyon (Lugdunum), xứ Gaul — nay là Lyon, Pháp",
+        "en": "Lyons (Lugdunum), Gaul — modern Lyon, France"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "28 tháng 6 (Tây phương); 23 tháng 8 (Đông phương)",
+        "en": "June 28 (Western); August 23 (Eastern)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Chống Lạc Giáo",
+        "en": "Against Heresies"
+      },
+      "latin": "Adversus Haereses",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Trình Bày Giáo Lý Các Tông Đồ",
+        "en": "Demonstration of the Apostolic Preaching"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Irênê viết Chống Lạc Giáo từ xứ Gaul, ở rìa phía tây của thế giới Kitô giáo, nhưng cuộc khủng hoảng ngài đang đối phó không mang tính địa phương: thuyết Ngộ Đạo (Gnosticism), đặc biệt trường phái của Valentinô, đã lan rộng đủ vào thập niên 170 để thực sự đe dọa trở thành phiên bản \"Kitô giáo\" chiếm ưu thế tại một số vùng, đưa ra một thần thoại tinh vi về các phát xuất thần linh và tri thức bí mật (gnosis) chỉ dành cho giới tinh hoa tâm linh. Irênê có một lý do cá nhân để coi mối đe dọa này nghiêm túc, vượt ra ngoài vấn đề giáo lý: ngài chỉ trở thành giám mục Lyons sau khi vị tiền nhiệm, Pôthinô, qua đời trong một cuộc bách hại tàn khốc tại địa phương năm 177, cuộc bách hại cũng giết hại nhiều giáo dân bình thường trong cộng đoàn của ngài — lời tuyên bố của thuyết Ngộ Đạo về một giáo huấn bí mật, cao cấp hơn, đến với Irênê vào lúc giáo hội của ngài vừa chôn cất những người đã chết vì một đức tin đơn sơ, công khai. Phản ứng của ngài không phải là một bài bút chiến ngắn, mà là một công trình bách khoa gồm năm cuốn sách, tháo gỡ các hệ thống Ngộ Đạo ngay trên chính nền tảng của chúng, tiếp theo là một trình bày tích cực về những gì Giáo Hội thực sự giảng dạy — một lập luận có quy mô tương xứng với một cuộc khủng hoảng mà ngài đánh giá là mang tính sống còn chứ không chỉ là học thuật.",
+        "en": "Irenaeus wrote Against Heresies from Gaul, at the far western edge of the Christian world, but the crisis he was answering was not local: Gnosticism, especially the school of the teacher Valentinus, had spread widely enough by the 170s AD to genuinely threaten to become the dominant version of \"Christianity\" in some regions, offering an elaborate mythology of divine emanations and secret knowledge (gnosis) available only to spiritual elites. Irenaeus had a personal reason to take the threat seriously beyond doctrine: he had become bishop of Lyons only after his predecessor, Pothinus, died during a brutal local persecution in 177 AD that also killed many ordinary members of his congregation — Gnosticism's claim to secret, superior teaching arrived, for Irenaeus, in a church that had just buried its dead for the plain, public faith. His response was not a short polemic but a five-book, encyclopedic dismantling of Gnostic systems on their own terms, followed by a positive statement of what the Church actually taught — an argument scaled to a crisis he judged existential rather than academic."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Câu nói nổi tiếng nhất của Irênê thường được trích dẫn bằng tiếng Việt/Anh là \"Vinh quang Thiên Chúa là con người sống động trọn vẹn\" — nhưng cách diễn đạt phổ biến đó là một diễn giải, không phải một bản dịch trực tiếp. Điều Irênê thực sự viết (Chống Lạc Giáo, IV.20.7, chỉ còn lưu lại qua một bản dịch Latinh cổ, vì nguyên bản Hy Lạp đã thất truyền) gần với câu: \"Vì vinh quang Thiên Chúa là con người đang sống, và sự sống của con người là được chiêm ngắm Thiên Chúa\" (Gloria enim Dei vivens homo). Ý tưởng nền tảng — rằng Thiên Chúa được tôn vinh khi con người thực sự triển nở, chứ không phải bởi sự từ bỏ bản thân hay đau khổ vì chính nó — là có thật và quan trọng đối với thần học của ngài; chỉ cần biết rằng cách diễn đạt nổi tiếng kia là một lớp chú giải thêm vào sau này trên nền văn bản Latinh gốc.",
+        "en": "Irenaeus's best-known line is usually quoted in English as \"The glory of God is man fully alive\" — but that popular wording is an interpretive paraphrase, not a direct translation. What Irenaeus actually wrote (Against Heresies, IV.20.7, surviving only in an ancient Latin translation, since the Greek original is lost) is closer to \"For the glory of God is a living man, and the life of man is the vision of God\" (Gloria enim Dei vivens homo). The underlying idea — that God is glorified by human beings genuinely flourishing, not by their self-denial or suffering for its own sake — is real and important to his theology; it's simply worth knowing the famous phrasing is a later gloss layered onto the actual Latin text."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Đóng góp đặc trưng của Irênê là thần học về sự \"quy tụ lại\" (recapitulation): ý tưởng rằng Đức Kitô, với tư cách \"Ađam Mới,\" đi lại và đảo ngược toàn bộ tiến trình lịch sử nhân loại từng điểm một, xóa bỏ sự bất tuân của Ađam bằng chính sự vâng phục của Ngài, để ơn cứu độ không xảy đến do Thiên Chúa đơn thuần xóa bỏ sự sa ngã từ bên ngoài, mà bởi Đức Kitô thực sự sống một cuộc đời con người qua từng giai đoạn mà Ađam đã thất bại. Điều này mang lại tác dụng kép chống lại những người theo thuyết Ngộ Đạo mà ngài đang phản bác: vì họ coi thế giới vật chất và thân xác con người là một cái bẫy khiếm khuyết cần thoát ra, nên Đức Kitô của Irênê phải thực sự, trọn vẹn là con người — bao gồm cả xác phàm — thì sự quy tụ lại mới có thể thành tựu, và đây cũng là lý do vì sao ngài nhấn mạnh mạnh mẽ đến sự tốt lành của công trình tạo dựng và tính hiện thực của sự sống lại thân xác. Di sản lớn thứ hai của ngài mang tính phương pháp hơn là giáo lý: thay vì tranh luận vô tận với những người theo thuyết Ngộ Đạo trên chính nền tảng suy đoán của họ, ngài viện dẫn chuỗi kế vị giám mục công khai, có thể truy nguyên được từ các Tông Đồ như phép thử thực tiễn để biết giáo huấn nào thực sự là tông truyền — một lập luận về cách thức để bất kỳ ai cũng có thể biết được, chứ không chỉ về điều gì là chân lý.",
+        "en": "Irenaeus's signature contribution is the theology of recapitulation: the idea that Christ, as the \"New Adam,\" retraces and reverses the whole course of human history point by point, undoing Adam's disobedience with his own obedience, so that redemption happens not by God simply erasing the fall from outside it but by Christ living a genuinely human life through every stage Adam failed at. This did double duty against the Gnostics he was writing against: because they treated the material world and the human body as a defective trap to escape, Irenaeus's Christ had to be genuinely, fully human — flesh included — for recapitulation to work at all, which is also why he insisted so forcefully on the goodness of creation and the reality of the bodily resurrection. His second major legacy is procedural rather than doctrinal: rather than out-arguing the Gnostics point by point on their own speculative terms indefinitely, he appealed to the public, traceable succession of bishops from the Apostles as the practical test of which teaching was actually apostolic — an argument about how anyone could know, not just what was true."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Không giống Ignatiô hay Polycarp, cái chết của Irênê không được bất kỳ tài liệu đương thời hay gần đương thời nào ghi chép lại — truyền thống cho rằng ngài đã tử đạo, đôi khi được cho là trong một cuộc bách hại dưới thời hoàng đế Sêptimiô Sêvêrô khoảng năm 202, lần đầu tiên xuất hiện trong các nguồn văn bản nhiều thế kỷ sau khi ngài qua đời, và các học giả hiện đại nhìn chung coi đây là điều chưa được xác nhận chứ không phải một sự kiện lịch sử đã được thiết lập. Điều này quan trọng đối với cách trình bày nhân vật này: tầm quan trọng lịch sử to lớn của Irênê hoàn toàn dựa trên những gì ngài đã viết và vai trò được ghi chép của ngài như một giám mục và người kiến tạo hòa bình, chứ không dựa trên cách thức ngài qua đời, và trang web cần trung thực rằng danh xưng \"tử đạo\" ở đây là niềm tin truyền thống chứ không phải lịch sử đã được kiểm chứng, khác với bằng chứng tử đạo khá vững chắc đối với Ignatiô, Polycarp, hay Justin.",
+        "en": "Unlike Ignatius or Polycarp, Irenaeus's death is not documented by any contemporary or near-contemporary account — the tradition that he died a martyr, sometimes said to be during a persecution under Emperor Septimius Severus around 202 AD, first appears in written sources centuries after his death, and modern scholars generally treat it as unconfirmed rather than established fact. This matters for how the figure is presented: Irenaeus's enormous historical importance rests entirely on what he wrote and on his documented role as bishop and peacemaker, not on his manner of death, and the site should be honest that \"martyr\" here is traditional belief rather than verified history, unlike the reasonably solid martyrdom evidence for Ignatius, Polycarp, or Justin."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Chống Lạc Giáo là chứng từ còn lại quan trọng nhất về những gì thuyết Ngộ Đạo thế kỷ II thực sự giảng dạy — trong nhiều thế kỷ, đây gần như là nguồn tài liệu chính về chủ đề này, vì hầu như không có văn bản Ngộ Đạo nguyên gốc nào còn tồn tại cho đến khi phát hiện thư viện Nag Hammadi tại Ai Cập năm 1945 mang lại cho các học giả những trước tác Ngộ Đạo nguyên bản để đối chiếu với các bản tóm lược của Irênê. Sự đối chiếu đó phần lớn đã minh chứng cho ngài: các học giả hiện đại nhìn chung nhận thấy các mô tả của Irênê về giáo thuyết Valentinô là khá chính xác, không phải một hình nộm dựng lên để dễ bề bác bỏ, điều này càng củng cố độ tin cậy của ngài như một chứng nhân lịch sử nói chung. Lập luận của ngài về sự kế vị tông truyền — một chuỗi giám mục công khai, có tên tuổi, như dấu chỉ của giáo huấn xác thực — đã trở thành nền tảng cho cách Giáo Hội Công giáo lập luận về tính liên tục giáo lý của chính mình kể từ đó, và thần học quy tụ lại của ngài đã trực tiếp định hình những suy tư sau này về mầu nhiệm Nhập Thể, được các nhà thần học trích dẫn suốt chiều dài lịch sử Giáo Hội. Ngài được Đức Giáo Hoàng Phanxicô tuyên phong Tiến Sĩ Hội Thánh năm 2022, với tước hiệu \"Doctor Unitatis\" (Tiến Sĩ Hiệp Nhất) vì công lao trọn đời gìn giữ sự gắn kết giữa các giáo hội Đông và Tây thời của ngài.",
+        "en": "Against Heresies is the single most important surviving witness to what 2nd-century Gnosticism actually taught — for centuries it was effectively the primary source on the subject, since almost none of the Gnostic texts themselves survived until the 1945 discovery of the Nag Hammadi library in Egypt gave scholars original Gnostic writings to compare against Irenaeus's summaries. That comparison mostly vindicated him: modern scholars generally find Irenaeus's descriptions of Valentinian teaching substantially accurate, not a strawman built to make refutation easy, which strengthens confidence in his reliability as a historical witness more broadly. His argument from apostolic succession — a public, named chain of bishops as the mark of authentic teaching — became foundational to how the Catholic Church has argued for its own doctrinal continuity ever since, and his recapitulation theology directly shaped later reflection on the Incarnation, cited by theologians for the rest of Church history. He was declared a Doctor of the Church by Pope Francis in 2022, given the title \"Doctor Unitatis\" (Doctor of Unity) for his lifelong work holding together the Eastern and Western churches of his day."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Dominic J. Unger (dịch, hiệu đính bởi John J. Dillon), St. Irenaeus of Lyons: Against the Heresies, các tập 1–3 (bộ Ancient Christian Writers, Paulist Press) — bản dịch phê bình tiếng Anh hiện đại chuẩn mực, đang được xuất bản qua nhiều tập. John Behr, Irenaeus of Lyons: Identifying Christianity (Oxford University Press, 2013) — một công trình nghiên cứu thần học hiện đại quan trọng. Toàn văn Chống Lạc Giáo (bản dịch Roberts–Donaldson cũ hơn) miễn phí tại newadvent.org.",
+        "en": "Dominic J. Unger, trans. (revised John J. Dillon), St. Irenaeus of Lyons: Against the Heresies, Books 1–3 (Ancient Christian Writers series, Paulist Press) — the standard modern English critical translation, in progress across multiple volumes. John Behr, Irenaeus of Lyons: Identifying Christianity (Oxford University Press, 2013) — a major modern theological study. Full text of Against Heresies (older Roberts–Donaldson translation) freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Irênê dạy gì về Quyền tối thượng của Rôma?",
+        "en": "What does Irenaeus teach about Roman primacy?"
+      },
+      "a": {
+        "vi": "\"Cần thiết là mọi Giáo hội phải đồng thuận với Giáo hội này [Rôma], vì thẩm quyền vượt trội của Giáo hội ấy\" (Chống Lạc Giáo, III.3.2) — một trong những văn bản sớm nhất và rõ ràng nhất khẳng định thẩm quyền đặc biệt, có tính ràng buộc, thuộc về Giáo hội Rôma.",
+        "en": "\"It is a matter of necessity that every Church should agree with this Church [Rome], on account of its preeminent authority\" (Against Heresies, III.3.2) — one of the earliest and most explicit texts affirming a special, binding authority belonging to the Church of Rome."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Irênê dạy gì về Kế vị tông truyền chống lại việc giải thích riêng tư?",
+        "en": "What does Irenaeus teach about Apostolic succession against private interpretation?"
+      },
+      "a": {
+        "vi": "Lập luận cốt lõi của Irênê chống lại phái Ngộ Đạo là: giáo huấn tông truyền đích thực mang tính công khai và có thể truy nguyên qua một chuỗi giám mục liên tục, có tên tuổi rõ ràng — chứ không phải bí mật hay được sáng tạo lại.",
+        "en": "Irenaeus's core argument against the Gnostics was that genuine apostolic teaching is public and traceable through a named, unbroken line of bishops — not secret or reinvented."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/irenaeus-of-lyons.jpg",
+    "medium": {
+      "vi": "Biểu tượng (icon)",
+      "en": "Icon"
+    },
+    "source": "Wikimedia Commons / Ted",
+    "license": "CC BY-SA 2.0",
+    "available": true
+  }
+}

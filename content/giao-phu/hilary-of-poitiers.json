@@ -1,0 +1,237 @@
+{
+  "no": 15,
+  "slug": "hilary-of-poitiers",
+  "era": "nicene",
+  "name": {
+    "vi": "Hilariô thành Poitiers",
+    "en": "Hilary of Poitiers"
+  },
+  "role": {
+    "vi": "Giám mục Poitiers",
+    "en": "Bishop of Poitiers"
+  },
+  "dates": {
+    "display": "c. 315 — c. 367",
+    "born": 315,
+    "died": 367
+  },
+  "quote": {
+    "vi": "Kinh Thánh không nằm ở việc đọc, mà nằm ở việc hiểu.",
+    "en": "Scripture is not in the reading, but in the understanding.",
+    "source": {
+      "vi": "Về Ba Ngôi, II.3",
+      "en": "De Trinitate, II.3"
+    }
+  },
+  "life": [
+    {
+      "vi": "Người trở lại đạo từ triết học Tân Platon; đã kết hôn và có một con gái trước khi được truyền chức giám mục. Bảo vệ lập trường của Athanasiô tại Tây phương.",
+      "en": "A convert from Neoplatonist philosophy; married with a daughter before his episcopal ordination. Defended Athanasius's cause in the West."
+    },
+    {
+      "vi": "Người bảo vệ chính giáo lý Nixêa chống thuyết Ariô hàng đầu tại Giáo hội Tây phương. Bị lưu đày đến Phrygia (356-360) vì từ chối lên án Athanasiô. Viết khảo luận Latinh có hệ thống đầu tiên về Ba Ngôi.",
+      "en": "The leading defender of Nicene orthodoxy against Arianism in the Western Church. Exiled to Phrygia (356-360 AD) for refusing to condemn Athanasius. Wrote the first major Latin systematic treatment of the Trinity."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 315",
+        "en": "c. 315 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "khoảng năm 367",
+        "en": "c. 367 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Poitiers, xứ Gaul (nay là Pháp)",
+        "en": "Poitiers, Gaul (modern France)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "13 tháng 1",
+        "en": "January 13"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Về Ba Ngôi",
+        "en": "On the Trinity"
+      },
+      "latin": "De Trinitate",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Về Các Công Đồng",
+        "en": "On the Synods"
+      },
+      "latin": "De Synodis",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Hilariô trở thành giám mục Poitiers vào khoảng năm 353, vào thời điểm mà phần lớn các giám mục ở Gaul tỏ ra ít quan tâm đến việc dấn thân nghiêm túc vào cuộc tranh luận về phái Ariô vốn đã làm rúng động thế giới nói tiếng Hy Lạp ở phương Đông suốt cả một thế hệ. Điều đó thay đổi đột ngột đối với Hilariô tại Công Đồng Béziers năm 356, được hoàng đế thân Ariô Constantiô II triệu tập với mục đích cụ thể là gây áp lực buộc các giám mục phương Tây chính thức lên án Athanasiô; Hilariô từ chối, đến lượt mình bị các giám mục tề tựu kết án theo sáng kiến của hoàng đế, và bị lưu đày đến Phrygia ở Tiểu Á, nơi ngài sẽ trải qua gần bốn năm. Thay vì bị gạt sang bên lề bởi việc chuyển đến phương Đông nói tiếng Hy Lạp, Hilariô đã tận dụng cuộc lưu đày để lần đầu tiên đắm mình vào từ vựng thần học Hy Lạp tinh vi của phe Nixêa, và chính tại đó, bị cắt đứt khỏi tòa giám mục của mình, ngài đã soạn thảo phần lớn tác phẩm sẽ trở thành công trình hệ thống nghiêm túc đầu tiên của phương Tây về Chúa Ba Ngôi bằng tiếng Latinh.",
+        "en": "Hilary became bishop of Poitiers around 353, at a moment when most bishops in Gaul had shown little interest in engaging seriously with the Arian controversy that had already convulsed the Greek-speaking East for a generation. That changed abruptly for Hilary at the Council of Béziers in 356, convened by the pro-Arian emperor Constantius II specifically to pressure Western bishops into formally condemning Athanasius; Hilary refused, was condemned in turn by the assembled bishops on the emperor's initiative, and was exiled to Phrygia in Asia Minor, where he would spend nearly four years. Rather than being sidelined by the move to the Greek-speaking East, Hilary used the exile to immerse himself for the first time in the sophisticated Greek theological vocabulary of the Nicene party, and it was there, cut off from his own see, that he composed the bulk of what would become the West's first serious systematic treatment of the Trinity in Latin."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Hilariô mở đầu De Trinitate bằng một đoạn văn mang tính cá nhân khác thường, mô tả cuộc tìm kiếm trí thức thời tiền-Kitô giáo của chính mình — một dạng tự thuật triết học hiếm có nơi các Giáo Phụ. Ngài mô tả việc từ chối những mục tiêu dễ chịu mà hầu hết mọi người theo đuổi — nhàn hạ, giàu sang, khoái lạc — vì cho rằng chúng không xứng với \"món quà hiểu biết thần linh đã được ban cho chúng ta,\" rồi thuật lại thời điểm cuộc tìm kiếm của ngài đơm hoa kết trái: \"Tôi tình cờ gặp được những cuốn sách mà, theo truyền thống của đức tin Do Thái, được viết bởi Môsê và các ngôn sứ, và tìm thấy trong đó những lời do chính Thiên Chúa Tạo Hóa phán ra làm chứng về mình, 'Ta Là Đấng Hiện Hữu.'\" Hilariô trình bày việc khám phá ra danh xưng tự mặc khải của Thiên Chúa trong sách Xuất Hành này như thời điểm lý trí nhường chỗ cho mặc khải, một khám phá mà ngài nói được hoàn tất khi ngài gặp phần mở đầu Tin Mừng Gioan: \"Lúc khởi đầu đã có Ngôi Lời, Ngôi Lời vẫn hướng về Thiên Chúa, và Ngôi Lời là Thiên Chúa... Ngôi Lời đã trở nên người phàm và cư ngụ giữa chúng ta.\"",
+        "en": "Hilary opens De Trinitate with an unusually personal passage describing his own pre-Christian intellectual search, a kind of philosophical autobiography rare among the Fathers. He describes rejecting the comfortable goals most people pursue — leisure, wealth, pleasure — as unworthy of \"that Divine gift of understanding which has been given us,\" and then recounts the moment his search bore fruit: \"I chanced upon the books which, according to the tradition of the Hebrew faith, were written by Moses and the prophets, and found in these words spoken by God the Creator testifying of Himself, 'I Am that I Am.'\" Hilary presents this discovery of God's self-revealed name in Exodus as the point where reason gave way to revelation, a discovery he says was completed when he then encountered the opening of John's Gospel: \"In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh and dwelt among us.\""
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "De Trinitate không chỉ đơn thuần nhắc lại giáo lý Nixêa bằng tiếng Latinh; nó hoạt động như một dự án dịch thuật theo nghĩa sâu xa nhất, du nhập những phân biệt tinh tế trong tiếng Hy Lạp giữa ousia (bản thể) và hypostasis (ngôi vị cá biệt) vào một từ vựng thần học Latinh vốn chưa phát triển được độ chính xác tương đương. Tác phẩm đồng hành của Hilariô, De Synodis, ngày nay ít được đọc hơn nhưng có lẽ cũng quan trọng không kém trong việc tiết lộ tính khí của ngài: thay vì đơn thuần lên án mọi công thức đối lập do vô số công đồng cạnh tranh nhau trong thập niên 340 và 350 sản sinh ra, ngài đã cẩn thận nghiên cứu qua từng câu chữ thực sự của các bản tuyên tín do những giám mục chấp nhận Chúa Con \"giống Chúa Cha về bản thể\" (homoiousios) mà chưa chấp nhận công thức Nixêa \"đồng bản thể\" (homoousios) đề xuất, lập luận rằng nhiều người trong số họ gần với chính thống hơn danh tiếng của họ gợi ý và có thể được thuyết phục thay vì đơn thuần bị lên án — một bản năng ngoại giao, xây cầu nối, phần nào mâu thuẫn với biệt danh \"cây búa\" phổ biến sau này của ngài.",
+        "en": "De Trinitate did more than restate Nicene doctrine in Latin; it functioned as a translation project in the deepest sense, importing the careful Greek distinctions between ousia (being/substance) and hypostasis (individual person) into a Latin theological vocabulary that had not yet developed equivalent precision. Hilary's companion work, De Synodis, is less read today but is arguably just as significant for what it reveals about his temperament: rather than simply denouncing every rival formula produced by the many competing councils of the 340s and 350s, he worked carefully through the actual wording of creeds proposed by bishops who accepted a Son \"like the Father in substance\" (homoiousios) without yet accepting the Nicene \"of one substance\" (homoousios), arguing that many of them were closer to orthodoxy than their reputation suggested and could potentially be won over rather than simply condemned — a diplomatic, bridge-building instinct that sits somewhat at odds with his popular later nickname as a \"hammer.\""
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Hilariô không tử đạo; Constantiô cuối cùng cũng mệt mỏi với sự xáo trộn mà Hilariô gây ra giữa các giám mục phương Đông trong thời gian lưu đày và gửi ngài trở về Gaul năm 360 mà không bao giờ chính thức phục hồi hiệp thông cho ngài, dù ngài vẫn tiếp tục thi hành chức vụ giám mục tại Poitiers và qua đời tự nhiên tại đó năm 367. Biệt danh \"Búa Đập Phái Ariô\" (Malleus Arianorum) của ngài, giống như tước hiệu \"Tiến Sĩ Thiên Thần\" sau này của Aquinô, có vẻ là một tước hiệu hồi cố hơn là một tên gọi được chính những người cùng thời với ngài sử dụng, và nên được hiểu là sự ngưỡng mộ về sau chứ không phải một mô tả đương thời. Một lời cảnh báo lịch sử nghiêm túc hơn liên quan đến người con gái Abra của ngài, mà sự tồn tại hoàn toàn dựa trên các trình thuật hạnh thánh được viết khoảng hai thế kỷ sau khi Hilariô qua đời; một bức thư được cho là ngài đã viết khuyên con gái sống đời khiết trinh thánh hiến, và truyền thuyết về sau rằng ngài đã cầu nguyện cho cái chết của con gái để gìn giữ sự khiết trinh đó, cả hai đều được các học giả hiện đại coi là một sự bịa đặt văn chương thời trung cổ nhiều khả năng hơn là một ghi chép xác thực về đời sống gia đình Hilariô, có nghĩa là câu chuyện cảm động này không nên được coi là sự kiện đã được xác lập dù nó lưu hành rộng rãi trong các trình thuật phổ biến về cuộc đời ngài.",
+        "en": "Hilary was not martyred; Constantius eventually tired of the disruption Hilary caused among Eastern bishops during his exile and sent him back to Gaul in 360 without ever formally restoring him to communion, though he resumed his episcopal duties at Poitiers regardless and died there naturally in 367. His nickname \"Hammer of the Arians\" (Malleus Arianorum), like Aquinas's later \"Angelic Doctor,\" appears to be a retrospective title rather than a name used of him by his own contemporaries, and should be read as later admiration rather than a contemporary description. A more serious historical caution concerns his daughter Abra, whose existence rests entirely on hagiographical accounts written roughly two centuries after Hilary's death; a letter he supposedly wrote urging her toward consecrated virginity, and the later legend that he prayed for her death to preserve that virginity, are both regarded by modern scholars as a probable medieval literary invention rather than an authentic record of Hilary's family life, meaning the touching story should not be treated as established fact even though it circulates widely in popular accounts of his life."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Việc Hilariô du nhập độ chính xác thần học Ba Ngôi Hy Lạp vào tiếng Latinh đã trao cho Ambrôsiô thành Milano, và qua Ambrôsiô, cho Augustinô thành Hippo một từ vựng kỹ thuật mà họ có thể xây dựng trực tiếp trên đó, khiến cho nền thần học Ba Ngôi phương Tây trưởng thành vào cuối thế kỷ IV và đầu thế kỷ V mang một món nợ đối với công trình dịch thuật tiên phong của Hilariô mà người ta dễ bỏ qua đơn giản vì văn xuôi của chính ngài khó đọc hơn đáng kể so với cả hai vị kia. Sự dấn thân ngoại giao của ngài với các giám mục phái homoiousian trong De Synodis cũng góp phần đặt nền móng, dù chưa được hiện thực hóa trọn vẹn trong chính đời ngài, cho sự hòa giải rộng lớn hơn giữa các phe thân Nixêa Đông và Tây, điều cuối cùng sẽ được đóng ấn tại Công Đồng Constantinopolis năm 381.",
+        "en": "Hilary's importation of Greek Trinitarian precision into Latin gave Ambrose of Milan and, through Ambrose, Augustine of Hippo a technical vocabulary they could build on directly, so that the mature Western Trinitarian theology of the late fourth and early fifth centuries owes a debt to Hilary's pioneering translation work that is easy to overlook simply because his own prose is considerably harder to read than either of theirs. His diplomatic engagement with the homoiousian bishops in De Synodis also helped lay groundwork, however incompletely realized in his own lifetime, for the broader reconciliation between Eastern and Western pro-Nicene parties that would eventually be sealed at the Council of Constantinople in 381."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Carl L. Beckwith, Hilary of Poitiers on the Trinity: From De Fide to De Trinitate (bộ Oxford Early Christian Studies, Oxford University Press, 2008) — công trình nghiên cứu học thuật hiện đại chuẩn mực về cấu trúc và quá trình soạn thảo của tác phẩm. E.W. Watson và L. Pullan (dịch), Select Works of St. Hilary of Poitiers, trong bộ Nicene and Post-Nicene Fathers (1899), miễn phí tại newadvent.org và ccel.org, vẫn là bản dịch tiếng Anh chuẩn mực của De Trinitate và De Synodis.",
+        "en": "Carl L. Beckwith, Hilary of Poitiers on the Trinity: From De Fide to De Trinitate (Oxford Early Christian Studies, Oxford University Press, 2008) — the standard modern scholarly study of the treatise's composition and structure. E.W. Watson and L. Pullan, trans., Select Works of St. Hilary of Poitiers, in the Nicene and Post-Nicene Fathers series (1899), freely available at newadvent.org and ccel.org, remains the standard English translation of De Trinitate and De Synodis."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Hilariô dạy gì về Kinh Thánh cần được giải thích đúng đắn?",
+        "en": "What does Hilary teach about Scripture requiring right interpretation?"
+      },
+      "a": {
+        "vi": "Câu nói của Hilariô rằng Kinh Thánh \"không nằm ở việc đọc, mà nằm ở việc hiểu\" là một cách diễn đạt sắc bén, rất sớm về nguyên tắc rằng Kinh Thánh không tự giải thích chính mình, mà cần một sự hiểu biết được hướng dẫn.",
+        "en": "Hilary's statement that Scripture 'is not in the reading, but in the understanding' is a resource against a bare Sola Scriptura approach."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Hilariô dạy gì về Giáo sĩ có gia đình như một kỷ luật lịch sử?",
+        "en": "What does Hilary teach about Married clergy as historical discipline?"
+      },
+      "a": {
+        "vi": "Cuộc đời Hilariô như một người đã kết hôn và có con gái trước khi làm giám mục cho thấy độc thân linh mục luôn là một kỷ luật của Giáo hội, chứ không phải một đòi hỏi phổ quát bất biến từ những ngày đầu.",
+        "en": "Hilary's life as a married man with a daughter before becoming a bishop shows clerical celibacy has always been a matter of Church discipline rather than an unbroken universal requirement."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/hilary-of-poitiers.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

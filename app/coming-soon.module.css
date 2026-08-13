@@ -1,0 +1,15 @@
+.wrap {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 72px var(--mobile-gutter);
+}
+.title {
+  font-size: 34px;
+  color: var(--text-heading);
+  margin-bottom: 16px;
+}
+.body {
+  font-size: 14.5px;
+  line-height: 1.78;
+  color: var(--text-muted);
+}

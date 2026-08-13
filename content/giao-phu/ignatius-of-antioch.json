@@ -1,0 +1,219 @@
+{
+  "no": 2,
+  "slug": "ignatius-of-antioch",
+  "era": "apostolic",
+  "name": {
+    "vi": "Inhaxiô thành Antiôkia",
+    "en": "Ignatius of Antioch"
+  },
+  "role": {
+    "vi": "Giám mục thứ 3 của Antiôkia · Tử đạo",
+    "en": "3rd Bishop of Antioch · Martyr"
+  },
+  "dates": {
+    "display": "c. 35 — c. 108",
+    "born": 35,
+    "died": 108
+  },
+  "quote": {
+    "vi": "Ở đâu có Đức Kitô Giêsu, ở đó có Hội Thánh Công Giáo.",
+    "en": "Where Jesus Christ is, there is the Catholic Church.",
+    "source": {
+      "vi": "Thư gửi tín hữu Smyrna, 8:2",
+      "en": "Letter to the Smyrnaeans, 8:2"
+    }
+  },
+  "life": [
+    {
+      "vi": "Theo truyền thống, ngài là môn đệ của Thánh Gioan Tông Đồ, và có thể được chính Thánh Phêrô đặt làm giám mục. Ngài viết lá thư cuối cùng gửi Thánh Pôlycarpô thành Smyrna, một môn đệ khác của Thánh Gioan.",
+      "en": "Traditionally a disciple of the Apostle John, and possibly appointed bishop by St. Peter. Wrote his final letter to St. Polycarp of Smyrna, a fellow disciple of John."
+    },
+    {
+      "vi": "Chứng nhân sớm nhất và rõ ràng nhất về cơ cấu Giáo hội một giám mục duy nhất (chế độ giám mục). Lần đầu tiên dùng thuật ngữ \"Giáo Hội Công Giáo\" trong Thư gửi tín hữu Smyrna. Viết cả bảy bức thư còn lưu lại trong khi bị áp giải đến Rôma để chịu xử tử.",
+      "en": "The earliest clear witness to a single-bishop (monarchical) church structure. First recorded use of the term 'Catholic Church' in his Letter to the Smyrnaeans. Wrote all seven surviving letters under armed guard while being transported to Rome for execution."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 35",
+        "en": "c. 35 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "khoảng năm 108 (một số nguồn cho đến năm 140; còn tranh luận)",
+        "en": "c. 108 AD (some sources up to c. 140 AD; disputed)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Antiôkia, Syria",
+        "en": "Antioch, Syria"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "17 tháng 10 (Tây phương); 20 tháng 12 (Đông phương); 1 tháng 2 (lịch Rôma cũ, trước 1969)",
+        "en": "October 17 (Western); December 20 (Eastern); February 1 (older Roman calendar, pre-1969)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "1 tác phẩm",
+        "en": "1 work"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Bảy Bức Thư",
+        "en": "The Seven Letters"
+      },
+      "latin": "",
+      "date": "c. 107"
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Êusêbiô đặt việc Ignatiô bị bắt và áp giải về Rôma vào thời hoàng đế Trajan, theo truyền thống được xác định vào năm 108, dù điểm mốc chắc chắn duy nhất trong chính các bức thư chỉ là một dòng đề ngày trong Thư gửi tín hữu Rôma (\"ngày 24 tháng Tám\") mà không ghi năm — các học giả sau này, đáng chú ý nhất là Timothy Barnes, đã lập luận cho một niên đại muộn hơn, có thể vào thập niên 130-140. Điều chắc chắn là cuộc hành trình: bị kết án tại An-ti-ô-khi-a, Ignatiô bị áp giải đường bộ dưới sự canh gác vũ trang (ngài gọi đoàn lính áp giải mình là \"mười con báo\") qua vùng Tiểu Á hướng về Rôma, một lộ trình cho phép các phái đoàn từ các giáo hội địa phương đến gặp ngài tại mỗi trạm dừng. Bảy bức thư còn lại là những gì ngài đọc cho người khác chép lại dọc đường — gửi đến các giáo hội vừa đến thăm ngài, và một bức, gửi trước, đến chính Rôma, van xin các tín hữu Rôma đừng can thiệp để cứu ngài. Điều này khiến bộ thư của ngài gần như độc nhất vô nhị trong số các trước tác Kitô giáo sơ khai: không phải là suy tư từ khoảng cách, mà là thư từ thực của một giám mục trong những tuần cuối đời.",
+        "en": "Eusebius places Ignatius's arrest and journey to Rome in Trajan's reign, traditionally dated to 108 AD, though the only firm anchor in the letters themselves is a single dateline in the Letter to the Romans (\"the 24th of August\") with no year given — later scholars, most notably Timothy Barnes, have argued for a date as late as the 130s–140s AD. What is certain is the journey itself: condemned in Antioch, Ignatius was marched overland under armed guard (\"ten leopards,\" as he calls his soldier-escort) through Asia Minor toward Rome, a route that let delegations from local churches meet him at each stop. The seven surviving letters are what he dictated along the way — to churches he had just been visited by, and one, ahead, to Rome itself, begging the Roman Christians not to intervene on his behalf. This makes his corpus almost unique among early Christian writings: not reflection at a distance, but a bishop's real-time correspondence in the final weeks of his life."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Về Thánh Thể như phương dược chữa lành cái chết: \"[Vậy hãy chú tâm] cử hành một Thánh Thể duy nhất... bẻ cùng một tấm bánh, là phương dược của sự bất tử, là thuốc giải để chúng ta không phải chết, nhưng [khiến] chúng ta được sống đời đời trong Đức Giêsu Kitô\" (Thư gửi tín hữu Êphêsô, 20:2, theo bản dịch Roberts–Donaldson). Viết cho một giáo hội mà ngài kêu gọi hiệp nhất quanh một giám mục duy nhất và một bàn thờ duy nhất, câu này là một trong những mô tả Kitô giáo sớm nhất về Thánh Thể không chỉ như một sự tưởng niệm mà như một nguồn mạch sự sống đời đời đích thực.",
+        "en": "On the Eucharist as the remedy for death: \"[Take care, then, to] use one Eucharist... breaking one and the same bread, which is the medicine of immortality, and the antidote to prevent us from dying, but [which causes] that we should live for ever in Jesus Christ\" (Letter to the Ephesians, 20:2, Roberts–Donaldson translation). Written to a church he calls to unity around a single bishop and a single altar, this line is one of the earliest Christian descriptions of the Eucharist not just as memorial but as a literal source of eternal life."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Thần học của Ignatiô xoay quanh một trọng tâm duy nhất: sự hiệp nhất, được gìn giữ bởi vị giám mục. Ngài là tác giả Kitô giáo đầu tiên mô tả một trật tự Giáo Hội với một giám mục duy nhất chủ tọa trên các trưởng lão và phó tế tại mỗi thành phố — chưa phải là thông lệ phổ quát khắp nơi, nhưng rõ ràng đã là điều bình thường tại các giáo hội ngài viết thư gửi đến — và ngài coi sự vâng phục giám mục là điều không thể tách rời khỏi sự kết hợp với chính Đức Kitô, chứ không chỉ là một sắp xếp hành chính. Mối quan tâm về sự hiệp nhất đó cũng chính là động lực đằng sau việc ngài mạnh mẽ chống lại thuyết Ảo Thân (Docetism): nếu sự đau khổ, cái chết và sự sống lại của Đức Kitô chỉ là bề ngoài chứ không có thật, thì sự hiệp nhất bằng xương bằng thịt mà ngài kêu gọi Giáo Hội thực hiện quanh một bàn thờ và một Thánh Thể duy nhất sẽ chỉ dựa trên một ảo tưởng. Cái chết sắp đến của chính ngài cũng theo cùng một khuôn mẫu ấy — ngài xin các tín hữu Rôma đừng cứu mình, tự ví mình như hạt lúa mì bị nghiền thành bánh, bởi vì với ngài, tử đạo tự nó là một cách kết hợp mang tính Thánh Thể với chính cuộc khổ nạn của Đức Kitô.",
+        "en": "Ignatius's theology has one center of gravity: unity, guarded by the bishop. He is the first Christian writer to describe a church order with a single bishop presiding over presbyters and deacons in each city — not yet universal practice everywhere, but clearly already normal in the churches he addresses — and he treats obedience to the bishop as inseparable from union with Christ himself, not a merely administrative arrangement. That concern for unity is the same instinct behind his fierce opposition to Docetism: if Christ's suffering, death, and resurrection were only apparent rather than real, then the flesh-and-blood unity he calls the church to around one altar and one Eucharist would rest on an illusion. His own approaching death fits the same pattern — he asks the Roman Christians not to save him, describing himself as wheat being ground into bread, because for him martyrdom is itself a kind of Eucharistic union with Christ's own suffering."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Việc khẳng định Ignatiô chết cụ thể tại đấu trường Colosseum chỉ là truyền thống phổ biến, không phải bằng chứng vững chắc — các nguồn đáng tin cậy sớm nhất là chính các bức thư của ngài, trong đó ngài mô tả việc mình sắp bị thú dữ giết nhưng không nêu tên địa điểm, còn các tài liệu tham chiếu muộn hơn (nơi Gioan Kim Khẩu và Evagriô, cùng cuốn Martyrium Ignatii mà bản chép tay cổ nhất còn lại chỉ có từ thế kỷ X) quá mơ hồ hoặc quá muộn để xác nhận điều đó. Các Kitô hữu bị kết án \"ném cho thú dữ\" (ad bestias) thời kỳ này chết tại nhiều địa điểm khác nhau ở Rôma, không chỉ tại Đại Hý Trường Flavian. Điều không có gì phải hoài nghi nghiêm túc là sự kiện và cách thức ngài qua đời: bị kết án cho thú dữ, biết trước điều đó, và — điều hiếm có đối với một chứng từ tử đạo — để lại chính những suy tư bằng văn bản của mình về ý nghĩa cái chết đó, được viết ra trong hành trình chứ không phải do người khác dựng lại sau này.",
+        "en": "The claim that Ignatius died in the Colosseum specifically is popular tradition, not solid evidence — the earliest reliable sources are his own letters, which describe his anticipation of death by wild beasts but don't name the venue, and later references (in John Chrysostom and Evagrius, and the Martyrium Ignatii, whose oldest surviving manuscript dates only from the 10th century) are too vague or too late to confirm it. Christians condemned ad bestias in this period died in several different Roman venues, not only the Flavian Amphitheatre. What is not in serious doubt is the fact and manner of his death: condemned to the beasts, aware of it in advance, and — unusually for a martyr account — leaving his own written reflections on what that death meant to him, composed during the journey rather than reconstructed afterward by others."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Các bức thư của Ignatiô còn lưu truyền dưới ba dạng văn bản khác nhau — một bản rút gọn tiếng Syriac, một \"bản trung\" (middle recension) gồm bảy bức thư, và một \"bản dài\" (long recension) mở rộng bảy bức thư đó và thêm sáu bức khác — và trong nhiều thế kỷ các học giả không thống nhất được bản nào, nếu có, là xác thực. Vấn đề phần lớn được giải quyết vào thập niên 1870-1880 bởi Theodor Zahn, Adolf von Harnack, và đặc biệt là J.B. Lightfoot, những công trình nghiên cứu văn bản học tỉ mỉ của họ đã xác lập bản trung gồm bảy bức thư là thực sự của chính Ignatiô, còn bản dài là một sự mở rộng thêm giáo lý về sau; sự đồng thuận đó vẫn đứng vững kể từ đó, dù một số học giả hiện đại (tương tự câu hỏi về niên đại nêu trên) đã mở lại cuộc thảo luận. Độc lập với tranh luận về văn bản, mô tả của Ignatiô về một giám mục duy nhất lãnh đạo mỗi giáo hội địa phương đã trở thành một điểm quy chiếu lịch sử quan trọng trong các tranh luận sau này về việc cơ cấu phẩm trật của Giáo Hội thực sự có từ bao giờ — được trích dẫn như bằng chứng cho thấy nó có từ thế hệ Kitô hữu đầu tiên sau các Tông Đồ, chứ không phải từ một thời kỳ \"định chế hóa\" muộn hơn.",
+        "en": "Ignatius's letters survive in three different textual forms — a short Syriac abridgment, a \"middle recension\" of seven letters, and a \"long recension\" that expands the seven and adds six more — and for centuries scholars couldn't agree which, if any, was authentic. The question was largely settled in the 1870s–80s by Theodor Zahn, Adolf von Harnack, and especially J.B. Lightfoot, whose close philological work established the middle recension of seven letters as genuinely Ignatius's own, with the long recension a later doctrinal expansion; that consensus has held since, though a few modern scholars (echoing the dating questions above) have reopened the discussion. Independent of the textual debate, Ignatius's description of a single bishop leading each local church became a key historical reference point in later arguments about how old the Church's hierarchical structure actually is — cited as evidence it goes back to the first Christian generation after the Apostles, not to a later, more \"institutional\" era."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "William R. Schoedel, Ignatius of Antioch: A Commentary on the Letters of Ignatius of Antioch (bộ Hermeneia, Fortress Press, 1985) — chú giải phê bình học thuật chuẩn mực. Michael W. Holmes (biên tập và dịch), The Apostolic Fathers: Greek Texts and English Translations (tái bản lần 3, Baker Academic, 2007). Bart D. Ehrman (biên tập và dịch), The Apostolic Fathers, tập 1 (Loeb Classical Library, Harvard University Press, 2003). Toàn văn miễn phí tại earlychristianwritings.com và newadvent.org.",
+        "en": "William R. Schoedel, Ignatius of Antioch: A Commentary on the Letters of Ignatius of Antioch (Hermeneia series, Fortress Press, 1985) — the standard critical commentary. Michael W. Holmes, ed. and trans., The Apostolic Fathers: Greek Texts and English Translations (3rd ed., Baker Academic, 2007). Bart D. Ehrman, ed. and trans., The Apostolic Fathers, Vol. 1 (Loeb Classical Library, Harvard University Press, 2003). Full text freely available at earlychristianwritings.com and newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Inhaxiô dạy gì về Thẩm quyền giám mục?",
+        "en": "What does Ignatius teach about Episcopal authority?"
+      },
+      "a": {
+        "vi": "\"Nơi nào giám mục hiện diện, ở đó có cộng đoàn; cũng như nơi nào có Đức Kitô, ở đó có Hội Thánh Công Giáo\" (Thư gửi tín hữu Smyrna, 8:2). Viết chỉ một thế hệ sau các Tông Đồ, đây là bằng chứng mạnh mẽ cho thấy cơ cấu một giám mục duy nhất không phải là phát minh về sau mà đã hiện diện từ những ngày đầu sau thời các Tông Đồ.",
+        "en": "\"Wherever the bishop appears, there let the people be, just as wherever Jesus Christ is, there is the Catholic Church\" (Letter to the Smyrnaeans, 8:2). Strong early evidence that the single-bishop structure of the Church is not a later invention but present from the earliest post-apostolic period."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Inhaxiô dạy gì về Sự Hiện Diện Thực Sự trong Bí tích Thánh Thể?",
+        "en": "What does Ignatius teach about Real Presence?"
+      },
+      "a": {
+        "vi": "Inhaxiô phê phán những người theo thuyết Ảo thân vì họ \"không tham dự Bí tích Thánh Thể... vì họ không tuyên xưng Bí tích Thánh Thể là thịt của Đấng Cứu Độ chúng ta, Chúa Giêsu Kitô\" (Thư gửi Smyrna, 7:1). Đây là một trong những chứng từ sớm nhất và rõ ràng nhất về niềm tin vào sự hiện diện thực sự, chứ không chỉ mang tính biểu tượng, của Đức Kitô trong Bí tích Thánh Thể.",
+        "en": "Ignatius criticizes the Docetists because they \"abstain from the Eucharist... because they do not confess the Eucharist to be the flesh of our Savior Jesus Christ\" (Smyrnaeans, 7:1). One of the earliest and clearest witnesses to belief in a real, not merely symbolic, Eucharistic presence."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/ignatius-of-antioch.jpg",
+    "medium": {
+      "vi": "Tranh sơn dầu, trường phái Napoli, thế kỷ XVII (có thể của Cesare Fracanzano)",
+      "en": "Oil painting, Neapolitan school, 17th century (possibly Cesare Fracanzano)"
+    },
+    "source": "Wikimedia Commons (Galleria Borghese)",
+    "license": "public domain",
+    "available": true
+  }
+}

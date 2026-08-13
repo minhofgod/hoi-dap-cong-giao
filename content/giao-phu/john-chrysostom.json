@@ -1,0 +1,245 @@
+{
+  "no": 22,
+  "slug": "john-chrysostom",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Gioan thành Antiôkia",
+    "en": "John Chrysostom"
+  },
+  "role": {
+    "vi": "Linh mục tại Antiôkia, sau đó Tổng giám mục Constantinôpôli",
+    "en": "Priest in Antioch, then Archbishop of Constantinople"
+  },
+  "dates": {
+    "display": "c. 347 — 407",
+    "born": 347,
+    "died": 407
+  },
+  "quote": {
+    "vi": "Bạn muốn tôn kính Mình Thánh Đức Kitô sao? Đừng bỏ quên Người khi Người trần trụi... Ích gì nếu bàn tiệc Thánh Thể đầy chén vàng, trong khi anh em bạn đang chết đói?",
+    "en": "Do you wish to honor the body of Christ? Do not ignore him when he is naked... What good is it if the Eucharistic table is overloaded with golden chalices, when your brother is dying of hunger?",
+    "source": {
+      "vi": "Bài giảng về Tin Mừng Mátthêu, 50, 3-4",
+      "en": "Homily on Matthew, 50.3-4"
+    }
+  },
+  "life": [
+    {
+      "vi": "Học hùng biện dưới thầy Libaniô. Thuộc trường phái chú giải Antiôkia.",
+      "en": "Trained in rhetoric under Libanius. Associated with the Antiochene school of biblical interpretation."
+    },
+    {
+      "vi": "Nhà giảng thuyết vĩ đại nhất của Giáo hội sơ khai, khoảng 700 bài giảng còn lưu lại. Phụng Vụ Thánh Gioan Kim Khẩu vẫn là phụng vụ Thánh Thể chuẩn của Lễ nghi Byzantine ngày nay.",
+      "en": "The greatest preacher of the early Church, ~700 sermons survive. The Divine Liturgy of St. John Chrysostom remains the standard eucharistic liturgy of the Byzantine Rite today."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 347",
+        "en": "c. 347 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "14 tháng 9, năm 407",
+        "en": "September 14, 407 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Antiôkia; Tổng giám mục Constantinôpôli từ năm 398",
+        "en": "Antioch; Archbishop of Constantinople from 398 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "13 tháng 9",
+        "en": "September 13"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "3 tác phẩm",
+        "en": "3 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Các Bài Giảng Về Tin Mừng Mátthêu",
+        "en": "Homilies on Matthew"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Các Bài Giảng Về Thư Thánh Phaolô",
+        "en": "Homilies on the Epistles of Paul"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Về Chức Linh Mục",
+        "en": "On the Priesthood"
+      },
+      "latin": "De Sacerdotio",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Khi Nectariô, giám mục Constantinốp, qua đời năm 397, triều đình đã chọn Gioan — lúc đó đã là một nhà giảng thuyết nổi tiếng ở Antiôkia, nhưng không xuất thân từ hàng giáo sĩ Constantinốp — làm người kế nhiệm, và tiến hành việc này với một sự kín đáo đáng chú ý: viên quan hoạn trong triều Eutrôpiô đã sắp xếp để Gioan được triệu tập âm thầm và đưa ra khỏi Antiôkia dưới sự hộ tống quân sự, chính là để ngăn chặn sự náo động mà giáo đoàn của ngài hẳn sẽ gây ra nếu biết vị giảng thuyết của họ đang bị đưa đi. Chính sự nổi tiếng đó, điều khiến ngài trở nên có giá trị đối với kinh đô, cũng sẽ khiến ngài trở nên nguy hiểm ở đó: một triều đình và hàng giáo sĩ vốn quen với một vị tổng giám mục dễ thỏa hiệp hơn lại nhận được một nhà giảng thuyết đối xử với giới tinh hoa Constantinốp y hệt như ngài đã từng đối xử với Antiôkia, lên án sự xa hoa, tham nhũng và sự lơi lỏng của hàng giáo sĩ từ chính tòa giảng mà nay ngài chiếm giữ tại trung tâm chính trị của đế quốc chứ không còn ở vùng biên tỉnh lẻ — một sự thay đổi địa điểm đã biến những bài giảng từng chỉ đơn thuần thu hút đám đông thành những bài giảng nay tạo ra kẻ thù có quyền lực thực sự.",
+        "en": "When Nectarius, bishop of Constantinople, died in 397, the imperial court settled on John — by then a famous preacher in Antioch, but not from Constantinople's own clergy — as his replacement, and moved to secure him with striking discretion: the court eunuch Eutropius arranged for John to be summoned quietly and hurried out of Antioch under military escort, specifically to prevent the commotion his own congregation would likely have caused had they known their preacher was being taken from them. That popularity, the very thing that made him valuable to the capital, would also make him dangerous there: a court and clergy accustomed to a more accommodating archbishop got instead a preacher who treated Constantinople's elite exactly as he had treated Antioch's, denouncing luxury, corruption, and clerical laxity from the same pulpit he now occupied at the empire's political center rather than its provincial edge — a change of address that turned sermons which had once simply drawn crowds into sermons that now made enemies with real power."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Việc giảng dạy của Gioan Kim Khẩu về sự giàu có luôn trở đi trở lại với một khẳng định duy nhất, không khoan nhượng, được phát biểu có lẽ rõ ràng nhất trong các bài giảng của ngài về dụ ngôn người phú hộ và Ladarô: \"Người giàu tồn tại vì người nghèo. Người nghèo tồn tại vì phần rỗi của người giàu\" — không phải một lời kêu gọi bác ái như một đức tính tùy chọn, mà là một khẳng định rằng hai giai cấp cần đến nhau để cùng được cứu độ, người nghèo về mặt vật chất và người giàu về mặt thiêng liêng. Cuộc xung đột cuối cùng khiến ngài mất tòa giám mục được lưu giữ qua một trích dẫn khác, gây tranh cãi hơn: các sử gia Giáo Hội Socrates Scholasticus và Sozomen, viết một hai thế hệ sau đó, thuật lại rằng khi một pho tượng bạc của Hoàng hậu Eudoxia được khánh thành với những lễ hội công khai ồn ào gần nhà thờ chính tòa của ngài năm 403, Gioan đã lên án sự việc này từ tòa giảng bằng cách ám chỉ đến trình thuật Tin Mừng về cái chết của Gioan Tẩy Giả: \"Hêrôđia lại nổi giận, lại nhảy múa, lại đòi đầu Gioan trên mâm.\" Vì câu này chỉ còn lại qua tường thuật lịch sử sau này chứ không phải qua một bản văn bài giảng được lưu giữ, và đặc biệt Socrates viết với thiện cảm dành cho Gioan nhiều thập kỷ sau sự việc, các sử gia hiện đại coi từ ngữ chính xác này là một ghi chép khả tín nhưng chưa được xác minh đầy đủ về những gì ngài thực sự đã nói vào thời điểm đó — nội dung của lời lên án, và hậu quả của nó, thì không có gì phải nghi ngờ, nhưng cụm từ chính xác có thể đã được mài giũa thêm khi được kể lại.",
+        "en": "Chrysostom's preaching on wealth returned again and again to a single, uncompromising claim, stated perhaps most sharply in his homilies on the parable of the rich man and Lazarus: \"The rich exist for the sake of the poor. The poor exist for the salvation of the rich\" — not a call to charity as an optional virtue, but a claim that the two classes need each other for their mutual salvation, the poor materially and the rich spiritually. The conflict that eventually cost him his see is preserved in a different, more contested quotation: the Church historians Socrates Scholasticus and Sozomen, writing a generation or two later, report that when a silver statue of Empress Eudoxia was dedicated with raucous public celebrations near his cathedral in 403, John denounced the affair from the pulpit with an allusion to the Gospel's account of John the Baptist's death: \"Again Herodias rages, again she dances, again she demands the head of John on a platter.\" Because this line survives only in later historical narrative rather than in a preserved text of the sermon itself, and Socrates in particular was writing sympathetically toward John decades after the fact, modern historians treat the exact wording as a plausible but not fully verified record of what he actually said in the moment — the substance of his denunciation, and its consequences, are not in doubt, but the precise phrase may have been sharpened in the retelling."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Gioan Kim Khẩu được đào tạo theo trường phái chú giải Antiôkia, vốn đọc Kinh Thánh chủ yếu theo nghĩa lịch sử, đen của văn bản thay vì lối phúng dụ nhiều tầng nghĩa ưa chuộng ở Alexandria — một khác biệt phương pháp thực sự và lâu dài so với các nhân vật như Ôrigênê, hay sau này là Cyrilô thành Alexandria, dù bản thân điều này không phải là một tranh chấp giáo lý. Điều làm cho việc giảng dạy của ngài trở nên đặc biệt không phải là tính độc đáo về thần học mà là tính cấp bách về luân lý: hết bài giảng còn lưu lại này đến bài giảng khác (tổng cộng khoảng 700 bài) lấy một đoạn Kinh Thánh và đưa thẳng nó vào những câu hỏi cụ thể về cách người nghe của ngài thực sự sống — cách họ tiêu tiền, đối xử với nô lệ và người giúp việc, ăn mặc, giải trí, và trên hết là cách họ đối xử với người nghèo ngồi ngay bên ngoài chính những nhà thờ nơi họ thờ phượng trong tiện nghi. Câu nói được trích dẫn nhiều nhất của ngài nắm bắt chính xác sự kết hợp giữa bí tích và đạo đức này: tôn kính thân thể Đức Kitô trong Bí tích Thánh Thể trong khi lãng quên thân thể Đức Kitô đang chết đói ngay trước cửa nhà thờ, theo ngài, không phải là lòng đạo đức phiến diện mà là một sự tự mâu thuẫn. Chính tính cấp bách về đạo đức này, chứ không phải bất kỳ đổi mới giáo lý có hệ thống nào, là lý do vì sao các bài giảng của ngài vẫn tiếp tục được đọc và giảng lại nhiều thế kỷ sau khi các tác phẩm thần học kỹ thuật hơn của hầu hết những người đồng thời với ngài đã trở thành lãnh địa riêng của giới chuyên môn.",
+        "en": "Chrysostom trained in the Antiochene school of interpretation, which read Scripture primarily in its plain historical and literal sense rather than through the multi-layered allegory favored in Alexandria — a real and lasting difference in method from figures like Origen or, later, Cyril of Alexandria, though not itself a doctrinal dispute. What made his preaching distinctive was less theological originality than moral immediacy: sermon after surviving sermon (roughly 700 in total) takes a biblical text and drives it directly into concrete questions of how his listeners actually lived — how they spent money, treated slaves and servants, dressed, entertained themselves, and above all how they treated the poor sitting outside the very churches where they worshipped in comfort. His single most quoted line captures this fusion of sacrament and ethics precisely: honoring Christ's body in the Eucharist while ignoring Christ's body starving at the church door, he argued, was not partial piety but self-contradiction. This ethical urgency, rather than any systematic doctrinal innovation, is why his sermons remained read and preached from centuries after most of his contemporaries' more technical theological works had become the preserve of specialists."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Gioan Kim Khẩu không bị hành quyết, và chính Giáo Hội chưa bao giờ chính thức xếp ngài vào hàng các thánh tử đạo — nhưng cách gọi \"chứng nhân\" (confessor) mà mục trên đã dùng thực sự có ý nghĩa, bởi cái chết của ngài, theo mọi nghĩa thực chất ngoại trừ nghĩa kỹ thuật, là do chính kẻ thù của ngài gây ra. Sau khi Công Đồng Cây Sồi phế truất ngài năm 403 với những cáo buộc được dàn dựng vì mục đích chính trị, và một cuộc lưu đày thứ hai được ra lệnh năm 404, ngài bị buộc đi bộ suốt nhiều tháng qua địa hình khắc nghiệt hướng đến tiền đồn biên giới xa xôi Pithius, cố tình bị phơi ra nắng, mưa và lạnh dọc đường bởi những lính canh tuân theo mệnh lệnh cho thấy rất ít quan tâm đến sức khỏe đang suy sụp của ngài; ngài gục ngã và qua đời tại Comana ở Pontô ngày 14 tháng 9 năm 407, trước khi kịp đến nơi lưu đày cuối cùng. Những lời cuối cùng được ghi lại của ngài, nhất quán qua các nguồn lưu giữ chúng, là \"Vinh danh Thiên Chúa vì mọi sự\" — không phải một lời minh oan chống lại những kẻ đã giết ngài bằng sự kiệt sức, mà là cùng một âm điệu ca ngợi xuyên suốt các bài giảng của ngài, được thốt lên ngay vào giây phút cuối cùng của một cái chết mà, dù được phân loại kỹ thuật thế nào đi nữa, vẫn là hậu quả trực tiếp của sự bách hại bởi quyền lực mà ngài đã từ chối xu nịnh.",
+        "en": "Chrysostom was not executed, and the Church itself has never formally classified him as a martyr — but the \"confessor\" language the base entry above uses is doing real work, because his death was, in every meaningful sense except the technical one, caused by his enemies. After the Synod of the Oak deposed him in 403 on politically engineered charges, and a second exile was ordered in 404, he was marched on foot for months across harsh terrain toward the remote frontier outpost of Pithius, deliberately exposed to sun, rain, and cold along the way by guards under orders that showed little concern for his failing health; he collapsed and died at Comana in Pontus on September 14, 407, before ever reaching his final place of exile. His last recorded words, consistent across the sources that preserve them, were \"Glory to God for all things\" — not a statement of vindication against those who killed him by exhaustion, but the same note of praise that runs through his sermons, delivered at the very end of a death that was, however it's technically classified, a direct consequence of persecution by power he had refused to flatter."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Sự minh oan cuối cùng cũng đến, từ chính hoàng tộc đã lưu đày ngài: năm 438, khoảng ba mươi năm sau khi ngài qua đời, Hoàng đế Theodosiô II — cháu nội của chính Arcadiô, người đã kết án Gioan — đã cho rước thánh tích của ngài trở về Constantinốp một cách long trọng, do Thượng phụ Proclô, một trong những học trò cũ của Gioan, dẫn đầu, và được cho là đã quỳ trước quan tài công khai xin tha thứ thay cho cha mẹ mình là Arcadiô và Eudoxia. Phụng vụ mang tên ngài ngày nay, Phụng Vụ Thánh Gioan Kim Khẩu, được sử dụng trong hầu như mọi cử hành Chúa Nhật khắp Nghi lễ Byzantine, xứng đáng có một lời cảnh báo trung thực đi kèm với tuyên bố ấn tượng về hơn 1.600 năm liên tục: các học giả phụng vụ nói chung đồng ý rằng Gioan đã hiệu đính và rút gọn một hình thức phụng vụ Antiôkia đã có sẵn và đóng góp một số lời nguyện của phụng vụ đó, chứ không phải soạn toàn bộ văn bản như hiện có ngày nay — việc quy toàn bộ tác quyền cho ngài chỉ trở thành chuẩn mực trong các bản chép tay vài thế kỷ sau khi ngài qua đời (một bản chép tay thế kỷ VIII, Codex Barberini, chỉ ghi nhận ngài với hai lời nguyện trong đó). Cả gốc rễ sâu xa của phụng vụ này trong thực hành của ngài lẫn việc sử dụng nó dưới tên ngài suốt nhiều thế kỷ đều là sự thật, dù cụm từ \"do Gioan Kim Khẩu viết\" đơn giản hóa một lịch sử phức tạp hơn nhiều.",
+        "en": "Vindication came, eventually, from the same imperial house that had exiled him: in 438, some thirty years after his death, Emperor Theodosius II — grandson of the same Arcadius under whom John had been condemned — had his relics solemnly returned to Constantinople in a procession led by Patriarch Proclus, one of John's own former students, and reportedly knelt before the coffin publicly asking forgiveness on behalf of his parents Arcadius and Eudoxia. The liturgy that carries his name today, the Divine Liturgy of St. John Chrysostom, used at virtually every Sunday celebration across the Byzantine Rite, deserves an honest caveat alongside the impressive claim of over 1,600 years of continuity: liturgical scholars generally agree John revised and shortened an existing Antiochene liturgical form and contributed some of its prayers, rather than composing the whole text as it exists today — full attribution to him only became standard in manuscripts several centuries after his death (an 8th-century manuscript, the Codex Barberini, credits him with only two of its prayers). The liturgy's deep roots in his practice, and its centuries-long use under his name, are both real, even if \"written by John Chrysostom\" oversimplifies a more layered history."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "J.N.D. Kelly, Golden Mouth: The Story of John Chrysostom — Ascetic, Preacher, Bishop (Cornell University Press, 1995) — tiểu sử phê bình hiện đại chuẩn mực. Catharine P. Roth và David Anderson (dịch), St. John Chrysostom: On Wealth and Poverty (bộ Popular Patristics, St. Vladimir's Seminary Press, 1984). NPNF Series I, các tập 9–14 (Schaff biên tập) chứa các bài giảng của ngài về Mátthêu, Gioan và các thư Thánh Phaolô, miễn phí tại newadvent.org.",
+        "en": "J.N.D. Kelly, Golden Mouth: The Story of John Chrysostom — Ascetic, Preacher, Bishop (Cornell University Press, 1995) — the standard modern critical biography. Catharine P. Roth and David Anderson, trans., St. John Chrysostom: On Wealth and Poverty (Popular Patristics Series, St. Vladimir's Seminary Press, 1984). NPNF Series I, Vols. 9–14 (Schaff, ed.) contain his homilies on Matthew, John, and the Pauline epistles, freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Gioan dạy gì về Kết hợp Thánh Thể với công bằng xã hội?",
+        "en": "What does John teach about Uniting Eucharist and social justice?"
+      },
+      "a": {
+        "vi": "Giáo huấn của Gioan Kim Khẩu gắn kết trực tiếp lòng sùng kính Thánh Thể với việc chăm sóc cụ thể người nghèo, chống lại bất kỳ sự tách rời nào giữa đạo đức cá nhân và công bằng xã hội.",
+        "en": "Chrysostom's teaching ties sacramental devotion directly to concrete care for the poor, showing personal piety and social justice were always meant to be inseparable."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Gioan dạy gì về Tính liên tục của phụng vụ?",
+        "en": "What does John teach about Liturgical continuity?"
+      },
+      "a": {
+        "vi": "Phụng vụ mang tên ngài vẫn được cử hành gần như nguyên vẹn trong Lễ nghi Byzantine ngày nay, minh chứng sống động cho một truyền thống phụng vụ liên tục hơn 1.600 năm.",
+        "en": "The Divine Liturgy bearing his name is still prayed essentially unchanged in the Byzantine Rite today, continuous for over 1,600 years."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/john-chrysostom.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

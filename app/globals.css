@@ -1,0 +1,187 @@
+:root {
+  /* Neutrals */
+  --ground: #FBF8F3;
+  --surface: #FFFFFF;
+  --surface-warm: #F1EDE1;
+  --surface-quiet: #F6F1E7;
+  --border: #EDE4D6;
+  --border-strong: #DFD4C2;
+  --border-input: #E4D9C8;
+  --text: #241F1B;
+  --text-heading: #201E1D;
+  --text-body: #3A342E;
+  --text-muted: #5C554E;
+  --text-quiet: #8A837C;
+  --text-faint: #A29A91;
+  --text-fainter: #B4ABA1;
+
+  /* Accent — Giáo Lý (terracotta) */
+  --accent: #C67139;
+  --accent-deep: #A8562A;
+  --accent-tint: #F6E7DA;
+  --accent-tint-2: #FCF6EE;
+  --accent-number: #C99A6E;
+  --accent-press: #B0602F;
+
+  /* Sage — Giải Đáp */
+  --sage: #7A8A5E;
+  --sage-deep: #56663B;
+  --sage-tint: #E9EEDF;
+  --sage-card: #F2F4EC;
+
+  /* Gold — Giáo Phụ */
+  --gold: #B08A3E;
+  --gold-deep: #8A6A2A;
+  --gold-tint: #F8F3E7;
+  --gold-border: #DCCFB4;
+  --highlight: #F4E9CE;
+
+  /* Giáo Phụ only — deep warm near-black used in exactly four places on the profile/index
+     pages (index hero, era bands, profile pull-quote, apologetics corner). The only new token
+     introduced for the section; everything else reuses tokens already defined above. */
+  --dark-ground: #1E1B17;
+
+  --text-en: #8C8479;
+
+  /* Spacing / layout */
+  --page-gutter: 56px;
+  --reader-gutter: 32px;
+  --mobile-gutter: 22px;
+  --section-rhythm: 56px;
+  --canvas-max: 1280px;
+  --measure-catechism: 600px;
+  --measure-prose: 660px;
+
+  /* Radii */
+  --radius-pill: 999px;
+  --radius-card: 20px;
+  --radius-band: 24px;
+  --radius-panel: 16px;
+  --radius-row: 10px;
+  --radius-numeral: 12px;
+
+  --font-serif: var(--font-source-serif-4), Georgia, serif;
+  --font-sans: var(--font-be-vietnam-pro), -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--ground);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--accent-deep);
+  text-decoration: none;
+}
+a:hover {
+  color: #8F4620;
+  text-decoration: underline;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+* {
+  transition: background-color 120ms ease-out, color 120ms ease-out;
+}
+
+/* Bilingual paragraph text — controlled by the language toggle via [data-lang] on <html>.
+   Global (unscoped) on purpose: CSS Modules hash class names, which would make this
+   cross-component attribute-selector styling impossible to target from globals.css. */
+.viText {
+  font-size: 18px;
+  line-height: 1.76;
+  color: var(--text);
+  font-weight: 400;
+}
+.enText {
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--text-en);
+  font-weight: 300;
+  margin-top: 11px;
+}
+
+html[data-lang="vi"] .enText {
+  display: none;
+}
+html[data-lang="en"] .viText {
+  display: none;
+}
+html[data-lang="en"] .enText {
+  font-size: 18px;
+  line-height: 1.76;
+  color: var(--text);
+  font-weight: 400;
+  margin-top: 0;
+}
+
+@media (max-width: 899px) {
+  .viText {
+    font-size: 16.5px;
+    line-height: 1.78;
+  }
+  html[data-lang="en"] .enText {
+    font-size: 16.5px;
+    line-height: 1.78;
+  }
+  .enText {
+    font-size: 13.5px;
+    line-height: 1.62;
+  }
+}
+
+/* Generic bilingual visibility toggle for content that isn't Catechism-paragraph shaped (e.g.
+   Giáo Phụ profile fields) — visibility only, no typography opinion. The element carrying this
+   class supplies its own font styling via its own (scoped) class; .bi-en gets a distinguishing
+   treatment only when both languages are shown together ("Cả hai"). */
+.bi-vi,
+.bi-en {
+  display: block;
+}
+.bi-en {
+  opacity: 0.72;
+  margin-top: 0.2em;
+}
+html[data-lang="vi"] .bi-en {
+  display: none;
+}
+html[data-lang="en"] .bi-vi {
+  display: none;
+}
+html[data-lang="en"] .bi-en {
+  opacity: 1;
+  margin-top: 0;
+}

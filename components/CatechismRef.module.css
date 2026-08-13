@@ -1,0 +1,66 @@
+/* Catechism (§) reference chip + paragraph body inside the popover. Terracotta accent to match
+   the Giáo Lý section; the popover card chrome comes from ReferencePopover.module.css. */
+.anchor {
+  position: relative;
+  display: inline;
+  white-space: nowrap;
+}
+
+.chip {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 120ms ease-out;
+}
+.chip:hover,
+.chip[aria-expanded='true'] {
+  background: #F0D9C4;
+  text-decoration: none;
+}
+.chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Catechism paragraphs run long — cap the height and let the body scroll. */
+.para {
+  margin: 0;
+  max-height: min(52vh, 380px);
+  overflow-y: auto;
+  font-family: var(--font-source-serif-4), Georgia, serif;
+  font-weight: 400;
+  font-size: 15.5px;
+  line-height: 1.72;
+  color: var(--text);
+  text-wrap: pretty;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+  padding-top: 11px;
+  border-top: 1px solid var(--rule, #F2EAE0);
+}
+.footerLink {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--accent-deep);
+}
+.footerLink:hover {
+  text-decoration: none;
+  filter: brightness(0.95);
+}
+
+@media (prefers-color-scheme: dark) {
+  .para {
+    color: #EDE5D8;
+  }
+}

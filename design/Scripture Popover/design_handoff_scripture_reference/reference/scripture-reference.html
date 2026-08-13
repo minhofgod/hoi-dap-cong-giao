@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scripture reference — Hỏi Đáp Công Giáo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scripture-reference.css">
+</head>
+<body>
+
+<div class="frame">
+  <div class="eyebrow">Giải Đáp · Bí tích</div>
+  <h3>Vì sao phải xưng tội với linh mục?</h3>
+  <p class="body">Hội Thánh tin rằng chính Chúa đã trao quyền tha tội cho các Tông Đồ <button class="ref" aria-expanded="false" aria-controls="p1" data-pop="p1">(Ga 20,23)</button>, và các ngài truyền lại cho những người kế vị. Vì thế bí tích Hoà Giải không phải là chuyện giữa ta với một con người, mà là gặp gỡ chính Chúa qua tay Hội Thánh.
+    <span class="pop" id="p1" hidden>
+      <span class="pop-hd">
+        <span class="pop-label">Gioan 20,23 <span>· CGKPV</span></span>
+        <button class="pop-x" data-close="p1" aria-label="Đóng"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#8A837C" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+      </span>
+      <span class="verse" style="display:block"><span class="vn">23</span>Anh em tha tội cho ai, thì người ấy được tha; anh em cầm giữ ai, thì người ấy bị cầm giữ.</span>
+      <span class="pop-ft"><button class="more">Xem thêm ngữ cảnh</button><span class="range">Ga 20,19–23</span></span>
+    </span>
+  </p>
+</div>
+
+<div class="states">
+  <span class="eyebrow" style="margin:0">Trạng thái</span>
+  <span><button class="ref">(Mt 5,3)</button> <i>nghỉ</i></span>
+  <span><button class="ref" style="background:#E9EEDF;border-bottom-color:#56663B">(Mt 5,3)</button> <i>hover</i></span>
+  <span><button class="ref" aria-expanded="true" style="outline:2px solid #7A8A5E;outline-offset:2px">(Mt 5,3)</button> <i>mở / focus</i></span>
+</div>
+
+<div class="dark">
+  <div class="eyebrow" style="color:#6E655A">Nền tối</div>
+  <p class="body">…quyền tha tội cho các Tông Đồ <button class="ref" aria-expanded="false" aria-controls="p2" data-pop="p2">(Ga 20,23)</button>.
+    <span class="pop" id="p2" hidden>
+      <span class="pop-hd">
+        <span class="pop-label">Gioan 20,23 <span>· CGKPV</span></span>
+        <button class="pop-x" data-close="p2" aria-label="Đóng"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#8A837C" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+      </span>
+      <span class="verse" style="display:block"><span class="vn">23</span>Anh em tha tội cho ai, thì người ấy được tha; anh em cầm giữ ai, thì người ấy bị cầm giữ.</span>
+      <span class="pop-ft"><button class="more">Xem thêm ngữ cảnh</button><span class="range">Ga 20,19–23</span></span>
+    </span>
+  </p>
+</div>
+
+<div class="mob">
+  <div class="eyebrow">Di động — 390pt</div>
+  <p class="body">…trao quyền tha tội cho các Tông Đồ <button class="ref" aria-expanded="false" aria-controls="p3" data-pop="p3">(Ga 20,23)</button>, và các ngài truyền lại.
+    <span class="pop" id="p3" hidden>
+      <span class="pop-hd">
+        <span class="pop-label">Gioan 20,23 <span>· CGKPV</span></span>
+        <button class="pop-x" data-close="p3" aria-label="Đóng"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#8A837C" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+      </span>
+      <span class="verse" style="display:block"><span class="vn">23</span>Anh em tha tội cho ai, thì người ấy được tha; anh em cầm giữ ai, thì người ấy bị cầm giữ.</span>
+      <span class="pop-ft"><button class="more">Xem thêm ngữ cảnh</button><span class="range">Ga 20,19–23</span></span>
+    </span>
+  </p>
+</div>
+
+<p class="note">Click a reference to open its popover · Esc or a click outside closes it. Verse text here is a plain rendering, <strong>not CGKPV</strong> — see the licensing gate in the README.</p>
+
+<script>
+function closeAll(except) {
+  document.querySelectorAll('.pop').forEach(p => { if (p.id !== except) p.hidden = true; });
+  document.querySelectorAll('.ref[data-pop]').forEach(b => {
+    if (b.dataset.pop !== except) b.setAttribute('aria-expanded', 'false');
+  });
+}
+document.addEventListener('click', e => {
+  const trigger = e.target.closest('[data-pop]');
+  const closer = e.target.closest('[data-close]');
+  if (trigger) {
+    const id = trigger.dataset.pop, pop = document.getElementById(id), open = pop.hidden;
+    closeAll(open ? id : null);
+    pop.hidden = !open;
+    trigger.setAttribute('aria-expanded', String(open));
+    return;
+  }
+  if (closer) {
+    const id = closer.dataset.close;
+    document.getElementById(id).hidden = true;
+    const t = document.querySelector('[data-pop="' + id + '"]');
+    t.setAttribute('aria-expanded', 'false');
+    t.focus();
+    return;
+  }
+  if (!e.target.closest('.pop')) closeAll(null);
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeAll(null); });
+</script>
+</body>
+</html>

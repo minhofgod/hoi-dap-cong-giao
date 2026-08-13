@@ -1,0 +1,227 @@
+{
+  "no": 11,
+  "slug": "anthony-the-great",
+  "era": "ante-nicene",
+  "name": {
+    "vi": "Antôn Cả",
+    "en": "Anthony the Great"
+  },
+  "role": {
+    "vi": "Đan sĩ và ẩn sĩ; chưa từng được thụ phong",
+    "en": "Monk and hermit; never ordained clergy"
+  },
+  "dates": {
+    "display": "251 — 356",
+    "born": 251,
+    "died": 356
+  },
+  "quote": {
+    "vi": "Tôi thấy những cạm bẫy mà kẻ thù giăng ra khắp thế gian, và tôi than thở: 'Ai có thể thoát khỏi những cạm bẫy như thế?' Rồi tôi nghe một tiếng nói với tôi: 'Sự khiêm nhường.'",
+    "en": "I saw the snares that the enemy spreads out over the world, and I said groaning, 'What can get through from such snares?' Then I heard a voice saying to me, 'Humility.'",
+    "source": {
+      "vi": "Ngôn Sứ Các Giáo Phụ Sa Mạc (Apophthegmata Patrum)",
+      "en": "Apophthegmata Patrum (Sayings of the Desert Fathers)"
+    }
+  },
+  "life": [
+    {
+      "vi": "Không có thầy dạy chính thức. Bạn thân thiết của Thánh Athanasiô thành Alexandria, người đã viết tiểu sử về ngài.",
+      "en": "No formal teacher. Close personal friend of St. Athanasius of Alexandria, who wrote his biography."
+    },
+    {
+      "vi": "Được xem rộng rãi là người sáng lập đời sống đan tu Kitô giáo. Sống đến 105 tuổi. Rời sa mạc năm 338 để công khai ủng hộ Athanasiô chống lại thuyết Ariô.",
+      "en": "Widely regarded as the founder of Christian monasticism. Lived to age 105. Emerged from the desert in 338 AD to publicly support Athanasius against Arianism."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "12 tháng 1, năm 251",
+        "en": "January 12, 251 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "17 tháng 1, năm 356",
+        "en": "January 17, 356 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Ai Cập — làng Côma gần sa mạc Thêbaiđê; sau đó núi Pispir và núi Colzim",
+        "en": "Egypt — the village of Coma near the Thebaid desert; later Mount Pispir and Mount Colzim"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "17 tháng 1",
+        "en": "January 17"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Tiểu Sử Thánh Antôn (do Athanasiô viết)",
+        "en": "The Life of Antony"
+      },
+      "latin": "by Athanasius",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Các Thư",
+        "en": "Letters"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Antôn sinh khoảng năm 251 trong một gia đình địa chủ khá giả, nói tiếng Coptic, tại làng Coma ở Thượng Ai Cập; cả cha lẫn mẹ ngài qua đời khi ngài khoảng mười tám đến hai mươi tuổi, để lại cho ngài trách nhiệm nuôi một người em gái nhỏ cùng một gia sản đáng kể. Theo cuốn Đời Sống Thánh Antôn của Athanasiô, một ngày nọ Antôn bước vào nhà thờ, nghe đọc đoạn Tin Mừng — \"nếu anh muốn nên hoàn thiện, hãy đi bán tài sản của anh và cho người nghèo\" (Mátthêu 19:21) — và coi những lời đó như đang nói trực tiếp với chính mình ngay giờ phút ấy, lập tức phân phát ruộng đất và của cải. Sự đáp trả tức khắc, theo nghĩa đen, trước một đoạn Kinh Thánh tình cờ được nghe — chứ không phải qua một tiến trình phân định từ từ — đã trở thành khuôn mẫu sáng lập cho nhiều câu chuyện hoán cải Kitô giáo sau này được xây dựng quanh một cuộc gặp gỡ bất chợt với Kinh Thánh (chính cuộc hoán cải của Augustinô cố ý vang vọng lại câu chuyện này). Việc Antôn rút lui vào sa mạc tự nó diễn ra theo từng giai đoạn — trước tiên học nghề với một ẩn sĩ địa phương gần làng mình, rồi sống giữa các phần mộ ngoài làng, rồi, khoảng năm 285, tự giam mình chừng hai mươi năm trong một pháo đài La Mã bỏ hoang tại Pispir, trước khi cuối cùng rút lui sâu hơn nữa đến \"ngọn núi trong\" gần núi Colzim.",
+        "en": "Anthony was born around 251 into a well-off landowning Coptic-speaking family in the village of Coma in Upper Egypt; both his parents died when he was about eighteen to twenty, leaving him responsible for a young sister and a substantial inheritance. According to Athanasius's Life, Anthony walked into church one day, heard the Gospel read aloud — \"if you would be perfect, go, sell what you possess and give it to the poor\" (Matthew 19:21) — and treated the words as addressed to him personally that same hour, immediately distributing his land and possessions. This literal, unhesitating response to a single overheard reading, rather than any gradual process of discernment, became a founding archetype for later Christian conversion narratives built around a chance encounter with Scripture (Augustine's own conversion account consciously echoes it). Anthony's withdrawal into the desert was itself staged in phases — first apprenticing himself to a local hermit near his village, then living among the tombs outside it, then, around 285, sealing himself for some twenty years inside an abandoned Roman fort at Pispir before retreating deeper still to his \"inner mountain\" near Mount Colzim."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Ngoài câu nói đã được dùng làm Trích Dẫn Chính của thẻ này, cuốn Đời Sống của Athanasiô còn ghi lại một cuộc đối thoại giữa Antôn tuổi già với một nhóm triết gia Hy Lạp đến thăm để chế nhạo ngài vì không được học hành chính quy. Khi được hỏi điều gì có trước, trí khôn hay chữ viết, chính các triết gia cũng phải thừa nhận rằng trí khôn có trước, vì chữ viết chỉ là phát minh của nó; câu trả lời của Antôn, theo các bản dịch chuẩn của đoạn văn này, là \"nơi người nào có trí khôn lành mạnh thì không cần đến chữ viết\" — khiến các vị khách, theo lời Athanasiô, kinh ngạc vì một người không được học hành lại có thể lý luận chính xác đến thế. Câu chuyện này đối với Athanasiô là bằng chứng rằng chính sự thánh thiện là một thứ khôn ngoan không lệ thuộc vào học vấn Hy Lạp, nhưng nó cũng đặt ra chính câu hỏi mà các học giả hiện đại đã nêu lên đối với phần còn lại của hồ sơ về Antôn: liệu ngài có thực sự không được học hành như cuốn Đời Sống khẳng định hay không?",
+        "en": "Beyond the saying already used as this card's Key Quote, Athanasius's Life records an exchange between the aged Anthony and a group of visiting Greek philosophers who had come to mock him for having no formal education. Asked which comes first, the mind or the alphabet, the philosophers themselves conceded that the mind must come first, since letters are only its invention; Anthony's reply, as standard renderings of the passage give it, was that \"in the person whose mind is sound there is no need for letters\" — leaving his visitors, according to Athanasius, amazed that a man with no schooling could reason so precisely. The story served Athanasius as proof that holiness is itself a kind of wisdom that does not depend on Greek learning, but it also raises the very question modern scholars have pressed on the rest of Anthony's dossier: was he really as unlettered as the Life insists?"
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Cuốn Đời Sống Thánh Antôn của Athanasiô nhấn mạnh nhiều lần rằng nhân vật của mình là agrammatos — không biết chữ, về căn bản không được học hành — và rút ra từ đó một sức mạnh thần học thực sự: một người không có học vấn lại lý luận hơn cả các triết gia được đào tạo bài bản là bằng chứng cho thấy Tin Mừng không cần đến nền học vấn Hy Lạp để sinh ra sự khôn ngoan. Thế nhưng bức chân dung này lại không ăn khớp thoải mái với bảy Bức Thư còn lưu truyền dưới tên Antôn, gửi đến nhiều cộng đoàn đan tu khác nhau và được bảo tồn qua các bản Coptic, Latinh và Gruzia với những bằng chứng xác thực khá mạnh (chúng được Giêrônimô trích dẫn, được các tác giả đan tu Ai Cập sơ khai trích lại, và được trích đoạn trong bộ Sayings of the Desert Fathers thế kỷ V). Học giả người Thụy Điển Samuel Rubenson đã lập luận dài hơi rằng những Bức Thư này cho thấy một đan sĩ hoàn toàn quen thuộc với từ vựng thần học Platon và Origenist của trường phái Clêmentê và Ôrigênê tại Alexandria — khó có thể là hồ sơ của một người không hề chạm đến văn hóa triết học Hy Lạp. Không phải mọi học giả đều chấp nhận toàn bộ lập luận của Rubenson về sự lệ thuộc trực tiếp vào Ôrigênê, nhưng căng thẳng nền tảng này nay đã được thừa nhận rộng rãi: Antôn lịch sử đằng sau những Bức Thư có thể là một nhân vật am hiểu thần học hơn nhiều so với hình ảnh \"vị thánh không biết chữ\" mà cuốn Đời Sống của Athanasiô cố tình đơn giản hóa vì mục đích tu từ riêng của nó.",
+        "en": "Athanasius's Life of Antony insists, more than once, that its subject was agrammatos — without letters, essentially unschooled — and draws real theological force from the contrast: a man of no education outreasoning trained philosophers is proof the Gospel needs no Greek learning to produce wisdom. Yet this portrait sits awkwardly next to seven Letters that survive under Anthony's name, addressed to various monastic communities and preserved in Coptic, Latin, and Georgian versions with strong claims to authenticity (they are cited by Jerome, quoted by early Egyptian monastic writers, and excerpted in the fifth-century Sayings of the Desert Fathers). The Swedish scholar Samuel Rubenson has argued at length that these Letters show a monk thoroughly at home in the Platonic and Origenist theological vocabulary of Clement and Origen's Alexandria — hardly the profile of someone untouched by Greek philosophical culture. Not every scholar accepts Rubenson's fuller claims about direct dependence on Origen, but the underlying tension is now widely acknowledged: the historical Anthony behind the Letters may have been a more theologically literate figure than the deliberately simplified \"unlettered saint\" that Athanasius's Life needed him to be for its own rhetorical purposes."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Antôn không phải là một vị tử đạo, và chính Athanasiô ghi lại rằng ngài đã thực sự tìm cách trở thành một vị tử đạo: khi cuộc bách hại dưới thời Maximinô Đaia lan đến Ai Cập năm 311, Antôn rời nơi ẩn tu để đến Alexandria với mục đích cụ thể là phục vụ các chứng nhân Kitô giáo đang bị giam cầm, và, theo cuốn Đời Sống, hy vọng rằng sự ủng hộ công khai của ngài dành cho họ sẽ khiến chính ngài bị bắt và xử tử cùng với họ. Không ai làm phiền ngài, và cuối cùng ngài trở về sa mạc trong thất vọng thay vì tử đạo. Ngài qua đời bình an ở tuổi khoảng 105 vào năm 356, và, theo đúng chỉ thị rõ ràng của chính ngài, được chôn cất trong một ngôi mộ bí mật, không đánh dấu, chỉ bởi hai môn đệ thân cận nhất, theo truyền thống mang tên Macariô và Amatha, cốt để thi hài ngài không thể trở thành đối tượng của loại tôn kính công khai — ướp xác và trưng bày — mà phong tục Ai Cập thường dành cho những vị thánh nhân được tôn kính; tương truyền ngài cũng đã yêu cầu chiếc áo choàng da cừu đã sờn cũ duy nhất của mình được gửi, sau khi ngài qua đời, đến người bạn cũ Athanasiô.",
+        "en": "Anthony was not a martyr, and Athanasius records that he actually sought to become one: when the persecution under Maximin Daia reached Egypt in 311, Anthony left his solitude and traveled to Alexandria specifically to minister to imprisoned Christian confessors, hoping, the Life says, that his own visible support for them would get him arrested and executed alongside them. No one troubled him, and he eventually returned to the desert disappointed rather than martyred. He died peacefully at about 105 in 356, and, according to his own explicit instructions, was buried in a secret, unmarked grave by only two of his closest disciples, traditionally named Macarius and Amathas, specifically so his body could not become an object of the kind of public veneration — embalming and display — that Egyptian custom extended to revered holy men; he is also said to have asked that his one worn sheepskin cloak be sent, after his death, to his old friend Athanasius."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Cuốn Đời Sống Thánh Antôn nhanh chóng được dịch sang tiếng Latinh — hai lần, chỉ trong vòng một thế hệ sau khi Antôn qua đời — và độc giả cổ đại có ảnh hưởng hệ trọng nhất của tác phẩm có lẽ là Augustinô thành Hippo, người kể lại trong Tự Thú, quyển VIII, rằng trong những tháng trước cuộc hoán cải của chính mình tại Milano, một vị khách tên Ponticianô đã kể cho ngài nghe chuyện hai quan chức triều đình tại Trier tình cờ có được một bản sao cuốn Đời Sống, đọc nó, và ngay lập tức từ bỏ sự nghiệp cùng các cuộc hôn ước để trở thành đan sĩ; Augustinô nói rằng câu chuyện đó đã đánh động lương tâm chính mình một cách đặc biệt mạnh mẽ vào đúng thời điểm ngài vẫn còn đang chống cự lại cuộc hoán cải của bản thân. Dù mọi chi tiết tiểu sử đằng sau giai thoại của Ponticianô có chính xác tuyệt đối hay không, chính trình thuật của Augustinô đã là bằng chứng mạnh mẽ cho thấy cuốn Đời Sống Thánh Antôn đã lan rộng nhanh chóng và sâu rộng thế nào trong thế giới nói tiếng Latinh chỉ vài thập kỷ sau khi được biên soạn, gieo mầm cho phong trào đan tu tại phương Tây trước khi Biển Đức, Cassianô, hay bất kỳ luật dòng phương Tây nào ra đời.",
+        "en": "The Life of Antony was rapidly translated into Latin — twice, within a generation of Anthony's death — and its most consequential ancient reader may have been Augustine of Hippo, who describes in Confessions Book VIII how, in the months before his own conversion in Milan, a visitor named Ponticianus told him how two imperial officials at Trier had stumbled on a copy of the Life, read it, and on the spot abandoned their careers and engagements to become monks; Augustine says the story struck his own conscience with particular force at the exact moment he was still resisting his own conversion. Whether or not every biographical detail behind Ponticianus's anecdote is precise, Augustine's account is itself strong evidence for how quickly and widely the Life of Antony had already spread across the Latin-speaking world within a few decades of its composition, seeding the monastic movement in the West before Benedict, Cassian, or any Western monastic rule yet existed."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Robert C. Gregg (dịch), Athanasius: The Life of Antony and the Letter to Marcellinus (bộ Classics of Western Spirituality, Paulist Press, 1980) — bản dịch học thuật hiện đại chuẩn mực. Samuel Rubenson, The Letters of St. Antony: Monasticism and the Making of a Saint (Fortress Press, 1995) — bao gồm bản dịch đầy đủ các Bức Thư cùng với lập luận được tóm tắt ở trên. Toàn văn Đời Sống Thánh Antôn (bản dịch Robertson) miễn phí tại newadvent.org. Titles kept in their original English/Latin form per the same convention as `key_writings` — no Vietnamese scholarly editions exist for these.",
+        "en": "Robert C. Gregg, trans., Athanasius: The Life of Antony and the Letter to Marcellinus (Classics of Western Spirituality, Paulist Press, 1980) — the standard modern scholarly translation. Samuel Rubenson, The Letters of St. Antony: Monasticism and the Making of a Saint (Fortress Press, 1995) — includes a full translation of the Letters alongside the argument summarized above. Full text of the Life of Antony (Robertson translation) freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Antôn dạy gì về Tính hợp pháp của đời sống thánh hiến?",
+        "en": "What does Anthony teach about Legitimacy of consecrated religious life?"
+      },
+      "a": {
+        "vi": "Khi cuộc bách hại công khai phần lớn chấm dứt vào thế kỷ IV, Antôn đã tiên phong một hình thức mới của việc hiến dâng trọn vẹn cho Thiên Chúa — cội nguồn lịch sử trực tiếp của mọi hình thức đời sống thánh hiến Công giáo về sau.",
+        "en": "Anthony pioneered a new form of total self-gift to God once open persecution ended — the direct historical root of every subsequent form of Catholic religious life."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Antôn dạy gì về Tiếng nói giáo dân bảo vệ giáo lý?",
+        "en": "What does Anthony teach about Lay voices defending doctrine?"
+      },
+      "a": {
+        "vi": "Antôn không phải là giám mục hay nhà thần học, nhưng sự ủng hộ công khai của ngài dành cho Athanasiô có trọng lượng thực sự trong cuộc chiến chống thuyết Ariô.",
+        "en": "Anthony was not a bishop or theologian, yet his public support of Athanasius carried real weight in the fight against Arianism."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/anthony-the-great.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

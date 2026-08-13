@@ -1,0 +1,245 @@
+{
+  "no": 18,
+  "slug": "basil-of-caesarea",
+  "era": "nicene",
+  "name": {
+    "vi": "Basiliô Cả",
+    "en": "Basil of Caesarea"
+  },
+  "role": {
+    "vi": "Giám mục Caesarea",
+    "en": "Bishop of Caesarea"
+  },
+  "dates": {
+    "display": "c. 329 — 379",
+    "born": 329,
+    "died": 379
+  },
+  "quote": {
+    "vi": "Bánh mì con không dùng đến là bánh mì của người đói; áo con treo trong tủ là áo của người trần trụi.",
+    "en": "The bread which you do not use is the bread of the hungry; the garment hanging in your wardrobe is the garment of him who is naked.",
+    "source": {
+      "vi": "Bài giảng về Luca 12,18",
+      "en": "Homily on Luke 12:18"
+    }
+  },
+  "life": [
+    {
+      "vi": "Anh của Thánh Grêgôriô thành Nyssa và Thánh Macrina Trẻ. Bạn thân của Thánh Grêgôriô thành Nazianzô. Một trong ba Giáo Phụ Cappađôcia.",
+      "en": "Brother of Gregory of Nyssa and Macrina the Younger. Close friend of Gregory of Nazianzus. One of the three Cappadocian Fathers."
+    },
+    {
+      "vi": "\"Cha của đời sống đan tu Đông phương.\" Giúp xác định từ vựng thần học Ba Ngôi (ousia, hypostasis). Xây dựng Basiliađô, một quần thể bệnh viện, nhà tế bần và trại tị nạn cho người nghèo.",
+      "en": "The 'Father of Eastern Monasticism.' Helped define Trinitarian vocabulary (ousia, hypostasis). Built the Basiliad, a hospital, hospice, and poorhouse complex."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 329",
+        "en": "c. 329 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "1 tháng 1, năm 379",
+        "en": "January 1, 379 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Caesarea vùng Cappađôcia",
+        "en": "Caesarea in Cappadocia"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "2 tháng 1 (chung với Thánh Grêgôriô thành Nazianzô)",
+        "en": "January 2 (shared with Gregory of Nazianzus)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "3 tác phẩm",
+        "en": "3 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Về Chúa Thánh Thần",
+        "en": "On the Holy Spirit"
+      },
+      "latin": "De Spiritu Sancto",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Hexaemeron",
+        "en": "The Hexaemeron"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Tu Luật Dài và Tu Luật Ngắn",
+        "en": "The Longer Rules and Shorter Rules"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Basiliô sinh ra trong một gia đình đáng chú ý theo bất kỳ tiêu chuẩn nào — bà nội ngài, Macrina, đã được một môn đệ của Grêgôriô Nhà Làm Phép Lạ dạy dỗ đức tin và đã sống sót qua thời gian trốn trong hoang địa trong một cuộc bách hại trước đó, còn cha mẹ ngài, Basiliô Cha và Êmmêlia, nuôi dạy mười người con, trong đó ít nhất bốn người (Basiliô, Macrina Trẻ, Grêgôriô thành Nyssa, và Phêrô thành Sêbastê) được tôn kính như các thánh ngày nay. Chính người chị cả của ngài, Macrina Trẻ, trên thực tế đã trở thành người thầy đầu tiên dạy ngài về đời sống khổ hạnh Kitô giáo, thuyết phục ngài từ bỏ một sự nghiệp giảng dạy thế tục đầy triển vọng sau khi ngài hoàn tất việc học hùng biện chính quy tại Caesarea, Constantinôpôli, và Athens (nơi ngài kết thân trọn đời với Grêgôriô thành Nazianzô). Trước khi thành lập bất kỳ cộng đoàn đan tu nào của riêng mình, Basiliô đã đi qua Ai Cập, Syria, và Palestina với mục đích cụ thể là học hỏi các thực hành khổ hạnh và đan tu đã phát triển ở đó, có nghĩa là các Tu Luật ngài viết sau này không hẳn là một phát minh nguyên bản mà là một sự tổng hợp và cải tổ cẩn trọng những thực hành đã có sẵn — được mang trở về Cappadocia và trao cho một kỷ luật tổ chức khiến nó có thể được truyền bá ra khắp Giáo Hội rộng lớn hơn.",
+        "en": "Basil was born into a family already remarkable by any standard — his grandmother Macrina the Elder had been instructed in the faith by a disciple of Gregory Thaumaturgus and had survived hiding in the wilderness during an earlier persecution, and his parents, Basil the Elder and Emmelia, raised ten children, of whom at least four (Basil, Macrina the Younger, Gregory of Nyssa, and Peter of Sebaste) are venerated as saints today. His own eldest sister, Macrina the Younger, effectively became his first teacher in ascetic Christian life, persuading him to abandon a promising secular teaching career after his formal education in rhetoric at Caesarea, Constantinople, and Athens (where he formed his lifelong friendship with Gregory of Nazianzus). Before founding any monastic community of his own, Basil traveled through Egypt, Syria, and Palestine specifically to study the ascetic and monastic practices already developing there, meaning the Rules he later wrote were not an original invention so much as a careful synthesis and reform of existing practice — brought back to Cappadocia and given the organizational discipline that would make it exportable across the wider Church."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Bài giảng của Basiliô về Luca 12:18, được giảng cho một cộng đoàn giàu có, đẩy đòi hỏi của lòng bác ái đi xa hơn việc \"cho những gì mình dư dả\": \"Ổ bánh mì mà anh không dùng đến là bánh mì của người đói; chiếc áo treo trong tủ của anh là áo của người không có áo mặc; đôi giày anh không mang là giày của người đi chân trần; số tiền anh cất giữ khóa kín là tiền của người nghèo.\" Ở đây Basiliô không hẳn mô tả một lý tưởng về lòng quảng đại mà đang lập luận về chính bản chất của quyền sở hữu — rằng những gì vượt quá nhu cầu thực sự đã thuộc về, xét theo công bằng chứ không chỉ là bác ái, những người đang thiếu thốn nó, đây là lý do vì sao bản văn này được trích dẫn như một phát biểu giáo phụ nền tảng cho giáo lý Công giáo sau này về mục đích phổ quát của của cải. Quần thể Basiliađô, gồm bệnh viện và trại tế bần mà ngài xây dựng bên ngoài Caesarea để đưa niềm xác tín này vào thực hành định chế, được cho là rộng lớn đến mức người đương thời bắt đầu gọi cả khu vực đó bằng tên ngài, một \"thành phố mới\" — một tuyên bố được lặp lại rộng rãi trong các tài liệu thứ cấp, dù mô tả cổ xưa chi tiết nhất về quy mô của nó lại đến từ chính bài điếu văn của Grêgôriô thành Nazianzô cho Basiliô, chứ không phải từ một nhân chứng độc lập, không thiên vị.",
+        "en": "Basil's homily on Luke 12:18, delivered to a wealthy congregation, presses the demand of charity further than \"give what you can spare\": \"The bread which you do not use is the bread of the hungry; the garment hanging in your wardrobe is the garment of him who is naked; the shoes that you do not wear are the shoes of the one who is barefoot; the money that you keep locked away is the money of the poor.\" Basil is not describing an ideal of generosity here so much as arguing a claim about ownership itself — that what exceeds genuine need already belongs, in justice rather than mere charity, to those who lack it, which is why this text is cited as a foundational patristic statement for the later Catholic doctrine of the universal destination of goods. The Basiliad, the hospital-and-poorhouse complex he built outside Caesarea to put this conviction into institutional practice, was reportedly so extensive that contemporaries began calling the whole district by his name, a \"new city\" — a claim repeated widely in secondary literature, though the most detailed ancient description of its scale comes from Gregory of Nazianzus's funeral oration for Basil rather than from an independent, disinterested witness."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Thành tựu kỹ thuật quan trọng nhất của Basiliô là về mặt ngôn ngữ: ngài đã giúp cố định từ vựng Ba Ngôi chính xác — một ousia (yếu tính/bản thể), ba hypostaseis (ngôi vị) — cho phép thần học Hy Lạp diễn đạt điều mà phương Tây nói tiếng Latinh diễn tả bằng substantia và persona, giải quyết nhiều thập kỷ nhầm lẫn trong đó nhiều giám mục trên thực tế đồng ý về nội dung đức tin nhưng lại nói chuyện lệch nhau vì tiếng Hy Lạp thiếu những thuật ngữ cố định cho cái gì là một và cái gì là ba. Tuy nhiên, về câu hỏi cụ thể liên quan đến thiên tính của Chúa Thánh Thần, chính tác phẩm Về Chúa Thánh Thần của Basiliô lại thể hiện một sự thận trọng có chủ đích và được bàn luận nhiều: ngài lập luận dài dòng, dựa trên Kinh Thánh và trên thực hành phụng vụ và Rửa tội của Giáo Hội, rằng Chúa Thánh Thần phải được tôn vinh cùng với Chúa Cha và Chúa Con — nhưng ngài chưa bao giờ thực sự viết ra câu \"Chúa Thánh Thần là Thiên Chúa\" theo đúng những từ đó. Đây không hẳn là sự rụt rè mà là một chiến lược mục vụ có tính toán, được chính bạn ngài, Grêgôriô thành Nazianzô, biện minh công khai như một \"sự khôn khéo mục vụ\" có chủ đích đối với những giám mục ôn hòa, còn nửa vời, những người có thể bị đẩy sang phía đối lập công khai chính vì cụm từ ngoài Kinh Thánh đó — một sự im lặng chiến lược mà các học giả hiện đại vẫn còn nghiên cứu như một trường hợp điển hình cho thấy việc truyền đạt thần học có thể uốn nắn đến mức nào vì mục đích thuyết phục mà không làm tổn hại đến nội dung của giáo lý đang được bảo vệ.",
+        "en": "Basil's single most consequential technical achievement was linguistic: he helped fix the precise Trinitarian vocabulary — one ousia (essence/substance), three hypostaseis (persons) — that let Greek theology express what the Latin West said with substantia and persona, resolving decades of confusion in which many bishops who actually agreed on the underlying faith had been talking past each other because Greek lacked settled terms for what was one and what was three. On the specific question of the Holy Spirit's divinity, though, Basil's own On the Holy Spirit displays a deliberate and much-discussed caution: he argues at length, from Scripture and from the Church's baptismal and liturgical practice, that the Spirit must be glorified together with the Father and the Son — but he never actually writes the sentence \"the Spirit is God\" in so many words. This was not timidity so much as calculated pastoral strategy, defended explicitly by his friend Gregory of Nazianzus as a deliberate \"economy\" toward moderate, half-convinced bishops who might have been driven into open opposition by that exact unscriptural phrase — a strategic silence that modern scholars still study as a case study in how far theological communication can bend toward persuasion without compromising the substance of the doctrine being defended."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Basiliô không tử đạo — ngài qua đời vì nguyên nhân tự nhiên tại Caesarea ngày 1 tháng 1 năm 379, theo hầu hết các ghi chép, kiệt sức vì gánh nặng kết hợp của một căn bệnh mãn tính (có lẽ là bệnh gan, trầm trọng hơn do chính lối sống khổ hạnh nghiêm ngặt của ngài) và gánh nặng hành chính, mục vụ to lớn của mười năm làm giám mục. Ngài không sống đủ lâu để chứng kiến Công Đồng Constantinôpôli năm 381, công đồng cuối cùng đã minh chứng cho nền thần học ủng hộ Nixêa, ủng hộ thiên tính Chúa Thánh Thần mà ngài đã dành cả nhiệm kỳ giám mục để bảo vệ, qua đời chưa đầy hai năm rưỡi trước khi công đồng đó diễn ra. Điều này đáng được nói rõ ràng: người được nhớ đến với danh hiệu \"Cả\" và được tôn vinh là Tiến Sĩ Hội Thánh đã giành được danh tiếng đó hoàn toàn qua lao động thường nhật, mệt nhọc của việc quản trị một giáo phận, xây dựng và điều hành các định chế bác ái, viết lách và thư từ, cùng những cuộc tranh luận thần học được tiến hành chủ yếu qua thư từ và các luận văn — chứ không phải qua một cái chết bi tráng, điều mà ngài không hề có.",
+        "en": "Basil was not martyred — he died of natural causes in Caesarea on January 1, 379, worn down, by most accounts, by the combined weight of chronic illness (probably liver disease, aggravated by his own severe asceticism) and the sheer administrative and pastoral burden of his decade as bishop. He did not live to see the Council of Constantinople in 381 that finally vindicated the pro-Nicene, pro-Spirit theology he had spent his episcopate defending, dying not quite two and a half years before it. This is worth stating plainly: the man remembered as \"the Great\" and honored as a Doctor of the Church earned that reputation entirely through the ordinary, exhausting labor of governing a diocese, building and running charitable institutions, writing and correspondence, and theological controversy conducted mostly through letters and treatises — not through a dramatic death, which he did not have."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Các Tu Luật Dài và Tu Luật Ngắn của Basiliô, được cấu trúc như những câu hỏi và trả lời mở rộng về cách đời sống khổ hạnh cộng đoàn nên thực sự được tổ chức hằng ngày, đã trở thành văn kiện có ảnh hưởng nhất trong toàn bộ lịch sử đời tu Đông phương, và qua bản dịch Latinh của Rufinô cùng ảnh hưởng đã được ghi nhận của nó đến cách Bênêđictô thành Nursia soạn thảo Tu Luật của chính mình khoảng một trăm năm mươi năm sau đó, cũng định hình đời tu Tây phương — khiến Basiliô, hơn bất kỳ nhân vật đơn lẻ nào khác, trở thành kiến trúc sư thực sự của đời sống đan tu Kitô giáo có tổ chức trên cả hai nửa của Giáo Hội. Sự thận trọng về thần học Chúa Thánh Thần trong tác phẩm Về Chúa Thánh Thần không ngăn cản thần học của ngài chiến thắng: Công Đồng Constantinôpôli năm 381 đã chính thức khẳng định thiên tính trọn vẹn của Chúa Thánh Thần mà Basiliô đã dành cả sự nghiệp để bảo vệ, dù ngài không sống đủ lâu để chứng kiến điều đó, và từ vựng ousia/hypostasis cẩn trọng của ngài đã trở thành ngôn ngữ kỹ thuật Ba Ngôi vĩnh viễn được các công đồng và các nhà thần học sử dụng kể từ đó. Mô hình bác ái định chế do Giáo Hội điều hành, được xây dựng có chủ đích của Basiliađô — một bệnh viện điều trị người bệnh (đáng chú ý là bao gồm cả những người mắc bệnh phong, những người mà Basiliô được nhớ đến vì đã đích thân chăm sóc) cùng với nơi ở cho người nghèo và khách lữ hành — được trích dẫn rộng rãi như một trong những tiền lệ cụ thể sớm nhất cho truyền thống Công giáo sau này về bệnh viện và các dòng tu bác ái.",
+        "en": "Basil's Longer Rules and Shorter Rules, structured as extended questions and answers on how communal ascetic life should actually be organized day to day, became the single most influential document in the entire history of Eastern monasticism and, through Rufinus's Latin translation and its documented influence on how Benedict of Nursia approached his own Rule roughly 150 years later, shaped Western monasticism as well — making Basil, more than any other single figure, the effective architect of organized Christian monastic life across both halves of the Church. His pneumatological caution in On the Holy Spirit did not prevent his theology from prevailing: the Council of Constantinople in 381 formally affirmed the full divinity of the Holy Spirit that Basil had spent his career defending, even though he did not live to see it, and his careful ousia/hypostasis vocabulary became permanent technical Trinitarian language used by councils and theologians ever since. The Basiliad's model of purpose-built, church-run institutional charity — a hospital treating the sick (including, notably, those with leprosy, whom Basil is remembered for personally caring for) alongside housing for the poor and travelers — is widely cited as among the earliest concrete precedents for the later Catholic tradition of hospitals and religious charitable orders."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "David Anderson (dịch), St. Basil the Great: On the Holy Spirit (bộ Popular Patristics, St. Vladimir's Seminary Press, 1980) — bản dịch hiện đại dễ tiếp cận chuẩn mực. M. Monica Wagner (dịch), Saint Basil: Ascetical Works (bộ Fathers of the Church, Catholic University of America Press, 1950), bao gồm Tu Luật Dài và Tu Luật Ngắn. Roy J. Deferrari (dịch), Saint Basil: The Letters (4 tập, Loeb Classical Library, Harvard University Press, 1926-1934). Toàn văn các tác phẩm chính của ngài (NPNF Series II, tập 8) miễn phí tại newadvent.org.",
+        "en": "David Anderson, trans., St. Basil the Great: On the Holy Spirit (Popular Patristics Series, St. Vladimir's Seminary Press, 1980) — the standard accessible modern translation. M. Monica Wagner, trans., Saint Basil: Ascetical Works (Fathers of the Church series, Catholic University of America Press, 1950), including the Longer and Shorter Rules. Roy J. Deferrari, trans., Saint Basil: The Letters (4 vols., Loeb Classical Library, Harvard University Press, 1926–1934). Full text of his major works (NPNF Series II, Vol. 8) freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Basiliô dạy gì về Làm phúc bố thí như công bằng?",
+        "en": "What does Basil teach about Almsgiving as justice?"
+      },
+      "a": {
+        "vi": "Giáo huấn của Basiliô rằng của cải dư thừa thuộc về người nghèo là nền tảng của giáo huấn xã hội Công giáo về mục đích phổ quát của của cải.",
+        "en": "Basil's teaching that unused goods rightfully belong to the poor underlies Catholic social teaching on the universal destination of goods."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Basiliô dạy gì về Tổ chức bác ái của Giáo hội?",
+        "en": "What does Basil teach about The Church's institutional charity?"
+      },
+      "a": {
+        "vi": "Basiliađô là một trong những ví dụ cụ thể sớm nhất về việc thể chế hóa lòng bác ái Kitô giáo, đặt nền cho truyền thống Công giáo về bệnh viện và các dòng bác ái.",
+        "en": "The Basiliad is one of the earliest concrete examples of organized Christian charity as an institution, grounding the later Catholic tradition of hospitals and charitable orders."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/basil-of-caesarea.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

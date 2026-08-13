@@ -1,0 +1,235 @@
+{
+  "no": 8,
+  "slug": "hippolytus-of-rome",
+  "era": "ante-nicene",
+  "name": {
+    "vi": "Hippôlytô thành Rôma",
+    "en": "Hippolytus of Rome"
+  },
+  "role": {
+    "vi": "Linh mục/giám mục tại Rôma; tự lập làm giám mục đối lập (ngụy giáo hoàng) khoảng năm 217-235",
+    "en": "Priest/bishop in Rome; set himself up as a rival bishop (antipope) c. 217-235 AD"
+  },
+  "dates": {
+    "display": "c. 170 — c. 235",
+    "born": 170,
+    "died": 235
+  },
+  "quote": {
+    "vi": "Chúng con tạ ơn Chúa, lạy Thiên Chúa, qua Con yêu dấu của Chúa là Chúa Giêsu Kitô, Đấng mà trong thời sau hết Chúa đã sai đến với chúng con như Đấng Cứu Độ, Đấng Cứu Chuộc, và sứ giả của thánh ý Chúa.",
+    "en": "We give thanks to you, God, through your beloved Child Jesus Christ, whom in the last times you sent to us as savior and redeemer and angel of your will.",
+    "source": {
+      "vi": "Truyền Thống Tông Đồ, lời nguyện Thánh Thể (nền tảng của Kinh Nguyện Thánh Thể II hiện nay)",
+      "en": "Apostolic Tradition, Eucharistic prayer (basis of modern Eucharistic Prayer II)"
+    }
+  },
+  "life": [
+    {
+      "vi": "Không có mối liên hệ thầy trò được xác nhận rõ ràng.",
+      "en": "No confirmed direct discipleship link."
+    },
+    {
+      "vi": "Nhà thần học hàng đầu tại Rôma thời của ngài. Cáo buộc các Giáo hoàng Zêphyrinô và Callistô I là lỏng lẻo về giáo lý và dung túng thuyết Modal (phủ nhận Ba Ngôi Vị riêng biệt). Tác giả cuốn Truyền Thống Tông Đồ, mà lời nguyện Thánh Thể trong đó đã trực tiếp là nguồn cảm hứng cho Kinh Nguyện Thánh Thể II trong Sách Lễ Rôma hiện đại.",
+      "en": "The leading Roman theologian of his generation. Accused Popes Zephyrinus and Callixtus I of doctrinal laxity and tolerating Modalism. Author of the Apostolic Tradition, whose Eucharistic prayer directly inspired Eucharistic Prayer II in the modern Roman Missal."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 170",
+        "en": "c. 170 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "khoảng năm 235",
+        "en": "c. 235 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Rôma",
+        "en": "Rome"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "13 tháng 8 (chung với Thánh Giáo hoàng Pontianô); 30 tháng 1 (Đông phương)",
+        "en": "August 13 (shared with Pope St. Pontian); January 30 (Eastern)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "3 tác phẩm",
+        "en": "3 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Truyền Thống Tông Đồ",
+        "en": "The Apostolic Tradition"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Bác Bỏ Mọi Lạc Giáo",
+        "en": "Refutation of All Heresies"
+      },
+      "latin": "Philosophumena",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Chú Giải Sách Đanien",
+        "en": "Commentary on Daniel"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Vào đầu thế kỷ III, cộng đoàn Kitô hữu tại Rôma đang dần chuyển từ tiếng Hy Lạp sang tiếng Latinh như ngôn ngữ làm việc, và Hippôlytô là một trong những nhà thần học Rôma lớn cuối cùng viết chủ yếu bằng tiếng Hy Lạp — một dấu hiệu cho thấy ngài thuộc về một dòng chảy cũ hơn, hướng về phương Đông nhiều hơn trong lòng Giáo Hội Rôma. Cuộc xung đột của ngài với các vị giáo hoàng đương nhiệm, Dêphyrinô rồi đến Callixtô I, thực chất là hai tranh chấp hòa làm một: một sự phản đối về mặt thần học rằng các ngài dung túng thuyết Duy Thể (Modalism, làm mờ đi sự phân biệt giữa Chúa Cha và Chúa Con), và một sự phản đối về kỷ luật rằng Callixtô, một cựu nô lệ từng bị kết án về một tội tài chính, quá dễ dàng cho phép những tội nhân nghiêm trọng — kể cả những người phạm tội về tính dục — được trở lại hiệp thông trọn vẹn sau khi đền tội. Hippôlytô phản ứng bằng cách tự lập mình làm giám mục đối lập khoảng năm 217, một cuộc ly giáo kéo dài qua ba triều đại giáo hoàng hợp pháp trước khi kết thúc, một cách khác thường, không phải bằng thất bại hay cái chết cô độc của Hippôlytô mà bằng sự hòa giải song phương với Đức Giáo Hoàng Pontianô, bị bắt cùng nhau và qua đời cùng nhau như những tù nhân trong các mỏ tại Sardinia.",
+        "en": "By the early 3rd century, Rome's Christian community was quietly shifting from Greek to Latin as its working language, and Hippolytus was one of the last major Roman theologians to write extensively in Greek — a sign he belonged to an older, more Eastern-oriented current within the Roman church. His conflict with the reigning popes, Zephyrinus and then Callixtus I, was really two disputes fused together: a theological objection that they tolerated Modalism (blurring the distinction between the Father and the Son), and a disciplinary objection that Callixtus, a former slave who had himself once been convicted of a financial crime, was too willing to readmit serious sinners — including those guilty of sexual sin — back into full communion after penance. Hippolytus responded by setting himself up as a rival bishop around 217 AD, a schism that lasted through three legitimate papacies before ending, unusually, not in Hippolytus's defeat or death in isolation but in mutual reconciliation with Pope Pontian, arrested together and dying together as prisoners in the Sardinian mines."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Sách Chú Giải Đanien của Hippôlytô — bản chú giải Kitô giáo hoàn chỉnh sớm nhất còn lại về bất kỳ cuốn sách nào trong Kinh Thánh — có một đoạn mục vụ đáng chú ý trong đó ngài hình dung một giám mục thức trắng đêm cùng một cộng đoàn lo âu đang chờ đợi điều họ sợ là ngày tận thế: \"vì họ nghĩ rằng ngày cùng tận đã đến rồi... Vậy anh em ơi, chúng ta đừng tự phụ như thể chúng ta đang sống trong những ngày cuối cùng của thế giới.\" Quan điểm của ngài mang tính mục vụ thực tiễn hơn là suy đoán: một phần ngài viết để trấn an những Kitô hữu đã diễn giải quá mức các sự kiện đương thời như bằng chứng rằng thời cánh chung đã đến, dùng phương pháp chú giải cẩn trọng để làm dịu cơn hoảng loạn về ngày tận thế thay vì nuôi dưỡng nó — một vai trò điều chỉnh hiếm khi được gắn với danh tiếng hiếu chiến của ngài trong các vấn đề khác.",
+        "en": "Hippolytus's Commentary on Daniel — the earliest complete Christian commentary on any book of the Bible to survive — includes a striking pastoral aside where he pictures a bishop staying up through the night with an anxious congregation awaiting what they feared was the end of the world: \"for they thought that the end was already come... Let us not, then, brethren, as though we were now living in the end of the world, be puffed up.\" His point was practical rather than speculative: he was writing partly to calm Christians who had over-read current events as proof the end times had already arrived, using careful exegesis to slow down apocalyptic panic rather than feed it — a corrective role rarely associated with his combative reputation on other subjects."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Dự án thần học cốt lõi của Hippôlytô là bảo vệ một sự phân biệt thực sự, có ngôi vị, giữa Chúa Cha và Chúa Con chống lại thuyết Duy Thể (còn gọi là thuyết Quân Chủ hay thuyết Sabelliô), quan điểm cho rằng \"Cha,\" \"Con,\" và \"Thần Khí\" chỉ là những tên gọi hay hình thái khác nhau của một Ngôi vị thần linh duy nhất, không phân biệt, xuất hiện vào những thời điểm khác nhau — một lập trường có sức hấp dẫn phổ biến thực sự vì nó có vẻ bảo vệ được tính duy nhất của Thiên Chúa. Trớ trêu thay, trong khi mạnh mẽ chống lại điều này, chính thần học Ngôi Lời của Hippôlytô lại mô tả Chúa Con như bước vào hiện hữu ngôi vị riêng biệt tại một thời điểm cụ thể, có thể nói là ở vị thế phụ thuộc Chúa Cha theo cách mà thần học Nicêa sau này cũng sẽ không chấp nhận — có nghĩa là chính những công thức của ngài không khớp hoàn toàn với chính thống sau này, dù trực giác của ngài (một sự phân biệt thực sự giữa các Ngôi vị) chính là điều cuối cùng đã thắng thế tại Nicêa và Constantinốp. Điều này đặt ngài vào một vị thế khác thường: đúng về điểm chính mà ngài đang tranh đấu, nhưng sử dụng những công cụ thần học chưa đủ chính xác để tránh những vấn đề mới của riêng chúng — một bức ảnh chụp nhanh thực sự tiêu biểu cho ngôn ngữ thần học Ba Ngôi thời tiền-Nicêa vẫn đang được định hình dưới áp lực thực sự, chưa đi đến ổn định.",
+        "en": "Hippolytus's core theological project was defending a real, personal distinction between the Father and the Son against Modalism (also called Monarchianism or Sabellianism), the view that \"Father,\" \"Son,\" and \"Spirit\" are just different names or modes of one undifferentiated divine Person appearing at different times — a position with real popular appeal because it seemed to protect God's oneness. Ironically, in pushing hard against this, Hippolytus's own Logos theology described the Son as coming into distinct personal existence at a particular point, arguably subordinate to the Father in a way later Nicene theology would not accept either — meaning his own formulations don't map cleanly onto later orthodoxy, even though his instinct (a real distinction of Persons) was the one that ultimately prevailed at Nicaea and Constantinople. This puts him in an unusual position: right about the main point he was fighting for, but using theological tools not yet precise enough to avoid new problems of their own — a genuinely representative snapshot of pre-Nicene Trinitarian language still being worked out under real pressure, not yet settled."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Hippôlytô và Đức Giáo Hoàng Pontianô đều bị bắt và đày đến các mỏ khổ sai tại Sardinia trong cuộc bách hại của hoàng đế Maximinô Thrax khoảng năm 235 — một bản án có tác dụng như một cái chết chậm rãi đối với hầu hết những ai phải chịu. Điều khiến cuộc tử đạo của họ trở nên khác thường là sự hòa giải đã xảy ra trước cái chết chứ không phải sau đó: thay vì chết như những đối thủ, cả hai người đều từ bỏ tuyên bố của mình về ngai tòa giám mục Rôma trước hoặc trong thời gian bị giam cầm, chính là để hàn gắn cuộc ly giáo, có nghĩa là Hippôlytô đã qua đời trong sự hiệp thông với Giáo Hội mà ngài đã chống đối gần hai thập kỷ. Thi hài của họ sau đó được đưa về Rôma và an táng cùng một ngày, đó là lý do vì sao ngày lễ kính của họ (13 tháng 8) được chia sẻ chung và cụ thể tưởng niệm sự hòa giải đó, thay vì coi họ như hai vị tử đạo riêng biệt, không liên quan, chỉ tình cờ qua đời cùng thời điểm.",
+        "en": "Hippolytus and Pope Pontian were both arrested and deported to the punishing mines of Sardinia during Emperor Maximinus Thrax's persecution around 235 AD — a sentence that functioned as a slow death for most who received it. What makes their martyrdom unusual is that reconciliation preceded death rather than following it: rather than dying as rivals, both men resigned their claims to the Roman bishopric before or during their imprisonment specifically to heal the schism, meaning Hippolytus died in communion with the Church he had spent nearly two decades opposing. Their bodies were later returned to Rome and buried on the same day, which is why their feast (August 13) is shared and specifically commemorates that reconciliation rather than treating them as two separate, unrelated martyrs who simply happened to die around the same time."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Tuyên bố phổ biến rằng Kinh Nguyện Thánh Thể II trong Sách Lễ Rôma ngày nay trực tiếp bắt nguồn từ Truyền Thống Tông Đồ của Hippôlytô cần được cập nhật một cách trung thực: học thuật hiện đại đã không còn tự tin gán văn bản đó cho Hippôlytô nữa, mà ngày càng coi đó là một \"trật tự Giáo Hội\" tổng hợp, được biên soạn từ nhiều lớp và nguồn khác nhau trải dài từ thế kỷ II đến IV, chứ không phải tác phẩm của một tác giả xác định — sự quy gán từ thế kỷ XX từng khiến \"Hippôlytô\" trở thành cái tên quen thuộc trong giới phụng vụ nay thực sự đang bị tranh cãi, không phải là sự kiện đã an bài. Danh tính của chính \"Hippôlytô\" cũng kém chắc chắn hơn những gì các tài liệu tham khảo cũ từng gợi ý: một số học giả hiện nay cho rằng các tác phẩm được gán cho ngài thực ra được viết bởi hai hoặc nhiều người khác nhau cùng mang tên đó hoặc viết trong cùng một giới thần học Rôma, với những bất đồng thực sự về việc \"Hippôlytô nhà chú giải Kinh Thánh\" thậm chí đã hoạt động ở đâu. Một bức tượng đá cẩm thạch ngồi nổi tiếng tại Thư viện Vatican, từ lâu được trưng bày như chân dung Hippôlytô với danh sách tác phẩm và một lịch tính lễ Phục Sinh khắc trên ghế, mang lại một tình tiết bất ngờ cuối cùng: nửa dưới còn lại của bức tượng nay được xác định là nữ giới, có nghĩa là hình tượng này gần như chắc chắn ban đầu khắc họa một phụ nữ ngoại giáo (có thể là nữ triết gia Thêmista thành Lampsacus) trước khi được tái xác định một cách sáng tạo thành Hippôlytô nhiều thế kỷ sau đó — các dòng khắc chữ vẫn là bằng chứng cổ đại xác thực, nhưng bản thân \"chân dung\" đó không phải là điều nó từng được trình bày là như vậy.",
+        "en": "The popular claim that Eucharistic Prayer II in today's Roman Missal directly descends from Hippolytus's Apostolic Tradition needs an honest update: modern scholarship has moved away from confidently attributing that text to Hippolytus at all, increasingly treating it instead as a composite \"church order\" compiled from multiple layers and sources across the 2nd–4th centuries rather than the work of one identifiable author — the 20th-century attribution that made \"Hippolytus\" a household name in liturgical circles is now genuinely contested, not settled fact. The identity of \"Hippolytus\" himself is similarly less certain than older reference works suggest: some scholars now think the works attributed to him were actually written by two or more different people sharing the name or writing in the same Roman theological circle, with real disagreement over where \"Hippolytus the biblical commentator\" was even based. A famous seated marble statue in the Vatican Library, long displayed as a portrait of Hippolytus with a list of his works and an Easter calendar carved into the chair, adds a final twist: the surviving lower half of the statue is now recognized as female, meaning the figure almost certainly originally depicted a pagan woman (possibly the philosopher Themista of Lampsacus) before being creatively reidentified as Hippolytus centuries later — the inscriptions are still genuine ancient evidence, but the \"portrait\" itself is not what it was long presented as."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Alistair Stewart-Sykes (dịch), On the Apostolic Tradition (bộ Popular Patristics, St. Vladimir's Seminary Press, 2001) — kèm phần dẫn nhập kỹ lưỡng về tranh luận quyền tác giả. Allen Brent, Hippolytus and the Roman Church in the Third Century (Brill, 1995) — một công trình nghiên cứu học thuật quan trọng về vấn đề \"nhiều Hippôlytô.\" Toàn văn bản dịch Ante-Nicene Fathers miễn phí tại newadvent.org.",
+        "en": "Alistair Stewart-Sykes, trans., On the Apostolic Tradition (Popular Patristics Series, St. Vladimir's Seminary Press, 2001) — includes a thorough introduction to the authorship debate. Allen Brent, Hippolytus and the Roman Church in the Third Century (Brill, 1995) — a major scholarly study of the \"multiple Hippolyti\" question. Full text of the Ante-Nicene Fathers translation freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Hippôlytô dạy gì về Tính liên tục của phụng vụ?",
+        "en": "What does Hippolytus teach about Liturgical continuity?"
+      },
+      "a": {
+        "vi": "Lời nguyện Thánh Thể trong Truyền Thống Tông Đồ là tổ tiên trực tiếp của một lời nguyện mà người Công giáo nghe trong Thánh Lễ ngày nay (Kinh Nguyện Thánh Thể II) — bằng chứng cụ thể cho thấy Thánh Lễ hiện đại liên tục với việc thờ phượng Kitô giáo thế kỷ III.",
+        "en": "The Eucharistic prayer in the Apostolic Tradition is the direct ancestor of a prayer Catholics hear at Mass today (Eucharistic Prayer II) — concrete evidence the modern Mass is continuous with 3rd-century Christian worship."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Hippôlytô dạy gì về Ly khai và hòa giải?",
+        "en": "What does Hippolytus teach about Schism and reconciliation?"
+      },
+      "a": {
+        "vi": "Câu chuyện của Hippôlytô — một nhà thần học uyên bác rơi vào ly khai nhưng đã hòa giải trước khi qua đời — là mẫu mực cho thấy cả tính nghiêm trọng thực sự của ly khai lẫn sự sẵn sàng luôn có của Giáo hội đón nhận sự hòa giải chân thành.",
+        "en": "Hippolytus's story — a learned churchman who fell into schism yet was reconciled before death — models both the real gravity of schism and the Church's consistent readiness to receive genuine reconciliation."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/hippolytus-of-rome.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

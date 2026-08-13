@@ -1,0 +1,153 @@
+/* Scripture reference buttons + verse-body styles. The popover card chrome (card, caret,
+   label row, close) lives in ReferencePopover.module.css. Values from design/Scripture Popover.
+   Reuses the site's :root tokens (--sage, --sage-deep, --sage-tint, --surface, --text, etc.). */
+.anchor {
+  --sage-press: #DCE4CB;
+  --sage-underline: #9AA97C;
+  --sage-open-text: #3F4C29;
+  position: relative;
+  display: inline;
+  white-space: nowrap;
+}
+
+/* --- Inline reference in prose: reads as a footnote, not a button --- */
+.ref {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 0.9375em; /* ~1px below surrounding body */
+  color: var(--sage-deep);
+  background: none;
+  border: none;
+  border-bottom: 1px dotted var(--sage-underline);
+  padding: 1px 3px;
+  margin: 0 -1px;
+  border-radius: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 120ms ease-out;
+}
+.ref:hover {
+  background: var(--sage-tint);
+  border-bottom-color: var(--sage-deep);
+  border-bottom-style: solid;
+}
+.ref[aria-expanded='true'] {
+  background: var(--sage-press);
+  color: var(--sage-open-text);
+}
+.ref:focus-visible {
+  outline: 2px solid var(--sage);
+  outline-offset: 2px;
+}
+
+/* --- Chip in a "Tham chiếu" row: same popover, pill shape --- */
+.chipRef {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  background: var(--sage-tint);
+  color: var(--sage-deep);
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 120ms ease-out;
+}
+.chipRef:hover,
+.chipRef[aria-expanded='true'] {
+  background: var(--sage-press);
+}
+.chipRef:focus-visible {
+  outline: 2px solid var(--sage);
+  outline-offset: 2px;
+}
+
+/* --- Inert states (licensing flag off): no popover, no affordance --- */
+.inlineInert {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 0.9375em;
+  color: var(--sage-deep);
+}
+.chipInert {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  background: var(--sage-tint);
+  color: var(--sage-deep);
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+/* --- Verse body inside the popover --- */
+.verses {
+  margin: 0;
+  font-family: var(--font-source-serif-4), Georgia, serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.74;
+  color: var(--text);
+  text-wrap: pretty;
+}
+.vnum {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 10.5px;
+  color: var(--sage);
+  vertical-align: super;
+  margin-right: 4px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 11px;
+  border-top: 1px solid var(--rule, #F2EAE0);
+}
+.more {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--sage-deep);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.more:hover {
+  color: var(--sage-open-text, #3F4C29);
+}
+.more:focus-visible {
+  outline: 2px solid var(--sage);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.contextLabel {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 10.5px;
+  color: var(--text-faint);
+}
+
+@media (max-width: 560px) {
+  .more {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .verses {
+    color: #EDE5D8;
+  }
+  .ref,
+  .inlineInert,
+  .chipInert,
+  .chipRef {
+    color: #A8BC84;
+  }
+}

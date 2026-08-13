@@ -1,0 +1,251 @@
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { SiteHeader } from '@/components/SiteHeader';
+import { LanguageToggle } from '@/components/LanguageToggle';
+import { Bi2 } from '@/components/giao-phu/Bi2';
+import { Portrait } from '@/components/giao-phu/Portrait';
+import { Rail } from '@/components/giao-phu/Rail';
+import { SectionHeading } from '@/components/giao-phu/SectionHeading';
+import { CollapsibleSection } from '@/components/giao-phu/CollapsibleSection';
+import {
+  getAllFigures,
+  getFigureBySlug,
+  getAdjacentFigures,
+  getEraGroups,
+  ERA_LABEL,
+  type Bi,
+} from '@/lib/churchFathersV2';
+import styles from './father.module.css';
+
+export function generateStaticParams() {
+  return getAllFigures().map((f) => ({ slug: f.slug }));
+}
+
+const UI = {
+  no: { vi: (n: number) => `Số ${n}`, en: (n: number) => `No. ${n}` },
+  life: { vi: 'Cuộc đời', en: 'Life' },
+  ccc: { vi: 'Liên hệ Giáo Lý', en: 'Catechism cross-references' },
+  facts: { vi: 'Sơ lược', en: 'At a glance' },
+  works: { vi: 'Tác phẩm chính', en: 'Major writings' },
+  apologeticsKicker: { vi: 'Góc hộ giáo', en: 'Apologetics corner' },
+  apologeticsTitle: { vi: 'Vấn đáp hộ giáo', en: 'Questions & answers' },
+  credit: { vi: 'Nguồn ảnh', en: 'Image credit' },
+  prev: { vi: 'Vị trước', en: 'Previous' },
+  next: { vi: 'Vị sau', en: 'Next' },
+};
+
+const LICENSE_LABEL: Record<string, Bi> = {
+  'public domain': { vi: 'phạm vi công cộng', en: 'public domain' },
+};
+
+export default async function ChurchFatherPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const father = getFigureBySlug(slug);
+  if (!father) notFound();
+
+  const { prev, next } = getAdjacentFigures(slug);
+  const eraGroups = getEraGroups();
+  const eraLabel = ERA_LABEL[father.era];
+  const eyebrow: Bi = { vi: `${UI.no.vi(father.no)} · ${eraLabel.vi}`, en: `${UI.no.en(father.no)} · ${eraLabel.en}` };
+  const license = LICENSE_LABEL[father.portrait.license] ?? { vi: father.portrait.license, en: father.portrait.license };
+
+  return (
+    <>
+      <SiteHeader />
+      <Rail groups={eraGroups} current={father} />
+      <div className={styles.wrap}>
+        <div className={styles.topRow}>
+          <LanguageToggle />
+        </div>
+
+        <div className={styles.frontispiece}>
+          <Portrait portrait={father.portrait} name={father.name} size="frontispiece" />
+          <Bi2 value={eyebrow} as="div" className={styles.eyebrow} />
+          <Bi2
+            value={father.name}
+            as="h1"
+            recessedAs="div"
+            viClassName={styles.name}
+            enClassName={styles.name}
+            enRecessedClassName={styles.nameEnRecessed}
+          />
+          <div className={styles.dates}>{father.dates.display}</div>
+          <Bi2
+            value={father.role}
+            as="div"
+            viClassName={styles.role}
+            enClassName={styles.role}
+            enRecessedClassName={styles.roleEnRecessed}
+          />
+        </div>
+
+        {/* dark-ground usage 3 of 4 */}
+        <div className={styles.quoteBandOuter}>
+          <div className={styles.quoteBand}>
+            <Bi2
+              value={{ vi: father.quote.vi, en: father.quote.en }}
+              as="p"
+              viClassName={styles.quoteVi}
+              enClassName={styles.quoteViOnDark}
+              enRecessedClassName={styles.quoteEnRecessed}
+            />
+            <Bi2 value={father.quote.source} as="div" className={styles.quoteSource} />
+          </div>
+        </div>
+
+        <div className={styles.column}>
+          <SectionHeading {...UI.life} />
+          {father.life.map((p, i) => (
+            <Bi2
+              key={i}
+              value={p}
+              as="p"
+              viClassName={styles.bodyVi}
+              enClassName={styles.bodyVi}
+              enRecessedClassName={styles.bodyEnRecessed}
+            />
+          ))}
+
+          {father.ccc_refs.length > 0 && (
+            <div className={styles.cccRow}>
+              <span className={styles.cccLabelWrap}>
+                <Bi2 value={UI.ccc} as="span" className={styles.cccLabel} />
+              </span>
+              {father.ccc_refs.map((n) => (
+                <Link key={n} href={`/giao-ly/${n}`} className={styles.cccChip}>
+                  § {n}
+                </Link>
+              ))}
+            </div>
+          )}
+
+          <div className={styles.factsCard}>
+            {father.facts.map((f, i) => (
+              <div key={i} className={styles.factRow}>
+                {/* Each cell wraps its Bi2 call in a real element — Bi2 renders a Fragment in Cả
+                    hai mode (vi + recessed en as two siblings), and without this wrapper those
+                    two nodes would land directly as flex children of .factRow instead of staying
+                    grouped in their own label/value column. */}
+                <span className={styles.factLabelCell}>
+                  <Bi2 value={f.label} as="span" className={styles.factLabel} />
+                </span>
+                <span className={styles.factValueCell}>
+                  <Bi2 value={f.value} as="span" className={styles.factValue} enRecessedClassName={styles.factValueEnRecessed} />
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <SectionHeading {...UI.works} />
+          <div className={styles.worksCard}>
+            {father.works.map((w, i) => (
+              <div key={i} className={styles.workRow}>
+                <span className={styles.workNo}>{String(i + 1).padStart(2, '0')}</span>
+                <span className={styles.workTitleWrap}>
+                  <Bi2
+                    value={w.title}
+                    as="span"
+                    className={styles.workTitle}
+                    enRecessedClassName={styles.workTitleEnRecessed}
+                  />
+                  {w.latin && <span className={styles.workLatin}>{w.latin}</span>}
+                </span>
+                <span className={styles.workDate}>{w.date}</span>
+              </div>
+            ))}
+          </div>
+          {(father.works_note.vi || father.works_note.en) && (
+            <Bi2
+              value={father.works_note}
+              as="p"
+              viClassName={styles.worksNote}
+              enClassName={styles.worksNote}
+              enRecessedClassName={styles.worksNoteEnRecessed}
+            />
+          )}
+
+          {father.sections.length > 0 && (
+            <div className={styles.collapsibles}>
+              {father.sections.map((s) => (
+                <CollapsibleSection key={s.id} section={s} />
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* dark-ground usage 4 of 4 */}
+        {father.apologetics.length > 0 && (
+          <div className={styles.apologeticsOuter}>
+            <div className={styles.apologeticsBand}>
+              <Bi2 value={UI.apologeticsKicker} as="div" className={styles.apologeticsKicker} />
+              <Bi2 value={UI.apologeticsTitle} as="h2" className={styles.apologeticsTitle} />
+              <div className={styles.apologeticsGrid}>
+                {father.apologetics.map((item, i) => (
+                  <div key={i} className={styles.apologeticsItem}>
+                    <Bi2 value={item.q} as="div" className={styles.apologeticsQ} />
+                    <Bi2
+                      value={item.a}
+                      as="p"
+                      viClassName={styles.apologeticsA}
+                      enClassName={styles.apologeticsA}
+                      enRecessedClassName={styles.apologeticsAEnRecessed}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {father.portrait.available && (
+          <div className={styles.column}>
+            <div className={styles.creditBlock}>
+              <Bi2 value={UI.credit} as="div" className={styles.creditHeading} />
+              <Bi2
+                value={{
+                  vi: `${father.portrait.medium.vi}. ${father.portrait.source}, ${license.vi}.`,
+                  en: `${father.portrait.medium.en}. ${father.portrait.source}, ${license.en}.`,
+                }}
+                as="p"
+                viClassName={styles.creditBody}
+                enClassName={styles.creditBody}
+                enRecessedClassName={styles.creditBodyEnRecessed}
+              />
+            </div>
+          </div>
+        )}
+
+        <div className={styles.column}>
+          <div className={styles.navRow}>
+            {prev ? (
+              <Link href={`/giao-phu/${prev.slug}`} className={styles.navPrev}>
+                <Bi2 value={UI.prev} as="span" className={styles.navLabel} />
+                <Bi2
+                  value={prev.name}
+                  as="span"
+                  className={styles.navName}
+                  enRecessedClassName={styles.navNameEnRecessed}
+                />
+              </Link>
+            ) : (
+              <span />
+            )}
+            {next ? (
+              <Link href={`/giao-phu/${next.slug}`} className={styles.navNext}>
+                <Bi2 value={UI.next} as="span" className={styles.navLabel} />
+                <Bi2
+                  value={next.name}
+                  as="span"
+                  className={styles.navName}
+                  enRecessedClassName={styles.navNameEnRecessed}
+                />
+              </Link>
+            ) : (
+              <span />
+            )}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

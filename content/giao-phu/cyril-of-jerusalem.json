@@ -1,0 +1,229 @@
+{
+  "no": 16,
+  "slug": "cyril-of-jerusalem",
+  "era": "nicene",
+  "name": {
+    "vi": "Cyrillô thành Giêrusalem",
+    "en": "Cyril of Jerusalem"
+  },
+  "role": {
+    "vi": "Giám mục Giêrusalem",
+    "en": "Bishop of Jerusalem"
+  },
+  "dates": {
+    "display": "c. 315 — 386",
+    "born": 315,
+    "died": 386
+  },
+  "quote": {
+    "vi": "Vậy đừng coi bánh và rượu chỉ đơn thuần như thế, vì theo lời tuyên bố của Chúa, đó chính là mình và máu Đức Kitô; dù giác quan gợi ý điều khác, hãy để đức tin làm cho con vững vàng.",
+    "en": "Do not, then, regard the bread and wine as simply that, for they are, according to the Master's declaration, the body and blood of Christ; even though the perception suggests otherwise, let faith establish you.",
+    "source": {
+      "vi": "Các Bài Giáo Lý Nhiệm Tích, IV",
+      "en": "Mystagogical Catecheses, IV"
+    }
+  },
+  "life": [
+    {
+      "vi": "Được tấn phong giám mục bởi Acaciô thành Caesarea, một giám mục có khuynh hướng Ariô, dù chính Cyrillô giữ quan điểm chính thống.",
+      "en": "Consecrated bishop by Acacius of Caesarea, an Arian-leaning bishop, though Cyril himself held orthodox views."
+    },
+    {
+      "vi": "Bộ Bài Giáo Lý (Catecheses) của ngài là hồ sơ đầy đủ nhất còn lưu lại về cách Giáo hội sơ khai giáo huấn các người dự tòng và giải thích các bí tích. Góp phần phát triển Giêrusalem thành trung tâm hành hương lớn.",
+      "en": "His Catechetical Lectures are the fullest surviving record of how the early Church instructed converts and explained the sacraments. Fostered Jerusalem's growth as a pilgrimage center."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 315",
+        "en": "c. 315 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "năm 386",
+        "en": "386 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Giêrusalem",
+        "en": "Jerusalem"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "18 tháng 3",
+        "en": "March 18"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "1 tác phẩm",
+        "en": "1 work"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Các Bài Giáo Lý",
+        "en": "Catechetical Lectures"
+      },
+      "latin": "Catecheses",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Cyrillô trở thành giám mục Giêrusalem vào khoảng năm 350, một thế hệ đầy đủ sau khi chuyến viếng thăm của bà Hêlêna, mẹ hoàng đế Constantinô, đã khởi động cuộc khai quật nơi được xác định là Gôlgôtha và Mộ Thánh, cùng việc xây dựng đại vương cung thánh đường của Constantinô tại đó, biến một thị trấn tỉnh lẻ của Rôma, Aelia Capitolina, vẫn còn mang tên thời ngoại giáo, thành điểm hành hương quan trọng nhất của thế giới Kitô giáo chỉ trong vòng một thế hệ. Cyrillô thừa hưởng một giáo phận đang được định hình lại ngay trong thời gian thực bởi dòng người hành hương này — các Bài Giáo Lý của ngài được giảng bên trong hoặc gần các công trình thời Constantinô, cho các dự tòng có thể tận mắt nhìn thấy những địa điểm mà các bài giảng của ngài mô tả — trong khi cùng lúc đó, Giáo Hội rộng lớn hơn vẫn đang giải quyết hậu quả của Công Đồng Nixêa (325), với các phe Ariô và bán-Ariô nắm giữ quyền lực thực sự trong hàng giám mục phương Đông suốt phần lớn những năm đầu sự nghiệp của Cyrillô. Bản thân Giêrusalem mang một uy tín Giáo Hội bất thường đối với một tòa giám mục xếp dưới Caesarea trong hệ thống phẩm trật chính thức thời đó, chính vì tuyên bố không gì sánh được của nó về địa lý thánh thiêng — điều này đã tạo ra sự căng thẳng về thẩm quyền với tòa tổng giám mục Caesarea, vốn sẽ định hình phần lớn nhiệm kỳ giám mục đầy sóng gió của chính Cyrillô.",
+        "en": "Cyril became bishop of Jerusalem around 350 AD, a full generation after Constantine's mother Helena's visit had triggered the excavation of what was identified as Golgotha and the Holy Sepulchre and the construction of Constantine's great basilica there, transforming a provincial Roman town, Aelia Capitolina, still bearing its pagan-era name, into the most important pilgrimage destination in the Christian world within living memory. Cyril inherited a diocese being reshaped in real time by this pilgrim traffic — his Catechetical Lectures were delivered inside or near the new Constantinian buildings themselves, to candidates who could see the sites his sermons described — while at the same time the wider Church was still working through the aftermath of Nicaea (325), with Arian and semi-Arian factions holding real power in the eastern episcopate for much of Cyril's early career. Jerusalem itself carried unusual ecclesiastical prestige for a see that ranked below Caesarea in the official hierarchy of the time, precisely because of its unmatched claim to holy geography, which set up the jurisdictional friction with the metropolitan see of Caesarea that would define much of Cyril's own troubled episcopate."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Trong Bài Giáo Lý số 4, khi lập luận cho tính lịch sử có thật của cuộc đóng đinh chống lại những ai có thể hoài nghi điều đó, Cyrillô viện đến một điều mà chính người nghe có thể tự đi kiểm chứng: \"Vì nếu anh em muốn phủ nhận điều đó, thì chính nơi này sẽ phản bác anh em một cách hiển nhiên, đồi Gôlgôtha diễm phúc này, nơi chúng ta đang tụ họp vì Đấng đã chịu đóng đinh tại đây; và từ đó đến nay, cả thế giới đã tràn ngập những mảnh gỗ của Thánh Giá.\" Đây là một trong những chứng từ sớm nhất còn lưu lại về việc các thánh tích vật lý của Thánh Giá Thật được phân phát và tôn kính khắp thế giới Kitô giáo, được nói ra như một điều hiển nhiên phụ thêm chứ không phải một tuyên bố phi thường — Cyrillô mong đợi người nghe của mình đã biết điều đó là thật. Câu nói này cũng nắm bắt được điều gì đó đặc trưng trong toàn bộ phương pháp giảng dạy của ngài: thay vì lập luận chủ yếu từ Kinh Thánh hay triết học, ngài nhiều lần hướng các dự tòng của mình đến chính địa lý vật chất của Giêrusalem như một bằng chứng sống động cho các biến cố Tin Mừng.",
+        "en": "In Catechetical Lecture 4, arguing for the historical reality of the crucifixion against those who might doubt it, Cyril appeals to something his listeners could go verify for themselves: \"For if you would deny it, the place refutes you visibly, this blessed Golgotha, in which we are now assembled for the sake of Him who was here crucified; and the whole world has since been filled with pieces of the wood of the Cross.\" This is among the earliest surviving testimonies to the physical relics of the True Cross being distributed and venerated across the Christian world, delivered as a matter-of-fact aside rather than an extraordinary claim — Cyril expected his audience to already know it was true. The line also captures something distinctive about his entire teaching method: rather than arguing primarily from Scripture or philosophy, he repeatedly points his catechumens to Jerusalem's physical geography itself as living evidence for the events of the Gospel."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Có một chi tiết mà các học giả nêu ra về thần học của Cyrillô đáng được xử lý một cách trung thực: xuyên suốt các Bài Giáo Lý của ngài, được giảng vào thập niên 350 khi công thức Nixêa vẫn còn gây tranh cãi và nguy hiểm về mặt chính trị ở phương Đông, Cyrillô chưa bao giờ thực sự dùng từ homoousios (\"cùng một bản thể\"), chính thuật ngữ mà Công Đồng Nixêa đã chọn để mô tả mối tương quan giữa Chúa Con và Chúa Cha, và đã trở thành điểm nóng của toàn bộ cuộc tranh cãi. Điều này đôi khi được đọc như bằng chứng cho thấy Cyrillô nghiêng về phía bán-Ariô, đặc biệt vì ngài được tấn phong bởi Acaciô thành Caesarea, người có khuynh hướng Ariô — nhưng phần lớn học thuật giáo phụ học hiện đại bác bỏ cách đọc đó, bởi vì nội dung thực sự những gì Cyrillô giảng dạy về Chúa Con xuyên suốt các bài giáo lý loại trừ lập trường Ariô một cách rõ ràng không kém gì loại trừ thuyết Sabelliô, và cuộc xung đột kéo dài của ngài với Acaciô trong các thập kỷ sau đó khó có thể giải thích được nếu ngài thực sự chia sẻ thần học của Acaciô. Lời giải thích khả dĩ hơn là sự thận trọng: nhiều giám mục hoàn toàn theo tín lý Nixêa trong niềm xác tín vẫn e ngại việc ràng buộc chương trình giáo lý vào một thuật ngữ kỹ thuật ngoài Kinh Thánh vốn đã từng gây chia rẽ Giáo Hội một lần. Cyrillô đã xóa bỏ mọi nghi ngờ về lập trường của mình khi chính thức chấp nhận homoousion tại Công Đồng Constantinôpôli năm 381, gần cuối đời ngài.",
+        "en": "One detail scholars flag about Cyril's theology deserves honest treatment: throughout his Catechetical Lectures, delivered in the 350s while the Nicene formula was still contested and politically dangerous in the East, Cyril never actually uses the word homoousios (\"of one substance\"), the very term the Council of Nicaea had chosen to describe the Son's relationship to the Father and that had become the flashpoint of the whole controversy. This has sometimes been read as evidence Cyril leaned semi-Arian, especially since he was consecrated by the Arian-sympathizing Acacius of Caesarea — but most modern patristic scholarship rejects that reading, since the substance of what Cyril teaches about the Son throughout the lectures excludes the Arian position just as clearly as it excludes Sabellianism, and his sustained conflict with Acacius over the following decades is hard to explain if he actually shared Acacius's theology. The likelier explanation is caution: many bishops who were fully Nicene in conviction were still wary of binding catechesis to an extra-biblical technical term that had already split the Church once. Cyril removed any doubt about where he stood by formally accepting the homoousion at the Council of Constantinople in 381, near the end of his life."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Cyrillô không phải là một vị tử đạo — ngài qua đời vì nguyên nhân tự nhiên tại Giêrusalem năm 386 — nhưng nhiệm kỳ giám mục của ngài được định hình bởi một loại đau khổ khác, kéo dài hơn: ngài bị trục xuất khỏi tòa giám mục của mình ba lần riêng biệt trong khoảng hai thập kỷ, lần đầu năm 357, lần thứ hai khoảng năm 360, và lần thứ ba năm 367 dưới thời hoàng đế công khai theo Ariô là Valens, lần lưu đày cuối cùng này kéo dài khoảng mười một năm và chỉ kết thúc khi Valens qua đời năm 378. Cáo buộc chính thức đằng sau lần lưu đày đầu tiên là Cyrillô đã bán các bình thánh và phẩm phục thánh thiêng để lấy tiền giúp người nghèo trong một nạn đói — một cáo buộc mà các học giả nhìn chung coi là cái cớ, bởi vì vấn đề thực sự bên dưới là việc giáo lý theo tín lý Nixêa và sự độc lập về thẩm quyền của Cyrillô đối với Caesarea không được Acaciô hoan nghênh, người kiểm soát thượng hội đồng đã kết án ngài. Tính chung, Cyrillô đã trải qua khoảng mười lăm đến mười sáu năm trong tổng số khoảng ba mươi sáu năm làm giám mục xa tòa giám mục của chính mình — một khuôn mẫu bách hại lặp đi lặp lại, không gây chết người nhưng rất thật, mà trang web này ghi lại một cách trung thực thay vì tô vẽ thành một sự tử đạo mà thực ra ngài không phải chịu.",
+        "en": "Cyril was not martyred — he died of natural causes in Jerusalem in 386 — but his episcopate was defined by suffering of a different, more prolonged kind: he was driven from his see three separate times over roughly two decades, first in 357, again around 360, and a third time in 367 under the openly Arian emperor Valens, this last exile lasting some eleven years and not ending until Valens's death in 378. The formal charge behind the first exile was that Cyril had sold sacred church vessels and vestments to raise money for the poor during a famine — a charge scholars generally treat as a pretext, since the underlying issue was that Cyril's Nicene catechesis and his jurisdictional independence from Caesarea were unwelcome to Acacius, who controlled the synod that condemned him. Taken together, Cyril spent something on the order of fifteen to sixteen of his roughly thirty-six years as bishop away from his own see — a pattern of repeated, non-lethal but very real persecution that this site records honestly rather than dressing up as a martyrdom he did not in fact suffer."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Một bức thư được gán cho Cyrillô, gửi cho hoàng đế Constantiô II năm 351, mô tả một cây thánh giá ánh sáng lớn được toàn thể dân cư Giêrusalem nhìn thấy trên bầu trời phía trên đồi Gôlgôtha, từ lâu đã được trích dẫn như bằng chứng cho vị thế nổi bật và tính chính thống sớm của Cyrillô — nhưng các học giả hiện đại chỉ ra một vấn đề xác thực có thật: lời chúc lành kết thúc bức thư dùng từ homoousios, chính thuật ngữ mà Cyrillô nếu không thì luôn cẩn thận tránh dùng ở bất kỳ đâu trong các Bài Giáo Lý đã được xác thực chắc chắn của ngài từ cùng khoảng thời gian đó, điều này gợi ý rằng đoạn văn đó (hoặc có thể toàn bộ bức thư) có thể đã bị sửa đổi hoặc thêm vào sau khi ngài qua đời bởi ai đó muốn gán ngài một cách rõ ràng vào phía Nixêa trong các cuộc tranh luận sau này. Các học giả vẫn còn chia rẽ chứ chưa đi đến kết luận về vấn đề này, và trang web trình bày tính xác thực của bức thư như một sự bất định học thuật đang tiếp diễn chứ không phải một sự kiện chắc chắn. Điều không có gì phải nghi ngờ là di sản định chế lâu dài của Cyrillô: các Bài Giáo Lý của ngài vẫn là ghi chép đầy đủ nhất còn lưu lại về cách Giáo Hội thế kỷ IV thực sự khai tâm cho các tân tòng, một cấu trúc gồm giảng dạy, phép Rửa, và giải thích các bí tích mà chương trình dự tòng RCIA/OCIA của Công giáo hiện đại có ý thức phản ánh lại, và ảnh hưởng này, cùng với tính chính thống nhất quán của ngài bất chấp áp lực chính trị từ ba lần lưu đày, đã dẫn đến việc ngài được tuyên phong là Tiến Sĩ Hội Thánh năm 1883, gần một ngàn năm trăm năm sau khi ngài qua đời.",
+        "en": "A letter attributed to Cyril and addressed to the Emperor Constantius II in 351, describing a great cross of light seen by the whole population of Jerusalem in the sky above Golgotha, has long been cited as evidence of Cyril's early prominence and orthodoxy — but modern scholars flag a genuine authenticity problem: the letter's closing blessing uses the word homoousios, the very term Cyril is otherwise careful never to use anywhere in his securely authenticated Catechetical Lectures from roughly the same period, which suggests the passage (or possibly the whole letter) may have been altered or added to after his death by someone eager to enlist him unambiguously on the Nicene side of later debates. Scholars remain divided rather than settled on the question, and the site presents the letter's authenticity as a live scholarly uncertainty rather than a fact. What is not in doubt is Cyril's lasting institutional legacy: his Catechetical Lectures remain the single fullest surviving record of how the fourth-century Church actually initiated converts, a structure of instruction, baptism, and sacramental explanation that the modern Catholic RCIA/OCIA process consciously echoes, and this influence, along with his consistent orthodoxy despite the political pressures of his three exiles, led to his declaration as a Doctor of the Church in 1883, nearly fifteen hundred years after his death."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Edward Yarnold, S.J. (dịch), Cyril of Jerusalem (bộ The Early Church Fathers, Routledge, 2000) — bản dịch tiếng Anh đầy đủ các tác phẩm chính của ngài kèm dẫn nhập và chú giải học thuật. Leo P. McCauley và Anthony A. Stephenson (dịch), The Works of Saint Cyril of Jerusalem (2 tập, bộ Fathers of the Church, Catholic University of America Press, 1969-1970) — bản dịch học thuật đầy đủ chuẩn mực. Toàn văn các Bài Giáo Lý (NPNF Series II, tập 7) miễn phí tại newadvent.org và ccel.org.",
+        "en": "Edward Yarnold, S.J., trans., Cyril of Jerusalem (The Early Church Fathers series, Routledge, 2000) — full English translations of his major works with scholarly introduction and commentary. Leo P. McCauley and Anthony A. Stephenson, trans., The Works of Saint Cyril of Jerusalem (2 vols., Fathers of the Church series, Catholic University of America Press, 1969–1970) — the standard complete scholarly translation. Full text of the Catechetical Lectures (NPNF Series II, Vol. 7) freely available at newadvent.org and ccel.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Cyrillô dạy gì về Sự Hiện Diện Thực Sự được dạy cho các tân tòng?",
+        "en": "What does Cyril teach about Real Presence taught to ordinary converts?"
+      },
+      "a": {
+        "vi": "Các Bài Giáo Lý Nhiệm Tích của Cyrillô đưa ra giáo huấn rõ ràng thế kỷ IV về Sự Hiện Diện Thực Sự — được giảng dạy như giáo lý căn bản cho những Kitô hữu mới, chứ không phải thần học cao siêu dành riêng cho giới học giả.",
+        "en": "Cyril's Mystagogical Catecheses give explicit 4th-century teaching on the Real Presence delivered as basic instruction for ordinary new Christians."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Cyrillô dạy gì về Cội nguồn cổ xưa của chương trình dự tòng?",
+        "en": "What does Cyril teach about Ancient roots of the catechumenate?"
+      },
+      "a": {
+        "vi": "Các bài giáo lý của Cyrillô lưu giữ một quy trình có cấu trúc để chuẩn bị người trở lại đạo — tương ứng trực tiếp với chương trình dự tòng (RCIA/OCIA) của Công giáo ngày nay.",
+        "en": "Cyril's lectures preserve a structured process for preparing converts, directly comparable to the modern Catholic RCIA/OCIA process."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/cyril-of-jerusalem.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

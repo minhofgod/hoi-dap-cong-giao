@@ -1,0 +1,237 @@
+{
+  "no": 30,
+  "slug": "john-of-damascus",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Gioan thành Đamas",
+    "en": "John of Damascus"
+  },
+  "role": {
+    "vi": "Đan sĩ và linh mục tại đan viện Mar Saba",
+    "en": "Monk and priest at Mar Saba monastery"
+  },
+  "dates": {
+    "display": "c. 675 — 749",
+    "born": 675,
+    "died": 749
+  },
+  "quote": {
+    "vi": "Tôi không thờ lạy vật chất, tôi thờ lạy Thiên Chúa của vật chất, Đấng đã trở nên vật chất vì tôi... và qua vật chất đã thực hiện ơn cứu độ cho tôi.",
+    "en": "I do not worship matter, I worship the God of matter, who became matter for my sake... and who, through matter, worked my salvation.",
+    "source": {
+      "vi": "Về Các Ảnh Tượng Thánh, I.16",
+      "en": "On the Divine Images, I.16"
+    }
+  },
+  "life": [
+    {
+      "vi": "Xuất thân từ một gia đình Kitô hữu Đamas có nhiều thế hệ phục vụ trong chính quyền Umayyad.",
+      "en": "From a prominent Damascene Christian family that served for generations in the Umayyad caliphal administration."
+    },
+    {
+      "vi": "Theo truyền thống, là vị Giáo Phụ cuối cùng của Hội Thánh. Là người bảo vệ thần học hàng đầu cho việc tôn kính ảnh tượng thánh trong cuộc tranh luận về Bài Trừ Thánh Tượng của Byzantine; lập trường của ngài được minh oan tại Công đồng Nixêa II (787).",
+      "en": "Traditionally the last of the great Church Fathers. Leading theological defender of icon veneration during the Byzantine Iconoclast Controversy, vindicated at the Second Council of Nicaea (787 AD)."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 675/676",
+        "en": "c. 675/676 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "4 tháng 12, năm 749",
+        "en": "December 4, 749 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Đamas (dưới quyền cai trị Hồi giáo Umayyad); sau đó đan viện Mar Saba gần Giêrusalem",
+        "en": "Damascus (under Umayyad rule); later the monastery of Mar Saba near Jerusalem"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "4 tháng 12",
+        "en": "December 4"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Ngọn Nguồn Tri Thức",
+        "en": "The Fount of Knowledge"
+      },
+      "latin": "Pege Gnoseos",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Ba Luận Văn Về Các Ảnh Tượng Thánh",
+        "en": "Three Treatises on the Divine Images"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Gia đình Gioan đã phục vụ trong bộ máy hành chính của triều đại Umayyad tại Đamas ít nhất hai thế hệ trước khi ngài sinh ra — ông nội ngài được cho là đã thương lượng việc thành phố đầu hàng quân Hồi giáo chinh phục nhiều thập kỷ trước đó, và cả ông nội lẫn cha ngài đều giữ những chức vụ tài chính cấp cao dưới sự cai trị của người Hồi giáo, bằng chứng cho thấy các Kitô hữu đã có thể và thực sự nắm giữ những vị trí tin cậy và trách nhiệm thực sự trong vương triều Hồi giáo sơ kỳ. Điều này có ý nghĩa vô cùng quan trọng đối với sự nghiệp sau này của Gioan: khi Hoàng đế Byzantine Lêô III bắt đầu cấm đoán và phá hủy các ảnh tượng tôn giáo vào khoảng năm 726, khởi phát cuộc Tranh Luận Bài Trừ Ảnh Tượng, Gioan đang viết lách từ một nơi an toàn ngoài phạm vi quyền lực đế quốc Byzantine, được bảo vệ (dù bấp bênh) bởi quyền lực chính trị Hồi giáo chứ không phải Kitô giáo — một vị trí thực sự khác thường để từ đó trở thành người bảo vệ thần học hàng đầu cho một thực hành mà chính hoàng đế Byzantine đang cố gắng xóa bỏ. Cuối cùng ngài rời bỏ đời sống hành chính để trở thành đan sĩ tại Mar Saba, một đan viện trong sa mạc Giuđêa gần Giêrusalem, nơi ngài đã viết phần lớn các tác phẩm lớn còn tồn tại của mình.",
+        "en": "John's family had served the Umayyad caliphal administration in Damascus for at least two generations by the time he was born — his grandfather had reportedly negotiated the city's surrender to the Muslim conquerors decades earlier, and both his grandfather and father held senior financial posts under Muslim rule, evidence that Christians could and did occupy positions of real trust and responsibility in the early Islamic caliphate. This mattered enormously for John's later career: when Byzantine Emperor Leo III began banning and destroying religious images around 726, launching the Iconoclast Controversy, John was writing from safely outside imperial Byzantine jurisdiction, protected (however precariously) by Muslim rather than Christian political authority — a genuinely unusual position from which to become the leading theological defender of a practice the Byzantine emperor himself was trying to stamp out. He eventually left administrative life to become a monk at Mar Saba, a monastery in the Judean desert near Jerusalem, where he wrote most of his surviving major works."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Bối cảnh đầy đủ hơn của câu trích dẫn về ảnh tượng đã nêu ở trên viết: \"Tôi không tôn thờ vật chất, tôi tôn thờ Thiên Chúa của vật chất, Đấng đã trở thành vật chất vì tôi, và đã đoái thương ngự trong vật chất, Đấng đã thực hiện ơn cứu độ của tôi qua vật chất... Tôi sẽ không ngừng tôn kính vật chất ấy, thứ đã thực hiện ơn cứu độ của tôi. Tôi tôn kính nó, dù không như tôn thờ Thiên Chúa.\" (Về Các Ảnh Thánh, Bài diễn thuyết I) Đoạn văn này làm rõ rằng toàn bộ việc bảo vệ ảnh tượng của Gioan đặt nền trên Mầu Nhiệm Nhập Thể: bởi vì chính Thiên Chúa đã mang lấy vật chất thật sự, hữu hình nơi Đức Kitô, nên chính vật chất đã được biến đổi vĩnh viễn và giờ đây có thể mang và truyền tải điều thánh thiêng một cách hợp pháp, thay vì là điều bị nghi ngờ về mặt tâm linh theo bản chất — một lập luận cũng ngầm quay ngược lại cáo buộc thờ ngẫu tượng nhắm vào phe bài trừ ảnh tượng, vì việc hoàn toàn từ chối tôn kính vật chất có thể trông giống như một sự phủ nhận ngầm rằng Thiên Chúa đã thực sự trở nên xác phàm.",
+        "en": "The fuller context of the icon quote already given reads: \"I do not worship matter, I worship the God of matter, who became matter for my sake, and deigned to inhabit matter, who worked out my salvation through matter... I will not cease from honouring that matter which works my salvation. I venerate it, though not as God.\" (On the Divine Images, Oration I) The passage makes explicit that John's whole defense of icons rests on the Incarnation: because God himself took on real, physical matter in Christ, matter itself has been permanently changed and can now legitimately carry and communicate the sacred, rather than being something spiritually suspect by nature — an argument that also implicitly turns the charge of idolatry back on the iconoclasts, since refusing to honor matter at all can look like an implicit denial that God really became flesh."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Đóng góp thần học quan trọng nhất về mặt lịch sử của Gioan, sự phân biệt giữa latria và dulia, có vẻ đơn giản nhưng mang một trọng lượng to lớn: latria, sự tôn thờ tuyệt đối, chỉ thuộc về một mình Thiên Chúa và không thuộc về bất cứ điều gì khác, trong khi dulia (hay proskynesis liên quan, sự tôn kính) — sự tôn kính dành cho ảnh tượng, thánh tích, các thánh, và thậm chí cho các thẩm quyền nhân loại hợp pháp — khác biệt về bản chất, chứ không chỉ về mức độ, và không bao giờ trở thành sự tôn thờ dù cho các cử chỉ bên ngoài có công phu đến đâu. Sự phân biệt này cho phép ngài khẳng định rằng ảnh tượng thực sự xứng đáng được tôn kính, như những khung cửa sổ dẫn đến các nhân vật mà chúng khắc họa, mà không để sự tôn kính đó trượt sang sự tôn thờ chỉ dành riêng cho Thiên Chúa, trực tiếp trả lời cáo buộc trung tâm của phe bài trừ ảnh tượng rằng bất kỳ sự cúi mình trước một ảnh tượng nào cũng vốn dĩ là thờ ngẫu tượng. Ngoài vấn đề ảnh tượng, tác phẩm Nguồn Mạch Tri Thức của ngài, đặc biệt phần thứ ba \"Trình Bày Chính Xác Về Đức Tin Chính Thống,\" đã thử làm điều mà rất ít ai từng thử ở quy mô đó trước đây: một bản tóm lược duy nhất, có trật tự, về toàn bộ giáo lý Kitô giáo, được sắp xếp theo chủ đề thay vì theo lối chú giải hay tranh luận, và trở thành một khuôn mẫu quan trọng cho loại tổng luận thần học hệ thống sẽ nở rộ ở phương Tây nhiều thế kỷ sau đó.",
+        "en": "John's most historically important theological contribution, the latria/dulia distinction, is deceptively simple but carried enormous weight: latria, absolute worship, belongs to God alone and to nothing else, while dulia (or the related proskynesis, reverence/veneration) — honor given to icons, relics, the saints, and even to legitimate human authorities — is categorically different in kind, not merely in degree, and never becomes worship no matter how elaborate the outward gestures look. This distinction let him affirm that icons genuinely deserve reverence, as windows onto the persons they depict, without that reverence sliding into the worship owed to God alone, directly answering the iconoclasts' central charge that any bowing before an image was inherently idolatrous. Beyond icons, his Fount of Knowledge, especially its third part \"An Exact Exposition of the Orthodox Faith,\" attempted something few had tried at that scale before: a single, ordered summary of the whole of Christian doctrine, organized topically rather than as commentary or polemic, which became an important model for the kind of systematic theological summa that would flower in the West centuries later."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Gioan qua đời một cách tự nhiên tại đan viện Mar Saba vào ngày 4 tháng 12 năm 749, khi đã cao tuổi, sau nhiều thập kỷ làm đan sĩ và linh mục tại đó — không có sự bách hại hay cái chết bạo lực nào liên quan đến cuộc đời đã được ghi chép thực sự của ngài. Điều đáng nói rõ là giới hạn của những gì thực sự được biết: tiểu sử đầy đủ sớm nhất về Gioan, nguồn gốc của hầu hết các chi tiết sống động được lặp lại về ngài (bao gồm truyền thuyết phổ biến rằng các đặc vụ Byzantine đã từng vu khống ngài tội phản quốc, khiến vị Khalip ra lệnh chặt tay ngài trước khi Đức Mẹ Thiên Chúa đã kỳ diệu phục hồi lại tay ngài qua một đêm) không được viết ra cho đến ít nhất một thế kỷ sau khi ngài qua đời — một văn bản tiếng Ả Rập được soạn ra vào khoảng thời gian đâu đó giữa đầu thế kỷ IX và cuối thế kỷ X, sau đó được trích dịch sang tiếng Hy Lạp và được gán cho một nhân vật gọi là \"Gioan thành Giêrusalem,\" với các học giả nguồn tường minh mô tả đó là tác phẩm thánh sử, dễ bị tô điểm huyền thoại, và không phải là nguồn sử liệu đáng tin cậy cho các chi tiết về cuộc đời ngài. Câu chuyện về bàn tay bị chặt đứt đặc biệt cần được xem như một truyền thuyết đáng yêu và có sức cộng hưởng thần học — nó phản ánh khéo léo chính việc bảo vệ thần học thực sự của ngài về ảnh tượng và vật chất thánh thiêng — hơn là một sự kiện lịch sử đã được ghi chép, và đây là một câu chuyện khác biệt, không nên bị nhầm lẫn với, việc Maximô Tuyên Tín thực sự bị hành hình đã được ghi chép khoảng một thế kỷ trước đó.",
+        "en": "John died naturally at Mar Saba monastery on December 4, 749, in old age, after decades as a monk and priest there — there is no persecution or violent death involved in his actual documented life. It is worth being explicit about the limits of what is actually known: the earliest full biography of John, the source of most colorful details repeated about him (including the popular legend that Byzantine agents once framed him for treason, causing the Caliph to have his hand cut off before the Theotokos miraculously restored it overnight) was not written until at least a century after his death — an Arabic text composed sometime between the early 9th and late 10th century, later excerpted and translated into Greek and attributed to a \"John of Jerusalem,\" with source scholars explicitly describing it as hagiographical, prone to legendary embellishment, and not a reliable historical source for the details of his life. The severed-hand story in particular should be treated as a beloved and theologically resonant legend — it neatly mirrors his own real theological defense of icons and holy matter — rather than a documented historical event, and it is a separate story from, and should not be confused with, Maximus the Confessor's genuinely documented mutilation roughly a century earlier."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Sự minh oan của Gioan đến tại Công Đồng Nixêa Lần Thứ Hai năm 787, công đồng đại kết thứ bảy và cuối cùng được cả Đông lẫn Tây công nhận, phục hồi việc tôn kính ảnh tượng bằng những lập luận về căn bản được xây dựng trên khung phân biệt latria/dulia của ngài — dù cuộc tranh cãi vẫn chưa hoàn toàn kết thúc ngay cả khi đó, vì thuyết bài trừ ảnh tượng Byzantine lại bùng lên vào đầu thế kỷ IX trước khi được giải quyết dứt điểm năm 843. Ảnh hưởng sâu xa và lâu bền hơn của ngài ở phương Tây đến qua con đường dịch thuật: vào năm 1153-1154, học giả Burgundiô thành Pisa, được Đức Giáo Hoàng Êugêniô III ủy nhiệm, đã thực hiện một bản dịch tiếng Latinh của \"Trình Bày Chính Xác Về Đức Tin Chính Thống\" và bản dịch này đã trở thành sách giáo khoa thần học chuẩn mực tại Đại Học Paris. Phêrô Lombard đã dựa vào đó cho tác phẩm Sentences của chính mình, sách giáo khoa thần học thống trị của các trường học thời trung cổ, và một thế kỷ sau, Tôma Aquinô đã trích dẫn rộng rãi tác phẩm này khi biên soạn bộ Summa Theologiae — nghĩa là một trong những Giáo Phụ Hy Lạp cuối cùng, viết từ một đan viện dưới quyền cai trị Hồi giáo trong sa mạc Giuđêa, đã trở thành một nguồn cấu trúc và giáo lý trực tiếp cho tác phẩm thần học kinh viện Latinh có ảnh hưởng nhất từng được viết ra. Ngài được tuyên phong Tiến Sĩ Hội Thánh năm 1890, một trong số rất ít Giáo Phụ Đông phương mang danh hiệu này trong Giáo Hội Công giáo.",
+        "en": "John's vindication came at the Second Council of Nicaea in 787, the seventh and final ecumenical council recognized by both East and West, which restored icon veneration using arguments substantially built on his latria/dulia framework — though the controversy was not fully over even then, since Byzantine iconoclasm flared up again in the early 9th century before being definitively settled in 843. His deeper and longer-lasting influence in the West came through translation: in 1153–54, the Pisan scholar Burgundio of Pisa, commissioned by Pope Eugenius III, produced a Latin translation of \"An Exact Exposition of the Orthodox Faith\" that became a standard theological textbook at the University of Paris. Peter Lombard drew on it for his own Sentences, the dominant theology textbook of the medieval schools, and a century later Thomas Aquinas cited it extensively while composing the Summa Theologiae — meaning one of the last Greek Church Fathers, writing from a Muslim-ruled monastery in the Judean desert, became a direct structural and doctrinal source for the most influential work of Latin scholastic theology ever written. He was declared a Doctor of the Church in 1890, one of only a handful of Eastern Fathers to hold that title in the Catholic Church."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Frederic H. Chase Jr. (dịch), Saint John of Damascus: Writings (bộ The Fathers of the Church, tập 37, Catholic University of America Press, 1958) — bao gồm toàn văn Nguồn Mạch Tri Thức. David Anderson (dịch), St. John of Damascus: On the Divine Images (St. Vladimir's Seminary Press, 1980). Andrew Louth, St John Damascene: Tradition and Originality in Byzantine Theology (Oxford University Press, 2002) — công trình nghiên cứu phê bình hiện đại chuẩn mực.",
+        "en": "Frederic H. Chase Jr., trans., Saint John of Damascus: Writings (The Fathers of the Church, Vol. 37, Catholic University of America Press, 1958) — includes The Fount of Knowledge in full. David Anderson, trans., St. John of Damascus: On the Divine Images (St. Vladimir's Seminary Press, 1980). Andrew Louth, St John Damascene: Tradition and Originality in Byzantine Theology (Oxford University Press, 2002) — the standard modern critical study."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Gioan dạy gì về Vì sao ảnh tượng và hài cốt không phải là ngẫu tượng?",
+        "en": "What does John teach about Why images and relics are not idolatry?"
+      },
+      "a": {
+        "vi": "Sự phân biệt latria/dulia — rằng người Công giáo tôn kính ảnh tượng, hài cốt và các thánh, nhưng chỉ thờ phượng một mình Thiên Chúa — là câu trả lời kinh điển cho các cáo buộc thờ ngẫu tượng.",
+        "en": "The latria/dulia distinction — that Catholics venerate and honor images and saints, but worship God alone — is the classic answer to accusations of idolatry."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Gioan dạy gì về Vật chất và Mầu nhiệm Nhập Thể?",
+        "en": "What does John teach about Matter and the Incarnation?"
+      },
+      "a": {
+        "vi": "Việc tôn kính ảnh tượng thánh có thể thực hiện được chính vì Thiên Chúa đã mang lấy vật chất thật sự trong Mầu Nhiệm Nhập Thể, gắn kết trực tiếp việc tôn kính ảnh tượng với chính giáo lý Nhập Thể.",
+        "en": "Honoring sacred images is possible precisely because God himself took on real matter in the Incarnation, connecting image veneration directly to Incarnational doctrine."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/john-of-damascus.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

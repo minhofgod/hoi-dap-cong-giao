@@ -1,0 +1,43 @@
+/* Inline Scripture references injected into answer HTML by enrichAnswerHtml. The class is
+   global (server-rendered markup can't use hashed module names) but scoped under .body so it
+   only styles references inside an answer. Matches the design's inline reference: a quiet
+   footnote, not a button. */
+.body :global(.scripture-inline-ref) {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 0.9375em; /* ~1px below surrounding body */
+  color: var(--sage-deep);
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #9AA97C;
+  padding: 1px 3px;
+  margin: 0 -1px;
+  border-radius: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 120ms ease-out;
+}
+.body :global(.scripture-inline-ref:hover) {
+  background: var(--sage-tint);
+  border-bottom-color: var(--sage-deep);
+  border-bottom-style: solid;
+}
+.body :global(.scripture-inline-ref--open) {
+  background: #DCE4CB;
+  color: #3F4C29;
+}
+.body :global(.scripture-inline-ref:focus-visible) {
+  outline: 2px solid var(--sage);
+  outline-offset: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .body :global(.scripture-inline-ref) {
+    color: #A8BC84;
+    border-bottom-color: #6B7A50;
+  }
+  .body :global(.scripture-inline-ref--open) {
+    background: #232A1B;
+    color: #C7D6A6;
+  }
+}

@@ -1,0 +1,18 @@
+Note for content editors / Claude Code: this file is a FORMAT REFERENCE ONLY.
+Its extension (.md.txt) keeps it from being picked up as a real question by
+lib/giaiDap.ts. Copy this shape into a real `<slug>.md` file in this same
+folder to publish a question — the slug becomes the URL: /giai-dap/<slug>.
+
+---
+question_vi: "Tại sao Hội Thánh Công Giáo tôn kính Đức Maria?"
+question_en: "Why does the Catholic Church honor Mary?"
+category: "Giáo lý"
+subcategory: "Đức Maria"
+refs_ccc: [963, 971]
+refs_scripture: ["Lc 1,48"]
+featured: false
+related: []
+---
+
+Trả lời bằng tiếng Việt viết ở đây, dùng cú pháp Markdown thường (đoạn văn,
+**in đậm**, danh sách nếu cần). Đây là phần thân của câu trả lời.

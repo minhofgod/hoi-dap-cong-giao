@@ -1,0 +1,239 @@
+{
+  "no": 26,
+  "slug": "leo-the-great",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Thánh Giáo hoàng Lêô Cả",
+    "en": "Leo the Great"
+  },
+  "role": {
+    "vi": "Giáo hoàng",
+    "en": "Pope"
+  },
+  "dates": {
+    "display": "c. 400 — 461",
+    "born": 400,
+    "died": 461
+  },
+  "quote": {
+    "vi": "Mỗi bản tính, giữ nguyên đặc tính riêng của mình mà không mất đi, kết hợp với bản tính kia trong một Ngôi Vị duy nhất.",
+    "en": "Each nature, retaining its own proper character without loss, unites with the other in one Person.",
+    "source": {
+      "vi": "Thư Tôma",
+      "en": "The Tome of Leo"
+    }
+  },
+  "life": [
+    {
+      "vi": "Thăng tiến qua hàng giáo sĩ Rôma với chức phó tế trước khi được bầu làm Giáo hoàng năm 440.",
+      "en": "Rose through the Roman clergy as a deacon before his election as pope in 440 AD."
+    },
+    {
+      "vi": "Bức Thư Tôma của ngài cung cấp công thức Kitô học quyết định được Công đồng Calcêđônia (451) đón nhận. Nổi tiếng với cuộc gặp gỡ trực tiếp Attila Rợ Hung ngoài thành Rôma năm 452, thuyết phục ông không cướp phá thành phố.",
+      "en": "His Tome of Leo supplied the decisive Christological formula adopted at the Council of Chalcedon (451 AD). Met Attila the Hun outside Rome in 452 AD and persuaded him not to sack the city."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 400",
+        "en": "c. 400 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "10 tháng 11, năm 461",
+        "en": "November 10, 461 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Rôma",
+        "en": "Rome"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "10 tháng 11",
+        "en": "November 10"
+      }
+    },
+    {
+      "label": {
+        "vi": "Giáo hoàng",
+        "en": "Pope"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "1 tác phẩm",
+        "en": "1 work"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Thư Tôma (gửi Flaviano thành Constantinôpôli)",
+        "en": "The Tome of Leo (Letter 28, to Flavian of Constantinople)"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Lêô lên ngôi giáo hoàng năm 440, giữa lúc hai cuộc khủng hoảng cùng hội tụ. Ở phương Tây, Đế quốc Rôma đang tan rã — người Vandal vừa chiếm được Bắc Phi, còn triều đình đế quốc đã từ lâu chạy về ẩn náu tại Ravenna. Ở phương Đông, một đan sĩ tại Constantinốp tên là Êutykhê đang giảng dạy rằng bản tính nhân loại của Đức Kitô thực chất bị hấp thụ vào bản tính thần linh, khiến Người chỉ còn một bản tính hỗn hợp duy nhất — lập trường sau này được gọi là thuyết Êutykhê hay Nhất Tính. Năm 449, một công đồng tại Êphêsô, bị phe cánh của Êutykhê lấn át và được tổ chức trong bầu không khí đe dọa thể xác nghiêm trọng đến mức chính Lêô gọi đó là \"Công Đồng Cướp Bóc\" (Latrocinium), đã chuẩn y lập trường của Êutykhê và phế truất một cách bạo lực đối thủ chính của ông ta, Flavianô thành Constantinốp, người được cho là đã qua đời không lâu sau đó vì những vết thương phải chịu trong phiên họp. Lêô trước đó đã gửi cho Flavianô một bức thư tín lý dài — bức Tome — trình bày lập trường chính thống về hai bản tính, và ngài từ chối chấp nhận kết quả của Êphêsô, thúc ép hoàng đế triệu tập một công đồng mới được tổ chức đúng đắn. Công đồng ấy nhóm họp tại Chalcêđônia năm 451, lần này dưới sự giám sát chặt chẽ hơn của triều đình để ngăn không cho tái diễn những thủ đoạn đe dọa của hai năm trước.",
+        "en": "Leo became pope in 440 AD in the middle of two converging crises. In the West, the Roman Empire was disintegrating — the Vandals had just taken North Africa, and the imperial court had long since fled to the safety of Ravenna. In the East, a Constantinopolitan monk named Eutyches was teaching that Christ's human nature was effectively absorbed into his divine nature, leaving him with only one composite nature — a position later called Eutychianism or Monophysitism. In 449, a council at Ephesus, packed with Eutyches' allies and conducted under physical intimidation so severe that Leo himself branded it the \"Robber Council\" (Latrocinium), upheld Eutyches and violently deposed his chief opponent, Flavian of Constantinople, who reportedly died soon afterward from injuries suffered during the proceedings. Leo had already sent Flavian a lengthy doctrinal letter — the Tome — setting out the orthodox two-natures position, and he refused to accept Ephesus's outcome, pressing the emperor for a new, properly conducted council. It convened at Chalcedon in 451, this time under closer imperial supervision that prevented a repeat of the intimidation two years earlier."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Ngoài câu đã được trích dẫn từ bức Tome, đoạn văn đầy đủ hơn viết: \"Đấng vĩnh cửu, Con Một của Đấng sinh thành vĩnh cửu, đã sinh ra bởi Chúa Thánh Thần và Đức Trinh Nữ Maria. Việc Người sinh ra trong thời gian không hề làm giảm bớt hay thêm vào cuộc sinh hạ thần linh và vĩnh cửu ấy.\" (Tome của Lêô, theo bản dịch của William Bright) Và khi bức Tome được đọc lớn tiếng tại Chalcêđônia, lời tung hô của các giám mục được ghi lại, theo cách dịch phổ biến nhất, là: \"Đây là đức tin của các giáo phụ, đây là đức tin của các Tông Đồ. Tất cả chúng ta cùng tin như vậy, những người chính thống tin như vậy. Phêrô đã nói qua Lêô. Các Tông Đồ đã dạy như vậy.\" Một số bản dịch diễn giải câu then chốt của lời tung hô là \"Phêrô đã nói qua miệng Lêô\" thay vì đơn giản \"qua Lêô\" — nguyên bản tiếng Hy Lạp của lời tung hô được lưu giữ trong biên bản công đồng, nhưng các bản dịch tiếng Anh của cụm từ cụ thể này có đôi chút khác biệt tùy theo ấn bản được tham khảo, nên cả hai cách dịch đều được các học giả xem là chuyển ngữ trung thực của cùng một lời tung hô được ghi lại, chứ không phải là hai văn bản cạnh tranh nhau.",
+        "en": "Beyond the single line already quoted from the Tome, the fuller passage reads: \"The same eternal, only-begotten of the eternal begetter was born of the Holy Spirit and the Virgin Mary. His birth in time in no way subtracts from or adds to that divine and eternal birth of his.\" (Tome of Leo, per the William Bright translation) And when the Tome was read aloud at Chalcedon, the bishops' acclamation is recorded, in the standard rendering, as: \"This is the faith of the fathers, this is the faith of the Apostles. So we all believe, thus the orthodox believe. Peter has spoken through Leo. So taught the Apostles.\" Some translations render the acclamation's key line as \"Peter has spoken through the mouth of Leo\" rather than simply \"through Leo\" — the underlying Greek acclamation is preserved in the conciliar acts, but English renderings of this specific phrase vary slightly depending on the edition consulted, so both forms are treated by scholars as faithful renderings of the same recorded acclamation rather than as competing texts."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Kitô học của Lêô trong bức Tome ngắn gọn nhưng trở thành vĩnh viễn: một Ngôi Vị, hai bản tính trọn vẹn và không hòa lẫn, kết hợp \"không hòa lẫn, không biến đổi, không phân chia, không tách biệt\" — một công thức được xây dựng dựa trên nhu cầu cứu độ học không kém gì logic, vì đối với Lêô, chỉ có một Đức Kitô vừa hoàn toàn là Thiên Chúa vừa hoàn toàn, thực sự là con người (chứ không chỉ có vẻ là con người, như một số lạc thuyết trước đó chủ trương) mới có thể thực sự giao hòa Thiên Chúa với nhân loại. Bên cạnh đó, Lêô còn có một lý thuyết khác thường phát triển về chính chức vụ của mình: trong một bài giảng vào dịp kỷ niệm ngày được bầu chọn (Bài giảng 3.4), ngài nói với giáo đoàn hãy \"xem ngài [Phêrô] hiện diện trong sự hèn mọn của con người tôi... Phẩm giá của ngài không phai nhạt ngay cả nơi một người kế vị bất xứng.\" Dựa trên quan niệm pháp lý Rôma rằng người thừa kế về mặt pháp lý hiện thân cho người đã khuất, Lêô lập luận rằng Phêrô không chỉ đơn thuần là người mà ngài kế vị trong chức vụ, mà là người tiếp tục, theo một nghĩa thực sự, hành động và lên tiếng qua vị giám mục Rôma — một cách diễn đạt tường minh và nổi bật về thẩm quyền Phêrô, vượt xa bất cứ điều gì nơi các tác giả trước đó như Clêmentê thành Rôma.",
+        "en": "Leo's Christology in the Tome is compact and became permanent: one Person, two complete and unconfused natures, joined \"without confusion, without change, without division, without separation\" — a formula built on soteriological necessity as much as logic, since for Leo only a Christ who was both fully divine and fully, actually human (not merely appearing human, as some earlier heresies held) could genuinely reconcile God and humanity. Alongside this, Leo held an unusually developed theory of his own office: in a sermon preached on the anniversary of his election (Sermon 3.4), he told his congregation to \"regard him [Peter] as present in the lowliness of my person... His dignity does not fade even in an unworthy heir.\" Drawing on the Roman legal idea that an heir legally embodies the person of the deceased, Leo argued that Peter was not merely someone he succeeded in office but someone who continued, in a real sense, to act and speak through the bishop of Rome — a striking and explicit articulation of Petrine authority that goes well beyond anything in earlier writers like Clement of Rome."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Lêô qua đời một cách tự nhiên vào ngày 10 tháng 11 năm 461, sau một triều đại giáo hoàng kéo dài hơn hai mươi năm. Ngài được an táng tại tiền sảnh (cổng vào) của Vương Cung Thánh Đường Thánh Phêrô cũ — vị giáo hoàng đầu tiên được biết đến là được chôn cất bên trong chính khuôn viên nhà thờ thay vì trong các hầm mộ bên ngoài tường thành — và năm 688, Đức Giáo Hoàng Sergiô I đã cho di dời hài cốt của ngài vào bên trong chính vương cung thánh đường, đánh dấu bằng một bàn thờ riêng; thánh tích của ngài ngày nay được tôn kính tại một nguyện đường gần Bàn Thờ Ngai Tòa trong Vương Cung Thánh Đường Thánh Phêrô hiện tại. Không có gì trong sử liệu cho thấy có sự bách hại hay bạo lực liên quan đến cái chết của ngài — những năm cuối đời của ngài không dành cho việc tử đạo, mà cho công việc bình thường nhưng đầy mệt mỏi là giữ cho Rôma đứng vững khi quyền lực đế quốc ở phương Tây tiếp tục sụp đổ xung quanh ngài.",
+        "en": "Leo died naturally on November 10, 461, after a pontificate of just over twenty years. He was buried in the vestibule (entrance portico) of Old St. Peter's Basilica — the first pope known to have been buried inside the church complex itself rather than in the catacombs outside the city walls — and in 688 Pope Sergius I had his remains moved into the basilica proper, marking them with a dedicated altar; his relics are today venerated in a chapel near the Altar of the Chair in the present St. Peter's. Nothing in the record suggests persecution or violence connected to his death — his final years were occupied not with martyrdom but with the ordinary, exhausting business of holding Rome together as imperial authority in the West continued to collapse around him."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Câu chuyện phổ biến nổi tiếng nhất về Lêô — đích thân gặp Attila người Hung ở ngoại ô Rôma năm 452 và thuyết phục ông ta không cướp phá thành phố — chỉ dựa trên một nguồn cổ duy nhất, sử gia Prosper thành Aquitaine, người không có mặt tại cuộc gặp và tường thuật của ông nhìn chung được các sử gia xem là phản ánh khuynh hướng thánh sử hơn là tường thuật của nhân chứng. Một nguồn khác gần với nhân chứng hơn về các vấn đề của người Hung, sử gia Priscus, hoàn toàn không ghi công cho sự can thiệp của Lêô, mà thay vào đó cho rằng việc Attila rút lui là do nỗi sợ mê tín (quân lính của ông ta được cho là đã nhớ lại rằng Alaric đã chết không lâu sau khi cướp phá Rôma nhiều thập kỷ trước đó) và do áp lực vật chất — dịch bệnh và thiếu lương thực trong chính quân đội của ông ta, cùng mối đe dọa mới từ quân đội Đông Rôma trên chính lãnh thổ của ông. Truyền thuyết này càng trở nên phức tạp hơn qua nhiều thế kỷ sau đó; bức bích họa thế kỷ XVI của Raphael về cuộc gặp gỡ này tại Vatican đã thêm vào một chi tiết hoàn toàn không có cơ sở lịch sử — hình ảnh Thánh Phêrô và Thánh Phaolô xuất hiện trên bầu trời phía trên Lêô, tay cầm gươm tuốt trần — điều không có căn cứ trong bất kỳ nguồn cổ nào nhưng đã định hình trí tưởng tượng của công chúng về cảnh tượng này từ đó đến nay. Điều này không có nghĩa là ngoại giao của Lêô là vô giá trị — một phái đoàn từ giám mục Rôma vẫn là một yếu tố có thật — nhưng phiên bản phổ biến, trong đó Lêô một mình và gần như đơn phương cứu thành phố, đã phóng đại đáng kể những gì bằng chứng cổ đại có thể chứng minh.",
+        "en": "Leo's most famous popular story — personally meeting Attila the Hun outside Rome in 452 and talking him out of sacking the city — rests on a single ancient source, the chronicler Prosper of Aquitaine, who was not present at the meeting and whose account is generally regarded by historians as reflecting hagiographic bias rather than eyewitness reporting. A different eyewitness-adjacent source on Hunnic affairs, the historian Priscus, does not credit Leo's intervention at all, instead attributing Attila's withdrawal to superstitious fear (his men reportedly recalled that Alaric had died shortly after sacking Rome decades earlier) and to material pressures — plague and food shortages among his own troops, and a renewed threat from the Eastern Roman army on his home territory. The legend only grew more elaborate over the following centuries; Raphael's 16th-century fresco of the meeting in the Vatican added an entirely unhistorical detail — Saints Peter and Paul appearing in the sky above Leo, swords drawn — that has no basis in any ancient source but has shaped popular imagination of the scene ever since. None of this means Leo's diplomacy was worthless — an embassy from the bishop of Rome was still a real factor — but the popular version, in which Leo alone and almost single-handedly saves the city, considerably overstates what the ancient evidence can support."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Bronwen Neil, Leo the Great (bộ The Early Church Fathers, Routledge, 2009) — các bản dịch có chú giải của những bức thư và bài giảng quan trọng kèm bình luận. Jane Patricia Freeland và Agnes Josephine Conway (dịch), St. Leo the Great: Sermons (bộ The Fathers of the Church, tập 93, Catholic University of America Press, 1996). Richard Price và Michael Gaddis (dịch), The Acts of the Council of Chalcedon (3 tập, bộ Translated Texts for Historians số 45, Liverpool University Press, 2005-2007) — bản dịch học thuật hiện đại chuẩn mực của toàn bộ biên bản công đồng, bao gồm cả bức Tome và các lời tung hô của các giám mục.",
+        "en": "Bronwen Neil, Leo the Great (The Early Church Fathers series, Routledge, 2009) — annotated translations of key letters and sermons with commentary. Jane Patricia Freeland and Agnes Josephine Conway, trans., St. Leo the Great: Sermons (The Fathers of the Church, Vol. 93, Catholic University of America Press, 1996). Richard Price and Michael Gaddis, trans., The Acts of the Council of Chalcedon (3 vols., Translated Texts for Historians 45, Liverpool University Press, 2005–2007) — the standard modern scholarly translation of the full conciliar proceedings, including the Tome and the bishops' acclamations."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Thánh dạy gì về Thẩm quyền giáo huấn của Giáo hoàng, được công đồng xác nhận?",
+        "en": "What does Leo teach about Papal teaching authority with conciliar force?"
+      },
+      "a": {
+        "vi": "Lời hô vang của các giám mục tại Calcêđônia — \"Phêrô đã nói qua miệng Lêô!\" — khi Thư Tôma được đọc lên là một trong những chứng từ cổ xưa sống động và rõ ràng nhất về thẩm quyền giáo huấn đặc biệt của Giám mục Rôma với tư cách người kế vị Thánh Phêrô.",
+        "en": "The bishops' acclamation at Chalcedon — 'Peter has spoken through the mouth of Leo!' — is an explicit, recorded, ecumenical-council-level acknowledgment of papal teaching authority."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Thánh dạy gì về Kitô học đã được xác lập của Giáo hội?",
+        "en": "What does Leo teach about The Church's settled Christology?"
+      },
+      "a": {
+        "vi": "Công thức của Lêô — một Ngôi Vị, hai bản tính trọn vẹn và không hòa lẫn — vẫn là giáo lý Kitô học của Giáo hội cho đến ngày nay.",
+        "en": "Leo's formula — one Person, two complete and unconfused natures — remains the Church's Christological teaching today."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/leo-the-great.jpg",
+    "medium": {
+      "vi": "Tranh khảm, Cappella Palatina (Palermo)",
+      "en": "Mosaic, Cappella Palatina, Palermo"
+    },
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "available": true
+  }
+}

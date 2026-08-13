@@ -1,0 +1,237 @@
+{
+  "no": 28,
+  "slug": "isidore-of-seville",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Isiđôrô thành Sevilla",
+    "en": "Isidore of Seville"
+  },
+  "role": {
+    "vi": "Tổng giám mục Sevilla",
+    "en": "Archbishop of Seville"
+  },
+  "dates": {
+    "display": "c. 560 — 636",
+    "born": 560,
+    "died": 636
+  },
+  "quote": {
+    "vi": "Nếu không giữ được ý nghĩa của một từ, người ta sẽ mất đi sự hiểu biết về điều mà từ ấy biểu thị.",
+    "en": "Unless a person retains the meaning of a word, he loses the understanding of the thing it signifies.",
+    "source": {
+      "vi": "Etymologiae, I.29 (bản dịch tương đối)",
+      "en": "Etymologiae, I.29 (approximate translation)"
+    }
+  },
+  "life": [
+    {
+      "vi": "Em của Thánh Lêanđê thành Sevilla (người tiền nhiệm và cũng là người dạy dỗ ngài), Thánh Fulgentiô và Thánh Florentina.",
+      "en": "Younger brother of St. Leander of Seville (his predecessor and educator), St. Fulgentius, and St. Florentina."
+    },
+    {
+      "vi": "Tác giả bộ Etymologiae, một bách khoa toàn thư 20 cuốn tổng hợp gần như toàn bộ tri thức nhân loại và thần linh thời bấy giờ, trở thành một trong những sách tham khảo có ảnh hưởng nhất thời Trung Cổ.",
+      "en": "Author of the Etymologiae, a 20-book encyclopedia of essentially all human and divine knowledge, one of the most influential reference works of the Middle Ages."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 560",
+        "en": "c. 560 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "4 tháng 4, năm 636",
+        "en": "April 4, 636 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Sevilla, Tây Ban Nha thời Visigoth",
+        "en": "Seville, Visigothic Spain"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "4 tháng 4",
+        "en": "April 4"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Etymologiae",
+        "en": "Etymologiae"
+      },
+      "latin": "Origines",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Sententiae",
+        "en": "Sententiae"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Isiđôrô lớn lên mồ côi tại Tây Ban Nha thời Visigoth, được nuôi dưỡng và giáo dục nghiêm khắc bởi người anh trai lớn hơn nhiều tuổi là Lêanđê, người sau này trở thành giám mục Sevilla và, trong vai trò đó, là một nhân vật hàng đầu trong một trong những cuộc chuyển đổi tôn giáo có hệ quả sâu rộng nhất của châu Âu thời sơ kỳ trung cổ: việc hoàng tộc Visigoth cải đạo từ thuyết Ariô (phủ nhận thiên tính trọn vẹn của Đức Kitô) sang chính thống Công giáo dưới thời Vua Reccarêđô năm 587-589. Khi Isiđôrô kế vị Lêanđê làm giám mục vào khoảng năm 600, một bộ phận đáng kể giới quý tộc và giáo sĩ Visigoth vẫn còn có thiện cảm hoặc thực hành theo thuyết Ariô, tàn dư của nhiều thế hệ dưới sự cai trị của người Ariô, và việc hòa nhập trọn vẹn họ vào sự hiệp nhất Công giáo — về giáo lý, phụng vụ, lẫn chính trị — đã trở thành nhiệm vụ then chốt trong triều đại giám mục kéo dài khoảng 32 năm của ngài, được thực hiện phần lớn qua các công đồng khu vực mà ngài tổ chức và chủ tọa, trong đó quan trọng nhất là Công Đồng Tôlêđô Lần Thứ Tư năm 633.",
+        "en": "Isidore grew up an orphan in Visigothic Spain, raised and strictly educated by his much older brother Leander, who would himself become bishop of Seville and, in that role, a leading figure in one of the most consequential religious transformations in early medieval Europe: the conversion of the Visigothic royal house from Arianism (which denied Christ's full divinity) to Catholic orthodoxy under King Reccared in 587–589. When Isidore succeeded Leander as bishop around 600, a substantial part of the Visigothic nobility and clergy still held Arian sympathies or practices left over from generations of Arian rule, and integrating them fully into Catholic unity — doctrinally, liturgically, and politically — became a defining task of his roughly 32-year episcopate, carried out largely through the regional councils he organized and presided over, chief among them the Fourth Council of Toledo in 633."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Gần đầu bộ Etymologiae, Isiđôrô định nghĩa chính khái niệm lịch sử: \"Historia est narratio rei gestae, per quam ea, quae in praeterito facta sunt, dinoscuntur\" — \"Lịch sử là sự tường thuật một việc đã xảy ra, qua đó những gì đã được thực hiện trong quá khứ được biết đến.\" (Etymologiae, quyển I, chương 41) Trong các chương tiếp theo, ngài phân biệt lịch sử (các sự kiện có thật) với argumentum (tường thuật hư cấu nhưng khả tín) và ngụ ngôn (những điều hoàn toàn không thể xảy ra) — một suy tư phê bình sử liệu sớm và đáng ngạc nhiên là khá cẩn trọng, tuy cần lưu ý rằng khẳng định được lan truyền rộng rãi cho rằng Isiđôrô còn nhấn mạnh không ai được viết sử \"trừ khi người đó có mặt và chứng kiến các sự kiện\" là một cách diễn giải tìm thấy trong các tóm lược thứ cấp chứ không phải một câu được xác nhận trực tiếp từng chữ ở đây, nên được trình bày như một cách diễn giải lập trường chung của ngài chứ không phải một trích dẫn nguyên văn.",
+        "en": "Near the opening of the Etymologiae, Isidore defines history itself: \"Historia est narratio rei gestae, per quam ea, quae in praeterito facta sunt, dinoscuntur\" — \"History is the narration of a deed, by which what was done in the past is made known.\" (Etymologiae, Book I, ch. 41) He goes on in the surrounding chapters to distinguish history (true events) from argumentum (invented but plausible narrative) and fable (things that could not have happened at all) — an early and surprisingly careful piece of source-critical thinking, though it should be noted that the widely circulated claim that Isidore also insisted no one may write history \"unless he was present and saw the events\" is a paraphrase found in secondary summaries rather than a sentence directly confirmed word-for-word here, so it is presented as a paraphrase of his general position rather than as a verbatim quotation."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Isiđôrô không phải trước hết là một nhà thần học tư biện độc đáo, mà là một người tổng hợp và truyền tải tri thức ở quy mô đồ sộ — bản năng của ngài, xuyên suốt gần như tất cả các tác phẩm, là niềm tin rằng tri thức Kitô giáo cần tổ chức, gìn giữ và truyền lại kho tàng tri thức tích lũy của thế giới cổ đại, thay vì để nó bị mất đi khi nền văn minh Rôma sụp đổ ở phương Tây. Bộ Etymologiae thể hiện điều này: phương pháp của nó là giải thích mỗi sự vật bằng cách truy nguyên nguồn gốc tên gọi của nó, dựa trên giả định (kế thừa từ các nhà ngữ pháp học trước đó) rằng từ nguyên học tiết lộ điều gì đó về bản chất thật sự của sự vật — một phương pháp mà các học giả hiện đại cho là thường mang tính tưởng tượng theo tiêu chuẩn ngôn ngữ học đương đại, nhưng lại phản ánh một xác tín nghiêm túc, nhất quán rằng ngôn ngữ, nếu được hiểu đúng, là con đường dẫn đến tri thức thực sự về công trình tạo dựng. Tác phẩm Sententiae của ngài, một công trình thần học luân lý và tín lý theo lối truyền thống hơn, bàn về các chủ đề như bản tính Thiên Chúa, tội lỗi và đời sống luân lý theo mạch tư tưởng rõ ràng chịu ảnh hưởng của Augustinô, và trở thành, cùng với Etymologiae, một trong những sách giáo khoa chuẩn mực của các trường học sơ kỳ trung cổ mà ngài đã thúc đẩy các giáo phận thành lập.",
+        "en": "Isidore was not principally an original speculative theologian but a synthesizer and transmitter on an enormous scale — his instinct, running through nearly all his works, was that Christian learning should organize, preserve, and hand on the accumulated knowledge of the ancient world rather than let it be lost as Roman civilization collapsed in the West. The Etymologiae embodies this: its method is to explain each thing by tracing the origin of its name, on the assumption (drawn from earlier grammarians) that etymology reveals something of a thing's true nature — a method modern scholars regard as often fanciful by contemporary linguistic standards, but which reflects a serious, coherent conviction that language, rightly understood, is a path to real knowledge of creation. His Sententiae, a more conventional work of moral and doctrinal theology, addresses topics like the nature of God, sin, and the moral life in a straightforwardly Augustinian vein, and became, alongside the Etymologiae, one of the standard textbooks of the early medieval schools he pushed dioceses to establish."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Isiđôrô qua đời một cách tự nhiên vào ngày 4 tháng 4 năm 636, và những ngày cuối đời của ngài được ghi lại với chi tiết khác thường nhờ người bạn và cũng là người thư tín của ngài, Braulô, giám mục Zaragoza, người sau đó cũng hoàn tất việc sắp xếp cuối cùng bộ Etymologiae thành 20 quyển sau khi Isiđôrô qua đời. Theo tường thuật này, cảm nhận cái chết đang đến gần, Isiđôrô đã nhờ hai vị giám mục đồng nghiệp mặc cho mình áo vải thô và rắc tro lên đầu — những dấu hiệu truyền thống của việc đền tội — để có thể đứng trước Thiên Chúa như một người ăn năn nghèo khó, chứ không phải như vị tổng giám mục và học giả lừng danh mà ngài đã trở thành; sau đó ngài phân phát của bố thí cho người nghèo trước khi qua đời giữa hàng giáo sĩ của mình. Không có sự bách hại hay bạo lực nào liên quan — cái chết của ngài là cái chết của một vị giám mục già nua, kiệt sức, cố ý dàn dựng sự khiêm nhường của chính mình vào những giây phút cuối cùng của một sự nghiệp lâu dài và bề ngoài đầy vinh quang.",
+        "en": "Isidore died naturally on April 4, 636, and his final days are recorded in unusual detail thanks to his friend and correspondent Braulio, bishop of Zaragoza, who also completed the final organization of the Etymologiae into 20 books after Isidore's death. According to this account, sensing death approaching, Isidore had two fellow bishops dress him in sackcloth and place ashes on his head — traditional signs of penance — so that he could stand before God as a poor penitent rather than as the celebrated archbishop and scholar he had become; he then distributed alms to the poor before dying among his clergy. There is no persecution or violence involved — his death was that of an old, exhausted bishop deliberately staging his own humility at the very end of a long and outwardly triumphant career."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Sức ảnh hưởng sau này của bộ Etymologiae khó có thể phóng đại thuần túy về mặt số lượng: các khảo sát bản chép tay hiện đại đếm được vài trăm bản sao còn sót lại chỉ tính riêng trước năm 1000, và — ngoại trừ Kinh Thánh — nó nói chung được xem là tác phẩm tham khảo được sao chép rộng rãi nhất trong toàn bộ thời Trung Cổ, được các nhân vật từ Bêđa ở Anh cho đến Dante trích dẫn, người đã đặt Isiđôrô vào hàng ngũ các bậc thầy vĩ đại trong tác phẩm Paradiso. Về biệt danh phổ biến \"bổn mạng Internet,\" cần nói rõ: chưa từng có văn kiện nào của Tòa Thánh chính thức tuyên bố Isiđôrô là bổn mạng của Internet hay của người dùng máy tính. Ý tưởng này bắt đầu lan truyền vào thập niên 1990, đôi khi được cho là gắn với một quyết định của giáo hoàng được cho là vào năm 1997 hoặc khoảng năm 2001, nhưng không hề tồn tại sắc lệnh chính thức như vậy; nó vẫn, một cách chính xác mà nói, là một sự liên tưởng phổ biến nhưng không chính thức, dựa trên sự tương đồng rõ ràng giữa bộ Etymologiae mang tính bách khoa, có tham chiếu chéo của ngài với một cơ sở dữ liệu có thể tra cứu được — một sự tương đồng thật sự và hấp dẫn, chỉ là không phải một danh hiệu chính thức của Giáo Hội.",
+        "en": "The Etymologiae's later reach is hard to overstate in purely quantitative terms: modern manuscript surveys count several hundred surviving copies made before the year 1000 alone, and — the Bible aside — it is generally regarded as the most widely copied reference work of the entire Middle Ages, cited by figures from Bede in England to Dante, who places Isidore among the great teachers in Paradiso. On the popular \"patron saint of the internet\" nickname, worth stating plainly: no Vatican document has ever formally declared Isidore patron of the internet or of computer users. The idea began circulating in the 1990s, sometimes attributed to a supposed 1997 or 2001-era papal decision, but no such official decree exists; it remains, accurately, an unofficial but widely repeated popular association based on the obvious resemblance between his encyclopedic, cross-referenced Etymologiae and a searchable database — a real and appealing parallel, just not a canonical title."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Stephen A. Barney, W. J. Lewis, J. A. Beach, và Oliver Berghof (dịch), The Etymologies of Isidore of Seville (Cambridge University Press, 2006) — bản dịch tiếng Anh hiện đại đầy đủ đầu tiên, kèm phần dẫn nhập và chú giải. Calvin B. Kendall và Faith Wallis (dịch), Isidore of Seville: On the Nature of Things (bộ Translated Texts for Historians, tập 66, Liverpool University Press, 2016) — bản dịch một tác phẩm ngắn hơn, liên quan, của Isiđôrô về vũ trụ vật lý.",
+        "en": "Stephen A. Barney, W. J. Lewis, J. A. Beach, and Oliver Berghof, trans., The Etymologies of Isidore of Seville (Cambridge University Press, 2006) — the first complete modern English translation, with introduction and notes. Calvin B. Kendall and Faith Wallis, trans., Isidore of Seville: On the Nature of Things (Translated Texts for Historians, Vol. 66, Liverpool University Press, 2016) — a translation of Isidore's shorter, related work on the physical cosmos."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Isiđôrô dạy gì về Giáo hội gìn giữ tri thức, không phải triệt tiêu tri thức?",
+        "en": "What does Isidore teach about The Church preserving learning?"
+      },
+      "a": {
+        "vi": "Nỗ lực đồ sộ của Isiđôrô nhằm gìn giữ và truyền tải tri thức cổ điển và Kitô giáo qua thời kỳ sụp đổ của văn minh Rôma là câu trả lời lịch sử mạnh mẽ cho huyền thoại cho rằng Giáo hội đàn áp tri thức trong \"Thời Kỳ Đen Tối\".",
+        "en": "Isidore's massive effort to preserve classical and Christian knowledge is a strong answer to the myth that the Church suppressed learning during the 'Dark Ages.'"
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Isiđôrô dạy gì về Giáo hội đặt nền cho giáo dục?",
+        "en": "What does Isidore teach about The Church founding education?"
+      },
+      "a": {
+        "vi": "Việc ngài thúc đẩy tại Công đồng Toledo để mỗi giáo phận lập trường đào tạo giáo sĩ là tiền thân trực tiếp của hệ thống đại học Trung Cổ về sau.",
+        "en": "His push at Toledo for diocesan clergy schools is a direct institutional ancestor of the later medieval university system."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "",
+    "medium": {
+      "vi": "",
+      "en": ""
+    },
+    "source": "",
+    "license": "",
+    "available": false
+  }
+}

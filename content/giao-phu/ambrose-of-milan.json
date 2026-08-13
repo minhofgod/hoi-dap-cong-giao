@@ -1,0 +1,237 @@
+{
+  "no": 20,
+  "slug": "ambrose-of-milan",
+  "era": "nicene",
+  "name": {
+    "vi": "Ambrôsiô thành Milanô",
+    "en": "Ambrose of Milan"
+  },
+  "role": {
+    "vi": "Giám mục Milanô",
+    "en": "Bishop of Milan"
+  },
+  "dates": {
+    "display": "339 — 397",
+    "born": 339,
+    "died": 397
+  },
+  "quote": {
+    "vi": "Trước lời Đức Kitô, đó là chén rượu và nước; sau khi truyền phép, đó là máu Đức Kitô đã cứu chuộc dân Người... Trước lời Đức Kitô, chén ấy trống rỗng; sau khi truyền phép, chén ấy được đổ đầy đức tin.",
+    "en": "Before the words of Christ it is a cup of wine and water; after the consecration it is the blood of Christ that redeemed the people... Before the words of Christ, the vessel is empty of any content, but after consecration is filled with faith.",
+    "source": {
+      "vi": "Về Các Bí Tích, IV",
+      "en": "On the Sacraments, IV"
+    }
+  },
+  "life": [
+    {
+      "vi": "Được đào tạo làm luật sư và tổng đốc Rôma trước khi được dân chúng tôn phong làm giám mục lúc còn là dự tòng. Đích thân dạy giáo lý và rửa tội cho Thánh Augustinô năm 387.",
+      "en": "Trained as a lawyer and Roman civil governor before being spontaneously acclaimed bishop while still an unbaptized catechumen. Personally instructed and baptized Augustine of Hippo in 387 AD."
+    },
+    {
+      "vi": "Buộc hoàng đế Thêôđôsiô I phải đền tội công khai sau vụ thảm sát Thêxalônica (390) trước khi được rước lễ trở lại. Bài giảng của ngài đóng vai trò quyết định trong việc Augustinô trở lại đạo.",
+      "en": "Forced Emperor Theodosius I to perform public penance after the Massacre of Thessalonica (390 AD). His preaching was instrumental in Augustine's conversion."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "năm 339",
+        "en": "339 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "4 tháng 4, năm 397",
+        "en": "April 4, 397 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Milanô, Ý",
+        "en": "Milan, Italy"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "7 tháng 12",
+        "en": "December 7"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Về Bổn Phận Hàng Giáo Sĩ",
+        "en": "On the Duties of the Clergy"
+      },
+      "latin": "De Officiis Ministrorum",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Về Các Mầu Nhiệm / Về Các Bí Tích",
+        "en": "On the Mysteries / On the Sacraments"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Con đường của Ambrôsiô đến chức giám mục không bắt đầu từ Giáo Hội mà từ chính quyền tỉnh Rôma: được đào tạo làm luật sư, ngài đang giữ chức thống đốc vùng Aemilia-Liguria, đóng tại Milanô, khi vị giám mục theo Ariô của thành phố, Auxentiô, qua đời năm 374 và một cuộc bầu cử tranh chấp, có nguy cơ bạo lực nổ ra giữa các phe theo tín lý Nixêa và theo Ariô tranh giành người kế vị. Ambrôsiô, khi đó vẫn chỉ là một dự tòng chưa chịu phép Rửa, đã đến nhà thờ chính tòa với tư cách chính thức của mình để giữ trật tự — và theo truyền thống gần như đương thời, một giọng nói trẻ con trong đám đông đã hô lên \"Ambrôsiô làm giám mục,\" điều mà cả đám đông sau đó hưởng ứng như thể đạt được sự đồng thuận đột ngột. Dù cơ chế chính xác của khoảnh khắc đó là gì, kết quả thực tế phi thường theo bất kỳ tiêu chuẩn nào về trật tự Giáo Hội: trong vòng khoảng một tuần, Ambrôsiô chịu phép Rửa, nhanh chóng đi qua các cấp bậc giáo sĩ trung gian, và được tấn phong giám mục Milanô, bước vào chức vụ mà không hề có sự đào tạo thần học trước đó, và phải học thần học Hy Lạp, bao gồm các tác phẩm của Ôrigênê và Basiliô, gần như ngay trong lúc đang điều hành một trong những tòa giám mục quan trọng nhất của Giáo Hội Tây phương.",
+        "en": "Ambrose's path to the episcopate began not in the Church but in Roman provincial government: trained as a lawyer, he was serving as governor of Aemilia-Liguria, based in Milan, when the city's Arian bishop Auxentius died in 374 and a contested, potentially violent election broke out between Nicene and Arian factions fighting over his successor. Ambrose, still only a catechumen who had not yet been baptized, went to the cathedral in his official capacity to keep order — and according to the near-contemporary tradition, a child's voice in the crowd cried out \"Ambrose for bishop,\" which the assembly took up as if by sudden consensus. Whatever the precise mechanics of that moment, the practical result was extraordinary by any standard of church order: within about a week Ambrose was baptized, passed rapidly through the intervening clerical ranks, and was consecrated bishop of Milan, arriving in the office with no prior theological training and having to study Greek theology, including Origen's and Basil's works, essentially on the job while already governing one of the most important sees in the Western Church."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Trong tác phẩm Về Các Bí Tích, khi giảng dạy cho những người mới chịu phép Rửa về điều vừa xảy ra với họ nơi bàn thờ, Ambrôsiô phát biểu giáo lý về Sự Hiện Diện Thực Sự một cách trực tiếp như bất kỳ tác giả nào cùng thế kỷ: \"Trước lời của Đức Kitô, đó là một chén rượu và nước; sau khi truyền phép, đó là máu của Đức Kitô, Đấng đã cứu chuộc dân Người... Trước lời của Đức Kitô, chiếc chén trống rỗng không có nội dung gì, nhưng sau khi truyền phép thì tràn đầy đức tin.\" Một câu khác thường được lưu truyền như lời của chính Ambrôsiô — \"Ubi Petrus, ibi ecclesia\" (\"Nơi nào có Phêrô, nơi đó có Giáo Hội\") — quả thực là của ngài, từ bài chú giải Thánh Vịnh 40, nhưng đáng được đọc cẩn trọng trong bối cảnh: lập luận thực sự của Ambrôsiô ở đó là nơi nào có đức tin tông truyền chân chính mà Phêrô đã tuyên xưng hiện diện, nơi đó có Giáo Hội hiện diện — một phát biểu về việc tuyên xưng đúng đắn và sự hiệp nhất, hơn là một tuyên bố trực tiếp về thẩm quyền tài phán của riêng giám mục Rôma — một sắc thái đáng được giữ gìn để câu nói này không bị kéo giãn xa hơn điều chính Ambrôsiô đã có ý định.",
+        "en": "In On the Sacraments, instructing the newly baptized on what had just happened to them at the altar, Ambrose states the doctrine of the Real Presence about as directly as any writer of his century: \"Before the words of Christ it is a cup of wine and water; after the consecration it is the blood of Christ that redeemed the people... Before the words of Christ, the vessel is empty of any content, but after consecration is filled with faith.\" A separate line often circulated as Ambrose's own — \"Ubi Petrus, ibi ecclesia\" (\"Where Peter is, there is the Church\") — is genuinely his, from his commentary on Psalm 40, but deserves a careful reading in context: Ambrose's actual argument there is that where the true apostolic faith Peter confessed is present, the Church is present, a statement about right confession and unity rather than a direct claim about the jurisdictional authority of the bishop of Rome specifically — a nuance worth preserving so the line isn't stretched further than Ambrose himself intended it."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Về Bổn Phận Hàng Giáo Sĩ, được xây dựng có chủ đích theo mô hình và đối thoại với cuốn cẩm nang ngoại giáo cùng tựa đề Latinh của Cicêrô, De Officiis, thường được ghi nhận là tác phẩm thần học luân lý Kitô giáo có hệ thống đầu tiên dành riêng cho hàng giáo sĩ, tái cấu trúc khung các nhân đức trụ cột chịu ảnh hưởng Khắc Kỷ của Cicêrô (khôn ngoan, công bằng, can đảm, tiết độ) xoay quanh nội dung đặc thù Kitô giáo và các mẫu gương Kinh Thánh, thay vì bác bỏ hoàn toàn triết học luân lý cổ điển. Các trước tác về bí tích của ngài, Về Các Mầu Nhiệm và Về Các Bí Tích, đáng chú ý vì mức độ minh nhiên và trực tiếp mang tính giáo lý bất thường của chúng về Bí tích Thánh Thể, về sự cần thiết và hiệu quả của phép Rửa, và về các bí tích nói chung, được trình bày như những chỉ dẫn thực hành cho những người mới được khai tâm chứ không phải như lập luận thần học trừu tượng. Ambrôsiô cũng được ghi công đã đưa lối hát thánh ca đối đáp vào Giáo Hội Tây phương, được cho là trong thời gian đối đầu với triều đình đế quốc theo Ariô về vương cung thánh đường ở Milanô, và một số thánh ca vẫn được gán cho ngài, bao gồm Veni redemptor gentium, vẫn còn là một phần của truyền thống phụng vụ Latinh hơn một ngàn năm sau đó.",
+        "en": "On the Duties of the Clergy, deliberately modeled on and responding to Cicero's pagan handbook of the same Latin title, De Officiis, is usually credited as the first systematic work of Christian moral theology addressed specifically to clergy, reworking Cicero's Stoic-influenced framework of the cardinal virtues (prudence, justice, fortitude, temperance) around specifically Christian content and scriptural example rather than rejecting classical ethical philosophy outright. His sacramental writings, On the Mysteries and On the Sacraments, are notable for how unusually explicit and catechetically direct they are about the Eucharist, the necessity and effects of baptism, and the sacraments generally, delivered as practical instruction to the newly initiated rather than as abstract theological argument. Ambrose is also credited with introducing antiphonal, call-and-response hymn singing to the Western Church, reportedly during the standoff with the Arian imperial court over the basilica in Milan, and several hymns still attributed to him, including Veni redemptor gentium, remained part of the Latin liturgical tradition for well over a millennium afterward."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Ambrôsiô không tử đạo — ngài qua đời bình yên tại Milanô vào Thứ Bảy Tuần Thánh, ngày 4 tháng 4 năm 397, được cho là sau khi nói với những người quây quần bên ngài rằng ngài \"đã không sống giữa anh em theo cách khiến tôi phải xấu hổ nếu sống lâu hơn, nhưng tôi không sợ chết, vì chúng ta có một Chúa nhân lành.\" Cuộc đối đầu của ngài với Thêôđôsiô I về vụ Thảm Sát Thessalônica năm 390 thực sự là một trong những khoảnh khắc có hệ quả nhất trong toàn bộ tập hợp các mối quan hệ Giáo Hội - nhà nước mà trang web này ghi lại, nhưng hình ảnh phổ biến về việc Ambrôsiô đích thân đứng chặn hoàng đế một cách kịch tính nơi cửa nhà thờ chính tòa là một sự tô vẽ truyền thuyết về sau, được phát triển đầy đủ nhất trong tuyển tập Truyền Kỳ Vàng (Legenda Aurea) thời Trung Cổ — các sử gia hiện đại (bao gồm Peter Brown và Neil McLynn) không tìm thấy bằng chứng đương thời nào cho một cảnh đối mặt trực tiếp nơi cửa nhà thờ, và thay vào đó ghi nhận rằng Ambrôsiô xử lý cuộc đối đầu chủ yếu qua thư từ, cố tình khiến bản thân khó tiếp cận trong khi khẳng định bằng văn bản rằng Thêôđôsiô không thể rước lễ cho đến khi ngài thực hiện việc đền tội công khai. Nội dung cốt lõi của câu chuyện — rằng một giám mục đã thành công buộc người quyền lực nhất thế giới Rôma phải tuân phục kỷ luật Giáo Hội trước khi được rước lễ trở lại — là có thật và vững chắc về mặt lịch sử; phiên bản kịch tính nơi cửa nhà thờ thì không, và trang web trình bày nội dung cốt lõi thay vì truyền thuyết.",
+        "en": "Ambrose was not martyred — he died peacefully in Milan on Holy Saturday, April 4, 397, reportedly after telling those gathered around him that he had \"not so lived among you that I should be ashamed to live longer, but I do not fear to die, for we have a good Lord.\" His confrontation with Theodosius I over the Massacre of Thessalonica in 390 is genuinely one of the most consequential moments in the whole set of Church-and-state relations covered by this site, but the popular image of Ambrose dramatically physically blocking the emperor in the cathedral doorway is a later legendary embellishment, most fully developed in the medieval Legenda Aurea — modern historians (including Peter Brown and Neil McLynn) find no contemporary evidence for a face-to-face doorway scene and note instead that Ambrose handled the confrontation mainly by letter, making himself deliberately inaccessible while insisting in writing that Theodosius could not receive Communion until he had performed public penance. The underlying substance of the story — that a bishop successfully required the most powerful man in the Roman world to submit to Church discipline before receiving the sacraments again — is real and historically solid; the theatrical doorway version simply is not, and the site presents the substance rather than the legend."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Ảnh hưởng cá nhân có ý nghĩa nhất về sau của Ambrôsiô có lẽ là ảnh hưởng được ghi lại trong cuốn sách của một người khác: Augustinô thành Hippo, người đến Milanô với thái độ hoài nghi về Kitô giáo và ban đầu bị thu hút bởi các bài giảng của Ambrôsiô thuần túy vì kỹ năng hùng biện, đã thấy những phản đối trí thức của mình đối với Cựu Ước bị tháo gỡ bởi lối chú giải phúng dụ của Ambrôsiô, và chính Ambrôsiô đã đích thân rửa tội cho Augustinô trong Đêm Vọng Phục Sinh năm 387 — một sự kiện Augustinô mô tả dài dòng và với cảm xúc thật sự trong cuốn Tự Thuật (Confessions). Về mặt định chế, Nghi Lễ Ambrôsiô riêng biệt và truyền thống thánh ca Ambrôsiô, vẫn còn được sử dụng tích cực trong phụng vụ tại Tổng Giáo Phận Milanô ngày nay, là một trong số rất ít truyền thống phụng vụ Tây phương còn sống sót qua quá trình tiêu chuẩn hóa rộng khắp sau này xoay quanh Nghi Lễ Rôma — một mối liên hệ trực tiếp, sống động trở về với chính Milanô thế kỷ IV của Ambrôsiô. Sự sẵn lòng đối đầu trực tiếp với quyền lực đế quốc của ngài, cả trong vụ đền tội Thessalônica lẫn cuộc đối đầu trước đó với triều đình của hoàng hậu Justina theo Ariô về quyền kiểm soát một vương cung thánh đường, đã trở thành một tiền lệ thường được trích dẫn xuyên suốt tư tưởng Công giáo thời Trung Cổ và sau này cho nguyên tắc rằng quyền lực dân sự không mở rộng đến việc kiểm soát các bí tích hay không gian thờ phượng của Giáo Hội.",
+        "en": "Ambrose's most personally significant later influence may be the one recorded in someone else's book: Augustine of Hippo, who arrived in Milan skeptical of Christianity and initially drawn to Ambrose's preaching purely for its rhetorical skill, found his intellectual objections to the Old Testament dismantled by Ambrose's allegorical style of interpretation, and it was Ambrose who personally baptized Augustine at the Easter Vigil in 387 — an event Augustine describes at length and with real emotion in the Confessions. Institutionally, the distinct Ambrosian Rite and Ambrosian chant tradition, still in active liturgical use in the Archdiocese of Milan today, represent one of only a small handful of Western liturgical traditions that survived the later, widespread standardization around the Roman Rite — a direct, living link back to Ambrose's own 4th-century Milan. His willingness to confront imperial power directly, over both the Thessalonica penance and the earlier standoff with the Arian empress Justina's court over control of a basilica, became a frequently cited precedent throughout medieval and later Catholic thought for the principle that civil authority does not extend to control over the Church's sacraments or its worship space."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Boniface Ramsey, O.P. (dịch), Ambrose (bộ The Early Church Fathers, Routledge, 1997) — bản dịch hiện đại dễ tiếp cận kèm dẫn nhập. J.H.W.G. Liebeschuetz (dịch), Ambrose of Milan: Political Letters and Speeches (bộ Translated Texts for Historians, Liverpool University Press, 2005) — bản dịch phê bình chuẩn mực các thư từ chính trị của ngài, bao gồm các thư gửi Thêôđôsiô. Neil B. McLynn, Ambrose of Milan: Church and Court in a Christian Capital (University of California Press, 1994) — tiểu sử phê bình hiện đại chuẩn mực. Toàn văn các tác phẩm chính của ngài (NPNF Series II, tập 10) miễn phí tại newadvent.org.",
+        "en": "Boniface Ramsey, O.P., trans., Ambrose (The Early Church Fathers series, Routledge, 1997) — an accessible modern translation with introduction. J.H.W.G. Liebeschuetz, trans., Ambrose of Milan: Political Letters and Speeches (Translated Texts for Historians series, Liverpool University Press, 2005) — the standard critical translation of his political correspondence, including the Theodosius letters. Neil B. McLynn, Ambrose of Milan: Church and Court in a Christian Capital (University of California Press, 1994) — the standard modern critical biography. Full text of his major works (NPNF Series II, Vol. 10) freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Ambrôsiô dạy gì về Thẩm quyền Giáo hội đối với việc rước lễ?",
+        "en": "What does Ambrose teach about Church authority over reception of Communion?"
+      },
+      "a": {
+        "vi": "Việc Ambrôsiô đối đầu với Thêôđôsiô — đòi hỏi người quyền lực nhất thế giới Rôma phải đền tội công khai trước khi được rước lễ trở lại — là một trong những minh chứng rõ ràng nhất trong lịch sử cho thấy chính Giáo hội, chứ không phải nhà nước hay địa vị cá nhân, có tiếng nói cuối cùng về việc rước lễ xứng đáng.",
+        "en": "Ambrose's confrontation with Theodosius is one of history's clearest demonstrations that the Church holds the final say over worthy reception of the sacraments."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Ambrôsiô dạy gì về Sự Hiện Diện Thực Sự, Đông và Tây cùng chứng thực?",
+        "en": "What does Ambrose teach about Real Presence, West and East together?"
+      },
+      "a": {
+        "vi": "Giáo huấn rõ ràng của Ambrôsiô về Sự Hiện Diện Thực Sự, cùng với chứng từ tương tự của Justinô, Cyrillô Giêrusalem và Hippôlytô, tạo nên một luận cứ rộng khắp về mặt địa lý cho thấy niềm tin vào Sự Hiện Diện Thực Sự là phổ quát và liên tục.",
+        "en": "Ambrose's explicit Real Presence teaching, paired with Justin Martyr's, Cyril of Jerusalem's, and Hippolytus's, builds a broad patristic case that belief in the Real Presence was universal and unbroken."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/ambrose-of-milan.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

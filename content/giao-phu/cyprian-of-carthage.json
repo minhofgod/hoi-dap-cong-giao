@@ -1,0 +1,227 @@
+{
+  "no": 10,
+  "slug": "cyprian-of-carthage",
+  "era": "ante-nicene",
+  "name": {
+    "vi": "Ciprianô thành Carthage",
+    "en": "Cyprian of Carthage"
+  },
+  "role": {
+    "vi": "Giám mục Carthage · Tử đạo",
+    "en": "Bishop of Carthage · Martyr"
+  },
+  "dates": {
+    "display": "c. 200 — 258",
+    "born": 200,
+    "died": 258
+  },
+  "quote": {
+    "vi": "Kẻ không còn Giáo hội làm Mẹ thì không thể còn Thiên Chúa làm Cha.",
+    "en": "He can no longer have God for his Father, who has not the Church for his mother.",
+    "source": {
+      "vi": "Về Sự Hiệp Nhất Giáo Hội Công Giáo, đoạn 6",
+      "en": "On the Unity of the Catholic Church, 6"
+    }
+  },
+  "life": [
+    {
+      "vi": "Nhà hùng biện giàu có trước khi trở lại đạo khoảng năm 246. Trao đổi thư từ và đôi khi bất đồng với Đức Giáo hoàng Stêphanô I.",
+      "en": "A wealthy rhetorician before his conversion c. 246 AD. Corresponded and disagreed at times with Pope Stephen I."
+    },
+    {
+      "vi": "Hướng dẫn Carthage vượt qua cuộc bách hại của hoàng đế Đêciô (250-251) và một trận dịch trong vùng. Các văn bản của ngài về sự hiệp nhất Giáo hội, tập trung vào sự hiệp thông giữa các giám mục, vẫn là nền tảng cho giáo hội học Công giáo.",
+      "en": "Guided Carthage through the Decian persecution (250-251 AD) and a regional plague. His writing on Church unity, centered on communion among bishops, remains foundational to Catholic ecclesiology."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 200/210",
+        "en": "c. 200/210 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "năm 258",
+        "en": "258 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Carthage, Bắc Phi",
+        "en": "Carthage, North Africa"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "16 tháng 9 (chung với Thánh Cornêliô)",
+        "en": "September 16 (with St. Cornelius)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Về Sự Hiệp Nhất Giáo Hội Công Giáo",
+        "en": "On the Unity of the Catholic Church"
+      },
+      "latin": "De Unitate Ecclesiae",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Về Những Người Sa Ngã",
+        "en": "On the Lapsed"
+      },
+      "latin": "De Lapsis",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Toàn bộ nhiệm kỳ giám mục của Cyprianô, chỉ kéo dài chưa đầy một thập kỷ, được định hình bởi hai thảm họa mà ngài hầu như không có thời gian để chuẩn bị: được bầu làm giám mục chỉ khoảng hai năm sau khi chính ngài chịu phép Rửa, ngài phải lãnh đạo Carthage vượt qua cuộc bách hại Đêciô trên toàn đế quốc năm 250-251 gần như ngay lập tức, tiếp theo ngay sau đó là một trận dịch bệnh tàn khốc giết chết nhiều người đến mức cả người ngoại giáo lẫn Kitô hữu đều chết la liệt trên đường phố — việc Cyprianô nhất quyết yêu cầu chính cộng đoàn của mình chăm sóc cả những người láng giềng và kẻ thù ngoại giáo trong trận dịch, chứ không chỉ các tín hữu đồng đạo, tự nó là một hành động bác ái đáng chú ý và được ghi nhớ. Cuộc bách hại Đêciô tạo ra một cuộc khủng hoảng mục vụ đặc thù sẽ chiếm lấy ngài trong nhiều năm sau đó: khác với các cuộc bách hại trước đây chủ yếu nhắm vào hàng giáo sĩ và những nhân vật dễ thấy, Đêciô yêu cầu mọi công dân trên toàn đế quốc phải công khai dâng lễ tế và có giấy chứng nhận việc đó, tạo ra một làn sóng lớn các Kitô hữu bình thường — những người \"sa ngã\" — đã tuân theo dưới áp lực và sau đó, khi cuộc bách hại qua đi, muốn trở lại với Giáo Hội. Quyết định phải làm gì với họ, một cách công bằng và không dung túng cho sự bội giáo cũng không vĩnh viễn khước từ những người thực lòng ăn năn, đã trở thành vấn đề mục vụ trung tâm của nhiệm kỳ giám mục Cyprianô.",
+        "en": "Cyprian's entire episcopate, barely a decade long, was defined by two catastrophes he had almost no time to prepare for: elected bishop only about two years after his own baptism, he had to lead Carthage through the empire-wide Decian persecution of 250–251 AD almost immediately, followed shortly after by a devastating plague that killed so many that pagans and Christians alike were dying in the streets — Cyprian's insistence that his own community care for pagan neighbors and enemies during the plague, not just fellow Christians, was itself a notable and remembered act of charity. The Decian persecution created a specific pastoral crisis that would occupy him for years afterward: unlike earlier persecutions that mostly targeted clergy and the highly visible, Decius required every citizen empire-wide to publicly sacrifice and obtain a certificate proving it, producing a mass wave of ordinary Christians — the \"lapsed\" — who complied under pressure and then, once the persecution passed, wanted to return to the Church. Deciding what to do with them, fairly and without either excusing apostasy or permanently barring the genuinely repentant, became the defining pastoral problem of Cyprian's episcopate."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Cuốn Acta Proconsularia, một biên bản tòa án của nhân chứng tương tự về thể loại với Acts of Justin, lưu giữ gần như nguyên văn phiên xử thực sự của Cyprianô trước tổng trấn Galêriô Maximô: khi được yêu cầu dâng lễ tế, ngài từ chối; khi bị kết án tử hình bằng gươm, câu trả lời được ghi lại của ngài chỉ đơn giản là \"Deo gratias\" — \"Tạ ơn Chúa.\" Trình thuật mô tả ngài tự cởi áo choàng ngoài mà không cần ai giúp, để chính hàng giáo sĩ của mình bịt mắt, và trao hai mươi lăm đồng vàng cho đao phủ trước khi quỳ xuống cầu nguyện và bị chém đầu — một cái chết có kiểm soát, gần như mang tính phụng vụ, mà chính cộng đoàn của ngài, những người đã chứng kiến và lưu giữ biên bản ngay sau đó, rõ ràng đã trải nghiệm như một điều gần với một sự dâng hiến trang trọng hơn là một cuộc hành quyết hỗn loạn.",
+        "en": "The Acta Proconsularia, an eyewitness court record similar in kind to the Acts of Justin, preserves Cyprian's actual trial before the proconsul Galerius Maximus almost verbatim: asked to sacrifice, he refused; sentenced to death by the sword, his recorded response was simply \"Deo gratias\" — \"Thanks be to God.\" The account describes him removing his own outer garments without assistance, having his eyes bound by his own clergy, and giving twenty-five gold pieces to his executioner before kneeling to pray and being beheaded — a controlled, almost liturgical death that his own community, who witnessed it and preserved the record immediately afterward, clearly experienced as something closer to a solemn offering than a chaotic execution."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Về Sự Hiệp Nhất Của Giáo Hội Công Giáo được viết cho một cuộc khủng hoảng cụ thể, một giám mục đối lập được nhóm cực đoan dựng lên tại Carthage vì tức giận trước cách xử lý ôn hòa của Cyprianô đối với những người sa ngã, và lập luận của tác phẩm mang tính cấu trúc hơn là trừu tượng: sự hiệp nhất không phải là một cảm giác dễ chịu giữa các Kitô hữu, mà là một thực tại hữu hình đặt nền trên tập thể giám mục, mỗi vị chịu trách nhiệm riêng về giáo hội của mình nhưng tất cả cùng chia sẻ \"một chức giám mục duy nhất,\" để rồi việc cắt đứt hiệp thông với giám mục hợp pháp của mình chính là cắt đứt hiệp thông với chính Giáo Hội, chứ không đơn thuần là bất đồng với một cá nhân. Cách ngài xử lý những người sa ngã áp dụng cùng một logic đó theo hướng mục vụ hơn là trừng phạt: ngài đi theo một con đường trung dung thực sự giữa những người cực đoan muốn vĩnh viễn khước từ bất kỳ ai đã dâng lễ tế dưới áp lực bách hại, và những người dễ dãi muốn cho họ trở lại ngay lập tức mà không cần trách nhiệm gì, thay vào đó nhất quyết đòi một việc đền tội có cấu trúc, tương xứng với mức độ nghiêm trọng của điều một người thực sự đã làm (những ai chỉ lấy được giấy chứng nhận mà không trực tiếp dâng lễ tế được đối xử khác với những ai đã thực sự dâng lễ). Sự kết hợp này — một quan niệm cao, gần như mang tính kiến trúc về sự hiệp nhất hữu hình, cùng với một sự linh động mục vụ thực sự đối với từng tội nhân cụ thể — là lý do vì sao giáo hội học của ngài đã tỏ ra hữu dụng vượt xa cuộc khủng hoảng cụ thể của thế kỷ III đã sản sinh ra nó.",
+        "en": "On the Unity of the Catholic Church was written for a specific crisis, a rival bishop set up in Carthage by rigorists angry at Cyprian's moderate handling of the lapsed, and its argument is structural rather than abstract: unity isn't a nice feeling among Christians, it's a visible fact grounded in the college of bishops, each individually responsible for his own church but all sharing \"one episcopate,\" so that to break communion with one's lawful bishop is to break communion with the Church itself, not merely to disagree with an individual. His handling of the lapsed applied the same logic pastorally rather than punitively: he steered a real middle path between rigorists who wanted to permanently bar anyone who had sacrificed under persecution, and laxists who wanted to readmit them immediately with no accountability, insisting instead on a structured penance proportional to the seriousness of what someone had actually done (those who had merely obtained a certificate without directly sacrificing were treated differently from those who had). This combination — a high, almost architectural view of visible unity, paired with a genuinely pastoral flexibility about individual sinners — is why his ecclesiology proved usable well beyond the specific 3rd-century crisis that produced it."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Cái chết của Cyprianô dưới cuộc bách hại của Valêrianô năm 258 nằm trong số những cuộc tử đạo được ghi chép đầy đủ nhất của Giáo Hội thời tiền-Constantinô, nhờ tính chất biên bản tòa án của Acta Proconsularia (xem trích dẫn ở trên) — không có sự hoài nghi lịch sử đáng kể nào về ngày tháng, tội danh, hay cách thức ngài qua đời. Điều khiến trường hợp của ngài có ý nghĩa mục vụ vượt ra ngoài biên bản lịch sử là sự tương phản với chính giáo huấn trước đó của ngài: sau nhiều năm tìm cách xác định Giáo Hội nên đối xử thế nào với những Kitô hữu đã thất bại trước lời đe dọa cái chết, chính Cyprianô, khi thời khắc của mình đến, đã không do dự — một giám mục từng xây dựng danh tiếng của mình một phần dựa trên lòng thương xót dành cho những người sợ hãi đã chọn không cần đến lòng thương xót ấy áp dụng cho chính mình.",
+        "en": "Cyprian's death under Valerian's persecution in 258 AD is among the best-documented martyrdoms of the pre-Constantinian Church, thanks to the Acta Proconsularia's court-record character (see the quote above) — there is no meaningful historical doubt about the date, the charge, or the manner of his death. What makes his case pastorally significant beyond the historical record is the contrast with his own earlier teaching: having spent years working out how the Church should treat Christians who had failed under the threat of death, Cyprian himself, when his own moment came, did not equivocate — a bishop who had built his reputation partly on mercy for the fearful chose not to need that mercy applied to himself."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Tranh chấp của Cyprianô với Đức Giáo Hoàng Stêphanô I về việc rửa tội lại cho những người trở lại vốn đã được rửa tội bởi những người lạc giáo hay ly giáo đã không được giải quyết trong chính đời ngài — ngài qua đời khi vẫn giữ lập trường của mình, trong một sự bất đồng thực sự dù đau đớn với Rôma, mà không bao giờ bị chính thức sửa sai hay kỷ luật vì điều đó. Vấn đề thực sự được giải quyết một thế kỷ rưỡi sau đó bởi Thánh Augustinô thành Hippo, khi viết chống lại phái Đônatô, người cần giải thích vì sao thẩm quyền của Cyprianô vẫn còn quan trọng dù Giáo Hội rộng lớn hơn cuối cùng đã theo quan điểm của Rôma (rằng tính thành sự của phép Rửa phụ thuộc vào mô thức và ý hướng đúng đắn, chứ không phải vào sự chính thống của chính thừa tác viên) chứ không phải quan điểm của Cyprianô. Giải pháp của Augustinô trở thành cách thức chuẩn mực của Công giáo để giữ cả hai điều đó cùng nhau: sự tử đạo của Cyprianô, ngài lập luận, tự nó là một sự minh chứng vượt trên sai lầm cụ thể đó, \"ánh nắng rực rỡ của dòng máu vinh quang của ngài\" thiêu đốt đi bất kỳ đám mây nào mà quan điểm sai lầm của ngài đã gieo rắc — sự thánh thiện và một sai lầm giáo lý thực sự, không thể chối cãi cùng tồn tại nơi một nhân vật, mà không điều nào xóa bỏ điều kia.",
+        "en": "Cyprian's dispute with Pope Stephen I over rebaptizing converts who had originally been baptized by heretics or schismatics was not resolved in his own lifetime — he died still holding his position, in real if painful disagreement with Rome, without ever being formally corrected or disciplined for it. The question was effectively settled a century and a half later by Augustine of Hippo, writing against the Donatists, who needed to explain why Cyprian's authority still mattered even though the wider Church had ultimately followed Rome's view (that baptism's validity depends on proper form and intention, not on the minister's own orthodoxy) rather than Cyprian's. Augustine's solution became the standard Catholic way of holding the two things together: Cyprian's martyrdom, he argued, was itself a kind of vindication that outweighed the specific error, \"the brilliant sunshine of his glorious blood\" burning away any cloud his mistaken opinion had cast — sainthood and a real, undisputed doctrinal error coexisting in the same figure, without either one canceling the other out."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "G.W. Clarke (dịch), The Letters of St. Cyprian of Carthage (4 tập, bộ Ancient Christian Writers, Paulist Press, 1984-1989) — bản dịch phê bình hiện đại chuẩn mực kèm chú giải đầy đủ. Allen Brent (dịch), St. Cyprian of Carthage: On the Church — Select Letters (bộ Popular Patristics, St. Vladimir's Seminary Press, 2006). Toàn văn Về Sự Hiệp Nhất Của Giáo Hội Công Giáo và Về Những Người Sa Ngã miễn phí tại newadvent.org.",
+        "en": "G.W. Clarke, trans., The Letters of St. Cyprian of Carthage (4 vols., Ancient Christian Writers series, Paulist Press, 1984–1989) — the standard modern critical translation with extensive notes. Allen Brent, trans., St. Cyprian of Carthage: On the Church — Select Letters (Popular Patristics Series, St. Vladimir's Seminary Press, 2006). Full text of On the Unity of the Catholic Church and On the Lapsed freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Ciprianô dạy gì về Sự cần thiết của hiệp nhất Giáo hội hữu hình?",
+        "en": "What does Cyprian teach about Necessity of visible church unity?"
+      },
+      "a": {
+        "vi": "Giáo huấn của Ciprianô rằng không thể có Thiên Chúa là Cha nếu không có Giáo hội là Mẹ là văn bản nền tảng của các Giáo Phụ cho nguyên tắc \"ngoài Giáo hội không có ơn cứu độ\" (extra Ecclesiam nulla salus).",
+        "en": "Cyprian's teaching that one cannot have God as Father without the Church as Mother is a foundational patristic statement of extra Ecclesiam nulla salus."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Ciprianô dạy gì về Xử lý trung thực bất đồng với một Giáo hoàng?",
+        "en": "What does Cyprian teach about Honest handling of disagreement with a pope?"
+      },
+      "a": {
+        "vi": "Tranh cãi về việc rửa tội lại với Đức Giáo hoàng Stêphanô I cho thấy một vị thánh giám mục có thể bất đồng sâu sắc với Rôma về một vấn đề cụ thể mà không có nghĩa là ly khai hay chối bỏ tính hợp pháp của quyền Giáo hoàng.",
+        "en": "The rebaptism dispute with Pope Stephen I shows a canonized saint could sharply disagree with Rome on a specific question without that amounting to schism or denial of papal legitimacy in principle."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/cyprian-of-carthage.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

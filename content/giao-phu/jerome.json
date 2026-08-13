@@ -1,0 +1,237 @@
+{
+  "no": 21,
+  "slug": "jerome",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Giêrônimô",
+    "en": "Jerome"
+  },
+  "role": {
+    "vi": "Linh mục, đan sĩ và học giả Kinh Thánh; không phải giám mục",
+    "en": "Priest, monk, and biblical scholar; never a bishop"
+  },
+  "dates": {
+    "display": "c. 347 — 420",
+    "born": 347,
+    "died": 420
+  },
+  "quote": {
+    "vi": "Không biết Kinh Thánh là không biết Đức Kitô.",
+    "en": "Ignorance of Scripture is ignorance of Christ.",
+    "source": {
+      "vi": "Chú Giải Sách Isaia, Lời tựa",
+      "en": "Commentary on Isaiah, Prologue"
+    }
+  },
+  "life": [
+    {
+      "vi": "Thư ký của Đức Giáo hoàng Đamasô I tại Rôma, người đã ủy thác cho ngài dịch một bản Kinh Thánh Latinh chuẩn. Từng học chú giải tiếng Hy Lạp với Grêgôriô thành Nazianzô. Cùng thời với Augustinô.",
+      "en": "Secretary to Pope Damasus I in Rome, who commissioned the Vulgate. Studied Greek exegesis under Gregory of Nazianzus. Contemporary of Augustine."
+    },
+    {
+      "vi": "Dịch toàn bộ Kinh Thánh sang tiếng Latinh trực tiếp từ nguyên bản Do Thái và Hy Lạp, tạo nên bản Vulgata — bản Kinh Thánh chuẩn của Giáo hội Tây phương trong hơn một ngàn năm.",
+      "en": "Translated the entire Bible into Latin from original Hebrew and Greek, producing the Vulgate — the standard Bible of the Western Church for over a thousand years."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 347",
+        "en": "c. 347 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "30 tháng 9, năm 420",
+        "en": "September 30, 420 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Sinh tại Stridon (Đalmatia); sống tại Rôma; đan viện tại Bêlem từ khoảng năm 389",
+        "en": "Born Stridon (Dalmatia); lived in Rome; monastery in Bethlehem from c. 389"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "30 tháng 9",
+        "en": "September 30"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Bản Vulgata",
+        "en": "The Vulgate"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Các Nhân Vật Lừng Danh",
+        "en": "Lives of Illustrious Men"
+      },
+      "latin": "De Viris Illustribus",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Bước ngoặt học thuật định hình sự nghiệp Giêrônimô bắt đầu năm 382, khi Đức Giáo Hoàng Đamasô I, cần giúp giải quyết tình trạng hỗn loạn của các bản Latinh Kinh Thánh cùng lưu hành trong Giáo Hội Tây phương, đã giao cho ngài nhiệm vụ thực hiện một bản hiệu đính đáng tin cậy, chuẩn mực cho các sách Tin Mừng bằng tiếng Latinh cổ. Sau này Giêrônimô mô tả tình trạng văn bản mà ngài thừa hưởng bằng những lời thẳng thắn: \"có gần như nhiều dạng văn bản bằng số bản sao\" (tot enim sunt exemplaria paene quot codices) — một cuộc khủng hoảng văn bản thực sự chứ không phải một cách nói phóng đại, bởi việc sao chép qua nhiều thế hệ mà không có chuẩn mực tập trung nào đã khiến những dị bản thực sự, đáng kể, sinh sôi. Điều khởi đầu như một bản hiệu đính các sách Tin Mừng đối chiếu với các bản chép tay Hy Lạp cuối cùng đã phát triển, qua hai thập kỷ sau đó và phần lớn sau khi cái chết của Đamasô khiến Giêrônimô mất sủng ái tại Rôma và đưa ngài đến Bêlem, thành một bản dịch trọn vẹn Cựu Ước trực tiếp từ tiếng Hípri — một lựa chọn gây tranh cãi tự nó, sẽ được bàn đến dưới đây, vì phần lớn Giáo Hội Tây phương trong nhiều thế kỷ đã coi bản Bảy Mươi (Septuaginta) tiếng Hy Lạp, chứ không phải văn bản Hípri, là Cựu Ước có thẩm quyền của mình.",
+        "en": "Jerome's formative scholarly turn began in 382, when Pope Damasus I, needing help sorting out the chaos of coexisting Latin versions of the Bible circulating across the Western Church, commissioned him to produce a reliable, standard revision of the Old Latin Gospels. Jerome later described the state of the text he inherited in blunt terms: \"there are almost as many forms of texts as there are copies\" (tot enim sunt exemplaria paene quot codices) — a genuine textual crisis rather than rhetorical exaggeration, since generations of scribal copying without any centralized standard had allowed real, substantive variants to multiply. What began as a revision of the Gospels against Greek manuscripts eventually grew, over the following two decades and largely after Damasus's death removed Jerome from favor in Rome and sent him to Bethlehem, into a full retranslation of the entire Old Testament directly from Hebrew — a controversial choice in itself, discussed below, since most of the Western Church had for centuries regarded the Greek Septuagint, not the Hebrew text, as its authoritative Old Testament."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Phát biểu rõ ràng nhất của Giêrônimô về triết lý dịch thuật của chính mình đến từ Thư 57 gửi Pammachiô (năm 395), viết để tự biện hộ trước cáo buộc rằng một bản dịch ngài thực hiện là không chính xác: \"Tôi luôn nhắm đến việc chuyển tải ý nghĩa, chứ không phải từng từ\" (non verbum e verbo, sed sensum exprimere de sensu), minh nhiên loại trừ chính Kinh Thánh, nơi ngài nói rằng ngay cả trật tự các từ cũng mang một mầu nhiệm và đòi hỏi một cách tiếp cận sát nghĩa đen hơn. Chính bức thư này cũng cho thấy mặt khác của Giêrônimô, mặt đã tạo cho ngài nhiều kẻ thù chẳng kém gì người ngưỡng mộ: ngòi bút của ngài có thể trở nên tàn nhẫn khi cảm thấy bị khiêu khích. Trong cuộc đoạn giao cay đắng sau này với người bạn cũ Rufinô về tính chính thống trong thần học của Origênê, Giêrônimô gọi ông ta sau khi qua đời đơn giản là \"Con Bọ Cạp,\" và lấp đầy tác phẩm Biện Hộ Chống Rufinô của mình bằng loại ngôn từ công kích cá nhân — chế giễu văn phong, động cơ, thậm chí cả cử chỉ của Rufinô — mà độc giả hiện đại thường thấy giật mình khi đó là lời của một vị Tiến Sĩ Hội Thánh đã được phong thánh, dù điều này hoàn toàn nằm trong chuẩn mực của lối biện luận cổ đại.",
+        "en": "Jerome's clearest statement of his own translation philosophy comes from Letter 57, to Pammachius (395 AD), written to defend himself against the charge that a translation he'd made was inaccurate: \"I have always aimed at rendering sense, not words\" (non verbum e verbo, sed sensum exprimere de sensu), explicitly excepting Scripture itself, where he says even the order of the words carries a mystery and a more literal approach is warranted. The same letter shows the other side of Jerome that made him as many enemies as admirers: his pen could turn savage when he felt provoked. During his later, bitter falling-out with his former friend Rufinus over the orthodoxy of Origen's theology, Jerome referred to him after his death simply as \"the Scorpion,\" and filled his Apology Against Rufinus with the kind of personal invective — mockery of Rufinus's writing style, his motives, even his physical mannerisms — that modern readers often find startling in a canonized Doctor of the Church, though it was well within the norms of ancient polemical rhetoric."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Quyết định của Giêrônimô dịch Cựu Ước trực tiếp từ tiếng Hípri thay vì từ bản Bảy Mươi tiếng Hy Lạp, điều mà ngài gọi là làm việc theo \"Hebraica veritas\" (\"chân lý Hípri\"), đã khiến ngài đối lập với nhiều thế kỷ thực hành Kitô giáo, và đáng chú ý là đối lập với chính Augustinô, người đã viết thư trực tiếp cho ngài để khuyên thận trọng: bản Bảy Mươi đã được chính các Tông Đồ trích dẫn trong Tân Ước và được đọc liên tục trong phụng vụ Kitô giáo, vì vậy Augustinô lo ngại rằng việc từ bỏ nó để theo văn bản Hípri — chính ngôn ngữ và truyền thống văn bản mà Do Thái giáo đương thời sử dụng — có nguy cơ làm lung lay thẩm quyền của Kinh Thánh thay vì củng cố nó, và có thể trông giống như thừa nhận rằng các học giả Do Thái, chứ không phải Giáo Hội, mới nắm giữ bản Kinh Thánh xác thực hơn. Dù vậy Giêrônimô vẫn tiến hành, lập luận rằng một bản dịch đặt nền trên ngôn ngữ gốc sẽ đứng vững hơn theo thời gian so với một bản dịch của một bản dịch, và lịch sử về cơ bản đã minh chứng cho trực giác của ngài: bản Vulgata, chính vì mối liên hệ gần gũi hơn đó với tiếng Hípri, đã trở thành bản Kinh Thánh làm việc bền vững của Tây phương Latinh trong một ngàn năm sau đó. Tuy nhiên, cũng cần thành thật rằng chiến thắng này phải mất nhiều thế kỷ mới thực sự được công nhận đầy đủ — nhiều Kitô hữu Latinh trong nhiều thế hệ vẫn ưa chuộng các bản Latinh cổ quen thuộc hơn dựa trên truyền thống Bảy Mươi, và chính những lựa chọn dịch thuật của Giêrônimô, kể cả việc sách nào thuộc quy điển, vẫn còn là đề tài tranh luận thực sự trong Giáo Hội rất lâu sau khi ngài qua đời.",
+        "en": "Jerome's decision to translate the Old Testament directly from Hebrew rather than from the Greek Septuagint, which he called working from the \"Hebraica veritas\" (\"Hebrew truth\"), put him at odds with centuries of Christian practice and, notably, with Augustine, who wrote to him directly urging caution: the Septuagint had been quoted by the Apostles themselves in the New Testament and read continuously in Christian worship, so Augustine worried that abandoning it for the Hebrew text — the very language and textual tradition contemporary Judaism used — risked destabilizing Scripture's authority rather than strengthening it, and could look like conceding that Jewish scholars, not the Church, held the more authentic Bible. Jerome pressed ahead anyway, arguing that a translation grounded in the original language would be more defensible over time than one grounded in a translation of a translation, and history essentially vindicated his instinct: the Vulgate, precisely because of that closer relationship to the Hebrew, became the durable working Bible of the Latin West for the next thousand years. It's worth being honest, though, that this victory took centuries to fully register — many Latin Christians for generations preferred the more familiar Old Latin translations based on the Septuagint tradition, and Jerome's own translation choices, including which books belonged in the canon at all, remained genuinely debated within the Church well past his death."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Giêrônimô không phải là một vị tử đạo. Ngài qua đời vì nguyên nhân tự nhiên — hầu hết các nguồn mô tả một cơn bệnh kéo dài — tại đan viện của ngài ở Bêlem vào ngày 30 tháng 9 năm 420, khi khoảng bảy mươi ba tuổi, và được an táng gần hang đá được tôn kính là nơi Chúa Kitô giáng sinh, bên cạnh những người bạn và ân nhân tận tụy của ngài là Paula và con gái bà, Eustochium, những người đã theo ngài từ Rôma nhiều thập kỷ trước để giúp thành lập và tài trợ cho cộng đoàn của ngài tại đó. Cuộc đời ngài thay vào đó mang một loại khắc nghiệt khác: nhiều thập kỷ lao động học thuật không ngừng nghỉ, tự thúc đẩy bản thân trong cảnh lưu đày khổ hạnh tự nguyện, và một tính cách hiếu chiến đến mức một số cuộc chiến gay gắt nhất của ngài không phải chống lại người ngoại giáo hay lạc giáo, mà chống lại chính các Kitô hữu chính thống đồng đạo — Rufinô, và đôi khi cả Augustinô — trong những tranh chấp thường mang tính cay đắng cá nhân hơn nhiều so với khoảng cách giáo lý thực sự giữa họ đòi hỏi. Trang web nên thành thật rằng sự thánh thiện của Giêrônimô, theo chính các tiêu chuẩn của Giáo Hội, chưa bao giờ nằm ở một cái chết bi tráng; nó nằm ở chính lao động miệt mài, kiệt sức để có được một bản Kinh Thánh đúng đắn, được duy trì suốt một cuộc đời mà, theo chính lời chứng của ngài và của người khác, không phải lúc nào cũng dễ chịu khi ở gần.",
+        "en": "Jerome was not a martyr. He died of natural causes — most sources describe a lingering illness — in his monastery at Bethlehem on September 30, 420, at roughly seventy-three years old, and was buried near the cave venerated as Christ's birthplace, close to his devoted friends and patrons Paula and her daughter Eustochium, who had followed him from Rome decades earlier to help found and fund his community there. His life instead had a different kind of severity to it: decades of relentless, self-driven scholarly labor in voluntary ascetic exile, and a personality so combative that some of his fiercest battles were fought not against pagans or heretics but against fellow orthodox Christians — Rufinus, and at times even Augustine — in disputes that were often more personally bitter than the actual doctrinal distance between them required. The site should be honest that Jerome's sanctity, on the Church's own terms, was never located in a dramatic death; it was located in the sheer, exhausting labor of getting Scripture right, sustained across a life that was, by his own and others' testimony, not always an easy one to be around."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Bản Vulgata đã tồn tại lâu hơn mọi tranh cãi từng bao vây sự ra đời của nó: nó trở thành bản Kinh Thánh mà Tây phương Latinh thực sự sử dụng cho việc phụng tự, học hỏi và thần học hằng ngày trong khoảng một thiên niên kỷ, và Công Đồng Triđentinô năm 1546 đã chính thức tuyên bố đây là bản văn Latinh có thẩm quyền của Giáo Hội, một địa vị định hình khoa nghiên cứu Kinh Thánh Công giáo cho đến thế kỷ XX (một bản hiệu đính, Nova Vulgata, được ban hành sau Công Đồng Vaticanô II và hiện vẫn là bản văn Latinh chính thức của Giáo Hội ngày nay). Sự kiên trì của Giêrônimô trong việc trở về với nguyên bản Hípri và Hy Lạp thay vì dựa vào các bản dịch Latinh có sẵn cũng thiết lập một tiền lệ phương pháp luận mà khoa nghiên cứu Kinh Thánh Công giáo sau này, kể cả xu hướng hiện đại hướng đến các bản dịch thực hiện trực tiếp từ ngôn ngữ gốc, có thể truy nguyên một dòng dõi trí thức thực sự — dù có lẽ chính Giêrônimô sẽ ngạc nhiên khi thấy nguyên tắc \"trở về nguồn\" cuối cùng đã thay thế hoàn toàn bản dịch Latinh của chính ngài như tiêu chuẩn làm việc của ngành. Trong khi đó, những bức thư đầy tranh luận của ngài đã trở thành một loại di sản riêng: chúng lưu giữ một trong những cửa sổ phong phú nhất còn lại để nhìn vào đời sống trí thức và cá nhân thường nhật của Giáo Hội cuối thế kỷ IV, cả tình bạn lẫn kình địch.",
+        "en": "The Vulgate outlived every controversy that attended its creation: it became the Bible the Latin West actually used for daily worship, study, and theology for roughly a millennium, and the Council of Trent in 1546 formally declared it the Church's authoritative Latin text, a status that shaped Catholic biblical scholarship until the 20th century (a revised edition, the Nova Vulgata, was issued after Vatican II and remains the Church's official Latin text today). Jerome's insistence on returning to the Hebrew and Greek originals rather than resting on inherited Latin translations also set a methodological precedent that later Catholic biblical scholarship, including the modern push toward translations made directly from the original languages, can trace a real intellectual lineage back to — even though Jerome would likely be startled by how thoroughly \"return to the sources\" eventually displaced his own Latin translation as the field's working standard. His combative personal letters, meanwhile, became their own kind of legacy: they preserve one of the richest surviving windows into the day-to-day intellectual and personal life of the late-4th-century Church, friendships, rivalries, and all."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "J.N.D. Kelly, Jerome: His Life, Writings, and Controversies (Duckworth, 1975) — tiểu sử phê bình chuẩn mực. Carolinne White (dịch), The Correspondence (394–419) Between Jerome and Augustine of Hippo (Edwin Mellen Press, 1990). NPNF Series II, tập 6 (Schaff/Wace, dịch bởi W.H. Fremantle) chứa các thư từ và tuyển tập tác phẩm của Giêrônimô, miễn phí tại newadvent.org và ccel.org.",
+        "en": "J.N.D. Kelly, Jerome: His Life, Writings, and Controversies (Duckworth, 1975) — the standard critical biography. Carolinne White, trans., The Correspondence (394–419) Between Jerome and Augustine of Hippo (Edwin Mellen Press, 1990). NPNF Series II, Vol. 6 (Schaff/Wace, translated by W.H. Fremantle) contains Jerome's letters and select works, freely available at newadvent.org and ccel.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Giêrônimô dạy gì về Sự quan tâm của Giáo hội đối với Kinh Thánh?",
+        "en": "What does Jerome teach about The Church's commitment to Scripture?"
+      },
+      "a": {
+        "vi": "Sự tồn tại của bản Vulgata — một dự án kéo dài nhiều thập kỷ do chính một Giáo hoàng ủy thác để trao cho toàn Giáo hội một bản Kinh Thánh chính xác, dễ tiếp cận — là bằng chứng mạnh mẽ chống lại lập luận cho rằng Giáo hội Công giáo trong lịch sử không khuyến khích việc học hỏi Kinh Thánh.",
+        "en": "The Vulgate's existence is strong evidence against the claim that the Catholic Church historically discouraged serious engagement with the Bible."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Giêrônimô dạy gì về Kinh Thánh và Thánh Truyền song hành?",
+        "en": "What does Jerome teach about Scripture and Tradition together?"
+      },
+      "a": {
+        "vi": "Giêrônimô luôn đọc Kinh Thánh qua lăng kính các Giáo Phụ và Thánh Truyền, cho thấy việc học Kinh Thánh nghiêm túc và việc tôn trọng thẩm quyền giải thích của Giáo hội luôn đi đôi với nhau.",
+        "en": "Jerome constantly read Scripture through the lens of the Church Fathers and Tradition, showing biblical study and Church interpretive authority have always gone hand in hand."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/jerome.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

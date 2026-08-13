@@ -1,0 +1,475 @@
+.wrap {
+  padding-left: 212px;
+}
+
+.topRow {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 16px 56px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.column {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ---- Frontispiece ---- */
+.frontispiece {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 40px 0;
+  text-align: center;
+}
+
+.eyebrow {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin: 18px 0 14px;
+}
+
+.name {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.014em;
+  color: var(--text-heading);
+  margin: 0 0 8px;
+}
+.nameEnRecessed {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 21px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.dates {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+  color: var(--gold-deep);
+  margin-bottom: 8px;
+}
+
+.role {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.roleEnRecessed {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--text-en);
+  margin-top: 4px;
+}
+
+/* ---- Pull-quote band (dark-ground usage) ---- */
+.quoteBandOuter {
+  max-width: 1280px;
+  margin: 44px auto 48px;
+  padding: 0 56px;
+}
+.quoteBand {
+  background: var(--dark-ground);
+  border-radius: var(--radius-band);
+  padding: 60px 48px;
+  text-align: center;
+}
+.quoteVi {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.36;
+  letter-spacing: -0.012em;
+  color: #fbf8f3;
+  margin: 0 auto 14px;
+  max-width: 32ch;
+}
+.quoteViOnDark {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: #fbf8f3;
+  margin: 0 auto 14px;
+  max-width: 34ch;
+}
+.quoteEnRecessed {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.46;
+  color: #b2a99d;
+  margin: 0 auto 16px;
+  max-width: 42ch;
+}
+.quoteSource {
+  font-weight: 600;
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #b2a99d;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Life / reading text ---- */
+.bodyVi {
+  margin: 0 0 16px;
+  font-size: 18px;
+  line-height: 1.76;
+  color: var(--text);
+}
+.bodyEnRecessed {
+  margin: 0 0 16px;
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--text-en);
+}
+
+/* ---- CCC cross-reference chips ---- */
+.cccRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 26px 0 0;
+}
+.cccLabelWrap {
+  display: inline-block;
+  margin-right: 4px;
+}
+.cccLabel {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.cccChip {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12.5px;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-variant-numeric: tabular-nums;
+}
+.cccChip:hover {
+  text-decoration: none;
+  background: #f0dac6;
+}
+
+/* ---- Facts card ---- */
+.factsCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 8px 22px;
+  margin-top: 28px;
+}
+.factRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 13px 0;
+  border-bottom: 1px solid #f2eae0;
+  font-size: 14px;
+}
+.factRow:last-child {
+  border-bottom: 0;
+}
+.factLabelCell {
+  flex: none;
+}
+.factValueCell {
+  text-align: right;
+}
+.factLabel {
+  display: block;
+  color: var(--text-quiet);
+}
+.factValue {
+  display: block;
+  text-align: right;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-body);
+}
+.factValueEnRecessed {
+  display: block;
+  text-align: right;
+  font-weight: 400;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-en);
+  margin-top: 2px;
+}
+
+/* ---- Works card ---- */
+.worksCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 8px 22px;
+}
+.workRow {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: baseline;
+  padding: 13px 0;
+  border-bottom: 1px solid #f2eae0;
+}
+.workRow:last-child {
+  border-bottom: 0;
+}
+.workNo {
+  font-weight: 600;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent-number);
+}
+.workTitleWrap {
+  display: block;
+  min-width: 0;
+}
+.workTitle {
+  display: block;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--text-heading);
+}
+.workTitleEnRecessed {
+  display: block;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 13.5px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.workLatin {
+  display: block;
+  font-style: italic;
+  font-size: 12.5px;
+  color: var(--text-quiet);
+  margin-top: 2px;
+}
+.workDate {
+  font-size: 12.5px;
+  color: var(--text-quiet);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.worksNote {
+  margin: 14px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-quiet);
+}
+.worksNoteEnRecessed {
+  margin: 6px 0 0;
+  font-weight: 300;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-en);
+}
+
+/* ---- Collapsible sections ---- */
+.collapsibles {
+  margin-top: 40px;
+  border-top: 1px solid var(--border-strong);
+}
+
+/* ---- Apologetics band (dark-ground usage) ---- */
+.apologeticsOuter {
+  max-width: 1280px;
+  margin: 52px auto 0;
+  padding: 0 56px;
+}
+.apologeticsBand {
+  background: var(--dark-ground);
+  border-radius: var(--radius-band);
+  padding: 56px 48px;
+}
+.apologeticsKicker {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #c9a65c;
+  margin-bottom: 10px;
+}
+.apologeticsTitle {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.22;
+  color: #fbf8f3;
+  margin: 0 0 28px;
+}
+.apologeticsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px 44px;
+}
+.apologeticsItem {
+  border-top: 1px solid rgba(201, 166, 92, 0.4);
+  padding-top: 16px;
+}
+.apologeticsQ {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.34;
+  color: #fbf8f3;
+  margin-bottom: 8px;
+}
+.apologeticsA {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.74;
+  color: #cfc6b6;
+}
+.apologeticsAEnRecessed {
+  margin: 8px 0 0;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #b2a99d;
+}
+
+/* ---- Credit ---- */
+.creditBlock {
+  padding: 48px 0 0;
+}
+.creditHeading {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.creditBody {
+  margin: 14px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+.creditBodyEnRecessed {
+  margin: 6px 0 0;
+  font-weight: 300;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-en);
+}
+
+/* ---- Prev / next ---- */
+.navRow {
+  margin: 40px 0 0;
+  padding: 40px 0 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  border-top: 1px solid var(--border-strong);
+}
+.navPrev,
+.navNext {
+  color: inherit;
+  min-height: 44px;
+}
+.navNext {
+  text-align: right;
+}
+.navPrev:hover,
+.navNext:hover {
+  text-decoration: none;
+  color: var(--gold-deep);
+}
+.navLabel {
+  display: block;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 6px;
+}
+.navName {
+  display: block;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.3;
+  color: var(--text-heading);
+}
+.navNameEnRecessed {
+  display: block;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+@media (max-width: 899px) {
+  .wrap {
+    padding-left: 0;
+  }
+  .frontispiece {
+    padding: 24px var(--mobile-gutter) 0;
+  }
+  .name {
+    font-size: 27px;
+    line-height: 1.24;
+    letter-spacing: -0.01em;
+  }
+  .column {
+    padding: 0 var(--mobile-gutter);
+  }
+  .topRow {
+    padding: 12px var(--mobile-gutter) 0;
+  }
+  .quoteBandOuter,
+  .apologeticsOuter {
+    padding: 0 var(--mobile-gutter);
+  }
+  .quoteBand {
+    padding: 36px 24px;
+  }
+  .quoteVi,
+  .quoteViOnDark {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+  .apologeticsBand {
+    padding: 36px 24px;
+  }
+  .apologeticsGrid {
+    grid-template-columns: 1fr;
+  }
+  .navRow {
+    grid-template-columns: 1fr;
+  }
+  .navNext {
+    text-align: left;
+  }
+}

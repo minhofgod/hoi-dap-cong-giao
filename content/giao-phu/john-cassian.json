@@ -1,0 +1,227 @@
+{
+  "no": 24,
+  "slug": "john-cassian",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Gioan Cassianô",
+    "en": "John Cassian"
+  },
+  "role": {
+    "vi": "Linh mục; viện phụ sáng lập Đan viện Thánh Victor gần Marseille",
+    "en": "Priest; founding abbot of the Abbey of Saint-Victor near Marseille"
+  },
+  "dates": {
+    "display": "c. 360 — 435",
+    "born": 360,
+    "died": 435
+  },
+  "quote": {
+    "vi": "Cùng đích của đời sống chúng ta... là Nước Thiên Chúa... nhưng mục tiêu trước mắt là sự thanh khiết của tâm hồn, mà nếu không có nó thì không ai đạt được cùng đích ấy.",
+    "en": "The end of our profession... is the kingdom of God... but the immediate aim, or goal, is purity of heart, without which no one can attain to that end.",
+    "source": {
+      "vi": "Các Đàm Luận, I.4",
+      "en": "Conferences, I.4"
+    }
+  },
+  "life": [
+    {
+      "vi": "Từng sống nhiều năm cùng các Giáo Phụ Sa Mạc tại Ai Cập. Được chính Thánh Gioan Kim Khẩu truyền chức phó tế tại Constantinôpôli.",
+      "en": "Lived among the Egyptian Desert Fathers. Ordained deacon by John Chrysostom in Constantinople."
+    },
+    {
+      "vi": "Mối liên kết thiết yếu truyền tải sự khôn ngoan đan tu Ai Cập sang Tây phương, ảnh hưởng trực tiếp đến Tu Luật của Thánh Bênêđictô một thế kỷ sau.",
+      "en": "The crucial link who transmitted Egyptian desert monastic wisdom to the Latin West, directly shaping St. Benedict's Rule."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 360",
+        "en": "c. 360 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "năm 435",
+        "en": "435 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Sinh tại Scythia Nhỏ (nay là Dobruja, Rumani); lập đan viện tại Marseille, xứ Gaul",
+        "en": "Born Scythia Minor (modern Dobruja, Romania); founded monasteries in Marseille, Gaul"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "23 tháng 7 (chỉ mừng ở một số nơi, không phải lịch chung)",
+        "en": "July 23 (regional only)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "2 tác phẩm",
+        "en": "2 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Các Chế Định",
+        "en": "The Institutes"
+      },
+      "latin": "De Institutis Coenobiorum",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Các Đàm Luận",
+        "en": "The Conferences"
+      },
+      "latin": "Collationes",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Hành trình của Cassianô đến xứ Gaule không phải là một bước đi sự nghiệp trực tiếp hay có kế hoạch, mà là hệ quả của một cuộc tranh cãi mà chính ngài không có phần liên can thực sự: ngài đã sống khoảng mười lăm năm giữa các đan sĩ ở Nitria và Scetis tại Ai Cập, thấm nhuần một truyền thống đan tu đã được định hình bởi nhà thần học-đan sĩ Evagriô Ponticô, khi cuộc tranh cãi Origenist lần thứ nhất bùng nổ khoảng năm 399 và Thượng phụ Alexandria, Thêôphilô, trục xuất cả một nhóm đan sĩ gắn liền với thần học suy đoán hơn của Evagriô ra khỏi sa mạc. Cassianô, cùng với người bạn thân Germanô, rời Ai Cập trong cơn biến động đó, cuối cùng đi qua Constantinốp — nơi Gioan Kim Khẩu phong chức phó tế cho ngài và đưa ngài vào chính gia đình giáo sĩ của mình — rồi đến Rôma, trước khi cuối cùng định cư tại Marseille khoảng năm 415 để thành lập các đan viện của riêng mình. Nói cách khác, ngài đến Gaule như một người tị nạn từ một cuộc khủng hoảng thần học, mang theo sự khôn ngoan thực tiễn của đời đan tu sa mạc về phương Tây, đúng vào lúc Giáo Hội Tây phương cần một người có khả năng chuyển dịch sự khôn ngoan đó cho các cộng đoàn hoàn toàn không có ký ức sống động nào về sa mạc Ai Cập.",
+        "en": "Cassian's journey to Gaul was not a direct or planned career move but the byproduct of a controversy he had no real stake in: he had spent roughly fifteen years living among the monks of Nitria and Scetis in Egypt, absorbing a monastic tradition already shaped by the theologian-monk Evagrius Ponticus, when the first Origenist controversy erupted around 399 and the Patriarch of Alexandria, Theophilus, expelled a whole faction of monks associated with Evagrius's more speculative theology from the desert. Cassian, along with his close companion Germanus, left Egypt in the resulting upheaval, eventually making his way through Constantinople — where John Chrysostom ordained him a deacon and drew him into his own household — and then to Rome, before finally settling in Marseille around 415 to found his own monasteries. He arrived in Gaul, in other words, as a refugee from one theological crisis carrying the practical wisdom of desert monasticism west with him, at just the moment the Western Church needed someone able to translate that wisdom for communities that had no living memory of the Egyptian desert at all."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Các Đàm Luận tự trình bày mình như những ghi chép về các cuộc trò chuyện thực sự mà Cassianô và Germanô đã có với những vị abba Ai Cập cụ thể, và đàm luận thứ hai, được gán cho Abba Môsê, chứa một trong những giáo huấn được trích dẫn nhiều nhất của bộ sưu tập: sự phân định, Môsê nói với họ, là \"người sinh thành, người canh giữ và người điều tiết của mọi nhân đức\" (omnium namque virtutum generatrix, custos moderatrixque discretio est), phẩm chất giữ cho mọi thực hành thiêng liêng khác — ăn chay, thức đêm, sống ẩn dật — không rơi vào loại thái quá phá hủy thay vì xây dựng nhân đức. Môsê minh họa luận điểm này bằng những ví dụ cảnh báo về các đan sĩ mà việc ăn chay hay lòng nhiệt thành của họ, theo đuổi mà không có sự phân định, đã dẫn không phải đến sự thánh thiện mà đến sự suy sụp thể lý hoặc kiêu ngạo thiêng liêng, cho thấy rằng sự khôn ngoan khó khăn nhất mà sa mạc đạt được cuối cùng là về sự cân bằng và tự hiểu biết chứ không phải về sự khắc khổ cực đoan thuần túy — một sự điều chỉnh, vẫn còn được trích dẫn ngày nay, chống lại hình ảnh biếm họa phổ biến về đời đan tu sa mạc như một cuộc thi đua tự trừng phạt vì chính nó.",
+        "en": "The Conferences present themselves as records of real conversations Cassian and Germanus had with specific Egyptian abbas, and the second conference, attributed to Abba Moses, contains one of the collection's most quoted teachings: discretion, Moses tells them, is \"the parent, guardian, and moderator of all the virtues\" (omnium namque virtutum generatrix, custos moderatrixque discretio est), the quality that keeps every other spiritual practice — fasting, vigils, solitude — from tipping into the kind of excess that destroys rather than builds virtue. Moses illustrates the point with cautionary examples of monks whose fasting or zeal, pursued without discretion, led not to holiness but to physical collapse or spiritual pride, making the case that the desert's hardest-won wisdom was ultimately about balance and self-knowledge rather than raw ascetic extremity — a corrective, still cited today, against the popular caricature of desert monasticism as competitive self-punishment for its own sake."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Cassianô tổ chức công trình cả đời mình quanh một sự phân chia thực tiễn rõ ràng: Các Định Chế đề cập đến khía cạnh bên ngoài, mang tính cấu trúc của đời sống đan tu — các quy tắc cầu nguyện hằng ngày, kỷ luật cộng đoàn, và một phân tích có hệ thống về tám nết xấu cố hữu (một sơ đồ sau này sẽ được cô đọng thành bảy mối tội đầu truyền thống) — trong khi Các Đàm Luận hướng đến khía cạnh nội tâm, chiêm niệm, truyền tải giáo huấn của các abba Ai Cập về cầu nguyện, phân định và cùng đích mà Cassianô lặp lại xuyên suốt: không phải khổ chế vì chính nó, mà là \"sự thanh khiết của tâm hồn,\" sự tĩnh lặng nội tâm làm cho sự hiệp thông liên lỉ với Thiên Chúa trở nên khả thi, với chính Nước Thiên Chúa được nêu tên như cùng đích tối hậu mà sự thanh khiết tâm hồn chỉ phục vụ. Nơi Cassianô gặp khó khăn thực sự là trong việc giải thích chính xác mối liên hệ giữa ân sủng và ý chí con người ngay từ khởi điểm của đức tin: trong Đàm Luận 13, khi đối diện với sự khẳng định mạnh mẽ của Augustinô rằng ân sủng luôn phải khởi xướng tiến trình, Cassianô mô tả những trường hợp mà khát khao tự nhiên của con người đối với Thiên Chúa dường như đi trước bất kỳ ân sủng đặc biệt nào, một sự nhấn mạnh mà các nhà thần học sau này đánh giá là chưa chính xác và cuối cùng được gọi là \"Bán-Pêlagiô\" — không phải một sự bác bỏ tính tất yếu của ân sủng, điều Cassianô chưa bao giờ phủ nhận, mà là một trình bày chưa đủ cẩn trọng về tính ưu tiên của ân sủng, được điều chỉnh mà không có sự lên án cá nhân đối với chính Cassianô tại Công Đồng Orange II năm 529, gần một thế kỷ sau khi ngài qua đời.",
+        "en": "Cassian organized his life's work around a clear practical division: the Institutes address the external, structural side of monastic life — rules for daily prayer, communal discipline, and a systematic analysis of eight besetting vices (a scheme that would later be condensed into the traditional seven deadly sins) — while the Conferences turn to the interior, contemplative side, transmitting the Egyptian abbas' teaching on prayer, discernment, and the goal Cassian repeats throughout: not asceticism for its own sake, but \"purity of heart,\" the inner stillness that makes uninterrupted communion with God possible, with the kingdom of God itself named as the final end that purity of heart merely serves. Where Cassian ran into real difficulty was in explaining exactly how grace and human will relate at the very beginning of faith: in Conference 13, engaging Augustine's strong insistence that grace must always initiate the process, Cassian described cases where ordinary human desire for God seemed to precede any special grace, an emphasis subsequent theologians judged imprecise and eventually labeled \"Semipelagianism\" — not a rejection of grace's necessity, which Cassian never denied, but an insufficiently careful account of grace's priority, corrected without personal condemnation of Cassian himself at the Second Council of Orange in 529, nearly a century after his death."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Cassianô không phải là một vị tử đạo; ngài qua đời thanh thản tại Marseille khoảng năm 435, sau hai thập kỷ lãnh đạo đan viện Thánh Victor mà chính ngài đã thành lập tại đó, và được an táng trong hầm mộ của đan viện, nơi một đền thờ kính ngài vẫn còn tồn tại. Tuy nhiên, trường hợp của ngài xứng đáng có một ghi chú cụ thể, trung thực vượt ra ngoài sự vắng mặt đơn giản của việc tử đạo: khác với hầu hết các nhân vật trong bộ sưu tập này, Cassianô chưa bao giờ được Rôma chính thức phong thánh qua bất kỳ quy trình được công nhận nào — sự tôn kính dành cho ngài ở Marseille phát triển như một sự sùng kính địa phương lâu đời, tự nhiên hơn là qua việc phong thánh của giáo hoàng, đây là một phần lý do vì sao địa vị phụng vụ của ngài trong Giáo Hội Công giáo luôn mang tính khu vực (được cử hành quanh Marseille và trong một số lịch dòng tu) chứ không phổ quát, ngay cả khi Giáo Hội Chính Thống Đông phương, nơi tôn kính ngài qua chính truyền thống riêng biệt của mình, vẫn giữ lễ kính ngài trong lịch phổ quát của họ. Không điều gì trong số này phản ánh bất kỳ vấn đề giáo lý nào với cuộc đời hay sự thánh thiện của ngài như vậy — đây đơn giản chỉ là một sự tình cờ của quy trình giáo luật và địa lý, và trang web nên trình bày đúng như vậy thay vì phóng đại địa vị chính thức của ngài hoặc bỏ qua nó.",
+        "en": "Cassian was not a martyr; he died peacefully in Marseille around 435, after two decades leading the monastery of Saint-Victor he had founded there, and was buried in its crypt, where a shrine to him still stands. His case deserves a specific, honest note beyond the simple absence of martyrdom, though: unlike most figures in this set, Cassian was never formally canonized by Rome through any recognized process — his veneration in Marseille grew as a long-standing, organic local cult rather than through papal canonization, which is part of why his liturgical status in the Catholic Church has always been regional (observed around Marseille and in some monastic calendars) rather than universal, even as the Eastern Orthodox Church, which venerates him through its own separate tradition, keeps his feast on its universal calendar. None of this reflects any doctrinal problem with his life or sanctity as such — it's simply an accident of ecclesiastical process and geography, and the site should present it as exactly that rather than either overstating his canonical status or omitting it."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Thước đo rõ ràng nhất cho ảnh hưởng của Cassianô là việc Bênêđictô thành Nursia, khi viết Tu Luật của mình khoảng một thế kỷ sau đó, đã nói với chính các đan sĩ của mình gần cuối tu luật (chương 73) hãy tìm đến Các Định Chế và Các Đàm Luận của Cassianô, cùng với Kinh Thánh và Tu Luật của Basiliô, dành cho bất kỳ ai muốn tiến xa hơn \"tu luật nhỏ dành cho người mới bắt đầu\" mà Bênêđictô vừa trao cho họ — một sự tán thành trực tiếp, nêu đích danh, từ chính văn kiện sáng lập của truyền thống đan tu sẽ thống trị Tây phương thời Trung Cổ. Vì Tu Luật của Bênêđictô trở thành khuôn mẫu cho đại đa số các đan viện Tây phương suốt một ngàn năm sau đó, và chính Bênêđictô đã chỉ các đan sĩ của mình quay về với Cassianô, hầu như toàn bộ lịch sử sau này của đời sống tu trì Công giáo Tây phương đều mang dấu ấn của Cassianô ở đâu đó trong dòng dõi của mình, ngay cả nơi các dòng tu được thành lập nhiều thế kỷ sau đó mà không có liên hệ định chế trực tiếp nào với Marseille. Tôma Aquinô trích dẫn trực tiếp giáo huấn của Cassianô về sự phân định và các nết xấu trong bộ Summa Theologiae, và cách tiếp cận có hệ thống sau này của Inhaxiô Loyola về việc phân định thần khí trong Linh Thao hoạt động trong một truyền thống tư duy về discretio có thể truy nguyên qua cùng một chuỗi này trở về sa mạc Ai Cập mà Cassianô là người đầu tiên mang về phương Tây.",
+        "en": "The single clearest measure of Cassian's influence is that Benedict of Nursia, writing his Rule roughly a century later, tells his own monks near its very end (chapter 73) to turn to Cassian's Institutes and Conferences, alongside Scripture and Basil's Rule, for anyone seeking to go further than the \"little rule for beginners\" Benedict had just given them — a direct, named endorsement from the founding document of the monastic tradition that would come to dominate the medieval West. Because Benedict's Rule became the template for the overwhelming majority of Western monasteries for the next thousand years, and Benedict himself pointed his monks back to Cassian, virtually the entire subsequent history of Western Catholic religious life carries Cassian's fingerprints somewhere in its lineage, even in orders founded many centuries later with no direct institutional link to Marseille. Thomas Aquinas cites Cassian's teaching on discretion and the vices directly in the Summa Theologiae, and Ignatius of Loyola's later systematic approach to discernment of spirits in the Spiritual Exercises works within a tradition of thought about discretio that traces back through this same chain to the Egyptian desert Cassian first brought west."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Boniface Ramsey (dịch), John Cassian: The Conferences (bộ Ancient Christian Writers, số 57, Paulist Press, 1997) và John Cassian: The Institutes (bộ Ancient Christian Writers, số 58, Paulist Press, 2000) — các bản dịch học thuật hiện đại chuẩn mực kèm dẫn nhập và chú giải. Columba Stewart, Cassian the Monk (Oxford University Press, 1998) — một công trình nghiên cứu phê bình hiện đại được trích dẫn rộng rãi. NPNF Series II, tập 11 (Schaff/Wace) chứa một bản dịch trọn vẹn cũ hơn, miễn phí tại newadvent.org.",
+        "en": "Boniface Ramsey, trans., John Cassian: The Conferences (Ancient Christian Writers series, no. 57, Paulist Press, 1997) and John Cassian: The Institutes (Ancient Christian Writers series, no. 58, Paulist Press, 2000) — the standard modern scholarly translations with introduction and notes. Columba Stewart, Cassian the Monk (Oxford University Press, 1998) — a widely cited modern critical study. NPNF Series II, Vol. 11 (Schaff/Wace) contains an older complete translation, freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Gioan dạy gì về Cội nguồn cổ xưa của đời đan tu Tây phương?",
+        "en": "What does John teach about Ancient roots of Western monasticism?"
+      },
+      "a": {
+        "vi": "Hầu như mọi dòng tu Tây phương đều có gốc rễ, theo một nghĩa nào đó, từ công việc của Cassianô truyền tải sự khôn ngoan của các Giáo Phụ Sa Mạc cho Thánh Bênêđictô sử dụng.",
+        "en": "Virtually every Western Catholic religious order descends, in some real sense, from Cassian's work transmitting Desert Father wisdom to St. Benedict."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Gioan dạy gì về Sự phát triển của giáo lý về ân sủng?",
+        "en": "What does John teach about Development of doctrine on grace?"
+      },
+      "a": {
+        "vi": "Giáo huấn chưa chính xác của chính Cassianô, về sau được điều chỉnh tại Orange, là ví dụ hữu ích cho thấy giáo lý Công giáo về ân sủng đã được làm rõ hơn qua thời gian như thế nào.",
+        "en": "Cassian's own imprecise teaching, later corrected at Orange, is a useful example for explaining how Catholic doctrine develops greater precision over time."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "",
+    "medium": {
+      "vi": "",
+      "en": ""
+    },
+    "source": "",
+    "license": "",
+    "available": false
+  }
+}

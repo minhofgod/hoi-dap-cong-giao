@@ -1,0 +1,225 @@
+{
+  "no": 6,
+  "slug": "clement-of-alexandria",
+  "era": "ante-nicene",
+  "name": {
+    "vi": "Clêmentê thành Alexandria",
+    "en": "Clement of Alexandria"
+  },
+  "role": {
+    "vi": "Linh mục và trưởng Trường Giáo lý Alexandria",
+    "en": "Priest and head of the Catechetical School of Alexandria"
+  },
+  "dates": {
+    "display": "c. 150 — c. 215",
+    "born": 150,
+    "died": 215
+  },
+  "quote": {
+    "vi": "Triết học... là người thầy dẫn dắt tâm trí người Hy Lạp, cũng như Lề Luật dẫn dắt người Do Thái, đến với Đức Kitô.",
+    "en": "Philosophy... was a schoolmaster to bring the Hellenic mind, as the Law brought the Hebrews, to Christ.",
+    "source": {
+      "vi": "Stromata, I.5",
+      "en": "Stromata, I.5"
+    }
+  },
+  "life": [
+    {
+      "vi": "Học trò của Pantênô, người sáng lập Trường Giáo lý Alexandria, mà ngài đã kế vị làm trưởng trường khoảng năm 180. Học trò nổi tiếng nhất của ngài là Ôrigênê.",
+      "en": "Studied under Pantaenus, founder of the Alexandrian catechetical school, whom he succeeded c. 180 AD. His most famous student was Origen."
+    },
+    {
+      "vi": "Nhà tư tưởng Kitô giáo đầu tiên nỗ lực tổng hợp triết học Hy Lạp với đức tin Kitô giáo cách có hệ thống. Giành lại từ \"gnosis\" (tri thức) cho sự khôn ngoan Kitô giáo chính thống. Chạy trốn khỏi Alexandria trong cuộc bách hại của hoàng đế Septimiô Sêvêrô năm 202.",
+      "en": "The first Christian thinker to attempt a full, systematic synthesis of Greek philosophy and Christian faith. Reclaimed the term 'gnosis' for orthodox Christian wisdom. Fled Alexandria during the persecution of Septimius Severus in 202 AD."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 150",
+        "en": "c. 150 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "khoảng năm 215",
+        "en": "c. 215 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Alexandria, Ai Cập (có thể sinh tại Athens)",
+        "en": "Alexandria, Egypt (possibly born in Athens)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "Trước đây là 23 tháng 11 (Tây phương, không còn trong lịch Rôma hiện hành); 24 tháng 11 (Đông phương)",
+        "en": "Historically November 23 (West, no longer on the current Roman calendar); November 24 (Eastern)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Không",
+        "en": "No"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "3 tác phẩm",
+        "en": "3 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Protrepticus (Lời Khuyên Gửi Người Hy Lạp)",
+        "en": "Protrepticus (Exhortation to the Greeks)"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Paedagogus (Người Thầy)",
+        "en": "Paedagogus (The Tutor)"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Stromata (Tạp Lục)",
+        "en": "Stromata"
+      },
+      "latin": "Miscellanies",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Alexandria vào thời Clêmentê là thủ đô trí thức của thế giới Địa Trung Hải cổ đại — nơi có Thư viện vĩ đại, và một tầng lớp tinh hoa ngoại giáo được đào tạo bài bản, thấm nhuần triết học Hy Lạp, đối với họ việc trở lại Kitô giáo có thể cảm giác như từ bỏ cả một đời được đào tạo trí thức nghiêm túc để đổi lấy một điều gì đó, nhìn từ bên ngoài, có vẻ thiếu tinh tế. Trường Giáo Lý mà Clêmentê thừa hưởng từ thầy mình là Pantênô khoảng năm 180 tồn tại chính để giải quyết vấn đề đó: một định chế đào tạo các tân tòng (và cả những người đang tìm hiểu nhưng chưa trở lại) bằng cách coi trọng nền giáo dục triết học của họ thay vì yêu cầu họ vứt bỏ nó. Clêmentê lãnh đạo trường trong khoảng hai thập kỷ trước khi cuộc bách hại dưới thời Sêptimiô Sêvêrô lan đến Alexandria năm 202, giết hại một số học trò của chính ngài và buộc Clêmentê phải chạy trốn sang Cappadocia, nơi ngài qua đời — sự nghiệp của ngài kết thúc, như bao người khác trong thời kỳ này, bằng cuộc chạy trốn chứ không phải một sự nghỉ hưu yên bình.",
+        "en": "Alexandria in Clement's day was the intellectual capital of the ancient Mediterranean world — home to the great Library, and to a highly educated pagan elite steeped in Greek philosophy, for whom conversion to Christianity could feel like abandoning a lifetime of serious intellectual formation for something that looked, from the outside, unsophisticated. The Catechetical School Clement inherited from his teacher Pantaenus around 180 AD existed to answer exactly that problem: an institution training converts (and inquirers who were not yet converts) by taking their philosophical education seriously rather than asking them to discard it. Clement led the school for roughly two decades before the persecution under Septimius Severus reached Alexandria in 202 AD, killing several of his own students and driving Clement himself into exile in Cappadocia, where he died — his career ending, like so many others in this era, with flight rather than a quiet retirement."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Bài giảng Ai Là Người Giàu Có Được Cứu Độ? của Clêmentê kết thúc bằng câu chuyện nổi tiếng về Tông Đồ Gioan: sau khi trở về từ nơi lưu đày ở đảo Patmô, Gioan đã giao một tân tòng trẻ đầy triển vọng cho một giám mục địa phương để đào tạo, nhưng người thanh niên sau đó sa vào bạn xấu và trở thành thủ lĩnh một băng cướp. Khi biết chuyện trong một chuyến thăm sau đó, Gioan một mình cưỡi ngựa đến sào huyệt bọn cướp và đối diện với người môn đệ cũ của mình, kẻ đã bỏ chạy vì hổ thẹn — cho đến khi Gioan gọi với theo: \"Con ơi, sao con lại chạy trốn khỏi ta, người cha của con, một ông già không vũ khí? Con ơi, hãy thương xót ta... ta sẽ trả lẽ cho Đức Kitô về con. Nếu cần, ta sẵn lòng chịu cái chết thay cho con, như Chúa đã chết vì chúng ta.\" Clêmentê kể câu chuyện này, theo lời ngài, \"không phải như một truyện kể, mà như một tường thuật\" về một sự kiện có thật, đưa ra như bằng chứng rằng sự ăn năn vẫn còn khả thi ngay cả sau một tội trọng phạm phải sau khi chịu phép Rửa.",
+        "en": "Clement's homily Who Is the Rich Man That Shall Be Saved? closes with a famous story about the Apostle John: after returning from exile on Patmos, John entrusted a promising young convert to a local bishop for formation, but the youth later fell in with bad company and became the leader of a band of robbers. Learning of this on a later visit, John rode out alone to the robbers' hideout and confronted his former disciple, who ran in shame — until John called after him: \"Why, my son, dost thou flee from me, thy father, unarmed, old? Son, pity me... I will give account to Christ for thee. If need be, I will willingly endure thy death, as the Lord did death for us.\" Clement tells the story, he says, \"not as a story, but as an account\" of a real event, offering it as proof that repentance remains possible even after grave sin committed after baptism."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Clêmentê thiết kế ba tác phẩm lớn còn lại của mình như những giai đoạn của một chương trình đào tạo có chủ đích: Protrepticus thuyết phục độc giả ngoại giáo từ bỏ việc thờ ngẫu tượng để đến với Đức Kitô, rồi Paedagogus (\"Người Thầy\") trình bày chính Đức Kitô như vị Giáo Dục thần linh định hình đời sống luân lý hằng ngày của tân tòng, và cuối cùng Stromata (\"Tạp Lục\") mở ra những suy tư thần học và triết học sâu xa hơn dành cho những người đã trưởng thành về mặt tâm linh — một lộ trình có cấu trúc từ hoán cải đến chiêm niệm, chứ không phải ba cuốn sách rời rạc không liên quan. Nền tảng của cả ba là khẳng định trung tâm của ngài rằng gnosis đích thực, tri thức tâm linh chân chính, không đối lập với đức tin mà là sự viên mãn của đức tin, về nguyên tắc mở ra cho bất kỳ Kitô hữu nào và đạt được qua cả đời sống ngay chính lẫn việc nắm bắt chân lý mặc khải — một tuyên bố đối lập minh nhiên với thứ \"tri thức\" ưu tú, bí mật của các giáo phái Ngộ Đạo vốn dùng chung từ Hy Lạp đó. Cần có một lời cảnh báo đi kèm: một tác phẩm muộn nay đã thất truyền của ngài, Hypotyposes, được đọc nhiều thế kỷ sau bởi thượng phụ Byzantine Photios, người đã cáo buộc tác phẩm này chứa một số quan điểm thực sự lệch lạc (bao gồm về tính vĩnh cửu của vật chất và bản tính của Chúa Con); vì tác phẩm chỉ còn lại qua bản tóm lược đầy ác cảm của Photios, các học giả vẫn còn tranh luận về việc bản tóm lược đó phản ánh trung thực đến đâu những gì Clêmentê thực sự chủ trương, nhưng đây là một phần lý do vì sao tính chính thống của ngài sau này được coi là kém vững chắc hơn so với các Giáo Phụ đã được phong thánh đầy đủ.",
+        "en": "Clement designed his three surviving major works as stages of one deliberate curriculum: the Protrepticus persuades a pagan reader to abandon idolatry for Christ, the Paedagogus (\"The Tutor\") then presents Christ himself as the divine Educator shaping the new convert's daily moral life, and the Stromata (\"Miscellanies\") finally opens into deeper theological and philosophical reflection for the spiritually mature — a structured path from conversion to contemplation, not just three unrelated books. Underlying all three is his central claim that authentic gnosis, true spiritual knowledge, is not opposed to faith but its fulfillment, open in principle to any Christian and reached through both right living and grasping revealed truth — an explicit rival claim to the elitist, secret \"knowledge\" of the Gnostic sects that used the same Greek word. A caution belongs alongside this: a now-lost late work of his, the Hypotyposes, was read centuries later by the Byzantine patriarch Photius, who accused it of containing several genuinely heterodox opinions (including on the eternity of matter and the nature of the Son); since the work survives only in Photius's hostile summary, scholars still debate how fairly it represents what Clement actually held, but it is part of why his orthodoxy was later treated as less secure than that of fully canonized Fathers."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Clêmentê không phải là một vị tử đạo — ngài đã chạy trốn cuộc bách hại năm 202 thay vì đối diện với nó, và qua đời vì nguyên nhân tự nhiên trong cảnh lưu đày tại Cappadocia khoảng năm 215. Điều này đáng được nói rõ ràng thay vì lướt qua, bởi vì đây thực sự là một phần lý do vì sao danh tiếng lịch sử của ngài phức tạp hơn hầu hết các nhân vật khác trong bộ sưu tập này: không có một sự tôn kính tử đạo để bảo đảm ký ức về ngài, và sau này còn bị phủ bóng bởi tranh cãi về Hypotyposes, lễ kính của ngài cuối cùng đã bị loại khỏi Sổ Tử Đạo Rôma dưới thời Đức Giáo Hoàng Clêmentê VIII theo lời khuyên của Hồng y Baroniô, và ngài không có trong lịch các thánh Công giáo phổ quát hiện hành — trong khi Chính Thống giáo Đông phương vẫn tiếp tục tôn kính ngài. Không điều gì trong số này xóa bỏ tầm quan trọng lịch sử to lớn của ngài như một nhà tư tưởng; nó chỉ có nghĩa là trường hợp của ngài là vấn đề về danh tiếng thần học và sự thận trọng của định chế về sau, chứ không phải về một cái chết anh hùng, và trang web nên trình bày về ngài một cách tương xứng, thay vì ngụ ý một sự tử đạo hay việc phong thánh mà ngài hiện không có.",
+        "en": "Clement was not a martyr — he fled the 202 AD persecution rather than face it, and died of natural causes in Cappadocian exile around 215 AD. This is worth stating plainly rather than glossing over, because it is genuinely part of why his historical reputation is more complicated than most figures in this set: without a martyr's cult to secure his memory, and later shadowed by the Hypotyposes controversy, his feast was eventually removed from the Roman Martyrology under Pope Clement VIII on Cardinal Baronius's advice, and he is not on the current universal Catholic calendar of saints — while Eastern Orthodoxy has continued to honor him. None of this erases his enormous historical importance as a thinker; it simply means his case is one of theological reputation and later institutional caution, not of heroic death, and the site should present him accordingly rather than implying a martyrdom or canonized sainthood he does not currently have."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Di sản có hệ quả lớn nhất của Clêmentê có lẽ đơn giản chính là học trò của ngài: Ôrigênê, người kế thừa vai trò lãnh đạo truyền thống trường giáo lý Alexandria và trở thành học giả Kinh Thánh sung mãn và có ảnh hưởng nhất của Giáo Hội thời tiền-Nicêa, đưa dự án của Clêmentê về sự gặp gỡ nghiêm túc giữa học thuật Hy Lạp và đức tin Kitô giáo lên một quy mô lớn hơn nhiều. Rộng hơn, Clêmentê nói chung được coi là nhân vật sáng lập của toàn bộ truyền thống thần học Alexandria — một nền văn hóa trí thức đặc trưng, được Ôrigênê tiếp nối và sau này bởi các nhân vật như Athanasiô và Cyrilô thành Alexandria, coi việc chú giải Kinh Thánh, triết học và thần bí học như những phần của một cuộc tìm kiếm duy nhất chứ không phải các bộ môn tách biệt. Sự mơ hồ riêng của ngài về vị thế của \"gnosis,\" và tranh cãi về Hypotyposes, có nghĩa là danh tiếng của chính ngài chưa bao giờ trở nên vững chắc như truyền thống mà ngài góp phần sáng lập — nhưng học thuật hiện đại ngày càng coi ngài như một kiến trúc sư quan trọng, bị đánh giá thấp, của cách văn hóa trí thức Kitô giáo đã đến để gặp gỡ thế giới Hy-La rộng lớn hơn.",
+        "en": "Clement's most consequential legacy may simply be his student: Origen, who inherited leadership of the Alexandrian catechetical tradition and went on to become the most prolific and influential biblical scholar of the pre-Nicene Church, carrying Clement's project of serious engagement between Greek learning and Christian faith to a far larger scale. More broadly, Clement is generally credited as the founding figure of the entire Alexandrian theological tradition — a distinctive intellectual culture, continued by Origen and later by figures like Athanasius and Cyril of Alexandria, that treated biblical interpretation, philosophy, and mysticism as parts of a single inquiry rather than separate disciplines. His specific ambivalence about the status of \"gnosis,\" and the Hypotyposes controversy, meant his own reputation never became as secure as the tradition he helped found — but modern scholarship has increasingly treated him as a major, underrated architect of how Christian intellectual culture came to engage the wider Greco-Roman world at all."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Eric Osborn, Clement of Alexandria (Cambridge University Press, 2005) — công trình nghiên cứu học thuật hiện đại chuẩn mực. John Ferguson (dịch), Stromateis, Books One to Three (bộ Fathers of the Church, Catholic University of America Press, 1991). Toàn văn bản dịch Ante-Nicene Fathers (Roberts–Donaldson) miễn phí tại newadvent.org.",
+        "en": "Eric Osborn, Clement of Alexandria (Cambridge University Press, 2005) — the standard modern scholarly study. John Ferguson, trans., Stromateis, Books One to Three (Fathers of the Church series, Catholic University of America Press, 1991). Full text of the Ante-Nicene Fathers (Roberts–Donaldson) translation freely available at newadvent.org."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Clêmentê dạy gì về Đức tin và lý trí?",
+        "en": "What does Clement teach about Faith and reason?"
+      },
+      "a": {
+        "vi": "Mô hình của Clêmentê — dùng những gì tốt đẹp nhất của triết học thế tục làm cầu nối đến chân lý Kitô giáo — là tiền lệ nền tảng cho niềm xác tín sau này của truyền thống Công giáo rằng lý trí chân chính và đức tin chân chính không thể mâu thuẫn với nhau.",
+        "en": "Clement's model — using the best of secular philosophy as a bridge toward Christian truth — is a foundational precedent for the Catholic tradition's later confidence that genuine reason and genuine faith cannot ultimately conflict."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/clement-of-alexandria.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

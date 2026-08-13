@@ -1,0 +1,99 @@
+/* Shared popover chrome for reference cards (Scripture verses, Catechism paragraphs).
+   Tokens that the design scopes locally (--rule) are defined on .pop itself, because the card
+   is portaled to <body> and so can't inherit them from the reference it belongs to. */
+.pop {
+  --rule: #F2EAE0;
+  position: fixed;
+  z-index: 50;
+  width: 326px;
+  max-width: calc(100vw - 32px);
+  box-sizing: border-box;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(36, 31, 27, 0.12);
+  padding: 15px 17px 16px;
+  text-align: left;
+}
+.caret {
+  position: absolute;
+  top: -6px;
+  width: 11px;
+  height: 11px;
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+  border-top: 1px solid var(--border);
+  transform: rotate(45deg);
+}
+.above .caret {
+  top: auto;
+  bottom: -6px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 9px;
+}
+.label {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+}
+.translation {
+  color: var(--text-faint);
+}
+.close {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  line-height: 1;
+  color: var(--text-quiet);
+  background: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.close:hover {
+  background: #F4EFE6;
+}
+.close:focus-visible {
+  outline: 2px solid var(--sage);
+  outline-offset: 1px;
+}
+
+@media (max-width: 560px) {
+  .close {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .pop {
+    --rule: #2B2721;
+    background: #1E1B16;
+    border-color: #322D25;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  }
+  .caret {
+    background: #1E1B16;
+    border-color: #322D25;
+  }
+  .close:hover {
+    background: #2B2721;
+  }
+}

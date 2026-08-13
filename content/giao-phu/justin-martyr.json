@@ -1,0 +1,235 @@
+{
+  "no": 4,
+  "slug": "justin-martyr",
+  "era": "apostolic",
+  "name": {
+    "vi": "Justinô Tử Đạo",
+    "en": "Justin Martyr"
+  },
+  "role": {
+    "vi": "Nhà thần học và hộ giáo giáo dân; chưa từng được thụ phong · Tử đạo",
+    "en": "Lay theologian and apologist; never ordained · Martyr"
+  },
+  "dates": {
+    "display": "c. 100 — c. 165",
+    "born": 100,
+    "died": 165
+  },
+  "quote": {
+    "vi": "Vì chúng tôi không nhận lấy những thứ này như bánh thường và thức uống thường; nhưng... của ăn đã được thánh hiến bằng lời cầu nguyện... chính là thịt và máu của Chúa Giêsu, Đấng đã nhập thể.",
+    "en": "For not as common bread and common drink do we receive these; but... the food which is blessed by the prayer of his word... is the flesh and blood of that Jesus who was made flesh.",
+    "source": {
+      "vi": "Hộ Giáo Thứ Nhất, đoạn 66",
+      "en": "First Apology, 66"
+    }
+  },
+  "life": [
+    {
+      "vi": "Người ngoại giáo trở lại, từng theo học triết học phái Khắc kỷ, Tiêu dao, Pythagore và Platon trước khi trở lại đạo Kitô. Giảng dạy tại Rôma; trong số học trò có Tatianô.",
+      "en": "A pagan convert trained in Stoic, Peripatetic, Pythagorean, and Platonist philosophy before converting to Christianity. Taught in Rome; his students included Tatian."
+    },
+    {
+      "vi": "Nhà trí thức Kitô giáo lớn đầu tiên đối thoại với triết học ngoại giáo bằng chính ngôn ngữ của nó, đề xuất rằng có một \"hạt giống của Ngôi Lời\" hiện diện ngay cả nơi các triết gia tiền Kitô giáo. Tác phẩm Hộ Giáo Thứ Nhất của ngài chứa mô tả chi tiết sớm nhất từ bên ngoài về phụng vụ Chúa Nhật của Kitô hữu, gồm cả Bí tích Thánh Thể.",
+      "en": "The first major Christian intellectual to engage pagan philosophy on its own terms, proposing a 'seed of the Word' (logos spermatikos) present even in pre-Christian thinkers. His First Apology contains the earliest detailed outside description of a Christian Sunday liturgy, including the Eucharist."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "khoảng năm 100",
+        "en": "c. 100 AD (as late as 114 in some sources)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "khoảng năm 165",
+        "en": "c. 165 AD (as late as 168 in some sources)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Sinh tại Flavia Neapolis (nay là Nablus); giảng dạy và chịu tử đạo tại Rôma",
+        "en": "Born Flavia Neapolis (modern Nablus); taught and martyred in Rome"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "1 tháng 6",
+        "en": "June 1"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "3 tác phẩm",
+        "en": "3 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Hộ Giáo Thứ Nhất",
+        "en": "First Apology"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Hộ Giáo Thứ Hai",
+        "en": "Second Apology"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Đối Thoại với Tryphô",
+        "en": "Dialogue with Trypho"
+      },
+      "latin": "",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Justin thuộc về một thế giới khác với Clêmentê, Ignatiô hay Polycarp: không phải một giám mục viết cho anh em tín hữu, mà là một triết gia chuyên nghiệp vẫn tiếp tục khoác áo choàng triết gia sau khi trở lại đạo, và vẫn tiếp tục điều hành một trường học, chỉ khác là giờ đây dạy về Đức Kitô thay vì Platon. Đến giữa thế kỷ II, Kitô giáo đã lan rộng đủ để giới chức Rôma phải đối diện với vấn đề thực tiễn: phải xử lý thế nào với những người bị tố cáo chỉ vì mang danh \"Kitô hữu\" — Justin viết Đệ Nhất Biện Giáo trực tiếp gửi hoàng đế Antôninô Piô nhằm lập luận rằng các Kitô hữu phải bị xét xử vì những tội thực sự, chứ không phải chỉ vì cái tên, đồng thời để đính chính những tin đồn hoang đường về việc thờ phượng của Kitô hữu (ăn thịt người, loạn luân) bằng cách mô tả rõ ràng điều thực sự diễn ra tại một buổi họp mặt Kitô hữu. Việc hai trong ba tác phẩm chính của ngài được viết gửi cho người ngoài — một hoàng đế, và một người đối thoại Do Thái tên Tryphô — phản ánh một vai trò mà chưa nhân vật nào trước đó trong bộ sưu tập này từng đảm nhận: nỗ lực bền bỉ đầu tiên của Kitô giáo nhằm tự giải thích mình cho những người chưa thuộc về mình.",
+        "en": "Justin belongs to a different world than Clement, Ignatius, or Polycarp: not a bishop writing to fellow Christians, but a professional philosopher who kept wearing the philosopher's cloak after converting, and kept running a school, just teaching Christ instead of Plato. By the mid-2nd century Christianity had spread widely enough that Roman authorities were dealing with the practical problem of what to do about people denounced simply for the name \"Christian\" — Justin addressed his First Apology directly to Emperor Antoninus Pius specifically to argue that Christians should be tried for actual crimes, not for the name itself, and to correct wild rumors circulating about Christian worship (cannibalism, incest) by describing plainly what actually happened at a Christian gathering. That two of his three major works are addressed to outsiders — an emperor, and a Jewish interlocutor named Trypho — reflects a role none of the earlier figures in this set had: Christianity's first sustained attempt to explain itself to people who were not already inside it."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Đệ Nhất Biện Giáo của Justin chứa đựng mô tả chi tiết sớm nhất từ bên ngoài về một buổi cử hành Chúa Nhật của Kitô hữu: \"Và vào ngày gọi là Chúa Nhật, tất cả những ai sống trong thành phố hay ở miền quê đều tụ họp về một nơi, và các hồi ký của các tông đồ hoặc các trước tác của các ngôn sứ được đọc lên, trong khoảng thời gian cho phép; rồi khi người đọc dừng lại, vị chủ tọa dùng lời giảng dạy và khuyến khích noi theo những điều tốt lành ấy.\" Ngài giải thích một cách đơn giản lý do chọn ngày này, \"bởi vì đó là ngày đầu tiên mà Thiên Chúa... đã tạo dựng thế giới; và Chúa Giêsu Kitô, Đấng Cứu Độ chúng ta, cũng đã sống lại từ cõi chết vào chính ngày ấy\" (Đệ Nhất Biện Giáo, đoạn 67, theo bản dịch Roberts–Donaldson/ANF). Được viết cho một hoàng đế ngoại giáo không có lý do gì để phải ấn tượng, đoạn văn này đọc gần như một dàn bài của Thánh Lễ được cử hành ngày nay: các bài đọc Kinh Thánh, bài giảng, và — được mô tả ngay trước đoạn này — Bí tích Thánh Thể.",
+        "en": "Justin's First Apology contains the earliest detailed outside description of a Christian Sunday service: \"And on the day called Sunday, all who live in cities or in the country gather together to one place, and the memoirs of the apostles or the writings of the prophets are read, as long as time permits; then, when the reader has ceased, the president verbally instructs, and exhorts to the imitation of these good things.\" He explains the choice of day plainly, \"because it is the first day on which God... made the world; and Jesus Christ our Saviour on the same day rose from the dead\" (First Apology, 67, Roberts–Donaldson/ANF translation). Written for a pagan emperor with no reason to be impressed, it reads almost like an outline of the Mass as celebrated today: Scripture readings, a homily, and — described just before this passage — the Eucharist."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Bước đi thần học trọng tâm của Justin là khái niệm logos spermatikos — \"hạt giống của Ngôi Lời\" — ý tưởng rằng Ngôi Lời thần linh (Logos), được mặc khải trọn vẹn nơi Đức Kitô, đã gieo rắc từ trước những \"hạt giống\" chân lý khắp nền triết học tiền-Kitô giáo, khiến cho Xôcrát và Hêraclitô có thể được gọi là \"Kitô hữu trước Đức Kitô\" theo một nghĩa thực sự dù chỉ là một phần, vì những chân lý họ nắm bắt được chỉ bằng lý trí. Điều này cho phép ngài coi triết học Hy Lạp không phải như một đối thủ cần bác bỏ mà như một sự chuẩn bị cần được hoàn tất, một lập trường mang ý nghĩa thực sự: nó có nghĩa là việc trở lại Kitô giáo có tính liên tục về mặt trí tuệ với việc theo đuổi chân lý một cách chân thành ở bất cứ nơi nào tìm thấy nó, chứ không phải một sự khước từ lý trí để đổi lấy đức tin mù quáng. Ngài kết hợp điều này với một thần học bí tích khác thường cụ thể đối với một người chưa từng là giám mục — mô tả của ngài về Thánh Thể như thực sự là \"thịt và máu của chính Đức Giêsu, Đấng đã hóa thành xác phàm,\" không phải lương thực thông thường, được trình bày như giáo huấn Kitô giáo đã ổn định vào giữa thế kỷ II, chứ không phải điều ngài đang mới đưa ra.",
+        "en": "Justin's central theological move is the logos spermatikos — the idea that the divine Word (Logos), fully revealed in Christ, had already scattered \"seeds\" of truth throughout pre-Christian philosophy, meaning Socrates and Heraclitus could be called \"Christians before Christ\" in some real if partial sense for the truths they grasped by reason alone. This let him treat Greek philosophy not as a rival to refute but as preparation to complete, a position with real stakes: it meant conversion to Christianity was intellectually continuous with the honest pursuit of truth wherever it was found, not a rejection of reason for blind faith. He paired this with an unusually concrete sacramental theology for someone who was never a bishop — his description of the Eucharist as truly \"the flesh and blood of that Jesus who was made flesh,\" not ordinary food, is offered as settled Christian teaching by the mid-2nd century, not something he is introducing."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Cái chết của Justin được ghi chép khác thường đầy đủ so với thời kỳ này bởi vì nó còn lưu lại dưới dạng biên bản tòa án, Acts of Justin, chứ không chỉ là một trình thuật đạo đức được kể lại về sau — dù ngay cả ở đây, ba phiên bản chép tay khác nhau với độ dài khác nhau vẫn còn tồn tại, và các học giả nhìn chung đánh giá bản ngắn nhất là đáng tin cậy nhất, dựa trên giả định rằng những người sao chép về sau có xu hướng thêm chi tiết hơn là lược bớt. Về đại thể, trình thuật khá đơn giản: viên tổng trấn thành phố Rusticus đã trực tiếp thẩm vấn Justin và các bạn đồng hành về niềm tin của họ và việc họ từ chối dâng lễ vật cho các thần, Justin trả lời rằng ngài trông đợi được cứu độ chính vì đã giữ vững các giới răn của Đức Kitô ngay cả dưới cực hình, và khi cả nhóm không chịu chối bỏ đức tin, tất cả đều bị đánh roi và chém đầu. Trình thuật này đọc ít giống một truyền thuyết kịch tính mà giống đúng như những gì nó tự nhận: một biên bản hành chính về một cuộc hành hình của Rôma, và đây cũng là một phần lý do các sử gia coi đây là một trong những trình thuật tử đạo đáng tin cậy hơn cả từ thời kỳ này.",
+        "en": "Justin's death is unusually well documented for this period because it survives as a court record, The Acts of Justin, rather than only a later devotional retelling — though even here, three different manuscript versions of varying length survive, and scholars generally judge the shortest to be the most reliable, on the assumption that later copyists tended to add detail rather than remove it. In its outline, the account is spare: the city prefect Rusticus questioned Justin and his companions directly about their beliefs and their refusal to sacrifice to the gods, Justin answered that he expected to be saved precisely by holding to Christ's commandments even under torture, and when the group would not recant, all were scourged and beheaded. It reads less like a dramatic legend and more like exactly what it claims to be: a bureaucratic record of a Roman execution, which is part of why historians treat it as one of the more trustworthy martyrdom accounts from this era."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Justin về cơ bản đã sáng tạo ra thể loại văn chương biện giáo Kitô giáo — một sự bênh vực đức tin có lý lẽ, công khai, gửi đến những người ngoài đầy hoài nghi hoặc thù nghịch — mà các tác giả sau này như Tertulianô, Athênagôrát và Ôrigênê đều sẽ tiếp nối theo khuôn mẫu đó. Ý tưởng logos spermatikos của ngài trở thành một trong những công cụ bền vững nhất trong truyền thống trí thức Công giáo để tiếp cận tư tưởng ngoài Kitô giáo mà không hoàn toàn bác bỏ cũng không coi là ngang hàng chân lý: nó là nền tảng cho những cách tiếp cận sau này, từ việc Thánh Tôma Aquinô sử dụng Aristốt cho đến sự tiếp cận hiện đại của Công giáo với các tôn giáo và truyền thống triết học khác. Ở một khía cạnh đáng suy ngẫm hơn, chính học trò của ngài là Tatianô cuối cùng đã tách khỏi chính thống để theo phong trào khổ hạnh cực đoan Encratite, một lời nhắc nhở rằng ngay cả vòng thân cận của Justin cũng không bảo đảm được sự liên tục về giáo lý — chính thống trong thời kỳ này là điều phải được chủ động gìn giữ, chứ không phải đương nhiên được thừa hưởng.",
+        "en": "Justin effectively created the literary genre of the Christian apology — a reasoned public defense of the faith addressed to hostile or skeptical outsiders — that later writers like Tertullian, Athenagoras, and Origen would all work within. His logos spermatikos idea became one of the most durable tools in the Catholic intellectual tradition for engaging non-Christian thought without either rejecting it outright or treating it as equally true: it underlies later approaches from Aquinas's use of Aristotle to modern Catholic engagement with other religions and philosophical traditions. On a more sobering note, his own student Tatian eventually broke away into the rigidly ascetic Encratite movement, a reminder that even Justin's immediate circle didn't guarantee doctrinal continuity — orthodoxy in this period was something actively maintained, not automatically inherited."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Denis Minns và Paul Parvis (biên tập và dịch), Justin, Philosopher and Martyr: Apologies (bộ Oxford Early Christian Texts, Oxford University Press, 2009) — ấn bản phê bình hiện đại chuẩn mực kèm nguyên bản Hy Lạp đối chiếu. Thomas B. Falls (dịch), Saint Justin Martyr (bộ Fathers of the Church, Catholic University of America Press, 1948, tái bản 2008). Toàn văn các Biện Giáo và Đối Thoại với Tryphô miễn phí tại newadvent.org và earlychristianwritings.com.",
+        "en": "Denis Minns and Paul Parvis, eds. and trans., Justin, Philosopher and Martyr: Apologies (Oxford Early Christian Texts, Oxford University Press, 2009) — the standard modern critical edition with facing Greek text. Thomas B. Falls, trans., Saint Justin Martyr (Fathers of the Church series, Catholic University of America Press, 1948/2008 reprint). Full text of the Apologies and the Dialogue with Trypho freely available at newadvent.org and earlychristianwritings.com."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Justinô dạy gì về Bí tích Thánh Thể như hy lễ và Sự Hiện Diện Thực Sự?",
+        "en": "What does Justin teach about Eucharist as sacrifice and Real Presence?"
+      },
+      "a": {
+        "vi": "Hộ Giáo Thứ Nhất (66-67) của Justinô cho ta mô tả chi tiết sớm nhất từ bên ngoài về Thánh Lễ, mô tả bánh và rượu trở thành \"thịt và máu của Chúa Giêsu, Đấng đã nhập thể\" — chứng từ rất sớm về Sự Hiện Diện Thực Sự, viết cho một hoàng đế ngoại giáo thù nghịch nên không có động cơ để phóng đại.",
+        "en": "Justin's First Apology (66-67) gives the earliest surviving outside description of the Mass, describing bread and wine that become 'the flesh and blood of that Jesus who was made flesh' — very early testimony to the Real Presence, addressed to a hostile pagan emperor with no motive to exaggerate."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Justinô dạy gì về Đức tin và lý trí?",
+        "en": "What does Justin teach about Faith and reason?"
+      },
+      "a": {
+        "vi": "Lập luận của Justinô rằng triết học tiền Kitô giáo chứa đựng chân lý thật sự, dù chỉ một phần, là mẫu mực cho việc đối thoại chân thành với triết học thế tục và các hệ tư tưởng khác.",
+        "en": "Justin's argument that pre-Christian philosophy contained genuine, partial truth (logos spermatikos) models honest engagement with secular philosophy and other belief systems."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/justin-martyr.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

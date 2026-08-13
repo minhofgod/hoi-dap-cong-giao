@@ -1,0 +1,245 @@
+{
+  "no": 23,
+  "slug": "augustine-of-hippo",
+  "era": "post-nicene",
+  "name": {
+    "vi": "Augustinô thành Hippo",
+    "en": "Augustine of Hippo"
+  },
+  "role": {
+    "vi": "Giám mục Hippo",
+    "en": "Bishop of Hippo"
+  },
+  "dates": {
+    "display": "354 — 430",
+    "born": 354,
+    "died": 430
+  },
+  "quote": {
+    "vi": "Lạy Chúa, Chúa đã dựng nên chúng con cho Chúa, và lòng chúng con khắc khoải cho đến khi được nghỉ yên trong Chúa.",
+    "en": "You have made us for Yourself, O Lord, and our heart is restless until it rests in You.",
+    "source": {
+      "vi": "Tự Thuật, I.1",
+      "en": "Confessions, I.1"
+    }
+  },
+  "life": [
+    {
+      "vi": "Con của Thánh Mônica và Patriciô. Từng theo thuyết Mani nhiều năm trước khi trở lại đạo. Được Thánh Ambrôsiô rửa tội tại Milanô năm 387.",
+      "en": "Son of St. Monica and Patricius. Adherent of Manichaeism before conversion. Baptized by Ambrose in Milan in 387 AD."
+    },
+    {
+      "vi": "Có lẽ là nhà thần học có ảnh hưởng nhất trong lịch sử Kitô giáo Tây phương. Đối thủ chính của thuyết Pêlagiô và thuyết ly khai Đônatô. Tác phẩm Tự Thuật được xem là hồi ký thiêng liêng đầu tiên của phương Tây.",
+      "en": "Arguably the most influential theologian in Western Christianity. Central opponent of Pelagianism and Donatism. His Confessions is considered the first true Western spiritual autobiography."
+    }
+  ],
+  "facts": [
+    {
+      "label": {
+        "vi": "Sinh",
+        "en": "Born"
+      },
+      "value": {
+        "vi": "13 tháng 11, năm 354",
+        "en": "November 13, 354 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Qua đời",
+        "en": "Died"
+      },
+      "value": {
+        "vi": "28 tháng 8, năm 430",
+        "en": "August 28, 430 AD"
+      }
+    },
+    {
+      "label": {
+        "vi": "Nơi hoạt động",
+        "en": "Region / See"
+      },
+      "value": {
+        "vi": "Sinh tại Thagaste, Bắc Phi; Giám mục Hippo Regius (nay là Annaba, Algeria)",
+        "en": "Born Thagaste, North Africa; Bishop of Hippo Regius (modern Annaba, Algeria)"
+      }
+    },
+    {
+      "label": {
+        "vi": "Lễ kính",
+        "en": "Feast day"
+      },
+      "value": {
+        "vi": "28 tháng 8",
+        "en": "August 28"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tiến sĩ Hội Thánh",
+        "en": "Doctor of the Church"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Được phong thánh",
+        "en": "Canonized"
+      },
+      "value": {
+        "vi": "Có",
+        "en": "Yes"
+      }
+    },
+    {
+      "label": {
+        "vi": "Tác phẩm còn lại",
+        "en": "Surviving works"
+      },
+      "value": {
+        "vi": "3 tác phẩm",
+        "en": "3 works"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": {
+        "vi": "Tự Thuật",
+        "en": "Confessions"
+      },
+      "latin": "",
+      "date": ""
+    },
+    {
+      "title": {
+        "vi": "Thành Đô Thiên Chúa",
+        "en": "The City of God"
+      },
+      "latin": "De Civitate Dei",
+      "date": "410"
+    },
+    {
+      "title": {
+        "vi": "Về Ba Ngôi",
+        "en": "On the Trinity"
+      },
+      "latin": "De Trinitate",
+      "date": ""
+    }
+  ],
+  "works_note": {
+    "vi": "",
+    "en": ""
+  },
+  "sections": [
+    {
+      "id": "context",
+      "title": {
+        "vi": "Bối cảnh lịch sử",
+        "en": "Historical context"
+      },
+      "body": {
+        "vi": "Cuộc hoán cải của Augustinô trong một khu vườn ở Milanô năm 386 là một trong những cảnh tượng nổi tiếng nhất trong văn chương Kitô giáo: khi nghe giọng hát ê a của một đứa trẻ lặp đi lặp lại \"tolle, lege\" (\"hãy cầm lấy mà đọc\"), ngài mở ngẫu nhiên các thư của Thánh Phaolô đến đoạn Rôma 13:13-14 và trải nghiệm đó như một mệnh lệnh trực tiếp chấm dứt nhiều năm do dự. Tuy nhiên, điều mà cảnh tượng đó cô đọng lại là gần hai thập kỷ tìm kiếm trí thức thực sự trước đó — chín năm là một tín đồ nghiêm túc của phái Manikêô, một giáo phái nhị nguyên đưa ra một lời giải thích về sự dữ mà lúc đầu Augustinô thấy thỏa đáng hơn giáo huấn Công giáo, tiếp theo là một giai đoạn hoài nghi và đắm mình trong triết học Tân Platon, điều đã mang lại cho ngài, trước cả khi Kitô giáo làm điều đó, một khung tư duy để hiểu Thiên Chúa như phi vật chất và sự dữ như một sự vắng bóng của điều thiện chứ không phải một thực thể tự tồn tại. Nhiều thập kỷ cầu nguyện và kiên trì của mẹ ngài, Monica, cùng với việc giảng dạy của Ambrôsiô ở Milanô (điều lần đầu tiên cho Augustinô thấy rằng Kinh Thánh Công giáo có thể được đọc một cách thông minh chứ không thô thiển), là những phương tiện của con người; nhưng chính lời tường thuật của Augustinô trong Tự Thú khẳng định cảnh tượng khu vườn là đỉnh điểm của một hành trình dài, thường miễn cưỡng, chứ không phải một sự đảo ngược đột ngột từ hư không.",
+        "en": "Augustine's conversion in a Milan garden in 386 is one of the best-known scenes in Christian literature: hearing a child's sing-song voice repeating \"tolle, lege\" (\"take up and read\"), he opened Paul's letters at random to Romans 13:13–14 and experienced it as a direct command ending years of indecision. What that scene compresses, though, is nearly two decades of genuine intellectual searching that preceded it — nine years as a serious adherent of Manichaeism, a dualistic sect that offered an explanation for evil Augustine initially found more satisfying than Catholic teaching, followed by a period of skepticism and immersion in Neoplatonist philosophy that gave him, before Christianity ever did, a framework for thinking about God as immaterial and evil as an absence of good rather than a substance in its own right. His mother Monica's decades of prayer and persistence, and Ambrose's preaching in Milan (which showed Augustine, for the first time, that Catholic Scripture could be read intelligently rather than crudely), were the human means; but Augustine's own account in the Confessions insists the garden scene was the culmination of a long, often reluctant journey, not a sudden reversal out of nowhere."
+      },
+      "open": false
+    },
+    {
+      "id": "more-quotes",
+      "title": {
+        "vi": "Trích dẫn thêm",
+        "en": "More quotes"
+      },
+      "body": {
+        "vi": "Tự Thú đầy những câu nói đã trở nên nổi tiếng đến mức có nguy cơ nghe như sáo ngữ, nhưng đọc lại trong ngữ cảnh sẽ phục hồi được sức nặng của chúng. Về sự trì hoãn kéo dài của chính mình trước khi hoán cải, Augustinô tự phê bình một cách đáng chú ý thay vì tự tâng bốc, khi nhớ lại một lời cầu nguyện từ thời sinh viên ở Carthage: \"Xin ban cho con đức khiết tịnh và tiết độ, nhưng chưa phải bây giờ\" (da mihi castitatem et continentiam, sed noli modo) — một câu ngài đưa ra như bằng chứng cho chính loại ý chí phân tán mà sau này ngài dành phần lớn cuốn Tự Thú để phân tích, vừa thực lòng muốn Thiên Chúa vừa, cũng thực lòng không kém, muốn tiếp tục phạm tội thêm một chút nữa. Khi viết sau này về khoảnh khắc sự hoán cải cuối cùng đã chiếm lấy ngài, ngài chuyển sang ngôn ngữ của tình yêu thay vì bổn phận: \"Con đã yêu Chúa quá muộn màng, ôi vẻ đẹp vừa cổ xưa vừa luôn mới mẻ, con đã yêu Chúa quá muộn màng! Này, Chúa ở bên trong, còn con ở bên ngoài, tìm kiếm Chúa nơi đó, và con đã lao đầu vào những vật xinh đẹp Chúa đã dựng nên — con, kẻ méo mó dị dạng\" (Tự Thú X.27.38, theo bản dịch Chadwick) — một lời thú nhận không hẳn về tội lỗi theo nghĩa hẹp mà về việc đã dành nhiều năm tìm kiếm Thiên Chúa ở khắp mọi nơi ngoại trừ nơi Thiên Chúa thực sự hiện diện.",
+        "en": "The Confessions is filled with lines that have become so famous they risk feeling like clichés, but reading them in context restores their force. On his own long delay in converting, Augustine is remarkably self-critical rather than self-flattering, recalling a prayer from his student years in Carthage: \"Give me chastity and continence, but not yet\" (da mihi castitatem et continentiam, sed noli modo) — a line he offers as evidence of exactly the kind of divided will he later spends much of the Confessions analyzing, wanting God genuinely while still wanting, just as genuinely, to keep sinning a little longer. Writing later of the moment conversion finally overtook him, he turns to the language of love rather than obligation: \"Late have I loved you, beauty so ancient and so new, late have I loved you! Lo, you were within, but I outside, seeking there for you, and upon the shapely things you have made I rushed headlong — I, misshapen\" (Confessions X.27.38, Chadwick translation) — a confession less of sin in the narrow sense than of having spent years looking for God everywhere except where God actually was."
+      },
+      "open": false
+    },
+    {
+      "id": "theology",
+      "title": {
+        "vi": "Thần học",
+        "en": "Theology"
+      },
+      "body": {
+        "vi": "Thần học trưởng thành của Augustinô về ân sủng được rèn giũa gần như hoàn toàn trong cuộc chiến với Pêlagiô và những người theo ông, những người dạy rằng con người sở hữu, trong chính ý chí tự do tự nhiên của mình, khả năng thực sự để chọn điều thiện và tránh tội lỗi mà không cần ân sủng Thiên Chúa để làm cho sự lựa chọn đó khả thi ngay từ đầu — đối với Pêlagiô, ân sủng chủ yếu có nghĩa là sự giảng dạy và gương mẫu hữu ích, chứ không phải một sự biến đổi nội tâm đi trước và làm cho ý chí có thể quay về với Thiên Chúa. Augustinô, một phần dựa trên chính kinh nghiệm của mình về một ý chí muốn hai điều không tương thích cùng một lúc (xem trích dẫn \"khiết tịnh nhưng chưa phải bây giờ\" ở trên), khẳng định rằng ý chí con người sa ngã thực sự tự do nhưng thực sự không có khả năng, tự mình, quay về với Thiên Chúa — ân sủng phải chuyển động trước, từ bên trong, trước khi con người thậm chí có thể muốn cộng tác với nó, dù Augustinô cũng khẳng định không kém rằng ý chí con người vẫn là một người tham gia thực sự, tích cực một khi ân sủng làm cho nó có thể hành động, chứ không phải một đối tượng thụ động mà ân sủng đơn thuần tác động lên. Sự cân bằng này tỏ ra khó giữ vững trong thực tế: những độc giả sau này, kể cả nhiều người trong thời Cải Cách Tin Lành, đã rút ra từ các trước tác của Augustinô về ân sủng và tiền định những kết luận mang tính tất định hơn nhiều so với những gì toàn thể truyền thống Công giáo sẵn lòng xác nhận, đặc biệt về việc liệu Thiên Chúa có chủ động muốn sự luận phạt của những kẻ bị chối bỏ hay không — một lập trường mà chính Augustinô minh nhiên bác bỏ — khiến Augustinô, một cách trung thực, trở thành một nhà thần học mà cả người Công giáo lẫn nhiều người Tin Lành đều nhận là thẩm quyền cho những lập trường không hoàn toàn giống nhau.",
+        "en": "Augustine's mature theology of grace was forged almost entirely in combat with Pelagius and his followers, who taught that human beings possessed, in their own natural free will, the real capacity to choose good and avoid sin without needing God's grace to make that choice possible in the first place — grace, for Pelagius, mainly meant helpful teaching and example, not an interior transformation that precedes and enables the will's own turn toward God. Augustine, drawing partly on his own experience of a will that wanted two incompatible things at once (see the \"chastity but not yet\" quote above), insisted that fallen human will is genuinely free but not genuinely capable, on its own, of turning toward God — grace has to move first, internally, before a human being can even want to cooperate with it, though Augustine equally insisted the human will remains a real, active participant once grace enables it, not a passive object grace simply operates upon. This balance proved difficult to hold in practice: later readers, including many during the Protestant Reformation, would draw more deterministic conclusions from Augustine's writing on grace and predestination than the Catholic tradition as a whole was willing to affirm, particularly regarding whether God actively wills the damnation of the reprobate — a position Augustine himself explicitly rejected — making Augustine, honestly, a theologian whose authority both Catholics and many Protestants have claimed for positions that aren't fully identical to each other."
+      },
+      "open": false
+    },
+    {
+      "id": "martyrdom",
+      "title": {
+        "vi": "Tử đạo",
+        "en": "Martyrdom"
+      },
+      "body": {
+        "vi": "Augustinô qua đời vì nguyên nhân tự nhiên — nhiều khả năng là một cơn sốt — vào ngày 28 tháng 8 năm 430, khi bảy mươi lăm tuổi, trong lúc chính thành Hippo đang bị quân Vandal vây hãm, đội quân trong vòng một thế hệ sẽ dập tắt hoàn toàn quyền cai trị của Rôma trên khắp Bắc Phi. Người viết tiểu sử đầu tiên của ngài, Possiđiô, người có mặt lúc đó, ghi lại rằng Augustinô đã dành những ngày cuối đời trong sự sám hối có chủ ý, cho chép bảy Thánh Vịnh Sám Hối bằng chữ lớn và dán lên tường phòng bệnh của mình để có thể nhìn thấy và cầu nguyện liên tục. Có một sự trớ trêu thực sự và sâu sắc đáng được nói thẳng ra: một người đã dành trọn đời trí thức của mình để bảo vệ tính thực tại và mạch lạc của một vũ trụ Kitô giáo có trật tự lại qua đời trong khi chứng kiến, từ chính tường thành của mình, sự sụp đổ hữu hình của trật tự chính trị mà Kitô giáo đã lớn lên bên trong đó — chính sự sụp đổ đã thúc đẩy ngài, hai thập kỷ trước đó sau khi Rôma bị cướp phá năm 410, viết Thành Đô Thiên Chúa, lập luận rằng niềm hy vọng Kitô giáo chưa bao giờ thực sự phụ thuộc vào sự tồn vong của Rôma ngay từ đầu. Cái chết của ngài mà không có một cuộc tử đạo bi tráng, nếu có gì, chính là bằng chứng thầm lặng hơn cho lập luận của cuốn sách đó: đô thị trần thế có thể sụp đổ xung quanh ngài, và đã sụp đổ thật, mà sự sụp đổ đó không hề cấu thành bất kỳ thất bại nào cho điều ngài thực sự tin tưởng.",
+        "en": "Augustine died of natural causes — most likely a fever — on August 28, 430, at seventy-five years old, while Hippo itself was under siege by the Vandal army that would, within a generation, extinguish Roman rule across North Africa entirely. His first biographer, Possidius, who was present, records that Augustine spent his final days in deliberate penitence, having the seven Penitential Psalms copied out in large letters and posted on the wall of his sickroom so he could see and pray them continually. There is a real and poignant irony worth naming plainly: a man who had spent his whole intellectual life defending the reality and coherence of a Christian, ordered universe died watching, from his own city walls, the visible collapse of the political order Christianity had grown up inside of — the same collapse that had prompted him, two decades earlier after the sack of Rome in 410, to write The City of God, arguing that Christian hope had never actually depended on Rome's survival in the first place. His death without a dramatic martyrdom is, if anything, the quieter proof of that book's argument: the earthly city could fall around him, and did, without that fall constituting any kind of defeat for what he actually believed in."
+      },
+      "open": false
+    },
+    {
+      "id": "later-influence",
+      "title": {
+        "vi": "Ảnh hưởng về sau",
+        "en": "Later influence"
+      },
+      "body": {
+        "vi": "Có thể nói không một Giáo Phụ nào định hình mười lăm thế kỷ tư tưởng Kitô giáo Tây phương sau đó một cách quyết liệt như Augustinô — Tôma Aquinô trích dẫn ngài liên tục, toàn bộ truyền thống Trung Cổ về ân sủng, tội lỗi và các bí tích được xây dựng trực tiếp trên các trước tác chống Pêlagiô và chống Đônatô của ngài, và sự phân tích tâm lý học của ngài về ký ức, thời gian và bản ngã trong Tự Thú về cơ bản đã khai sinh ra một thể loại văn học, hồi ký thiêng liêng, thể loại vẫn còn định hình cách người ta viết về đời sống nội tâm của mình cho đến ngày nay. Tuy nhiên, cuộc Cải Cách Tin Lành khiến di sản của ngài thực sự phức tạp hơn là đơn thuần vẻ vang: Luthêrô từng là một tu sĩ dòng Augustinô trước khi trở thành một nhà cải cách, và Calvin trích dẫn Augustinô về ân sủng và tiền định nhiều không kém bất kỳ Giáo Phụ nào khác ông trích dẫn, cả hai đều tuyên bố có sự liên tục thực sự với tư tưởng của Augustinô để chống lại điều họ coi là sự trôi dạt của Công giáo Trung Cổ sau này — một tuyên bố mà truyền thống Công giáo luôn phần nào phản bác, lập luận rằng Luthêrô và Calvin đã đẩy ngôn ngữ của Augustinô về sự bất lực của con người và tiền định đi xa hơn nhiều so với sự cân bằng cẩn trọng hơn giữa ân sủng và tự do ý chí mà chính Augustinô thực sự chủ trương. Việc hai nhánh lớn của Kitô giáo Tây phương, những nhánh sau này tách rời nhau, đều tuyên bố Augustinô là người diễn giải trung thực nhất của mình tự nó đã là một thước đo cho thấy ngài vẫn còn là một nhân vật lớn lao đến mức nào.",
+        "en": "No Church Father, arguably, shaped the next fifteen centuries of Western Christian thought as decisively as Augustine — Aquinas cites him constantly, the entire medieval tradition of thinking about grace, sin, and the sacraments builds directly on his anti-Pelagian and anti-Donatist writings, and his psychological analysis of memory, time, and selfhood in the Confessions essentially invented a literary genre, the spiritual autobiography, that still shapes how people write about their inner lives. The Reformation makes his legacy genuinely complicated rather than simply triumphant, though: Luther was an Augustinian friar before he was a reformer, and Calvin quoted Augustine on grace and predestination as heavily as any Church Father he cited, both claiming real continuity with Augustine's thought against what they saw as later medieval Catholic drift — a claim the Catholic tradition has always partly disputed, arguing Luther and Calvin pushed Augustine's language on human incapacity and predestination further than Augustine's own, more careful balance of grace and free will actually supports. That two major branches of Western Christianity that later split from each other both claim Augustine as their truest interpreter is itself a measure of how large a figure he remains."
+      },
+      "open": false
+    },
+    {
+      "id": "further-reading",
+      "title": {
+        "vi": "Đọc thêm",
+        "en": "Further reading"
+      },
+      "body": {
+        "vi": "Henry Chadwick (dịch), Saint Augustine: Confessions (bộ Oxford World's Classics, Oxford University Press, 1991) — bản dịch học thuật hiện đại chuẩn mực. Henry Bettenson (dịch), Augustine: Concerning the City of God against the Pagans (Penguin Classics, 1972, tái bản 2003). Peter Brown, Augustine of Hippo: A Biography (University of California Press, tái bản 2000) — tiểu sử phê bình hiện đại chuẩn mực.",
+        "en": "Henry Chadwick, trans., Saint Augustine: Confessions (Oxford World's Classics, Oxford University Press, 1991) — the standard modern scholarly translation. Henry Bettenson, trans., Augustine: Concerning the City of God against the Pagans (Penguin Classics, 1972/2003). Peter Brown, Augustine of Hippo: A Biography (University of California Press, new ed. 2000) — the standard modern critical biography."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": {
+        "vi": "Thánh Augustinô dạy gì về Hiệu lực của các bí tích?",
+        "en": "What does Augustine teach about Validity of the sacraments?"
+      },
+      "a": {
+        "vi": "Giáo huấn chống Đônatô của Augustinô — rằng các bí tích có hiệu lực nhờ chính Đức Kitô hoạt động qua Giáo hội, không phải nhờ sự thánh thiện cá nhân của thừa tác viên (về sau gọi là ex opere operato) — giải thích vì sao một bí tích Công giáo vẫn có giá trị dù được cử hành bởi một linh mục bất xứng.",
+        "en": "Augustine's anti-Donatist teaching (ex opere operato) explains why a sacrament remains valid even when administered by an unworthy priest."
+      }
+    },
+    {
+      "q": {
+        "vi": "Thánh Augustinô dạy gì về Ân sủng và tự do ý chí?",
+        "en": "What does Augustine teach about Grace and free will?"
+      },
+      "a": {
+        "vi": "Giáo huấn quân bình của Augustinô rằng ơn cứu độ cần ân sủng Thiên Chúa nhưng vẫn khẳng định tự do ý chí và sự cộng tác thật sự của con người, là điểm tham chiếu quân bình giữa \"chỉ nhờ đức tin\" và \"đức tin cùng việc làm\".",
+        "en": "Augustine's balanced teaching that salvation requires grace while affirming genuine free will and cooperation navigates debates between 'faith alone' and 'faith and works.'"
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "portrait": {
+    "src": "/images/church-fathers/augustine-of-hippo.jpg",
+    "medium": {
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
+    },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}
