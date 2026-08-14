@@ -70,6 +70,9 @@ function loadCouncils(): Council[] {
 
 let cache: Council[] | null = null;
 function all(): Council[] {
+  // In dev, always re-read so newly added content/cong-dong/*.json show up without a
+  // server restart (Next doesn't watch these JSON files, so a cache would go stale).
+  if (process.env.NODE_ENV !== 'production') return loadCouncils();
   if (!cache) cache = loadCouncils();
   return cache;
 }
