@@ -14,6 +14,35 @@ Leave `app/`, `components/`, `lib/`, styling, and config to the **main (website)
 content need requires a framework change (new field, new layout), flag it for the main session
 rather than editing components directly — that keeps the two lanes from colliding.
 
+## Vietnamese terminology — verify, don't translate (applies to ALL content)
+
+The Vietnamese must read like real Vietnamese Catholic writing, **not** translated English. Proper
+names — councils, heresies, saints, popes, technical theology terms — all have established Vietnamese
+Catholic conventions, and getting them wrong is the #1 quality risk. For every entry:
+
+1. **Verify each key term against the site's own Vietnamese content first** — it's derived from
+   official Vietnamese Catholic translations and is the in-house authority for consistency:
+   ```bash
+   grep -oF "Nicêa" content/content.json          # Catechism VI
+   grep -oF "Athanasiô" content/giao-phu/*.json    # Giáo Phụ VI
+   ```
+2. **For terms not yet in the site**, use an authoritative Vietnamese Catholic source —
+   **HĐGM Việt Nam (hdgmvietnam.com)** or the Vietnamese CCC — not a fresh transliteration.
+3. **Do NOT trust Vietnamese Wikipedia for terminology** — it's often translated from English and
+   uses scholarly Latin forms ("Nicaea", "Trentô", "Constantinopolis") instead of the traditional
+   phonetic Catholic forms the site uses ("Nicêa", "Triđentinô", "Constantinôpôli").
+4. **Prefer the traditional Vietnamese Catholic phonetic forms.** Write both languages together,
+   anchoring the Vietnamese to these sources — never English→VN or VN→EN as a blind translation.
+
+**Verified reference (from the Catechism VI):** Councils — Nicêa I/II · Constantinôpôli I/II/III/IV ·
+Êphêsô · Chalcêđônia · Latêranô I–V · Lyon I/II · Vienne · Constance · Basel/Florentia · **Triđentinô**
+(Trent) · Vaticanô I/II. Ecumenical council = "Công đồng chung". Heresies — lạc thuyết Ariô · Nestôriô ·
+Nhất tính thuyết (Monophysitism) · Nhất chí thuyết (Monothelitism) · Bài trừ ảnh tượng (Iconoclasm).
+Athanasius = "Athanasiô".
+
+> ⚠️ **Audit existing content:** the Giáo Phụ (Church Fathers) entries predate this rule — spot-check
+> their Vietnamese names/terms against the sources above (likely mostly fine, but not verified).
+
 ## Video blog posts
 
 File: `content/video/<slug>.md`. Frontmatter:
