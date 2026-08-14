@@ -1,7 +1,9 @@
 ---
 question_vi: "Một khi được cứu là được cứu vĩnh viễn (once saved, always saved) — đúng không?"
 question_en: "Once saved, always saved — is that right?"
-category: "Đức tin và việc làm"
+topic: "Đức tin và việc làm"
+category: "theology-doctrine"
+tags: ["salvation", "grace", "protestant-objections"]
 subcategory: "Thần học"
 part_of: "duc-tin-va-viec-lam"
 refs_ccc: [161, 1821, 2016]

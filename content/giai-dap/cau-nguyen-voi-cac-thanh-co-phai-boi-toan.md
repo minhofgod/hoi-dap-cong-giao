@@ -1,7 +1,9 @@
 ---
 question_vi: "Cầu nguyện với các thánh có phải là bói toán hay gọi hồn người chết không?"
 question_en: "Is praying to the saints a form of divination or necromancy?"
-category: "Cầu nguyện với các thánh"
+topic: "Cầu nguyện với các thánh"
+category: "mary-saints"
+tags: ["saints", "prayer", "protestant-objections"]
 subcategory: "Kinh Thánh"
 refs_ccc: [2116, 2117, 957]
 refs_scripture: ["Đnl 18,10-12", "Mt 17,1-8", "Lc 20,38"]

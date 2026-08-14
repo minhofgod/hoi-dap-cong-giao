@@ -1,7 +1,9 @@
 ---
 question_vi: "Chỉ cần tin vào Chúa Giêsu là đủ, đúng không?"
 question_en: "Just believing in Jesus is enough, right?"
-category: "Đức tin và việc làm"
+topic: "Đức tin và việc làm"
+category: "theology-doctrine"
+tags: ["faith", "works", "salvation", "protestant-objections"]
 subcategory: "Kinh Thánh"
 part_of: "duc-tin-va-viec-lam"
 refs_ccc: [1815, 2614]

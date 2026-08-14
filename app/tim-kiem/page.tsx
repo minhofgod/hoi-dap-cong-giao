@@ -5,6 +5,7 @@ import { T } from '@/components/T';
 import { GlobalSearch } from '@/components/GlobalSearch';
 import { toc, content } from '@/lib/content';
 import { getAllQuestions } from '@/lib/giaiDap';
+import { taxonomyKeywords } from '@/lib/giaiDapTaxonomy';
 import { getCouncilApologetics } from '@/lib/councilsV2';
 import { getAllFathers } from '@/lib/churchFathers';
 import { getAllVideos } from '@/lib/videos';
@@ -19,7 +20,10 @@ export default function SearchPage() {
   const questions = getAllQuestions().map((q) => ({
     slug: q.slug,
     question: q.questionVi,
-    category: q.category,
+    topic: q.topic,
+    // Both-language category/tag labels folded into the search text so a query like "Mary" or
+    // "Đức Mẹ" matches by taxonomy, plus the English question for cross-language search.
+    keywords: `${q.questionEn ?? ''} ${taxonomyKeywords(q.category, q.tags)}`,
   }));
   const councilQuestions = getCouncilApologetics().map((qa) => ({
     id: qa.id,

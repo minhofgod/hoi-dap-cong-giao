@@ -1,7 +1,9 @@
 ---
 question_vi: "Nếu việc làm có vai trò, chẳng phải chúng ta đang tự kiếm lấy ơn cứu độ? Và đó là những việc làm nào?"
 question_en: "If works matter, aren't we earning our salvation? And which works?"
-category: "Đức tin và việc làm"
+topic: "Đức tin và việc làm"
+category: "theology-doctrine"
+tags: ["works", "grace", "salvation"]
 subcategory: "Thần học"
 part_of: "duc-tin-va-viec-lam"
 refs_ccc: [2008, 2010, 2447]

@@ -129,7 +129,9 @@ that folder is a format reference (the `.md.txt` extension keeps it unpublished)
 ---
 question_vi: "Câu hỏi bằng tiếng Việt, hỏi như một người thật sẽ hỏi"
 question_en: "The same question in English"      # used by search + future EN
-category: "Tên chủ đề"                            # the /giai-dap index groups by this
+topic: "Tên chủ đề (cụm)"                         # cluster name — the /giai-dap index groups by this
+category: "mary-saints"                           # ONE broad category id (see taxonomy below)
+tags: ["saints", "prayer"]                        # cross-cutting tag ids (see taxonomy below)
 subcategory: "Nhánh nhỏ của chủ đề"
 refs_ccc: [956, 2683]                             # CCC paragraph numbers → link into Giáo Lý
 refs_scripture: ["Lc 20,38", "Gc 5,16"]           # inert chips (VN abbreviations)
@@ -141,6 +143,28 @@ related: []                                       # see-also sibling slugs
 Body in Vietnamese Markdown (paragraphs, **bold**, lists, > blockquotes). VI only — the
 detail page renders questionVi + one body, no language toggle.
 ```
+
+### The 3-level taxonomy — `topic`, `category`, `tags`
+
+Three separate axes, all defined in one place: **`lib/giaiDapTaxonomy.ts`** (bilingual labels).
+
+- **`topic`** — the *cluster* name (free Vietnamese text, e.g. `"Cầu nguyện với các thánh"`). The
+  `/giai-dap` grid shows one card per topic. (This is what the old `category` field held — it was
+  renamed to `topic`.)
+- **`category`** — ONE broad, audience-facing category, stored as a **stable id** (not a label) so a
+  seeker/atheist can filter to it. Valid ids: `science-faith`, `evidence-history`, `god-meaning`,
+  `theology-doctrine`, `the-church`, `mary-saints`, `scripture`, `morality-life`.
+- **`tags`** — cross-cutting tag **ids**, many per Q&A: `mary`, `papacy`, `eucharist`, `trinity`,
+  `jesus`, `resurrection`, `saints`, `faith`, `works`, `grace`, `salvation`, `bible`, `confession`,
+  `prayer`, `suffering`, `marriage`, `evangelization`, `science`, `evolution`, `miracles`,
+  `church-history`, `authority`, `icons`, `purgatory`, `baptism`, `atheism`, `protestant-objections`,
+  `free-will`.
+
+Use the **ids** verbatim (ascii-kebab), not the display labels — the labels resolve from the
+taxonomy file in both languages. To add or rename a category/tag, edit `lib/giaiDapTaxonomy.ts`
+(that's the whole change). Unknown ids still render (they fall back to showing the raw id), so a
+typo shows up as an odd chip rather than a crash. Files without `topic`/`category`/`tags` still work
+(backward-compatible): the loader reads a legacy `category:` as the `topic`.
 
 ### A topic = a cluster
 

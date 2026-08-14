@@ -1,7 +1,9 @@
 ---
 question_vi: "Người trộm lành trên thập giá được cứu chỉ nhờ đức tin, không kịp làm việc lành — đó chẳng phải bằng chứng sao?"
 question_en: "The good thief on the cross was saved by faith alone, with no time for works — isn't that proof?"
-category: "Đức tin và việc làm"
+topic: "Đức tin và việc làm"
+category: "theology-doctrine"
+tags: ["faith", "works", "salvation"]
 subcategory: "Kinh Thánh"
 part_of: "duc-tin-va-viec-lam"
 refs_ccc: [1021, 1993]

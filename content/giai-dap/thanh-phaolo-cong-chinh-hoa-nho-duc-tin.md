@@ -1,7 +1,9 @@
 ---
 question_vi: "Thánh Phaolô dạy công chính hóa nhờ đức tin, tách biệt khỏi việc làm — phải hiểu thế nào?"
 question_en: "Paul teaches justification by faith apart from works — how should that be understood?"
-category: "Đức tin và việc làm"
+topic: "Đức tin và việc làm"
+category: "theology-doctrine"
+tags: ["faith", "works", "salvation"]
 subcategory: "Kinh Thánh"
 part_of: "duc-tin-va-viec-lam"
 refs_ccc: [1963, 1992]

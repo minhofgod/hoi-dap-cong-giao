@@ -1,7 +1,9 @@
 ---
 question_vi: "Có phải chúng ta được cứu độ chỉ nhờ đức tin (Sola Fide) không?"
 question_en: "Are we saved by faith alone (Sola Fide)?"
-category: "Đức tin và việc làm"
+topic: "Đức tin và việc làm"
+category: "theology-doctrine"
+tags: ["faith", "works", "salvation", "protestant-objections"]
 subcategory: "Tổng quan"
 refs_ccc: [1987, 1989, 1815]
 refs_scripture: ["Gc 2,24", "Gl 5,6"]

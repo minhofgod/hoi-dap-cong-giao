@@ -200,6 +200,16 @@
   border-radius: var(--radius-pill);
 }
 
+.tagChip {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-quiet);
+  background: var(--surface);
+  border: 1px solid var(--border-input);
+  padding: 5px 11px;
+  border-radius: var(--radius-pill);
+}
+
 .subcategory {
   font-size: 13px;
   color: var(--text-quiet);

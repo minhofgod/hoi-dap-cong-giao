@@ -1,7 +1,9 @@
 ---
 question_vi: "Xin các thánh cầu nguyện có phải là thờ phượng không? Sao không cầu nguyện thẳng với Thiên Chúa?"
 question_en: "Is asking the saints to pray a form of worship? Why not pray directly to God?"
-category: "Cầu nguyện với các thánh"
+topic: "Cầu nguyện với các thánh"
+category: "mary-saints"
+tags: ["saints", "prayer", "protestant-objections"]
 subcategory: "Ngôn ngữ và ý nghĩa"
 refs_ccc: [2096, 956, 2683]
 refs_scripture: ["Gc 5,16", "1 Tm 2,1-4"]

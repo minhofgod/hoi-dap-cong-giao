@@ -1,7 +1,9 @@
 ---
 question_vi: "Tại sao người Công Giáo cầu nguyện với các thánh?"
 question_en: "Why do Catholics pray to the saints?"
-category: "Cầu nguyện với các thánh"
+topic: "Cầu nguyện với các thánh"
+category: "mary-saints"
+tags: ["saints", "prayer", "protestant-objections"]
 subcategory: "Tổng quan"
 refs_ccc: [956, 957, 2683]
 refs_scripture: ["Lc 20,38"]

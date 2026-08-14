@@ -1,7 +1,9 @@
 ---
 question_vi: "\"Được cứu bởi ân sủng, nhờ đức tin, không phải bởi việc làm\" (Ep 2,8-9) — vậy chẳng phải là chỉ nhờ đức tin?"
 question_en: "\"Saved by grace through faith, not by works\" (Eph 2:8-9) — isn't that faith alone?"
-category: "Đức tin và việc làm"
+topic: "Đức tin và việc làm"
+category: "theology-doctrine"
+tags: ["faith", "works", "grace", "salvation", "protestant-objections"]
 subcategory: "Kinh Thánh"
 part_of: "duc-tin-va-viec-lam"
 refs_ccc: [1987, 1815, 1993]

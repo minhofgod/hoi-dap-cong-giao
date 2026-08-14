@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
+import { CATEGORY_IDS } from './giaiDapTaxonomy';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'giai-dap');
 
@@ -9,7 +10,14 @@ export interface GiaiDapQuestion {
   slug: string;
   questionVi: string;
   questionEn?: string;
-  category: string;
+  // Cluster name — the /giai-dap index groups by this (was the `category` frontmatter field,
+  // now `topic`). Always present.
+  topic: string;
+  // Broad, audience-facing category id from lib/giaiDapTaxonomy (e.g. "mary-saints"). Optional
+  // until the .md files are migrated to the 3-level taxonomy.
+  category?: string;
+  // Cross-cutting tag ids from lib/giaiDapTaxonomy. Empty until migrated.
+  tags: string[];
   subcategory?: string;
   refsCcc: number[];
   refsScripture: string[];
@@ -29,11 +37,26 @@ function loadFile(filename: string): GiaiDapQuestion {
   const slug = filename.replace(/\.md$/, '');
   const raw = fs.readFileSync(path.join(CONTENT_DIR, filename), 'utf-8');
   const { data, content: body } = matter(raw);
+
+  // Backward-compatible taxonomy read (migration in progress):
+  //  • NEW file: `topic` = cluster name, `category` = a broad taxonomy id, `tags` = ids.
+  //  • LEGACY file: no `topic`/`tags`; `category` still holds the cluster name (Vietnamese prose).
+  // A `category:` value is treated as the broad category only when it's a known taxonomy id;
+  // otherwise it's read as the legacy cluster name (→ topic). The two value spaces are disjoint
+  // (ascii-kebab ids vs. Vietnamese prose), so this never misclassifies.
+  const rawCategory: string | undefined = data.category;
+  const rawTopic: string | undefined = data.topic;
+  const categoryIsBroad = typeof rawCategory === 'string' && CATEGORY_IDS.has(rawCategory);
+  const topic = rawTopic ?? (categoryIsBroad ? 'Giải Đáp' : rawCategory) ?? 'Giải Đáp';
+  const category = categoryIsBroad ? rawCategory : undefined;
+
   return {
     slug,
     questionVi: data.question_vi ?? '',
     questionEn: data.question_en,
-    category: data.category ?? 'Giải Đáp',
+    topic,
+    category,
+    tags: Array.isArray(data.tags) ? data.tags : [],
     subcategory: data.subcategory,
     refsCcc: data.refs_ccc ?? [],
     refsScripture: data.refs_scripture ?? [],
@@ -61,6 +84,7 @@ export function getQuestionBySlug(slug: string): GiaiDapQuestion | undefined {
   return loadFile(`${slug}.md`);
 }
 
-export function getCategories(questions: GiaiDapQuestion[]): string[] {
-  return [...new Set(questions.map((q) => q.category))];
+/** Distinct cluster names (topics) present in the given questions, in first-seen order. */
+export function getTopics(questions: GiaiDapQuestion[]): string[] {
+  return [...new Set(questions.map((q) => q.topic))];
 }

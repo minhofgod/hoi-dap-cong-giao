@@ -1,7 +1,9 @@
 ---
 question_vi: '"Chỉ có một Đấng Trung Gian là Đức Kitô" (1 Tm 2,5) — vậy sao còn xin các thánh cầu nguyện?'
 question_en: '"There is one mediator, Christ" (1 Tim 2:5) — so why ask the saints to pray?'
-category: "Cầu nguyện với các thánh"
+topic: "Cầu nguyện với các thánh"
+category: "mary-saints"
+tags: ["saints", "prayer", "jesus", "protestant-objections"]
 subcategory: "Thần học"
 refs_ccc: [970, 2634, 956]
 refs_scripture: ["1 Tm 2,5", "1 Tm 2,1-4", "Kh 5,8", "Kh 8,3-4", "Ga 2,1-11"]

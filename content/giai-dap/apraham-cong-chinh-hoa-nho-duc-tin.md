@@ -1,7 +1,9 @@
 ---
 question_vi: "Ông Ápraham được công chính hóa nhờ đức tin từ lâu trước khi làm việc gì — sao lại nói nhờ việc làm?"
 question_en: "Abraham was justified by faith long before any works — so why say by works?"
-category: "Đức tin và việc làm"
+topic: "Đức tin và việc làm"
+category: "theology-doctrine"
+tags: ["faith", "works"]
 subcategory: "Kinh Thánh"
 part_of: "duc-tin-va-viec-lam"
 refs_ccc: [145, 2010]

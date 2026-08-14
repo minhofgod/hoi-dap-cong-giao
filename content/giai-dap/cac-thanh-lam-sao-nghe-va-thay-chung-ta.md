@@ -1,7 +1,9 @@
 ---
 question_vi: "Các thánh đã qua đời, làm sao nghe và thấy được chúng ta?"
 question_en: "The saints have died — how can they hear and see us?"
-category: "Cầu nguyện với các thánh"
+topic: "Cầu nguyện với các thánh"
+category: "mary-saints"
+tags: ["saints", "prayer"]
 subcategory: "Thần học"
 refs_ccc: [954, 956, 1023]
 refs_scripture: ["1 Cr 13,12", "Kh 6,9-11", "Dt 12,1"]

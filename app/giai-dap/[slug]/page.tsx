@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
 import { getAllQuestions, getQuestionBySlug, type GiaiDapQuestion } from '@/lib/giaiDap';
+import { categoryLabel, tagLabel } from '@/lib/giaiDapTaxonomy';
 import { ScriptureRef } from '@/components/ScriptureRef';
 import { ScriptureBody } from '@/components/ScriptureBody';
 import { CatechismRef } from '@/components/CatechismRef';
@@ -25,6 +26,32 @@ export function generateStaticParams() {
 // when the licensing flag is on. enrichReferences handles both gates internally.
 function enrichBody(html: string) {
   return enrichReferences(html);
+}
+
+// Broad category + tag chips for a Q&A. The broad category (from the taxonomy) leads; if a Q&A
+// isn't yet migrated to a category, its cluster name (`topic`) stands in so a chip is always shown.
+function TaxonomyChips({ question }: { question: GiaiDapQuestion }) {
+  const cat = question.category ? categoryLabel(question.category) : null;
+  return (
+    <div className={styles.chipRow}>
+      {cat ? (
+        <span className={styles.categoryChip}>
+          <T vi={cat.vi} en={cat.en} />
+        </span>
+      ) : (
+        <span className={styles.categoryChip}>{question.topic}</span>
+      )}
+      {question.tags.map((t) => {
+        const l = tagLabel(t);
+        return (
+          <span key={t} className={styles.tagChip}>
+            <T vi={l.vi} en={l.en} />
+          </span>
+        );
+      })}
+      {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
+    </div>
+  );
 }
 
 function Refs({ ccc, scripture }: { ccc: number[]; scripture: string[] }) {
@@ -103,10 +130,7 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
               <Link href="/giai-dap" className={styles.backLink}>
                 ‹ <T vi="Tất cả câu hỏi" en="All questions" />
               </Link>
-              <div className={styles.chipRow}>
-                <span className={styles.categoryChip}>{question.category}</span>
-                {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
-              </div>
+              <TaxonomyChips question={question} />
               <h1 className={styles.question}>{question.questionVi}</h1>
 
               {CANVAS_ENABLED && CANVAS_FOR[question.slug] && (
@@ -184,10 +208,7 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
               ‹ <T vi="Tất cả câu hỏi" en="All questions" />
             </Link>
           )}
-          <div className={styles.chipRow}>
-            <span className={styles.categoryChip}>{question.category}</span>
-            {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
-          </div>
+          <TaxonomyChips question={question} />
           <h1 className={styles.question}>{question.questionVi}</h1>
           <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />
 

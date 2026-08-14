@@ -6,7 +6,9 @@ folder to publish a question — the slug becomes the URL: /giai-dap/<slug>.
 ---
 question_vi: "Tại sao Hội Thánh Công Giáo tôn kính Đức Maria?"
 question_en: "Why does the Catholic Church honor Mary?"
-category: "Giáo lý"
+topic: "Cầu nguyện với các thánh"    # cluster name — the /giai-dap grid groups by this
+category: "mary-saints"              # ONE broad category id from lib/giaiDapTaxonomy.ts
+tags: ["mary", "saints"]             # cross-cutting tag ids from lib/giaiDapTaxonomy.ts
 subcategory: "Đức Maria"
 refs_ccc: [963, 971]
 refs_scripture: ["Lc 1,48"]

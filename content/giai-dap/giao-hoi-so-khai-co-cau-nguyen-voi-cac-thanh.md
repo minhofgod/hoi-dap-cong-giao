@@ -1,7 +1,9 @@
 ---
 question_vi: "Giáo Hội sơ khai có tin vào việc cầu nguyện với các thánh không?"
 question_en: "Did the early Church believe in praying to the saints?"
-category: "Cầu nguyện với các thánh"
+topic: "Cầu nguyện với các thánh"
+category: "mary-saints"
+tags: ["saints", "prayer", "church-history"]
 subcategory: "Lịch sử Giáo Hội"
 refs_ccc: [957, 2683]
 refs_scripture: []

@@ -12,7 +12,7 @@ import styles from '../app/tim-kiem/tim-kiem.module.css';
 
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
-export type QItem = { slug: string; question: string; category: string };
+export type QItem = { slug: string; question: string; topic: string; keywords: string };
 export type FItem = { slug: string; name: string; meta: string; keywords: string };
 export type VItem = { slug: string; title: string; summary: string };
 export type CQItem = { id: string; question: string; council: string; keywords: string; href: string };
@@ -60,7 +60,8 @@ export function GlobalSearch({
   const nq = norm(q);
 
   const qResults = useMemo(
-    () => (q ? questions.filter((x) => norm(`${x.question} ${x.category}`).includes(nq)).slice(0, 8) : []),
+    () =>
+      q ? questions.filter((x) => norm(`${x.question} ${x.topic} ${x.keywords}`).includes(nq)).slice(0, 8) : [],
     [q, nq, questions]
   );
   const cqResults = useMemo(
@@ -134,7 +135,7 @@ export function GlobalSearch({
               {qResults.map((x) => (
                 <Link key={x.slug} href={`/giai-dap/${x.slug}`} className={styles.row}>
                   <span className={styles.rowTitle}>{x.question}</span>
-                  <span className={styles.rowMeta}>{x.category}</span>
+                  <span className={styles.rowMeta}>{x.topic}</span>
                 </Link>
               ))}
             </section>
