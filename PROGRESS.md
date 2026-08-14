@@ -1,7 +1,7 @@
 # PROGRESS — Hỏi Đáp Công Giáo
 
 Handoff / status doc. Update this at natural stopping points so any new session (or person)
-can pick up without re-deriving context. Last updated: **2026-08-13**.
+can pick up without re-deriving context. Last updated: **2026-08-14**.
 
 > There is also an auto-loaded Claude Code memory for this project (index at
 > `.claude/projects/<...>/memory/MEMORY.md`). This file is the in-repo, human-readable backup.
@@ -30,14 +30,45 @@ Sections (`app/`):
   pattern as the Visual Rosary site. **Every push to `main` auto-deploys** — no CLI needed. Vercel
   auto-detects Next.js; no `vercel.json` required.
 - **To ship a change:** `git add -A && git commit && git push origin main` → Vercel builds + deploys automatically.
-- **Env vars:** none required. Leave `NEXT_PUBLIC_SCRIPTURE_POPOVER` **unset** to keep the Scripture
-  popover off (copyrighted CGKPV text). `content/bible.json` is gitignored; `lib/bibleRefs.ts` degrades
-  to inert chips when it's absent, so the production build is safe without it.
+- **Env vars (both unset on Vercel by default):** `NEXT_PUBLIC_SCRIPTURE_POPOVER` — leave unset to keep
+  the Scripture popover off (copyrighted CGKPV text; `content/bible.json` is gitignored, `lib/bibleRefs.ts`
+  degrades to inert chips when absent). `NEXT_PUBLIC_CANVAS` — leave unset to keep the `/so-do` canvas
+  diagrams hidden (route 404s + links hidden); set to `1` to publish them once finalized.
 - Initial commit `c481fad`; git identity `minhofgod <minh.c.tran1992@gmail.com>` (repo-local).
 
 ---
 
 ## Current status
+
+### Since 2026-08-13 — major additions (all live unless noted)
+
+- **Deployed & live** at hoi-dap-cong-giao.vercel.app (auto-deploys on push to `main`).
+- **Video library** (`/video`): index + watch pages for the 3 youtube.com/@MinhofGod videos.
+  `content/video/*.md` (frontmatter: title, youtube_id, duration, order, summary; body = optional
+  written companion). Facade YouTube embed (`components/VideoEmbed.tsx`, no cookies until play).
+  Bilingual via optional `content/video/<slug>.en.md` (English body + title + summary). "Video khác"
+  suggested list on watch pages. `lib/videos.ts`.
+- **Global search** (`/tim-kiem`, `components/GlobalSearch.tsx`): the header search now points here and
+  searches Giải Đáp + Giáo Lý (full-text via `public/search-content.json`) + Giáo Phụ + Video, grouped,
+  reads `?q`. (Was previously a dead box that dumped into `/giao-ly/1`.)
+- **Bilingual UI chrome:** `<T vi en>` helper (`components/T.tsx`) + `.ui-vi/.ui-en` in `globals.css`.
+  Header nav, homepage, and the Video / Giải Đáp / search / Catechism / Fathers browsers + reader
+  chrome all switch on the VI/EN/Cả hai toggle (now global in `SiteHeader`). `LanguageToggle` reads live
+  `data-lang` via `useLang` so every instance stays in sync.
+- **Sticky header** (`SiteHeader` is `position: sticky`).
+- **Homepage redesign:** the 3 section cards are photo banners (sacred art); added a **Video** band and a
+  **Đọc Kinh Mân Côi** companion band (→ dockinhmancoi.com, Murillo *Annunciation* image). About band +
+  placeholder footer credits removed (commented out, not deleted).
+- **Canvas diagrams** (`/so-do`, `components/CanvasViewer.tsx` + `lib/canvas.ts`): pan/zoom viewer for
+  Obsidian `.canvas` files. **Gated OFF on Vercel** behind `NEXT_PUBLIC_CANVAS` (on locally via
+  `.env.local`). First one: Sola Fide. Renders markdown + Obsidian callouts, strips vault wikilinks.
+- **New logo:** `components/BrandMark.tsx` (inline SVG) + `app/icon.svg` favicon.
+- **Giải Đáp:** 2nd cluster "Đức tin và việc làm" (Sola Fide); index redesigned as **topic cards**
+  (`components/GiaiDapBrowser.tsx`); answer pages gained SiteHeader + prev/next + back links.
+- **Two-session workflow:** content vs website split; conventions + the Grok blog prompts live in
+  `docs/content-guide.md`. eslint now ignores nested `.next` (subagent worktree build output).
+- ⚠️ **Dropbox + `.next`:** the repo is inside Dropbox; Dropbox syncing `.next` causes EPERM / broken
+  HMR — restart `next dev` after edits, and exclude `.next` + `node_modules` from Dropbox sync.
 
 ### Giáo Phụ (Church Fathers) — active
 - Data migrated to a **V2 layer**: `lib/churchFathersV2.ts`. All pages/components import from V2.
@@ -70,10 +101,10 @@ Sections (`app/`):
   to merge into `parts` or just link as `related` (see memory `giai-dap-content-workflow`).
 - Landing hero (`components/FeaturedQuestion.tsx`) shows a featured question + teaser + "Câu khác" cycler.
 
-### Landing page — now complete to design
-`app/page.tsx` was a partial build (stopped after the Giáo Lý band). Now matches `design/README.md`
-top-to-bottom: section cards → hero → Giáo Lý band → **Giáo Phụ band** → full-bleed photo →
-**Về trang này / Nguồn** → **footer**. Images are gradient placeholders (photography not supplied yet).
+### Landing page — redesigned (see "Since 2026-08-13" above)
+`app/page.tsx` order: photo section cards → hero (featured Q&A) → Giáo Lý band → Giáo Phụ band →
+**Video band** → **Đọc Kinh Mân Côi band** → footer. Real sacred-art images now (no gradient
+placeholders); the "Về trang này / Nguồn" band was removed (commented out).
 
 ### Reader (Giáo Lý) fixes
 - Left-tree search now accepts a **paragraph number** (e.g. `847` → jump to `/giao-ly/811#847`), not just text.
@@ -83,12 +114,10 @@ top-to-bottom: section cards → hero → Giáo Lý band → **Giáo Phụ band*
 ### Site-wide
 - `components/BackToTop.tsx` — floating back-to-top button (appears after 600px scroll), wired in `app/layout.tsx`.
 
-### Health (as of 2026-08-13)
-- `npx tsc --noEmit` — ✅ clean (fixed a `number[]` vs `[number,number]` tuple cast in
-  `lib/content.ts` and `lib/toc-client.ts`).
-- `npx eslint` — ✅ clean (fixed a ref-in-render in `components/GiaoLyTree.tsx`; annotated
-  legitimate React-19 `set-state-in-effect` post-mount reads in GiaoLyTree/ReadingProgress/
-  LanguageToggle/ReaderRightRail with scoped disables + reasons).
+### Health (as of 2026-08-14)
+- `npx tsc --noEmit` — ✅ clean. `npm run lint` — ✅ clean. `npx next build` — ✅ (142 static pages).
+- eslint ignores build output including nested `.next` under `.claude/worktrees/` (see `eslint.config.mjs`).
+- React 19 `set-state-in-effect` post-mount localStorage/DOM reads carry scoped disables + reasons.
 
 ---
 
@@ -111,14 +140,22 @@ correct hydration-safe code.
 
 ## Next / open questions (confirm with the owner)
 
-- [ ] Is the Giáo Phụ section considered complete, or is content/design still in progress?
-- [ ] Remove dead `lib/churchFathers.ts` (V1) once V2 is confirmed final?
-- [ ] Any remaining fathers to add beyond the current 32?
+**Deferred / TODO**
+- [ ] **Catechism title i18n** — reader titles, the left TOC sidebar, and homepage part-card titles stay
+  Vietnamese in EN mode because `content/toc.json` `titleEn` is misaligned at the article level. Fix by
+  re-aligning from the Vatican CCC structure (matches 1:1: 4/8/20/67). Full plan in memory
+  `todo-catechism-title-i18n`. The bilingual title rendering was built then reverted this session.
+- [ ] English `.en.md` bodies for the other 2 videos (only the Resurrection one is bilingual so far).
+- [ ] Finalize the remaining Obsidian canvases, then publish: set `NEXT_PUBLIC_CANVAS=1` in Vercel env
+  and add a `/so-do/<slug>` page + `CANVAS_FOR` entry per topic.
+- [ ] Fill the footer credit placeholders (`[nguồn]` / `[tên]` — currently commented out in `app/page.tsx`).
 - [ ] Finish the last 3 Church Father portraits once Wikimedia's throttle clears (see Portrait status).
-- [ ] More Giải Đáp topics from other video scripts (same 6-file cluster pattern).
-- [ ] The global header search (`SiteHeader`) still just navigates to `/giao-ly/1` — not wired to real search.
-- [ ] Replace gradient placeholders with real licensed photography before launch.
-- [ ] **Planned (owner request): redesign the Giải Đáp index as topic CARDS** — one card per main
-  question/topic (e.g. "Cầu nguyện với các thánh"), like the Catechism topic cards (banner image on
-  top). Deferred until there are more than one topic; today it's a grouped list + live search
-  (`components/GiaiDapBrowser.tsx`). Giáo Phụ index also has search now (`components/giao-phu/FathersBrowser.tsx`).
+- [ ] Remove dead `lib/churchFathers.ts` (V1) once V2 is confirmed final.
+
+**Ongoing**
+- [ ] More Giải Đáp clusters + more videos (2 clusters + 3 videos so far).
+- [ ] Optional: custom domain for the Hỏi Đáp site (Vercel Hobby allows it) like dockinhmancoi.com.
+
+**Done since last update:** deployed to Vercel · Giải Đáp topic-cards redesign · global header search
+(`/tim-kiem`) · Video library · bilingual UI chrome + synced language toggle · sticky header · homepage
+photo cards + Video/Rosary bands.
