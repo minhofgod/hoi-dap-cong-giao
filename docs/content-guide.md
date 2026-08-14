@@ -114,12 +114,88 @@ More videos will be added over time — create a new `content/video/<slug>.md` f
 | `bang-chung-chua-giesu-song-lai` | H09DOyx93Rc |
 | `bang-chung-lich-su-cua-kinh-thanh` | 6raOadKc54Q |
 
-## Giải Đáp Q&A
+## Giải Đáp Q&A — turning a source into questions
 
-See the `giai-dap-content-workflow` memory. Files: `content/giai-dap/*.md`. A topic = a cluster:
-one anchor (`featured: true`) + member questions (`part_of: <anchor-slug>`, and listed in the
-anchor's `parts:`). Frontmatter keys: `question_vi`, `question_en`, `category`, `subcategory`,
-`part_of` / `parts`, `refs_ccc`, `refs_scripture`, `featured`, `related`.
+This is the workflow for converting a **source** — a video script, a blog post you wrote elsewhere,
+or a back-and-forth with someone in the comments — into Giải Đáp Q&A content. (The
+`giai-dap-content-workflow` memory has the same workflow in brief; this is the fuller version.)
+
+### The data model
+
+Files: `content/giai-dap/<slug>.md`. The slug is the URL (`/giai-dap/<slug>`). `EXAMPLE.md.txt` in
+that folder is a format reference (the `.md.txt` extension keeps it unpublished). Frontmatter:
+
+```yaml
+---
+question_vi: "Câu hỏi bằng tiếng Việt, hỏi như một người thật sẽ hỏi"
+question_en: "The same question in English"      # used by search + future EN
+category: "Tên chủ đề"                            # the /giai-dap index groups by this
+subcategory: "Nhánh nhỏ của chủ đề"
+refs_ccc: [956, 2683]                             # CCC paragraph numbers → link into Giáo Lý
+refs_scripture: ["Lc 20,38", "Gc 5,16"]           # inert chips (VN abbreviations)
+featured: false                                   # true = the cluster's anchor
+part_of: "<anchor-slug>"                          # members only — back-link to the anchor
+parts: []                                         # anchor only — ordered member slugs
+related: []                                       # see-also sibling slugs
+---
+Body in Vietnamese Markdown (paragraphs, **bold**, lists, > blockquotes). VI only — the
+detail page renders questionVi + one body, no language toggle.
+```
+
+### A topic = a cluster
+
+A rich source (a whole video, a long blog) becomes a **cluster**: one **anchor** question
+(`featured: true`) that gives the overview, plus several **member** questions, each tackling one
+objection. The anchor lists its members in `parts:` (ordered); each member has `part_of:` pointing
+back. The anchor's page assembles the overview + every part as sections with a side nav; the member
+pages stay separate for search/SEO (no content duplication). `featured: true` also leads its group
+on `/giai-dap` and can appear in the homepage hero.
+
+A single comment or one-off objection becomes **one** Q&A, `related`-linked to an existing cluster
+if it fits. **Owner-set rule:** never auto-add a new question to an existing anchor's `parts:` —
+**ask** whether to merge it into the article (`parts`) or just cross-link it (`related`). Default to
+`related`.
+
+### The process (per source)
+
+1. **Read the source, extract the real questions.** List the distinct objections/misconceptions it
+   answers, each phrased as a *real person* would ask (natural, even skeptical) — not a soft
+   catechism prompt. **Show the user this question list and get a nod before writing the answers.**
+2. **Decide cluster vs single**, and whether it extends an existing `category` (reuse the exact
+   category name so it groups) or starts a new one.
+3. **Write each answer** in Vietnamese: lead with the short direct answer (often "Không. …" or
+   "Có. …"), then the reasoning, then Scripture, then tie it to the Catechism, then a one-line
+   takeaway. Use the source's arguments as the backbone; you may strengthen with Scripture, CCC, and
+   standard Catholic teaching, but **never invent** facts, quotes, citations, dates, or numbers.
+4. **Source every answer.** Each answer carries **≥1 `refs_ccc`** (sourcing is the point of the
+   site). Verify Scripture refs and **extract verse text from CGKPV** (see below) — do not hand-type
+   sacred text. Render a quoted verse as a `>` blockquote with a `— Abbr C,V (CGKPV)` citation.
+5. **Verify terminology** per the "Vietnamese terminology" section above (grep the site + HĐGM VN;
+   never VN Wikipedia). Keep the tone **charitable**, not polemical — especially for Protestant or
+   other objections (the "Cầu nguyện với các thánh" cluster models this).
+6. **Wire the cluster:** anchor `parts:` lists the real member slugs in order; each member has
+   `part_of:` + `related:`. Double-check every slug in `parts`/`related` matches an actual file.
+7. **Verify before done:** `npx tsc --noEmit` and `npm run lint` clean; the new files parse; the
+   pages render at `/giai-dap/<slug>`.
+
+### CGKPV — extracting verse text (never hand-type)
+
+The CGKPV Vietnamese Bible lives at `D:\Dropbox\Obsidian Vault\Bible\CGKPV` → `Cựu Ước` / `Tân Ước`
+→ `NN Book\Book C.md` (one file per chapter). Verses are `###### N` headings followed by the text;
+the file's frontmatter `aliases` holds the VN abbreviation (Lc, Gc, 1 Tm, Kh, Dt, Mt, 1 Cr, Ga,
+Đnl…). Extract a verse with a small node script that slices between `###### N` markers. Multi-verse
+quotes use superscript verse numbers (¹²³).
+
+### Good-Q&A checklist
+
+- One question = one real objection, in a real person's voice.
+- Direct answer first, then reasoning → Scripture → Catechism → takeaway.
+- ≥1 `refs_ccc`; Scripture verified + extracted from CGKPV; nothing invented.
+- Charitable tone; verified Vietnamese terminology.
+- Slug is descriptive kebab-case from the Vietnamese, no diacritics.
+- Inline refs written as VN abbreviations `(Lc 20,38)` so the Scripture popover can detect them.
+- Anchor image (optional): a cluster anchor can have a banner at `public/images/giai-dap/<slug>.jpg`
+  (public-domain; follow the Images rule above — also add it to the Catholic Images library).
 
 ## Verify + deploy
 
