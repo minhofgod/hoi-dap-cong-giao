@@ -19,16 +19,16 @@
   },
   "background": [
     {
-      "vi": "Đầu thế kỷ IV, một linh mục thành Alêxanđria tên là Ariô bắt đầu giảng dạy rằng Ngôi Con — Đức Giêsu Kitô — không đời đời như Chúa Cha, nhưng là thụ tạo cao trọng nhất, «đã có một thời Ngài chưa hiện hữu». Giáo thuyết này lan nhanh và đe dọa chia rẽ toàn Hội Thánh.",
-      "en": "In the early fourth century a priest of Alexandria named Arius began teaching that the Son — Jesus Christ — was not eternal like the Father but the highest of creatures, that «there was a time when he was not». The teaching spread quickly and threatened to split the whole Church."
+      "vi": "Đầu thế kỷ IV, một linh mục thành Alêxanđria tên là Ariô bắt đầu giảng dạy rằng Ngôi Con — Đức Giêsu Kitô — không đời đời như Chúa Cha, nhưng là thụ tạo cao trọng nhất, “đã có một thời Ngài chưa hiện hữu”. Giáo thuyết này lan nhanh và đe dọa chia rẽ toàn Hội Thánh.",
+      "en": "In the early fourth century a priest of Alexandria named Arius began teaching that the Son — Jesus Christ — was not eternal like the Father but the highest of creatures, that “there was a time when he was not”. The teaching spread quickly and threatened to split the whole Church."
     },
     {
       "vi": "Năm 325, hoàng đế Constantinô — vừa cho Kitô giáo được tự do — triệu tập khoảng ba trăm giám mục về Nicêa để giải quyết cuộc tranh luận. Đây là công đồng chung đầu tiên: lần đầu tiên các giám mục từ khắp thế giới Kitô giáo cùng họp để tuyên xưng một đức tin.",
       "en": "In 325 the emperor Constantine — who had just granted the Church its freedom — summoned about three hundred bishops to Nicaea to settle the dispute. It was the first ecumenical council: for the first time bishops from across the Christian world met to profess one faith together."
     },
     {
-      "vi": "Công đồng bác bỏ giáo thuyết của Ariô và tuyên xưng Ngôi Con là «Thiên Chúa thật bởi Thiên Chúa thật, được sinh ra mà không phải được tạo thành, đồng bản thể (homoousios) với Đức Chúa Cha». Từ đây, Hội Thánh có bản Kinh Tin Kính mà đến nay vẫn đọc trong Thánh Lễ.",
-      "en": "The council rejected Arius's teaching and confessed that the Son is «true God from true God, begotten not made, consubstantial (homoousios) with the Father». From it came the Creed the Church still professes at Mass today."
+      "vi": "Công đồng bác bỏ giáo thuyết của Ariô và tuyên xưng Ngôi Con là “Thiên Chúa thật bởi Thiên Chúa thật, được sinh ra mà không phải được tạo thành, đồng bản thể (homoousios) với Đức Chúa Cha”. Từ đây, Hội Thánh có bản Kinh Tin Kính mà đến nay vẫn đọc trong Thánh Lễ.",
+      "en": "The council rejected Arius's teaching and confessed that the Son is “true God from true God, begotten not made, consubstantial (homoousios) with the Father”. From it came the Creed the Church still professes at Mass today."
     }
   ],
   "facts": [
@@ -45,8 +45,8 @@
     { "title": { "vi": "Quy định ngày mừng lễ Phục Sinh", "en": "The dating of Easter" }, "latin": "", "date": "325" }
   ],
   "documents_note": {
-    "vi": "Kinh Tin Kính được bổ sung tại Công đồng Constantinôpôli I (381); bản «Nicêa–Constantinôpôli» ấy là kinh chúng ta đọc ngày nay.",
-    "en": "The Creed was expanded at the First Council of Constantinople (381); that «Niceno-Constantinopolitan» form is the one we recite today."
+    "vi": "Kinh Tin Kính được bổ sung tại Công đồng Constantinôpôli I (381); bản “Nicêa–Constantinôpôli” ấy là kinh chúng ta đọc ngày nay.",
+    "en": "The Creed was expanded at the First Council of Constantinople (381); that “Niceno-Constantinopolitan” form is the one we recite today."
   },
   "sections": [
     {
@@ -60,10 +60,10 @@
     },
     {
       "id": "homoousios",
-      "title": { "vi": "Một chữ làm nên khác biệt: «đồng bản thể»", "en": "The word that made the difference: «consubstantial»" },
+      "title": { "vi": "Một chữ làm nên khác biệt: “đồng bản thể”", "en": "The word that made the difference: “consubstantial”" },
       "body": {
-        "vi": "Để loại trừ mọi cách hiểu mập mờ, công đồng dùng một từ Hy Lạp không có trong Kinh Thánh: «homoousios» — «đồng một bản thể». Ngôi Con có cùng một bản tính thần linh với Chúa Cha, chứ không chỉ «giống» Chúa Cha. Chữ này về sau trở thành nền tảng cho toàn bộ đạo lý về Chúa Ba Ngôi.",
-        "en": "To rule out every ambiguous reading, the council used a Greek word not found in Scripture: «homoousios» — «of one substance». The Son shares the very same divine nature as the Father, not merely a «likeness» to him. This term later became the foundation of the whole doctrine of the Trinity."
+        "vi": "Để loại trừ mọi cách hiểu mập mờ, công đồng dùng một từ Hy Lạp không có trong Kinh Thánh: “homoousios” — “đồng một bản thể”. Ngôi Con có cùng một bản tính thần linh với Chúa Cha, chứ không chỉ “giống” Chúa Cha. Chữ này về sau trở thành nền tảng cho toàn bộ đạo lý về Chúa Ba Ngôi.",
+        "en": "To rule out every ambiguous reading, the council used a Greek word not found in Scripture: “homoousios” — “of one substance”. The Son shares the very same divine nature as the Father, not merely a “likeness” to him. This term later became the foundation of the whole doctrine of the Trinity."
       },
       "open": false
     },
@@ -79,10 +79,10 @@
   ],
   "apologetics": [
     {
-      "q": { "vi": "Có phải hoàng đế Constantinô «bịa ra» thần tính của Chúa Giêsu tại Nicêa?", "en": "Did the emperor Constantine «invent» Jesus' divinity at Nicaea?" },
+      "q": { "vi": "Có phải hoàng đế Constantinô “bịa ra” thần tính của Chúa Giêsu tại Nicêa?", "en": "Did the emperor Constantine “invent” Jesus' divinity at Nicaea?" },
       "a": {
-        "vi": "Không. Constantinô triệu tập và tài trợ cho công đồng, nhưng ông không phải giám mục và không định đoạt đạo lý. Niềm tin rằng Đức Giêsu là Thiên Chúa đã có từ thời các Tông đồ (x. Ga 1,1; 20,28). Nicêa không «tạo ra» tín điều ấy, mà xác định lại bằng ngôn từ rõ ràng để chống một sai lạc mới. Ngoài ra, Nicêa không hề bàn về việc chọn lựa các sách Kinh Thánh — đó là một hiểu lầm phổ biến.",
-        "en": "No. Constantine convened and funded the council, but he was not a bishop and did not decide doctrine. Belief that Jesus is God goes back to the Apostles (cf. John 1:1; 20:28). Nicaea did not «create» that belief; it restated it in clear words against a new error. Nicaea also had nothing to do with choosing the books of the Bible — a common misconception."
+        "vi": "Không. Constantinô triệu tập và tài trợ cho công đồng, nhưng ông không phải giám mục và không định đoạt đạo lý. Niềm tin rằng Đức Giêsu là Thiên Chúa đã có từ thời các Tông đồ (x. Ga 1,1; 20,28). Nicêa không “tạo ra” tín điều ấy, mà xác định lại bằng ngôn từ rõ ràng để chống một sai lạc mới. Ngoài ra, Nicêa không hề bàn về việc chọn lựa các sách Kinh Thánh — đó là một hiểu lầm phổ biến.",
+        "en": "No. Constantine convened and funded the council, but he was not a bishop and did not decide doctrine. Belief that Jesus is God goes back to the Apostles (cf. John 1:1; 20:28). Nicaea did not “create” that belief; it restated it in clear words against a new error. Nicaea also had nothing to do with choosing the books of the Bible — a common misconception."
       }
     }
   ],
