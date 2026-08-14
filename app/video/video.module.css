@@ -139,13 +139,69 @@
   margin-top: 22px;
 }
 .body {
-  margin-top: 22px;
+  margin-top: 26px;
   font-size: 16px;
   line-height: 1.8;
   color: var(--text-body);
 }
 .body p {
   margin: 0 0 16px;
+}
+.body h2 {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin: 32px 0 12px;
+}
+.body h3 {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin: 24px 0 10px;
+}
+.body > :first-child {
+  margin-top: 0;
+}
+.body ul,
+.body ol {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+.body li {
+  margin-bottom: 6px;
+}
+.body strong {
+  color: var(--text-heading);
+}
+.body a {
+  color: var(--accent-deep);
+  text-decoration: underline;
+}
+.body blockquote {
+  margin: 16px 0;
+  padding: 6px 0 6px 18px;
+  border-left: 3px solid var(--accent-tint);
+  color: var(--text-quiet);
+  font-style: italic;
+}
+.body figure {
+  margin: 20px 0;
+}
+.body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 4px 0;
+}
+.body figcaption,
+.body img + em {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--text-faint);
 }
 .ytLink {
   display: inline-flex;
