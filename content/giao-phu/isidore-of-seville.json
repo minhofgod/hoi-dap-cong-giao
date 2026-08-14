@@ -225,13 +225,13 @@
   ],
   "ccc_refs": [],
   "portrait": {
-    "src": "",
+    "src": "/images/church-fathers/isidore-of-seville.jpg",
     "medium": {
-      "vi": "",
-      "en": ""
+      "vi": "Chân dung truyền thống",
+      "en": "Traditional portrait"
     },
-    "source": "",
-    "license": "",
-    "available": false
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
   }
 }

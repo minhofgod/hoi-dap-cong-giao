@@ -215,13 +215,13 @@
   ],
   "ccc_refs": [],
   "portrait": {
-    "src": "",
+    "src": "/images/church-fathers/john-cassian.jpg",
     "medium": {
-      "vi": "",
-      "en": ""
+      "vi": "Ảnh thánh truyền thống",
+      "en": "Traditional icon"
     },
-    "source": "",
-    "license": "",
-    "available": false
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
   }
 }
