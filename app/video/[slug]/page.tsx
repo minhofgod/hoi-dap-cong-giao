@@ -26,6 +26,11 @@ export default async function VideoWatchPage({ params }: { params: Promise<{ slu
   const video = getVideoBySlug(slug);
   if (!video) notFound();
 
+  // Other videos to suggest at the end (in display order, current one excluded).
+  const more = getAllVideos()
+    .filter((v) => v.slug !== slug)
+    .slice(0, 6);
+
   return (
     <>
       <SiteHeader />
@@ -51,6 +56,29 @@ export default async function VideoWatchPage({ params }: { params: Promise<{ slu
         >
           Xem trên YouTube ↗
         </a>
+
+        {more.length > 0 && (
+          <section className={styles.more}>
+            <h2 className={styles.moreTitle}>Video khác</h2>
+            <div className={styles.moreGrid}>
+              {more.map((v) => (
+                <Link key={v.slug} href={`/video/${v.slug}`} className={styles.moreCard}>
+                  <span className={styles.moreThumb}>
+                    {/* eslint-disable-next-line @next/next/no-img-element -- external YouTube thumbnail */}
+                    <img
+                      src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`}
+                      alt=""
+                      loading="lazy"
+                      className={styles.moreThumbImg}
+                    />
+                    {v.duration && <span className={styles.duration}>{v.duration}</span>}
+                  </span>
+                  <span className={styles.moreCardTitle}>{v.title}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
       </main>
     </>
   );
