@@ -15,6 +15,8 @@ import {
   ERA_LABEL,
   type Bi,
 } from '@/lib/councilsV2';
+import { CatechismRef } from '@/components/CatechismRef';
+import { resolveCatechism } from '@/lib/content';
 import styles from './council.module.css';
 
 export function generateStaticParams() {
@@ -115,9 +117,7 @@ export default async function CouncilPage({ params }: { params: Promise<{ slug: 
                 <Bi2 value={UI.ccc} as="span" className={styles.cccLabel} />
               </span>
               {council.ccc_refs.map((n) => (
-                <Link key={n} href={`/giao-ly/${n}`} className={styles.cccChip}>
-                  § {n}
-                </Link>
+                <CatechismRef key={n} number={n} data={resolveCatechism(n)} className={styles.cccChip} />
               ))}
             </div>
           )}
