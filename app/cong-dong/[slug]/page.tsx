@@ -16,7 +16,9 @@ import {
   type Bi,
 } from '@/lib/councilsV2';
 import { CatechismRef } from '@/components/CatechismRef';
+import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { resolveCatechism } from '@/lib/content';
+import { enrichBi } from '@/lib/bibleRefs';
 import styles from './council.module.css';
 
 export function generateStaticParams() {
@@ -101,10 +103,9 @@ export default async function CouncilPage({ params }: { params: Promise<{ slug: 
         <div className={styles.column}>
           <SectionHeading {...UI.background} />
           {council.background.map((p, i) => (
-            <Bi2
+            <ScriptureBi2
               key={i}
-              value={p}
-              as="p"
+              {...enrichBi(p)}
               viClassName={styles.bodyVi}
               enClassName={styles.bodyVi}
               enRecessedClassName={styles.bodyEnRecessed}
@@ -158,9 +159,8 @@ export default async function CouncilPage({ params }: { params: Promise<{ slug: 
             </>
           )}
           {(council.documents_note.vi || council.documents_note.en) && (
-            <Bi2
-              value={council.documents_note}
-              as="p"
+            <ScriptureBi2
+              {...enrichBi(council.documents_note)}
               viClassName={styles.worksNote}
               enClassName={styles.worksNote}
               enRecessedClassName={styles.worksNoteEnRecessed}
@@ -170,7 +170,7 @@ export default async function CouncilPage({ params }: { params: Promise<{ slug: 
           {council.sections.length > 0 && (
             <div className={styles.collapsibles}>
               {council.sections.map((s) => (
-                <CollapsibleSection key={s.id} section={s} />
+                <CollapsibleSection key={s.id} section={s} body={enrichBi(s.body)} />
               ))}
             </div>
           )}
@@ -185,9 +185,8 @@ export default async function CouncilPage({ params }: { params: Promise<{ slug: 
                 {council.apologetics.map((item, i) => (
                   <div key={i} id={`hoi-${i + 1}`} className={styles.apologeticsItem}>
                     <Bi2 value={item.q} as="div" className={styles.apologeticsQ} />
-                    <Bi2
-                      value={item.a}
-                      as="p"
+                    <ScriptureBi2
+                      {...enrichBi(item.a)}
                       viClassName={styles.apologeticsA}
                       enClassName={styles.apologeticsA}
                       enRecessedClassName={styles.apologeticsAEnRecessed}

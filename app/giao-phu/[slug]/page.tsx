@@ -16,7 +16,9 @@ import {
   type Bi,
 } from '@/lib/churchFathersV2';
 import { CatechismRef } from '@/components/CatechismRef';
+import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { resolveCatechism } from '@/lib/content';
+import { enrichBi } from '@/lib/bibleRefs';
 import styles from './father.module.css';
 
 export function generateStaticParams() {
@@ -98,10 +100,9 @@ export default async function ChurchFatherPage({ params }: { params: Promise<{ s
         <div className={styles.column}>
           <SectionHeading {...UI.life} />
           {father.life.map((p, i) => (
-            <Bi2
+            <ScriptureBi2
               key={i}
-              value={p}
-              as="p"
+              {...enrichBi(p)}
               viClassName={styles.bodyVi}
               enClassName={styles.bodyVi}
               enRecessedClassName={styles.bodyEnRecessed}
@@ -155,9 +156,8 @@ export default async function ChurchFatherPage({ params }: { params: Promise<{ s
             ))}
           </div>
           {(father.works_note.vi || father.works_note.en) && (
-            <Bi2
-              value={father.works_note}
-              as="p"
+            <ScriptureBi2
+              {...enrichBi(father.works_note)}
               viClassName={styles.worksNote}
               enClassName={styles.worksNote}
               enRecessedClassName={styles.worksNoteEnRecessed}
@@ -167,7 +167,7 @@ export default async function ChurchFatherPage({ params }: { params: Promise<{ s
           {father.sections.length > 0 && (
             <div className={styles.collapsibles}>
               {father.sections.map((s) => (
-                <CollapsibleSection key={s.id} section={s} />
+                <CollapsibleSection key={s.id} section={s} body={enrichBi(s.body)} />
               ))}
             </div>
           )}
@@ -183,9 +183,8 @@ export default async function ChurchFatherPage({ params }: { params: Promise<{ s
                 {father.apologetics.map((item, i) => (
                   <div key={i} className={styles.apologeticsItem}>
                     <Bi2 value={item.q} as="div" className={styles.apologeticsQ} />
-                    <Bi2
-                      value={item.a}
-                      as="p"
+                    <ScriptureBi2
+                      {...enrichBi(item.a)}
                       viClassName={styles.apologeticsA}
                       enClassName={styles.apologeticsA}
                       enRecessedClassName={styles.apologeticsAEnRecessed}

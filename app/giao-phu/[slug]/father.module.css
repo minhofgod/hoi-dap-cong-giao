@@ -480,3 +480,19 @@
     text-align: left;
   }
 }
+
+/* Verse refs inside the dark apologetics band use the light-background sage by default, which is
+   too dark here. Lighten them on the band (repeated class bumps specificity over ScriptureBody's
+   base .body rule so this wins regardless of stylesheet order). */
+.apologeticsBand :global(.scripture-inline-ref.scripture-inline-ref) {
+  color: #A8BC84;
+  border-bottom-color: #6B7A50;
+}
+.apologeticsBand :global(.scripture-inline-ref.scripture-inline-ref:hover) {
+  background: rgba(168, 188, 132, 0.16);
+  border-bottom-color: #A8BC84;
+}
+.apologeticsBand :global(.scripture-inline-ref--open.scripture-inline-ref--open) {
+  background: #232A1B;
+  color: #C7D6A6;
+}

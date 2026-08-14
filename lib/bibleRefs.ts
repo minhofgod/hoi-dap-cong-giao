@@ -184,3 +184,22 @@ export function enrichAnswerHtml(html: string): EnrichedAnswer {
 export function enrichBody(html: string): EnrichedAnswer {
   return SCRIPTURE_POPOVER_ENABLED ? enrichAnswerHtml(html) : { html, data: {} };
 }
+
+function escapeHtml(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+/** Enrich a PLAIN-TEXT (non-markdown) string: escape it first, then flag-gate scripture
+ *  enrichment. Use for content stored as plain prose — e.g. Giáo Phụ / Công Đồng fields — where
+ *  there's no markdown to parse, just paragraphs that may mention Bible verses. */
+export function enrichPlain(text: string): EnrichedAnswer {
+  return enrichBody(escapeHtml(text ?? ''));
+}
+
+/** Enrich both languages of a bilingual plain-text value, ready for <ScriptureBi2>. */
+export function enrichBi(value: { vi: string; en: string } | null | undefined): {
+  vi: EnrichedAnswer;
+  en: EnrichedAnswer;
+} {
+  return { vi: enrichPlain(value?.vi ?? ''), en: enrichPlain(value?.en ?? '') };
+}
