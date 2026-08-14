@@ -1,5 +1,6 @@
 import { MessageCircleQuestion } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
+import { T } from '@/components/T';
 import { GiaiDapBrowser } from '@/components/GiaiDapBrowser';
 import { getAllQuestions } from '@/lib/giaiDap';
 import styles from './giai-dap.module.css';
@@ -33,17 +34,25 @@ export default function GiaiDapIndexPage() {
       <SiteHeader />
       <div className={styles.wrap}>
         <div className={styles.header}>
-          <div className={styles.eyebrow}>GIẢI ĐÁP</div>
-          <h1 className={styles.title}>Câu hỏi thường gặp</h1>
+          <div className={styles.eyebrow}>
+            <T vi="GIẢI ĐÁP" en="Q&amp;A" />
+          </div>
+          <h1 className={styles.title}>
+            <T vi="Câu hỏi thường gặp" en="Frequently asked questions" />
+          </h1>
         </div>
 
         {questions.length === 0 ? (
           <div className={styles.empty}>
             <MessageCircleQuestion size={36} strokeWidth={1.5} color="var(--sage)" />
-            <p className={styles.emptyTitle}>Chưa có câu hỏi nào</p>
+            <p className={styles.emptyTitle}>
+              <T vi="Chưa có câu hỏi nào" en="No questions yet" />
+            </p>
             <p className={styles.emptyBody}>
-              Các câu hỏi thường gặp về đức tin, cùng câu trả lời có trích dẫn Giáo Lý, đang được
-              biên soạn. Sắp có.
+              <T
+                vi="Các câu hỏi thường gặp về đức tin, cùng câu trả lời có trích dẫn Giáo Lý, đang được biên soạn. Sắp có."
+                en="Common questions about the faith, with answers citing the Catechism, are being written. Coming soon."
+              />
             </p>
           </div>
         ) : (

@@ -4,6 +4,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
+import { useLang } from '@/lib/giao-phu/useLang';
+import { T } from './T';
 import styles from '../app/giai-dap/giai-dap.module.css';
 
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -24,6 +26,7 @@ type Topic = { category: string; anchor: GiaiDapCard; count: number };
  *  matching individual questions, so specific sub-questions stay findable. */
 export function GiaiDapBrowser({ questions }: { questions: GiaiDapCard[] }) {
   const [query, setQuery] = useState('');
+  const uiLang = useLang();
   const q = query.trim();
   const nq = norm(q);
 
@@ -58,7 +61,7 @@ export function GiaiDapBrowser({ questions }: { questions: GiaiDapCard[] }) {
         <Search size={18} strokeWidth={2.2} className={styles.searchIcon} />
         <input
           className={styles.searchInput}
-          placeholder="Tìm câu hỏi hoặc chủ đề…"
+          placeholder={uiLang === 'en' ? 'Search questions or topics…' : 'Tìm câu hỏi hoặc chủ đề…'}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -66,7 +69,11 @@ export function GiaiDapBrowser({ questions }: { questions: GiaiDapCard[] }) {
 
       {(!searching || filteredTopics.length > 0) && (
         <section className={styles.section}>
-          {searching && <div className={styles.sectionLabel}>Chủ đề</div>}
+          {searching && (
+            <div className={styles.sectionLabel}>
+              <T vi="Chủ đề" en="Topics" />
+            </div>
+          )}
           <div className={styles.grid}>
             {filteredTopics.map((t) => (
               <Link key={t.category} href={`/giai-dap/${t.anchor.slug}`} className={styles.card}>
@@ -82,7 +89,9 @@ export function GiaiDapBrowser({ questions }: { questions: GiaiDapCard[] }) {
                 <div className={styles.cardBody}>
                   <div className={styles.cardName}>{t.category}</div>
                   <div className={styles.cardDesc}>{t.anchor.questionVi}</div>
-                  <div className={styles.cardCount}>{t.count} câu hỏi</div>
+                  <div className={styles.cardCount}>
+                    <T vi={`${t.count} câu hỏi`} en={`${t.count} questions`} />
+                  </div>
                 </div>
               </Link>
             ))}
@@ -92,7 +101,9 @@ export function GiaiDapBrowser({ questions }: { questions: GiaiDapCard[] }) {
 
       {searching && questionMatches.length > 0 && (
         <section className={styles.section}>
-          <div className={styles.sectionLabel}>Câu hỏi</div>
+          <div className={styles.sectionLabel}>
+            <T vi="Câu hỏi" en="Questions" />
+          </div>
           <div className={styles.results}>
             {questionMatches.map((x) => (
               <Link key={x.slug} href={`/giai-dap/${x.slug}`} className={styles.resultRow}>
@@ -104,7 +115,11 @@ export function GiaiDapBrowser({ questions }: { questions: GiaiDapCard[] }) {
         </section>
       )}
 
-      {noResults && <div className={styles.noResults}>Không tìm thấy câu hỏi nào cho “{q}”.</div>}
+      {noResults && (
+        <div className={styles.noResults}>
+          {uiLang === 'en' ? `No questions found for “${q}”.` : `Không tìm thấy câu hỏi nào cho “${q}”.`}
+        </div>
+      )}
     </>
   );
 }
