@@ -15,6 +15,8 @@ import {
   ERA_LABEL,
   type Bi,
 } from '@/lib/churchFathersV2';
+import { CatechismRef } from '@/components/CatechismRef';
+import { resolveCatechism } from '@/lib/content';
 import styles from './father.module.css';
 
 export function generateStaticParams() {
@@ -112,9 +114,7 @@ export default async function ChurchFatherPage({ params }: { params: Promise<{ s
                 <Bi2 value={UI.ccc} as="span" className={styles.cccLabel} />
               </span>
               {father.ccc_refs.map((n) => (
-                <Link key={n} href={`/giao-ly/${n}`} className={styles.cccChip}>
-                  § {n}
-                </Link>
+                <CatechismRef key={n} number={n} data={resolveCatechism(n)} className={styles.cccChip} />
               ))}
             </div>
           )}
