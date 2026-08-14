@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
+import { T } from '@/components/T';
 import { getAllQuestions, getQuestionBySlug, type GiaiDapQuestion } from '@/lib/giaiDap';
 import { ScriptureRef } from '@/components/ScriptureRef';
 import { ScriptureBody } from '@/components/ScriptureBody';
@@ -51,7 +52,9 @@ function PrevNext({ prev, next }: { prev?: GiaiDapQuestion; next?: GiaiDapQuesti
     <nav className={styles.navRow}>
       {prev ? (
         <Link href={`/giai-dap/${prev.slug}`} className={styles.navPrev}>
-          <span className={styles.navLabel}>← Câu trước</span>
+          <span className={styles.navLabel}>
+            <T vi="← Câu trước" en="← Previous" />
+          </span>
           <span className={styles.navQ}>{prev.questionVi}</span>
         </Link>
       ) : (
@@ -59,7 +62,9 @@ function PrevNext({ prev, next }: { prev?: GiaiDapQuestion; next?: GiaiDapQuesti
       )}
       {next ? (
         <Link href={`/giai-dap/${next.slug}`} className={styles.navNext}>
-          <span className={styles.navLabel}>Câu sau →</span>
+          <span className={styles.navLabel}>
+            <T vi="Câu sau →" en="Next →" />
+          </span>
           <span className={styles.navQ}>{next.questionVi}</span>
         </Link>
       ) : (
@@ -96,7 +101,7 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
           <div className={styles.articleLayout}>
             <article className={styles.articleBody}>
               <Link href="/giai-dap" className={styles.backLink}>
-                ‹ Tất cả câu hỏi
+                ‹ <T vi="Tất cả câu hỏi" en="All questions" />
               </Link>
               <div className={styles.chipRow}>
                 <span className={styles.categoryChip}>{question.category}</span>
@@ -106,7 +111,8 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
 
               {CANVAS_ENABLED && CANVAS_FOR[question.slug] && (
                 <Link href={`/so-do/${CANVAS_FOR[question.slug]}`} className={styles.diagramLink}>
-                  <span aria-hidden="true">◈</span> Xem sơ đồ trực quan
+                  <span aria-hidden="true">◈</span>{' '}
+                  <T vi="Xem sơ đồ trực quan" en="View the diagram" />
                 </Link>
               )}
 
@@ -126,7 +132,9 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
               {related.length > 0 && (
                 <>
                   <div className={styles.hairline} />
-                  <div className={styles.eyebrow}>CÂU HỎI LIÊN QUAN</div>
+                  <div className={styles.eyebrow}>
+                <T vi="CÂU HỎI LIÊN QUAN" en="RELATED QUESTIONS" />
+              </div>
                   <ul className={styles.relatedList}>
                     {related.map((r) => (
                       <li key={r.slug} className={styles.relatedRow}>
@@ -141,10 +149,12 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
             </article>
 
             <aside className={styles.toc}>
-              <div className={styles.tocLabel}>Trong bài này</div>
+              <div className={styles.tocLabel}>
+                <T vi="Trong bài này" en="In this article" />
+              </div>
               <nav className={styles.tocNav}>
                 <a href="#tong-quan" className={styles.tocLink}>
-                  Tổng quan
+                  <T vi="Tổng quan" en="Overview" />
                 </a>
                 {parts.map((p) => (
                   <a key={p.slug} href={`#${p.slug}`} className={styles.tocLink}>
@@ -167,11 +177,11 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
         <div className={styles.layout}>
           {parent ? (
             <Link href={`/giai-dap/${parent.slug}`} className={styles.backLink}>
-              ‹ Thuộc loạt bài: {parent.questionVi}
+              ‹ <T vi="Thuộc loạt bài:" en="Part of:" /> {parent.questionVi}
             </Link>
           ) : (
             <Link href="/giai-dap" className={styles.backLink}>
-              ‹ Tất cả câu hỏi
+              ‹ <T vi="Tất cả câu hỏi" en="All questions" />
             </Link>
           )}
           <div className={styles.chipRow}>
@@ -183,7 +193,9 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
 
           {(question.refsCcc.length > 0 || question.refsScripture.length > 0) && (
             <div className={styles.refsSection}>
-              <div className={styles.eyebrow}>THAM CHIẾU</div>
+              <div className={styles.eyebrow}>
+                <T vi="THAM CHIẾU" en="REFERENCES" />
+              </div>
               <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
             </div>
           )}
@@ -191,7 +203,9 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
           {related.length > 0 && (
             <>
               <div className={styles.hairline} />
-              <div className={styles.eyebrow}>CÂU HỎI LIÊN QUAN</div>
+              <div className={styles.eyebrow}>
+                <T vi="CÂU HỎI LIÊN QUAN" en="RELATED QUESTIONS" />
+              </div>
               <ul className={styles.relatedList}>
                 {related.map((r) => (
                   <li key={r.slug} className={styles.relatedRow}>

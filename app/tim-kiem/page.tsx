@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
+import { T } from '@/components/T';
 import { GlobalSearch } from '@/components/GlobalSearch';
 import { toc, content } from '@/lib/content';
 import { getAllQuestions } from '@/lib/giaiDap';
@@ -31,7 +32,9 @@ export default function SearchPage() {
     <>
       <SiteHeader />
       <main className={styles.wrap}>
-        <h1 className={styles.title}>Tìm kiếm</h1>
+        <h1 className={styles.title}>
+          <T vi="Tìm kiếm" en="Search" />
+        </h1>
         <Suspense fallback={null}>
           <GlobalSearch
             toc={toc}

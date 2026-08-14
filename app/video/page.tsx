@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Play } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
+import { T } from '@/components/T';
 import { getAllVideos } from '@/lib/videos';
 import styles from './video.module.css';
 
@@ -17,10 +18,17 @@ export default function VideoIndexPage() {
       <SiteHeader />
       <main className={styles.wrap}>
         <div className={styles.head}>
-          <div className={styles.eyebrow}>Video</div>
-          <h1 className={styles.title}>Video</h1>
+          <div className={styles.eyebrow}>
+            <T vi="Video" en="Videos" />
+          </div>
+          <h1 className={styles.title}>
+            <T vi="Video" en="Videos" />
+          </h1>
           <p className={styles.sub}>
-            Các video ngắn về đức tin Công giáo — hộ giáo, Kinh Thánh và đời sống Kitô hữu.
+            <T
+              vi="Các video ngắn về đức tin Công giáo — hộ giáo, Kinh Thánh và đời sống Kitô hữu."
+              en="Short videos on the Catholic faith — apologetics, Scripture, and Christian life."
+            />
           </p>
         </div>
 

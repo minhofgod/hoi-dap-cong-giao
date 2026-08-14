@@ -5,7 +5,9 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { Search } from 'lucide-react';
 import { findArticleStartForParagraph } from '@/lib/tocUtils';
+import { useLang } from '@/lib/giao-phu/useLang';
 import type { Toc, Paragraph } from '@/lib/types';
+import { T } from './T';
 import styles from '../app/tim-kiem/tim-kiem.module.css';
 
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -28,6 +30,7 @@ export function GlobalSearch({
   catechismTotal: number;
 }) {
   const params = useSearchParams();
+  const uiLang = useLang();
   const [query, setQuery] = useState(params.get('q') ?? '');
   const [loaded, setLoaded] = useState(false);
   const [fuse, setFuse] = useState<import('fuse.js').default<Paragraph> | null>(null);
@@ -88,19 +91,29 @@ export function GlobalSearch({
         <Search size={18} strokeWidth={2.2} className={styles.searchIcon} />
         <input
           className={styles.searchInput}
-          placeholder="Tìm trong Giải Đáp, Giáo Lý, Giáo Phụ, Video…"
+          placeholder={
+            uiLang === 'en'
+              ? 'Search Q&A, Catechism, Church Fathers, Videos…'
+              : 'Tìm trong Giải Đáp, Giáo Lý, Giáo Phụ, Video…'
+          }
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
       </div>
 
-      {!searching && <p className={styles.hint}>Nhập từ khoá để tìm trên toàn trang.</p>}
+      {!searching && (
+        <p className={styles.hint}>
+          <T vi="Nhập từ khoá để tìm trên toàn trang." en="Type a keyword to search the whole site." />
+        </p>
+      )}
 
       {searching && (
         <div className={styles.results}>
           {qResults.length > 0 && (
             <section className={styles.group}>
-              <div className={styles.groupLabel}>Giải Đáp</div>
+              <div className={styles.groupLabel}>
+                <T vi="Giải Đáp" en="Q&amp;A" />
+              </div>
               {qResults.map((x) => (
                 <Link key={x.slug} href={`/giai-dap/${x.slug}`} className={styles.row}>
                   <span className={styles.rowTitle}>{x.question}</span>
@@ -112,11 +125,15 @@ export function GlobalSearch({
 
           {(numJump || cResults.length > 0) && (
             <section className={styles.group}>
-              <div className={styles.groupLabel}>Giáo Lý</div>
+              <div className={styles.groupLabel}>
+                <T vi="Giáo Lý" en="Catechism" />
+              </div>
               {numJump && (
                 <Link href={`/giao-ly/${numJump.start}#${numJump.n}`} className={styles.row}>
                   <span className={styles.rowNum}>§{numJump.n}</span>
-                  <span className={styles.rowTitle}>Đi tới số {numJump.n}</span>
+                  <span className={styles.rowTitle}>
+                    <T vi={`Đi tới số ${numJump.n}`} en={`Go to §${numJump.n}`} />
+                  </span>
                 </Link>
               )}
               {cResults.map((r) => {
@@ -133,7 +150,9 @@ export function GlobalSearch({
 
           {fResults.length > 0 && (
             <section className={styles.group}>
-              <div className={styles.groupLabel}>Giáo Phụ</div>
+              <div className={styles.groupLabel}>
+                <T vi="Giáo Phụ" en="Church Fathers" />
+              </div>
               {fResults.map((x) => (
                 <Link key={x.slug} href={`/giao-phu/${x.slug}`} className={styles.row}>
                   <span className={styles.rowTitle}>{x.name}</span>
@@ -145,7 +164,9 @@ export function GlobalSearch({
 
           {vResults.length > 0 && (
             <section className={styles.group}>
-              <div className={styles.groupLabel}>Video</div>
+              <div className={styles.groupLabel}>
+                <T vi="Video" en="Videos" />
+              </div>
               {vResults.map((x) => (
                 <Link key={x.slug} href={`/video/${x.slug}`} className={styles.row}>
                   <span className={styles.rowTitle}>{x.title}</span>
@@ -154,9 +175,15 @@ export function GlobalSearch({
             </section>
           )}
 
-          {catechismPending && total === 0 && <p className={styles.hint}>Đang tìm trong Giáo Lý…</p>}
+          {catechismPending && total === 0 && (
+            <p className={styles.hint}>
+              <T vi="Đang tìm trong Giáo Lý…" en="Searching the Catechism…" />
+            </p>
+          )}
           {!catechismPending && total === 0 && (
-            <p className={styles.empty}>Không tìm thấy kết quả nào cho “{q}”.</p>
+            <p className={styles.empty}>
+              {uiLang === 'en' ? `No results for “${q}”.` : `Không tìm thấy kết quả nào cho “${q}”.`}
+            </p>
           )}
         </div>
       )}

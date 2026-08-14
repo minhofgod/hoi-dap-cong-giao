@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Nested build output (e.g. Claude Code subagent worktrees under .claude/worktrees/*/.next)
+    // — never lint generated bundles.
+    "**/.next/**",
+    ".claude/**",
   ]),
 ]);
 

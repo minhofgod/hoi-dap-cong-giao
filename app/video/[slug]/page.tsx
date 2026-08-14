@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { VideoEmbed } from '@/components/VideoEmbed';
+import { T } from '@/components/T';
 import { getAllVideos, getVideoBySlug } from '@/lib/videos';
 import styles from '../video.module.css';
 
@@ -36,7 +37,7 @@ export default async function VideoWatchPage({ params }: { params: Promise<{ slu
       <SiteHeader />
       <main className={styles.watchWrap}>
         <Link href="/video" className={styles.back}>
-          ‹ Tất cả video
+          ‹ <T vi="Tất cả video" en="All videos" />
         </Link>
         <h1 className={styles.watchTitle}>{video.title}</h1>
 
@@ -75,12 +76,14 @@ export default async function VideoWatchPage({ params }: { params: Promise<{ slu
           rel="noopener noreferrer"
           className={styles.ytLink}
         >
-          Xem trên YouTube ↗
+          <T vi="Xem trên YouTube ↗" en="Watch on YouTube ↗" />
         </a>
 
         {more.length > 0 && (
           <section className={styles.more}>
-            <h2 className={styles.moreTitle}>Video khác</h2>
+            <h2 className={styles.moreTitle}>
+              <T vi="Video khác" en="More videos" />
+            </h2>
             <div className={styles.moreGrid}>
               {more.map((v) => (
                 <Link key={v.slug} href={`/video/${v.slug}`} className={styles.moreCard}>
