@@ -301,3 +301,56 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* --- "Từ các Công Đồng": council apologetics surfaced as Q&A (dynamic, links to /giai-dap/cong-dong/[id]) --- */
+.councilSection {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.councilLabel {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 14px;
+}
+
+.councilList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.councilRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 15px 4px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  transition: color 0.15s ease;
+}
+
+.councilRow:hover .councilRowQ {
+  color: var(--accent-deep);
+}
+
+.councilRowQ {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 15.5px;
+  line-height: 1.4;
+  color: var(--text-heading);
+}
+
+.councilRowMeta {
+  flex-shrink: 0;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--sage-deep);
+  white-space: nowrap;
+}

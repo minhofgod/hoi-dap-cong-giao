@@ -5,6 +5,7 @@ import { T } from '@/components/T';
 import { GlobalSearch } from '@/components/GlobalSearch';
 import { toc, content } from '@/lib/content';
 import { getAllQuestions } from '@/lib/giaiDap';
+import { getCouncilApologetics } from '@/lib/councilsV2';
 import { getAllFathers } from '@/lib/churchFathers';
 import { getAllVideos } from '@/lib/videos';
 import styles from './tim-kiem.module.css';
@@ -19,6 +20,13 @@ export default function SearchPage() {
     slug: q.slug,
     question: q.questionVi,
     category: q.category,
+  }));
+  const councilQuestions = getCouncilApologetics().map((qa) => ({
+    id: qa.id,
+    question: qa.question.vi,
+    council: qa.councilName.vi,
+    keywords: `${qa.question.en} ${qa.councilName.en}`,
+    href: `/giai-dap/cong-dong/${qa.id}`,
   }));
   const fathers = getAllFathers().map((f) => ({
     slug: f.slug,
@@ -39,6 +47,7 @@ export default function SearchPage() {
           <GlobalSearch
             toc={toc}
             questions={questions}
+            councilQuestions={councilQuestions}
             fathers={fathers}
             videos={videos}
             catechismTotal={content.length}

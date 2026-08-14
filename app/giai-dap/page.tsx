@@ -1,8 +1,11 @@
+import Link from 'next/link';
 import { MessageCircleQuestion } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
+import { Bi2 } from '@/components/giao-phu/Bi2';
 import { GiaiDapBrowser } from '@/components/GiaiDapBrowser';
 import { getAllQuestions } from '@/lib/giaiDap';
+import { getCouncilApologetics } from '@/lib/councilsV2';
 import styles from './giai-dap.module.css';
 
 // Plain-text excerpt from the Markdown body: drop emphasis, headings, blockquote
@@ -28,6 +31,7 @@ export default function GiaiDapIndexPage() {
     featured: q.featured,
     excerpt: excerpt(q.bodyRaw),
   }));
+  const councilQAs = getCouncilApologetics();
 
   return (
     <>
@@ -57,6 +61,24 @@ export default function GiaiDapIndexPage() {
           </div>
         ) : (
           <GiaiDapBrowser questions={cards} />
+        )}
+
+        {councilQAs.length > 0 && (
+          <section className={styles.councilSection}>
+            <div className={styles.councilLabel}>
+              <T vi="Từ các Công Đồng" en="From the Councils" />
+            </div>
+            <ul className={styles.councilList}>
+              {councilQAs.map((qa) => (
+                <li key={qa.id}>
+                  <Link href={`/giai-dap/cong-dong/${qa.id}`} className={styles.councilRow}>
+                    <Bi2 value={qa.question} as="span" className={styles.councilRowQ} />
+                    <Bi2 value={qa.councilName} as="span" className={styles.councilRowMeta} />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
       </div>
     </>

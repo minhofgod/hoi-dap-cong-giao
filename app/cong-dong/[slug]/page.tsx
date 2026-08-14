@@ -183,7 +183,7 @@ export default async function CouncilPage({ params }: { params: Promise<{ slug: 
               <Bi2 value={UI.apologeticsTitle} as="h2" className={styles.apologeticsTitle} />
               <div className={styles.apologeticsGrid}>
                 {council.apologetics.map((item, i) => (
-                  <div key={i} className={styles.apologeticsItem}>
+                  <div key={i} id={`hoi-${i + 1}`} className={styles.apologeticsItem}>
                     <Bi2 value={item.q} as="div" className={styles.apologeticsQ} />
                     <Bi2
                       value={item.a}

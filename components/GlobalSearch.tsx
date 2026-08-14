@@ -15,16 +15,19 @@ const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCa
 export type QItem = { slug: string; question: string; category: string };
 export type FItem = { slug: string; name: string; meta: string; keywords: string };
 export type VItem = { slug: string; title: string; summary: string };
+export type CQItem = { id: string; question: string; council: string; keywords: string; href: string };
 
 export function GlobalSearch({
   toc,
   questions,
+  councilQuestions,
   fathers,
   videos,
   catechismTotal,
 }: {
   toc: Toc;
   questions: QItem[];
+  councilQuestions: CQItem[];
   fathers: FItem[];
   videos: VItem[];
   catechismTotal: number;
@@ -60,6 +63,15 @@ export function GlobalSearch({
     () => (q ? questions.filter((x) => norm(`${x.question} ${x.category}`).includes(nq)).slice(0, 8) : []),
     [q, nq, questions]
   );
+  const cqResults = useMemo(
+    () =>
+      q
+        ? councilQuestions
+            .filter((x) => norm(`${x.question} ${x.council} ${x.keywords}`).includes(nq))
+            .slice(0, 8)
+        : [],
+    [q, nq, councilQuestions]
+  );
   const fResults = useMemo(
     () => (q ? fathers.filter((x) => norm(`${x.name} ${x.meta} ${x.keywords}`).includes(nq)).slice(0, 8) : []),
     [q, nq, fathers]
@@ -82,7 +94,12 @@ export function GlobalSearch({
 
   const searching = q.length > 0;
   const total =
-    qResults.length + fResults.length + vResults.length + cResults.length + (numJump ? 1 : 0);
+    qResults.length +
+    cqResults.length +
+    fResults.length +
+    vResults.length +
+    cResults.length +
+    (numJump ? 1 : 0);
   const catechismPending = searching && q.length >= 2 && !loaded;
 
   return (
@@ -118,6 +135,20 @@ export function GlobalSearch({
                 <Link key={x.slug} href={`/giai-dap/${x.slug}`} className={styles.row}>
                   <span className={styles.rowTitle}>{x.question}</span>
                   <span className={styles.rowMeta}>{x.category}</span>
+                </Link>
+              ))}
+            </section>
+          )}
+
+          {cqResults.length > 0 && (
+            <section className={styles.group}>
+              <div className={styles.groupLabel}>
+                <T vi="Công Đồng · Vấn đáp" en="Councils · Q&amp;A" />
+              </div>
+              {cqResults.map((x) => (
+                <Link key={x.id} href={x.href} className={styles.row}>
+                  <span className={styles.rowTitle}>{x.question}</span>
+                  <span className={styles.rowMeta}>{x.council}</span>
                 </Link>
               ))}
             </section>

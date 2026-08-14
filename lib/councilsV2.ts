@@ -110,3 +110,30 @@ export function getEraGroups(): EraGroup[] {
     items: councils.filter((c) => c.era === era),
   }));
 }
+
+// A council apologetics Q&A, flattened for reuse on the Giải Đáp page and in global search.
+// The council JSON stays the single source of truth — this just exposes each item with a
+// stable deep-link (`href`) to its anchor on the council page (see `id={`hoi-${i+1}`}`).
+export interface CouncilQA {
+  id: string; // e.g. "chalcedon-hoi-1" — unique across councils
+  question: Bi;
+  answer: Bi;
+  councilSlug: string;
+  councilNo: number;
+  councilName: Bi;
+  href: string; // "/cong-dong/<slug>#hoi-<n>"
+}
+
+export function getCouncilApologetics(): CouncilQA[] {
+  return all().flatMap((c) =>
+    c.apologetics.map((item, i) => ({
+      id: `${c.slug}-hoi-${i + 1}`,
+      question: item.q,
+      answer: item.a,
+      councilSlug: c.slug,
+      councilNo: c.no,
+      councilName: c.name,
+      href: `/cong-dong/${c.slug}#hoi-${i + 1}`,
+    }))
+  );
+}

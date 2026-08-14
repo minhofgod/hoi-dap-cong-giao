@@ -313,3 +313,58 @@
     padding-top: 28px;
   }
 }
+
+/* --- Council Q&A page (app/giai-dap/cong-dong/[id]) — dynamic from council apologetics --- */
+.qaQuestion {
+  font-size: 40px;
+  line-height: 1.22;
+  letter-spacing: -0.018em;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin: 0 0 8px;
+}
+
+.qaQuestionEn {
+  font-size: 21px;
+  line-height: 1.32;
+  font-weight: 500;
+  color: var(--text-quiet);
+  margin: 0 0 30px;
+}
+
+.answerEn {
+  font-size: 16.5px;
+  line-height: 1.75;
+  color: var(--text-quiet);
+  max-width: var(--measure-prose);
+  margin-top: 16px;
+}
+
+.councilCta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 40px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg, 14px);
+  background: var(--sage-tint);
+  color: var(--sage-deep);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.councilCta:hover {
+  border-color: var(--sage);
+  background: var(--surface, #fff);
+}
+
+.councilCtaText {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.councilCtaArrow {
+  font-size: 18px;
+  flex-shrink: 0;
+}
