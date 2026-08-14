@@ -1,4 +1,5 @@
 ---
+title: "Evidence That Jesus Rose Again"
 summary: "The historical case for the Resurrection of Jesus — his real death, the empty tomb, and the witnesses who died for what they saw."
 ---
 
@@ -34,7 +35,35 @@ Paul adds that Christ appeared to more than 500 people, "of whom many remain unt
 
 ## Voices from outside Scripture
 
-Two non-Christian historians confirm the historical core. Flavius Josephus (c. AD 93) mentions Jesus crucified under Pilate and refers to "James, the brother of Jesus"; Tacitus (*Annals* 15.44, c. AD 116) records that "Christus" was executed under Pilate. A clear distinction matters: historians broadly agree that Jesus existed, was crucified, and that a movement of disciples proclaimed him risen very early — while **believing** that he truly rose is a step of faith, beyond what history alone can prove.
+It was not only the disciples who spoke of Jesus — two non-Christian historians confirm the historical core.
+
+![Portrait of Flavius Josephus — engraving by Jan Caspar Philips](/images/video/bang-chung-chua-giesu-song-lai/josephus-portrait.jpg)
+
+*Flavius Josephus — 18th-century engraving by Jan Caspar Philips (public domain, CC0 — Rijksmuseum).*
+
+**Flavius Josephus**, a Jewish historian (c. AD 93), mentions Jesus crucified under Pilate and refers to "James, the brother of Jesus who was called Christ" (*Jewish Antiquities* 20). The more famous passage (the Testimonium Flavianum) is held by scholars to have an authentic core with later Christian interpolation.
+
+![Portrait of the historian Tacitus](/images/video/bang-chung-chua-giesu-song-lai/tacitus-portrait.jpg)
+
+*Cornelius Tacitus — imagined from an antique bust (1920 print, public domain).*
+
+**Tacitus**, a Roman historian (c. AD 116), records that "Christus" was executed under Pilate in the reign of Tiberius, and that the movement spread from Judea as far as Rome (*Annals* 15.44). He held Christianity in contempt — which makes his testimony unlikely to be biased in its favor.
+
+A clear distinction matters: historians broadly agree that Jesus existed, was crucified, and that a movement of disciples proclaimed him risen very early — while **believing** that he truly rose is a step of faith, beyond what history alone can prove.
+
+## The tomb today
+
+Christian tradition fixed the location of the tomb as early as the 4th century: there the emperor Constantine built the **Church of the Holy Sepulchre** in Jerusalem, still the foremost pilgrimage site in Christianity. Inside, a small shrine called the **Edicule** covers the rock venerated as Christ's tomb.
+
+![The Edicule inside the Church of the Holy Sepulchre, photograph c. 1900](/images/video/bang-chung-chua-giesu-song-lai/holy-sepulchre-edicule.jpg)
+
+*The Edicule enclosing the traditional tomb — photograph c. 1898–1914 (public domain).*
+
+In 2016–2017, a team from the National Technical University of Athens (led by Prof. Antonia Moropoulou) restored the Edicule and, for the first time in centuries, lifted the slab covering the tomb. Analysis of the mortar bonding the slab to the bedrock returned a date of around AD 345 — the Constantinian era — confirming that the site was venerated very early rather than invented later. (An alternative site, the Garden Tomb, is favored by some Protestant groups, but its archaeological dating does not match a newly cut first-century tomb.)
+
+![Pilgrims at the shrine of the Holy Sepulchre — David Roberts, 1839](/images/video/bang-chung-chua-giesu-song-lai/holy-sepulchre-1839-roberts.jpg)
+
+*Pilgrims at the Edicule — print by David Roberts, 1839 (public domain).*
 
 Evidence does not replace faith, but it shows that this faith does not rest on nothing.
 
@@ -45,3 +74,4 @@ Evidence does not replace faith, but it shows that this faith does not rest on n
 - Flavius Josephus, *Jewish Antiquities* 18.63-64 (Testimonium Flavianum — held by scholars to have an authentic core with later Christian interpolation) and 20.200 (on James).
 - Tacitus, *Annals* 15.44.
 - Lee Strobel, *The Case for Christ* (Zondervan, 1998) — the chapter interviewing psychologist Gary Collins on the hallucination theory.
+- On the Holy Sepulchre: the 2016–2017 restoration of the Edicule by the National Technical University of Athens (Prof. Antonia Moropoulou); mortar analysis returned a date of ~AD 345 (Constantinian era). Kristin Romey, *National Geographic* (2016–2017). [Article](https://www.nationalgeographic.com/culture/article/jesus-tomb-opened-church-holy-sepulchre)
