@@ -43,6 +43,10 @@ Athanasius = "Athanasiô".
 > ⚠️ **Audit existing content:** the Giáo Phụ (Church Fathers) entries predate this rule — spot-check
 > their Vietnamese names/terms against the sources above (likely mostly fine, but not verified).
 
+**Quote marks:** for a quoted word or phrase inside prose, use curly double quotes `“ ”` — that's what
+the Catechism content (`content.json`) uses throughout. Do **not** use French guillemets `« »`, even
+though they're valid Vietnamese typography; they'd be inconsistent with the rest of the site.
+
 ## Images — every new image also goes in the Catholic Images library (applies to ALL content)
 
 When you add ANY image to the site (`public/images/**`), also add it to the shared **Catholic Images
