@@ -1,0 +1,87 @@
+{
+  "no": 10,
+  "slug": "lateran-ii",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Latêranô II", "en": "Second Council of the Lateran" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười · hàn gắn ly giáo và cải tổ giáo sĩ",
+    "en": "The tenth ecumenical council · healing schism and reforming the clergy"
+  },
+  "dates": { "display": "1139", "start": 1139, "end": 1139 },
+  "location": {
+    "vi": "Đền Latêranô, Rôma",
+    "en": "The Lateran Basilica, Rome"
+  },
+  "quote": {
+    "vi": "Chỉ có một Chúa, một niềm tin, một phép rửa.",
+    "en": "One Lord, one faith, one baptism.",
+    "source": { "vi": "Ep 4,5", "en": "Ephesians 4:5" }
+  },
+  "background": [
+    {
+      "vi": "Sau cái chết của Giáo hoàng Hônôriô II năm 1130, Hội Thánh rơi vào một cuộc ly giáo: bên cạnh Giáo hoàng hợp pháp Innôxentê II lại xuất hiện một ngụy giáo hoàng, Anaclêtô II, gây chia rẽ suốt gần một thập niên.",
+      "en": "After the death of Pope Honorius II in 1130, the Church fell into a schism: alongside the lawful pope Innocent II there arose an antipope, Anacletus II, dividing the Church for nearly a decade."
+    },
+    {
+      "vi": "Khi cuộc ly giáo chấm dứt, Giáo hoàng Innôxentê II triệu tập công đồng năm 1139 với khoảng một nghìn nghị phụ để tái lập sự hiệp nhất và tiếp tục công cuộc cải tổ. Công đồng hủy bỏ các việc phong chức do phía ngụy giáo hoàng thực hiện.",
+      "en": "When the schism ended, Pope Innocent II summoned a council in 1139 with about a thousand attendees to restore unity and continue the work of reform. The council annulled the ordinations carried out by the antipope's party."
+    },
+    {
+      "vi": "Latêranô II ban hành nhiều khoản cải tổ quan trọng: củng cố luật độc thân giáo sĩ, kết án nạn cho vay nặng lãi và mại thánh, và lên án những kẻ chối bỏ các bí tích cùng phép rửa cho trẻ em.",
+      "en": "Lateran II issued major reform canons: it strengthened the law of clerical celibacy, condemned usury and simony, and condemned those who rejected the sacraments and the baptism of infants."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "1139", "en": "1139" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Đền Latêranô, Rôma", "en": "The Lateran, Rome" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Innôxentê II", "en": "Pope Innocent II" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Innôxentê II", "en": "Innocent II" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "khoảng 1000", "en": "about 1000" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Hàn gắn ly giáo · cải tổ", "en": "Healing schism · reform" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Ba mươi khoản giáo luật cải tổ", "en": "Thirty reform canons" }, "latin": "", "date": "1139" },
+    { "title": { "vi": "Hủy bỏ các việc phong chức thời ly giáo", "en": "Annulment of the schismatic ordinations" }, "latin": "", "date": "1139" }
+  ],
+  "documents_note": {
+    "vi": "Nhiều khoản luật của Latêranô II — nhất là về độc thân giáo sĩ — vẫn định hình kỷ luật của Giáo hội La-tinh cho đến ngày nay.",
+    "en": "Many of Lateran II's canons — especially on clerical celibacy — still shape the discipline of the Latin Church today."
+  },
+  "sections": [
+    {
+      "id": "celibacy",
+      "title": { "vi": "Luật độc thân giáo sĩ", "en": "The law of clerical celibacy" },
+      "body": {
+        "vi": "Latêranô II xác định rằng các chức lớn trong hàng giáo sĩ (từ phó tế trở lên) gắn liền với bậc sống độc thân. Đây không phải một tín điều về đức tin, mà là một kỷ luật của Giáo hội La-tinh, nhằm giúp người mục tử tận hiến trọn vẹn cho Chúa và cho đoàn chiên, noi gương chính Chúa Kitô. Các Giáo hội Đông phương Công giáo giữ một kỷ luật khác.",
+        "en": "Lateran II established that the major orders of the clergy (from deacon upward) are bound to the celibate state. This is not a dogma of faith but a discipline of the Latin Church, meant to help the shepherd give himself wholly to God and to the flock, after the example of Christ himself. The Eastern Catholic Churches keep a different discipline."
+      },
+      "open": false
+    },
+    {
+      "id": "reform",
+      "title": { "vi": "Chống nặng lãi và bảo vệ các bí tích", "en": "Against usury, defending the sacraments" },
+      "body": {
+        "vi": "Công đồng kết án nạn cho vay nặng lãi — bóc lột người túng thiếu — như một điều nghịch với đức công bằng và lòng bác ái. Đồng thời, nó lên án những người theo Phêrô thành Bruys, vốn chối bỏ giá trị các bí tích và phép rửa cho trẻ em, để bảo vệ đức tin của dân Chúa.",
+        "en": "The council condemned usury — the exploitation of the needy — as contrary to justice and charity. At the same time it condemned the followers of Peter of Bruys, who rejected the value of the sacraments and infant baptism, in order to protect the faith of God's people."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Luật độc thân linh mục là điều Kinh Thánh buộc, hay chỉ là luật của Giáo hội?", "en": "Is priestly celibacy required by Scripture, or is it just a Church rule?" },
+      "a": {
+        "vi": "Đó là một kỷ luật của Giáo hội La-tinh, không phải một tín điều buộc mọi nơi mọi thời. Chính Chúa Giêsu sống độc thân và nói đến những người “tự ý không kết hôn vì Nước Trời” (Mt 19,12), và thánh Phaolô coi bậc độc thân là một ơn giúp tận hiến cho Chúa (x. 1 Cr 7,32-35). Latêranô II biến truyền thống lâu đời ấy thành luật chung cho hàng giáo sĩ La-tinh. Vì là kỷ luật, Giáo hội có thể điều chỉnh; và thực tế các Giáo hội Đông phương Công giáo vẫn truyền chức cho người đã lập gia đình.",
+        "en": "It is a discipline of the Latin Church, not a dogma binding everywhere and always. Jesus himself lived celibately and spoke of those who “renounce marriage for the sake of the kingdom” (Matt 19:12), and St Paul saw celibacy as a gift for undivided devotion to the Lord (cf. 1 Cor 7:32-35). Lateran II made this ancient tradition a general law for the Latin clergy. Being a discipline, the Church can adjust it; and indeed the Eastern Catholic Churches still ordain married men."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "image": {
+    "src": "/images/cong-dong/lateran-ii.jpg",
+    "medium": { "vi": "Ảnh khảm Đức Innôxentê II, Rôma", "en": "Mosaic of Pope Innocent II, Rome" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

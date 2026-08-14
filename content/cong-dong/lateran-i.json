@@ -1,0 +1,87 @@
+{
+  "no": 9,
+  "slug": "lateran-i",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Latêranô I", "en": "First Council of the Lateran" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ chín · chấm dứt tranh chấp phong chức",
+    "en": "The ninth ecumenical council · ending the Investiture Controversy"
+  },
+  "dates": { "display": "1123", "start": 1123, "end": 1123 },
+  "location": {
+    "vi": "Đền Latêranô, Rôma",
+    "en": "The Lateran Basilica, Rome"
+  },
+  "quote": {
+    "vi": "Không ai được mua hay bán các chức thánh và ân huệ thiêng liêng của Thiên Chúa.",
+    "en": "No one may buy or sell sacred offices or the spiritual gifts of God.",
+    "source": { "vi": "Công đồng Latêranô I, 1123 (chống mại thánh)", "en": "First Lateran Council, 1123 (against simony)" }
+  },
+  "background": [
+    {
+      "vi": "Suốt thế kỷ XI, một cuộc tranh chấp lớn — gọi là “tranh chấp phong chức” — đặt các hoàng đế và các Giáo hoàng đối đầu nhau: ai có quyền bổ nhiệm giám mục và trao gậy, nhẫn cho các ngài? Khi quyền lực trần thế nắm việc chọn các chủ chăn, Hội Thánh dễ bị thao túng và rơi vào nạn mua bán chức thánh (mại thánh).",
+      "en": "Through the eleventh century a great dispute — the “Investiture Controversy” — pitted emperors against popes: who had the right to appoint bishops and hand them the staff and ring of office? When worldly power controlled the choice of shepherds, the Church was easily manipulated and fell into the buying and selling of holy office (simony)."
+    },
+    {
+      "vi": "Năm 1122, Hòa ước Worms giữa Giáo hoàng Calistô II và hoàng đế Henri V đã dàn xếp cuộc tranh chấp: quyền trao chức thiêng liêng thuộc về Hội Thánh, còn hoàng đế chỉ giữ vai trò trần thế. Công đồng Latêranô I năm 1123 được triệu tập để long trọng phê chuẩn hòa ước ấy.",
+      "en": "In 1122 the Concordat of Worms between Pope Callistus II and Emperor Henry V settled the dispute: the granting of spiritual office belonged to the Church, while the emperor kept only a temporal role. The First Lateran Council of 1123 was convened to solemnly ratify that agreement."
+    },
+    {
+      "vi": "Đây là công đồng chung đầu tiên họp tại Tây phương và tại Rôma. Ngoài việc phê chuẩn Hòa ước Worms, công đồng ban hành nhiều khoản cải tổ: chống mại thánh, đòi hàng giáo sĩ sống độc thân, và chấn chỉnh kỷ luật trong Hội Thánh.",
+      "en": "It was the first ecumenical council held in the West and at Rome. Besides ratifying the Concordat of Worms, it issued many reform canons: against simony, requiring celibacy of the clergy, and restoring discipline in the Church."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "1123", "en": "1123" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Đền Latêranô, Rôma", "en": "The Lateran, Rome" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Calistô II", "en": "Pope Callistus II" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Calistô II", "en": "Callistus II" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "khoảng 300 giám mục", "en": "about 300 bishops" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Phong chức · cải tổ giáo sĩ", "en": "Investiture · clergy reform" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Phê chuẩn Hòa ước Worms", "en": "Ratification of the Concordat of Worms" }, "latin": "", "date": "1123" },
+    { "title": { "vi": "Hai mươi hai khoản giáo luật cải tổ", "en": "Twenty-two reform canons" }, "latin": "", "date": "1123" }
+  ],
+  "documents_note": {
+    "vi": "Latêranô I mở đầu loạt bốn công đồng Latêranô thời Trung Cổ — những công đồng cải tổ đời sống Hội Thánh ở Tây phương.",
+    "en": "Lateran I opens the series of four medieval Lateran councils — councils that reformed the life of the Church in the West."
+  },
+  "sections": [
+    {
+      "id": "investiture",
+      "title": { "vi": "Tranh chấp phong chức là gì?", "en": "What was the Investiture Controversy?" },
+      "body": {
+        "vi": "“Phong chức” (investiture) là việc trao cho một giám mục các dấu hiệu chức vụ. Vấn đề đặt ra: một giám mục vừa là chủ chăn thiêng liêng, vừa nắm đất đai và quyền lợi trần thế. Các hoàng đế muốn tự tay bổ nhiệm để kiểm soát quyền lực ấy; các Giáo hoàng khẳng định chức thánh đến từ Thiên Chúa qua Hội Thánh, không phải do vua ban. Hòa ước Worms tách bạch hai chiều kích: Hội Thánh trao chức thiêng liêng, hoàng đế công nhận phần trần thế.",
+        "en": "“Investiture” is the handing over to a bishop of the signs of his office. The problem: a bishop was both a spiritual shepherd and a holder of lands and worldly rights. Emperors wanted to appoint bishops themselves to control that power; popes insisted that sacred office comes from God through the Church, not from a king. The Concordat of Worms separated the two dimensions: the Church grants the spiritual office, the emperor acknowledges the temporal one."
+      },
+      "open": false
+    },
+    {
+      "id": "reform",
+      "title": { "vi": "Một Hội Thánh tự do và trong sạch hơn", "en": "A freer, purer Church" },
+      "body": {
+        "vi": "Đằng sau cuộc tranh chấp là một mối bận tâm sâu xa: giải phóng Hội Thánh khỏi sự thao túng của quyền lực trần thế để việc chọn chủ chăn dựa trên xứng đáng thiêng liêng chứ không phải tiền bạc hay chính trị. Các khoản luật của Latêranô I nhắm chống mại thánh và chấn chỉnh hàng giáo sĩ — một phần của phong trào canh tân lớn thời ấy.",
+        "en": "Behind the dispute lay a deeper concern: to free the Church from manipulation by worldly power, so that shepherds were chosen for spiritual worthiness rather than money or politics. Lateran I's canons targeted simony and reformed the clergy — part of the great reform movement of the age."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Nếu công đồng chỉ bàn chuyện phong chức và kỷ luật, đó có phải là chuyện đức tin không?", "en": "If the council only dealt with investiture and discipline, was that really about the faith?" },
+      "a": {
+        "vi": "Có, một cách gián tiếp nhưng quan trọng. Việc ai chọn các giám mục quyết định phẩm chất của những người dạy dỗ và thánh hóa dân Chúa. Khi chức thánh bị đem ra mua bán hay bị vua chúa thao túng, chính đời sống đức tin của tín hữu bị tổn thương. Bảo vệ sự tự do và trong sạch của hàng chủ chăn là bảo vệ chính sứ mạng của Hội Thánh — nên đây thật sự là mối quan tâm thiêng liêng, không chỉ là hành chính.",
+        "en": "Yes — indirectly but importantly. Who chooses the bishops determines the quality of those who teach and sanctify God's people. When sacred office is bought and sold or manipulated by kings, the faith-life of the faithful suffers. To protect the freedom and purity of the shepherds is to protect the Church's very mission — so this was truly a spiritual concern, not merely administrative."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "image": {
+    "src": "/images/cong-dong/lateran-i.jpg",
+    "medium": { "vi": "Tranh khắc gỗ về tranh chấp phong chức", "en": "Woodcut of the Investiture Controversy" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}
