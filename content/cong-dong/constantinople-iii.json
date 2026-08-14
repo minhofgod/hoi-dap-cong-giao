@@ -1,0 +1,87 @@
+{
+  "no": 6,
+  "slug": "constantinople-iii",
+  "era": "early",
+  "name": { "vi": "Công đồng Constantinôpôli III", "en": "Third Council of Constantinople" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ sáu · Đức Kitô có hai ý muốn",
+    "en": "The sixth ecumenical council · Christ's two wills"
+  },
+  "dates": { "display": "680–681", "start": 680, "end": 681 },
+  "location": {
+    "vi": "Constantinôpôli (nay là Istanbul, Thổ Nhĩ Kỳ)",
+    "en": "Constantinople (modern Istanbul, Turkey)"
+  },
+  "quote": {
+    "vi": "Đức Kitô có hai ý muốn và hai hoạt động, thần linh và nhân loại, không đối nghịch nhưng cộng tác với nhau.",
+    "en": "Christ possesses two wills and two operations, divine and human, not opposed but cooperating with each other.",
+    "source": { "vi": "Công đồng Constantinôpôli III, 681", "en": "The Third Council of Constantinople, 681" }
+  },
+  "background": [
+    {
+      "vi": "Để lôi kéo những người theo Nhất tính thuyết trở lại, một số người đề ra một giải pháp mới: nhận rằng Đức Kitô có hai bản tính, nhưng chỉ có một ý muốn duy nhất — ý muốn thần linh. Đó là Nhất Chí thuyết (chủ trương Đức Kitô chỉ có một ý muốn).",
+      "en": "To win back the Monophysites, some proposed a new compromise: to grant that Christ has two natures, but only a single will — the divine will. This is Monothelitism (the claim that Christ has only one will)."
+    },
+    {
+      "vi": "Thánh Maximô Tuyên Tín đã kiên trì chống lại sai lạc này và chịu khổ hình vì đức tin. Năm 680–681, hoàng đế Constantinô IV triệu tập công đồng tại Constantinôpôli; Giáo hoàng Agathô gửi một tuyên tín đức tin làm nền tảng cho các nghị phụ.",
+      "en": "St Maximus the Confessor had resisted this error steadfastly and suffered mutilation for the faith. In 680–681 the emperor Constantine IV convened a council at Constantinople; Pope Agatho sent a profession of faith that grounded the bishops' work."
+    },
+    {
+      "vi": "Công đồng định tín rằng Đức Kitô có hai ý muốn và hai hoạt động, tương ứng với hai bản tính. Ý muốn nhân loại của Người không đối nghịch, nhưng luôn tự do vâng phục ý muốn thần linh — như chính Người thưa trong vườn Cây Dầu: “Xin đừng theo ý con, mà theo ý Cha” (Lc 22,42).",
+      "en": "The council defined that Christ has two wills and two operations, matching his two natures. His human will is not opposed to, but freely obeys, the divine will — as he himself prayed in the garden: “Not my will, but yours be done” (Luke 22:42)."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "680–681", "en": "680–681" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Constantinôpôli (nay là Istanbul)", "en": "Constantinople (Istanbul)" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Hoàng đế Constantinô IV", "en": "Emperor Constantine IV" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Thánh Agathô", "en": "St Agatho" } },
+    { "label": { "vi": "Số giám mục", "en": "Bishops" }, "value": { "vi": "khoảng 170", "en": "about 170" } },
+    { "label": { "vi": "Chống lạc thuyết", "en": "Condemned" }, "value": { "vi": "Nhất Chí thuyết (một ý muốn)", "en": "Monothelitism (one will)" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Định tín về hai ý muốn nơi Đức Kitô", "en": "Definition on the two wills of Christ" }, "latin": "", "date": "681" },
+    { "title": { "vi": "Tuyên tín đức tin của Giáo hoàng Agathô", "en": "Pope Agatho's profession of faith" }, "latin": "", "date": "680" }
+  ],
+  "documents_note": {
+    "vi": "Công đồng đưa mầu nhiệm Chalcêđônia đi tới cùng: hai bản tính trọn vẹn nghĩa là cả một ý muốn và một hoạt động nhân loại thật sự nơi Đức Kitô.",
+    "en": "The council carried the mystery of Chalcedon to its conclusion: two complete natures means a truly human will and operation in Christ as well."
+  },
+  "sections": [
+    {
+      "id": "why-it-matters",
+      "title": { "vi": "Tại sao “một ý muốn” lại là sai?", "en": "Why is “one will” an error?" },
+      "body": {
+        "vi": "Ý muốn gắn liền với bản tính: có ý muốn thần linh vì Đức Kitô là Thiên Chúa, và có ý muốn nhân loại vì Người thật sự là người. Nếu Đức Kitô không có ý muốn nhân loại, thì nhân tính của Người thiếu mất điều làm nên một con người trọn vẹn, và ơn cứu độ không chạm tới ý muốn con người — nơi tội lỗi bắt đầu. Chính bằng ý muốn nhân loại tự do vâng phục mà Người chữa lành sự bất tuân của chúng ta.",
+        "en": "A will belongs to a nature: there is a divine will because Christ is God, and a human will because he is truly man. If Christ had no human will, his humanity would lack what makes a complete person, and salvation would not reach the human will — where sin begins. It is precisely by a freely obedient human will that he heals our disobedience."
+      },
+      "open": false
+    },
+    {
+      "id": "gethsemane",
+      "title": { "vi": "Vườn Cây Dầu: hai ý muốn gặp nhau", "en": "Gethsemane: where the two wills meet" },
+      "body": {
+        "vi": "Lời cầu nguyện “Xin đừng theo ý con, mà theo ý Cha” cho thấy rõ hai ý muốn: một ý muốn nhân loại thật, biết sợ hãi trước cái chết, và một ý muốn thần linh mà nó tự do quy thuận. Đây không phải sự giằng co giữa hai chủ thể, mà là một ngôi vị duy nhất yêu thương vâng phục trong chính nhân tính của mình.",
+        "en": "The prayer “Not my will, but yours be done” shows the two wills plainly: a true human will that shrinks from death, and a divine will to which it freely conforms. This is not a tug-of-war between two subjects, but one single person lovingly obeying in his own humanity."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Nếu Đức Kitô có hai ý muốn, phải chăng Người có thể tự mâu thuẫn với chính mình?", "en": "If Christ has two wills, could he contradict himself?" },
+      "a": {
+        "vi": "Không. Hai ý muốn không có nghĩa là hai ý định giằng co. Ý muốn nhân loại của Đức Kitô, tuy thật sự tự do, luôn hoàn toàn hòa hợp và vâng phục ý muốn thần linh, vì cả hai đều là ý muốn của một ngôi vị duy nhất — Ngôi Con. Nơi chúng ta, ý muốn con người thường chống lại Thiên Chúa; nơi Đức Kitô, ý muốn nhân loại được chữa lành và luôn nói “xin vâng”. Đó chính là mẫu mực cho sự thánh thiện của ta.",
+        "en": "No. Two wills does not mean two conflicting intentions. Christ's human will, though truly free, is always in full harmony with and obedient to the divine will, because both are the willing of one single person — the Son. In us, the human will often resists God; in Christ, the human will is healed and always says “yes”. That is the very model of our holiness."
+      }
+    }
+  ],
+  "ccc_refs": [475],
+  "image": {
+    "src": "/images/cong-dong/constantinople-iii.jpg",
+    "medium": { "vi": "Tiểu họa, Biên niên sử Manasses, tk. XIV", "en": "Miniature, Manasses Chronicle, 14th c." },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

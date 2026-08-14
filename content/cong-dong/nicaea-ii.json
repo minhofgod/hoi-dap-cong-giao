@@ -1,0 +1,87 @@
+{
+  "no": 7,
+  "slug": "nicaea-ii",
+  "era": "early",
+  "name": { "vi": "Công đồng Nicêa II", "en": "Second Council of Nicaea" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ bảy · tôn kính ảnh tượng thánh",
+    "en": "The seventh ecumenical council · the veneration of sacred images"
+  },
+  "dates": { "display": "787", "start": 787, "end": 787 },
+  "location": {
+    "vi": "Nicêa, Bithynia (nay là İznik, Thổ Nhĩ Kỳ)",
+    "en": "Nicaea, Bithynia (modern İznik, Turkey)"
+  },
+  "quote": {
+    "vi": "Sự tôn kính dâng lên ảnh tượng là hướng về chính Đấng mà ảnh tượng trình bày.",
+    "en": "The honour paid to an image passes to the one whom the image represents.",
+    "source": { "vi": "Công đồng Nicêa II, 787", "en": "The Second Council of Nicaea, 787" }
+  },
+  "background": [
+    {
+      "vi": "Trong thế kỷ VIII, một số hoàng đế Đông phương phát động phong trào Bài trừ ảnh tượng: họ cho rằng tôn kính ảnh Chúa và các thánh là thờ ngẫu tượng, nên ra lệnh phá hủy tranh ảnh, tượng thánh và bách hại những ai bảo vệ chúng.",
+      "en": "In the eighth century some Eastern emperors launched the movement of Iconoclasm: they held that venerating images of Christ and the saints was idolatry, and ordered sacred pictures and statues destroyed, persecuting those who defended them."
+    },
+    {
+      "vi": "Thánh Gioan thành Đamas đã trình bày nền tảng thần học cho việc tôn kính ảnh tượng. Năm 787, hoàng hậu Irênê cùng Giáo hoàng Ađrianô I cho triệu tập công đồng tại Nicêa để giải quyết cuộc khủng hoảng.",
+      "en": "St John of Damascus had set out the theological basis for venerating images. In 787 the empress Irene, together with Pope Adrian I, had a council convened at Nicaea to resolve the crisis."
+    },
+    {
+      "vi": "Công đồng dạy rằng, vì Con Thiên Chúa đã thật sự làm người và trở nên hữu hình, nên có thể vẽ ảnh và tôn kính Người. Nhưng sự tôn kính (tôn kính) dành cho ảnh tượng khác hẳn sự thờ lạy (thờ phượng) chỉ dành riêng cho Thiên Chúa; lòng tôn kính ấy hướng về chính Đấng mà ảnh tượng trình bày.",
+      "en": "The council taught that, because the Son of God truly became man and thus visible, he can be depicted and venerated. But the veneration given to an image is quite different from the adoration due to God alone; that veneration passes to the very one whom the image represents."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "787", "en": "787" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Nicêa (nay là İznik, Thổ Nhĩ Kỳ)", "en": "Nicaea (İznik, Turkey)" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Hoàng hậu Irênê · Giáo hoàng Ađrianô I", "en": "Empress Irene · Pope Adrian I" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Thánh Ađrianô I", "en": "St Adrian I" } },
+    { "label": { "vi": "Số giám mục", "en": "Bishops" }, "value": { "vi": "khoảng 350", "en": "about 350" } },
+    { "label": { "vi": "Chống lạc thuyết", "en": "Condemned" }, "value": { "vi": "Bài trừ ảnh tượng (Iconoclasm)", "en": "Iconoclasm" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Định tín về việc tôn kính ảnh tượng thánh", "en": "Definition on the veneration of sacred images" }, "latin": "", "date": "787" },
+    { "title": { "vi": "Hai mươi hai khoản giáo luật", "en": "Twenty-two canons" }, "latin": "", "date": "787" }
+  ],
+  "documents_note": {
+    "vi": "Định tín này là nền tảng cho lòng đạo đức bình dân của Hội Thánh: ảnh Chúa, ảnh Đức Mẹ và các thánh, ảnh tượng trong nhà thờ và nơi gia đình.",
+    "en": "This definition underlies the Church's popular devotion: images of Christ, of Our Lady and the saints, in churches and in homes."
+  },
+  "sections": [
+    {
+      "id": "why-images",
+      "title": { "vi": "Tại sao được phép tôn kính ảnh tượng?", "en": "Why may images be venerated?" },
+      "body": {
+        "vi": "Nền tảng là mầu nhiệm Nhập Thể. Trong Cựu Ước, không ai được tạc tượng Thiên Chúa vì chưa ai thấy Người. Nhưng khi Ngôi Lời đã làm người, “Đấng vô hình” trở nên hữu hình nơi Đức Giêsu. Vẽ ảnh Đức Kitô là tuyên xưng rằng Người đã thật sự đến trong xác phàm. Chối bỏ ảnh tượng, cách nào đó, cũng là làm nhẹ đi thực tại của việc Nhập Thể.",
+        "en": "The basis is the mystery of the Incarnation. In the Old Testament no one could carve an image of God, for no one had seen him. But once the Word became man, “the invisible one” became visible in Jesus. To depict Christ is to confess that he truly came in the flesh. To reject images is, in a way, to soften the reality of the Incarnation."
+      },
+      "open": false
+    },
+    {
+      "id": "veneration-not-adoration",
+      "title": { "vi": "Tôn kính, không phải thờ lạy", "en": "Veneration, not adoration" },
+      "body": {
+        "vi": "Hội Thánh phân biệt rõ: chỉ một mình Thiên Chúa được thờ lạy (thờ phượng); còn ảnh tượng, thánh tích và các thánh thì được tôn kính. Khi tôn kính một ảnh, người tín hữu không thờ lạy gỗ đá hay màu vẽ, mà qua ảnh ấy hướng lòng lên chính Đấng được trình bày. Đây không phải thờ ngẫu tượng, mà là một cách rất người để nâng tâm hồn lên tới Chúa.",
+        "en": "The Church distinguishes clearly: God alone is adored; images, relics, and the saints are venerated. In venerating an image, the believer does not adore wood or paint, but through it lifts the heart to the one represented. This is not idolatry, but a very human way of raising the mind to God."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Tôn kính ảnh tượng có vi phạm điều răn “chớ tạc tượng mà thờ” không?", "en": "Doesn't venerating images break the commandment against graven images?" },
+      "a": {
+        "vi": "Không. Điều răn ấy cấm tạc tượng ngẫu thần để thờ lạy thay cho Thiên Chúa. Chính Thiên Chúa lại truyền làm hình các Kêrubim trên Hòm Bia và con rắn đồng (x. Xh 25,18-20; Ds 21,8-9), nên bản thân hình ảnh không bị cấm tuyệt đối. Sau khi Ngôi Lời làm người, ảnh Đức Kitô trở thành lời tuyên xưng đức tin. Tín hữu không thờ lạy ảnh, mà tôn kính Đấng ảnh trình bày — điều rất khác với việc thờ ngẫu tượng.",
+        "en": "No. That commandment forbids making idols to worship in place of God. God himself commanded images of the cherubim on the Ark and the bronze serpent (cf. Ex 25:18-20; Num 21:8-9), so images as such are not absolutely forbidden. Once the Word became man, an image of Christ became a profession of faith. The faithful do not adore the image, but venerate the one it represents — quite unlike idolatry."
+      }
+    }
+  ],
+  "ccc_refs": [476, 2131],
+  "image": {
+    "src": "/images/cong-dong/nicaea-ii.jpg",
+    "medium": { "vi": "Ảnh thánh, tu viện Novodevichy, tk. XVII", "en": "Icon, Novodevichy Convent, 17th c." },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

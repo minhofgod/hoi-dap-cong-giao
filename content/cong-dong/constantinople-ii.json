@@ -1,0 +1,87 @@
+{
+  "no": 5,
+  "slug": "constantinople-ii",
+  "era": "early",
+  "name": { "vi": "Công đồng Constantinôpôli II", "en": "Second Council of Constantinople" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ năm · một Ngôi Vị duy nhất nơi Đức Kitô",
+    "en": "The fifth ecumenical council · the one person of Christ"
+  },
+  "dates": { "display": "553", "start": 553, "end": 553 },
+  "location": {
+    "vi": "Constantinôpôli (nay là Istanbul, Thổ Nhĩ Kỳ)",
+    "en": "Constantinople (modern Istanbul, Turkey)"
+  },
+  "quote": {
+    "vi": "Chỉ có một Ngôi Vị duy nhất, là Đức Giêsu Kitô, một Đấng trong Ba Ngôi Chí Thánh.",
+    "en": "There is but one person, Jesus Christ, who is one of the Holy Trinity.",
+    "source": { "vi": "Công đồng Constantinôpôli II, 553", "en": "The Second Council of Constantinople, 553" }
+  },
+  "background": [
+    {
+      "vi": "Một thế kỷ sau Chalcêđônia, nhiều Kitô hữu Đông phương vẫn nghi ngờ công thức “hai bản tính”, sợ nó nghiêng về Nestôriô. Để hàn gắn, hoàng đế Justinianô I muốn Hội Thánh lên án ba tác phẩm cổ mang màu sắc Nestôriô — quen gọi là “Ba Chương”.",
+      "en": "A century after Chalcedon, many Eastern Christians still distrusted the “two natures” formula, fearing it leaned toward Nestorius. To heal the rift, the emperor Justinian I wanted the Church to condemn three older writings with a Nestorian flavour — known as the “Three Chapters”."
+    },
+    {
+      "vi": "Năm 553, khoảng 150 giám mục họp tại Constantinôpôli. Giáo hoàng Vigiliô ban đầu do dự, nhưng cuối cùng chuẩn nhận. Công đồng tái khẳng định trọn vẹn đức tin Chalcêđônia và giải thích rõ rằng “hai bản tính” không hề có nghĩa là hai chủ thể.",
+      "en": "In 553 about 150 bishops met at Constantinople. Pope Vigilius hesitated at first, but in the end confirmed the council. It fully reaffirmed the faith of Chalcedon and made clear that “two natures” in no way means two subjects."
+    },
+    {
+      "vi": "Công đồng tuyên xưng rằng Đấng chịu đóng đinh trên thập giá thật sự là “một Đấng trong Ba Ngôi Chí Thánh” — nhân tính của Đức Kitô không có chủ thể nào khác ngoài chính Ngôi Con Thiên Chúa. Đây là điều Hội Thánh gọi là mầu nhiệm “ngôi hiệp”.",
+      "en": "The council confessed that the one crucified on the cross truly is “one of the Holy Trinity” — Christ's human nature has no subject other than the divine Son himself. This is what the Church calls the mystery of the “hypostatic union”."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "553", "en": "553" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Constantinôpôli (nay là Istanbul)", "en": "Constantinople (Istanbul)" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Hoàng đế Justinianô I", "en": "Emperor Justinian I" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Vigiliô", "en": "Vigilius" } },
+    { "label": { "vi": "Số giám mục", "en": "Bishops" }, "value": { "vi": "khoảng 150", "en": "about 150" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Ba Chương · ngôi hiệp nơi Đức Kitô", "en": "The Three Chapters · the hypostatic union" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Mười bốn khoản tuyệt thông (định tín)", "en": "Fourteen anathemas (the definition)" }, "latin": "", "date": "553" },
+    { "title": { "vi": "Án lên án “Ba Chương”", "en": "Condemnation of the Three Chapters" }, "latin": "", "date": "553" }
+  ],
+  "documents_note": {
+    "vi": "Công đồng không thêm tín điều mới, mà bảo vệ cách hiểu đúng đắn về Chalcêđônia trước những giải thích lệch lạc.",
+    "en": "The council added no new dogma; it defended the correct reading of Chalcedon against distorted interpretations."
+  },
+  "sections": [
+    {
+      "id": "three-chapters",
+      "title": { "vi": "“Ba Chương” là gì?", "en": "What were the “Three Chapters”?" },
+      "body": {
+        "vi": "“Ba Chương” là ba bản văn cổ bị coi là mang tư tưởng Nestôriô. Việc lên án chúng nhằm cho thấy Hội Thánh không hề dung túng khuynh hướng tách đôi Đức Kitô, đồng thời trấn an các cộng đoàn Đông phương rằng Chalcêđônia không phải là một hình thức Nestôriô trá hình. Đây vừa là vấn đề đạo lý vừa là nỗ lực hiệp nhất.",
+        "en": "The “Three Chapters” were three older texts judged to carry Nestorian ideas. Condemning them showed that the Church tolerated no tendency to split Christ in two, and reassured the Eastern communities that Chalcedon was not a disguised form of Nestorianism. It was at once a doctrinal question and an effort at unity."
+      },
+      "open": false
+    },
+    {
+      "id": "hypostatic-union",
+      "title": { "vi": "Mầu nhiệm “ngôi hiệp”", "en": "The mystery of the hypostatic union" },
+      "body": {
+        "vi": "Constantinôpôli II làm sáng tỏ điều Chalcêđônia đã dạy: nơi Đức Kitô, hai bản tính — thần và nhân — kết hợp trong một ngôi vị duy nhất, chính là Ngôi Lời hằng hữu. Vì thế ta có thể nói thật sự rằng “Con Thiên Chúa đã chịu chết vì ta”: Đấng chịu khổ nạn là một ngôi vị Thiên Chúa, hành động và chịu đau khổ trong nhân tính đã nhận lấy.",
+        "en": "Constantinople II clarified what Chalcedon had taught: in Christ the two natures — divine and human — are united in one single person, the eternal Word himself. So it can be truly said that “the Son of God died for us”: the one who suffered is a divine person, acting and suffering in the humanity he had assumed."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Nếu công đồng chỉ nhắc lại Chalcêđônia, tại sao vẫn cần họp?", "en": "If the council only repeated Chalcedon, why was it needed?" },
+      "a": {
+        "vi": "Vì một tín điều đúng vẫn có thể bị hiểu sai. Sau Chalcêđônia, có người dùng công thức “hai bản tính” để lén đưa trở lại ý tưởng Đức Kitô là hai chủ thể. Constantinôpôli II không đổi đức tin, mà đóng lại lối hiểu sai ấy, khẳng định dứt khoát: một ngôi vị duy nhất, là chính Ngôi Con Thiên Chúa. Các công đồng thường làm đúng công việc này — canh giữ để chân lý không bị bóp méo.",
+        "en": "Because a true dogma can still be misread. After Chalcedon, some used the “two natures” formula to smuggle back the idea of Christ as two subjects. Constantinople II changed no doctrine; it shut down that misreading, affirming decisively: one single person, the very Son of God. This is often exactly what councils do — guard the truth against distortion."
+      }
+    }
+  ],
+  "ccc_refs": [466, 468],
+  "image": {
+    "src": "/images/cong-dong/constantinople-ii.jpg",
+    "medium": { "vi": "Bích họa, Tu viện Ferapontov, 1502", "en": "Fresco, Ferapontov Monastery, 1502" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

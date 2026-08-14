@@ -1,0 +1,87 @@
+{
+  "no": 8,
+  "slug": "constantinople-iv",
+  "era": "early",
+  "name": { "vi": "Công đồng Constantinôpôli IV", "en": "Fourth Council of Constantinople" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ tám · hiệp nhất và trật tự Hội Thánh",
+    "en": "The eighth ecumenical council · Church unity and order"
+  },
+  "dates": { "display": "869–870", "start": 869, "end": 870 },
+  "location": {
+    "vi": "Constantinôpôli (nay là Istanbul, Thổ Nhĩ Kỳ)",
+    "en": "Constantinople (modern Istanbul, Turkey)"
+  },
+  "quote": {
+    "vi": "Xin cho tất cả nên một, như Cha ở trong Con và Con ở trong Cha.",
+    "en": "That they may all be one, as you, Father, are in me and I in you.",
+    "source": { "vi": "Ga 17,21", "en": "John 17:21" }
+  },
+  "background": [
+    {
+      "vi": "Giữa thế kỷ IX, Hội Thánh Constantinôpôli rơi vào tranh chấp: Photiô được đặt làm thượng phụ trong khi thượng phụ Inhaxiô bị buộc từ chức, khiến hàng giáo sĩ chia rẽ và quan hệ với Toà Rôma căng thẳng.",
+      "en": "In the mid-ninth century the Church of Constantinople fell into conflict: Photius was installed as patriarch while patriarch Ignatius had been forced to resign, dividing the clergy and straining relations with the See of Rome."
+    },
+    {
+      "vi": "Năm 869–870, hoàng đế Basiliô I cùng Giáo hoàng Ađrianô II cho triệu tập công đồng tại Constantinôpôli. Công đồng phế truất Photiô và phục hồi Inhaxiô, đồng thời tái khẳng định việc tôn kính ảnh tượng đã được Nicêa II xác định.",
+      "en": "In 869–870 the emperor Basil I and Pope Adrian II had a council convened at Constantinople. It deposed Photius and restored Ignatius, and reaffirmed the veneration of images defined at Nicaea II."
+    },
+    {
+      "vi": "Đây là công đồng chung cuối cùng của thiên niên kỷ thứ nhất được Hội Thánh Công giáo nhìn nhận. Nó cho thấy những căng thẳng Đông – Tây đang lớn dần, mà hai thế kỷ sau sẽ dẫn tới cuộc ly khai năm 1054.",
+      "en": "It is the last ecumenical council of the first millennium recognised by the Catholic Church. It reveals the growing East–West tensions that, two centuries later, would lead to the schism of 1054."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "869–870", "en": "869–870" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Constantinôpôli (nay là Istanbul)", "en": "Constantinople (Istanbul)" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Hoàng đế Basiliô I", "en": "Emperor Basil I" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Ađrianô II", "en": "Adrian II" } },
+    { "label": { "vi": "Số giám mục", "en": "Bishops" }, "value": { "vi": "khoảng 100", "en": "about 100" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Trật tự và hiệp nhất Hội Thánh", "en": "Church order and unity" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Hai mươi bảy khoản giáo luật", "en": "Twenty-seven canons" }, "latin": "", "date": "870" },
+    { "title": { "vi": "Phế truất Photiô, phục hồi Inhaxiô", "en": "Deposition of Photius, restoration of Ignatius" }, "latin": "", "date": "870" }
+  ],
+  "documents_note": {
+    "vi": "Khác với các công đồng trước, Constantinôpôli IV chủ yếu là công đồng về kỷ luật và hiệp thông, chứ không định tín một tín điều mới.",
+    "en": "Unlike the earlier councils, Constantinople IV was chiefly a council of discipline and communion, rather than defining a new dogma."
+  },
+  "sections": [
+    {
+      "id": "photian",
+      "title": { "vi": "Cuộc tranh chấp quanh thượng phụ Photiô", "en": "The dispute over patriarch Photius" },
+      "body": {
+        "vi": "Photiô là một học giả lỗi lạc, nhưng việc ông được đặt làm thượng phụ trong khi Inhaxiô chưa từ chức hợp lệ đã gây tranh cãi về tính chính đáng và về quyền của Toà Rôma trong việc phân xử. Công đồng năm 869–870 đứng về phía Inhaxiô. Ít năm sau, một công đồng khác (879–880) lại phục hồi Photiô — và chính điểm này khiến Đông phương và Tây phương về sau đếm số các công đồng chung khác nhau.",
+        "en": "Photius was a brilliant scholar, but his installation as patriarch while Ignatius had not lawfully resigned raised questions about legitimacy and about Rome's role in judging the case. The council of 869–870 sided with Ignatius. A few years later another council (879–880) reinstated Photius — and it is on this point that East and West would later count the ecumenical councils differently."
+      },
+      "open": false
+    },
+    {
+      "id": "east-west",
+      "title": { "vi": "Vì sao Đông và Tây đếm khác nhau?", "en": "Why do East and West count differently?" },
+      "body": {
+        "vi": "Hội Thánh Công giáo nhìn nhận công đồng 869–870 là Công đồng chung thứ tám. Các Giáo hội Chính Thống lại nhìn nhận công đồng 879–880 (phục hồi Photiô) là công đồng thứ tám của mình. Sự khác biệt này phản ánh những căng thẳng đang lớn dần giữa hai bên về quyền tối thượng của Rôma và một số điểm khác — những căng thẳng dẫn tới cuộc ly khai năm 1054. Ngày nay, Công giáo và Chính Thống vẫn đối thoại để tìm lại sự hiệp nhất trọn vẹn.",
+        "en": "The Catholic Church recognises the council of 869–870 as the eighth ecumenical council. The Orthodox Churches instead recognise the council of 879–880 (which reinstated Photius) as their eighth. This difference reflects the growing tensions between the two sides over Rome's primacy and other points — tensions that led to the schism of 1054. Today Catholics and Orthodox continue to dialogue toward restoring full unity."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Nếu một công đồng chỉ lo chuyện kỷ luật và nhân sự, sao vẫn gọi là “công đồng chung”?", "en": "If a council only dealt with discipline and personnel, why call it “ecumenical”?" },
+      "a": {
+        "vi": "Vì công đồng chung không chỉ để định tín, mà còn để gìn giữ trật tự, sự hiệp thông và bình an của toàn Hội Thánh. Việc ai là thượng phụ hợp pháp và ai có quyền phân xử đụng chạm tới chính sự hiệp nhất của Hội Thánh và vai trò của Toà Phêrô. Vì thế, dù không thêm một tín điều mới, Constantinôpôli IV vẫn phục vụ cùng một mục đích: giữ cho Hội Thánh nên một trong đức tin và trong tình hiệp thông.",
+        "en": "Because an ecumenical council is not only for defining dogma, but also for safeguarding the order, communion, and peace of the whole Church. Who is the lawful patriarch and who has authority to judge touches the very unity of the Church and the role of the See of Peter. So even without adding a new dogma, Constantinople IV served the same end: keeping the Church one in faith and in communion."
+      }
+    }
+  ],
+  "ccc_refs": [],
+  "image": {
+    "src": "/images/cong-dong/constantinople-iv.jpg",
+    "medium": { "vi": "Tiểu họa, Madrid Skylitzes, tk. XII", "en": "Miniature, Madrid Skylitzes, 12th c." },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}
