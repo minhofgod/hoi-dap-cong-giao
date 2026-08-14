@@ -40,6 +40,11 @@ only produces text to paste in) or be written directly. Typical flow with Grok:
 2. Paste the Markdown **below the frontmatter** in the matching file.
 3. **Spot-check the sources** — Grok (or any LLM) can invent citations; verify before publishing.
 
+For **evidence-heavy videos** (lots of sources, few verses — e.g. the Resurrection), it works
+better to have Grok **dump all its research first** (Appendix B), then write/condense the companion
+*here* from that dump — verifying the `[cần kiểm chứng]` sources with WebSearch/WebFetch and
+dropping any that can't be confirmed before publishing.
+
 **Images in a post:**
 
 - Put files in `public/images/video/<slug>/<name>.jpg`; reference as `/images/video/<slug>/<name>.jpg`.
@@ -71,7 +76,7 @@ anchor's `parts:`). Frontmatter keys: `question_vi`, `question_en`, `category`, 
 
 ---
 
-## Appendix — Grok blog prompt
+## Appendix A — Grok blog prompt (Grok writes the companion)
 
 Paste this into the Grok chat that already has the video's research. It's generic — it refers to
 "the video" (whatever that chat is about), so the same prompt works for every video.
@@ -115,3 +120,37 @@ Give me the finished Markdown, ready to paste.
 
 The content session then converts each `**[Ảnh gợi ý: …]**` marker into a real image (sources a
 public-domain file into `public/images/video/<slug>/`) and adds any internal cross-links.
+
+## Appendix B — Grok research-dump prompt (you condense it here)
+
+Use this when a Grok chat holds a lot of researched evidence (esp. from back-and-forth questions).
+It dumps everything — including dead links and images it showed — so nothing is lost in handoff.
+The content session then rewrites it into a focused companion and verifies the flagged sources.
+
+```text
+In THIS chat we researched the topic of a video I made. Before I move on, compile EVERYTHING
+you've gathered here into one organized reference document I can hand to another tool to turn into
+an article. Don't summarize away detail — this is raw material, so be thorough.
+
+Include:
+- Every piece of evidence / argument we discussed, each with a short note on what it is and why it
+  matters.
+- For each, the SOURCES — author / title / date and the link, EVEN IF the link is now broken or
+  you're unsure it works. Include the URL anyway and mark it "[link có thể đã hỏng]".
+- Any images or photos you showed earlier — describe what each depicted and give its source/URL
+  (even if no longer accessible), so it can be re-found later.
+- Relevant context: dates, names, places, counterarguments, and scholarly disagreements.
+
+Organize with ##/### headings grouped by theme (e.g. by type of evidence) and bullet lists. Write
+in Vietnamese; keep proper names and source titles in their original language.
+
+ACCURACY — important:
+- Do NOT invent sources, quotes, numbers, or links. Include only what actually came up here or
+  that you can genuinely stand behind.
+- Tag each source: "[chắc chắn]" if you're confident it's real and accurately described, or
+  "[cần kiểm chứng]" if you're not sure. Flagging doubt is better than guessing.
+- Clearly separate historical/scholarly CONSENSUS from FAITH claims and from DISPUTED points.
+
+This is a data dump for handoff, not a finished article — completeness and honest sourcing matter
+more than polish or length.
+```
