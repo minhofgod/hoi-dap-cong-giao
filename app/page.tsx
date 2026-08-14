@@ -71,19 +71,34 @@ export default function HomePage() {
       <main className={styles.page}>
       <section className={styles.sectionCards}>
         <Link href="/giai-dap" className={`${styles.card} ${styles.cardSage}`}>
-          <MessageCircleQuestion size={30} strokeWidth={1.5} color="var(--sage)" />
-          <div className={styles.cardTitle}>Giải Đáp</div>
-          <div className={styles.cardCount}>{questionsCount} câu hỏi</div>
+          <span className={styles.cardIcon}>
+            <MessageCircleQuestion size={24} strokeWidth={1.6} color="var(--sage)" />
+          </span>
+          <span className={styles.cardBody}>
+            <span className={styles.cardTitle}>Giải Đáp</span>
+            <span className={styles.cardDesc}>Thắc mắc thường gặp, giải đáp ngắn gọn có trích dẫn.</span>
+            <span className={styles.cardCount}>{questionsCount} câu hỏi</span>
+          </span>
         </Link>
         <Link href="/giao-ly" className={`${styles.card} ${styles.cardAccent}`}>
-          <BookOpen size={30} strokeWidth={1.5} color="var(--accent)" />
-          <div className={styles.cardTitle}>Giáo Lý</div>
-          <div className={styles.cardCount}>{content.length} số</div>
+          <span className={styles.cardIcon}>
+            <BookOpen size={24} strokeWidth={1.6} color="var(--accent)" />
+          </span>
+          <span className={styles.cardBody}>
+            <span className={styles.cardTitle}>Giáo Lý</span>
+            <span className={styles.cardDesc}>Toàn bộ Giáo Lý Hội Thánh, song ngữ Việt–Anh.</span>
+            <span className={styles.cardCount}>{content.length} số</span>
+          </span>
         </Link>
         <Link href="/giao-phu" className={`${styles.card} ${styles.cardGold}`}>
-          <ScrollText size={30} strokeWidth={1.5} color="var(--gold)" />
-          <div className={styles.cardTitle}>Giáo Phụ</div>
-          <div className={styles.cardCount}>{fathersCount} bản văn</div>
+          <span className={styles.cardIcon}>
+            <ScrollText size={24} strokeWidth={1.6} color="var(--gold)" />
+          </span>
+          <span className={styles.cardBody}>
+            <span className={styles.cardTitle}>Giáo Phụ</span>
+            <span className={styles.cardDesc}>Bản văn các Giáo Phụ tiên khởi của Hội Thánh.</span>
+            <span className={styles.cardCount}>{fathersCount} bản văn</span>
+          </span>
         </Link>
       </section>
 
@@ -188,6 +203,55 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className={styles.rosaryBand}>
+        <div className={styles.rosaryInner}>
+          <div className={styles.rosaryText}>
+            <div className={styles.rosaryEyebrow}>Trang bạn đồng hành</div>
+            <h2 className={styles.rosaryTitle}>Đọc Kinh Mân Côi</h2>
+            <p className={styles.rosaryProse}>
+              Một trang trực quan để lần hạt Mân Côi — song ngữ Việt–Anh, dõi theo từng mầu
+              nhiệm và từng hạt kinh trên chuỗi.
+            </p>
+            <a
+              href="https://dockinhmancoi.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.rosaryButton}
+            >
+              Bắt đầu lần hạt →
+            </a>
+          </div>
+          <div className={styles.rosaryArt} aria-hidden="true">
+            <svg viewBox="0 0 200 232" className={styles.rosarySvg}>
+              <circle
+                cx="100"
+                cy="80"
+                r="64"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="8"
+                strokeLinecap="round"
+                strokeDasharray="0.1 20"
+              />
+              <line
+                x1="100"
+                y1="150"
+                x2="100"
+                y2="196"
+                stroke="currentColor"
+                strokeWidth="8"
+                strokeLinecap="round"
+                strokeDasharray="0.1 22"
+              />
+              <g stroke="currentColor" strokeWidth="7" strokeLinecap="round">
+                <line x1="100" y1="202" x2="100" y2="226" />
+                <line x1="88" y1="213" x2="112" y2="213" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </section>
+
       {/* Empty full-bleed spacer removed at request. */}
       {/* <div className={styles.fullBleed} /> */}
 
@@ -232,9 +296,8 @@ export default function HomePage() {
           </div>
           <div className={styles.footerCol}>
             <div className={styles.footerColTitle}>Trang</div>
-            <Link href="/ve-trang-nay" className={styles.footerLink}>Về trang này</Link>
-            <Link href="/ve-trang-nay" className={styles.footerLink}>Hướng dẫn sử dụng</Link>
-            <Link href="/ve-trang-nay" className={styles.footerLink}>Liên hệ</Link>
+            <Link href="/giao-ly/1" className={styles.footerLink}>Đọc Giáo Lý từ đầu</Link>
+            <Link href="/giao-phu" className={styles.footerLink}>Thư mục Giáo Phụ</Link>
           </div>
         </div>
       </footer>

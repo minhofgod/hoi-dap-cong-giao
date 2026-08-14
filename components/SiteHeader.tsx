@@ -45,9 +45,6 @@ export function SiteHeader() {
           </svg>
           <input name="q" type="text" placeholder="Tìm kiếm…" className={styles.searchInput} />
         </form>
-        <Link href="/ve-trang-nay" className={styles.helpButton} aria-label="Về trang này">
-          ?
-        </Link>
       </div>
 
       <button
@@ -72,9 +69,6 @@ export function SiteHeader() {
               {s.label}
             </Link>
           ))}
-          <Link href="/ve-trang-nay" className={styles.mobileLink} onClick={() => setOpen(false)}>
-            Về trang này
-          </Link>
         </div>
       )}
     </header>
