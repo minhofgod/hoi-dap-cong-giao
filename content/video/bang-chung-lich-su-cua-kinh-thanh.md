@@ -32,7 +32,7 @@ Hai bộ mã lớn **Codex Sinaiticus** và **Codex Vaticanus** được viết 
 
 ## Vì sao "bóp méo hàng loạt" là bất khả thi
 
-Muốn thay đổi Kinh Thánh, người ta phải tìm và tiêu hủy hàng ngàn bản thảo rải rác khắp thế giới, rồi phát hành một bản mới từ một điểm duy nhất — điều gần như không thể. Hơn nữa, hai bộ mã lớn ra đời ngay sau khi Kitô giáo vừa được hợp pháp hóa (Sắc lệnh Milano, năm 313); trước đó các Kitô hữu bị bách hại chứ chưa hề nắm quyền lực để "thu hồi" mọi bản thảo.
+Muốn thay đổi Kinh Thánh, người ta phải tìm và tiêu hủy hàng ngàn bản thảo rải rác khắp thế giới, rồi phát hành một bản mới từ một điểm duy nhất — điều gần như không thể. Hơn nữa, hai bộ mã lớn ra đời ngay sau khi Kitô giáo vừa được hợp pháp hóa (Sắc lệnh Milanô, năm 313); trước đó các Kitô hữu bị bách hại chứ chưa hề nắm quyền lực để "thu hồi" mọi bản thảo.
 
 Những khác biệt giữa các bản chủ yếu là lỗi chính tả hay đảo thứ tự chữ — không có âm mưu che giấu giáo lý nào. Các học giả, dù có tín ngưỡng hay không, đều đồng ý rằng văn bản hôm nay rất gần với bản gốc. Cần nói cho công bằng: Tân Ước được nghiên cứu như một tài liệu lịch sử, bằng đúng những phương pháp phê bình văn bản áp dụng cho mọi văn bản cổ đại khác — còn việc **tin** nội dung của nó là một bước của đức tin.
 
@@ -48,5 +48,5 @@ Tân Ước là một trong những văn bản cổ được bảo tồn tốt n
 - Institute for New Testament Textual Research (INTF, Đại học Münster) — danh mục bản chép tay Hy Lạp của Tân Ước (~5.800 bản, số liệu cập nhật liên tục).
 - Flavius Josephus, *Jewish Antiquities* 18,63-64 (Testimonium Flavianum — được xem là có lõi lịch sử thật nhưng bị Kitô hữu đời sau thêm thắt) và 20,200 (về Giacôbê).
 - Tacitus, *Annals* 15,44.
-- **Pilate Stone** — bia khắc tìm thấy tại Caesarea Maritima năm 1961, bằng chứng khảo cổ về tổng trấn Pontius Pilate.
+- **Pilate Stone** — bia khắc tìm thấy tại Caesarea Maritima năm 1961, bằng chứng khảo cổ về tổng trấn Phongxiô Philatô.
 - **Codex Sinaiticus** và **Codex Vaticanus** (thế kỷ 4); **Rylands Papyrus P52** (khoảng 125–175 AD).

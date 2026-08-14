@@ -26,7 +26,7 @@ Người đầu tiên thấy ngôi mộ trống là các phụ nữ (Mt 28,1-8).
 
 ## Những chứng nhân dám chết
 
-![Sự hoán cải của thánh Phaolô trên đường Đamát — Caravaggio](/images/video/bang-chung-chua-giesu-song-lai/conversion-of-saint-paul-caravaggio.jpg)
+![Sự hoán cải của thánh Phaolô trên đường Đamas — Caravaggio](/images/video/bang-chung-chua-giesu-song-lai/conversion-of-saint-paul-caravaggio.jpg)
 
 *Sự hoán cải của thánh Phaolô — Caravaggio, khoảng 1601 (phạm vi công cộng).*
 
