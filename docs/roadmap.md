@@ -55,9 +55,31 @@ citations), optionally online sources *with verification*. Risks to design aroun
 
 **Recommended sequencing:** taxonomy (#1) → guided flow (2A) → evaluate content AI (2B).
 
-## Open questions
-- Final category list + seed tag vocabulary?
-- Rename `category` → `topic`, or add a new broad field alongside it?
-- Guided flow first (recommended), or go straight for the AI chatbot?
-- Content AI: site-content-only with citations (recommended) vs. also online sources?
-- Languages: guided flow / AI in Vietnamese only, or bilingual like the rest of the site?
+## Decisions (2026-08-14)
+- **3-level taxonomy**: Category (broad) + Topic (existing cluster) + Tags (cross-cutting).
+- **Advice text = hand-written snippets** keyed to situations (no LLM to start; AI is a later layer).
+- **Build order**: taxonomy + browse/filter first → then the companion flow → then evaluate AI.
+
+## Draft vocabulary — TO REFINE with the owner (not final)
+
+**Categories** (broad, audience-facing — a seeker/atheist should see themselves here; pick 1 per Q&A):
+1. Science & Faith — evolution, cosmology, miracles vs. science
+2. Evidence & History — Resurrection, historicity of Jesus, reliability of the Bible, archaeology
+3. God & Meaning — does God exist, suffering/problem of evil, purpose (most seeker-facing)
+4. Theology & Doctrine — Trinity, Christ, grace, salvation, sacraments
+5. The Church — papacy, authority, Church history, unity, scandals
+6. Mary & the Saints
+7. Scripture — interpretation, apparent contradictions, canon
+8. Morality & Life — relationships, marriage/mixed-marriage, moral questions
+
+**Tags** (cross-cutting, many per Q&A — seed list): Mary · Papacy · Eucharist · Trinity · Jesus ·
+Resurrection · Saints · Faith · Works · Grace · Salvation · Bible · Confession · Prayer · Suffering ·
+Marriage · Evangelization · Science · Evolution · Miracles · Church history · Authority · Icons ·
+Purgatory · Baptism · Atheism · Protestant objections · Free will.
+
+## Still open
+- Finalize the category list + tag vocabulary above.
+- Rename the frontmatter `category` → `topic`, or add a new broad `category` alongside it? (leaning:
+  add `category` for the broad level, rename the existing one `topic`, add `tags: []`.)
+- Content AI later: site-content-only with citations (recommended) vs. also online sources.
+- Languages: companion flow bilingual (like the rest of the site) — assumed yes.
