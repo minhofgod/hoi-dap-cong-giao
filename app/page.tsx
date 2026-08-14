@@ -250,7 +250,16 @@ export default function HomePage() {
                     <Play size={20} fill="currentColor" strokeWidth={0} />
                   </span>
                 </span>
-                <span className={styles.videoCardTitle}>{v.title}</span>
+                <span className={styles.videoCardTitle}>
+                  {v.titleEn ? (
+                    <>
+                      <span className="bi-vi">{v.title}</span>
+                      <span className="bi-en">{v.titleEn}</span>
+                    </>
+                  ) : (
+                    v.title
+                  )}
+                </span>
               </Link>
             ))}
           </div>

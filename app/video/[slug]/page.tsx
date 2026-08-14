@@ -38,7 +38,16 @@ export default async function VideoWatchPage({ params }: { params: Promise<{ slu
         <Link href="/video" className={styles.back}>
           ‹ Tất cả video
         </Link>
-        <h1 className={styles.watchTitle}>{video.title}</h1>
+        <h1 className={styles.watchTitle}>
+          {video.titleEn ? (
+            <>
+              <span className="bi-vi">{video.title}</span>
+              <span className="bi-en">{video.titleEn}</span>
+            </>
+          ) : (
+            video.title
+          )}
+        </h1>
 
         <VideoEmbed id={video.youtubeId} title={video.title} />
 
