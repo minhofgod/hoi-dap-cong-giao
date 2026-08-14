@@ -1,0 +1,96 @@
+{
+  "no": 2,
+  "slug": "constantinople-i",
+  "era": "early",
+  "name": { "vi": "Công đồng Constantinôpôli I", "en": "First Council of Constantinople" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ hai · thần tính Chúa Thánh Thần",
+    "en": "The second ecumenical council · the divinity of the Holy Spirit"
+  },
+  "dates": { "display": "381", "start": 381, "end": 381 },
+  "location": {
+    "vi": "Constantinôpôli (nay là Istanbul, Thổ Nhĩ Kỳ)",
+    "en": "Constantinople (modern Istanbul, Turkey)"
+  },
+  "quote": {
+    "vi": "Đức Chúa Thánh Thần là Thiên Chúa và là Đấng ban sự sống… Người được phụng thờ và tôn vinh cùng với Đức Chúa Cha và Đức Chúa Con.",
+    "en": "The Holy Spirit, the Lord, the giver of life… who with the Father and the Son is worshipped and glorified.",
+    "source": { "vi": "Kinh Tin Kính Nicêa–Constantinôpôli", "en": "The Niceno-Constantinopolitan Creed" }
+  },
+  "background": [
+    {
+      "vi": "Sau Công đồng Nicêa (325), cuộc tranh luận với phái Ariô còn kéo dài nhiều thập niên. Từ đó nảy sinh một sai lạc liên quan: phái Macêđôniô — cũng gọi là «những kẻ chống Thánh Thần» — nhận Ngôi Con là Thiên Chúa nhưng lại chối rằng Chúa Thánh Thần cũng là Thiên Chúa, coi Người chỉ như một thụ tạo.",
+      "en": "After the Council of Nicaea (325), the struggle with the Arians dragged on for decades. From it arose a related error: the Macedonians — also called the «Spirit-fighters» — accepted the Son as God but denied that the Holy Spirit is God, treating him as a mere creature."
+    },
+    {
+      "vi": "Năm 381, hoàng đế Thêôđôxiô I triệu tập khoảng 150 giám mục về Constantinôpôli. Thánh Basiliô Cả vừa qua đời không lâu trước đó; thánh Grêgôriô thành Nazianzô — «Nhà Thần Học» — một thời chủ tọa công đồng. Các nghị phụ tái khẳng định đức tin Nicêa và tuyên xưng trọn vẹn thần tính của Chúa Thánh Thần.",
+      "en": "In 381 the emperor Theodosius I summoned about 150 bishops to Constantinople. St Basil the Great had died shortly before; St Gregory of Nazianzus — «the Theologian» — presided for a time. The bishops reaffirmed the faith of Nicaea and confessed the full divinity of the Holy Spirit."
+    },
+    {
+      "vi": "Chính từ công đồng này mà bản Kinh Tin Kính được hoàn chỉnh — bản «Nicêa–Constantinôpôli» chúng ta đọc trong Thánh Lễ — với phần tuyên xưng về Chúa Thánh Thần, về Hội Thánh, về phép rửa và sự sống đời đời.",
+      "en": "From this council the Creed was completed — the «Niceno-Constantinopolitan» form we recite at Mass — with its profession of the Holy Spirit, the Church, baptism, and everlasting life."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "381", "en": "381" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Constantinôpôli (nay là Istanbul)", "en": "Constantinople (Istanbul)" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Hoàng đế Thêôđôxiô I", "en": "Emperor Theodosius I" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Thánh Đamasô I", "en": "St Damasus I" } },
+    { "label": { "vi": "Số giám mục", "en": "Bishops" }, "value": { "vi": "khoảng 150", "en": "about 150" } },
+    { "label": { "vi": "Chống lạc thuyết", "en": "Condemned" }, "value": { "vi": "Phái Macêđôniô (chối thần tính Chúa Thánh Thần)", "en": "Macedonianism (denial of the Spirit's divinity)" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Kinh Tin Kính Nicêa–Constantinôpôli", "en": "The Niceno-Constantinopolitan Creed" }, "latin": "Symbolum Nicaeno-Constantinopolitanum", "date": "381" },
+    { "title": { "vi": "Bốn khoản giáo luật", "en": "Four canons" }, "latin": "", "date": "381" }
+  ],
+  "documents_note": {
+    "vi": "Đây chính là bản Kinh Tin Kính dài mà Hội Thánh tuyên xưng trong Thánh Lễ các Chúa Nhật và lễ trọng.",
+    "en": "This is the longer Creed the Church professes at Mass on Sundays and solemnities."
+  },
+  "sections": [
+    {
+      "id": "macedonians",
+      "title": { "vi": "Phái Macêđôniô là ai?", "en": "Who were the Macedonians?" },
+      "body": {
+        "vi": "Họ là những người — gắn với tên giám mục Macêđôniô thành Constantinôpôli — chấp nhận đạo lý Nicêa về Ngôi Con nhưng lại hạ thấp Chúa Thánh Thần xuống hàng thụ tạo, nên còn bị gọi là «những kẻ chống Thánh Thần» (Pneumatomachi). Nếu Chúa Thánh Thần không phải là Thiên Chúa, thì chính Đấng thánh hóa và ban sự sống cho ta lại không phải là Thiên Chúa — điều mâu thuẫn với đức tin và lời cầu nguyện của Hội Thánh.",
+        "en": "They were a group — linked to the name of bishop Macedonius of Constantinople — who accepted the Nicene teaching on the Son but demoted the Holy Spirit to a creature, and so were called the «Spirit-fighters» (Pneumatomachi). If the Holy Spirit were not God, then the very one who sanctifies us and gives us life would not be God — contradicting the Church's faith and prayer."
+      },
+      "open": false
+    },
+    {
+      "id": "creed",
+      "title": { "vi": "Kinh Tin Kính hoàn chỉnh", "en": "The completed Creed" },
+      "body": {
+        "vi": "Nicêa đã dừng lại ở câu vắn tắt «Tôi tin kính Đức Chúa Thánh Thần». Constantinôpôli khai triển thành lời tuyên xưng đầy đủ: Chúa Thánh Thần «là Thiên Chúa và là Đấng ban sự sống», được «phụng thờ và tôn vinh» ngang hàng với Chúa Cha và Chúa Con. Bản văn này khép lại bằng đức tin về Hội Thánh duy nhất, phép rửa, sự sống lại và sự sống đời đời.",
+        "en": "Nicaea had stopped at the brief line «I believe in the Holy Spirit». Constantinople expanded it into a full profession: the Spirit «the Lord, the giver of life», «worshipped and glorified» equally with the Father and the Son. The text closes with faith in the one Church, baptism, the resurrection, and life everlasting."
+      },
+      "open": false
+    },
+    {
+      "id": "legacy",
+      "title": { "vi": "Di sản", "en": "Legacy" },
+      "body": {
+        "vi": "Với hai công đồng Nicêa và Constantinôpôli, Hội Thánh có được bản tuyên xưng đức tin về Chúa Ba Ngôi mà đến nay vẫn là kinh nguyện chung của hầu hết các Kitô hữu — Công giáo, Chính Thống và nhiều Giáo hội Cải Cách.",
+        "en": "With the two councils of Nicaea and Constantinople, the Church gained the profession of Trinitarian faith that remains, to this day, the common prayer of most Christians — Catholic, Orthodox, and many of the Reformation."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Có phải mãi đến năm 381 Hội Thánh mới tin Chúa Thánh Thần là Thiên Chúa?", "en": "Did the Church only start believing the Holy Spirit is God in 381?" },
+      "a": {
+        "vi": "Không. Niềm tin ấy đã có sẵn trong Kinh Thánh và trong đời sống Hội Thánh: chính Chúa Giêsu truyền rửa tội «nhân danh Cha và Con và Thánh Thần» (Mt 28,19), và thánh Phêrô nói dối Chúa Thánh Thần là «dối Thiên Chúa» (Cv 5,3-4). Constantinôpôli không «phong thần» cho Chúa Thánh Thần, mà xác định lại rõ ràng điều Hội Thánh vẫn tin và vẫn thờ phượng, để chống một sai lạc mới — đúng như Nicêa đã làm cho Ngôi Con.",
+        "en": "No. That belief was already in Scripture and in the Church's life: Jesus commands baptism «in the name of the Father and of the Son and of the Holy Spirit» (Matt 28:19), and Peter says that lying to the Holy Spirit is lying «to God» (Acts 5:3-4). Constantinople did not «make» the Spirit divine; it clearly restated what the Church already believed and worshipped, against a new error — just as Nicaea had done for the Son."
+      }
+    }
+  ],
+  "ccc_refs": [195, 245],
+  "image": {
+    "src": "/images/cong-dong/constantinople-i.jpg",
+    "medium": { "vi": "Tranh minh họa thủ bản Byzantine, thế kỷ IX", "en": "Byzantine manuscript illumination, 9th c." },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}
