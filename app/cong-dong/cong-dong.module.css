@@ -409,3 +409,42 @@
     gap: 10px;
   }
 }
+
+/* "Coming soon" note under the council list — the section is still being built out. */
+.comingSoon {
+  max-width: 700px;
+  margin: 8px auto 0;
+  padding: 22px 26px;
+  border: 1px dashed var(--border-strong, var(--border));
+  border-radius: var(--radius-card);
+  background: var(--gold-tint);
+}
+.comingSoonKicker {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: 8px;
+}
+.comingSoonKickerEn {
+  font-weight: 500;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-top: 2px;
+}
+.comingSoonText {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--text-body);
+}
+.comingSoonTextEn {
+  margin: 6px 0 0;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-en);
+}
