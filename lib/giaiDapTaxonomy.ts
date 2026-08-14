@@ -25,6 +25,7 @@ export const CATEGORIES: readonly TaxonomyTerm[] = [
   { id: 'mary-saints', vi: 'Đức Mẹ & Các Thánh', en: 'Mary & the Saints' },
   { id: 'scripture', vi: 'Kinh Thánh', en: 'Scripture' },
   { id: 'morality-life', vi: 'Luân lý & Đời sống', en: 'Morality & Life' },
+  { id: 'other-religions', vi: 'Tôn giáo khác & Phản đối', en: 'Other Religions & Objections' },
 ] as const;
 
 /** Cross-cutting tags (many per Q&A). Seed vocabulary from docs/roadmap.md — easy to extend. */
@@ -57,6 +58,9 @@ export const TAGS: readonly TaxonomyTerm[] = [
   { id: 'atheism', vi: 'Vô thần', en: 'Atheism' },
   { id: 'protestant-objections', vi: 'Phản đối của Tin Lành', en: 'Protestant objections' },
   { id: 'free-will', vi: 'Tự do ý chí', en: 'Free will' },
+  { id: 'sacraments', vi: 'Bí tích', en: 'Sacraments' },
+  { id: 'sin', vi: 'Tội & lương tâm', en: 'Sin & conscience' },
+  { id: 'afterlife', vi: 'Đời sau', en: 'Afterlife' },
 ] as const;
 
 const CATEGORY_BY_ID = new Map(CATEGORIES.map((c) => [c.id, c]));

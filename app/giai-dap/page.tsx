@@ -38,6 +38,8 @@ export default function GiaiDapIndexPage() {
     questionEn: qa.question.en,
     councilVi: qa.councilName.vi,
     councilEn: qa.councilName.en,
+    category: qa.category,
+    tags: qa.tags,
     href: `/giai-dap/cong-dong/${qa.id}`,
   }));
 

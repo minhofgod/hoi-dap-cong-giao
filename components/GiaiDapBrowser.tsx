@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useMemo, useState } from 'react';
-import { Search } from 'lucide-react';
+import { useCallback, useMemo, useState } from 'react';
+import { Search, SlidersHorizontal } from 'lucide-react';
 import { useLang } from '@/lib/giao-phu/useLang';
 import { CATEGORIES, TAGS, categoryLabel } from '@/lib/giaiDapTaxonomy';
 import { T } from './T';
@@ -24,12 +24,15 @@ export type GiaiDapCard = {
 };
 
 // A council apologetics Q&A, surfaced alongside the native questions (links to its own Q&A page).
+// Carries the same taxonomy axes as native questions, so it flows through the category/tag filter.
 export type CouncilQACard = {
   id: string;
   questionVi: string;
   questionEn: string;
   councilVi: string;
   councilEn: string;
+  category?: string;
+  tags: string[];
   href: string;
 };
 
@@ -49,39 +52,49 @@ export function GiaiDapBrowser({
   const [query, setQuery] = useState('');
   const [activeCat, setActiveCat] = useState<string | null>(null);
   const [activeTags, setActiveTags] = useState<string[]>([]);
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const uiLang = useLang();
   const q = query.trim();
   const nq = norm(q);
   const en = uiLang === 'en';
 
-  // Only offer filters that actually occur in the content — so nothing shows until the .md files
-  // carry categories/tags, and the vocabulary stays authored in one place (the taxonomy lists).
+  // Only offer filters that actually occur in the content (native Q&As + council Q&As) — so nothing
+  // shows until content carries categories/tags, and the vocabulary stays authored in one place
+  // (the taxonomy lists).
   const availableCats = useMemo(() => {
-    const present = new Set(questions.map((x) => x.category).filter(Boolean) as string[]);
+    const present = new Set(
+      [...questions, ...councilQuestions].map((x) => x.category).filter(Boolean) as string[]
+    );
     return CATEGORIES.filter((c) => present.has(c.id));
-  }, [questions]);
+  }, [questions, councilQuestions]);
 
   const availableTags = useMemo(() => {
-    const present = new Set(questions.flatMap((x) => x.tags));
+    const present = new Set([...questions, ...councilQuestions].flatMap((x) => x.tags));
     return TAGS.filter((t) => present.has(t.id));
-  }, [questions]);
+  }, [questions, councilQuestions]);
 
   const toggleTag = (id: string) =>
     setActiveTags((prev) => (prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]));
 
-  const filtersActive = activeCat !== null || activeTags.length > 0;
+  const activeCount = (activeCat !== null ? 1 : 0) + activeTags.length;
+  const filtersActive = activeCount > 0;
+
+  // The active category/tag predicate — a Q&A must match the active category (if any) AND carry
+  // every active tag. Native and council Q&As share the same shape here.
+  const matchesFilters = useCallback(
+    (x: { category?: string; tags: string[] }) =>
+      (activeCat === null || x.category === activeCat) && activeTags.every((t) => x.tags.includes(t)),
+    [activeCat, activeTags]
+  );
 
   // Category + tag filters narrow the pool of questions; the topic grid and question matches both
-  // derive from the narrowed pool. A question must match the active category (if any) AND carry
-  // every active tag.
-  const pool = useMemo(
-    () =>
-      questions.filter(
-        (x) =>
-          (activeCat === null || x.category === activeCat) &&
-          activeTags.every((t) => x.tags.includes(t))
-      ),
-    [questions, activeCat, activeTags]
+  // derive from the narrowed pool.
+  const pool = useMemo(() => questions.filter(matchesFilters), [questions, matchesFilters]);
+
+  // Council Q&As flow through the very same category/tag filter.
+  const councilPool = useMemo(
+    () => councilQuestions.filter(matchesFilters),
+    [councilQuestions, matchesFilters]
   );
 
   const topics = useMemo<Topic[]>(() => {
@@ -113,37 +126,54 @@ export function GiaiDapBrowser({
     [q, nq, pool]
   );
 
-  // Council Q&As have no taxonomy yet, so any active category/tag filter excludes them.
+  // While searching, council matches are the filtered council pool narrowed by the query.
   const councilMatches = useMemo(
     () =>
-      q && !filtersActive
-        ? councilQuestions.filter((x) =>
+      q
+        ? councilPool.filter((x) =>
             norm(`${x.questionVi} ${x.questionEn} ${x.councilVi} ${x.councilEn}`).includes(nq)
           )
         : [],
-    [q, nq, councilQuestions, filtersActive]
+    [q, nq, councilPool]
   );
 
   const searching = q.length > 0;
+  // Councils show as `councilMatches` while searching, else as the `councilPool` list at the bottom.
+  const councilShown = searching ? councilMatches.length : councilPool.length;
   const noResults =
     (searching || filtersActive) &&
     filteredTopics.length === 0 &&
     questionMatches.length === 0 &&
-    councilMatches.length === 0;
+    councilShown === 0;
 
   return (
     <>
-      <div className={styles.searchBar}>
-        <Search size={18} strokeWidth={2.2} className={styles.searchIcon} />
-        <input
-          className={styles.searchInput}
-          placeholder={en ? 'Search questions or topics…' : 'Tìm câu hỏi hoặc chủ đề…'}
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
+      <div className={styles.controls}>
+        <div className={styles.searchBar}>
+          <Search size={18} strokeWidth={2.2} className={styles.searchIcon} />
+          <input
+            className={styles.searchInput}
+            placeholder={en ? 'Search questions or topics…' : 'Tìm câu hỏi hoặc chủ đề…'}
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          />
+        </div>
+
+        {(availableCats.length > 0 || availableTags.length > 0) && (
+          <button
+            type="button"
+            className={`${styles.filterToggle} ${filtersActive ? styles.filterToggleActive : ''}`}
+            aria-expanded={filtersOpen}
+            onClick={() => setFiltersOpen((o) => !o)}
+          >
+            <SlidersHorizontal size={16} strokeWidth={2.2} />
+            <T vi="Bộ lọc" en="Filter" />
+            {activeCount > 0 && <span className={styles.filterBadge}>{activeCount}</span>}
+          </button>
+        )}
       </div>
 
-      {(availableCats.length > 0 || availableTags.length > 0) && (
+      {filtersOpen && (availableCats.length > 0 || availableTags.length > 0) && (
         <div className={styles.filters}>
           {availableCats.length > 0 && (
             <div className={styles.filterGroup}>
@@ -194,6 +224,19 @@ export function GiaiDapBrowser({
                 ))}
               </div>
             </div>
+          )}
+
+          {filtersActive && (
+            <button
+              type="button"
+              className={styles.filterClear}
+              onClick={() => {
+                setActiveCat(null);
+                setActiveTags([]);
+              }}
+            >
+              <T vi="Xóa bộ lọc" en="Clear filters" />
+            </button>
           )}
         </div>
       )}
@@ -268,14 +311,14 @@ export function GiaiDapBrowser({
         </section>
       )}
 
-      {/* Not searching or filtering: the Councils Q&A list sits below the topic grid. */}
-      {!searching && !filtersActive && councilQuestions.length > 0 && (
+      {/* Not searching: the Councils Q&A list (respecting the active filter) sits below the grid. */}
+      {!searching && councilPool.length > 0 && (
         <section className={styles.councilSection}>
           <div className={styles.councilLabel}>
             <T vi="Từ các Công Đồng" en="From the Councils" />
           </div>
           <ul className={styles.councilList}>
-            {councilQuestions.map((x) => (
+            {councilPool.map((x) => (
               <li key={x.id}>
                 <Link href={x.href} className={styles.councilRow}>
                   <span className={styles.councilRowQ}>{en ? x.questionEn : x.questionVi}</span>
