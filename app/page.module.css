@@ -407,11 +407,21 @@ a.card:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--gold);
 }
-.rosarySvg {
-  width: 168px;
-  height: auto;
+.rosaryImage {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 4 / 5;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #efe7db;
+  box-shadow: 0 6px 18px rgba(32, 30, 29, 0.12);
+}
+.rosaryImg {
+  object-fit: cover;
+  object-position: 50% 28%;
 }
 
 /* Video band (homepage) */
@@ -594,8 +604,8 @@ a.card:hover {
     order: -1;
     justify-content: flex-start;
   }
-  .rosarySvg {
-    width: 120px;
+  .rosaryImage {
+    max-width: 150px;
   }
   .giaoLyBand,
   .sectionCards,

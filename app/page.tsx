@@ -275,33 +275,16 @@ export default function HomePage() {
               Bắt đầu lần hạt →
             </a>
           </div>
-          <div className={styles.rosaryArt} aria-hidden="true">
-            <svg viewBox="0 0 200 232" className={styles.rosarySvg}>
-              <circle
-                cx="100"
-                cy="80"
-                r="64"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="8"
-                strokeLinecap="round"
-                strokeDasharray="0.1 20"
+          <div className={styles.rosaryArt}>
+            <span className={styles.rosaryImage}>
+              <Image
+                src="/images/home/kinh-man-coi.jpg"
+                alt=""
+                fill
+                sizes="(max-width: 900px) 150px, 220px"
+                className={styles.rosaryImg}
               />
-              <line
-                x1="100"
-                y1="150"
-                x2="100"
-                y2="196"
-                stroke="currentColor"
-                strokeWidth="8"
-                strokeLinecap="round"
-                strokeDasharray="0.1 22"
-              />
-              <g stroke="currentColor" strokeWidth="7" strokeLinecap="round">
-                <line x1="100" y1="202" x2="100" y2="226" />
-                <line x1="88" y1="213" x2="112" y2="213" />
-              </g>
-            </svg>
+            </span>
           </div>
         </div>
       </section>
