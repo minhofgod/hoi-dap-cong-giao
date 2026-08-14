@@ -2,6 +2,23 @@
   min-height: 100vh;
 }
 
+.diagramLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 9px 18px;
+  border-radius: var(--radius-pill);
+  background: var(--sage-tint);
+  color: var(--sage-deep);
+  font-size: 14px;
+  font-weight: 600;
+}
+.diagramLink:hover {
+  text-decoration: none;
+  background: var(--sage-card);
+}
+
 .mobileHeader {
   display: none;
   align-items: center;

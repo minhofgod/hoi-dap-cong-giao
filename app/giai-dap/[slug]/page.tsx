@@ -8,7 +8,13 @@ import { CatechismRef } from '@/components/CatechismRef';
 import { enrichAnswerHtml, resolveReference } from '@/lib/bibleRefs';
 import { resolveCatechism } from '@/lib/content';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
+import { CANVAS_ENABLED } from '@/lib/canvasFlag';
 import styles from './answer.module.css';
+
+// Topics that have a visual diagram at /so-do/<slug> (shown only when the canvas flag is on).
+const CANVAS_FOR: Record<string, string> = {
+  'duc-tin-va-viec-lam': 'sola-fide',
+};
 
 export function generateStaticParams() {
   return getAllQuestions().map((q) => ({ slug: q.slug }));
@@ -97,6 +103,12 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
                 {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
               </div>
               <h1 className={styles.question}>{question.questionVi}</h1>
+
+              {CANVAS_ENABLED && CANVAS_FOR[question.slug] && (
+                <Link href={`/so-do/${CANVAS_FOR[question.slug]}`} className={styles.diagramLink}>
+                  <span aria-hidden="true">◈</span> Xem sơ đồ trực quan
+                </Link>
+              )}
 
               <section id="tong-quan" className={styles.section}>
                 <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />

@@ -11,6 +11,7 @@ const SECTIONS = [
   { href: '/giai-dap', label: 'Giải Đáp' },
   { href: '/giao-ly', label: 'Giáo Lý' },
   { href: '/giao-phu', label: 'Giáo Phụ' },
+  { href: '/video', label: 'Video' },
 ];
 
 export function SiteHeader() {

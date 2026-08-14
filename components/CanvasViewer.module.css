@@ -1,0 +1,178 @@
+.viewport {
+  --edge: #C3B49B;
+  position: relative;
+  width: 100%;
+  height: 78vh;
+  min-height: 460px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FBF8F3;
+  background-image: radial-gradient(var(--border-strong) 1px, transparent 1px);
+  background-size: 22px 22px;
+  cursor: grab;
+  touch-action: none;
+}
+.viewport:active {
+  cursor: grabbing;
+}
+
+.plane {
+  position: relative;
+}
+
+.edges {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+.edgeLabel {
+  fill: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  text-anchor: middle;
+  paint-order: stroke;
+  stroke: #FBF8F3;
+  stroke-width: 4px;
+}
+
+.card {
+  position: absolute;
+  box-sizing: border-box;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text);
+  box-shadow: 0 1px 2px rgba(32, 30, 29, 0.04);
+}
+
+.card h1,
+.card h2 {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-heading);
+  margin: 0 0 6px;
+}
+.card h3 {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin: 0 0 5px;
+}
+.card p {
+  margin: 0 0 6px;
+}
+.card p:last-child {
+  margin-bottom: 0;
+}
+.card strong {
+  font-weight: 600;
+  color: var(--text-heading);
+}
+.card ul,
+.card ol {
+  margin: 0 0 6px;
+  padding-left: 18px;
+}
+.card li {
+  margin-bottom: 3px;
+}
+.card blockquote {
+  margin: 6px 0;
+  padding: 2px 0 2px 12px;
+  border-left: 3px solid var(--accent-tint);
+  color: var(--text-quiet);
+  font-size: 13px;
+}
+.card a {
+  color: var(--accent-deep);
+}
+
+/* Obsidian callouts (> [!quote]- Title) rendered as titled boxes. */
+.card .callout {
+  margin: 8px 0;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--sage);
+  border-radius: 8px;
+  background: #F6F3EB;
+  padding: 8px 12px;
+  overflow: hidden;
+}
+.card .calloutTitle {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  margin-bottom: 5px;
+}
+.card .calloutBody {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-quiet);
+}
+.card .calloutBody p {
+  margin: 0 0 5px;
+}
+.card .calloutBody p:last-child {
+  margin-bottom: 0;
+}
+.card .calloutBody blockquote {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.group {
+  position: absolute;
+  box-sizing: border-box;
+  border: 2px dashed var(--border-strong);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.28);
+}
+.groupLabel {
+  position: absolute;
+  top: -11px;
+  left: 14px;
+  padding: 1px 10px;
+  background: var(--surface);
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.controls {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.controls button {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-input);
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--text-heading);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(32, 30, 29, 0.08);
+}
+.controls button:hover {
+  background: #FBF6EE;
+}
