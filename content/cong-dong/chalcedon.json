@@ -1,0 +1,97 @@
+{
+  "no": 4,
+  "slug": "chalcedon",
+  "era": "early",
+  "name": { "vi": "Công đồng Chalcêđônia", "en": "Council of Chalcedon" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ tư · một ngôi vị, hai bản tính",
+    "en": "The fourth ecumenical council · one person, two natures"
+  },
+  "dates": { "display": "451", "start": 451, "end": 451 },
+  "location": {
+    "vi": "Chalcêđônia (nay là Kadıköy, Istanbul, Thổ Nhĩ Kỳ)",
+    "en": "Chalcedon (modern Kadıköy, Istanbul, Turkey)"
+  },
+  "quote": {
+    "vi": "Một Đức Kitô duy nhất… phải được nhận biết trong hai bản tính: không lẫn lộn, không thay đổi, không phân chia, không tách biệt.",
+    "en": "One and the same Christ… to be acknowledged in two natures: without confusion, without change, without division, without separation.",
+    "source": { "vi": "Định tín Chalcêđônia, 451", "en": "The Chalcedonian Definition, 451" }
+  },
+  "background": [
+    {
+      "vi": "Sau khi Êphêsô khẳng định Đức Kitô là một ngôi vị duy nhất, con lắc lại nghiêng sang thái cực kia. Một đan sĩ tên Êutykês dạy rằng nơi Đức Kitô, sau khi kết hợp, chỉ còn một bản tính duy nhất — nhân tính bị thần tính thu hút, “như giọt mật tan trong biển cả”. Đây là Nhất tính thuyết, chối bỏ nhân tính trọn vẹn và đích thực của Chúa.",
+      "en": "After Ephesus affirmed that Christ is one single person, the pendulum swung the other way. A monk named Eutyches taught that in Christ, after the union, there remained only one nature — the humanity absorbed into the divinity “like a drop of honey in the sea”. This is Monophysitism, which denied Christ's true and complete humanity."
+    },
+    {
+      "vi": "Giáo hoàng Lêô Cả viết một tông thư đạo lý nổi tiếng — “Tông thư gửi Flaviano” — trình bày rõ ràng hai bản tính trong một ngôi vị. Năm 451, hoàng đế Marcianô triệu tập công đồng lớn nhất thời cổ đại, khoảng năm sáu trăm giám mục, tại Chalcêđônia. Khi tông thư của Lêô được đọc lên, các nghị phụ tung hô: “Phêrô đã lên tiếng qua miệng Lêô!”",
+      "en": "Pope Leo the Great wrote a famous doctrinal letter — the “Tome to Flavian” — clearly setting out two natures in one person. In 451 the emperor Marcian summoned the largest council of antiquity, some five to six hundred bishops, at Chalcedon. When Leo's Tome was read out, the bishops acclaimed: “Peter has spoken through Leo!”"
+    },
+    {
+      "vi": "Công đồng lên án Êutykês và định tín rằng Đức Kitô là một ngôi vị — Ngôi Lời — trong hai bản tính, thần tính và nhân tính, “không lẫn lộn, không thay đổi, không phân chia, không tách biệt”. Bản “Định tín Chalcêđônia” này đến nay vẫn là chuẩn mực của Hội Thánh khi nói về Đức Kitô.",
+      "en": "The council condemned Eutyches and defined that Christ is one person — the Word — in two natures, divine and human, “without confusion, change, division, or separation”. This “Chalcedonian Definition” remains the Church's benchmark for speaking of Christ."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "451", "en": "451" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Chalcêđônia (nay là Kadıköy, Istanbul)", "en": "Chalcedon (Kadıköy, Istanbul)" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Hoàng đế Marcianô", "en": "Emperor Marcian" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Thánh Lêô Cả (Lêô I)", "en": "St Leo the Great (Leo I)" } },
+    { "label": { "vi": "Số giám mục", "en": "Bishops" }, "value": { "vi": "khoảng 500–600 (đông nhất thời cổ)", "en": "about 500–600 (the largest of antiquity)" } },
+    { "label": { "vi": "Chống lạc thuyết", "en": "Condemned" }, "value": { "vi": "Nhất tính thuyết (Êutykês)", "en": "Monophysitism (Eutyches)" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Định tín Chalcêđônia", "en": "The Chalcedonian Definition" }, "latin": "Definitio fidei", "date": "451" },
+    { "title": { "vi": "Tông thư của thánh Lêô Cả gửi Flaviano", "en": "The Tome of St Leo the Great to Flavian" }, "latin": "Tomus ad Flavianum", "date": "449" },
+    { "title": { "vi": "Hai mươi tám khoản giáo luật", "en": "Twenty-eight canons" }, "latin": "", "date": "451" }
+  ],
+  "documents_note": {
+    "vi": "Tông thư của Lêô Cả và Định tín Chalcêđônia cùng nhau trở thành thước đo cho đức tin chân chính về Đức Kitô — “một ngôi vị, hai bản tính”.",
+    "en": "Leo's Tome and the Chalcedonian Definition together became the measure of true faith in Christ — “one person, two natures”."
+  },
+  "sections": [
+    {
+      "id": "monophysitism",
+      "title": { "vi": "Nhất tính thuyết là gì?", "en": "What is Monophysitism?" },
+      "body": {
+        "vi": "Êutykês và những người theo ông cho rằng sau khi nhập thể, nơi Đức Kitô chỉ còn một bản tính: nhân tính bị thần tính hòa tan và biến mất. Nếu vậy, Đức Kitô không thật sự là người như chúng ta, và Ngài không thể thật sự chịu đau khổ, chịu chết để cứu độ. Hội Thánh phải khẳng định: Đấng cứu độ vừa là Thiên Chúa thật, vừa là người thật.",
+        "en": "Eutyches and his followers held that after the Incarnation only one nature remained in Christ: the humanity dissolved and disappeared into the divinity. If so, Christ was not truly human like us, and could not truly suffer and die to save us. The Church had to affirm: the Saviour is at once true God and true man."
+      },
+      "open": false
+    },
+    {
+      "id": "two-natures",
+      "title": { "vi": "“Một ngôi vị, hai bản tính”", "en": "“One person, two natures”" },
+      "body": {
+        "vi": "Chalcêđônia giữ thế quân bình giữa Nestôriô (tách đôi) và Êutykês (trộn lẫn): Đức Kitô là MỘT ngôi vị duy nhất — Ngôi Con — mang trọn vẹn HAI bản tính, thần tính và nhân tính. Hai bản tính ấy không hòa lẫn thành một thứ thứ ba, cũng không tách rời thành hai chủ thể; chúng kết hợp trong cùng một ngôi vị. Bốn tiếng “không” trứ danh — không lẫn lộn, không thay đổi, không phân chia, không tách biệt — bảo vệ mầu nhiệm này khỏi mọi ngả sai lạc.",
+        "en": "Chalcedon held the balance between Nestorius (who divided) and Eutyches (who mixed): Christ is ONE single person — the Son — who bears TWO complete natures, divine and human. The two natures are not blended into some third thing, nor split into two subjects; they are united in one and the same person. The famous four negations — without confusion, change, division, or separation — guard this mystery from every wrong turn."
+      },
+      "open": false
+    },
+    {
+      "id": "legacy",
+      "title": { "vi": "Di sản và chia rẽ", "en": "Legacy and division" },
+      "body": {
+        "vi": "Định tín Chalcêđônia trở thành nền tảng Kitô học cho Công giáo, Chính Thống và phần lớn Kitô giáo. Tuy nhiên, một số Giáo hội Đông phương không chấp nhận công thức “hai bản tính” và tách ra — các Giáo hội “Chính Thống Cổ Đông phương” (Cốp, Armêni, Syri) còn tồn tại đến nay. Đối thoại hiện đại cho thấy phần lớn tranh cãi xưa nằm ở cách dùng từ hơn là ở chính đức tin.",
+        "en": "The Chalcedonian Definition became the Christological foundation for Catholic, Orthodox, and most of Christianity. Yet some Eastern churches rejected the “two natures” formula and separated — the “Oriental Orthodox” churches (Coptic, Armenian, Syriac) endure to this day. Modern dialogue has shown that much of the old dispute lay in the use of words more than in the faith itself."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Nếu Đức Kitô có hai bản tính, phải chăng Ngài là hai con người, hay có một “nhân cách chẻ đôi”?", "en": "If Christ has two natures, is he two people, or does he have a “split personality”?" },
+      "a": {
+        "vi": "Không. Chalcêđônia nói rất cẩn thận: một NGÔI VỊ trong hai BẢN TÍNH. “Bản tính” trả lời câu hỏi “là gì”; “ngôi vị” trả lời câu hỏi “là ai”. Đức Kitô là một “ai” duy nhất — Ngôi Con hằng hữu — sở hữu hai “cái gì”: thần tính thật và nhân tính thật, không pha trộn cũng không phân chia. Vì thế nơi Ngài chỉ có một chủ thể duy nhất, chứ không phải hai, và cũng không có sự phân liệt tâm lý nào cả.",
+        "en": "No. Chalcedon speaks very carefully: one PERSON in two NATURES. A “nature” answers the question “what is he?”; a “person” answers “who is he?”. Christ is one single “who” — the eternal Son — possessing two “whats”: true divinity and true humanity, neither mixed nor divided. So in him there is one single subject, not two, and no psychological split whatsoever."
+      }
+    }
+  ],
+  "ccc_refs": [467, 468],
+  "image": {
+    "src": "/images/cong-dong/chalcedon.jpg",
+    "medium": { "vi": "Tranh của Vasily Surikov, 1876", "en": "Painting by Vasily Surikov, 1876" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}
