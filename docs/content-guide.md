@@ -43,6 +43,22 @@ Athanasius = "Athanasiô".
 > ⚠️ **Audit existing content:** the Giáo Phụ (Church Fathers) entries predate this rule — spot-check
 > their Vietnamese names/terms against the sources above (likely mostly fine, but not verified).
 
+## Images — every new image also goes in the Catholic Images library (applies to ALL content)
+
+When you add ANY image to the site (`public/images/**`), also add it to the shared **Catholic Images
+library**, so provenance is never lost and images can be reused across the user's sites. Two steps:
+
+1. Copy the file into `..\Catholic Images\images\`, named with its **original Wikimedia filename**
+   (the library's convention, e.g. `Gregorythegreat.jpg`).
+2. Append a row to `..\Catholic Images\CREDITS.csv` — 7 quoted columns:
+   `original_filename, title, artist, subject, wikimedia_source, Visual Rosary Website,
+   Hỏi Đáp Công Giáo Website`. Fill the **last** column with where it's used on this site
+   (e.g. `"Công Đồng · Nicaea I — council image"`); leave the Visual Rosary column empty unless it's
+   used there.
+
+Always prefer public-domain images and confirm the license on the image's Wikimedia Commons page
+before using it.
+
 ## Video blog posts
 
 File: `content/video/<slug>.md`. Frontmatter:
