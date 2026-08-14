@@ -60,22 +60,26 @@ citations), optionally online sources *with verification*. Risks to design aroun
 - **Advice text = hand-written snippets** keyed to situations (no LLM to start; AI is a later layer).
 - **Build order**: taxonomy + browse/filter first → then the companion flow → then evaluate AI.
 
-## Draft vocabulary — TO REFINE with the owner (not final)
+## Final vocabulary (locked 2026-08-14)
 
-**Categories** (broad, audience-facing — a seeker/atheist should see themselves here; pick 1 per Q&A):
-1. Science & Faith — evolution, cosmology, miracles vs. science
-2. Evidence & History — Resurrection, historicity of Jesus, reliability of the Bible, archaeology
-3. God & Meaning — does God exist, suffering/problem of evil, purpose (most seeker-facing)
-4. Theology & Doctrine — Trinity, Christ, grace, salvation, sacraments
-5. The Church — papacy, authority, Church history, unity, scandals
-6. Mary & the Saints
-7. Scripture — interpretation, apparent contradictions, canon
-8. Morality & Life — relationships, marriage/mixed-marriage, moral questions
+Ids are ascii-kebab, defined in `lib/giaiDapTaxonomy.ts` (website session's file).
 
-**Tags** (cross-cutting, many per Q&A — seed list): Mary · Papacy · Eucharist · Trinity · Jesus ·
-Resurrection · Saints · Faith · Works · Grace · Salvation · Bible · Confession · Prayer · Suffering ·
-Marriage · Evangelization · Science · Evolution · Miracles · Church history · Authority · Icons ·
-Purgatory · Baptism · Atheism · Protestant objections · Free will.
+**Categories (9)** — pick 1 per Q&A: `science-faith`, `evidence-history`, `god-meaning`,
+`theology-doctrine`, `the-church`, `mary-saints`, `scripture`, `morality-life`, and NEW
+`other-religions` (Tôn giáo khác & Phản đối).
+
+**Tags (30)** — the 27 seed tags + NEW `sacraments` (Bí tích), `sin` (Tội & lương tâm),
+`afterlife` (Đời sau).
+
+### To apply — website session, `lib/giaiDapTaxonomy.ts`
+- Add to CATEGORIES: `{ id: 'other-religions', vi: 'Tôn giáo khác & Phản đối', en: 'Other Religions & Objections' }`
+- Add to TAGS: `{ id: 'sacraments', vi: 'Bí tích', en: 'Sacraments' }` · `{ id: 'sin', vi: 'Tội & lương tâm', en: 'Sin & conscience' }` · `{ id: 'afterlife', vi: 'Đời sau', en: 'Afterlife' }`
+
+### Mobile filter UX — website session
+On `/giai-dap` the category+tag chips push all content below the fold on mobile (and worsen as more
+Q&As get tagged). Collapse them behind a **"Bộ lọc / Filter" button next to the search bar** — a
+toggle that reveals the chip panel — with an active-filter count badge. Desktop can keep the same
+toggle or stay expanded.
 
 ## Still open
 - Finalize the category list + tag vocabulary above.
