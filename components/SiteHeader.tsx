@@ -6,17 +6,20 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { BrandMark } from './BrandMark';
 import { LanguageToggle } from './LanguageToggle';
+import { T } from './T';
+import { useLang } from '@/lib/giao-phu/useLang';
 import styles from './SiteHeader.module.css';
 
 const SECTIONS = [
-  { href: '/giai-dap', label: 'Giải Đáp' },
-  { href: '/giao-ly', label: 'Giáo Lý' },
-  { href: '/giao-phu', label: 'Giáo Phụ' },
-  { href: '/video', label: 'Video' },
+  { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A' },
+  { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism' },
+  { href: '/giao-phu', vi: 'Giáo Phụ', en: 'Church Fathers' },
+  { href: '/video', vi: 'Video', en: 'Videos' },
 ];
 
 export function SiteHeader() {
   const pathname = usePathname();
+  const lang = useLang();
   const [open, setOpen] = useState(false);
   const isActive = (prefix: string) => pathname.startsWith(prefix);
 
@@ -34,7 +37,7 @@ export function SiteHeader() {
             href={s.href}
             className={isActive(s.href) ? `${styles.navItem} ${styles.navItemActive}` : styles.navItem}
           >
-            {s.label}
+            <T vi={s.vi} en={s.en} />
           </Link>
         ))}
       </nav>
@@ -46,7 +49,12 @@ export function SiteHeader() {
             <circle cx="11" cy="11" r="7" />
             <line x1="21" y1="21" x2="16.65" y2="16.65" />
           </svg>
-          <input name="q" type="text" placeholder="Tìm kiếm…" className={styles.searchInput} />
+          <input
+            name="q"
+            type="text"
+            placeholder={lang === 'en' ? 'Search…' : 'Tìm kiếm…'}
+            className={styles.searchInput}
+          />
         </form>
       </div>
 
@@ -69,7 +77,7 @@ export function SiteHeader() {
               className={isActive(s.href) ? `${styles.mobileLink} ${styles.mobileLinkActive}` : styles.mobileLink}
               onClick={() => setOpen(false)}
             >
-              {s.label}
+              <T vi={s.vi} en={s.en} />
             </Link>
           ))}
           <div className={styles.mobileLangRow}>

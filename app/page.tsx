@@ -12,6 +12,7 @@ import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { FeaturedQuestion, type HeroQuestion } from '@/components/FeaturedQuestion';
 import { ReadingProgressBar, PartProgressBar } from '@/components/ReadingProgress';
 import { BrandMark } from '@/components/BrandMark';
+import { T } from '@/components/T';
 import styles from './page.module.css';
 
 // First two body paragraphs as a plain-text teaser (drop quotes, headings, lists, and Markdown).
@@ -83,9 +84,18 @@ export default function HomePage() {
             />
           </span>
           <span className={styles.cardBody}>
-            <span className={styles.cardTitle}>Giải Đáp</span>
-            <span className={styles.cardDesc}>Thắc mắc thường gặp, giải đáp ngắn gọn có trích dẫn.</span>
-            <span className={styles.cardCount}>{questionsCount} câu hỏi</span>
+            <span className={styles.cardTitle}>
+              <T vi="Giải Đáp" en="Q&amp;A" />
+            </span>
+            <span className={styles.cardDesc}>
+              <T
+                vi="Thắc mắc thường gặp, giải đáp ngắn gọn có trích dẫn."
+                en="Common questions, answered briefly with citations."
+              />
+            </span>
+            <span className={styles.cardCount}>
+              <T vi={`${questionsCount} câu hỏi`} en={`${questionsCount} questions`} />
+            </span>
           </span>
         </Link>
         <Link href="/giao-ly" className={`${styles.card} ${styles.cardAccent}`}>
@@ -99,9 +109,18 @@ export default function HomePage() {
             />
           </span>
           <span className={styles.cardBody}>
-            <span className={styles.cardTitle}>Giáo Lý</span>
-            <span className={styles.cardDesc}>Toàn bộ Giáo Lý Hội Thánh, song ngữ Việt–Anh.</span>
-            <span className={styles.cardCount}>{content.length} số</span>
+            <span className={styles.cardTitle}>
+              <T vi="Giáo Lý" en="Catechism" />
+            </span>
+            <span className={styles.cardDesc}>
+              <T
+                vi="Toàn bộ Giáo Lý Hội Thánh, song ngữ Việt–Anh."
+                en="The full Catechism of the Catholic Church, Vietnamese–English."
+              />
+            </span>
+            <span className={styles.cardCount}>
+              <T vi={`${content.length} số`} en={`${content.length} paragraphs`} />
+            </span>
           </span>
         </Link>
         <Link href="/giao-phu" className={`${styles.card} ${styles.cardGold}`}>
@@ -115,9 +134,18 @@ export default function HomePage() {
             />
           </span>
           <span className={styles.cardBody}>
-            <span className={styles.cardTitle}>Giáo Phụ</span>
-            <span className={styles.cardDesc}>Bản văn các Giáo Phụ tiên khởi của Hội Thánh.</span>
-            <span className={styles.cardCount}>{fathersCount} bản văn</span>
+            <span className={styles.cardTitle}>
+              <T vi="Giáo Phụ" en="Church Fathers" />
+            </span>
+            <span className={styles.cardDesc}>
+              <T
+                vi="Bản văn các Giáo Phụ tiên khởi của Hội Thánh."
+                en="Texts of the earliest Fathers of the Church."
+              />
+            </span>
+            <span className={styles.cardCount}>
+              <T vi={`${fathersCount} bản văn`} en={`${fathersCount} texts`} />
+            </span>
           </span>
         </Link>
       </section>
@@ -127,7 +155,9 @@ export default function HomePage() {
           <FeaturedQuestion questions={heroQuestions} />
           <aside className={styles.heroRail}>
             <div className={styles.askedCard}>
-              <div className={styles.askedTitle}>Được hỏi nhiều</div>
+              <div className={styles.askedTitle}>
+                <T vi="Được hỏi nhiều" en="Frequently asked" />
+              </div>
               <ul className={styles.askedList}>
                 {heroQuestions.slice(0, 3).map((q) => (
                   <li key={q.slug} className={styles.askedRow}>
@@ -145,11 +175,18 @@ export default function HomePage() {
       <section className={styles.giaoLyBand}>
         <div className={styles.bandHeader}>
           <div>
-            <h2 className={styles.bandTitle}>Giáo Lý Hội Thánh Công Giáo</h2>
-            <p className={styles.bandSub}>{content.length} số · song ngữ Việt–Anh</p>
+            <h2 className={styles.bandTitle}>
+              <T vi="Giáo Lý Hội Thánh Công Giáo" en="Catechism of the Catholic Church" />
+            </h2>
+            <p className={styles.bandSub}>
+              <T
+                vi={`${content.length} số · song ngữ Việt–Anh`}
+                en={`${content.length} paragraphs · Vietnamese–English`}
+              />
+            </p>
           </div>
           <Link href="/giao-ly" className={styles.bandLink}>
-            Xem tất cả chủ đề →
+            <T vi="Xem tất cả chủ đề →" en="See all topics →" />
           </Link>
         </div>
 
@@ -188,18 +225,24 @@ export default function HomePage() {
       <section className={styles.fathersBand}>
         <div className={styles.fathersInner}>
           <div className={styles.fathersText}>
-            <div className={styles.fathersEyebrow}>Giáo Phụ</div>
-            <h2 className={styles.fathersTitle}>Đọc các Giáo Phụ Hội Thánh</h2>
+            <div className={styles.fathersEyebrow}>
+              <T vi="Giáo Phụ" en="Church Fathers" />
+            </div>
+            <h2 className={styles.fathersTitle}>
+              <T vi="Đọc các Giáo Phụ Hội Thánh" en="Read the Fathers of the Church" />
+            </h2>
             <p className={styles.fathersProse}>
-              Những bản văn sớm nhất của Hội Thánh — Inhaxiô, Giustinô, Âutinh, Gioan Kim Khẩu —
-              trong bản dịch tiếng Việt, kèm bản gốc tiếng Anh và số Giáo Lý liên quan.
+              <T
+                vi="Những bản văn sớm nhất của Hội Thánh — Inhaxiô, Giustinô, Âutinh, Gioan Kim Khẩu — trong bản dịch tiếng Việt, kèm bản gốc tiếng Anh và số Giáo Lý liên quan."
+                en="The earliest texts of the Church — Ignatius, Justin, Augustine, John Chrysostom — in Vietnamese translation, with the English original and related Catechism numbers."
+              />
             </p>
             <div className={styles.fathersButtons}>
               <Link href="/giao-phu" className={styles.fathersPrimary}>
-                Mở thư mục Giáo Phụ
+                <T vi="Mở thư mục Giáo Phụ" en="Open the Church Fathers" />
               </Link>
               <Link href="/giao-phu" className={styles.fathersSecondary}>
-                Đoạn đã lưu
+                <T vi="Đoạn đã lưu" en="Saved passages" />
               </Link>
             </div>
           </div>
@@ -215,9 +258,14 @@ export default function HomePage() {
             </div>
             <figure className={styles.pullQuote}>
               <blockquote className={styles.pullQuoteText}>
-                “Ở đâu có Đức Kitô Giêsu, ở đó có Hội Thánh Công Giáo.”
+                <T
+                  vi="“Ở đâu có Đức Kitô Giêsu, ở đó có Hội Thánh Công Giáo.”"
+                  en="“Where Jesus Christ is, there is the Catholic Church.”"
+                />
               </blockquote>
-              <figcaption className={styles.pullQuoteCite}>Th. Inhaxiô Antiôkia</figcaption>
+              <figcaption className={styles.pullQuoteCite}>
+                <T vi="Th. Inhaxiô Antiôkia" en="St Ignatius of Antioch" />
+              </figcaption>
             </figure>
           </div>
         </div>
@@ -227,11 +275,15 @@ export default function HomePage() {
         <section className={styles.videoBand}>
           <div className={styles.bandHeader}>
             <div>
-              <h2 className={styles.bandTitle}>Video</h2>
-              <p className={styles.bandSub}>Các video ngắn về đức tin Công giáo</p>
+              <h2 className={styles.bandTitle}>
+                <T vi="Video" en="Videos" />
+              </h2>
+              <p className={styles.bandSub}>
+                <T vi="Các video ngắn về đức tin Công giáo" en="Short videos on the Catholic faith" />
+              </p>
             </div>
             <Link href="/video" className={styles.bandLink}>
-              Xem tất cả video →
+              <T vi="Xem tất cả video →" en="See all videos →" />
             </Link>
           </div>
           <div className={styles.videoGrid}>
@@ -260,11 +312,17 @@ export default function HomePage() {
       <section className={styles.rosaryBand}>
         <div className={styles.rosaryInner}>
           <div className={styles.rosaryText}>
-            <div className={styles.rosaryEyebrow}>Trang bạn đồng hành</div>
-            <h2 className={styles.rosaryTitle}>Đọc Kinh Mân Côi</h2>
+            <div className={styles.rosaryEyebrow}>
+              <T vi="Trang bạn đồng hành" en="Companion site" />
+            </div>
+            <h2 className={styles.rosaryTitle}>
+              <T vi="Đọc Kinh Mân Côi" en="Pray the Rosary" />
+            </h2>
             <p className={styles.rosaryProse}>
-              Một trang trực quan để lần hạt Mân Côi — song ngữ Việt–Anh, dõi theo từng mầu
-              nhiệm và từng hạt kinh trên chuỗi.
+              <T
+                vi="Một trang trực quan để lần hạt Mân Côi — song ngữ Việt–Anh, dõi theo từng mầu nhiệm và từng hạt kinh trên chuỗi."
+                en="A visual companion for praying the Rosary — Vietnamese–English, following each mystery and each bead."
+              />
             </p>
             <a
               href="https://dockinhmancoi.com"
@@ -272,7 +330,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className={styles.rosaryButton}
             >
-              Bắt đầu lần hạt →
+              <T vi="Bắt đầu lần hạt →" en="Start praying →" />
             </a>
           </div>
           <div className={styles.rosaryArt}>
@@ -326,15 +384,29 @@ export default function HomePage() {
         </div>
         <div className={styles.footerCols}>
           <div className={styles.footerCol}>
-            <div className={styles.footerColTitle}>Nội dung</div>
-            <Link href="/giai-dap" className={styles.footerLink}>Giải Đáp</Link>
-            <Link href="/giao-ly" className={styles.footerLink}>Giáo Lý</Link>
-            <Link href="/giao-phu" className={styles.footerLink}>Giáo Phụ</Link>
+            <div className={styles.footerColTitle}>
+              <T vi="Nội dung" en="Content" />
+            </div>
+            <Link href="/giai-dap" className={styles.footerLink}>
+              <T vi="Giải Đáp" en="Q&amp;A" />
+            </Link>
+            <Link href="/giao-ly" className={styles.footerLink}>
+              <T vi="Giáo Lý" en="Catechism" />
+            </Link>
+            <Link href="/giao-phu" className={styles.footerLink}>
+              <T vi="Giáo Phụ" en="Church Fathers" />
+            </Link>
           </div>
           <div className={styles.footerCol}>
-            <div className={styles.footerColTitle}>Trang</div>
-            <Link href="/giao-ly/1" className={styles.footerLink}>Đọc Giáo Lý từ đầu</Link>
-            <Link href="/giao-phu" className={styles.footerLink}>Thư mục Giáo Phụ</Link>
+            <div className={styles.footerColTitle}>
+              <T vi="Trang" en="Pages" />
+            </div>
+            <Link href="/giao-ly/1" className={styles.footerLink}>
+              <T vi="Đọc Giáo Lý từ đầu" en="Read the Catechism" />
+            </Link>
+            <Link href="/giao-phu" className={styles.footerLink}>
+              <T vi="Thư mục Giáo Phụ" en="Church Fathers directory" />
+            </Link>
           </div>
         </div>
       </footer>

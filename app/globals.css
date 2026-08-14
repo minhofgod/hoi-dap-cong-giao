@@ -185,3 +185,15 @@ html[data-lang="en"] .bi-en {
   opacity: 1;
   margin-top: 0;
 }
+
+/* Inline UI chrome (nav, buttons, section titles, counts). Unlike .bi-*, this stays inline and
+   treats "Cả hai" as Vietnamese, so short labels never double up. See components/T.tsx. */
+.ui-en {
+  display: none;
+}
+html[data-lang="en"] .ui-vi {
+  display: none;
+}
+html[data-lang="en"] .ui-en {
+  display: inline;
+}
