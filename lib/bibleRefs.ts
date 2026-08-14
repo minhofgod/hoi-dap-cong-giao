@@ -9,6 +9,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { SCRIPTURE_POPOVER_ENABLED } from './scriptureFlag';
+import { resolveCatechism, type ResolvedCatechism } from './content';
 
 interface BibleData {
   translation: string;
@@ -128,7 +129,14 @@ export function resolveReference(ref: string): ResolvedReference | null {
 export interface EnrichedAnswer {
   html: string;
   data: Record<string, ResolvedReference>;
+  /** Inline Catechism (GLHTCG) references, keyed by paragraph number. Always populated (the
+   *  Catechism text is public — no licensing gate, unlike Scripture). */
+  ccc?: Record<string, ResolvedCatechism>;
 }
+
+// An inline Catechism reference in prose: "GLHTCG 956" (with one or more spaces). Validated
+// against the real paragraph index via resolveCatechism, so bad numbers are left untouched.
+const CCC_CANDIDATE = /GLHTCG\s+(\d{1,4})/g;
 
 // A Scripture-reference candidate: optional "1 " book prefix, a short book token, then
 // "chapter,verse" (Vietnamese comma) or "chapter:verse" (English colon), with an optional
@@ -175,25 +183,53 @@ export function enrichAnswerHtml(html: string): EnrichedAnswer {
   return { html: out.join(''), data: dataMap };
 }
 
+/** Wrap inline Catechism references (GLHTCG NNN) in clickable buttons and collect their resolved
+ *  paragraph text. Not gated — the Catechism is shown publicly in the reader already. */
+function enrichCatechismHtml(html: string): { html: string; ccc: Record<string, ResolvedCatechism> } {
+  const ccc: Record<string, ResolvedCatechism> = {};
+  const tokens = html.split(/(<[^>]+>)/);
+  const out = tokens.map((token, i) => {
+    if (i % 2 === 1) return token; // an HTML tag — never touch attributes
+    return token.replace(CCC_CANDIDATE, (match, num) => {
+      const id = Number(num);
+      const resolved = resolveCatechism(id);
+      if (!resolved) return match;
+      ccc[String(id)] = resolved;
+      return `<button type="button" class="catechism-inline-ref" data-ccc="${id}">${match}</button>`;
+    });
+  });
+  return { html: out.join(''), ccc };
+}
+
 /**
- * Flag-gated enrichment for a rendered markdown body. Use this for ANY content type whose body
- * may mention Bible verses (Giải Đáp answers, Video blogs, and future types), then render the
- * result with <ScriptureBody {...enrichBody(html)} />. When the licensing flag is off it returns
- * the html untouched with no data, so nothing copyrighted ships. See CLAUDE.md.
+ * Enrichment for ANY content body that may cite the Catechism and/or Scripture — Giải Đáp answers,
+ * Công Đồng / Giáo Phụ prose, Video blogs. Catechism (GLHTCG) references ALWAYS become clickable
+ * (public text); Scripture references only when the CGKPV licensing flag is on. Render the result
+ * with <ScriptureBody {...enrichReferences(html)} /> (or via <ScriptureBi2>). See CLAUDE.md.
  */
+export function enrichReferences(html: string): EnrichedAnswer {
+  const withCcc = enrichCatechismHtml(html);
+  if (SCRIPTURE_POPOVER_ENABLED) {
+    const withScripture = enrichAnswerHtml(withCcc.html);
+    return { html: withScripture.html, data: withScripture.data, ccc: withCcc.ccc };
+  }
+  return { html: withCcc.html, data: {}, ccc: withCcc.ccc };
+}
+
+/** @deprecated Use enrichReferences — kept as an alias so existing callers keep working. */
 export function enrichBody(html: string): EnrichedAnswer {
-  return SCRIPTURE_POPOVER_ENABLED ? enrichAnswerHtml(html) : { html, data: {} };
+  return enrichReferences(html);
 }
 
 function escapeHtml(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-/** Enrich a PLAIN-TEXT (non-markdown) string: escape it first, then flag-gate scripture
- *  enrichment. Use for content stored as plain prose — e.g. Giáo Phụ / Công Đồng fields — where
- *  there's no markdown to parse, just paragraphs that may mention Bible verses. */
+/** Enrich a PLAIN-TEXT (non-markdown) string: escape it first, then enrich Catechism (always) +
+ *  Scripture (flag-gated). Use for content stored as plain prose — e.g. Giáo Phụ / Công Đồng
+ *  fields — where there's no markdown to parse, just paragraphs that may mention refs. */
 export function enrichPlain(text: string): EnrichedAnswer {
-  return enrichBody(escapeHtml(text ?? ''));
+  return enrichReferences(escapeHtml(text ?? ''));
 }
 
 /** Enrich both languages of a bilingual plain-text value, ready for <ScriptureBi2>. */

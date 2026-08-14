@@ -41,3 +41,33 @@
     color: #C7D6A6;
   }
 }
+
+/* Inline Catechism (GLHTCG) references — same quiet-footnote treatment as Scripture refs, but in
+   the Catechism accent (gold) to match the §-chips, since the two link to the same reader. */
+.body :global(.catechism-inline-ref) {
+  font-family: var(--font-be-vietnam-pro), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 0.9375em;
+  color: var(--accent-deep);
+  background: none;
+  border: none;
+  border-bottom: 1px dotted var(--accent-deep);
+  padding: 1px 3px;
+  margin: 0 -1px;
+  border-radius: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 120ms ease-out;
+}
+.body :global(.catechism-inline-ref:hover) {
+  background: var(--accent-tint);
+  border-bottom-style: solid;
+}
+.body :global(.catechism-inline-ref--open) {
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+}
+.body :global(.catechism-inline-ref:focus-visible) {
+  outline: 2px solid var(--accent-deep);
+  outline-offset: 2px;
+}

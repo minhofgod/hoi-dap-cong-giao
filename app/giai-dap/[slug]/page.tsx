@@ -6,7 +6,7 @@ import { getAllQuestions, getQuestionBySlug, type GiaiDapQuestion } from '@/lib/
 import { ScriptureRef } from '@/components/ScriptureRef';
 import { ScriptureBody } from '@/components/ScriptureBody';
 import { CatechismRef } from '@/components/CatechismRef';
-import { enrichAnswerHtml, resolveReference } from '@/lib/bibleRefs';
+import { enrichReferences, resolveReference } from '@/lib/bibleRefs';
 import { resolveCatechism } from '@/lib/content';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { CANVAS_ENABLED } from '@/lib/canvasFlag';
@@ -21,10 +21,10 @@ export function generateStaticParams() {
   return getAllQuestions().map((q) => ({ slug: q.slug }));
 }
 
-// Make inline Scripture references in the answer prose clickable — but only when the licensing
-// flag is on. Off: pass the raw html through untouched (no verse text, no markup changes).
+// Make inline references in the answer prose clickable: Catechism (GLHTCG) always, Scripture only
+// when the licensing flag is on. enrichReferences handles both gates internally.
 function enrichBody(html: string) {
-  return SCRIPTURE_POPOVER_ENABLED ? enrichAnswerHtml(html) : { html, data: {} };
+  return enrichReferences(html);
 }
 
 function Refs({ ccc, scripture }: { ccc: number[]; scripture: string[] }) {

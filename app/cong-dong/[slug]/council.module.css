@@ -496,3 +496,17 @@
   background: #232A1B;
   color: #C7D6A6;
 }
+
+/* Inline Catechism refs on the dark apologetics band — lighten to a legible amber. */
+.apologeticsBand :global(.catechism-inline-ref.catechism-inline-ref) {
+  color: #D8A45F;
+  border-bottom-color: rgba(216, 164, 95, 0.5);
+}
+.apologeticsBand :global(.catechism-inline-ref.catechism-inline-ref:hover) {
+  background: rgba(216, 164, 95, 0.16);
+  border-bottom-color: #D8A45F;
+}
+.apologeticsBand :global(.catechism-inline-ref--open.catechism-inline-ref--open) {
+  background: rgba(216, 164, 95, 0.2);
+  color: #F0D6B0;
+}

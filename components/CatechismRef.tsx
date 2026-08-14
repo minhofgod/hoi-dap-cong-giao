@@ -3,38 +3,8 @@
 import { useCallback, useState } from 'react';
 import Link from 'next/link';
 import type { ResolvedCatechism } from '@/lib/content';
-import { ReferencePopover } from './ReferencePopover';
+import { CatechismPopover } from './CatechismPopover';
 import styles from './CatechismRef.module.css';
-
-function CatechismPopover({
-  data,
-  anchor,
-  onClose,
-}: {
-  data: ResolvedCatechism;
-  anchor: HTMLElement | null;
-  onClose: () => void;
-}) {
-  return (
-    <ReferencePopover
-      label={`§ ${data.id}`}
-      translation="GLHTCG"
-      labelTone="var(--accent-deep)"
-      anchor={anchor}
-      onClose={onClose}
-    >
-      <div className={styles.para}>
-        <span className="bi-vi">{data.vi}</span>
-        <span className="bi-en">{data.en}</span>
-      </div>
-      <div className={styles.footer}>
-        <Link href={data.href} className={styles.footerLink} onClick={onClose}>
-          Mở trong Giáo Lý →
-        </Link>
-      </div>
-    </ReferencePopover>
-  );
-}
 
 /**
  * A Catechism (Giáo Lý) reference. Opens a popover with the paragraph text instead of
