@@ -14,6 +14,7 @@ const SECTIONS = [
   { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A' },
   { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism' },
   { href: '/giao-phu', vi: 'Giáo Phụ', en: 'Church Fathers' },
+  { href: '/cong-dong', vi: 'Công Đồng', en: 'Councils' },
   { href: '/video', vi: 'Video', en: 'Videos' },
 ];
 
