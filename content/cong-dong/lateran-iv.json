@@ -1,0 +1,87 @@
+{
+  "no": 12,
+  "slug": "lateran-iv",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Latêranô IV", "en": "Fourth Council of the Lateran" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười hai · “biến thể” và bổn phận mùa Phục Sinh",
+    "en": "The twelfth ecumenical council · transubstantiation and the Easter duty"
+  },
+  "dates": { "display": "1215", "start": 1215, "end": 1215 },
+  "location": { "vi": "Đền Latêranô, Rôma", "en": "The Lateran Basilica, Rome" },
+  "quote": {
+    "vi": "Mình và Máu Người thật sự hiện diện trong bí tích Bàn Thờ dưới hình bánh rượu, khi bánh được biến thể thành Mình và rượu thành Máu nhờ quyền năng Thiên Chúa.",
+    "en": "His Body and Blood are truly contained in the sacrament of the altar under the forms of bread and wine, the bread being transubstantiated into the Body and the wine into the Blood by God's power.",
+    "source": { "vi": "Công đồng Latêranô IV, 1215", "en": "The Fourth Lateran Council, 1215" }
+  },
+  "background": [
+    {
+      "vi": "Năm 1215, Giáo hoàng Innôxentê III — một trong những vị Giáo hoàng quyền uy nhất thời Trung Cổ — triệu tập công đồng lớn nhất từ trước đó: khoảng 400 giám mục, 800 viện phụ và bề trên, cùng đại diện của nhiều vua chúa. Đây là đỉnh cao của công cuộc cải tổ và củng cố đời sống Hội Thánh Tây phương.",
+      "en": "In 1215 Pope Innocent III — one of the most powerful popes of the Middle Ages — convened the largest council yet: about 400 bishops, 800 abbots and priors, and envoys of many kings. It was the high point of the reform and consolidation of the Western Church."
+    },
+    {
+      "vi": "Công đồng long trọng dùng từ “biến thể” (transubstantiatio) để diễn tả mầu nhiệm Thánh Thể: bánh và rượu thật sự trở nên Mình và Máu Chúa Kitô. Đây là lần đầu tiên thuật ngữ ấy được một công đồng chung chính thức sử dụng.",
+      "en": "The council solemnly used the word “transubstantiation” to express the mystery of the Eucharist: the bread and wine truly become the Body and Blood of Christ. This was the first time the term was officially used by an ecumenical council."
+    },
+    {
+      "vi": "Latêranô IV cũng truyền buộc mọi tín hữu đến tuổi khôn phải xưng tội ít là mỗi năm một lần và rước lễ trong mùa Phục Sinh — “bổn phận mùa Phục Sinh” còn giữ đến nay. Công đồng lên án lạc giáo Cathari và một sai lầm của Gioakim thành Fiore về Chúa Ba Ngôi.",
+      "en": "Lateran IV also required every believer who had reached the age of reason to confess at least once a year and to receive Communion at Easter — the “Easter duty” still kept today. The council condemned the Cathar heresy and an error of Joachim of Fiore concerning the Trinity."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "1215", "en": "1215" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Đền Latêranô, Rôma", "en": "The Lateran, Rome" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Innôxentê III", "en": "Pope Innocent III" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Innôxentê III", "en": "Innocent III" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "≈ 400 giám mục, 800 viện phụ", "en": "≈ 400 bishops, 800 abbots" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Biến thể · bổn phận mùa Phục Sinh", "en": "Transubstantiation · the Easter duty" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Tín biểu “Firmiter” (khoản 1)", "en": "The creed “Firmiter” (canon 1)" }, "latin": "Firmiter credimus", "date": "1215" },
+    { "title": { "vi": "Bảy mươi khoản giáo luật cải tổ", "en": "Seventy reform canons" }, "latin": "", "date": "1215" },
+    { "title": { "vi": "Khoản buộc xưng tội và rước lễ hằng năm", "en": "The canon on annual confession and Communion" }, "latin": "Omnis utriusque sexus", "date": "1215" }
+  ],
+  "documents_note": {
+    "vi": "Từ Latêranô IV mà Hội Thánh có thuật ngữ “biến thể” và luật xưng tội, rước lễ mùa Phục Sinh — những điều vẫn là một phần đời sống Công giáo ngày nay.",
+    "en": "From Lateran IV the Church has the term “transubstantiation” and the law of Easter confession and Communion — still part of Catholic life today."
+  },
+  "sections": [
+    {
+      "id": "transubstantiation",
+      "title": { "vi": "“Biến thể” nghĩa là gì?", "en": "What does “transubstantiation” mean?" },
+      "body": {
+        "vi": "“Biến thể” có nghĩa là bản thể của bánh và rượu được biến đổi trọn vẹn thành bản thể Mình và Máu Chúa Kitô, dù bề ngoài — hình dạng, mùi vị — vẫn là bánh rượu. Từ này không giải thích mầu nhiệm, nhưng bảo vệ đức tin: sau truyền phép, không còn là bánh rượu nữa, mà thật sự là chính Chúa Kitô hiện diện. Công đồng Triđentinô về sau xác nhận lại thuật ngữ này.",
+        "en": "“Transubstantiation” means that the substance of the bread and wine is wholly changed into the substance of the Body and Blood of Christ, while the appearances — shape, taste — remain those of bread and wine. The term does not explain the mystery but guards the faith: after the consecration there is no longer bread and wine, but truly Christ himself present. The Council of Trent later reaffirmed the term."
+      },
+      "open": false
+    },
+    {
+      "id": "easter-duty",
+      "title": { "vi": "Bổn phận mùa Phục Sinh", "en": "The Easter duty" },
+      "body": {
+        "vi": "Công đồng truyền mỗi tín hữu phải xưng các tội trọng ít là một năm một lần với linh mục của mình, và rước lễ trong mùa Phục Sinh. Quy định này nhằm giúp mọi người giữ đời sống ân sủng và không bỏ bê các bí tích — một mối bận tâm mục vụ vẫn còn nguyên giá trị.",
+        "en": "The council required every believer to confess grave sins at least once a year to their own priest, and to receive Communion at Easter. The rule was meant to help everyone keep the life of grace and not neglect the sacraments — a pastoral concern still valid today."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Có phải Hội Thánh “phát minh” ra bí tích Thánh Thể tại Latêranô IV năm 1215?", "en": "Did the Church “invent” the Eucharist at Lateran IV in 1215?" },
+      "a": {
+        "vi": "Không. Niềm tin rằng bánh và rượu trở nên Mình và Máu Chúa Kitô đã có từ thời các Tông đồ: chính Chúa Giêsu nói “Này là Mình Thầy… Này là Máu Thầy” (Mt 26,26-28), và thánh Phaolô cảnh báo về việc ăn uống Mình Máu Chúa cách bất xứng (x. 1 Cr 11,27-29). Latêranô IV không tạo ra tín điều này, mà chỉ chọn một từ chính xác — “biến thể” — để diễn tả và bảo vệ điều Hội Thánh vẫn tin và cử hành suốt mười hai thế kỷ.",
+        "en": "No. Belief that the bread and wine become the Body and Blood of Christ goes back to the Apostles: Jesus himself says “This is my Body… this is my Blood” (Matt 26:26-28), and St Paul warns against eating and drinking the Lord's Body unworthily (cf. 1 Cor 11:27-29). Lateran IV did not create this dogma; it chose a precise word — “transubstantiation” — to express and guard what the Church had believed and celebrated for twelve centuries."
+      },
+      "category": "theology-doctrine",
+      "tags": ["eucharist", "confession", "church-history"]
+    }
+  ],
+  "ccc_refs": [1376, 1457],
+  "image": {
+    "src": "/images/cong-dong/lateran-iv.jpg",
+    "medium": { "vi": "Bích họa Đức Innôxentê III, Sacro Speco, kh. 1219", "en": "Fresco of Pope Innocent III, Sacro Speco, c. 1219" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

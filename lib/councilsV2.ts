@@ -27,6 +27,10 @@ export interface Section {
 export interface ApologeticsItem {
   q: Bi;
   a: Bi;
+  // Q&A taxonomy (shared with Giải Đáp — see lib/giaiDapTaxonomy). One broad category id + tag ids,
+  // so council Q&As survive the category/tag filters on /giai-dap instead of being excluded.
+  category: string;
+  tags: string[];
 }
 
 // Same shape as the Giáo Phụ Portrait so the shared Portrait component accepts it.
@@ -121,6 +125,8 @@ export interface CouncilQA {
   councilSlug: string;
   councilNo: number;
   councilName: Bi;
+  category: string; // broad taxonomy id (lib/giaiDapTaxonomy CATEGORIES)
+  tags: string[]; // taxonomy tag ids (lib/giaiDapTaxonomy TAGS)
   href: string; // "/cong-dong/<slug>#hoi-<n>"
 }
 
@@ -133,6 +139,8 @@ export function getCouncilApologetics(): CouncilQA[] {
       councilSlug: c.slug,
       councilNo: c.no,
       councilName: c.name,
+      category: item.category ?? 'the-church',
+      tags: item.tags ?? [],
       href: `/cong-dong/${c.slug}#hoi-${i + 1}`,
     }))
   );

@@ -1,0 +1,77 @@
+{
+  "no": 11,
+  "slug": "lateran-iii",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Latêranô III", "en": "Third Council of the Lateran" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười một · cải tổ việc bầu Giáo hoàng",
+    "en": "The eleventh ecumenical council · reforming the papal election"
+  },
+  "dates": { "display": "1179", "start": 1179, "end": 1179 },
+  "location": { "vi": "Đền Latêranô, Rôma", "en": "The Lateran Basilica, Rome" },
+  "quote": {
+    "vi": "Để không còn tranh chấp về ngôi Giáo hoàng, ai được hai phần ba Hồng y đoàn bầu chọn thì được nhìn nhận là Giáo hoàng.",
+    "en": "So that there be no dispute over the papacy, whoever is elected by two-thirds of the cardinals is to be recognised as pope.",
+    "source": { "vi": "Công đồng Latêranô III, 1179 (khoản 1)", "en": "Third Lateran Council, 1179 (canon 1)" }
+  },
+  "background": [
+    {
+      "vi": "Trong thế kỷ XII, nhiều cuộc ly giáo nổ ra vì tranh chấp về việc bầu Giáo hoàng: các phe phái và cả hoàng đế dựng lên những ngụy giáo hoàng đối lập. Cần một quy luật rõ ràng để việc bầu chọn không còn bị thao túng.",
+      "en": "In the twelfth century repeated schisms broke out over disputed papal elections: factions, and even the emperor, set up rival antipopes. A clear rule was needed so the election could no longer be manipulated."
+    },
+    {
+      "vi": "Năm 1179, sau khi hòa giải với hoàng đế Friđrích Barbarossa, Giáo hoàng Alexanđrô III triệu tập công đồng với khoảng ba trăm giám mục. Khoản luật nổi tiếng nhất định rằng Giáo hoàng phải được ít nhất hai phần ba Hồng y đoàn bầu chọn — một quy luật căn bản vẫn còn hiệu lực đến nay.",
+      "en": "In 1179, after reconciling with the emperor Frederick Barbarossa, Pope Alexander III convened a council of about three hundred bishops. Its most famous canon required that a pope be elected by at least two-thirds of the cardinals — a basic rule still in force today."
+    },
+    {
+      "vi": "Công đồng cũng lên án các lạc giáo đang lan rộng ở miền nam nước Pháp — phái Cathari (Albigensê) — cùng nhiều lạm dụng, và ban hành các khoản kỷ luật về đời sống giáo sĩ.",
+      "en": "The council also condemned the heresies then spreading in southern France — the Cathars (Albigensians) — along with various abuses, and issued disciplinary canons on the life of the clergy."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "1179", "en": "1179" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Đền Latêranô, Rôma", "en": "The Lateran, Rome" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Alexanđrô III", "en": "Pope Alexander III" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Alexanđrô III", "en": "Alexander III" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "khoảng 300 giám mục", "en": "about 300 bishops" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Bầu Giáo hoàng · chống lạc giáo", "en": "Papal election · against heresy" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Khoản luật bầu Giáo hoàng (2/3 Hồng y)", "en": "The papal-election canon (two-thirds of cardinals)" }, "latin": "Licet de vitanda", "date": "1179" },
+    { "title": { "vi": "Hai mươi bảy khoản giáo luật", "en": "Twenty-seven canons" }, "latin": "", "date": "1179" }
+  ],
+  "documents_note": {
+    "vi": "Quy luật “hai phần ba” của Latêranô III vẫn là nền tảng cho việc bầu Giáo hoàng trong mật nghị Hồng y ngày nay.",
+    "en": "Lateran III's “two-thirds” rule remains the foundation for electing the pope in today's conclave."
+  },
+  "sections": [
+    {
+      "id": "election",
+      "title": { "vi": "Vì sao cần luật hai phần ba?", "en": "Why the two-thirds rule?" },
+      "body": {
+        "vi": "Trước đó, một nhóm nhỏ có thể tuyên bố bầu một Giáo hoàng riêng, gây ra ly giáo. Đòi hỏi hai phần ba số phiếu buộc phải có sự đồng thuận rộng rãi, khiến không phe nào có thể áp đặt ứng viên của mình. Nhờ vậy, việc kế vị thánh Phêrô trở nên vững vàng và ít bị chính trị chi phối hơn.",
+        "en": "Before this, a small faction could proclaim its own pope, causing schism. Requiring two-thirds of the votes forces broad consensus, so no faction can impose its candidate. This made the succession of St Peter more secure and less subject to politics."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Một quy luật bầu cử thì có gì liên quan đến đức tin?", "en": "What does an election rule have to do with the faith?" },
+      "a": {
+        "vi": "Giáo hoàng là người kế vị thánh Phêrô, nguyên lý hữu hình của sự hiệp nhất trong Hội Thánh. Khi việc bầu chọn ngài bị tranh chấp, chính sự hiệp nhất và bình an của toàn Hội Thánh bị đe dọa. Một quy luật rõ ràng, công bằng bảo vệ sự hiệp nhất ấy — nên tuy có vẻ chỉ là thủ tục, nó phục vụ một điều rất thiêng liêng: giữ cho Hội Thánh nên một quanh vị mục tử chung.",
+        "en": "The pope is the successor of St Peter, the visible principle of unity in the Church. When his election is disputed, the very unity and peace of the whole Church is threatened. A clear, fair rule safeguards that unity — so although it looks merely procedural, it serves something deeply spiritual: keeping the Church one around its common shepherd."
+      },
+      "category": "the-church",
+      "tags": ["papacy", "authority", "church-history"]
+    }
+  ],
+  "ccc_refs": [],
+  "image": {
+    "src": "/images/cong-dong/lateran-iii.jpg",
+    "medium": { "vi": "Tiểu họa Đức Alexanđrô III (Matthew Paris), tk. XIII", "en": "Miniature of Pope Alexander III (Matthew Paris), 13th c." },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}
