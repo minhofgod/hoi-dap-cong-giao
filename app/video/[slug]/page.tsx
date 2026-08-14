@@ -42,10 +42,31 @@ export default async function VideoWatchPage({ params }: { params: Promise<{ slu
 
         <VideoEmbed id={video.youtubeId} title={video.title} />
 
-        {video.summary && <p className={styles.watchSummary}>{video.summary}</p>}
+        {video.summary &&
+          (video.summaryEn ? (
+            <>
+              <p className={`${styles.watchSummary} bi-vi`}>{video.summary}</p>
+              <p className={`${styles.watchSummary} bi-en`}>{video.summaryEn}</p>
+            </>
+          ) : (
+            <p className={styles.watchSummary}>{video.summary}</p>
+          ))}
 
-        {video.hasBody && (
-          <article className={styles.body} dangerouslySetInnerHTML={{ __html: video.bodyHtml }} />
+        {video.hasBodyEn ? (
+          <>
+            <article
+              className={`${styles.body} bi-vi`}
+              dangerouslySetInnerHTML={{ __html: video.bodyHtml }}
+            />
+            <article
+              className={`${styles.body} bi-en`}
+              dangerouslySetInnerHTML={{ __html: video.bodyHtmlEn }}
+            />
+          </>
+        ) : (
+          video.hasBody && (
+            <article className={styles.body} dangerouslySetInnerHTML={{ __html: video.bodyHtml }} />
+          )
         )}
 
         <a

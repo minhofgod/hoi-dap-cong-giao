@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { BookOpen, MessageCircleQuestion, ScrollText } from 'lucide-react';
+import { Play } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { content, toc, resolveCatechism } from '@/lib/content';
 import { formatTocLabel } from '@/lib/titleFormat';
 import { getAllFathers } from '@/lib/churchFathers';
 import { getAllQuestions } from '@/lib/giaiDap';
+import { getAllVideos } from '@/lib/videos';
 import { resolveReference } from '@/lib/bibleRefs';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { FeaturedQuestion, type HeroQuestion } from '@/components/FeaturedQuestion';
@@ -41,6 +42,7 @@ const PART_IMAGES = [
 const fathersCount = getAllFathers().length;
 const questions = getAllQuestions();
 const questionsCount = questions.length;
+const homeVideos = getAllVideos().slice(0, 3);
 // Resolve a question's Scripture refs to verse data — only when the licensing flag is on,
 // so no copyrighted text ships otherwise (matches the answer page).
 const resolveScripture = (refs: string[]) =>
@@ -71,8 +73,14 @@ export default function HomePage() {
       <main className={styles.page}>
       <section className={styles.sectionCards}>
         <Link href="/giai-dap" className={`${styles.card} ${styles.cardSage}`}>
-          <span className={styles.cardIcon}>
-            <MessageCircleQuestion size={24} strokeWidth={1.6} color="var(--sage)" />
+          <span className={styles.cardImage}>
+            <Image
+              src="/images/giai-dap/duc-tin-va-viec-lam.jpg"
+              alt=""
+              fill
+              sizes="(max-width: 900px) 100vw, 400px"
+              className={styles.cardImg}
+            />
           </span>
           <span className={styles.cardBody}>
             <span className={styles.cardTitle}>Giải Đáp</span>
@@ -81,8 +89,14 @@ export default function HomePage() {
           </span>
         </Link>
         <Link href="/giao-ly" className={`${styles.card} ${styles.cardAccent}`}>
-          <span className={styles.cardIcon}>
-            <BookOpen size={24} strokeWidth={1.6} color="var(--accent)" />
+          <span className={styles.cardImage}>
+            <Image
+              src="/images/catechism/thanh-the.jpg"
+              alt=""
+              fill
+              sizes="(max-width: 900px) 100vw, 400px"
+              className={styles.cardImg}
+            />
           </span>
           <span className={styles.cardBody}>
             <span className={styles.cardTitle}>Giáo Lý</span>
@@ -91,8 +105,14 @@ export default function HomePage() {
           </span>
         </Link>
         <Link href="/giao-phu" className={`${styles.card} ${styles.cardGold}`}>
-          <span className={styles.cardIcon}>
-            <ScrollText size={24} strokeWidth={1.6} color="var(--gold)" />
+          <span className={styles.cardImage}>
+            <Image
+              src="/images/church-fathers/augustine-of-hippo.jpg"
+              alt=""
+              fill
+              sizes="(max-width: 900px) 100vw, 400px"
+              className={styles.cardImg}
+            />
           </span>
           <span className={styles.cardBody}>
             <span className={styles.cardTitle}>Giáo Phụ</span>
@@ -203,6 +223,40 @@ export default function HomePage() {
         </div>
       </section>
 
+      {homeVideos.length > 0 && (
+        <section className={styles.videoBand}>
+          <div className={styles.bandHeader}>
+            <div>
+              <h2 className={styles.bandTitle}>Video</h2>
+              <p className={styles.bandSub}>Các video ngắn về đức tin Công giáo</p>
+            </div>
+            <Link href="/video" className={styles.bandLink}>
+              Xem tất cả video →
+            </Link>
+          </div>
+          <div className={styles.videoGrid}>
+            {homeVideos.map((v) => (
+              <Link key={v.slug} href={`/video/${v.slug}`} className={styles.videoCard}>
+                <span className={styles.videoThumb}>
+                  {/* eslint-disable-next-line @next/next/no-img-element -- external YouTube thumbnail */}
+                  <img
+                    src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`}
+                    alt=""
+                    loading="lazy"
+                    className={styles.videoThumbImg}
+                  />
+                  {v.duration && <span className={styles.videoDuration}>{v.duration}</span>}
+                  <span className={styles.videoPlay}>
+                    <Play size={20} fill="currentColor" strokeWidth={0} />
+                  </span>
+                </span>
+                <span className={styles.videoCardTitle}>{v.title}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className={styles.rosaryBand}>
         <div className={styles.rosaryInner}>
           <div className={styles.rosaryText}>
@@ -281,11 +335,11 @@ export default function HomePage() {
             <BrandMark size={35} cut={9} id="footer" className={styles.footerMark} />
             <span>Hỏi Đáp Công Giáo</span>
           </div>
-          {/* Placeholder credit lines hidden until filled in.
+          {/* Credit lines hidden for now.
           <p className={styles.footerCredit}>Bản dịch Giáo Lý: [nguồn]</p>
           <p className={styles.footerCredit}>Thực hiện bởi: [tên]</p>
-          */}
           <p className={styles.footerCredit}>Bản văn Giáo Phụ: phạm vi công cộng</p>
+          */}
         </div>
         <div className={styles.footerCols}>
           <div className={styles.footerCol}>

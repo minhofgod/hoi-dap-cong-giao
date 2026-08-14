@@ -11,9 +11,18 @@ export interface Video {
   youtubeId: string;
   duration?: string;
   summary: string;
+  summaryEn?: string;
   order: number;
   hasBody: boolean;
   bodyHtml: string;
+  // English companion (from <slug>.en.md, optional). When present the watch page shows the
+  // VI/EN toggle and renders both bodies (CSS picks the visible one via [data-lang]).
+  hasBodyEn: boolean;
+  bodyHtmlEn: string;
+}
+
+function render(md: string): string {
+  return marked.parse(md, { async: false }) as string;
 }
 
 function loadFile(filename: string): Video {
@@ -21,15 +30,30 @@ function loadFile(filename: string): Video {
   const raw = fs.readFileSync(path.join(CONTENT_DIR, filename), 'utf-8');
   const { data, content: body } = matter(raw);
   const trimmed = body.trim();
+
+  // Optional English companion: <slug>.en.md (body, and an optional English summary).
+  const enPath = path.join(CONTENT_DIR, `${slug}.en.md`);
+  let bodyHtmlEn = '';
+  let summaryEn: string | undefined;
+  if (fs.existsSync(enPath)) {
+    const en = matter(fs.readFileSync(enPath, 'utf-8'));
+    const enTrimmed = en.content.trim();
+    bodyHtmlEn = enTrimmed ? render(en.content) : '';
+    summaryEn = en.data.summary;
+  }
+
   return {
     slug,
     title: data.title ?? '',
     youtubeId: data.youtube_id ?? '',
     duration: data.duration,
     summary: data.summary ?? '',
+    summaryEn,
     order: data.order ?? 999,
     hasBody: trimmed.length > 0,
-    bodyHtml: trimmed ? (marked.parse(body, { async: false }) as string) : '',
+    bodyHtml: trimmed ? render(body) : '',
+    hasBodyEn: bodyHtmlEn.length > 0,
+    bodyHtmlEn,
   };
 }
 
@@ -37,7 +61,7 @@ export function getAllVideos(): Video[] {
   if (!fs.existsSync(CONTENT_DIR)) return [];
   return fs
     .readdirSync(CONTENT_DIR)
-    .filter((f) => f.endsWith('.md'))
+    .filter((f) => f.endsWith('.md') && !f.endsWith('.en.md'))
     .map(loadFile)
     .sort((a, b) => a.order - b.order);
 }

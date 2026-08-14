@@ -156,6 +156,9 @@
 .mobileLinkActive {
   color: var(--accent-deep);
 }
+.mobileLangRow {
+  padding: 14px 4px 2px;
+}
 
 /* On phones, collapse the inline nav + search into the hamburger menu. This scales as more
    sections are added (Videos, etc.) — everything lives in the dropdown, so the bar stays clean. */

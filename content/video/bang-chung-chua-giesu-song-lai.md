@@ -38,7 +38,35 @@ Phaolô còn kể Chúa hiện ra với hơn 500 người, "phần đông vẫn 
 
 ## Tiếng nói từ bên ngoài Kinh Thánh
 
-Hai sử gia không theo Kitô giáo cũng xác nhận nền tảng lịch sử. Flavius Josephus (khoảng 93 AD) nhắc đến Giêsu bị đóng đinh dưới thời Philatô và đến "Giacôbê, anh em của Giêsu"; Tacitus (*Annals* 15,44, khoảng 116 AD) ghi "Christus" bị Philatô xử tử. Cần phân biệt rõ: giới sử học đồng thuận rằng Chúa Giêsu có thật, bị đóng đinh, và phong trào môn đệ tuyên bố Ngài sống lại từ rất sớm — còn việc **tin** Ngài đã thực sự phục sinh là một bước của đức tin, vượt trên điều sử học có thể chứng minh.
+Không chỉ các môn đệ nói về Chúa Giêsu — hai sử gia không theo Kitô giáo cũng xác nhận nền tảng lịch sử.
+
+![Chân dung Flavius Josephus — bản khắc của Jan Caspar Philips](/images/video/bang-chung-chua-giesu-song-lai/josephus-portrait.jpg)
+
+*Flavius Josephus — bản khắc thế kỷ 18 của Jan Caspar Philips (phạm vi công cộng, CC0 – Rijksmuseum).*
+
+**Flavius Josephus**, sử gia Do Thái (khoảng 93 AD), nhắc đến việc Giêsu bị đóng đinh dưới thời Philatô và đến "Giacôbê, anh em của Đức Giêsu được gọi là Kitô" (*Jewish Antiquities* 20). Đoạn nổi tiếng hơn (Testimonium Flavianum) được xem là có lõi lịch sử thật nhưng đã bị Kitô hữu đời sau thêm thắt.
+
+![Chân dung sử gia Tacitus](/images/video/bang-chung-chua-giesu-song-lai/tacitus-portrait.jpg)
+
+*Cornelius Tacitus — hình dung dựa trên một tượng cổ (bản in 1920, phạm vi công cộng).*
+
+**Tacitus**, sử gia La Mã (khoảng 116 AD), ghi rằng "Christus" bị Philatô xử tử dưới thời Tibêriô, và phong trào theo Ngài lan từ Giuđê đến tận Rôma (*Annals* 15,44). Ông vốn khinh miệt Kitô giáo — nên đây là lời chứng khó nghi ngờ là thiên vị.
+
+Cần phân biệt rõ: giới sử học đồng thuận rằng Chúa Giêsu có thật, bị đóng đinh, và phong trào môn đệ tuyên bố Ngài sống lại từ rất sớm — còn việc **tin** Ngài đã thực sự phục sinh là một bước của đức tin, vượt trên điều sử học có thể chứng minh.
+
+## Ngôi mộ hôm nay
+
+Truyền thống Kitô giáo đã xác định vị trí ngôi mộ ngay từ thế kỷ 4: tại đó, hoàng đế Constantinô cho xây **Vương cung thánh đường Mộ Thánh** (Church of the Holy Sepulchre) ở Giêrusalem, đến nay vẫn là nơi hành hương trọng yếu nhất của Kitô giáo. Bên trong, một nhà nguyện nhỏ gọi là **Edicule** che phủ phần đá được kính là mộ Chúa.
+
+![Nhà nguyện Edicule trong Vương cung thánh đường Mộ Thánh, ảnh khoảng 1900](/images/video/bang-chung-chua-giesu-song-lai/holy-sepulchre-edicule.jpg)
+
+*Nhà nguyện Edicule phủ trên ngôi mộ truyền thống — ảnh khoảng 1898–1914 (phạm vi công cộng).*
+
+Năm 2016–2017, một nhóm chuyên gia của Đại học Kỹ thuật Quốc gia Athens (do GS. Antonia Moropoulou dẫn đầu) trùng tu Edicule và lần đầu tiên mở tấm đá phủ mộ sau nhiều thế kỷ. Phân tích lớp vữa gắn tấm đá với nền đá cho niên đại khoảng năm 345 — đúng thời Constantinô, xác nhận địa điểm này đã được tôn kính từ rất sớm chứ không phải dựng nên về sau. (Một địa điểm thay thế, Garden Tomb, được một số nhóm Tin Lành ưa chuộng, nhưng niên đại khảo cổ của nó không khớp với một ngôi mộ đục đá mới thế kỷ 1.)
+
+![Ngôi mộ và khách hành hương tại Mộ Thánh — tranh của David Roberts, 1839](/images/video/bang-chung-chua-giesu-song-lai/holy-sepulchre-1839-roberts.jpg)
+
+*Khách hành hương tại Edicule — tranh in của David Roberts, 1839 (phạm vi công cộng).*
 
 Bằng chứng không thay thế đức tin, nhưng nó cho thấy đức tin ấy không đặt trên khoảng không.
 
@@ -49,3 +77,4 @@ Bằng chứng không thay thế đức tin, nhưng nó cho thấy đức tin �
 - Flavius Josephus, *Jewish Antiquities* 18,63-64 (Testimonium Flavianum — giới học giả xem là có lõi lịch sử thật nhưng bị Kitô hữu đời sau thêm thắt) và 20,200 (về Giacôbê).
 - Tacitus, *Annals* 15,44.
 - Lee Strobel, *The Case for Christ* (Zondervan, 1998) — chương phỏng vấn nhà tâm lý học Gary Collins về giả thuyết ảo giác.
+- Về Mộ Thánh: cuộc trùng tu Edicule 2016–2017 của Đại học Kỹ thuật Quốc gia Athens (GS. Antonia Moropoulou); phân tích vữa cho niên đại ~345 AD (thời Constantinô). Kristin Romey, *National Geographic* (2016–2017). [Bài báo](https://www.nationalgeographic.com/culture/article/jesus-tomb-opened-church-holy-sepulchre)

@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { BrandMark } from './BrandMark';
+import { LanguageToggle } from './LanguageToggle';
 import styles from './SiteHeader.module.css';
 
 const SECTIONS = [
@@ -39,6 +40,7 @@ export function SiteHeader() {
       </nav>
 
       <div className={styles.actions}>
+        <LanguageToggle />
         <form action="/giao-ly/1" className={styles.searchForm}>
           <svg className={styles.searchIcon} width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <circle cx="11" cy="11" r="7" />
@@ -70,6 +72,9 @@ export function SiteHeader() {
               {s.label}
             </Link>
           ))}
+          <div className={styles.mobileLangRow}>
+            <LanguageToggle />
+          </div>
         </div>
       )}
     </header>

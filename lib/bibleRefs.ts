@@ -8,6 +8,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { SCRIPTURE_POPOVER_ENABLED } from './scriptureFlag';
 
 interface BibleData {
   translation: string;
@@ -130,10 +131,11 @@ export interface EnrichedAnswer {
 }
 
 // A Scripture-reference candidate: optional "1 " book prefix, a short book token, then
-// "chapter,verse" with an optional "-verse" range. Deliberately loose — every candidate is
-// validated against the real book index via resolveReference, so non-refs (e.g. "GLHTCG 1023",
-// which has no ",verse", or "câu 3,16") are simply left untouched.
-const REF_CANDIDATE = /(?<![\p{L}\d])((?:[1-3]\s)?[\p{L}]{1,4})\s(\d{1,3})\s*,\s*(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?(?![\d,])/gu;
+// "chapter,verse" (Vietnamese comma) or "chapter:verse" (English colon), with an optional
+// "-verse" range. Deliberately loose — every candidate is validated against the real book index
+// via resolveReference, so non-refs (e.g. "GLHTCG 1023" with no ",verse", "câu 3,16", or a time
+// like "10:30" whose token isn't a book) are simply left untouched.
+const REF_CANDIDATE = /(?<![\p{L}\d])((?:[1-3]\s)?[\p{L}]{1,4})\s(\d{1,3})\s*[,:]\s*(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?(?![\d,:])/gu;
 
 function escapeAttr(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
@@ -171,4 +173,14 @@ export function enrichAnswerHtml(html: string): EnrichedAnswer {
   });
 
   return { html: out.join(''), data: dataMap };
+}
+
+/**
+ * Flag-gated enrichment for a rendered markdown body. Use this for ANY content type whose body
+ * may mention Bible verses (Giải Đáp answers, Video blogs, and future types), then render the
+ * result with <ScriptureBody {...enrichBody(html)} />. When the licensing flag is off it returns
+ * the html untouched with no data, so nothing copyrighted ships. See CLAUDE.md.
+ */
+export function enrichBody(html: string): EnrichedAnswer {
+  return SCRIPTURE_POPOVER_ENABLED ? enrichAnswerHtml(html) : { html, data: {} };
 }

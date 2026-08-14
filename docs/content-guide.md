@@ -31,6 +31,11 @@ summary: "1–2 câu tóm tắt."                     # shown under the player +
 Everything **below** the `---` is the optional written companion (Markdown), rendered under the
 player. Supported: `##`/`###` headings, `**bold**`, `-` lists, `>` blockquotes, links, images.
 
+**Bilingual (optional):** add an English version as `content/video/<slug>.en.md` — its body is the
+English companion, and its frontmatter may carry an English `summary`. When that file exists, the
+watch page shows the VI/EN/Cả hai toggle and renders both; with no `.en.md`, the page is Vietnamese
+only. (The global toggle lives in the site header.)
+
 **Writing the companion piece** — the Markdown may come from Grok (which has no repo access, so it
 only produces text to paste in) or be written directly. Typical flow with Grok:
 

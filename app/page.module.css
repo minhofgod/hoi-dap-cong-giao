@@ -14,9 +14,8 @@
 
 .card {
   display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  padding: 18px;
+  flex-direction: column;
+  overflow: hidden;
   border-radius: 16px;
 }
 a.card:hover {
@@ -34,22 +33,24 @@ a.card:hover {
   background: var(--gold-tint);
 }
 
-.cardIcon {
-  width: 46px;
-  height: 46px;
-  flex-shrink: 0;
-  border-radius: 13px;
-  background: var(--surface);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.cardImage {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #efe7db;
+}
+.cardImg {
+  object-fit: cover;
+  object-position: 50% 26%;
 }
 
 .cardBody {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
   min-width: 0;
+  padding: 15px 18px 18px;
 }
 
 .cardTitle {
@@ -413,6 +414,81 @@ a.card:hover {
   height: auto;
 }
 
+/* Video band (homepage) */
+.videoBand {
+  padding: 0 var(--page-gutter) var(--section-rhythm);
+}
+.videoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+.videoCard {
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+}
+.videoCard:hover {
+  text-decoration: none;
+}
+.videoThumb {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background: #000;
+  margin-bottom: 12px;
+}
+.videoThumbImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.15s ease;
+}
+.videoCard:hover .videoThumbImg {
+  opacity: 0.9;
+}
+.videoDuration {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 2px 7px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.82);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.videoPlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 52px;
+  height: 52px;
+  padding-left: 3px;
+  border-radius: 999px;
+  background: rgba(198, 113, 57, 0.92);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+}
+.videoCard:hover .videoPlay {
+  background: var(--accent);
+}
+.videoCardTitle {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--text-heading);
+}
+.videoCard:hover .videoCardTitle {
+  color: var(--accent-deep);
+}
+
 .support {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -525,6 +601,7 @@ a.card:hover {
   .sectionCards,
   .hero,
   .fathersBand,
+  .videoBand,
   .rosaryBand,
   .support,
   .footer {
