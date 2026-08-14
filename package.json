@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build:bible": "node scripts/build-bible.mjs",
+    "predev": "node scripts/build-bible.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

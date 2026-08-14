@@ -48,12 +48,13 @@ Two caveats for **English** content:
 - The popover always shows the **CGKPV Vietnamese** verse text (that is the only Bible data we
   have); an English body's references therefore reveal Vietnamese text. If that's not wanted, only
   enrich the VI body.
-- Book lookup uses the abbreviations baked into `content/bible.json` from the vault's frontmatter,
-  which are inconsistent for English: **full names resolve** (`John 20:23`, `Luke 4:18`) but many
-  short English abbreviations do **not** (`Jn`, `Lk`, `Mk` are often absent). Prefer full English
-  book names in English prose. To make short English abbreviations reliable, add a canonical
-  abbreviation map in `scripts/build-bible.mjs` and re-run it — decide this with whoever owns the
-  English content before regenerating.
+- Book lookup uses `content/bible.json`, whose abbreviations come from a **canonical map**
+  (`EXTRA_ABBREVS` in `scripts/build-bible.mjs`) plus the vault aliases. Standard English short
+  forms now resolve (`Jn`, `Lk`, `Heb`, `Rev`, `Gen`…) alongside full names and the Vietnamese
+  abbreviations. One deliberate exception: **`Mk` resolves to Vietnamese Micah (Mikha), not
+  Mark** — Vietnamese always wins an abbreviation clash — so write Mark as `Mc` or `Mark`. If some
+  other abbreviation is missing, add it to `EXTRA_ABBREVS` and re-run `node scripts/build-bible.mjs`
+  (the script prints anything it skips due to a clash).
 
 ### Frontmatter reference chips (`refs_scripture`, `refs_ccc`)
 
@@ -107,5 +108,11 @@ Not detected (by design):
 
 ## Data regeneration
 
-Bible verse data lives in `content/bible.json` (gitignored, copyrighted CGKPV text). Rebuild it
-from the vault with `node scripts/build-bible.mjs` if the source changes.
+Bible verse data lives in `content/bible.json` (gitignored, copyrighted CGKPV text), generated
+from the Obsidian vault by `scripts/build-bible.mjs`.
+
+- **Automatic:** the `predev` npm hook runs the script before every `npm run dev`, so editing the
+  vault and restarting the dev server is enough — the site picks up the changes.
+- **Manual:** `node scripts/build-bible.mjs` (or `npm run build:bible`) any time.
+- If the vault isn't found (CI/Vercel, or Dropbox not synced), the script **skips gracefully** and
+  keeps the existing `bible.json`, so dev and production builds never fail on it.
