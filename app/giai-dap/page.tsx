@@ -1,8 +1,6 @@
-import Link from 'next/link';
 import { MessageCircleQuestion } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
-import { Bi2 } from '@/components/giao-phu/Bi2';
 import { GiaiDapBrowser } from '@/components/GiaiDapBrowser';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getCouncilApologetics } from '@/lib/councilsV2';
@@ -26,12 +24,22 @@ export default function GiaiDapIndexPage() {
   const cards = questions.map((q) => ({
     slug: q.slug,
     questionVi: q.questionVi,
+    questionEn: q.questionEn,
     category: q.category,
     subcategory: q.subcategory,
     featured: q.featured,
     excerpt: excerpt(q.bodyRaw),
   }));
-  const councilQAs = getCouncilApologetics();
+  const councilCards = getCouncilApologetics().map((qa) => ({
+    id: qa.id,
+    questionVi: qa.question.vi,
+    questionEn: qa.question.en,
+    councilVi: qa.councilName.vi,
+    councilEn: qa.councilName.en,
+    href: `/giai-dap/cong-dong/${qa.id}`,
+  }));
+
+  const hasContent = questions.length > 0 || councilCards.length > 0;
 
   return (
     <>
@@ -46,7 +54,9 @@ export default function GiaiDapIndexPage() {
           </h1>
         </div>
 
-        {questions.length === 0 ? (
+        {hasContent ? (
+          <GiaiDapBrowser questions={cards} councilQuestions={councilCards} />
+        ) : (
           <div className={styles.empty}>
             <MessageCircleQuestion size={36} strokeWidth={1.5} color="var(--sage)" />
             <p className={styles.emptyTitle}>
@@ -59,26 +69,6 @@ export default function GiaiDapIndexPage() {
               />
             </p>
           </div>
-        ) : (
-          <GiaiDapBrowser questions={cards} />
-        )}
-
-        {councilQAs.length > 0 && (
-          <section className={styles.councilSection}>
-            <div className={styles.councilLabel}>
-              <T vi="Từ các Công Đồng" en="From the Councils" />
-            </div>
-            <ul className={styles.councilList}>
-              {councilQAs.map((qa) => (
-                <li key={qa.id}>
-                  <Link href={`/giai-dap/cong-dong/${qa.id}`} className={styles.councilRow}>
-                    <Bi2 value={qa.question} as="span" className={styles.councilRowQ} />
-                    <Bi2 value={qa.councilName} as="span" className={styles.councilRowMeta} />
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
         )}
       </div>
     </>
