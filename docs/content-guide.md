@@ -31,20 +31,23 @@ summary: "1–2 câu tóm tắt."                     # shown under the player +
 Everything **below** the `---` is the optional written companion (Markdown), rendered under the
 player. Supported: `##`/`###` headings, `**bold**`, `-` lists, `>` blockquotes, links, images.
 
-**Writing the companion piece** (video research currently lives in Grok, which has no access to
-this repo — so it only produces Markdown text you paste in):
+**Writing the companion piece** — the Markdown may come from Grok (which has no repo access, so it
+only produces text to paste in) or be written directly. Typical flow with Grok:
 
-1. Send Grok the "Grok blog prompt" (appendix below) — it returns a 300–500 word Vietnamese
-   Markdown companion with inline scripture refs and a `## Nguồn tham khảo` sources list.
-2. Paste each video's Markdown **below the frontmatter** in the matching file.
-3. **Spot-check the sources** — Grok can invent citations; verify before publishing.
+1. Send the blog prompt (appendix below) to Grok — it returns a 300–500 word Vietnamese Markdown
+   companion with inline scripture refs and a `## Nguồn tham khảo` sources list. (Or write/paste
+   the Markdown yourself.)
+2. Paste the Markdown **below the frontmatter** in the matching file.
+3. **Spot-check the sources** — Grok (or any LLM) can invent citations; verify before publishing.
 
 **Images in a post:**
 
 - Put files in `public/images/video/<slug>/<name>.jpg`; reference as `/images/video/<slug>/<name>.jpg`.
 - Prefer public-domain sacred art / historical images; keep a note of the source.
 
-## The 3 current videos (from youtube.com/@MinhofGod)
+## Current videos (from youtube.com/@MinhofGod)
+
+More videos will be added over time — create a new `content/video/<slug>.md` for each.
 
 | slug | youtube_id |
 |------|-----------|
