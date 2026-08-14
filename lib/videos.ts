@@ -8,6 +8,7 @@ const CONTENT_DIR = path.join(process.cwd(), 'content', 'video');
 export interface Video {
   slug: string;
   title: string;
+  titleEn?: string;
   youtubeId: string;
   duration?: string;
   summary: string;
@@ -35,16 +36,19 @@ function loadFile(filename: string): Video {
   const enPath = path.join(CONTENT_DIR, `${slug}.en.md`);
   let bodyHtmlEn = '';
   let summaryEn: string | undefined;
+  let titleEn: string | undefined;
   if (fs.existsSync(enPath)) {
     const en = matter(fs.readFileSync(enPath, 'utf-8'));
     const enTrimmed = en.content.trim();
     bodyHtmlEn = enTrimmed ? render(en.content) : '';
     summaryEn = en.data.summary;
+    titleEn = en.data.title;
   }
 
   return {
     slug,
     title: data.title ?? '',
+    titleEn,
     youtubeId: data.youtube_id ?? '',
     duration: data.duration,
     summary: data.summary ?? '',

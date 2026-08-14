@@ -49,8 +49,26 @@ export default function VideoIndexPage() {
                 </span>
               </span>
               <span className={styles.cardBody}>
-                <span className={styles.cardTitle}>{v.title}</span>
-                <span className={styles.cardSummary}>{v.summary}</span>
+                <span className={styles.cardTitle}>
+                  {v.titleEn ? (
+                    <>
+                      <span className="bi-vi">{v.title}</span>
+                      <span className="bi-en">{v.titleEn}</span>
+                    </>
+                  ) : (
+                    v.title
+                  )}
+                </span>
+                <span className={styles.cardSummary}>
+                  {v.summaryEn ? (
+                    <>
+                      <span className="bi-vi">{v.summary}</span>
+                      <span className="bi-en">{v.summaryEn}</span>
+                    </>
+                  ) : (
+                    v.summary
+                  )}
+                </span>
               </span>
             </Link>
           ))}
