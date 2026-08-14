@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
+import { useLang } from '@/lib/giao-phu/useLang';
 import { Bi2 } from './Bi2';
 import { FigureRow } from './FigureRow';
 import type { EraGroup } from '@/lib/churchFathersV2';
@@ -12,6 +13,7 @@ const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCa
 /** The Giáo Phụ index list with a live name filter (mirrors the Catechism browser's search).
  *  Filtering keeps the era grouping — eras with no match are dropped. */
 export function FathersBrowser({ groups }: { groups: EraGroup[] }) {
+  const uiLang = useLang();
   const [query, setQuery] = useState('');
   const q = query.trim();
 
@@ -34,14 +36,16 @@ export function FathersBrowser({ groups }: { groups: EraGroup[] }) {
         <Search size={18} strokeWidth={2.2} className={styles.searchIcon} />
         <input
           className={styles.searchInput}
-          placeholder="Tìm Giáo Phụ theo tên…"
+          placeholder={uiLang === 'en' ? 'Search Church Fathers by name…' : 'Tìm Giáo Phụ theo tên…'}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
       </div>
 
       {filtered.length === 0 ? (
-        <div className={styles.noResults}>Không tìm thấy Giáo Phụ nào cho “{q}”.</div>
+        <div className={styles.noResults}>
+          {uiLang === 'en' ? `No Church Fathers found for “${q}”.` : `Không tìm thấy Giáo Phụ nào cho “${q}”.`}
+        </div>
       ) : (
         filtered.map((g) => (
           <div key={g.era} className={styles.eraBlock}>

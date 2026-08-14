@@ -5,7 +5,9 @@ import { useEffect, useMemo, useState } from 'react';
 import { ChevronDown, ChevronRight, Search } from 'lucide-react';
 import { formatTocLabel } from '@/lib/titleFormat';
 import { findArticleStartForParagraph } from '@/lib/tocUtils';
+import { useLang } from '@/lib/giao-phu/useLang';
 import { ReadingProgressBar } from './ReadingProgress';
+import { T } from './T';
 import type { Toc, TocNode, Paragraph } from '@/lib/types';
 import styles from './GiaoLyTree.module.css';
 
@@ -95,6 +97,7 @@ export function GiaoLyTree({
 }) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const [ready, setReady] = useState(false);
+  const uiLang = useLang();
   const [query, setQuery] = useState('');
   const [fuse, setFuse] = useState<import('fuse.js').default<Paragraph> | null>(null);
 
@@ -159,7 +162,7 @@ export function GiaoLyTree({
         <input
           data-giao-ly-search
           className={styles.searchInput}
-          placeholder="Tìm số đoạn hoặc từ khoá…"
+          placeholder={uiLang === 'en' ? 'Search number or keyword…' : 'Tìm số đoạn hoặc từ khoá…'}
           value={query}
           onFocus={onSearchFocus}
           onChange={(e) => setQuery(e.target.value)}
@@ -174,7 +177,9 @@ export function GiaoLyTree({
               className={styles.searchResultRow}
             >
               <span className={styles.searchResultNumber}>§{numJump.n}</span>
-              <span className={styles.searchResultSnippet}>Đi tới số {numJump.n}</span>
+              <span className={styles.searchResultSnippet}>
+                <T vi={`Đi tới số ${numJump.n}`} en={`Go to §${numJump.n}`} />
+              </span>
             </Link>
           )}
           {results.map((r) => {
@@ -186,12 +191,18 @@ export function GiaoLyTree({
               </Link>
             );
           })}
-          {!numJump && results.length === 0 && <div className={styles.searchEmpty}>Không tìm thấy</div>}
+          {!numJump && results.length === 0 && (
+            <div className={styles.searchEmpty}>
+              <T vi="Không tìm thấy" en="No results" />
+            </div>
+          )}
         </div>
       ) : (
         <>
           <div className={styles.progressMini}>
-            <div className={styles.progressMiniLabel}>Tiến độ</div>
+            <div className={styles.progressMiniLabel}>
+              <T vi="Tiến độ" en="Progress" />
+            </div>
             <ReadingProgressBar total={totalParagraphs} />
           </div>
           {toc.map((node) => (

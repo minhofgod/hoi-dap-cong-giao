@@ -7,6 +7,7 @@ import type { ResolvedReference } from '@/lib/bibleRefs';
 import type { ResolvedCatechism } from '@/lib/content';
 import { ScriptureRef } from './ScriptureRef';
 import { CatechismRef } from './CatechismRef';
+import { T } from './T';
 import styles from './FeaturedQuestion.module.css';
 
 export type HeroQuestion = {
@@ -29,7 +30,9 @@ export function FeaturedQuestion({ questions }: { questions: HeroQuestion[] }) {
   return (
     <div className={styles.left}>
       <div className={styles.eyebrowRow}>
-        <span className={styles.eyebrow}>Câu hỏi</span>
+        <span className={styles.eyebrow}>
+          <T vi="Câu hỏi" en="Question" />
+        </span>
         <span className={styles.rule} />
         {questions.length > 1 && (
           <button
@@ -38,7 +41,7 @@ export function FeaturedQuestion({ questions }: { questions: HeroQuestion[] }) {
             onClick={() => setI((v) => (v + 1) % questions.length)}
           >
             <RotateCw size={13} strokeWidth={2.2} />
-            Câu khác
+            <T vi="Câu khác" en="Another" />
           </button>
         )}
       </div>
@@ -53,7 +56,9 @@ export function FeaturedQuestion({ questions }: { questions: HeroQuestion[] }) {
 
       {(q.ccc.length > 0 || q.scripture.length > 0) && (
         <div className={styles.refs}>
-          <span className={styles.refsLabel}>Tham chiếu</span>
+          <span className={styles.refsLabel}>
+            <T vi="Tham chiếu" en="References" />
+          </span>
           {q.ccc.map((n) => (
             <CatechismRef key={n} number={n} data={q.cccData[n] ?? null} />
           ))}
@@ -65,11 +70,11 @@ export function FeaturedQuestion({ questions }: { questions: HeroQuestion[] }) {
 
       <div className={styles.buttons}>
         <Link href={`/giai-dap/${q.slug}`} className={styles.primary}>
-          Đọc trọn câu trả lời
+          <T vi="Đọc trọn câu trả lời" en="Read the full answer" />
           <ChevronRight size={17} strokeWidth={2.4} />
         </Link>
         <Link href="/giai-dap" className={styles.secondary}>
-          Xem tất cả câu hỏi
+          <T vi="Xem tất cả câu hỏi" en="See all questions" />
         </Link>
       </div>
     </div>

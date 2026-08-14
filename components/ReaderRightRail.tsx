@@ -2,12 +2,15 @@
 
 import { Bookmark, Printer, Share2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { useLang } from '@/lib/giao-phu/useLang';
 import type { Paragraph } from '@/lib/types';
+import { T } from './T';
 import styles from './ReaderRightRail.module.css';
 
 const SAVED_KEY = 'hdcg.saved.giao-ly';
 
 export function ReaderRightRail({ paragraphs, articleTitle }: { paragraphs: Paragraph[]; articleTitle: string }) {
+  const uiLang = useLang();
   const [activeId, setActiveId] = useState<number | null>(null);
   const [saved, setSaved] = useState(false);
 
@@ -57,7 +60,9 @@ export function ReaderRightRail({ paragraphs, articleTitle }: { paragraphs: Para
   return (
     <aside className={styles.rail}>
       <div className={styles.section}>
-        <div className={styles.eyebrow}>Trong bài này</div>
+        <div className={styles.eyebrow}>
+          <T vi="Trong bài này" en="In this article" />
+        </div>
         <ul className={styles.paraList}>
           {paragraphs.map((p) => (
             <li key={p.id}>
@@ -77,21 +82,33 @@ export function ReaderRightRail({ paragraphs, articleTitle }: { paragraphs: Para
       <div className={styles.actions}>
         <button type="button" className={styles.actionButton} onClick={toggleSaved}>
           <Bookmark size={15} strokeWidth={2.4} fill={saved ? 'var(--accent)' : 'none'} />
-          {saved ? 'Đã lưu' : 'Lưu bài này'}
+          {uiLang === 'en' ? (saved ? 'Saved' : 'Save') : saved ? 'Đã lưu' : 'Lưu bài này'}
         </button>
         <button type="button" className={styles.actionButton} onClick={share}>
           <Share2 size={15} strokeWidth={2.4} />
-          Chia sẻ
+          <T vi="Chia sẻ" en="Share" />
         </button>
         <button type="button" className={styles.actionButton} onClick={() => window.print()}>
           <Printer size={15} strokeWidth={2.4} />
-          In / PDF
+          <T vi="In / PDF" en="Print / PDF" />
         </button>
       </div>
 
       <div className={styles.shortcuts}>
-        Phím tắt: <strong>J</strong> / <strong>K</strong> chuyển đoạn · <strong>G</strong> nhảy tới số ·{' '}
-        <strong>/</strong> tìm kiếm
+        <T
+          vi={
+            <>
+              Phím tắt: <strong>J</strong> / <strong>K</strong> chuyển đoạn · <strong>G</strong> nhảy tới
+              số · <strong>/</strong> tìm kiếm
+            </>
+          }
+          en={
+            <>
+              Shortcuts: <strong>J</strong> / <strong>K</strong> paragraph · <strong>G</strong> jump to
+              § · <strong>/</strong> search
+            </>
+          }
+        />
       </div>
     </aside>
   );
