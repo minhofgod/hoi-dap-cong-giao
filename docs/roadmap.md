@@ -28,10 +28,20 @@ non-believer find "Science" or "Evidence" answers, not only "Theology." Also nee
 
 ## 2. Guided "find answers" tool → (later) content AI
 
-**Tier A — Guided flow (MVP, no LLM):** a button → a few questions → routes the person to curated
-Q&As / Bible passages / evidence (e.g. "science", "unbelieving spouse", "is there evidence for the
-Resurrection"). A deterministic decision tree keyed off the taxonomy (#1). Safe, cheap, no
-hallucination, doctrinally reliable. **Depends on the taxonomy being in place.**
+**Tier A — Guided flow (MVP, no LLM):** a button → the visitor answers a few questions **about
+themselves / their situation** (NOT submitting a question for the owner to answer — this is
+self-assessment, not an inbox) → the tool routes them to curated Q&As / Bible passages / evidence
+that fit. E.g. "science makes me doubt" → Science/Evidence answers; "my spouse doesn't believe" →
+marriage + evangelization answers; "is there evidence for the Resurrection?" → the History/Evidence
+cluster. A deterministic decision tree keyed off the taxonomy (#1): the intake answers map to
+categories/tags, which retrieve matching content. Safe, cheap, no hallucination, doctrinally
+reliable. **Depends on the taxonomy being in place.**
+
+The **result adapts** to their answers: a tailored "path" page — a few sentences of advice/
+encouragement fitted to their situation (deepening faith, or where to find evidence for God) +
+the matched Q&As, Scripture, and evidence, in a sensible order. Even without an LLM this feels
+personalized because the branch + assembled resources are specific to what they said. (A later AI
+tier could make the advice text more fluid — same doctrinal-safety constraints apply.)
 
 **Tier B — Content AI (bigger):** an LLM that answers from the site's verified content (retrieval +
 citations), optionally online sources *with verification*. Risks to design around:
