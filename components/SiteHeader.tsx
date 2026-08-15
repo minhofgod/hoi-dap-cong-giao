@@ -26,6 +26,7 @@ const SECTIONS: Section[] = [
   // surfacing the Councils without a separate top-level entry (docs/roadmap.md — homepage IA).
   // `also` keeps the hub highlighted on its child routes (the Fathers/Councils detail pages).
   { href: '/lich-su-hoi-thanh', vi: 'Lịch Sử Hội Thánh', en: 'Church History', also: ['/giao-phu', '/cong-dong'] },
+  { href: '/cac-thanh', vi: 'Các Thánh', en: 'Saints' },
   { href: '/video', vi: 'Video', en: 'Videos' },
   // Đồng hành companion — last nav item. Gated so it vanishes (along with the route + homepage
   // band) when NEXT_PUBLIC_COMPANION=0, leaving no dead link.

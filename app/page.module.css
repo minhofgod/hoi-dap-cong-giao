@@ -6,10 +6,17 @@
 
 .sectionCards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 14px;
   padding: 26px var(--page-gutter);
   border-bottom: 1px solid var(--border);
+}
+/* 4 across on desktop → 2×2 on tablet → single column on phones (the phone rule lives in the
+   shared max-width:900px block below). */
+@media (max-width: 1100px) {
+  .sectionCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Front-door companion (Đồng hành) CTA — a prominent band at the top of the homepage for
@@ -39,6 +46,9 @@ a.card:hover {
 }
 .cardGold {
   background: var(--gold-tint);
+}
+.cardRose {
+  background: #F3EAEA;
 }
 
 .cardImage {
@@ -85,6 +95,9 @@ a.card:hover {
 }
 .cardGold .cardCount {
   color: var(--gold-deep);
+}
+.cardRose .cardCount {
+  color: #97514F;
 }
 
 .hero {

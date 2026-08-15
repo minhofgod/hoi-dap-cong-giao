@@ -163,10 +163,12 @@
 }
 
 /* Collapse the inline nav + search into the hamburger menu below the width where the full bar
-   comfortably fits (~1075px min content: brand + 5 nav items incl. the long "Lịch Sử Hội Thánh" +
-   language toggle + search). Kept at 1099px so no viewport shows a cramped/overflowing bar; this
-   scales as more sections are added — everything lives in the dropdown, so the bar stays clean. */
-@media (max-width: 1099px) {
+   comfortably fits (~1140px min content: brand + 6 nav items incl. the long "Lịch Sử Hội Thánh" +
+   language toggle + search). Kept at 1199px so no viewport shows a cramped/overflowing bar. The bar
+   is near the practical limit for inline items — as more sections are added (Miracles, etc.) the nav
+   will need grouping/dropdowns rather than a still-higher breakpoint; everything already lives in the
+   dropdown below this width, so the bar stays clean meanwhile. */
+@media (max-width: 1199px) {
   .header {
     padding: 0 var(--mobile-gutter);
     gap: 10px;

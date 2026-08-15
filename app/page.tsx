@@ -6,6 +6,7 @@ import { content, toc, resolveCatechism } from '@/lib/content';
 import { formatTocLabel } from '@/lib/titleFormat';
 import { getAllFathers } from '@/lib/churchFathers';
 import { getAllCouncils } from '@/lib/councilsV2';
+import { getAllSaints } from '@/lib/saintsV2';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getAllVideos } from '@/lib/videos';
 import { resolveReference } from '@/lib/bibleRefs';
@@ -45,6 +46,7 @@ const PART_IMAGES = [
 ];
 const fathersCount = getAllFathers().length;
 const councilsCount = getAllCouncils().length;
+const saintsCount = getAllSaints().length;
 const questions = getAllQuestions();
 const questionsCount = questions.length;
 const homeVideos = getAllVideos().slice(0, 3);
@@ -152,6 +154,31 @@ export default function HomePage() {
                 vi={`${fathersCount} Giáo Phụ · ${councilsCount} Công Đồng`}
                 en={`${fathersCount} Fathers · ${councilsCount} Councils`}
               />
+            </span>
+          </span>
+        </Link>
+        <Link href="/cac-thanh" className={`${styles.card} ${styles.cardRose}`}>
+          <span className={styles.cardImage}>
+            <Image
+              src="/images/giai-dap/nguoi-cong-giao-co-tho-nguong-tuong-khong.jpg"
+              alt=""
+              fill
+              sizes="(max-width: 900px) 100vw, 400px"
+              className={styles.cardImg}
+            />
+          </span>
+          <span className={styles.cardBody}>
+            <span className={styles.cardTitle}>
+              <T vi="Các Thánh" en="The Saints" />
+            </span>
+            <span className={styles.cardDesc}>
+              <T
+                vi="Chân dung các thánh — tử đạo Việt Nam, chứng nhân hiện đại, người trở lại."
+                en="Portraits of the saints — Vietnamese martyrs, modern witnesses, converts."
+              />
+            </span>
+            <span className={styles.cardCount}>
+              <T vi={`${saintsCount} vị`} en={`${saintsCount} saints`} />
             </span>
           </span>
         </Link>
@@ -420,6 +447,9 @@ export default function HomePage() {
             </Link>
             <Link href="/lich-su-hoi-thanh" className={styles.footerLink}>
               <T vi="Lịch Sử Hội Thánh" en="Church History" />
+            </Link>
+            <Link href="/cac-thanh" className={styles.footerLink}>
+              <T vi="Các Thánh" en="The Saints" />
             </Link>
           </div>
           <div className={styles.footerCol}>
