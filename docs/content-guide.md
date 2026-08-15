@@ -218,8 +218,13 @@ quotes use superscript verse numbers (¹²³).
 - Charitable tone; verified Vietnamese terminology.
 - Slug is descriptive kebab-case from the Vietnamese, no diacritics.
 - Inline refs written as VN abbreviations `(Lc 20,38)` so the Scripture popover can detect them.
-- Anchor image (optional): a cluster anchor can have a banner at `public/images/giai-dap/<slug>.jpg`
-  (public-domain; follow the Images rule above — also add it to the Catholic Images library).
+- **Anchor image — REQUIRED for a `featured: true` anchor.** The topic card renders a banner from
+  `public/images/giai-dap/<anchor-slug>.jpg`; if the file is missing the card shows a **broken image**
+  (this has bitten us more than once). So every featured cluster anchor MUST get a banner
+  (public-domain; follow the Images rule above — also add it to the Catholic Images library). Sanity
+  check after creating a cluster: `ls public/images/giai-dap/<anchor-slug>.jpg`.
+  *(Framework safety net: the card should also fall back to a placeholder when the file is missing so a
+  forgotten banner never breaks — tracked in docs/roadmap.md.)*
 
 ## Videos ↔ Q&A — two expressions of one topic (applies to both)
 

@@ -139,5 +139,11 @@ cross-links.
 the immediate actionable (it surfaces the Councils now); Saints + Miracles are reserved slots.
 
 ## Still open
+- **Q&A card banner fallback (website, Session 2).** `components/GiaiDapBrowser` renders the topic-card
+  banner from `/images/giai-dap/<anchor>.jpg` unconditionally — a missing file shows a BROKEN image
+  (recurring bug). Add a graceful fallback: on `next/image` error, swap to a placeholder (a colored
+  tile / topic icon / initials) so a forgotten banner degrades cleanly. Same pattern is worth checking
+  anywhere else the site renders a slug-derived image (e.g. council/father portraits already handle
+  `available:false` — Q&A cards don't).
 - Content AI later: site-content-only with citations (recommended) vs. also online sources.
 - Languages: companion flow bilingual (like the rest of the site) — assumed yes.
