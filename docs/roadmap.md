@@ -90,9 +90,27 @@ Q&As get tagged). Collapse them behind a **"Bộ lọc / Filter" button next to 
 toggle that reveals the chip panel — with an active-filter count badge. Desktop can keep the same
 toggle or stay expanded.
 
+## Content link model — videos ↔ Q&As (2026-08-15)
+
+Videos and Q&As are **siblings, not source-and-transcript.** A script is working source material;
+the video (spoken) and the Q&A/blog (written) are two independent expressions of the same topic and
+may diverge in wording — each is authored and VERIFIED on its own, in its own register. So:
+
+- **Link by shared taxonomy (tags/category), not by derivation.** Same vocabulary as Q&As
+  (`lib/giaiDapTaxonomy`). This is what makes the companion, the `/giai-dap` filters, and search pull
+  a video and its sibling Q&As together automatically — with no assumption one came from the other.
+- **Optional page cross-links are symmetric + loose:** `related_video: <slug>` on a Q&A cluster
+  anchor, `related_qa: [<slugs>]` on a video — shown as "related," NEVER as "the source/transcript."
+  Add only where a pairing is genuinely close, so divergence never reads as a contradiction.
+- **Scripts are not a published content type** — they're drafts. Track "script → video? → Q&A?" in an
+  OFF-SITE tracker (sheet/Notion) so finished-but-unmade scripts don't fall through the cracks. The
+  site only publishes videos + Q&As.
+
+**Build order:** Layer 1 — add `category` + `tags` to video frontmatter (content) + parse them in
+`lib/videos.ts` (website) + add videos to the companion's resource pool as `kind: 'video'` with a
+play-icon treatment (companion session). Layer 2 — the optional `related_video`/`related_qa` page
+cross-links.
+
 ## Still open
-- Finalize the category list + tag vocabulary above.
-- Rename the frontmatter `category` → `topic`, or add a new broad `category` alongside it? (leaning:
-  add `category` for the broad level, rename the existing one `topic`, add `tags: []`.)
 - Content AI later: site-content-only with citations (recommended) vs. also online sources.
 - Languages: companion flow bilingual (like the rest of the site) — assumed yes.

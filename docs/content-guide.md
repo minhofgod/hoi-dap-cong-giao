@@ -221,6 +221,23 @@ quotes use superscript verse numbers (¹²³).
 - Anchor image (optional): a cluster anchor can have a banner at `public/images/giai-dap/<slug>.jpg`
   (public-domain; follow the Images rule above — also add it to the Catholic Images library).
 
+## Videos ↔ Q&A — two expressions of one topic (applies to both)
+
+A **script** is working source material; the **video** (spoken) and the **Q&A/blog** (written) are two
+INDEPENDENT expressions of the same topic. They're siblings, not source-and-transcript:
+
+- **Author + verify each on its own, in its own register.** A Q&A written from a video's script is
+  NOT its transcript — write it in Q&A style, cite its own sources, and don't edit it to match the
+  video's wording (or vice versa). The spoken video drifting from the written Q&A is fine and expected.
+- **They link by shared tags, not by derivation** — give a video the same `category` + `tags`
+  (from `lib/giaiDapTaxonomy`) as its topic. That alone lets the companion tool, the `/giai-dap`
+  filters, and search connect a video with its sibling Q&As, with no "one came from the other" claim.
+- **Optional, symmetric cross-links only:** `related_video: <slug>` on a Q&A cluster anchor and
+  `related_qa: [<slugs>]` on a video — rendered as "related," never "the source." Add only for a
+  genuinely close pairing.
+- **Scripts stay OFF the site** (they're drafts). Track which finished scripts have become a video
+  and/or a Q&A in a separate off-site tracker; here we publish only videos + Q&As.
+
 ## Verify + deploy
 
 - Before finishing: `npx tsc --noEmit` and `npm run lint` both clean.
