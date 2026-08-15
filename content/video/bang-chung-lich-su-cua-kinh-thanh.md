@@ -4,6 +4,8 @@ youtube_id: "6raOadKc54Q"
 duration: "6:17"
 order: 3
 summary: "Kinh Thánh có đáng tin về mặt lịch sử không? Nhìn vào các bằng chứng khảo cổ và văn bản cổ."
+category: "evidence-history"
+tags: ["bible", "church-history"]
 ---
 
 Nhiều người cho rằng Kinh Thánh chỉ là chuyện bịa, hoặc Giáo Hội đã "bóp méo" nó để khống chế dân chúng. Nhưng xét về mặt lịch sử, Tân Ước lại là một trong những văn bản cổ được bảo tồn tốt nhất mà chúng ta có.

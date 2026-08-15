@@ -4,6 +4,8 @@ youtube_id: "H09DOyx93Rc"
 duration: "11:06"
 order: 2
 summary: "Những bằng chứng lịch sử và Kinh Thánh cho sự Phục Sinh của Chúa Giêsu — nền tảng của đức tin Kitô giáo."
+category: "evidence-history"
+tags: ["resurrection", "jesus", "church-history"]
 ---
 
 Sự Phục Sinh không chỉ là một niềm tin đạo đức — nó là một khẳng định về lịch sử. Video này nhìn vào những gì chúng ta thực sự biết: Chúa Giêsu đã chết, ngôi mộ trống, và điều gì đã biến những môn đệ khiếp sợ thành những chứng nhân dám chết.
