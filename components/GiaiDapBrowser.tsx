@@ -11,6 +11,42 @@ import styles from '../app/giai-dap/giai-dap.module.css';
 
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
+// On-brand tints for the banner fallback tile, so different missing-banner cards don't look
+// identical while staying within the site's warm/sage palette.
+const FALLBACK_TINTS = ['#E7DFD0', '#DEE6DD', '#EADFCF', '#E1E4DE'];
+
+function pickTint(key: string): string {
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) | 0;
+  return FALLBACK_TINTS[Math.abs(h) % FALLBACK_TINTS.length];
+}
+
+/** Topic-card banner: the cluster anchor's sacred-art image, degrading to a monogram tile when the
+ *  file is missing (a forgotten `public/images/giai-dap/<anchor>.jpg` must never show a broken
+ *  image). Client-side onError swap — the placeholder needs no network. */
+function TopicBanner({ slug, topic }: { slug: string; topic: string }) {
+  const [failed, setFailed] = useState(false);
+  if (failed) {
+    return (
+      <span className={styles.banner} style={{ background: pickTint(topic) }} aria-hidden="true">
+        <span className={styles.bannerFallback}>{topic.trim().charAt(0).toUpperCase()}</span>
+      </span>
+    );
+  }
+  return (
+    <span className={styles.banner}>
+      <Image
+        src={`/images/giai-dap/${slug}.jpg`}
+        alt={topic}
+        fill
+        sizes="(max-width: 640px) 100vw, 420px"
+        className={styles.bannerImg}
+        onError={() => setFailed(true)}
+      />
+    </span>
+  );
+}
+
 export type GiaiDapCard = {
   slug: string;
   questionVi: string;
@@ -251,15 +287,7 @@ export function GiaiDapBrowser({
           <div className={styles.grid}>
             {filteredTopics.map((t) => (
               <Link key={t.topic} href={`/giai-dap/${t.anchor.slug}`} className={styles.card}>
-                <span className={styles.banner}>
-                  <Image
-                    src={`/images/giai-dap/${t.anchor.slug}.jpg`}
-                    alt={t.topic}
-                    fill
-                    sizes="(max-width: 640px) 100vw, 420px"
-                    className={styles.bannerImg}
-                  />
-                </span>
+                <TopicBanner slug={t.anchor.slug} topic={t.topic} />
                 <div className={styles.cardBody}>
                   <div className={styles.cardName}>{t.topic}</div>
                   <div className={styles.cardDesc}>

@@ -366,6 +366,22 @@
   object-fit: cover;
   object-position: 50% 22%;
 }
+/* Placeholder shown when a topic's banner file is missing (see TopicBanner) — a warm tinted tile
+   with the topic's monogram, so a forgotten image degrades cleanly instead of breaking. */
+.bannerFallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--sage-deep);
+  opacity: 0.55;
+  user-select: none;
+}
 .cardBody {
   display: flex;
   flex-direction: column;
