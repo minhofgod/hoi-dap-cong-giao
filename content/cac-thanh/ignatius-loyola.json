@@ -1,0 +1,70 @@
+{
+  "no": 14,
+  "slug": "ignatius-loyola",
+  "group": "converts",
+  "name": {
+    "vi": "Inhaxiô Loyola",
+    "en": "Ignatius of Loyola"
+  },
+  "role": {
+    "vi": "Linh mục · Đấng sáng lập Dòng Tên",
+    "en": "Priest · founder of the Society of Jesus"
+  },
+  "dates": {
+    "display": "1491 — 1556",
+    "born": 1491,
+    "died": 1556
+  },
+  "quote": {
+    "vi": "Lạy Chúa, xin nhận lấy trọn cả tự do, trí nhớ, trí hiểu và ý muốn của con. Tất cả những gì con có, con là, đều do Chúa ban; con xin dâng lại hết cho Chúa.",
+    "en": "Take, Lord, and receive all my liberty, my memory, my understanding, and my entire will. All that I have and possess You have given me; I give it all back to You.",
+    "source": {
+      "vi": "Kinh dâng hiến, sách Linh Thao",
+      "en": "The Suscipe, from the Spiritual Exercises"
+    }
+  },
+  "life": [
+    {
+      "vi": "Íñigo López de Loyola sinh khoảng năm 1491 trong một gia đình quý tộc xứ Basque, và thời trẻ là một hiệp sĩ ham mê vinh quang, binh nghiệp và những chuyện phù phiếm. Đời ngài rẽ hướng năm 1521, khi một viên đạn đại bác làm nát chân ngài trong trận đánh ở Pamplona. Nằm dưỡng thương dài ngày, không có gì đọc ngoài mấy cuốn hạnh các thánh và cuộc đời Đức Kitô, ngài bắt đầu nhận ra hai thứ ước muốn để lại trong lòng những dư vị khác nhau.",
+      "en": "Íñigo López de Loyola was born around 1491 into a noble Basque family, and in his youth was a knight hungry for glory, arms, and vanity. His life turned in 1521, when a cannonball shattered his leg at the battle of Pamplona. Convalescing for months with nothing to read but a few lives of the saints and a life of Christ, he began to notice that two kinds of desire left very different traces in his heart."
+    },
+    {
+      "vi": "Từ khám phá ấy nảy sinh nghệ thuật “phân định thần loại” và cuốn Linh Thao — một tập bài tập thiêng liêng giúp người ta tìm ý Chúa giữa những chọn lựa của đời mình. Ngài quy tụ một nhóm bạn học ở Paris và lập nên Dòng Chúa Giêsu (Dòng Tên) năm 1540, một dòng tu dấn thân vào giáo dục, truyền giáo và bênh vực đức tin. Ngài được tuyên thánh năm 1622.",
+      "en": "From that discovery came the art of the \"discernment of spirits\" and the Spiritual Exercises — a set of spiritual practices to help a person find God's will among the choices of a life. He gathered a group of fellow students in Paris and founded the Society of Jesus (the Jesuits) in 1540, an order devoted to education, mission, and the defence of the faith. He was canonized in 1622."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "khoảng năm 1491, xứ Basque (Tây Ban Nha)", "en": "c. 1491, Basque Country (Spain)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "31 tháng 7, 1556, Rôma", "en": "31 July 1556, Rome" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Linh mục, Đấng sáng lập Dòng Tên", "en": "Priest, founder of the Jesuits" } },
+    { "label": { "vi": "Để lại", "en": "Left behind" }, "value": { "vi": "Sách Linh Thao; nghệ thuật phân định", "en": "The Spiritual Exercises; the art of discernment" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "31 tháng 7", "en": "31 July" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "12 tháng 3, 1622 (Đức Grêgôriô XV)", "en": "12 March 1622 (Gregory XV)" } }
+  ],
+  "works_label": { "vi": "Điều ngài để lại", "en": "What he left behind" },
+  "works": [
+    {
+      "title": { "vi": "Linh Thao", "en": "The Spiritual Exercises" },
+      "latin": "Exercitia spiritualia",
+      "date": "1548"
+    }
+  ],
+  "sections": [
+    {
+      "id": "discernment",
+      "title": { "vi": "Tìm Chúa trong mọi sự", "en": "Finding God in all things" },
+      "body": {
+        "vi": "Điều Inhaxiô khám phá trên giường bệnh có sức hấp dẫn đặc biệt với người thời nay đang phân vân tìm hướng đi. Ngài nhận ra rằng những ước muốn của con người không vô nghĩa: chúng để lại “dấu vết” trong tâm hồn — có thứ mang lại bình an bền lâu, có thứ chỉ để lại trống rỗng — và ta có thể học đọc những dấu vết ấy để nhận ra Thiên Chúa đang mời gọi mình đi đường nào. Đó không phải là cảm xúc mù quáng, mà là một sự chú tâm có kỷ luật vào kinh nghiệm nội tâm. Với người đang đi tìm — tìm ơn gọi, tìm quyết định, hay tìm chính Thiên Chúa — phương pháp phân định của Inhaxiô vẫn là một trong những công cụ thực tế nhất mà truyền thống Công giáo trao lại.",
+        "en": "What Ignatius discovered on his sickbed has a special appeal for anyone today searching for direction. He realized that human desires are not meaningless: they leave \"traces\" in the soul — some bringing lasting peace, others only emptiness — and one can learn to read those traces to sense where God is inviting us. This is not blind feeling but a disciplined attention to inner experience. For anyone searching — for a vocation, a decision, or for God himself — Ignatius's method of discernment remains one of the most practical tools the Catholic tradition has handed down."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/ignatius-loyola.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

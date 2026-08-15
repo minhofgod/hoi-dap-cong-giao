@@ -1,0 +1,70 @@
+{
+  "no": 19,
+  "slug": "francis-assisi",
+  "group": "patrons",
+  "name": {
+    "vi": "Phanxicô Assisi",
+    "en": "Francis of Assisi"
+  },
+  "role": {
+    "vi": "Đấng sáng lập Dòng Phanxicô · bổn mạng nước Ý và môi sinh",
+    "en": "Founder of the Franciscans · patron of Italy and of ecology"
+  },
+  "dates": {
+    "display": "khoảng 1181 — 1226",
+    "born": 1181,
+    "died": 1226
+  },
+  "quote": {
+    "vi": "Lạy Chúa của con, chúc tụng Chúa cùng với muôn loài thọ tạo, nhất là anh Mặt Trời, người mang ánh ngày và soi sáng chúng con.",
+    "en": "Praised be You, my Lord, with all Your creatures, especially Brother Sun, who brings the day and gives us light.",
+    "source": {
+      "vi": "Bài ca Vạn Vật",
+      "en": "The Canticle of the Creatures"
+    }
+  },
+  "life": [
+    {
+      "vi": "Phanxicô sinh khoảng năm 1181 tại Assisi, con một thương gia buôn vải giàu có. Thời trẻ, ngài sống phóng túng, mơ làm hiệp sĩ và ưa tiệc tùng. Nhưng qua bệnh tật, cảnh tù đày và một cuộc gặp gỡ với người phong, ngài dần được biến đổi. Đỉnh điểm là khi ngài công khai từ bỏ mọi tài sản của cha mình để chọn sống hoàn toàn khó nghèo theo Tin Mừng.",
+      "en": "Francis was born around 1181 in Assisi, the son of a wealthy cloth merchant. In his youth he lived freely, dreaming of knighthood and fond of feasting. But through illness, captivity, and an encounter with a leper, he was gradually transformed. It came to a head when he publicly renounced all his father's wealth to embrace complete Gospel poverty."
+    },
+    {
+      "vi": "Ngài quy tụ những người bạn cùng chí hướng và lập nên Dòng Anh Em Hèn Mọn (Dòng Phanxicô), rồi cùng Thánh Clara lập dòng nữ, và một dòng ba cho giáo dân. Ngài yêu mến mọi loài thọ tạo như anh chị em, gọi mặt trời, mặt trăng, thậm chí cả cái chết là “anh”, “chị”. Năm 1224, ngài được in năm dấu thánh trên núi La Verna. Ngài qua đời năm 1226 và được tuyên thánh chỉ hai năm sau, một trong những vị thánh được yêu mến nhất mọi thời.",
+      "en": "He gathered like-minded companions and founded the Order of Friars Minor (the Franciscans), then with St. Clare a women's order, and a third order for laypeople. He loved all creatures as brothers and sisters, calling the sun, the moon, and even death \"brother\" and \"sister.\" In 1224 he received the stigmata on Mount La Verna. He died in 1226 and was canonized just two years later, one of the most beloved saints of all time."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "khoảng năm 1181, Assisi (Ý)", "en": "c. 1181, Assisi (Italy)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "3 tháng 10, 1226, Assisi", "en": "3 October 1226, Assisi" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Đấng sáng lập Dòng Anh Em Hèn Mọn", "en": "Founder of the Order of Friars Minor" } },
+    { "label": { "vi": "Được biết đến vì", "en": "Known for" }, "value": { "vi": "Sống khó nghèo; yêu thọ tạo; mang năm dấu thánh", "en": "Poverty; love of creation; the stigmata" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "4 tháng 10", "en": "4 October" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "16 tháng 7, 1228 (Đức Grêgôriô IX)", "en": "16 July 1228 (Gregory IX)" } }
+  ],
+  "works_label": { "vi": "Điều ngài để lại", "en": "What he left behind" },
+  "works": [
+    {
+      "title": { "vi": "Bài ca Vạn Vật", "en": "The Canticle of the Creatures" },
+      "latin": "Canticum Fratris Solis",
+      "date": "1225"
+    }
+  ],
+  "sections": [
+    {
+      "id": "poverty",
+      "title": { "vi": "Sự tự do của khó nghèo", "en": "The freedom of poverty" },
+      "body": {
+        "vi": "Điều lôi cuốn nơi Phanxicô, ngay cả với người ngoài Kitô giáo, là ngài đã chọn khó nghèo không phải như một hình phạt, mà như một sự giải phóng. Khi buông bỏ của cải, địa vị và cả những kỳ vọng của gia đình, ngài tìm được một niềm vui mà sự giàu có chưa từng cho ngài. Ngài nhìn thấy nơi mỗi thọ tạo — mặt trời, chim chóc, dòng nước — dấu vết của một Đấng Tạo Hóa nhân lành, và sống hòa hợp với chúng như trong một gia đình. Chính hình ảnh ấy khiến ngài, tám thế kỷ sau, vẫn là biểu tượng của lòng yêu thọ tạo và sự đơn sơ giữa một thế giới đầy chiếm hữu.",
+        "en": "What draws people to Francis, even non-Christians, is that he chose poverty not as a punishment but as a liberation. In letting go of possessions, status, and even his family's expectations, he found a joy that wealth had never given him. He saw in every creature — the sun, the birds, the water — the trace of a good Creator, and lived in harmony with them as within one family. That image is why, eight centuries later, he remains a symbol of love for creation and of simplicity in a world of possessing."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/francis-assisi.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

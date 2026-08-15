@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useLang } from '@/lib/giao-phu/useLang';
-import { Portrait } from '@/components/giao-phu/Portrait';
+import { SaintPortrait } from './SaintPortrait';
 import type { Saint } from '@/lib/saintsV2';
 import styles from '../../app/cac-thanh/cac-thanh.module.css';
 
@@ -24,7 +24,7 @@ export function SaintRow({ saint }: { saint: Saint }) {
 
   return (
     <Link href={`/cac-thanh/${saint.slug}`} className={styles.row}>
-      <Portrait portrait={saint.portrait} name={saint.name} size="row" />
+      <SaintPortrait portrait={saint.portrait} name={saint.name} size="row" />
       <span className={styles.rowText}>
         <span className={styles.rowName}>{primaryName}</span>
         <span className={styles.rowMeta}>{meta}</span>

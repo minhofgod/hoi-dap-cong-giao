@@ -1,0 +1,73 @@
+{
+  "no": 16,
+  "slug": "bernadette-soubirous",
+  "group": "bridge",
+  "name": {
+    "vi": "Bernadette Soubirous",
+    "en": "Bernadette Soubirous"
+  },
+  "role": {
+    "vi": "Nữ tu · thị nhân Đức Mẹ Lộ Đức",
+    "en": "Nun · visionary of Our Lady of Lourdes"
+  },
+  "dates": {
+    "display": "1844 — 1879",
+    "born": 1844,
+    "died": 1879
+  },
+  "quote": {
+    "vi": "Con có nhiệm vụ nói cho người ta biết, chứ không có nhiệm vụ làm cho người ta tin.",
+    "en": "I am charged to tell you, not to make you believe.",
+    "source": {
+      "vi": "Bernadette nói về các cuộc hiện ra",
+      "en": "Bernadette, on the apparitions"
+    }
+  },
+  "life": [
+    {
+      "vi": "Bernadette Soubirous sinh năm 1844 trong một gia đình rất nghèo ở Lộ Đức (Lourdes), miền nam nước Pháp. Là con cả, ốm yếu, ít học và hay bị bệnh suyễn, cô bé không có gì nổi bật. Thế nhưng năm 1858, khi mới mười bốn tuổi, cô kể lại đã thấy một “Bà đẹp” hiện ra mười tám lần bên hang đá Massabielle.",
+      "en": "Bernadette Soubirous was born in 1844 into a very poor family in Lourdes, southern France. The eldest child, frail, barely schooled, and asthmatic, she was in no way remarkable. Yet in 1858, at just fourteen, she reported that a \"beautiful Lady\" appeared to her eighteen times at the grotto of Massabielle."
+    },
+    {
+      "vi": "Khi được hỏi danh tính, Bà ấy trả lời: “Ta là Đấng Vô Nhiễm Nguyên Tội” — một tín điều Hội Thánh vừa long trọng tuyên bố bốn năm trước đó, mà một cô bé quê mùa như Bernadette khó lòng biết tới. Bị tra hỏi gắt gao, Bernadette vẫn kể lại y nguyên, không thêm bớt. Về sau cô vào Dòng Bác Ái ở Nevers, sống ẩn dật và bệnh tật cho đến khi qua đời năm 1879. Cô được tuyên thánh năm 1933; thi hài cô được ghi nhận là còn nguyên vẹn cách lạ thường.",
+      "en": "Asked her name, the Lady replied: \"I am the Immaculate Conception\" — a doctrine the Church had solemnly defined only four years before, one a peasant girl like Bernadette could scarcely have known. Sharply interrogated, Bernadette repeated her account unchanged, adding nothing. She later entered the Sisters of Charity at Nevers, living hidden and ill until her death in 1879. She was canonized in 1933; her body is recorded as remaining remarkably incorrupt."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "7 tháng 1, 1844, Lộ Đức (Pháp)", "en": "7 January 1844, Lourdes (France)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "16 tháng 4, 1879, Nevers", "en": "16 April 1879, Nevers" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Nữ tu Dòng Bác Ái Nevers", "en": "Sister of Charity of Nevers" } },
+    { "label": { "vi": "Được biết đến vì", "en": "Known for" }, "value": { "vi": "Thị kiến Đức Mẹ tại Lộ Đức, năm 1858", "en": "The Lourdes apparitions of 1858" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "16 tháng 4", "en": "16 April" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "8 tháng 12, 1933 (Đức Piô XI)", "en": "8 December 1933 (Pius XI)" } }
+  ],
+  "sections": [
+    {
+      "id": "credible-witness",
+      "title": { "vi": "Một chứng nhân đáng tin", "en": "A credible witness" },
+      "body": {
+        "vi": "Điều khiến câu chuyện Bernadette có sức nặng với người đi tìm bằng chứng chính là con người của cô. Cô chẳng được lợi lộc gì — gia đình vẫn nghèo, bản thân cô còn khước từ mọi quà tặng và danh tiếng, rồi rút vào một đời sống ẩn dật. Cô không hề rao giảng hay lý luận, chỉ thuật lại điều mình thấy và giữ nguyên lời chứng ấy dưới áp lực suốt đời. Câu nói của cô — “con chỉ có nhiệm vụ nói, không có nhiệm vụ làm cho người ta tin” — tóm gọn một sự khiêm tốn hiếm có nơi những ai tự nhận có thị kiến.",
+        "en": "What gives Bernadette's story weight for anyone seeking evidence is the witness herself. She gained nothing — her family stayed poor, she refused every gift and all celebrity, and withdrew into a hidden life. She neither preached nor argued; she simply reported what she saw and held to that account under pressure for the rest of her life. Her line — \"I am only charged to tell you, not to make you believe\" — captures a humility rare among those who claim to have seen visions."
+      },
+      "open": false
+    }
+  ],
+  "related": [
+    {
+      "href": "/phep-la",
+      "label": { "vi": "Đọc về Đức Mẹ Lộ Đức", "en": "Read about Our Lady of Lourdes" },
+      "note": {
+        "vi": "Hang đá nơi Bernadette thấy Đức Mẹ nay là một trung tâm hành hương, gắn với hàng loạt ơn chữa lành được điều tra kỹ lưỡng — phần sắp được xây dựng của trang này.",
+        "en": "The grotto where Bernadette saw Our Lady is now a place of pilgrimage, linked to a series of rigorously investigated healings — a section of this site still to come."
+      },
+      "available": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/bernadette-soubirous.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

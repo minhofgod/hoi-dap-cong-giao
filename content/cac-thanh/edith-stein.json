@@ -1,0 +1,62 @@
+{
+  "no": 15,
+  "slug": "edith-stein",
+  "group": "converts",
+  "name": {
+    "vi": "Têrêsa Bênêđicta Thánh Giá (Edith Stein)",
+    "en": "Teresa Benedicta of the Cross (Edith Stein)"
+  },
+  "role": {
+    "vi": "Nữ tu Cát Minh, triết gia · tử đạo tại Auschwitz",
+    "en": "Carmelite nun and philosopher · martyr at Auschwitz"
+  },
+  "dates": {
+    "display": "1891 — 1942",
+    "born": 1891,
+    "died": 1942
+  },
+  "quote": {
+    "vi": "Ai tìm kiếm chân lý là đang tìm kiếm Thiên Chúa, dù họ có ý thức điều đó hay không.",
+    "en": "Whoever seeks truth is seeking God, whether consciously or not.",
+    "source": {
+      "vi": "Lời được truyền lại của ngài",
+      "en": "A saying handed down from her"
+    }
+  },
+  "life": [
+    {
+      "vi": "Edith Stein sinh năm 1891 trong một gia đình Do Thái đạo hạnh ở Breslau. Là một trí thức xuất sắc, ngài theo học triết và trở thành trợ giảng của triết gia lừng danh Edmund Husserl, đạt học vị tiến sĩ về hiện tượng học. Thời thanh niên, ngài tự nhận mình là người vô thần — nhưng ngài không bao giờ ngừng tìm kiếm chân lý một cách nghiêm túc.",
+      "en": "Edith Stein was born in 1891 into a devout Jewish family in Breslau. A brilliant intellectual, she studied philosophy and became assistant to the renowned philosopher Edmund Husserl, earning a doctorate in phenomenology. In her youth she considered herself an atheist — yet she never stopped seeking truth in earnest."
+    },
+    {
+      "vi": "Cuộc tìm kiếm ấy dẫn ngài tới đức tin: sau khi đọc tự thuật của Thánh Têrêsa Avila trong một đêm thức trắng, ngài trở lại Công giáo năm 1922, rồi vào Dòng Kín Cát Minh, lấy tên Têrêsa Bênêđicta Thánh Giá. Khi Đức Quốc Xã bách hại người Do Thái, ngài bị bắt cùng người chị Rosa và bị đưa vào phòng hơi ngạt Auschwitz năm 1942. Đức Gioan Phaolô II tuyên thánh cho ngài năm 1998 và đặt ngài làm đồng bổn mạng của Châu Âu.",
+      "en": "That search led her to faith: after reading the autobiography of St. Teresa of Ávila in a single sleepless night, she converted to Catholicism in 1922, then entered the Carmel, taking the name Teresa Benedicta of the Cross. When the Nazis persecuted the Jews, she was arrested with her sister Rosa and sent to the gas chamber at Auschwitz in 1942. John Paul II canonized her in 1998 and named her a co-patroness of Europe."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "12 tháng 10, 1891, Breslau", "en": "12 October 1891, Breslau" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "9 tháng 8, 1942, tại trại Auschwitz", "en": "9 August 1942, at Auschwitz" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Nữ tu Cát Minh; trước đó là triết gia", "en": "Carmelite nun; formerly a philosopher" } },
+    { "label": { "vi": "Trở lại đạo", "en": "Conversion" }, "value": { "vi": "Từ Do Thái giáo (và một thời vô thần) sang Công giáo, 1922", "en": "From Judaism (and a time of atheism) to Catholicism, 1922" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "9 tháng 8", "en": "9 August" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "11 tháng 10, 1998 (Đức Gioan Phaolô II)", "en": "11 October 1998 (John Paul II)" } }
+  ],
+  "sections": [
+    {
+      "id": "truth-to-faith",
+      "title": { "vi": "Từ chân lý đến đức tin", "en": "From truth to faith" },
+      "body": {
+        "vi": "Edith Stein là tiếng nói quen thuộc cho những ai đến với đức tin bằng con đường lý trí. Ngài không bỏ triết học để tin, cũng không phải “tắt trí khôn” đi; trái lại, chính sự trung thực trí thức — quyết tâm đi theo chân lý đến cùng, dù nó dẫn tới đâu — đã dẫn ngài từ hiện tượng học tới ngưỡng cửa đức tin, rồi bước qua. Với người vô thần hay hoài nghi đang thành thật tìm kiếm, cuộc đời ngài là một lời nhắc: đi tìm sự thật cách nghiêm túc không phải là kẻ thù của đức tin, mà thường là con đường dẫn tới đức tin.",
+        "en": "Edith Stein is a familiar voice for anyone who comes to faith by way of reason. She did not abandon philosophy in order to believe, nor did she \"switch off her mind\"; on the contrary, it was her intellectual honesty — a resolve to follow truth wherever it led — that carried her from phenomenology to the threshold of faith, and then across it. For the atheist or skeptic who is honestly searching, her life is a reminder: to seek truth seriously is not the enemy of faith, but often the road to it."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/edith-stein.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

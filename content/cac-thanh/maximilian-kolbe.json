@@ -1,0 +1,62 @@
+{
+  "no": 11,
+  "slug": "maximilian-kolbe",
+  "group": "modern",
+  "name": {
+    "vi": "Maximilianô Maria Kolbê",
+    "en": "Maximilian Maria Kolbe"
+  },
+  "role": {
+    "vi": "Linh mục Dòng Phanxicô · tử đạo bác ái tại Auschwitz",
+    "en": "Franciscan priest · martyr of charity at Auschwitz"
+  },
+  "dates": {
+    "display": "1894 — 1941",
+    "born": 1894,
+    "died": 1941
+  },
+  "quote": {
+    "vi": "Tôi là một linh mục Công giáo. Tôi muốn chết thay cho người này.",
+    "en": "I am a Catholic priest. I wish to die in place of this man.",
+    "source": {
+      "vi": "Nói với viên cai ngục tại Auschwitz, năm 1941",
+      "en": "To the camp commander at Auschwitz, 1941"
+    }
+  },
+  "life": [
+    {
+      "vi": "Rajmund Kolbe sinh năm 1894 tại Ba Lan và lấy tên Maximilianô Maria khi vào Dòng Phanxicô. Là một linh mục đầy nhiệt huyết truyền giáo, ngài lập phong trào “Đạo Binh Đức Mẹ Vô Nhiễm”, xây tu viện Niepokalanów rộng lớn, cho ra báo chí Công giáo, và còn sang tận Nhật Bản lập một trung tâm truyền giáo.",
+      "en": "Rajmund Kolbe was born in 1894 in Poland and took the name Maximilian Maria when he entered the Franciscans. A priest of fervent missionary zeal, he founded the Militia of the Immaculata, built the vast friary of Niepokalanów, published Catholic periodicals, and even travelled to Japan to found a mission there."
+    },
+    {
+      "vi": "Trong Thế Chiến II, ngài bị Đức Quốc Xã bắt và giam tại trại Auschwitz. Khi một tù nhân trốn trại, cai ngục chọn mười người phải chết đói để trừng phạt; nghe một người trong số đó kêu than vì vợ con, cha Kolbê bước ra tình nguyện chết thay. Ngài chịu đói khát hai tuần trong hầm tối, rồi bị tiêm thuốc độc ngày 14 tháng 8 năm 1941. Người ngài cứu, ông Franciszek Gajowniczek, sống sót và có mặt trong ngày ngài được tuyên thánh năm 1982.",
+      "en": "During the Second World War he was arrested by the Nazis and imprisoned at Auschwitz. When a prisoner escaped, the guards chose ten men to be starved to death in reprisal; hearing one of them cry out for his wife and children, Fr. Kolbe stepped forward to die in his place. He endured two weeks of starvation in a dark bunker, then was killed by lethal injection on 14 August 1941. The man he saved, Franciszek Gajowniczek, survived and was present at his canonization in 1982."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "8 tháng 1, 1894, Ba Lan", "en": "8 January 1894, Poland" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "14 tháng 8, 1941, tại trại Auschwitz", "en": "14 August 1941, at Auschwitz" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Linh mục Dòng Phanxicô Conventual", "en": "Conventual Franciscan priest" } },
+    { "label": { "vi": "Cách tử đạo", "en": "Manner of death" }, "value": { "vi": "Chết thay một bạn tù, rồi bị tiêm thuốc độc", "en": "Died in place of a fellow prisoner, then killed by injection" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "14 tháng 8", "en": "14 August" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "10 tháng 10, 1982 (Đức Gioan Phaolô II)", "en": "10 October 1982 (John Paul II)" } }
+  ],
+  "sections": [
+    {
+      "id": "greater-love",
+      "title": { "vi": "Không tình yêu nào lớn hơn", "en": "No greater love" },
+      "body": {
+        "vi": "Cái chết của cha Kolbê là một trong những chứng tá rõ ràng nhất của thế kỷ 20 cho lời Đức Giêsu trong Ga 15,13: “Không có tình yêu nào cao cả hơn tình yêu của người dám hy sinh tính mạng vì bạn hữu.” Giữa một nơi được dựng lên để hủy diệt phẩm giá con người, một linh mục đã tự nguyện đổi mạng sống mình lấy mạng của một người xa lạ. Đức Gioan Phaolô II gọi ngài là “vị tử đạo của đức ái” — chết không phải vì bị ép buộc, mà vì tự do chọn yêu thương đến cùng.",
+        "en": "Kolbe's death is among the clearest 20th-century witnesses to the words of Jesus in Ga 15,13: \"No one has greater love than this, to lay down one's life for one's friends.\" In a place built to destroy human dignity, a priest freely traded his life for that of a stranger. John Paul II called him a \"martyr of charity\" — dying not under compulsion, but by a free choice to love to the very end."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/maximilian-kolbe.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

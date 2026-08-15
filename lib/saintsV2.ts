@@ -92,8 +92,8 @@ function loadSaints(): Saint[] {
 }
 
 // Memoized once per server process (mirrors churchFathersV2). In `next dev` this means edits to a
-// content JSON only appear after the module reloads; a production build reads the files once at
-// build time, so the cache is always fresh there.
+// content JSON only appear after this module itself reloads; a production build reads the files
+// once at build time, so the cache is always fresh there.
 let cache: Saint[] | null = null;
 function all(): Saint[] {
   if (!cache) cache = loadSaints();

@@ -1,0 +1,70 @@
+{
+  "no": 12,
+  "slug": "faustina-kowalska",
+  "group": "modern",
+  "name": {
+    "vi": "Faustina Kowalska",
+    "en": "Faustina Kowalska"
+  },
+  "role": {
+    "vi": "Nữ tu · Tông đồ Lòng Chúa Thương Xót",
+    "en": "Religious sister · Apostle of Divine Mercy"
+  },
+  "dates": {
+    "display": "1905 — 1938",
+    "born": 1905,
+    "died": 1938
+  },
+  "quote": {
+    "vi": "Lạy Chúa Giêsu, con tín thác vào Chúa.",
+    "en": "Jesus, I trust in You.",
+    "source": {
+      "vi": "Lời ghi dưới bức ảnh Lòng Chúa Thương Xót",
+      "en": "The inscription on the Divine Mercy image"
+    }
+  },
+  "life": [
+    {
+      "vi": "Helena Kowalska sinh năm 1905 trong một gia đình nông dân nghèo ở Ba Lan, và lấy tên Maria Faustina khi vào Dòng Chị Em Đức Mẹ Nhân Lành. Ngài là một nữ tu bình dị, học vấn ít ỏi, làm những công việc thấp hèn như nấu bếp và trồng vườn — bề ngoài chẳng có gì nổi bật.",
+      "en": "Helena Kowalska was born in 1905 into a poor farming family in Poland, and took the name Maria Faustina when she entered the Congregation of the Sisters of Our Lady of Mercy. She was a simple nun of little schooling, doing humble work in the kitchen and garden — outwardly unremarkable."
+    },
+    {
+      "vi": "Thế nhưng trong đời sống nội tâm, ngài kể lại đã nhiều lần được thị kiến Chúa Giêsu, Đấng trao cho ngài sứ mạng loan báo lòng thương xót vô biên của Thiên Chúa. Từ những thị kiến ấy phát sinh bức ảnh Lòng Chúa Thương Xót, chuỗi kinh Lòng Thương Xót, và về sau là lễ kính Chúa Nhật Lòng Thương Xót. Ngài qua đời vì bệnh lao năm 1938, và được Đức Gioan Phaolô II tuyên thánh năm 2000 — vị thánh đầu tiên của Năm Thánh 2000.",
+      "en": "Yet in her interior life she recorded many visions of Jesus, who entrusted to her the mission of proclaiming God's boundless mercy. From those visions came the Divine Mercy image, the Chaplet of Divine Mercy, and later the feast of Divine Mercy Sunday. She died of tuberculosis in 1938, and was canonized by John Paul II in 2000 — the first saint of the Jubilee Year 2000."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "25 tháng 8, 1905, Ba Lan", "en": "25 August 1905, Poland" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "5 tháng 10, 1938, Kraków, vì bệnh lao", "en": "5 October 1938, Kraków, of tuberculosis" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Nữ tu Dòng Đức Mẹ Nhân Lành", "en": "Sister of Our Lady of Mercy" } },
+    { "label": { "vi": "Để lại", "en": "Left behind" }, "value": { "vi": "Lòng sùng kính Chúa Thương Xót; Chúa Nhật Lòng Thương Xót", "en": "The Divine Mercy devotion; Divine Mercy Sunday" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "5 tháng 10", "en": "5 October" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "30 tháng 4, 2000 (Đức Gioan Phaolô II)", "en": "30 April 2000 (John Paul II)" } }
+  ],
+  "works_label": { "vi": "Điều ngài để lại", "en": "What she left behind" },
+  "works": [
+    {
+      "title": { "vi": "Nhật ký: Lòng Thương Xót Chúa nơi linh hồn tôi", "en": "Diary: Divine Mercy in My Soul" },
+      "latin": "",
+      "date": "1934 — 1938"
+    }
+  ],
+  "sections": [
+    {
+      "id": "mercy",
+      "title": { "vi": "Một sứ điệp cho thời đại", "en": "A message for the age" },
+      "body": {
+        "vi": "Sứ điệp Faustina để lại không phải là điều gì mới trong đức tin — Thiên Chúa giàu lòng thương xót vốn là trọng tâm của Tin Mừng — nhưng nó vang lên cách mạnh mẽ đúng vào thế kỷ đẫm máu nhất của lịch sử. Giữa hai cuộc thế chiến và những trại tập trung, lời nhắn “Lạy Chúa Giêsu, con tín thác vào Chúa” đề nghị một điều táo bạo: rằng không tội lỗi nào lớn hơn lòng thương xót của Thiên Chúa, và cánh cửa trở về luôn rộng mở cho kẻ dám tin. Chính vì thế Đức Gioan Phaolô II đã thiết lập Chúa Nhật Lòng Thương Xót cho toàn thể Hội Thánh.",
+        "en": "The message Faustina left is nothing new in the faith — a God rich in mercy is the heart of the Gospel — but it rang out powerfully in history's bloodiest century. Amid two world wars and the death camps, the words \"Jesus, I trust in You\" propose something bold: that no sin is greater than God's mercy, and the door home stands always open to whoever dares to trust. It was for this that John Paul II established Divine Mercy Sunday for the whole Church."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/faustina-kowalska.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

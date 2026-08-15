@@ -1,0 +1,73 @@
+{
+  "no": 17,
+  "slug": "juan-diego",
+  "group": "bridge",
+  "name": {
+    "vi": "Juan Diego",
+    "en": "Juan Diego"
+  },
+  "role": {
+    "vi": "Giáo dân bản địa · thị nhân Đức Mẹ Guadalupe",
+    "en": "Indigenous layman · visionary of Our Lady of Guadalupe"
+  },
+  "dates": {
+    "display": "1474 — 1548",
+    "born": 1474,
+    "died": 1548
+  },
+  "quote": {
+    "vi": "Con chỉ là một người bé mọn, một sợi dây thừng, một chiếc thang nhỏ, chiếc đuôi, chiếc lá…",
+    "en": "I am a nobody, I am a small cord, a tiny ladder, the tail end, a leaf…",
+    "source": {
+      "vi": "Lời Juan Diego thưa với Đức Mẹ, theo trình thuật Nican Mopohua",
+      "en": "Juan Diego to Our Lady, in the Nican Mopohua account"
+    }
+  },
+  "life": [
+    {
+      "vi": "Juan Diego Cuauhtlatoatzin sinh năm 1474, là một thổ dân thuộc dân tộc Aztec ở vùng nay là Mexico. Ông là một nông dân nghèo, đã trở lại Công giáo khi các thừa sai đến vùng đất mình. Câu chuyện của ông gắn liền với một trong những biến cố nổi tiếng nhất của lịch sử Công giáo châu Mỹ.",
+      "en": "Juan Diego Cuauhtlatoatzin was born in 1474, an indigenous man of the Aztec people in what is now Mexico. A poor farmer, he had converted to Catholicism when missionaries reached his land. His story is bound up with one of the most famous events in the Catholic history of the Americas."
+    },
+    {
+      "vi": "Tháng 12 năm 1531, trên đồi Tepeyac, ông kể lại đã gặp Đức Trinh Nữ Maria, hiện ra như một người phụ nữ bản địa và nói tiếng của dân ông. Để làm dấu chỉ cho vị giám mục còn hoài nghi, Đức Mẹ cho hoa hồng nở giữa mùa đông; và khi Juan Diego mở tấm áo choàng (tilma) đựng hoa ra, trên đó in hình Đức Mẹ Guadalupe — bức ảnh đến nay vẫn được tôn kính. Vô số người bản địa đã trở lại đạo nhờ biến cố ấy. Ông được tuyên thánh năm 2002, vị thánh bản địa đầu tiên của châu Mỹ.",
+      "en": "In December 1531, on the hill of Tepeyac, he reported meeting the Virgin Mary, who appeared as an indigenous woman and spoke his own language. As a sign for the doubting bishop, Our Lady made roses bloom in winter; and when Juan Diego opened his cloak (the tilma) full of flowers, the image of Our Lady of Guadalupe was imprinted upon it — the picture still venerated today. Countless indigenous people converted because of that event. He was canonized in 2002, the first indigenous saint of the Americas."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "năm 1474, vùng nay là Mexico", "en": "1474, in present-day Mexico" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "năm 1548, gần Mexico City", "en": "1548, near Mexico City" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Giáo dân bản địa (dân Aztec)", "en": "Indigenous (Aztec) layman" } },
+    { "label": { "vi": "Được biết đến vì", "en": "Known for" }, "value": { "vi": "Thị kiến Đức Mẹ Guadalupe, năm 1531", "en": "The Guadalupe apparition of 1531" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "9 tháng 12", "en": "9 December" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "31 tháng 7, 2002 (Đức Gioan Phaolô II)", "en": "31 July 2002 (John Paul II)" } }
+  ],
+  "sections": [
+    {
+      "id": "the-least",
+      "title": { "vi": "Thiên Chúa chọn kẻ bé mọn", "en": "God chooses the lowly" },
+      "body": {
+        "vi": "Khi Đức Mẹ sai ông đi gặp giám mục, Juan Diego đã phản đối vì thấy mình không xứng — ông tự gọi mình là “một sợi dây thừng nhỏ, một chiếc thang, một chiếc lá”, xin Đức Mẹ hãy sai một người cao trọng hơn. Nhưng Đức Mẹ vẫn chọn ông. Chi tiết ấy chính là điều làm câu chuyện Guadalupe mang sức mạnh: Thiên Chúa không ngỏ lời với những kẻ quyền thế của thời đại, mà với một nông dân bản địa nghèo, đúng vào lúc dân tộc ông đang bị chinh phục và khinh miệt. Sứ điệp về phẩm giá của những người bé nhỏ đã đánh động cả một lục địa.",
+        "en": "When Our Lady sent him to the bishop, Juan Diego protested his unworthiness — calling himself \"a small cord, a ladder, a leaf,\" begging her to send someone greater. Yet she chose him. That detail is what gives the Guadalupe story its force: God addressed not the powerful of the age, but a poor indigenous farmer, precisely when his people were being conquered and despised. The message of the dignity of the lowly moved a whole continent."
+      },
+      "open": false
+    }
+  ],
+  "related": [
+    {
+      "href": "/phep-la",
+      "label": { "vi": "Đọc về Đức Mẹ Guadalupe", "en": "Read about Our Lady of Guadalupe" },
+      "note": {
+        "vi": "Tấm áo choàng in hình Đức Mẹ đến nay vẫn được gìn giữ và nghiên cứu — phần sắp được xây dựng của trang này.",
+        "en": "The cloak bearing Our Lady's image is still preserved and studied to this day — a section of this site still to come."
+      },
+      "available": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/juan-diego.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

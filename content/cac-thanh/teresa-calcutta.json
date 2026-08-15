@@ -1,0 +1,62 @@
+{
+  "no": 13,
+  "slug": "teresa-calcutta",
+  "group": "modern",
+  "name": {
+    "vi": "Têrêsa Calcutta",
+    "en": "Teresa of Calcutta"
+  },
+  "role": {
+    "vi": "Nữ tu · sáng lập Dòng Thừa Sai Bác Ái",
+    "en": "Religious sister · foundress of the Missionaries of Charity"
+  },
+  "dates": {
+    "display": "1910 — 1997",
+    "born": 1910,
+    "died": 1997
+  },
+  "quote": {
+    "vi": "Không phải ai cũng làm được những việc lớn lao. Nhưng ta có thể làm những việc nhỏ bé với tình yêu lớn lao.",
+    "en": "Not all of us can do great things. But we can do small things with great love.",
+    "source": {
+      "vi": "Câu nói được truyền lại của ngài",
+      "en": "A saying handed down from her"
+    }
+  },
+  "life": [
+    {
+      "vi": "Anjezë Gonxhe Bojaxhiu sinh năm 1910 tại Skopje (nay thuộc Bắc Macedonia), trong một gia đình gốc Albania. Ngài gia nhập dòng Loreto và sang Ấn Độ dạy học. Nhưng năm 1946, ngài cảm nhận “ơn gọi trong ơn gọi”: rời bỏ mái trường an toàn để đi phục vụ những người nghèo khổ nhất giữa các khu ổ chuột Calcutta.",
+      "en": "Anjezë Gonxhe Bojaxhiu was born in 1910 in Skopje (in today's North Macedonia), into a family of Albanian origin. She joined the Loreto Sisters and went to India to teach. But in 1946 she felt a \"call within a call\": to leave the safety of the school and go serve the poorest of the poor in the slums of Calcutta."
+    },
+    {
+      "vi": "Ngài lập Dòng Thừa Sai Bác Ái, chuyên chăm sóc người hấp hối, người phong, trẻ mồ côi — những người bị xã hội bỏ rơi. Công việc ấy lan ra khắp thế giới và mang về cho ngài giải Nobel Hòa Bình năm 1979, dù ngài vẫn sống khó nghèo đến cùng. Ngài qua đời năm 1997 và được Đức Phanxicô tuyên thánh năm 2016, giữa Năm Thánh Lòng Thương Xót.",
+      "en": "She founded the Missionaries of Charity to care for the dying, the leprous, and orphans — those cast off by society. The work spread across the world and brought her the Nobel Peace Prize in 1979, though she remained poor to the end. She died in 1997 and was canonized by Pope Francis in 2016, during the Jubilee of Mercy."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "26 tháng 8, 1910, Skopje", "en": "26 August 1910, Skopje" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "5 tháng 9, 1997, Calcutta (Ấn Độ)", "en": "5 September 1997, Calcutta (India)" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Nữ tu, sáng lập Dòng Thừa Sai Bác Ái", "en": "Religious sister, foundress of the Missionaries of Charity" } },
+    { "label": { "vi": "Được biết đến vì", "en": "Known for" }, "value": { "vi": "Phục vụ người nghèo nhất; giải Nobel Hòa Bình 1979", "en": "Serving the poorest; the 1979 Nobel Peace Prize" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "5 tháng 9", "en": "5 September" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "4 tháng 9, 2016 (Đức Phanxicô)", "en": "4 September 2016 (Pope Francis)" } }
+  ],
+  "sections": [
+    {
+      "id": "dark-night",
+      "title": { "vi": "Đức tin trong đêm tối", "en": "Faith in the dark" },
+      "body": {
+        "vi": "Sau khi Mẹ Têrêsa qua đời, những lá thư riêng của ngài được công bố và gây kinh ngạc: suốt phần lớn cuộc đời phục vụ, ngài sống trong một sự khô khan thiêng liêng kéo dài, cảm thấy như Thiên Chúa vắng mặt và im lặng. Với nhiều người hoài nghi, đây tưởng như một sự sụp đổ; nhưng với truyền thống thiêng liêng Công giáo, đó là “đêm tối của linh hồn” mà nhiều vị thánh từng trải qua. Điều đáng nói là: ngài vẫn tiếp tục yêu thương và phục vụ mỗi ngày, không phải vì cảm thấy Chúa, mà vì đã chọn tin. Chính lòng trung thành trong bóng tối ấy, chứ không phải một niềm an ủi dễ dàng, mới là chứng tá mạnh mẽ nhất của ngài.",
+        "en": "After Mother Teresa's death, her private letters were published and astonished many: through most of her life of service she lived in a prolonged spiritual dryness, feeling as though God were absent and silent. To some skeptics this looked like a collapse of faith; but in the Catholic spiritual tradition it is the \"dark night of the soul\" that many saints have passed through. What matters is this: she went on loving and serving every day, not because she felt God, but because she had chosen to believe. That fidelity in the dark, rather than an easy consolation, is her most powerful witness."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/teresa-calcutta.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

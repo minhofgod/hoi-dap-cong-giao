@@ -1,0 +1,70 @@
+{
+  "no": 9,
+  "slug": "therese-lisieux",
+  "group": "modern",
+  "name": {
+    "vi": "Têrêsa Hài Đồng Giêsu",
+    "en": "Thérèse of the Child Jesus"
+  },
+  "role": {
+    "vi": "Nữ tu Dòng Kín Cát Minh · Tiến sĩ Hội Thánh",
+    "en": "Carmelite nun · Doctor of the Church"
+  },
+  "dates": {
+    "display": "1873 — 1897",
+    "born": 1873,
+    "died": 1897
+  },
+  "quote": {
+    "vi": "Con đã hiểu rằng Hội Thánh có một trái tim, và trái tim ấy rực cháy tình yêu… con đã tìm được chỗ đứng của mình: ơn gọi của con chính là tình yêu!",
+    "en": "I understood that the Church has a heart, and that this heart burns with love… I had found my place: my vocation is love!",
+    "source": {
+      "vi": "Truyện Một Tâm Hồn",
+      "en": "Story of a Soul"
+    }
+  },
+  "life": [
+    {
+      "vi": "Têrêsa Martin sinh năm 1873 tại Alençon, nước Pháp, con út trong một gia đình đạo hạnh. Ngay từ nhỏ ngài đã khao khát dâng mình cho Chúa, và được đặc cách vào Dòng Kín Cát Minh ở Lisieux khi mới mười lăm tuổi. Ẩn mình sau bức tường đan viện, ngài sống một đời hoàn toàn âm thầm, không làm điều gì lớn lao theo mắt người đời.",
+      "en": "Thérèse Martin was born in 1873 in Alençon, France, the youngest of a devout family. From childhood she longed to give herself to God, and was admitted by special permission to the Carmel of Lisieux at just fifteen. Hidden behind the convent walls, she lived an utterly quiet life, doing nothing great in the eyes of the world."
+    },
+    {
+      "vi": "Ngài qua đời vì bệnh lao khi mới hai mươi bốn tuổi. Nhưng cuốn tự thuật Truyện Một Tâm Hồn, viết theo lệnh bề trên, đã lan đi khắp thế giới và mặc khải “con đường thơ ấu thiêng liêng” của ngài: nên thánh không bằng những việc phi thường, mà bằng tình yêu lớn lao đặt vào những việc nhỏ bé nhất. Ngài được tôn phong Tiến sĩ Hội Thánh — một trong bốn người nữ hiếm hoi — và là bổn mạng các xứ truyền giáo, dù chưa bao giờ rời đan viện.",
+      "en": "She died of tuberculosis at just twenty-four. Yet her autobiography, Story of a Soul, written at her superior's command, spread across the world and revealed her \"little way\": that holiness is reached not by extraordinary deeds but by great love poured into the smallest things. She was named a Doctor of the Church — one of only a few women — and patroness of the missions, though she never left her convent."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "2 tháng 1, 1873, Alençon (Pháp)", "en": "2 January 1873, Alençon (France)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "30 tháng 9, 1897, Lisieux, vì bệnh lao, lúc 24 tuổi", "en": "30 September 1897, Lisieux, of tuberculosis, aged 24" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Nữ tu Dòng Kín Cát Minh", "en": "Discalced Carmelite nun" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "1 tháng 10", "en": "1 October" } },
+    { "label": { "vi": "Tiến sĩ Hội Thánh", "en": "Doctor of the Church" }, "value": { "vi": "Có (năm 1997, Đức Gioan Phaolô II)", "en": "Yes (1997, John Paul II)" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "17 tháng 5, 1925 (Đức Piô XI)", "en": "17 May 1925 (Pius XI)" } }
+  ],
+  "works_label": { "vi": "Điều ngài để lại", "en": "What she left behind" },
+  "works": [
+    {
+      "title": { "vi": "Truyện Một Tâm Hồn", "en": "Story of a Soul" },
+      "latin": "Histoire d’une âme",
+      "date": "1898"
+    }
+  ],
+  "sections": [
+    {
+      "id": "little-way",
+      "title": { "vi": "Con đường thơ ấu", "en": "The little way" },
+      "body": {
+        "vi": "Điều Têrêsa để lại không phải một hệ thống thần học đồ sộ, mà một trực giác giản dị đến bất ngờ: nếu sự thánh thiện chỉ dành cho những anh hùng làm được điều lớn lao, thì phần lớn nhân loại — trong đó có ngài — sẽ bị loại ra. Ngài tin rằng Thiên Chúa như một người cha, và một đứa trẻ bé nhỏ không cần leo bậc thang cao, chỉ cần để cha bồng lên. Vì thế mỗi việc tầm thường — một nụ cười gượng, một sự nhịn nhục thầm lặng — làm vì yêu, đều có giá trị đời đời. Chính điều đó khiến một nữ tu qua đời năm hai mươi bốn tuổi trở thành một trong những vị thánh có ảnh hưởng nhất thời hiện đại.",
+        "en": "What Thérèse left is not a vast theological system but an intuition of surprising simplicity: if holiness were only for heroes who do great things, most of humanity — herself included — would be excluded. She believed God is like a father, and a small child need not climb the high stairs, only let the father lift her up. So every ordinary act — a forced smile, a silent forbearance — done out of love has eternal worth. That is how a nun who died at twenty-four became one of the most influential saints of the modern age."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/therese-lisieux.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

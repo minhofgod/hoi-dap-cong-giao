@@ -1,0 +1,58 @@
+{
+  "no": 20,
+  "slug": "joseph",
+  "group": "patrons",
+  "name": {
+    "vi": "Thánh Giuse",
+    "en": "Saint Joseph"
+  },
+  "role": {
+    "vi": "Bạn trăm năm Đức Maria, dưỡng phụ Chúa Giêsu · bổn mạng Hội Thánh hoàn vũ",
+    "en": "Spouse of Mary, foster-father of Jesus · patron of the Universal Church"
+  },
+  "dates": {
+    "display": "thế kỷ I",
+    "born": null,
+    "died": null
+  },
+  "quote": {
+    "vi": "",
+    "en": "",
+    "source": { "vi": "", "en": "" }
+  },
+  "life": [
+    {
+      "vi": "Thánh Giuse là một người thợ ở Nadarét, thuộc dòng dõi vua Đavít. Tin Mừng gọi ngài là “người công chính” (Mt 1,19). Khi biết Đức Maria mang thai mà chưa hiểu rõ mầu nhiệm, ngài định âm thầm rút lui để khỏi tố giác bà; nhưng được thiên thần báo mộng, ngài đón Maria về nhà và nhận Đức Giêsu làm con.",
+      "en": "Joseph was a craftsman of Nazareth, of the house of David. The Gospel calls him \"a righteous man\" (Mt 1,19). When he learned that Mary was with child, not yet understanding the mystery, he resolved to withdraw quietly rather than expose her; but warned by an angel in a dream, he took Mary into his home and received Jesus as his son."
+    },
+    {
+      "vi": "Ngài bảo vệ Đức Maria và Hài Nhi qua cuộc chạy trốn sang Ai Cập, rồi lặng lẽ nuôi dạy Đức Giêsu bằng nghề mộc của mình tại Nadarét. Kinh Thánh không ghi lại một lời nào của ngài; ngài chỉ hiện diện qua những việc ngài làm. Vì sự chăm sóc trung tín ấy, ngài được tôn kính là bổn mạng của các gia đình, của người lao động, và của cả Hội Thánh hoàn vũ.",
+      "en": "He protected Mary and the Child through the flight into Egypt, then quietly raised Jesus by his carpenter's trade in Nazareth. Scripture records not a single word of his; he is present only through what he does. For that faithful care, he is honored as patron of families, of workers, and of the whole Universal Church."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Thời", "en": "Era" }, "value": { "vi": "Thế kỷ I, tại Nadarét", "en": "1st century, in Nazareth" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Người thợ; bạn trăm năm Đức Maria", "en": "A craftsman; spouse of Mary" } },
+    { "label": { "vi": "Tước hiệu", "en": "Title" }, "value": { "vi": "“Người công chính”; bổn mạng Hội Thánh hoàn vũ", "en": "\"The just man\"; patron of the Universal Church" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast days" }, "value": { "vi": "19 tháng 3; và 1 tháng 5 (Thánh Giuse Thợ)", "en": "19 March; and 1 May (St. Joseph the Worker)" } },
+    { "label": { "vi": "Bổn mạng", "en": "Patron of" }, "value": { "vi": "Các gia đình, người lao động, ơn chết lành", "en": "Families, workers, a happy death" } }
+  ],
+  "sections": [
+    {
+      "id": "the-silent-saint",
+      "title": { "vi": "Vị thánh thinh lặng", "en": "The silent saint" },
+      "body": {
+        "vi": "Điều lạ lùng về Thánh Giuse là trong toàn bộ Kinh Thánh, ngài không nói một lời nào. Ta chỉ biết ngài qua những gì ngài làm: đón nhận, bảo vệ, lao động, ra đi trong đêm khi được báo mộng. Trong một thời đại ồn ào những lời nói, tấm gương của ngài đề nghị một điều khác: rằng lòng trung tín được chứng tỏ nhiều hơn bằng hành động âm thầm và bền bỉ hơn là bằng lời. Ngài là bổn mạng của những người cha lặng lẽ gánh vác gia đình, của những người lao động không tên tuổi, và của những ai muốn phục vụ mà không cần được thấy.",
+        "en": "The remarkable thing about Joseph is that in all of Scripture he never speaks a word. We know him only through what he does: receiving, protecting, working, setting out by night when warned in a dream. In an age noisy with words, his example proposes something else: that fidelity is proven more by quiet, steady action than by speech. He is the patron of fathers who silently carry their families, of nameless workers, and of all who wish to serve without being seen."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/joseph.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "no": 8,
+  "slug": "carlo-acutis",
+  "group": "modern",
+  "name": {
+    "vi": "Carlo Acutis",
+    "en": "Carlo Acutis"
+  },
+  "role": {
+    "vi": "Giáo dân trẻ · vị thánh đầu tiên của thế hệ thiên niên kỷ",
+    "en": "Young layman · the first millennial saint"
+  },
+  "dates": {
+    "display": "1991 — 2006",
+    "born": 1991,
+    "died": 2006
+  },
+  "quote": {
+    "vi": "Bí tích Thánh Thể là đường cao tốc dẫn tôi về Trời.",
+    "en": "The Eucharist is my highway to heaven.",
+    "source": {
+      "vi": "Câu nói được truyền lại của ngài",
+      "en": "A saying handed down from him"
+    }
+  },
+  "life": [
+    {
+      "vi": "Carlo Acutis sinh tại London năm 1991 và lớn lên ở Milanô, nước Ý. Cậu là một thiếu niên hoàn toàn bình thường của thời đại internet — mê máy tính, lập trình, chơi điện tử — nhưng điều làm cậu khác biệt là lòng yêu mến Bí tích Thánh Thể cách sâu đậm. Cậu đi lễ hằng ngày, siêng năng xưng tội, và dùng chính kỹ năng tin học của mình để phục vụ đức tin.",
+      "en": "Carlo Acutis was born in London in 1991 and grew up in Milan, Italy. He was an utterly ordinary teenager of the internet age — keen on computers, coding, and video games — but what set him apart was a deep love for the Eucharist. He went to Mass daily, went to confession often, and put his own computer skills at the service of the faith."
+    },
+    {
+      "vi": "Khi mới mười lăm tuổi, cậu qua đời vì bệnh bạch cầu cấp vào năm 2006, dâng những đau đớn của mình cho Đức Giáo Hoàng và cho Hội Thánh. Thi hài cậu — mặc quần jeans và giày thể thao — nay được tôn kính tại Assisi, và đã thu hút vô số bạn trẻ. Cậu được tuyên thánh ngày 7 tháng 9 năm 2025, trở thành vị thánh đầu tiên của thế hệ sinh ra cùng với internet.",
+      "en": "At just fifteen, he died of acute leukemia in 2006, offering his sufferings for the Pope and for the Church. His body — in jeans and sneakers — is now venerated in Assisi and has drawn countless young people. He was canonized on 7 September 2025, becoming the first saint of the generation born alongside the internet."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "3 tháng 5, 1991, London", "en": "3 May 1991, London" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "12 tháng 10, 2006, Monza (Ý), vì bệnh bạch cầu, lúc 15 tuổi", "en": "12 October 2006, Monza (Italy), of leukemia, aged 15" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Giáo dân, học sinh", "en": "Layman, a schoolboy" } },
+    { "label": { "vi": "Nơi an nghỉ", "en": "Resting place" }, "value": { "vi": "Assisi (Ý)", "en": "Assisi (Italy)" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "12 tháng 10", "en": "12 October" } },
+    { "label": { "vi": "Phong chân phước", "en": "Beatified" }, "value": { "vi": "10 tháng 10, 2020, tại Assisi", "en": "10 October 2020, in Assisi" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "7 tháng 9, 2025 (Đức Lêô XIV)", "en": "7 September 2025 (Leo XIV)" } }
+  ],
+  "works_label": { "vi": "Điều ngài để lại", "en": "What he left behind" },
+  "works": [
+    {
+      "title": { "vi": "Triển lãm trực tuyến “Các phép lạ Thánh Thể trên thế giới”", "en": "The online exhibition “The Eucharistic Miracles of the World”" },
+      "latin": "",
+      "date": "2005 — 2006"
+    }
+  ],
+  "works_note": {
+    "vi": "Trước khi qua đời, Carlo tự tay lập một website thu thập và trình bày các phép lạ Thánh Thể đã được Hội Thánh nhìn nhận trên khắp thế giới — công trình về sau được dựng thành một triển lãm lưu động đi khắp các châu lục.",
+    "en": "Before he died, Carlo built a website himself that gathered and presented Church-recognized Eucharistic miracles from around the world — a project later turned into a travelling exhibition seen across the continents."
+  },
+  "sections": [
+    {
+      "id": "eucharistic-catalogue",
+      "title": { "vi": "Người lập danh mục các phép lạ", "en": "The boy who catalogued the miracles" },
+      "body": {
+        "vi": "Điều khiến Carlo trở thành “mắt xích nối kết” là chính công trình của cậu: một thiếu niên mê tin học đã dành những năm cuối đời để sưu tầm, kiểm chứng và trình bày các phép lạ Thánh Thể được Hội Thánh nhìn nhận. Cậu tin rằng nếu người ta xếp hàng để xem một trận đấu hay một buổi hòa nhạc, thì họ cũng đáng được thấy những dấu chỉ Chúa để lại nơi Bí tích. Vì thế, câu chuyện của Carlo tự nhiên mở đường sang một phần khác của trang này — phần về chính các phép lạ mà cậu đã dày công ghi lại.",
+        "en": "What makes Carlo a connecting link is his own project: a computer-loving teenager who spent his last years gathering, checking, and presenting the Eucharistic miracles the Church has recognized. He reasoned that if people queue for a match or a concert, they deserve just as much to see the signs God has left in the Sacrament. So Carlo's story opens naturally onto another part of this site — the very miracles he took such care to record."
+      },
+      "open": false
+    },
+    {
+      "id": "two-healings",
+      "title": { "vi": "Hai phép lạ chữa lành", "en": "The two healing miracles" },
+      "body": {
+        "vi": "Hai phép lạ được Tòa Thánh nhìn nhận đã đưa Carlo tới bậc hiển thánh. Phép lạ thứ nhất, dẫn tới việc phong chân phước, là em bé người Brazil tên Mattheus ở Campo Grande, mắc dị tật tụy bẩm sinh; em được chữa lành ngày 12 tháng 10 năm 2013 — đúng bảy năm sau ngày Carlo qua đời — sau khi tôn kính một thánh tích của Carlo. Phép lạ thứ hai, dẫn tới việc phong thánh, là cô Valeria Valverde người Costa Rica, bị chấn thương sọ não nặng trong một tai nạn xe đạp tại Florence năm 2022; cô hồi phục sau khi mẹ cô hành hương đến mộ Carlo ở Assisi. Đức Thánh Cha nhìn nhận phép lạ này năm 2024, mở đường cho lễ tuyên thánh năm 2025.",
+        "en": "Two miracles recognized by the Holy See raised Carlo to the altars. The first, for his beatification, was a Brazilian boy named Mattheus in Campo Grande, born with a pancreatic defect, healed on 12 October 2013 — exactly seven years after Carlo's death — after venerating a relic of Carlo. The second, for his canonization, was Valeria Valverde, a young Costa Rican woman gravely injured with head trauma in a bicycle accident in Florence in 2022; she recovered after her mother made a pilgrimage to Carlo's tomb in Assisi. The Pope recognized this miracle in 2024, opening the way to the canonization in 2025."
+      },
+      "open": false
+    }
+  ],
+  "related": [
+    {
+      "href": "/phep-la",
+      "label": { "vi": "Đọc về các phép lạ Thánh Thể", "en": "Read about the Eucharistic miracles" },
+      "note": {
+        "vi": "Chính Carlo đã lập danh mục các phép lạ Thánh Thể khắp thế giới — một phần sắp được xây dựng của trang này.",
+        "en": "Carlo himself catalogued Eucharistic miracles around the world — a section of this site still to come."
+      },
+      "available": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/carlo-acutis.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

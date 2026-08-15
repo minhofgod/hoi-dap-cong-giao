@@ -1,0 +1,73 @@
+{
+  "no": 21,
+  "slug": "john-paul-ii",
+  "group": "patrons",
+  "name": {
+    "vi": "Gioan Phaolô II",
+    "en": "John Paul II"
+  },
+  "role": {
+    "vi": "Giáo hoàng (1978–2005) · vị đã tuyên thánh 117 Thánh Tử Đạo Việt Nam",
+    "en": "Pope (1978–2005) · who canonized the 117 Martyrs of Vietnam"
+  },
+  "dates": {
+    "display": "1920 — 2005",
+    "born": 1920,
+    "died": 2005
+  },
+  "quote": {
+    "vi": "Đừng sợ! Hãy mở rộng cửa cho Đức Kitô.",
+    "en": "Be not afraid! Open wide the doors to Christ.",
+    "source": {
+      "vi": "Bài giảng khai mạc sứ vụ giáo hoàng, năm 1978",
+      "en": "Homily at the inauguration of his pontificate, 1978"
+    }
+  },
+  "life": [
+    {
+      "vi": "Karol Wojtyła sinh năm 1920 tại Ba Lan. Ngài lớn lên dưới ách chiếm đóng của Đức Quốc Xã rồi chế độ cộng sản, từng làm công nhân và diễn viên trước khi âm thầm học làm linh mục trong thời bách hại. Năm 1978, ngài được bầu làm giáo hoàng, lấy tên Gioan Phaolô II — vị giáo hoàng không phải người Ý đầu tiên sau 455 năm.",
+      "en": "Karol Wojtyła was born in 1920 in Poland. He grew up under Nazi occupation and then communist rule, working as a laborer and an actor before secretly studying for the priesthood during the persecution. In 1978 he was elected pope, taking the name John Paul II — the first non-Italian pope in 455 years."
+    },
+    {
+      "vi": "Triều đại của ngài kéo dài gần hai mươi bảy năm, một trong những triều đại dài nhất lịch sử. Ngài đi khắp thế giới, khởi xướng Ngày Giới Trẻ Thế Giới, đóng vai trò quan trọng trong sự sụp đổ của chế độ cộng sản ở Đông Âu, và tha thứ cho kẻ đã mưu sát mình năm 1981. Ngài cũng tuyên phong nhiều vị thánh hơn bất cứ vị giáo hoàng nào — trong đó, ngày 19 tháng 6 năm 1988, có 117 vị Thánh Tử Đạo Việt Nam. Ngài qua đời năm 2005 và được tuyên thánh năm 2014.",
+      "en": "His pontificate lasted nearly twenty-seven years, one of the longest in history. He travelled the world, launched World Youth Day, played a key role in the fall of communism in Eastern Europe, and forgave the man who tried to assassinate him in 1981. He also canonized more saints than any pope before him — among them, on 19 June 1988, the 117 Martyrs of Vietnam. He died in 2005 and was canonized in 2014."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "18 tháng 5, 1920, Wadowice (Ba Lan)", "en": "18 May 1920, Wadowice (Poland)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "2 tháng 4, 2005, Vatican", "en": "2 April 2005, the Vatican" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Giáo hoàng (1978–2005)", "en": "Pope (1978–2005)" } },
+    { "label": { "vi": "Liên hệ Việt Nam", "en": "Vietnam connection" }, "value": { "vi": "Tuyên thánh 117 Thánh Tử Đạo VN, 19-6-1988", "en": "Canonized the 117 Vietnamese Martyrs, 19 June 1988" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "22 tháng 10", "en": "22 October" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "27 tháng 4, 2014 (Đức Phanxicô)", "en": "27 April 2014 (Pope Francis)" } }
+  ],
+  "sections": [
+    {
+      "id": "be-not-afraid",
+      "title": { "vi": "“Đừng sợ”", "en": "“Be not afraid”" },
+      "body": {
+        "vi": "Ngay trong bài giảng đầu tiên với tư cách giáo hoàng, giữa một châu Âu còn bị chia cắt bởi Bức Màn Sắt, Gioan Phaolô II đã cất lên lời kêu gọi trở thành khẩu hiệu của cả triều đại ngài: “Đừng sợ!” Ngài nói điều đó với những người sống dưới chế độ toàn trị, với người trẻ đang hoài nghi, và với chính Hội Thánh. Cuộc đời ngài — từ một công nhân dưới thời bách hại đến vị giáo hoàng góp phần làm sụp đổ một đế chế mà không cần một viên đạn — là bằng chứng cho chính lời ấy. Với người Công giáo Việt Nam, ngài còn mang một ý nghĩa riêng: chính ngài đã ghi tên 117 vị cha ông tử đạo vào sổ các thánh.",
+        "en": "In his very first homily as pope, in a Europe still split by the Iron Curtain, John Paul II raised the cry that became the motto of his whole pontificate: \"Be not afraid!\" He said it to those living under totalitarian regimes, to doubting young people, and to the Church itself. His life — from a laborer under persecution to a pope who helped bring down an empire without a single shot — was proof of those very words. For Vietnamese Catholics he carries a special meaning: it was he who inscribed 117 of their martyred forebears in the book of the saints."
+      },
+      "open": false
+    }
+  ],
+  "related": [
+    {
+      "href": "/cac-thanh/tu-dao-viet-nam",
+      "label": { "vi": "Xem lại 117 Thánh Tử Đạo Việt Nam", "en": "Back to the 117 Martyrs of Vietnam" },
+      "note": {
+        "vi": "Chính Đức Gioan Phaolô II đã tuyên thánh cho các ngài ngày 19 tháng 6 năm 1988 — khép lại vòng tròn của phần Các Thánh này.",
+        "en": "It was John Paul II who canonized them on 19 June 1988 — closing the circle of this Saints section."
+      },
+      "available": true
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/john-paul-ii.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

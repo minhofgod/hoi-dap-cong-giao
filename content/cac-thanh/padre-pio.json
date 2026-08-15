@@ -1,0 +1,62 @@
+{
+  "no": 10,
+  "slug": "padre-pio",
+  "group": "modern",
+  "name": {
+    "vi": "Piô Năm Dấu (Cha Piô)",
+    "en": "Pio of Pietrelcina (Padre Pio)"
+  },
+  "role": {
+    "vi": "Linh mục Dòng Capuchin · nhà thần bí mang năm dấu thánh",
+    "en": "Capuchin priest · stigmatic mystic"
+  },
+  "dates": {
+    "display": "1887 — 1968",
+    "born": 1887,
+    "died": 1968
+  },
+  "quote": {
+    "vi": "Hãy cầu nguyện, hãy hy vọng, và đừng lo lắng.",
+    "en": "Pray, hope, and don’t worry.",
+    "source": {
+      "vi": "Câu nói được truyền lại của ngài",
+      "en": "A saying handed down from him"
+    }
+  },
+  "life": [
+    {
+      "vi": "Francesco Forgione sinh năm 1887 trong một gia đình nông dân đạo hạnh ở Pietrelcina, miền nam nước Ý, và lấy tên Piô khi vào Dòng Anh Em Hèn Mọn Capuchin. Là một linh mục khiêm nhường, ngài dành phần lớn đời mình tại tu viện San Giovanni Rotondo, nơi ngài nổi tiếng là một cha giải tội tận tụy — có ngày ngồi tòa giải tội hàng chục giờ.",
+      "en": "Francesco Forgione was born in 1887 into a devout farming family in Pietrelcina, southern Italy, and took the name Pio when he entered the Capuchin Franciscans. A humble priest, he spent most of his life at the friary of San Giovanni Rotondo, where he became renowned as a tireless confessor — some days hearing confessions for many hours."
+    },
+    {
+      "vi": "Năm 1918 ngài được in năm dấu thánh — những vết thương của Đức Kitô chịu đóng đinh — hiện rõ trên thân mình suốt khoảng năm mươi năm. Quanh ngài có vô số lời chứng về ơn chữa lành, ơn hoán cải, và cả hiện tượng “phân thân”. Ngài cũng lập một bệnh viện lớn mang tên “Nhà Xoa Dịu Đau Khổ”. Ngài qua đời năm 1968 và được Đức Gioan Phaolô II tuyên thánh năm 2002.",
+      "en": "In 1918 he received the stigmata — the wounds of the crucified Christ — visible on his body for some fifty years. Around him gathered countless testimonies of healings, conversions, and reports of bilocation. He also founded a large hospital, the \"House for the Relief of Suffering.\" He died in 1968 and was canonized by John Paul II in 2002."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "25 tháng 5, 1887, Pietrelcina (Ý)", "en": "25 May 1887, Pietrelcina (Italy)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "23 tháng 9, 1968, San Giovanni Rotondo", "en": "23 September 1968, San Giovanni Rotondo" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Linh mục Dòng Phanxicô Capuchin", "en": "Capuchin Franciscan priest" } },
+    { "label": { "vi": "Dấu ấn", "en": "Distinction" }, "value": { "vi": "Mang năm dấu thánh suốt khoảng 50 năm", "en": "Bore the stigmata for about 50 years" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "23 tháng 9", "en": "23 September" } },
+    { "label": { "vi": "Phong thánh", "en": "Canonized" }, "value": { "vi": "16 tháng 6, 2002 (Đức Gioan Phaolô II)", "en": "16 June 2002 (John Paul II)" } }
+  ],
+  "sections": [
+    {
+      "id": "confessional",
+      "title": { "vi": "Vị thánh của tòa giải tội", "en": "A saint of the confessional" },
+      "body": {
+        "vi": "Người ta thường nhớ đến Cha Piô vì những hiện tượng lạ lùng — năm dấu thánh, ơn thấu suốt lòng người, những lời chứng về phân thân. Nhưng chính ngài lại xem sứ vụ lớn nhất của mình là ngồi tòa giải tội. Hàng đoàn người từ khắp nơi kéo về, có khi chờ nhiều ngày, chỉ để xưng tội với ngài; và ngài đón nhận họ với một sự thẳng thắn đôi khi cứng cỏi nhưng luôn phát xuất từ lòng thương. Đối với ngài, phép lạ đáng kể nhất không phải là chữa lành thân xác, mà là một tâm hồn được giao hòa với Thiên Chúa.",
+        "en": "Padre Pio is often remembered for the extraordinary — the stigmata, a gift of reading hearts, reports of bilocation. Yet he himself regarded the confessional as his greatest ministry. Crowds came from everywhere, sometimes waiting days, simply to confess to him; and he received them with a bluntness that could be severe but always sprang from mercy. For him the miracle that mattered most was not a healed body, but a soul reconciled with God."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/padre-pio.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

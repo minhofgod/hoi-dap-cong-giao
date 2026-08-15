@@ -3,10 +3,11 @@ import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { LanguageToggle } from '@/components/LanguageToggle';
 import { Bi2 } from '@/components/giao-phu/Bi2';
-import { Portrait } from '@/components/giao-phu/Portrait';
 import { SectionHeading } from '@/components/giao-phu/SectionHeading';
 import { CollapsibleSection } from '@/components/giao-phu/CollapsibleSection';
+import { SaintPortrait } from '@/components/cac-thanh/SaintPortrait';
 import { SaintsRail } from '@/components/cac-thanh/SaintsRail';
+import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import {
   getAllSaints,
   getSaintBySlug,
@@ -61,7 +62,12 @@ export default async function SaintPage({ params }: { params: Promise<{ slug: st
   const sections = saint.sections ?? [];
   const apologetics = saint.apologetics ?? [];
   const cccRefs = saint.ccc_refs ?? [];
-  const related = saint.related ?? [];
+  // Companion links (/dong-hanh) are gated by the companion flag, like every other companion entry
+  // point — so if the kill-switch flips COMPANION off, Mônica's bridge link doesn't become a dead
+  // link. Forward-links into not-yet-built sections (e.g. /phep-la) carry available:false instead.
+  const related = (saint.related ?? []).filter(
+    (r) => !(r.href.startsWith('/dong-hanh') && !COMPANION_ENABLED)
+  );
   const worksHeading = saint.works_label ?? UI.works;
 
   return (
@@ -74,7 +80,7 @@ export default async function SaintPage({ params }: { params: Promise<{ slug: st
         </div>
 
         <div className={styles.frontispiece}>
-          <Portrait portrait={saint.portrait} name={saint.name} size="frontispiece" />
+          <SaintPortrait portrait={saint.portrait} name={saint.name} size="frontispiece" />
           <Bi2 value={eyebrow} as="div" className={styles.eyebrow} />
           <Bi2
             value={saint.name}

@@ -1,0 +1,82 @@
+{
+  "no": 18,
+  "slug": "monica",
+  "group": "bridge",
+  "name": {
+    "vi": "Mônica",
+    "en": "Monica of Hippo"
+  },
+  "role": {
+    "vi": "Người mẹ Kitô giáo · thân mẫu Thánh Augustinô",
+    "en": "Christian mother · mother of St. Augustine"
+  },
+  "dates": {
+    "display": "khoảng 331 — 387",
+    "born": 331,
+    "died": 387
+  },
+  "quote": {
+    "vi": "Hãy chôn xác mẹ ở đâu cũng được; đừng bận tâm về điều đó. Mẹ chỉ xin các con một điều: dù ở đâu, hãy nhớ đến mẹ nơi bàn thờ Chúa.",
+    "en": "Lay this body anywhere; do not let care about it trouble you. This only I ask of you: that wherever you may be, you remember me at the altar of the Lord.",
+    "source": {
+      "vi": "Lời trối, theo sách Tự Thuật của Thánh Augustinô",
+      "en": "Her dying words, in St. Augustine’s Confessions"
+    }
+  },
+  "life": [
+    {
+      "vi": "Mônica sinh khoảng năm 331 tại Thagaste, Bắc Phi, trong một gia đình Kitô hữu. Bà kết hôn với Patriciô, một người ngoại giáo tính khí nóng nảy, và kiên nhẫn sống đạo cho đến khi ông trở lại vào cuối đời. Nhưng nỗi bận tâm lớn nhất của bà là người con trai tài năng nhưng lạc lối: Augustinô.",
+      "en": "Monica was born around 331 in Thagaste, North Africa, into a Christian family. She married Patricius, a hot-tempered pagan, and lived her faith patiently until he converted late in life. But her greatest concern was her gifted but wayward son: Augustine."
+    },
+    {
+      "vi": "Trong nhiều năm, Augustinô theo lạc giáo, sống buông thả và khước từ đức tin của mẹ. Mônica không ngừng cầu nguyện và rơi nước mắt cho con, đi theo con qua nhiều thành phố, và được một giám mục an ủi bằng câu nói trứ danh: “Không thể nào một người con của bao nhiêu nước mắt như thế lại hư mất.” Cuối cùng bà được chứng kiến Augustinô trở lại và chịu phép rửa năm 387. Ít lâu sau bà qua đời tại Ostia, lòng đã mãn nguyện. Con trai bà trở thành một trong những vị Giáo Phụ vĩ đại nhất.",
+      "en": "For years Augustine followed heresy, lived loosely, and rejected his mother's faith. Monica never ceased praying and weeping for him, following him from city to city, and was consoled by a bishop's famous words: \"It is not possible that the son of these tears should be lost.\" At last she saw Augustine converted and baptized in 387. Soon after, she died at Ostia, her heart content. Her son became one of the greatest of the Church Fathers."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "khoảng năm 331, Thagaste (Bắc Phi)", "en": "c. 331, Thagaste (North Africa)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "năm 387, Ostia (Ý)", "en": "387, Ostia (Italy)" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Người vợ, người mẹ", "en": "Wife and mother" } },
+    { "label": { "vi": "Bổn mạng", "en": "Patroness" }, "value": { "vi": "Các bà mẹ và người vợ", "en": "Mothers and wives" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "27 tháng 8 (áp lễ Thánh Augustinô)", "en": "27 August (the eve of St. Augustine)" } },
+    { "label": { "vi": "Được phong thánh", "en": "Canonized" }, "value": { "vi": "Được tôn kính từ thời sơ khai", "en": "Venerated since antiquity" } }
+  ],
+  "sections": [
+    {
+      "id": "prayer-of-a-mother",
+      "title": { "vi": "Lời cầu nguyện của một người mẹ", "en": "A mother’s prayer" },
+      "body": {
+        "vi": "Câu chuyện Mônica nói với bất cứ ai đang mang trong lòng một người thân đã rời xa Chúa — một người con, người bạn đời, một người bạn. Bà không ép buộc, không tranh cãi thắng thua, cũng không bỏ cuộc; bà kiên trì cầu nguyện, sống chứng tá, và phó thác thời gian cho Thiên Chúa. Sự trở lại của Augustinô không đến sau một đêm, mà sau gần hai mươi năm. Với người đang lo lắng cho một người mình yêu, Mônica là lời nhắc rằng lời cầu nguyện bền bỉ không hề vô ích, dù câu trả lời có đến muộn màng.",
+        "en": "Monica's story speaks to anyone carrying in their heart a loved one who has drifted from God — a child, a spouse, a friend. She did not coerce, did not argue to win, and did not give up; she prayed persistently, lived her witness, and entrusted the timing to God. Augustine's conversion came not overnight but after nearly twenty years. For anyone anxious about someone they love, Monica is a reminder that steadfast prayer is never wasted, even when the answer is long in coming."
+      },
+      "open": false
+    }
+  ],
+  "related": [
+    {
+      "href": "/dong-hanh",
+      "label": { "vi": "Khi một người thân xa Chúa", "en": "When a loved one has drifted" },
+      "note": {
+        "vi": "Câu chuyện Mônica dẫn tới công cụ Đồng hành — dành cho ai đang mang trong lòng một người thân đã rời xa đức tin.",
+        "en": "Monica's story leads into the Đồng hành companion — for anyone carrying a loved one who has drifted from the faith."
+      },
+      "available": true
+    },
+    {
+      "href": "/giao-phu/augustine-of-hippo",
+      "label": { "vi": "Đọc về con trai của ngài, Thánh Augustinô", "en": "Read about her son, St. Augustine" },
+      "note": {
+        "vi": "Người con mà Mônica đã cầu nguyện suốt bao năm đã trở thành một trong những Giáo Phụ vĩ đại nhất.",
+        "en": "The son Monica prayed for over so many years became one of the greatest Church Fathers."
+      },
+      "available": true
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/monica.jpg",
+    "medium": { "vi": "Chân dung", "en": "Portrait" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}
