@@ -264,6 +264,56 @@ On cap reached / follow-ups exhausted / "Chưa" to the satisfaction check — DO
 - **No entry-point, homepage, or backend changes** — nothing for Session 8; the existing
   `COMPANION_ENABLED` flag still covers the whole tool.
 
+## Companion — relevance-curation pass (research session, #11)
+
+**Why.** Even with Session 7's scoring/config fix, purely-algorithmic matching (`matchResources`) still
+misses: a 30-tag vocabulary can't capture every "these two Q&As are *experientially* related" or "this
+is the natural *next* question." This is an **offline analysis pass** that produces a reviewed
+relevance map — better first-answers per situation, plus the follow-up chains v2 needs. (Triggered by
+the suffering-path bug: broad category `god-meaning` pulled abstract "Ai Tạo Ra Chúa" answers above the
+crucifixion cluster for a hurting user.)
+
+**Not a runtime component.** The agent runs offline; the runtime stays deterministic (no LLM at request
+time — the doctrinal-safety guarantee). It emits **proposals** the owner reviews and signs off; the
+approved bits are then committed as data/config the existing matcher + v2 read. It changes NO runtime
+behavior directly.
+
+**Inputs:** all Q&As (`content/giai-dap/*.md`), council apologetics (`content/cong-dong/*.json`),
+videos (`content/video/*.md`), the intake tree (`lib/dongHanh.ts` `SITUATIONS`/`STEPS`), and the
+taxonomy (`lib/giaiDapTaxonomy.ts`).
+
+**Deliverables (all as reviewable tables / proposed diffs):**
+1. **Situation audit + curated routes.** For each of the ~15 situations: show what `matchResources`
+   returns now (top ~6), flag off-topic pulls, and propose the fix — a **config edit** (the situation's
+   category/tag list) where that suffices, or **explicit seed pins** where curation is needed. Judge
+   each candidate against the situation's *intent* (its lead/advice text), not just taxonomy overlap:
+   "would a hurting person find this consoling, or would it read as a lecture?"
+2. **Follow-up chains (the v2 fuel).** For each Q&A (+ council Q&A), propose the 3–5 best "natural next
+   question" follow-ups — model the reader's next move (curiosity / objection / deepening) from the
+   actual pool. Encode as `related_qa` pins on the source Q&A — **optional overrides** that rank above
+   pure tag-overlap, NOT a wholesale hand-map (tag-overlap stays the scalable default; pins are just the
+   high-value corrections).
+3. **Tag audit.** Flag mis-tags and gaps where 30 tags are too coarse to separate experientially-
+   different Q&As (e.g. abstract-apologetics vs pastoral-consolation both under `god-meaning`). Propose
+   specific new tags / re-tags — any new id goes into `lib/giaiDapTaxonomy.ts` first and must pass
+   `scripts/check-tags.mjs`.
+4. **Findings report** — the systemic patterns (e.g. "N situations lean on an over-broad category").
+
+**Prefer config/tag fixes (scalable) over pins (manual);** use pins only where the algorithm can't get
+there. Can be run as a fan-out (one agent per situation) since the situations are independent.
+
+**Sequencing / dependencies:**
+- Runs **AFTER** Session 7's scoring/config fix lands, so it audits the corrected baseline, not the
+  known-broken one.
+- Feeds BOTH the live tool (better routes now) and v2 (the follow-up chains). **Session 7 is not
+  blocked** waiting for it — v2 ships on tag-overlap + the `short:` title fallback; approved pins/tags
+  layer in as they're signed off.
+
+**Lane / ownership.** This is an analysis session — it writes only the proposal doc. Applying approved
+results is handed to the owning lanes (keeps lane discipline): new tags → **Session 2**
+(`lib/giaiDapTaxonomy.ts`); `related_qa`/`tags`/`short` frontmatter → **Session 3**
+(`content/giai-dap`); situation config → **Session 7** (`lib/dongHanh.ts`).
+
 ## Still open
 - **Q&A card banner fallback (website, Session 2).** `components/GiaiDapBrowser` renders the topic-card
   banner from `/images/giai-dap/<anchor>.jpg` unconditionally — a missing file shows a BROKEN image
