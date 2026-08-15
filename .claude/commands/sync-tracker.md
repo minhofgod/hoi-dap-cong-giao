@@ -13,16 +13,17 @@ Steps:
 1. Read the tracker — especially its `## Mapping` table (topic → script file, video slug, Q&A anchor).
 
 2. For each mapped topic, check the real files and determine true status:
-   - **Script** — does `<script file>.md` exist anywhere under
-     `D:\Dropbox\Obsidian Vault\Video Scripts\` (any subfolder)? Note the subfolder it's in
-     (Finished Videos / Processed / Unpublished / root) — that's the script's stage.
+   - **Script** — the mapping's "Script file" cell may list SEVERAL comma-separated names. Script is
+     ✅ if ANY of them exists as `<name>.md` anywhere under `D:\Dropbox\Obsidian Vault\Video Scripts\`
+     (any subfolder). Note the subfolder(s) — that's the script's stage.
    - **Video** — does `content/video/<video-slug>.md` exist? → Video ✅.
    - **Video tagged** — does that video's frontmatter contain BOTH `category:` and `tags:`? → Tagged ✅.
    - **Q&A** — does `content/giai-dap/<qa-anchor>.md` exist? → Q&A ✅.
    Use `—` where the mapping cell is `—`.
 
 3. Find NEW content not yet in the mapping:
-   - script files under `Video Scripts/` not listed as any topic's script;
+   - script files under `Video Scripts/` not listed in ANY topic's "Script file" cell (a cell may
+     hold several comma-separated names — all of them count as mapped);
    - `content/video/*.md` (ignore `*.en.md`) whose slug isn't a mapped video slug;
    - `content/giai-dap/*.md` with frontmatter `featured: true` (cluster anchors) not mapped as any
      topic's Q&A anchor.
@@ -30,8 +31,12 @@ Steps:
    topic to add a row + mapping for).
 
 4. Update the tracker's `## Pipeline overview` table and the `## To do next` checkboxes to match what
-   you found. Change ONLY status cells/boxes you can derive from files. DO NOT touch the `## Backlog`
-   section or any freeform notes the user wrote. Update the snapshot date line if present.
+   you found. Change ONLY cells/boxes you can DERIVE from a file existing (set ✅ when the file is
+   there; set 🔲 if a file that was ✅ is now gone). **PRESERVE the user's intent:** where the mapping
+   slug is `—` (nothing to check), leave the human's existing mark (`🔲` = planned to-do, or `—` = not
+   planned) untouched — that's their choice, not a derivable fact. Never flatten a planned `🔲` into
+   `—`. You MAY resolve a `(?)` once the files make it definite. DO NOT touch the `## Backlog` section
+   or freeform notes. Update the snapshot date line if present.
 
 5. Report a short summary: what changed since the tracker's last state, plus any new/unmapped files
    that need the user's decision. If a path doesn't resolve, say so rather than guessing.
