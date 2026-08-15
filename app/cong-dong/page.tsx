@@ -86,25 +86,6 @@ export default function CongDongIndexPage() {
         </div>
 
         <CouncilsBrowser groups={groups} />
-
-        <div className={styles.comingSoon}>
-          <Bi2
-            value={{ vi: 'Đang biên soạn', en: 'In progress' }}
-            as="div"
-            className={styles.comingSoonKicker}
-            enRecessedClassName={styles.comingSoonKickerEn}
-          />
-          <Bi2
-            value={{
-              vi: 'Các Công đồng Trung Cổ còn lại (Latêranô V, Lyon I–II, Vienne, Constance, Florence) và các Công đồng Cận–Hiện đại (Triđentinô, Vaticanô I, Vaticanô II) đang được biên soạn. Sắp có.',
-              en: 'The remaining medieval councils (Lateran V, Lyon I–II, Vienne, Constance, Florence) and the modern councils (Trent, Vatican I, Vatican II) are being written. Coming soon.',
-            }}
-            as="p"
-            viClassName={styles.comingSoonText}
-            enClassName={styles.comingSoonText}
-            enRecessedClassName={styles.comingSoonTextEn}
-          />
-        </div>
       </div>
     </>
   );

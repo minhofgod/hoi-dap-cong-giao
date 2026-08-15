@@ -1,0 +1,87 @@
+{
+  "no": 21,
+  "slug": "vatican-ii",
+  "era": "modern",
+  "name": { "vi": "Công đồng Vaticanô II", "en": "Second Vatican Council" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ hai mươi mốt · Hội Thánh giữa lòng thế giới hôm nay",
+    "en": "The twenty-first ecumenical council · the Church in the modern world"
+  },
+  "dates": { "display": "1962–1965", "start": 1962, "end": 1965 },
+  "location": { "vi": "Đền thờ Thánh Phêrô, Vatican, Rôma", "en": "St Peter's Basilica, the Vatican, Rome" },
+  "quote": {
+    "vi": "Vui mừng và hy vọng, ưu sầu và lo lắng của con người ngày nay, nhất là của người nghèo và của bất cứ ai đang đau khổ, cũng là vui mừng và hy vọng, ưu sầu và lo lắng của các môn đệ Chúa Kitô.",
+    "en": "The joys and the hopes, the griefs and the anxieties of the people of this age, especially those who are poor or in any way afflicted, these too are the joys and hopes, the griefs and anxieties of the followers of Christ.",
+    "source": { "vi": "Hiến chế “Gaudium et Spes”, 1965", "en": "The constitution “Gaudium et Spes,” 1965" }
+  },
+  "background": [
+    {
+      "vi": "Năm 1959, Giáo hoàng Gioan XXIII làm cả thế giới ngỡ ngàng khi loan báo triệu tập một công đồng chung — không phải để chống một lạc giáo, mà để canh tân Hội Thánh và mở ra cuộc đối thoại với thế giới hiện đại (ngài gọi là “aggiornamento”, cập nhật). Công đồng khai mạc năm 1962 với hơn 2.500 nghị phụ từ khắp năm châu — công đồng lớn nhất lịch sử. Ngài qua đời năm 1963, và Giáo hoàng Phaolô VI tiếp tục cho tới khi bế mạc năm 1965.",
+      "en": "In 1959 Pope John XXIII astonished the world by announcing an ecumenical council — not to fight a heresy, but to renew the Church and open a dialogue with the modern world (he called it “aggiornamento,” updating). The council opened in 1962 with more than 2,500 fathers from all five continents — the largest council in history. He died in 1963, and Pope Paul VI carried it through to its close in 1965."
+    },
+    {
+      "vi": "Vaticanô II là một công đồng “mục vụ”: nó không định tín tín điều mới, cũng không ra lời kết án, mà trình bày lại đức tin muôn thuở bằng ngôn ngữ mà con người thời nay có thể đón nhận. Bốn năm họp đã sinh ra 16 văn kiện, trong đó bốn hiến chế nền tảng: về Hội Thánh (Lumen Gentium), về mặc khải (Dei Verbum), về phụng vụ (Sacrosanctum Concilium), và về Hội Thánh trong thế giới ngày nay (Gaudium et Spes).",
+      "en": "Vatican II was a “pastoral” council: it defined no new dogma and pronounced no condemnations, but restated the age-old faith in language people of today could receive. Four years of meetings produced 16 documents, among them four foundational constitutions: on the Church (Lumen Gentium), on revelation (Dei Verbum), on the liturgy (Sacrosanctum Concilium), and on the Church in the modern world (Gaudium et Spes)."
+    },
+    {
+      "vi": "Công đồng đổi mới sâu xa đời sống Công giáo: cho phép cử hành phụng vụ bằng tiếng bản xứ, nhấn mạnh lời mời gọi nên thánh dành cho mọi người (không riêng tu sĩ), đề cao vai trò của giáo dân và của Kinh Thánh, mở đường cho phong trào đại kết với các Kitô hữu khác, và trình bày thái độ kính trọng đối thoại với các tôn giáo và với xã hội. Vaticanô II vẫn là khung định hướng cho Hội Thánh cho tới hôm nay.",
+      "en": "The council deeply renewed Catholic life: it allowed the liturgy to be celebrated in the local language, stressed the universal call to holiness for everyone (not only religious), raised up the role of the laity and of Scripture, opened the way to ecumenism with other Christians, and set out an attitude of respectful dialogue with other religions and with society. Vatican II remains the guiding frame for the Church to this day."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Years" }, "value": { "vi": "1962–1965", "en": "1962–1965" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Đền thờ Thánh Phêrô, Vatican", "en": "St Peter's Basilica, the Vatican" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Gioan XXIII", "en": "Pope John XXIII" } },
+    { "label": { "vi": "Bế mạc dưới thời", "en": "Closed under" }, "value": { "vi": "Giáo hoàng Phaolô VI", "en": "Pope Paul VI" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "> 2.500 giám mục", "en": "> 2,500 bishops" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Canh tân mục vụ · Hội Thánh và thế giới hiện đại", "en": "Pastoral renewal · the Church and the modern world" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Hiến chế tín lý về Hội Thánh", "en": "Dogmatic constitution on the Church" }, "latin": "Lumen Gentium", "date": "1964" },
+    { "title": { "vi": "Hiến chế tín lý về Mặc Khải của Thiên Chúa", "en": "Dogmatic constitution on divine revelation" }, "latin": "Dei Verbum", "date": "1965" },
+    { "title": { "vi": "Hiến chế mục vụ về Hội Thánh trong thế giới ngày nay", "en": "Pastoral constitution on the Church in the modern world" }, "latin": "Gaudium et Spes", "date": "1965" }
+  ],
+  "documents_note": {
+    "vi": "16 văn kiện của Vaticanô II — với bốn hiến chế Lumen Gentium, Dei Verbum, Sacrosanctum Concilium và Gaudium et Spes làm trọng tâm — là bản đồ định hướng cho đời sống, phụng vụ và sứ mạng của Hội Thánh ngày nay.",
+    "en": "Vatican II's 16 documents — with the four constitutions Lumen Gentium, Dei Verbum, Sacrosanctum Concilium, and Gaudium et Spes at their heart — are the map guiding the Church's life, worship, and mission today."
+  },
+  "sections": [
+    {
+      "id": "call-to-holiness",
+      "title": { "vi": "Lời mời gọi nên thánh cho mọi người", "en": "The universal call to holiness" },
+      "body": {
+        "vi": "Một trong những giáo huấn được yêu mến nhất của Vaticanô II là: sự thánh thiện không dành riêng cho linh mục và tu sĩ, mà là ơn gọi của mọi người đã chịu Phép Rửa. Người mẹ nội trợ, người thợ, người nông dân, người trẻ — tất cả đều được kêu gọi nên thánh ngay trong bổn phận đời thường của mình (x. Lumen Gentium, ch. 5). Hội Thánh được trình bày trước hết như “Dân Thiên Chúa” đang lữ hành, trong đó mỗi chi thể đều có phẩm giá và sứ mạng.",
+        "en": "One of Vatican II's most beloved teachings is that holiness is not reserved for priests and religious, but is the vocation of everyone who is baptized. The mother at home, the worker, the farmer, the young person — all are called to holiness within their ordinary everyday duties (cf. Lumen Gentium, ch. 5). The Church is presented first of all as the pilgrim “People of God,” in which every member has dignity and a mission."
+      },
+      "open": false
+    },
+    {
+      "id": "continuity",
+      "title": { "vi": "Đổi mới trong sự liên tục", "en": "Renewal in continuity" },
+      "body": {
+        "vi": "Vaticanô II đôi khi bị hiểu lầm như một sự “đoạn tuyệt” với quá khứ, hoặc ngược lại bị vài người bác bỏ vì cho là quá mới. Cả hai cách đọc đều sai. Công đồng phải được đọc như một sự canh tân trong sự liên tục với truyền thống: cùng một đức tin, được trình bày cách mới mẻ và đầy đủ hơn. Chính vì thế sách Giáo Lý Hội Thánh Công Giáo (1992) trích dẫn Vaticanô II nhiều hơn bất cứ công đồng nào khác, đặt nó trong dòng chảy liền mạch từ Nicêa đến hôm nay.",
+        "en": "Vatican II is sometimes misread as a “break” with the past, or conversely rejected by a few as too new. Both readings are wrong. The council must be read as a renewal in continuity with tradition: the same faith, presented in a fresh and fuller way. That is why the Catechism of the Catholic Church (1992) quotes Vatican II more than any other council, placing it within the unbroken stream from Nicaea to today."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Có phải Vaticanô II đã thay đổi đạo Công giáo, biến nó thành một tôn giáo khác so với trước không?", "en": "Did Vatican II change the Catholic faith into a different religion from before?" },
+      "a": {
+        "vi": "Không. Vaticanô II không định tín tín điều mới nào và không thay đổi một chân lý đức tin nào — cùng một Kinh Tin Kính, cùng các bí tích, cùng một Hội Thánh. Điều thay đổi là cách trình bày và một số kỷ luật mục vụ: chẳng hạn dùng tiếng bản xứ trong phụng vụ là một quyết định kỷ luật, không phải thay đổi tín lý. Chúa Giêsu hứa ở với Hội Thánh “mọi ngày cho đến tận thế” (Mt 28,20) và Chúa Thánh Thần dẫn Hội Thánh “tới sự thật toàn vẹn” (Ga 16,13) — nghĩa là đức tin có thể được hiểu ngày càng sâu và diễn tả ngày càng rõ, mà không hề đổi khác. Đó chính là điều Vaticanô II làm: trình bày kho tàng đức tin muôn thuở cho con người thời nay.",
+        "en": "No. Vatican II defined no new dogma and changed no truth of the faith — the same Creed, the same sacraments, the same Church. What changed was the way of presenting it and some pastoral disciplines: using the local language in the liturgy, for instance, is a disciplinary decision, not a change of doctrine. Jesus promised to remain with his Church “always, to the end of the age” (Matt 28:20) and the Holy Spirit leads the Church “into all the truth” (John 16:13) — meaning the faith can be understood ever more deeply and expressed ever more clearly, without being altered. That is exactly what Vatican II did: present the age-old treasury of faith to the people of today."
+      },
+      "category": "the-church",
+      "tags": ["church-history", "authority", "evangelization"]
+    }
+  ],
+  "ccc_refs": [2044, 1656],
+  "image": {
+    "src": "/images/cong-dong/vatican-ii.jpg",
+    "medium": { "vi": "Đức Giáo hoàng Phaolô VI trong lễ bế mạc Công đồng Vaticanô II, 1965", "en": "Pope Paul VI at the closing of the Second Vatican Council, 1965" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

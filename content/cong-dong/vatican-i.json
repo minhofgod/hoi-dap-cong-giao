@@ -1,0 +1,86 @@
+{
+  "no": 20,
+  "slug": "vatican-i",
+  "era": "modern",
+  "name": { "vi": "Công đồng Vaticanô I", "en": "First Vatican Council" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ hai mươi · đức tin và lý trí, quyền và ơn bất khả ngộ của Giáo hoàng",
+    "en": "The twentieth ecumenical council · faith and reason, the primacy and infallibility of the pope"
+  },
+  "dates": { "display": "1869–1870", "start": 1869, "end": 1870 },
+  "location": { "vi": "Đền thờ Thánh Phêrô, Vatican, Rôma", "en": "St Peter's Basilica, the Vatican, Rome" },
+  "quote": {
+    "vi": "Khi Giáo hoàng Rôma lên tiếng “từ ngai tòa” (ex cathedra)… định tín một điều về đức tin hay luân lý buộc toàn thể Hội Thánh phải tin, thì ngài được hưởng ơn bất khả ngộ.",
+    "en": "When the Roman Pontiff speaks “from the chair” (ex cathedra)… defining a doctrine of faith or morals to be held by the whole Church, he possesses that infallibility.",
+    "source": { "vi": "Hiến chế “Pastor Aeternus”, 1870", "en": "The constitution “Pastor Aeternus,” 1870" }
+  },
+  "background": [
+    {
+      "vi": "Thế kỷ XIX là thời của chủ nghĩa duy lý, duy vật và những trào lưu chối bỏ Thiên Chúa. Trong bối cảnh ấy, Giáo hoàng Piô IX triệu tập công đồng chung đầu tiên họp tại Vatican, khai mạc năm 1869 tại Đền thờ Thánh Phêrô với khoảng 700 giám mục từ khắp thế giới — công đồng mang tính hoàn vũ rõ nét lần đầu.",
+      "en": "The nineteenth century was an age of rationalism, materialism, and movements that denied God. In that setting Pope Pius IX convened the first ecumenical council held at the Vatican, opening in 1869 in St Peter's Basilica with about 700 bishops from around the world — the first council with a clearly worldwide reach."
+    },
+    {
+      "vi": "Hiến chế “Dei Filius” trả lời cho thời đại: có một Thiên Chúa duy nhất và chân thật, Đấng lý trí con người có thể nhận biết cách chắc chắn qua các thụ tạo; đức tin và lý trí không mâu thuẫn nhau, vì cùng đến từ một Thiên Chúa. Công đồng vừa loại trừ chủ nghĩa duy tín (chỉ tin, coi thường lý trí) vừa loại trừ chủ nghĩa duy lý (chỉ nhận lý trí, chối mặc khải).",
+      "en": "The constitution “Dei Filius” answered the age: there is one true God, whom human reason can know with certainty through created things; faith and reason are not opposed, for both come from the one God. The council rejected both fideism (bare faith that scorns reason) and rationalism (reason alone that denies revelation)."
+    },
+    {
+      "vi": "Nổi tiếng nhất là hiến chế “Pastor Aeternus” (1870): công đồng định tín quyền tối thượng thật sự về tài phán của Giáo hoàng trên toàn thể Hội Thánh, và ơn bất khả ngộ của ngài khi long trọng định tín một điều về đức tin hay luân lý “từ ngai tòa”. Chỉ ít lâu sau, chiến tranh Pháp–Phổ nổ ra và quân đội chiếm Rôma; công đồng phải đình hoãn và không bao giờ chính thức bế mạc.",
+      "en": "Most famous is the constitution “Pastor Aeternus” (1870): the council defined the pope's true primacy of jurisdiction over the whole Church, and his infallibility when he solemnly defines a doctrine of faith or morals “from the chair.” Soon after, the Franco-Prussian War broke out and troops occupied Rome; the council had to be suspended and was never formally closed."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Years" }, "value": { "vi": "1869–1870", "en": "1869–1870" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Đền thờ Thánh Phêrô, Vatican", "en": "St Peter's Basilica, the Vatican" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Piô IX", "en": "Pope Pius IX" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Piô IX", "en": "Pius IX" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "≈ 700 giám mục", "en": "≈ 700 bishops" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Đức tin và lý trí · quyền và ơn bất khả ngộ của Giáo hoàng", "en": "Faith and reason · papal primacy and infallibility" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Hiến chế tín lý về đức tin công giáo", "en": "Dogmatic constitution on the Catholic faith" }, "latin": "Dei Filius", "date": "1870" },
+    { "title": { "vi": "Hiến chế tín lý về Hội Thánh Chúa Kitô", "en": "Dogmatic constitution on the Church of Christ" }, "latin": "Pastor Aeternus", "date": "1870" }
+  ],
+  "documents_note": {
+    "vi": "“Dei Filius” và “Pastor Aeternus” là hai văn kiện lớn của Vaticanô I; điều công đồng còn dang dở về vai trò của các giám mục thì Vaticanô II sẽ bổ túc gần một thế kỷ sau.",
+    "en": "“Dei Filius” and “Pastor Aeternus” are the two great documents of Vatican I; what the council left unfinished about the role of the bishops, Vatican II would complete nearly a century later."
+  },
+  "sections": [
+    {
+      "id": "infallibility",
+      "title": { "vi": "Ơn bất khả ngộ nghĩa là gì — và không là gì", "en": "What papal infallibility means — and does not mean" },
+      "body": {
+        "vi": "Ơn bất khả ngộ không có nghĩa là Giáo hoàng không thể phạm tội, không thể sai lầm khi trò chuyện, khi bàn khoa học hay chính trị, hay khi đưa ra ý kiến riêng. Nó rất hạn hẹp: chỉ là ơn Chúa Thánh Thần gìn giữ để Giáo hoàng không dạy sai lạc khi ngài long trọng định tín một điều thuộc đức tin hoặc luân lý “từ ngai tòa”, buộc toàn thể Hội Thánh phải tin. Đây là ơn gìn giữ, không phải ơn linh hứng: nó bảo đảm Hội Thánh không bị lạc khỏi chân lý mà Chúa Kitô đã trao. Trong thực tế, ơn này rất hiếm khi được sử dụng cách long trọng.",
+        "en": "Infallibility does not mean the pope cannot sin, cannot be mistaken in conversation, in science or politics, or when giving his personal opinion. It is very narrow: it is only the gift of the Holy Spirit preserving the pope from teaching error when he solemnly defines a matter of faith or morals “from the chair,” to be held by the whole Church. It is a gift of preservation, not of inspiration: it guarantees that the Church will not stray from the truth Christ entrusted to it. In practice it is very rarely used solemnly."
+      },
+      "open": false
+    },
+    {
+      "id": "faith-reason",
+      "title": { "vi": "Đức tin và lý trí không đối nghịch", "en": "Faith and reason are not opposed" },
+      "body": {
+        "vi": "Giữa một thế kỷ cho rằng khoa học đã “khai tử” tôn giáo, Vaticanô I khẳng định điều ngược lại: lý trí con người có thể đạt tới sự chắc chắn về sự hiện hữu của Thiên Chúa từ những gì Người đã tạo dựng (x. Rm 1,20; Kn 13,5). Đức tin không phải là bước nhảy mù quáng chống lại lý trí, mà là lời đáp trả hợp lý trước một Thiên Chúa đã tự tỏ mình ra. Vì cùng một Thiên Chúa ban cho ta cả lý trí lẫn mặc khải, nên chân lý không bao giờ chống lại chân lý.",
+        "en": "In a century convinced that science had “buried” religion, Vatican I affirmed the opposite: human reason can reach certainty about the existence of God from the things he has made (cf. Rom 1:20; Wis 13:5). Faith is not a blind leap against reason, but a reasonable response to a God who has revealed himself. Because the one same God gives us both reason and revelation, truth can never contradict truth."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Ơn bất khả ngộ của Giáo hoàng chỉ mới được “đặt ra” năm 1870 — vậy nó là phát minh mới, đúng không?", "en": "Papal infallibility was only “made up” in 1870 — so it's a new invention, isn't it?" },
+      "a": {
+        "vi": "Vaticanô I định tín ơn bất khả ngộ năm 1870, nhưng “định tín” khác với “phát minh”: công đồng diễn đạt cách chính xác một niềm tin đã có sẵn, rằng Chúa Kitô gìn giữ Hội Thánh của Người khỏi lạc mất chân lý. Ngay từ đầu, Hội Thánh đã coi ngai tòa Rôma là điểm quy chiếu để phân định đức tin: các Giáo phụ nói tới việc “hiệp thông với Rôma” như dấu hiệu của đức tin chân chính. Nền tảng nằm ở lời Chúa Giêsu hứa với Phêrô: “Thầy đã cầu nguyện cho con để con khỏi mất lòng tin; phần con, hãy làm cho anh em con nên vững mạnh” (Lc 22,32). Việc một chân lý được định tín muộn thường là vì lúc ấy nó mới bị công khai chối bỏ — như “biến thể”, Chúa Ba Ngôi hay bản danh mục Kinh Thánh, đều được định tín sau khi đã được tin từ lâu.",
+        "en": "Vatican I defined infallibility in 1870, but “defining” is not “inventing”: the council put into precise words a belief already held, that Christ preserves his Church from losing the truth. From the beginning the Church looked to the See of Rome as a point of reference for discerning the faith: the Fathers spoke of “communion with Rome” as a mark of true faith. The foundation lies in Jesus' promise to Peter: “I have prayed for you that your faith may not fail; and when you have turned again, strengthen your brothers” (Luke 22:32). A truth is often defined late precisely because that is when it is first openly denied — as with “transubstantiation,” the Trinity, or the canon of Scripture, all defined long after they were already believed."
+      },
+      "category": "the-church",
+      "tags": ["papacy", "authority", "church-history"]
+    }
+  ],
+  "ccc_refs": [891, 36],
+  "image": {
+    "src": "/images/cong-dong/vatican-i.jpg",
+    "medium": { "vi": "Phiên họp Công đồng Vaticanô I tại Đền thờ Thánh Phêrô, 1870", "en": "A session of the First Vatican Council in St Peter's, 1870" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

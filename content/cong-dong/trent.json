@@ -1,0 +1,87 @@
+{
+  "no": 19,
+  "slug": "trent",
+  "era": "modern",
+  "name": { "vi": "Công đồng Triđentinô", "en": "Council of Trent" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười chín · lời đáp của Hội Thánh trước cuộc Cải Cách",
+    "en": "The nineteenth ecumenical council · the Church's answer to the Reformation"
+  },
+  "dates": { "display": "1545–1563", "start": 1545, "end": 1563 },
+  "location": { "vi": "Trentô (Trento), miền bắc nước Ý", "en": "Trent (Trento), northern Italy" },
+  "quote": {
+    "vi": "Nếu ai nói rằng con người được công chính hóa chỉ nhờ đức tin mà thôi… thì phải bị loại trừ.",
+    "en": "If anyone says that a person is justified by faith alone… let him be anathema.",
+    "source": { "vi": "Sắc lệnh về sự Công chính hóa, khóa VI, 1547", "en": "Decree on Justification, Session VI, 1547" }
+  },
+  "background": [
+    {
+      "vi": "Từ năm 1517, cuộc Cải Cách Thệ phản do Máctinô Luthêr khởi xướng đã chia cắt Kitô giáo Tây phương. Sau nhiều trì hoãn vì chiến tranh và chính trị, Giáo hoàng Phaolô III triệu tập công đồng chung tại Trentô năm 1545. Công đồng họp thành ba giai đoạn kéo dài đến năm 1563, dưới năm đời Giáo hoàng — công đồng dài nhất trong lịch sử.",
+      "en": "From 1517 the Protestant Reformation, begun by Martin Luther, had split Western Christianity. After many delays caused by war and politics, Pope Paul III convened an ecumenical council at Trent in 1545. It met in three periods stretching to 1563, under five popes — the longest council in history."
+    },
+    {
+      "vi": "Trentô làm hai việc song song. Về tín lý, nó trả lời rõ ràng các vấn đề mà cuộc Cải Cách nêu lên: nguồn mạch mặc khải (Kinh Thánh cùng với Thánh Truyền), bản danh mục Kinh Thánh, tội nguyên tổ, sự công chính hóa, bảy bí tích, sự hiện diện thật và “biến thể” trong Thánh Thể, Thánh Lễ là hy tế, luyện ngục, ân xá và việc tôn kính các thánh.",
+      "en": "Trent did two things at once. In doctrine, it answered clearly the questions the Reformation had raised: the sources of revelation (Scripture together with Tradition), the canon of Scripture, original sin, justification, the seven sacraments, the real presence and “transubstantiation” in the Eucharist, the Mass as sacrifice, purgatory, indulgences, and the veneration of the saints."
+    },
+    {
+      "vi": "Về cải tổ, Trentô làm điều Latêranô V đã bỏ lỡ: chấn chỉnh nghiêm túc đời sống giáo sĩ, buộc mỗi giáo phận lập chủng viện đào tạo linh mục, buộc giám mục cư trú trong giáo phận và giảng dạy. Cuộc canh tân do Trentô khởi xướng định hình đời sống Công giáo suốt bốn thế kỷ, cho tới Vaticanô II.",
+      "en": "In reform, Trent did what Lateran V had missed: it seriously corrected clerical life, required every diocese to found a seminary to train priests, and obliged bishops to reside in their dioceses and to preach. The renewal Trent set in motion shaped Catholic life for four centuries, up to Vatican II."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Years" }, "value": { "vi": "1545–1563", "en": "1545–1563" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Trentô, nước Ý", "en": "Trent, Italy" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Phaolô III", "en": "Pope Paul III" } },
+    { "label": { "vi": "Số khóa họp", "en": "Sessions" }, "value": { "vi": "25 khóa, ba giai đoạn", "en": "25 sessions, three periods" } },
+    { "label": { "vi": "Bối cảnh", "en": "Context" }, "value": { "vi": "Đáp lại cuộc Cải Cách Thệ phản", "en": "Answering the Protestant Reformation" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Công chính hóa · bí tích · Thánh Thể · cải tổ", "en": "Justification · sacraments · the Eucharist · reform" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Sắc lệnh về Kinh Thánh và Thánh Truyền", "en": "Decree on Scripture and Tradition" }, "latin": "Sacrosancta", "date": "1546" },
+    { "title": { "vi": "Sắc lệnh về sự Công chính hóa", "en": "Decree on Justification" }, "latin": "Cum hoc tempore", "date": "1547" },
+    { "title": { "vi": "Sắc lệnh về bí tích Thánh Thể (biến thể)", "en": "Decree on the Eucharist (transubstantiation)" }, "latin": "", "date": "1551" }
+  ],
+  "documents_note": {
+    "vi": "Giáo huấn của Trentô về công chính hóa, các bí tích và Thánh Thể vẫn là nền của giáo lý Công giáo; sách Giáo Lý hiện hành trích dẫn Trentô rất nhiều lần.",
+    "en": "Trent's teaching on justification, the sacraments, and the Eucharist remains the bedrock of Catholic doctrine; the current Catechism cites Trent many times."
+  },
+  "sections": [
+    {
+      "id": "justification",
+      "title": { "vi": "Sự công chính hóa: ân sủng và sự cộng tác", "en": "Justification: grace and cooperation" },
+      "body": {
+        "vi": "Trentô dạy rằng con người được công chính hóa hoàn toàn nhờ ân sủng nhưng không của Thiên Chúa, qua công nghiệp Chúa Kitô — không ai tự cứu mình được. Tuy nhiên ân sủng ấy thật sự đổi mới con người từ bên trong và mời gọi họ tự do cộng tác: đức tin sống động “hành động nhờ đức mến” (Gl 5,6), sinh hoa trái là các việc lành. Vì thế công đồng loại trừ khẩu hiệu “chỉ nhờ đức tin mà thôi” khi nó bị hiểu là loại bỏ sự cộng tác và các việc lành. Đây không phải “cứu độ bằng việc làm”, mà là ân sủng đơm bông kết trái nơi một đời sống được biến đổi.",
+        "en": "Trent taught that a person is justified entirely by God's free grace, through the merits of Christ — no one can save themselves. Yet that grace truly renews a person from within and invites them to cooperate freely: a living faith “working through love” (Gal 5:6) bears fruit in good works. So the council rejected the slogan “by faith alone” when it was taken to exclude cooperation and good works. This is not “salvation by works,” but grace bearing fruit in a transformed life."
+      },
+      "open": false
+    },
+    {
+      "id": "scripture-tradition",
+      "title": { "vi": "Kinh Thánh cùng với Thánh Truyền", "en": "Scripture together with Tradition" },
+      "body": {
+        "vi": "Trước khẩu hiệu “chỉ Kinh Thánh mà thôi”, Trentô dạy rằng Tin Mừng của Chúa Kitô đến với ta qua Kinh Thánh và Thánh Truyền tông đồ — hai dòng chảy từ cùng một nguồn mạch là mặc khải của Thiên Chúa. Công đồng cũng xác định bản danh mục các sách được linh hứng. Vaticanô II về sau khai triển cùng giáo huấn ấy: Kinh Thánh, Thánh Truyền và Huấn quyền gắn bó với nhau đến nỗi không thể tách rời (x. Dei Verbum 10).",
+        "en": "Against the slogan “Scripture alone,” Trent taught that the Gospel of Christ comes to us through both Scripture and apostolic Tradition — two streams from the one source of God's revelation. The council also fixed the canon of the inspired books. Vatican II later developed the same teaching: Scripture, Tradition, and the Magisterium are so bound together that they cannot be separated (cf. Dei Verbum 10)."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Kinh Thánh nói người ta được cứu nhờ đức tin, không phải việc làm (Ep 2,8-9) — vậy Trentô có nghịch với Kinh Thánh khi loại trừ “chỉ nhờ đức tin” không?", "en": "The Bible says we're saved by faith, not works (Eph 2:8-9) — so didn't Trent contradict Scripture by rejecting “faith alone”?" },
+      "a": {
+        "vi": "Không. Công giáo hoàn toàn tin rằng ơn cứu độ khởi đi từ ân sủng nhưng không của Thiên Chúa, chứ không do ta “mua” bằng việc làm: “Chính do ân sủng… anh em được cứu độ, nhờ đức tin… không phải bởi việc anh em làm” (Ep 2,8-9). Điều Trentô loại trừ là chữ “chỉ… mà thôi” — vì chính Kinh Thánh cho thấy đức tin cứu độ là đức tin sống động, “hành động nhờ đức mến” (Gl 5,6). Thánh Giacôbê nói thẳng: “đức tin không có việc làm là đức tin chết” và “con người được nên công chính không phải chỉ nhờ đức tin, mà còn nhờ việc làm nữa” (Gc 2,17.24). Trentô không đối lập ân sủng với việc làm, mà giữ cả hai như Kinh Thánh: ân sủng đến trước và biến đổi ta, rồi trổ sinh việc lành.",
+        "en": "No. Catholics fully believe salvation begins with God's free grace, not something we “buy” with works: “By grace you have been saved through faith… not because of works” (Eph 2:8-9). What Trent rejected was the word “alone” — because Scripture itself shows that saving faith is a living faith, “working through love” (Gal 5:6). St James says plainly: “faith without works is dead” and “a person is justified by works and not by faith alone” (Jas 2:17,24). Trent did not set grace against works; it held both together as Scripture does: grace comes first and transforms us, then bears fruit in good works."
+      },
+      "category": "theology-doctrine",
+      "tags": ["salvation", "grace", "faith", "works", "protestant-objections"]
+    }
+  ],
+  "ccc_refs": [1992, 1129],
+  "image": {
+    "src": "/images/cong-dong/trent.jpg",
+    "medium": { "vi": "Phiên họp Công đồng Triđentinô, tranh thế kỷ XVI", "en": "A session of the Council of Trent, sixteenth-century painting" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}
