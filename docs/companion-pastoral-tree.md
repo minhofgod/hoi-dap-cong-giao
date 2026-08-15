@@ -95,7 +95,7 @@ Lead: *Bệnh tật có thể khiến ta cảm thấy yếu đuối, sợ hãi v
 1. *Đức Kitô không đứng xa giường bệnh của bạn. "Xúc động trước đau khổ, Người đã lấy những bệnh tật của chúng ta làm của mình."* (Mt 8,17 · GLHTCG 1505)
 2. *Những người đã đi trước bạn qua con đường này không lớn lên trong đức tin bất chấp bệnh tật, mà chính nhờ tựa vào Chúa giữa cơn bệnh: Carlô Acutis đã dâng căn bệnh ung thư của mình trong bình an; Bernadette đã mang bệnh tật lâu năm mà vẫn phó thác.*
 3. *Nỗi đau của bạn, khi kết hợp với Đức Kitô, không bao giờ vô ích — nhưng đây là một lời mời, không phải một đòi buộc. Hãy mang nỗi sợ và cơn đau đến với Người.*
-4. *Và đừng quên: Bí tích Xức Dầu Bệnh Nhân là một ơn sức mạnh và bình an — không chỉ dành cho người hấp hối. Hãy tìm đến một linh mục, các bí tích, và những người thương yêu bạn.*
+4. *Và đừng quên: Bí tích Xức Dầu Bệnh Nhân là một ơn sức mạnh và bình an dành cho những ai đang mang bệnh nặng, tuổi già, hoặc sắp bước vào một cuộc phẫu thuật — không chỉ dành cho người hấp hối. Hãy tìm đến một linh mục, các bí tích, và những người thương yêu bạn.*
 Scripture gloss: Mt 8,17. Saints: Carlô Acutis, Bernadette. Tags: `consolation`, `suffering`, `saints`.
 
 ### 5. Financial / need — QA `lo-lang-tien-bac`
