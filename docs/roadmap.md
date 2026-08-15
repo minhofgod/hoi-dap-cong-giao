@@ -314,6 +314,55 @@ results is handed to the owning lanes (keeps lane discipline): new tags → **Se
 (`lib/giaiDapTaxonomy.ts`); `related_qa`/`tags`/`short` frontmatter → **Session 3**
 (`content/giai-dap`); situation config → **Session 7** (`lib/dongHanh.ts`).
 
+## Companion — "companions in suffering" (saints bridge, ready for Session 7)
+
+**What.** A small, hand-curated element in the two suffering situations (`suffering`, `doubt-suffering`)
+that introduces **1–2 saints as companions who *relied on God through* suffering**, linking to their
+now-live Saints pages (`/cac-thanh/<slug>`).
+
+**Why this is the right — and probably the only — "grow closer to God" bridge we need.** Suffering met
+by reliance on God, the way the saints did, *is* growing closer to him. So this one bridge does double
+duty: it **consoles AND carries the "grow deeper" desire**, through the pastoral path rather than a
+separate "spirituality" branch. **Decision:** we likely do NOT need a standalone "grow closer to God"
+door — growth runs *through* the pastoral situations, with the saints as the models of reliance.
+
+**Framing — follow the content-guide "Pastoral tone" rule exactly** (docs/content-guide.md → "Pastoral
+tone — suffering, grief, and the saints"). Presence → reliance → closeness: *"others walked through
+this darkness and leaned on God — you can ask them to walk with you."* An **invitation, never "so
+should you."** Lead with presence; reliance is an open door, not an assignment.
+
+**Hand-curated, NOT tag-matched.** Pastoral tone is too important to leave to `matchResources` — a
+tonally-wrong saint here does real harm. Author the shortlist by hand in the situation config; do NOT
+surface saints in these situations algorithmically.
+
+**Saint shortlist (reliance-first, all live in `/cac-thanh`):**
+- `carlo-acutis` — a teen who offered his leukemia with peace; modern, relatable to illness / young grief.
+- `therese-lisieux` — the "little way": trust and abandonment to God through hidden suffering + illness.
+- **Các Thánh Tử Đạo VN** (`/cac-thanh/tu-dao-viet-nam`, e.g. `anre-dung-lac`) — relied on God unto
+  death; the heritage anchor.
+- `teresa-calcutta` — kept faith through years of interior darkness; apt for someone who feels God
+  *absent* in grief.
+- (also fitting: `bernadette-soubirous` chronic illness · `maximilian-kolbe` / `edith-stein` self-gift
+  in Auschwitz · `padre-pio` · `faustina-kowalska`.)
+
+Pick **1–2 per situation** (minimal — an invitation, not a catalogue):
+- `suffering` (grief/loss, "You do not walk alone"): **Carlo Acutis + Thérèse** (illness/trust,
+  young/relatable); optional heritage link to the VN Martyrs.
+- `doubt-suffering` ("how can a good God allow this"): **the VN Martyrs + Teresa Calcutta** — witnesses
+  who kept faith in the dark; anchors the branch's existing line "God entered our suffering on the cross."
+
+**Implementation (Session 7 lane):**
+- Add an optional `companions?: { href; name: Bi; line: Bi }[]` to the `Situation` type (where `line`
+  is the one-sentence reliance, *shown not told*), populated only on the two suffering situations.
+  Render under advice/scripture as a gentle **"Những người đã đi qua đêm tối / Companions who walked
+  through the dark"** element, each item linking to `/cac-thanh/<slug>`.
+- Keep 1–2 items, invitation framing, sitting **alongside** (never replacing) the pastoral "talk to a
+  priest" off-ramp. Whole tool is already `COMPANION_ENABLED`-gated and the saint pages are live, so no
+  dead links.
+
+**Lane:** Session 7 (`lib/dongHanh.ts` situation config + `components/DongHanh*` to render). Links into
+Session 9's live saint pages.
+
 ## Still open
 - **Q&A card banner fallback (website, Session 2).** `components/GiaiDapBrowser` renders the topic-card
   banner from `/images/giai-dap/<anchor>.jpg` unconditionally — a missing file shows a BROKEN image
