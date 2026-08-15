@@ -9,7 +9,10 @@ part_of: "duc-tin-va-viec-lam"
 refs_ccc: [1963, 1992]
 refs_scripture: ["Gl 5,6"]
 featured: false
-related: []
+related:
+  - "apraham-cong-chinh-hoa-nho-duc-tin"
+  - "duc-tin-va-viec-lam"
+  - "duoc-cuu-nho-duc-tin-khong-boi-viec-lam"
 ---
 
 Thánh Phaolô quả thật nhấn mạnh sự công chính hóa nhờ đức tin. Nhưng cần hiểu rõ ngài đang **bác bỏ điều gì**.

@@ -9,7 +9,10 @@ part_of: "duc-tin-va-viec-lam"
 refs_ccc: [1021, 1993]
 refs_scripture: ["Lc 23,40-43"]
 featured: false
-related: []
+related:
+  - "duc-tin-va-viec-lam"
+  - "viec-lam-co-phai-tu-kiem-on-cuu-do"
+  - "chi-can-tin-vao-chua-giesu-la-du"
 ---
 
 Người trộm lành trên thập giá là một **trường hợp ngoại lệ đẹp đẽ lúc lâm chung**, chứ không phải là khuôn mẫu bình thường của đời sống Kitô hữu.

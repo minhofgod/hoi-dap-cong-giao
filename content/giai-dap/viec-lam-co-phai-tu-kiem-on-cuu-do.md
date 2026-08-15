@@ -9,7 +9,10 @@ part_of: "duc-tin-va-viec-lam"
 refs_ccc: [2008, 2010, 2447]
 refs_scripture: ["Pl 2,12-13", "Mt 25,35-40"]
 featured: false
-related: []
+related:
+  - "duc-tin-va-viec-lam"
+  - "duoc-cuu-nho-duc-tin-khong-boi-viec-lam"
+  - "nguoi-trom-lanh-tren-thap-gia"
 ---
 
 **Không.** Người Công giáo dạy rằng chúng ta được cứu độ **hoàn toàn bởi ân sủng**. Ngay cả mỗi việc lành tự nó đã là **một ân huệ của Thiên Chúa** — chúng ta chỉ đơn giản cộng tác với ân sủng ấy, chứ không tự mình "kiếm" lấy điều gì:

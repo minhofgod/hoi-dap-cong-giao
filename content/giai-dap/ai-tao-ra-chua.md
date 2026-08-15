@@ -13,7 +13,8 @@ parts:
   - "lam-sao-biet-vu-tru-co-khoi-dau"
   - "vu-tru-co-the-hang-huu-khong"
   - "nguyen-nhan-dau-tien-tai-sao-la-thien-chua"
-related: []
+related:
+  - "bang-chung-chua-giesu-song-lai"
 ---
 
 Đây là một trong những câu hỏi hay nhất mà người ta đặt ra — và câu trả lời nằm ở chỗ làm rõ **định nghĩa** của "Đấng Sáng Tạo". Khi hỏi "ai tạo ra Chúa?", ta đang ngầm cho rằng Chúa cũng là loại thứ **cần** một nguyên nhân. Nhưng đó chính là điều định nghĩa về Đấng Sáng Tạo phủ nhận.

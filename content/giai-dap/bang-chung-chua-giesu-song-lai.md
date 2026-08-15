@@ -17,7 +17,8 @@ parts:
   - "cac-sach-phuc-am-co-mau-thuan-ve-song-lai"
   - "lo-co-nguoi-an-cap-xac-chua"
   - "co-the-la-ao-giac-tap-the-khong"
-related: []
+related:
+  - "giao-hoi-co-chinh-sua-kinh-thanh-khong"
 related_video: "bang-chung-chua-giesu-song-lai"
 ---
 

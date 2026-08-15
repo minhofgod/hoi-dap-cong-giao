@@ -15,7 +15,9 @@ parts:
   - "chua-giesu-chuoc-toi-nghia-la-gi"
   - "on-cuu-do-la-qua-tang-co-the-tu-do-pham-toi-khong"
   - "nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong"
-related: []
+related:
+  - "chua-giesu-chuoc-toi-nghia-la-gi"
+  - "duc-tin-va-viec-lam"
 related_video: "tai-sao-chua-giesu-chiu-dong-dinh"
 ---
 

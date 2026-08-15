@@ -9,7 +9,10 @@ part_of: "duc-tin-va-viec-lam"
 refs_ccc: [145, 2010]
 refs_scripture: ["Gc 2,21-23", "St 15,6"]
 featured: false
-related: []
+related:
+  - "thanh-phaolo-cong-chinh-hoa-nho-duc-tin"
+  - "duc-tin-va-viec-lam"
+  - "duoc-cuu-nho-duc-tin-khong-boi-viec-lam"
 ---
 
 Đúng là ông Ápraham ban đầu được kể là công chính khi ông **tin** vào lời hứa của Thiên Chúa (x. St 15,6). Nhưng Kinh Thánh cho thấy ông còn được công chính hóa **thêm nữa** khi đức tin ấy hành động — khi ông hiến dâng Ixaác trên bàn thờ:

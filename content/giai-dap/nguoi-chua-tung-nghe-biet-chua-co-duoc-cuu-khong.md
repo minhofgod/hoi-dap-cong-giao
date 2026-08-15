@@ -11,6 +11,7 @@ featured: false
 part_of: "tai-sao-chua-giesu-chiu-dong-dinh"
 related:
   - "tai-sao-chua-giesu-chiu-dong-dinh"
+  - "duc-tin-va-viec-lam"
 ---
 
 **Có — họ vẫn có thể được cứu độ.** Giáo Hội Công Giáo **không** dạy rằng ai chưa từng nghe biết Chúa Giêsu thì tự động bị hư mất. Đây là một trong những giáo huấn hay bị hiểu lầm nhất, nên xin nói cho rõ.

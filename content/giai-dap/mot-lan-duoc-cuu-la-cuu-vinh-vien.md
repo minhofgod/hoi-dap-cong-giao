@@ -9,7 +9,10 @@ part_of: "duc-tin-va-viec-lam"
 refs_ccc: [161, 1821, 2016]
 refs_scripture: ["Ep 2,8", "1 Cr 15,2", "Cl 1,21-22", "Rm 13,11"]
 featured: false
-related: []
+related:
+  - "duc-tin-va-viec-lam"
+  - "on-cuu-do-la-qua-tang-co-the-tu-do-pham-toi-khong"
+  - "viec-lam-co-phai-tu-kiem-on-cuu-do"
 ---
 
 Nhiều người xem ơn cứu độ như một khoảnh khắc duy nhất không bao giờ có thể mất đi. Người Công giáo đồng ý rằng có một **khoảnh khắc khởi đầu** thật sự của ơn cứu độ — thư Êphêsô dùng thì quá khứ:

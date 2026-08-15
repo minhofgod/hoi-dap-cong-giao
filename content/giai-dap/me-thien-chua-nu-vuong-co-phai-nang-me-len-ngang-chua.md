@@ -12,6 +12,7 @@ part_of: "nguoi-cong-giao-co-tho-nguong-tuong-khong"
 related:
   - "nguoi-cong-giao-co-tho-nguong-tuong-khong"
   - "sup-lay-truoc-duc-maria-va-cac-thanh"
+  - "tai-sao-cau-nguyen-voi-cac-thanh"
 ---
 
 **Không. Những tước hiệu này tôn vinh vai trò của Đức Maria, nhưng không bao giờ đặt Mẹ ngang hàng với Thiên Chúa.** Người Công Giáo dành cho Đức Maria một lòng **tôn kính đặc biệt** (tiếng Latinh gọi là *hyperdulia*) — cao hơn lòng tôn kính dành cho các thánh khác, vì Mẹ là Mẹ Thiên Chúa — nhưng đó vẫn **tuyệt đối không phải là thờ phượng** (*latria*), là điều chỉ dành riêng cho một mình Thiên Chúa.

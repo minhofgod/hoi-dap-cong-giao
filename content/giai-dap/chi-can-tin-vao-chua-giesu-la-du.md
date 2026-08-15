@@ -9,7 +9,10 @@ part_of: "duc-tin-va-viec-lam"
 refs_ccc: [1815, 2614]
 refs_scripture: ["Gc 2,19", "Ga 14,15", "Mt 7,21", "1 Tm 5,8"]
 featured: false
-related: []
+related:
+  - "duc-tin-va-viec-lam"
+  - "nguoi-trom-lanh-tren-thap-gia"
+  - "mot-lan-duoc-cuu-la-cuu-vinh-vien"
 ---
 
 Có một khác biệt quan trọng giữa việc **tin rằng** Chúa Giêsu hiện hữu và thực sự **tin cậy, gắn bó** với Người. Ngay cả ma quỷ cũng "tin" có Thiên Chúa:

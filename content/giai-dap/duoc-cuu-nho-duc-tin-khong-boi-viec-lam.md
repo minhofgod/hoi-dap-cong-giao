@@ -9,7 +9,11 @@ part_of: "duc-tin-va-viec-lam"
 refs_ccc: [1987, 1815, 1993]
 refs_scripture: ["Ep 2,8-9", "Gc 2,17", "Gc 2,26", "Ga 15,4-5"]
 featured: false
-related: []
+related:
+  - "duc-tin-va-viec-lam"
+  - "chi-can-tin-vao-chua-giesu-la-du"
+  - "viec-lam-co-phai-tu-kiem-on-cuu-do"
+  - "thanh-phaolo-cong-chinh-hoa-nho-duc-tin"
 ---
 
 Đây là phản đối cốt lõi, dựa trên thư Êphêsô:
