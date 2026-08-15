@@ -83,7 +83,7 @@ Lead: *Sợ hãi cho mạng sống mình là điều rất con người — khô
 2. *Nhưng nếu một ngày bạn đứng trước lằn ranh không thể lùi — hãy nhớ bạn không đứng đó một mình. Đức Kitô đã đi trước bạn qua chính con đường ấy, và các Thánh Tử Đạo Việt Nam cũng vậy: các ngài đã sợ hãi, nhưng đã bền chí.*
 3. *Lời Chúa hứa ở đây không phải một lời đe dọa, mà là một điểm tựa: "ai bền chí đến cùng, người ấy sẽ được cứu."* (Mt 24,13)
 4. *Và ơn sức mạnh được ban đúng vào lúc bạn cần đến — không phải trước. Ngay bây giờ: hãy tìm nơi an toàn, hãy tìm một linh mục hoặc người bạn tin cậy, và đừng mang gánh nặng này một mình.*
-Scripture gloss: Mt 24,13 (or Mt 10,22). Saint bridge: Các Thánh Tử Đạo Việt Nam. Tags: `persecution`, `suffering`, `saints`.
+Scripture gloss: Mt 24,13 (or Mt 10,22). **Martyr bridge via `companions`** (Các Thánh Tử Đạo Việt Nam) — NOT the `saints` tag. Tags: `persecution`, `suffering`.
 **Tone guardrails:** never guilt toward martyrdom; flee/safety FIRST; "grace given in the moment, not before"; endure-as-promise, **never** Mt 10,33 ("deny me → I deny you"). For real danger the human/safety off-ramp is non-negotiable — "seek safety and help now."
 
 ---
@@ -142,7 +142,7 @@ Lead: *Bị thế gian coi thường vì đức tin có thể khiến ta thấy 
 2. *"Anh em không thuộc về thế gian" (Ga 15,19) — sự khó chịu ấy là dấu chỉ bạn thuộc về một nơi cao hơn. Đây không phải lời mời gọi kiêu hãnh hay ghét lại, mà là một sự khác biệt thầm lặng và vui tươi.*
 3. *Bạn đứng trong một hàng dài các chứng nhân — các Thánh Tử Đạo Việt Nam, Thánh Maximilianô Kolbe — những người bị chế giễu, ruồng bỏ và hơn thế, mà vẫn can đảm. Lòng can đảm ấy không phải của riêng họ; đó là ân sủng, và cùng một ân sủng ấy được ban cho bạn.*
 4. *Đừng giấu đức tin vì sợ hãi, nhưng cũng đừng mang sự ghét bỏ của thế gian như một vết thương — hãy mang nó như Đức Kitô đã mang, với bình an. Và hãy tựa vào cộng đoàn của bạn; đừng đứng một mình.*
-Scripture gloss: Ga 15,18–19. Saints: VN Martyrs, Kolbe. Tags: `persecution`, `saints`.
+Scripture gloss: Ga 15,18–19. **Martyr bridge via `companions`** (VN Martyrs, Kolbe) — NOT the `saints` tag. Tags: `persecution`.
 
 ### 10. Something else — QA `dau-kho-noi-chung` (gentle catch-all)
 Question: *"Tôi đang đau khổ vì một điều khác..."*
@@ -172,13 +172,21 @@ Scripture gloss: Tv 139,13 · Gr 1,5 · Lc 12,7 · Rm 5,8 · 1 Ga 4,19 · Mt 5,4
 |---|---|---|---|---|---|
 | `doi-dien-voi-mat-mat` | đối diện với nỗi đau mất người thân | god-meaning | consolation, suffering, afterlife | Ga 11,35 · Kh 21,4 | Đức Mẹ Sầu Bi |
 | `nguoi-than-qua-doi-duoc-cuu-khong` | làm sao biết người đã khuất được cứu độ | theology-doctrine | afterlife, salvation, consolation, suffering | GLHTCG 847 · 1 Tm 2,4 | — |
-| `nguy-hiem-tinh-mang-vi-duc-tin` | nguy hiểm tính mạng vì đức tin, phải làm gì | morality-life | persecution, suffering, saints | Mt 10,23 · Mt 24,13 | VN Martyrs |
+| `nguy-hiem-tinh-mang-vi-duc-tin` | nguy hiểm tính mạng vì đức tin, phải làm gì | morality-life | persecution, suffering | Mt 10,23 · Mt 24,13 | VN Martyrs |
 | `dau-om-benh-tat` | đang bệnh tật/đau ốm | god-meaning | consolation, suffering, saints | GLHTCG 1505 | Carlo Acutis, Bernadette |
 | `lo-lang-tien-bac` | lo lắng về tài chính, thiếu thốn | god-meaning | consolation, suffering | Mt 6,25–34 | — |
 | `co-don-khong-ai-gan-gui` | cô đơn, không ai gần gũi | god-meaning | consolation, prayer | Mt 28,20 | — |
 | `co-don-chua-nhu-vang-mat` | thấy Chúa như vắng mặt | god-meaning | consolation, prayer, saints | Mc 15,34 | Teresa Calcutta |
 | `bi-nguoi-nha-chong-doi-vi-duc-tin` | người nhà chống đối vì đức tin | morality-life | persecution, consolation | Mt 10,34–36 | — |
-| `the-gian-ghet-bo-vi-duc-tin` | thế gian ghét bỏ vì đức tin | morality-life | persecution, saints | Ga 15,18–19 | VN Martyrs, Kolbe |
+| `the-gian-ghet-bo-vi-duc-tin` | thế gian ghét bỏ vì đức tin | morality-life | persecution | Ga 15,18–19 | VN Martyrs, Kolbe |
+
+> ⚠️ **Do NOT tag persecution Q&As with `saints`.** The `saints` tag is the *veneration/intercession*
+> cluster ("why pray to the saints") — tagging a persecution piece with it pulls those apologetics into
+> the follow-ups (confirmed bug). Bridge to the courageous **martyr** saints through the situation's
+> hand-curated **`companions`** element (links to the VN Martyrs / Kolbe saint pages), never the tag.
+> General rule: **never force a follow-up list to fill up with weakly-related items — a short, on-topic
+> list beats a padded one** (`followUps` already drops zero-overlap items; the job is to not create false
+> overlap via broad shared tags).
 | `toi-cam-thay-minh-chua-du` | luôn cảm thấy mình chưa đủ, không xứng đáng được yêu | god-meaning | consolation, grace | Tv 139,13 · Rm 5,8 · Mt 5,48 | — |
 
 *(Slugs/categories are proposals — verify VN wording per the terminology rule; the owner may re-home
