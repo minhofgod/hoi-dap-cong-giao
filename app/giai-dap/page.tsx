@@ -2,7 +2,6 @@ import { MessageCircleQuestion } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
 import { GiaiDapBrowser } from '@/components/GiaiDapBrowser';
-import { DongHanhCta } from '@/components/DongHanhCta';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getCouncilApologetics } from '@/lib/councilsV2';
 import styles from './giai-dap.module.css';
@@ -58,8 +57,6 @@ export default function GiaiDapIndexPage() {
             <T vi="Câu hỏi thường gặp" en="Frequently asked questions" />
           </h1>
         </div>
-
-        {hasContent && <DongHanhCta className={styles.companionCta} />}
 
         {hasContent ? (
           <GiaiDapBrowser questions={cards} councilQuestions={councilCards} />
