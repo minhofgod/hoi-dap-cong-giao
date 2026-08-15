@@ -3,7 +3,7 @@ question_vi: "Người ngoài, xã hội chế giễu và ghét bỏ tôi vì t�
 question_en: "The world and society mock and reject me for believing — how do I stand firm?"
 topic: "Bách hại vì đức tin"
 category: "morality-life"
-tags: ["persecution", "saints"]
+tags: ["persecution"]
 subcategory: "Bách hại"
 refs_ccc: [2473, 675]
 refs_scripture: ["Ga 15,18-19"]

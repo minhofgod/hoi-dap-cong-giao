@@ -3,7 +3,7 @@ question_vi: "Tôi có thể gặp nguy hiểm tính mạng vì đức tin — t
 question_en: "I may be in danger of my life because of my faith — what should I do?"
 topic: "Bách hại vì đức tin"
 category: "morality-life"
-tags: ["persecution", "suffering", "saints"]
+tags: ["persecution", "suffering"]
 subcategory: "Bách hại"
 refs_ccc: [2473, 1808]
 refs_scripture: ["Mt 10,23", "Mt 24,13"]
