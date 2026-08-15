@@ -13,9 +13,15 @@ Steps:
 1. Read the tracker — especially its `## Mapping` table (topic → script file, video slug, Q&A anchor).
 
 2. For each mapped topic, check the real files and determine true status:
-   - **Script** — the mapping's "Script file" cell may list SEVERAL comma-separated names. Script is
-     ✅ if ANY of them exists as `<name>.md` anywhere under `D:\Dropbox\Obsidian Vault\Video Scripts\`
-     (any subfolder). Note the subfolder(s) — that's the script's stage.
+   - **Script** — the mapping's "Script file" cell may list SEVERAL comma-separated names; use any
+     that exists as `<name>.md` under `D:\Dropbox\Obsidian Vault\Video Scripts\`. The FOLDER signals
+     readiness:
+       • Finished Videos / Unpublished Video Scripts / Processed Video Scripts → READY → Script ✅;
+       • Drafts (or loose in the root) → a DRAFT, NOT READY → Script 🚧;
+       • not found anywhere → Script 🔲 (or `—` if the mapping cell is `—`).
+     A ready folder wins over Drafts/root if the script is in both. (Folder meanings: Finished Videos
+     = the exact script of a published video · Unpublished = finalized script, no video yet ·
+     Processed = a Finished/Unpublished script with CGKPV wikilinks added · Drafts = not ready.)
    - **Video** — does `content/video/<video-slug>.md` exist? → Video ✅.
    - **Video tagged** — does that video's frontmatter contain BOTH `category:` and `tags:`? → Tagged ✅.
    - **Q&A** — does `content/giai-dap/<qa-anchor>.md` exist? → Q&A ✅.
