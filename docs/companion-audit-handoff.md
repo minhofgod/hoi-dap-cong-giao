@@ -6,6 +6,12 @@ it's tuning + linking *existing* Q&As plus one tiny additive code field. New wri
 gaps) stays the owner's track, at their pace. Nothing here is blocked or depends on v2 being finished.
 
 ## Priority order
+
+> ⚠️ **Ship-first live bug (mobile) — see "→ Session 7 (BUG)" below.** The companion loses its whole
+> journey and resets to step 1 whenever you follow *any* outbound link (read full answer / suggested
+> read / watch video) and press Back. This breaks the tool's core loop on mobile; its `sessionStorage`
+> half is small and shippable ahead of the rest of v2. Do this before the tuning items.
+
 1. **Now — three one-line edits, verified, zero risk:** Session 7's `authority` drop + `doubt-suffering`
    re-tag, and Session 3's paired re-tag. Fixes two real relevance defects.
 2. **Next — small code + quality pins:** Session 7 adds the `seedPins` field, then the Nicaea II pin +
@@ -21,7 +27,37 @@ gaps) stays the owner's track, at their pace. Nothing here is blocked or depends
 
 ---
 
-## → Session 7  *(lane: `lib/dongHanh.ts`)*
+## → Session 7 (BUG — ship first, mobile)  *(lane: `components/DongHanh.tsx`)*
+
+**Companion loses its place — resets to step 1 on Back after any outbound link.**
+
+**Repro (mobile, live in prod):** on `/dong-hanh`, answer a few questions to reach an answer → tap
+**any** outbound link — "Đọc câu trả lời đầy đủ / read the full answer", a "Gợi ý đọc trước" suggestion,
+or a watch-video link → land on that page → press browser Back → the companion has reset to the **first
+question**. The journey (`trail`) is gone, so you can't keep choosing the next path.
+
+**Cause (confirmed by reading the code):** `components/DongHanh.tsx` holds the whole flow in `useState`
+(`stack`, `sitId`, `trail`, `ended`) with **no URL/history/storage sync**. ANY navigation away from
+`/dong-hanh` re-mounts the component on return → resets to `[START_STEP]`. Every outbound link hits this,
+not just one. No per-step history entry is pushed either, so browser Back never steps back one question.
+
+**Fix (fold into v2, but #1 is small and independently shippable now):**
+1. **Persist `{stack, sitId, trail, ended}` to `sessionStorage`** on change, restore on mount. One fix
+   covers *every* outbound link (read-full-answer, suggested reads, watch-video) — you return to exactly
+   where you were, trail intact, and keep walking. This is the ship-first piece.
+2. **Make Back step back one screen** — `window.history.pushState` per step/answer; on `popstate`, pop
+   `stack`/`trail`. Back = previous question; only Back from the first screen exits the tool.
+3. *Optional:* a compact `?p=` URL param → shareable/bookmarkable, and makes 1 & 2 fall out naturally.
+4. *Fallback* if App-Router history sync is fiddly: at minimum add a visible in-UI "Quay lại / Back"
+   control so users aren't dependent on the browser Back.
+
+**Acceptance (mobile):** answer 2–3 questions → open the full answer (or a suggested read, or a video) →
+Back → you return to the same answer, trail intact, able to keep choosing the next path; and Back within
+the flow steps back one question, not to the start.
+
+---
+
+## → Session 7  *(lane: `lib/dongHanh.ts`)* — relevance-audit config items
 
 Three items from the relevance audit (`docs/companion-relevance-audit.md`, hand-off table). Can be done
 independent of / alongside the v2 work.
