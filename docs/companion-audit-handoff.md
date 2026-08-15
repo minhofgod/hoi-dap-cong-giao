@@ -7,7 +7,7 @@ gaps) stays the owner's track, at their pace. Nothing here is blocked or depends
 
 ## Priority order
 
-> ⚠️ **Ship-first live bug (mobile) — see "→ Session 7 (BUG)" below.** The companion loses its whole
+> ⚠️ **Ship-first live bug (all platforms — mobile AND desktop) — see "→ Session 7 (BUG)" below.** The companion loses its whole
 > journey and resets to step 1 whenever you follow *any* outbound link (read full answer / suggested
 > read / watch video) and press Back. This breaks the tool's core loop on mobile; its `sessionStorage`
 > half is small and shippable ahead of the rest of v2. Do this before the tuning items.
@@ -27,11 +27,12 @@ gaps) stays the owner's track, at their pace. Nothing here is blocked or depends
 
 ---
 
-## → Session 7 (BUG — ship first, mobile)  *(lane: `components/DongHanh.tsx`)*
+## → Session 7 (BUG — ship first)  *(lane: `components/DongHanh.tsx`)*
 
-**Companion loses its place — resets to step 1 on Back after any outbound link.**
+**Companion loses its place — resets to step 1 on Back after any outbound link. ALL platforms
+(confirmed mobile + desktop — it's platform-agnostic React re-mount behavior, nothing mobile-specific).**
 
-**Repro (mobile, live in prod):** on `/dong-hanh`, answer a few questions to reach an answer → tap
+**Repro (any browser, live in prod):** on `/dong-hanh`, answer a few questions to reach an answer → tap
 **any** outbound link — "Đọc câu trả lời đầy đủ / read the full answer", a "Gợi ý đọc trước" suggestion,
 or a watch-video link → land on that page → press browser Back → the companion has reset to the **first
 question**. The journey (`trail`) is gone, so you can't keep choosing the next path.
