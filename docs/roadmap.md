@@ -146,6 +146,51 @@ cross-links.
 **Homepage:** hero + Đồng hành CTA, then the two families as card groups. The Church History hub is
 the immediate actionable (it surfaces the Councils now); Saints + Miracles are reserved slots.
 
+### Build order: Saints BEFORE Miracles (decided 2026-08-15)
+Do **Các Thánh first**, then **Phép Lạ & Hiện Ra**. Why: (1) the Vietnamese Martyrs are the unique
+heritage anchor — highest distinctiveness, strongest identity pull; (2) a saint entry reuses the
+existing Giáo Phụ model (person + era + portrait + bio) — Miracles needs a NEW event/evidence model;
+(3) Saints lays the **on-ramps into Miracles** — Bernadette→Lộ Đức, Juan Diego→Guadalupe, Carlo
+Acutis→Eucharistic miracles — so each bridge saint ends with "→ đọc về phép lạ" pointing into the
+future section; build Miracles first and it has no front doors. Carlo Acutis is the connective
+tissue (the millennial saint who himself catalogued Eucharistic miracles; canonized 7 Sep 2025).
+
+### Session 9 — Các Thánh: starting lineup (ready to hand off)
+Same philosophy as the 30 Fathers: **curate, don't cover everything.** ~21 entries for the first
+pass (≈ councils/fathers scale), grouped by theme, room to grow. Reuse the Giáo Phụ content model.
+
+**Tier 1 — Các Thánh Tử Đạo Việt Nam (heritage anchor):** an overview page (the 117 canonized by
+John Paul II, 1988 + Bl. Anrê Phú Yên) + ~7 individuals chosen for *diversity*, not just clergy:
+Anrê Dũng-Lạc (priest, namesake) · Á Thánh Anrê Phú Yên (protomartyr ~1644, catechist) · Anê Lê Thị
+Thành (the ONE woman of the 117, a mother/laywoman) · Tôma Trần Văn Thiện (teen seminarian) ·
+Emmanuel Lê Văn Phụng (layman/head of household) · Phaolô Lê Bảo Tịnh (priest, left prison letters) ·
+Thánh Ven / Théophane Vénard (foreign missionary).
+
+**Tier 2 — ~14 curated post-patristic saints (devotional lens):**
+- *Modern witnesses:* Carlo Acutis **[→ bridge to Miracles: Eucharistic]** · Têrêsa Hài Đồng Giêsu
+  (Thérèse of Lisieux) · Cha Piô / Piô Năm Dấu (Padre Pio) · Maximilianô Kolbe · Faustina (Divine
+  Mercy) · Têrêsa Calcutta.
+- *Converts / intellectuals (for the seeker audience):* Inhaxiô Loyola · Têrêsa Bênêđicta Thánh Giá
+  (Edith Stein).
+- *Bridge saints → Miracles & Apparitions:* Bernadette **[→ Lộ Đức/Lourdes]** · Juan Diego
+  **[→ Guadalupe]**.
+- *Bridge → the companion's "loved one drifted" path:* Mônica.
+- *Beloved patrons:* Phanxicô Assisi · Thánh Giuse (St. Joseph) · Gioan Phaolô II (**also** the pope
+  who canonized the 117 VN Martyrs — links back to Tier 1).
+
+**Two build flags for Session 9:**
+1. **Verify every VN name** per the terminology rule (site content → HĐGM VN, NEVER VN Wikipedia).
+   The forms above (e.g. *Piô Năm Dấu*, *Têrêsa Hài Đồng Giêsu*, *Lộ Đức*) are best-guesses — confirm
+   before authoring. Also re-verify the two Carlo Acutis miracle healings' names/dates vs the Vatican
+   Dicastero source when writing his entry (Brazilian boy Mattheus, 2013, beatification; Costa Rican
+   Valeria Valverde, 2022, canonization).
+2. **Each bridge entry ends with a forward link** ("→ đọc về phép lạ") into the future Miracles
+   section, so Saints-first pre-lays the on-ramps.
+
+**Lane:** `app/cac-thanh` (list + detail) · `lib/saints*` (may mirror `churchFathersV2`) ·
+`content/cac-thanh/*.json` (per-saint, bilingual) · `public/images/cac-thanh` (PD portraits + a
+Catholic Images/CREDITS row each). Session 8 only adds the homepage card + nav link.
+
 ## Still open
 - **Q&A card banner fallback (website, Session 2).** `components/GiaiDapBrowser` renders the topic-card
   banner from `/images/giai-dap/<anchor>.jpg` unconditionally — a missing file shows a BROKEN image
