@@ -61,6 +61,8 @@ export const TAGS: readonly TaxonomyTerm[] = [
   { id: 'sacraments', vi: 'Bí tích', en: 'Sacraments' },
   { id: 'sin', vi: 'Tội & lương tâm', en: 'Sin & conscience' },
   { id: 'afterlife', vi: 'Đời sau', en: 'Afterlife' },
+  { id: 'consolation', vi: 'An ủi & hy vọng', en: 'Consolation & hope' },
+  { id: 'persecution', vi: 'Bách hại & làm chứng', en: 'Persecution & witness' },
 ] as const;
 
 const CATEGORY_BY_ID = new Map(CATEGORIES.map((c) => [c.id, c]));
