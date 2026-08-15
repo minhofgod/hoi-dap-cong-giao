@@ -8,7 +8,7 @@
   padding: 0 var(--page-gutter);
   border-bottom: 1px solid var(--border);
   background: var(--ground);
-  gap: 24px;
+  gap: 20px;
 }
 
 .brand {
@@ -37,7 +37,7 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 24px;
 }
 
 .navItem {
@@ -66,7 +66,7 @@
 
 .searchForm {
   position: relative;
-  width: 230px;
+  width: 200px;
 }
 .searchIcon {
   position: absolute;
@@ -162,9 +162,11 @@
   padding: 14px 4px 2px;
 }
 
-/* On phones, collapse the inline nav + search into the hamburger menu. This scales as more
-   sections are added (Videos, etc.) — everything lives in the dropdown, so the bar stays clean. */
-@media (max-width: 899px) {
+/* Collapse the inline nav + search into the hamburger menu below the width where the full bar
+   comfortably fits (~1075px min content: brand + 5 nav items incl. the long "Lịch Sử Hội Thánh" +
+   language toggle + search). Kept at 1099px so no viewport shows a cramped/overflowing bar; this
+   scales as more sections are added — everything lives in the dropdown, so the bar stays clean. */
+@media (max-width: 1099px) {
   .header {
     padding: 0 var(--mobile-gutter);
     gap: 10px;

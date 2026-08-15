@@ -76,15 +76,6 @@ export default function HomePage() {
       <SiteHeader />
 
       <main className={styles.page}>
-      {/* Front-door companion CTA for seekers — top of the homepage. DongHanhCta self-gates
-          (returns null when the companion flag is off); the band wrapper is guarded too so no
-          empty bordered strip ships in that case. */}
-      {COMPANION_ENABLED && (
-        <section className={styles.companionBand}>
-          <DongHanhCta />
-        </section>
-      )}
-
       <section className={styles.sectionCards}>
         <Link href="/giai-dap" className={`${styles.card} ${styles.cardSage}`}>
           <span className={styles.cardImage}>
@@ -165,6 +156,15 @@ export default function HomePage() {
           </span>
         </Link>
       </section>
+
+      {/* Front-door companion CTA for seekers, just below the section cards. DongHanhCta self-gates
+          (returns null when the companion flag is off); the band wrapper is guarded too so no
+          empty bordered strip ships in that case. */}
+      {COMPANION_ENABLED && (
+        <section className={styles.companionBand}>
+          <DongHanhCta />
+        </section>
+      )}
 
       {heroQuestions.length > 0 && (
         <section className={styles.hero}>

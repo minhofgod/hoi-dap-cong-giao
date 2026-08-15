@@ -20,9 +20,6 @@ interface Section {
 }
 
 const SECTIONS: Section[] = [
-  // Đồng hành companion — front-door for seekers, first nav item. Gated so it vanishes (along
-  // with the route + homepage band) when NEXT_PUBLIC_COMPANION=0, leaving no dead link.
-  ...(COMPANION_ENABLED ? [{ href: '/dong-hanh', vi: 'Đồng hành', en: 'Companion' }] : []),
   { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A' },
   { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism' },
   // The Church History hub groups Giáo Phụ (Fathers) + Công Đồng (Councils) into one nav item,
@@ -30,6 +27,9 @@ const SECTIONS: Section[] = [
   // `also` keeps the hub highlighted on its child routes (the Fathers/Councils detail pages).
   { href: '/lich-su-hoi-thanh', vi: 'Lịch Sử Hội Thánh', en: 'Church History', also: ['/giao-phu', '/cong-dong'] },
   { href: '/video', vi: 'Video', en: 'Videos' },
+  // Đồng hành companion — last nav item. Gated so it vanishes (along with the route + homepage
+  // band) when NEXT_PUBLIC_COMPANION=0, leaving no dead link.
+  ...(COMPANION_ENABLED ? [{ href: '/dong-hanh', vi: 'Đồng hành', en: 'Companion' }] : []),
 ];
 
 export function SiteHeader() {
