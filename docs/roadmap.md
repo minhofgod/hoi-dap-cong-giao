@@ -118,6 +118,26 @@ may diverge in wording — each is authored and VERIFIED on its own, in its own 
 play-icon treatment (companion session). Layer 2 — the optional `related_video`/`related_qa` page
 cross-links.
 
+## Future sections + homepage IA (brainstorm 2026-08-15)
+
+**Group the sections into families:**
+- **Đồng hành (Companion)** — front-door CTA for seekers, top of homepage.
+- **Học hỏi đức tin (Learn):** Giáo Lý (Catechism) · Giải Đáp (Q&A) · Video.
+- **Lịch sử & chứng nhân (History & witnesses):**
+  - **Lịch Sử Hội Thánh (Church History)** — a HUB grouping Giáo Phụ (Fathers) + Công Đồng (Councils),
+    both already era-organized. Replaces the standalone Church Fathers card on the homepage and
+    surfaces the Councils without adding a new top-level card. (Route e.g. `/lich-su-hoi-thanh`.)
+  - **Các Thánh (Saints)** [future] — life stories / inspiration; broader than the Fathers (all eras,
+    martyrs, mystics, modern e.g. Carlo Acutis). Overlap note: the Fathers *are* saints but sit under
+    Church History for their doctrinal role; the Saints section is the devotional lens.
+  - **Phép Lạ & Hiện Ra (Miracles & Apparitions)** [future] — Eucharistic miracles + Marian
+    apparitions (à la Carlo Acutis's "Eucharistic Miracles of the World" + his Marian apparitions
+    catalogue), plus Lourdes healings, incorrupt bodies, miraculous images (Guadalupe). Strong for the
+    seeker/evidence audience (ties to the `evidence-history` / `science-faith` categories).
+
+**Homepage:** hero + Đồng hành CTA, then the two families as card groups. The Church History hub is
+the immediate actionable (it surfaces the Councils now); Saints + Miracles are reserved slots.
+
 ## Still open
 - Content AI later: site-content-only with citations (recommended) vs. also online sources.
 - Languages: companion flow bilingual (like the rest of the site) — assumed yes.
