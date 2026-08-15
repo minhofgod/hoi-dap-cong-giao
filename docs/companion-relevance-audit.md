@@ -46,6 +46,12 @@ outranking the crucifixion cluster) **is fixed**; `doubt-evidence`, `defend-sain
 `defend-church`, `explore-basics` need **no changes**. Three situations need a small config edit, one
 needs a pin, and the biggest lever is not the matcher at all — it's the content gaps (F5).
 
+> **Pastoral-tone confirm-pass (2026-08-15).** After the "Pastoral tone" rule landed in
+> `docs/content-guide.md`, I re-checked every piece routed to a grief-adjacent path (`suffering`,
+> `doubt-suffering`, `loved-one-*`) by *tone*, not topic. Net change: **one grief pin withdrawn** (the Good
+> Thief piece — its text ends in a works *demand*), two caveated, and a path-level tone lens added for
+> Sessions 2/3/7. Full detail in the [Pastoral-tone confirm-pass addendum](#pastoral-tone-confirm-pass-2026-08-15-addendum).
+
 ---
 
 ## Deliverable 1 — Situation audit + curated routes
@@ -187,14 +193,18 @@ confirmed by reading it — robot/slave analogy, `part_of` the crucifixion apolo
 After this the pastoral `suffering` path returns **only** the consoling crucifixion items + video (verified),
 and `doubt-suffering` (now tagged `free-will`) still surfaces it. One re-tag fixes both situations.
 
-**Additional curation — needs `seedPins`.** The most *consoling* piece for someone facing death/loss is the
-**Good Thief** (`nguoi-trom-lanh-tren-thap-gia` — deathbed mercy, hope), but it's tagged `faith/works/salvation`
-and shares **no** tag with `suffering`, so config cannot reach it. Same for `chua-giesu-chuoc-toi-nghia-la-gi`
-(what the cross *won* for you). Proposed once the field exists:
+**Additional curation — needs `seedPins`, but tone-gated (see [Pastoral-tone confirm-pass](#pastoral-tone-confirm-pass-2026-08-15-addendum)).**
+My first draft proposed pinning the Good Thief + atonement pieces here. **The tone confirm-pass revised that
+down** — those pieces read as *apologetics/instruction*, not consolation. The **only** pin that survives the
+present-first lens is the crucifixion anchor, and even it is explanatory in the body (its *closing* line is
+the present one):
 ```
-suffering.seedPins = ['n:tai-sao-chua-giesu-chiu-dong-dinh', 'n:nguoi-trom-lanh-tren-thap-gia', 'n:chua-giesu-chuoc-toi-nghia-la-gi']
+suffering.seedPins = ['n:tai-sao-chua-giesu-chiu-dong-dinh']   // apply with pastoral lens — see addendum
 ```
-Until then, the pastoral advice + Catechism off-ramp carry this path well (by design).
+❌ **Dropped:** `nguoi-trom-lanh-tren-thap-gia` (its text pivots to a works *demand* — "those with a whole
+life ahead must bear fruit") and `chua-giesu-chuoc-toi-nghia-la-gi` (courtroom-debt theology) — both land as
+head-answers on fresh grief. The pastoral `advice` (already present-first) + the priest off-ramp carry this
+path; the real fix is **new presence-first content** (F5), not pinning apologetics. See the addendum.
 
 ### `defend-saints` — *"Praying to Mary and the saints"* ✅ no change
 Config: `categories:['mary-saints']` · `tags:['saints','prayer','mary']`. Returns the whole saints/prayer
@@ -348,6 +358,54 @@ videos are cluster anchors and tag-overlap surfaces their siblings; optional pin
 
 ---
 
+## Pastoral-tone confirm-pass (2026-08-15 addendum)
+
+Triggered by the new cross-cutting rule in `docs/content-guide.md` → **"Pastoral tone — suffering, grief,
+and the saints"**: any content a hurting/grieving person reaches must be framed as **companionship + an
+invitation to lean on God** (presence → reliance → closeness), *never* as instruction, comparison, or
+demand. I re-read the actual text of every piece I routed to a grief-adjacent path and judged it by tone,
+not topic. Result: **one proposal withdrawn, two caveated.**
+
+**The structural problem this exposes:** the pastoral `suffering` path has **no presence-first content to
+pull.** Every on-topic Q&A it can reach was authored to answer a *doubt/apologetics question* ("why the
+cross," "faith vs works"), so each leads with explanation or argument. Topic-match ≠ tone-match. The
+matcher can't fix this — only new content can (this is the sharpest edge of content-gap F5).
+
+| Piece | Routed to | Actual tone (verified by reading) | Verdict |
+|---|---|---|---|
+| `tai-sao-chua-giesu-chiu-dong-dinh` | `suffering`, `doubt-suffering` | Explanatory atonement theology (sin/freedom/love), **but** closes present: *"the cross is not God distant or cruel — the summit of love; God himself entered."* | ⚠️ **Keep as the one pin**, apply with pastoral lens. Its closing line is the most companionship-like text available. Ideally give it a present-first intro when surfaced in `suffering`. |
+| `nguoi-trom-lanh-tren-thap-gia` (Good Thief) | ~~`suffering` pin~~ | A **faith-vs-works apologetic**: argues the thief's faith "wasn't empty," then pivots to *"for those with a whole life ahead, living faith must bear fruit in works of love and obedience."* | ❌ **Dropped.** That pivot is a **works demand** — exactly the "reliance-as-assignment" the rule forbids for fresh grief. The *story* consoles; *this treatment* doesn't. Keep it in the faith/works cluster only. |
+| `chua-giesu-chuoc-toi-nghia-la-gi` | ~~`suffering` pin~~ | Courtroom/debt metaphor for substitutionary atonement — a doctrinal explanation (warm ending, but head-first). | ❌ **Dropped** from the grief pin. Fine where it is (atonement/soteriology). |
+| `chua-giesu-la-thien-chua-sao-khong-tu-cuu-minh` | `suffering`, `doubt-suffering` (tag-match) | Answers a doubt ("why didn't he save himself"), but frames it as love: *"he stayed not from weakness but from love."* | ⚠️ Acceptable — the love-framing lands. Not a lecture, but still answering a *question*. |
+| `sao-chua-khong-tao-con-nguoi-chi-lam-viec-tot` (free-will) | `doubt-suffering` (after T1 re-tag) | Free-will theodicy (robot/slave analogy) — pure *argument*. | ⚠️ **Correct for the intellectual `doubt-suffering` intent**, and T1 already removes it from the *pastoral* `suffering` path. Must never be pushed at someone in fresh grief; see below. |
+
+**Path-level guidance for Sessions 2/3/7:**
+
+- **`suffering` (pastoral):** its hand-written `advice` is already correct (present-first: *"you do not walk
+  alone… Jesus entered your darkness… don't carry this alone — reach out to a priest"*). Keep the **advice
+  primary**; the matched Q&As are secondary and must not displace it. Only the single crucifixion pin
+  survives, and it should carry a gentle framing. **Highest-value action is not a pin — it's writing a
+  presence-first consolation piece** (grief/loss, a saint who *relied* on God through suffering per the
+  content-guide) and tagging it so this path finally has something that consoles rather than explains.
+- **`doubt-suffering` (intellectual):** the theodicy content is right for the *stated* intent (a reasoned
+  answer to "why is there suffering"). **But** this path is reachable by someone whose doubt is born of
+  fresh loss — so its present-first `advice` and the **human off-ramp must stay visible across the entire
+  v2 walk**, not just the first screen (the v2 spec already mandates the priest/RCIA off-ramp on heavy
+  branches — this confirms it as non-negotiable here). The theodicy is offered as an answer to a question,
+  never pushed.
+- **`loved-one-family` / `loved-one-spouse`:** both rest on present-first `advice` (St Monica / gentle
+  witness) — correct. **Reaffirmed hold** on pinning `nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong` to
+  `loved-one-family`: to an anxious/grieving parent a "can those who never heard be saved?" answer can read
+  as a fear-spiral rather than hope. Any content routed here must be **hope/companionship-framed**.
+- **General:** for these paths, **tone overrides tag-score.** A perfectly tag-matched apologetic that reads
+  as instruction is a *worse* result than a shorter list resting on the pastoral advice. When Session 7
+  wires `seedPins` and Session 3 wires `related` on these paths, weight consolation/presence over topical
+  completeness.
+
+*Everywhere outside the grief-adjacent paths, the audit above stands unchanged.*
+
+---
+
 ## Hand-off
 
 This session applies nothing. Approved items route to their owning lanes:
@@ -358,7 +416,8 @@ This session applies nothing. Approved items route to their owning lanes:
 | **Fix F1a** | `doubt-suffering`: `tags` → `['suffering','free-will']`. | **7** (`lib/dongHanh.ts`) |
 | **Fix F1b / T1** | Re-tag `sao-chua-khong-tao-con-nguoi-chi-lam-viec-tot`: `["free-will","suffering"]` → `["free-will"]`. | **3** (`content/giai-dap`) |
 | **Fix F3** | `defend-images.seedPins = ['c:nicaea-ii-hoi-1']`. | **7** (needs the field — Appendix A) |
-| **Curation** | `suffering.seedPins = ['n:tai-sao-chua-giesu-chiu-dong-dinh','n:nguoi-trom-lanh-tren-thap-gia','n:chua-giesu-chuoc-toi-nghia-la-gi']`. | **7** (needs the field) |
+| **Curation (tone-gated)** | `suffering.seedPins = ['n:tai-sao-chua-giesu-chiu-dong-dinh']` **only** — Good-Thief/atonement pins **dropped** on tone grounds (addendum). Apply with the pastoral lens. | **7** (needs the field) |
+| **Pastoral-tone lens** | Grief/loss paths (`suffering`, `doubt-suffering`, `loved-one-*`) must be applied present-first (companionship → invitation to lean on God), never as instruction/argument. See the addendum + `docs/content-guide.md` "Pastoral tone." | **2 / 3 / 7** — cross-cutting |
 | **`seedPins` field** | Add optional `seedPins?: string[]` to `Situation` + honour it in `matchResources`. | **7** (`lib/dongHanh.ts`) — Appendix A |
 | **Follow-up chains** | Deliverable 2 §A (empty-`related` fills) + §B (cross-cluster bridges). | **3** (`content/giai-dap` frontmatter `related`) |
 | **New tag (optional)** | `consolation` id in `CATEGORIES`/`TAGS` (T3) — only if content will use it. | **2** (`lib/giaiDapTaxonomy.ts`) → then **3** applies it |
