@@ -42,7 +42,12 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
 **Coordination watch-points (the only places lanes could touch):**
 - **1 & 3 are both content** — keep them disjoint: **1 owns `content/video`**, **3 owns `content/giai-dap`**. Don't have both editing the same folder at once.
 - **`lib/videos.ts`** is needed by both **2** (video-page cross-links) and **7** (video pool) — whoever adds the `category`/`tags` parse first, the other just consumes it; don't both edit it at once.
-- **Homepage (`app/page.tsx`) + global nav (`components/SiteHeader`) are owned by 8.** Any feature that needs a homepage card or nav link (e.g. 7's companion CTA) routes it through 8 — features don't edit the homepage/nav themselves.
+- **Entry-point ownership.** The GLOBAL shell — homepage (`app/page.tsx`) + nav (`components/SiteHeader`)
+  — is owned by **8**; features route their homepage card / nav link through 8 (they don't edit those
+  themselves). An **in-section CTA** (e.g. a companion nudge inside `/giai-dap`) belongs to **that
+  section's session** (Session 2 for `/giai-dap`), not 8 and not the feature. A **feature session
+  (e.g. 7) owns NO entry points.** Every companion entry point MUST be gated by `COMPANION_ENABLED` so
+  no dead link ships while the tool is off in prod.
 
 ## Rules that keep parallel sessions safe
 - Each session commits **only its own lane's files** — never `git add -A`.
