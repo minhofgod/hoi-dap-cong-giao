@@ -128,8 +128,16 @@ cross-links.
     both already era-organized. Replaces the standalone Church Fathers card on the homepage and
     surfaces the Councils without adding a new top-level card. (Route e.g. `/lich-su-hoi-thanh`.)
   - **Các Thánh (Saints)** [future] — life stories / inspiration; broader than the Fathers (all eras,
-    martyrs, mystics, modern e.g. Carlo Acutis). Overlap note: the Fathers *are* saints but sit under
-    Church History for their doctrinal role; the Saints section is the devotional lens.
+    martyrs, mystics, modern). Overlap note: the Fathers *are* saints but sit under Church History for
+    their doctrinal role; Saints is the devotional lens. **Curate, don't cover everything** (like the
+    30 Fathers); organize by theme (Vietnamese · martyrs · mystics · modern · patrons), grow over time.
+    **Priority order:** (1) **Các Thánh Tử Đạo Việt Nam** — the 117 Vietnamese Martyrs (Anrê Dũng-Lạc +
+    companions); the audience's own heritage, most distinctive, nothing else on the site covers it.
+    (2) a curated ~12–15 POST-patristic beloved/inspiring set — modern (Carlo Acutis, Têrêsa Hài Đồng
+    Giêsu / Thérèse, Padre Pio, Maximilianô Kolbe, Faustina, Têrêsa Calcutta), converts (Inhaxiô Loyola,
+    Edith Stein), and BRIDGE saints: Mônica → the companion's "loved one drifted" path; Bernadette
+    (Lourdes) / Juan Diego (Guadalupe) / Carlo Acutis → the Miracles & Apparitions section. Verify all
+    VN names per the terminology rule when building.
   - **Phép Lạ & Hiện Ra (Miracles & Apparitions)** [future] — Eucharistic miracles + Marian
     apparitions (à la Carlo Acutis's "Eucharistic Miracles of the World" + his Marian apparitions
     catalogue), plus Lourdes healings, incorrupt bodies, miraculous images (Guadalupe). Strong for the
