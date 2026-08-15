@@ -37,7 +37,9 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
 | 5 | Ecumenical Councils | `content/cong-dong`, `app/cong-dong` | the 21 councils | DONE (21/21) |
 | 6 | Bible backend | `scripts/build-bible.mjs`, `content/bible.json` | verse-lookup / scripture popover data | done |
 | 7 | Companion (Đồng hành) | `app/dong-hanh`, `components/DongHanh*`, `lib/dongHanh`, `lib/videos`, `lib/companionFlag` | the `/dong-hanh` guided tool | building (gating + video pool) |
-| 8 | Site Design & Shell | `app/page.tsx` (homepage), `components/SiteHeader`, section-hub routes (`app/lich-su-hoi-thanh`, later `app/cac-thanh` / `app/phep-la`) + all entry-point wiring | homepage, global nav, section hubs, IA/design | Church History hub LIVE (`/lich-su-hoi-thanh` — Fathers+Councils on one timeline; homepage card + nav wired) · next: Saints/Miracles hubs |
+| 8 | Site Design & Shell | `app/page.tsx` (homepage), `components/SiteHeader`, cross-section **hub** routes that GROUP existing sections (e.g. `app/lich-su-hoi-thanh` = Fathers+Councils) + all entry-point wiring | homepage, global nav, cross-section hubs, IA/design | Church History hub LIVE (`/lich-su-hoi-thanh` — Fathers+Councils on one timeline; homepage card + nav wired) · next: wire Saints/Miracles cards once those sections exist |
+
+*Planned section sessions (each builds its section's data model + list/detail pages + content, like 5 did for Councils; 8 only adds the homepage card + nav):* **9 — Các Thánh (Saints)** → `app/cac-thanh`, `lib/saints*`, `content/cac-thanh`, `public/images/cac-thanh`. **10 — Phép Lạ & Hiện Ra (Miracles)** → `app/phep-la`, `content/phep-la`, images.
 
 **Coordination watch-points (the only places lanes could touch):**
 - **1 & 3 are both content** — keep them disjoint: **1 owns `content/video`**, **3 owns `content/giai-dap`**. Don't have both editing the same folder at once.
