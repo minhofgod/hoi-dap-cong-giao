@@ -407,7 +407,12 @@ export const SITUATIONS: Record<string, Situation> = {
         en: 'St Paul trusts that for those who love God, all things — even painful ones — work together for good.',
       },
     },
-    nextStep: { href: '/giao-ly/309', label: { vi: 'Đọc Giáo Lý về sự dữ và đau khổ', en: 'Read the Catechism on evil & suffering' } },
+    // Land on CCC 324 (the hope-forward answer — "Christ died and rose to conquer evil… God draws
+    // good from evil"), not CCC 309 (the cold "why is there evil?" question at the article top).
+    nextStep: {
+      href: '/giao-ly/324#324',
+      label: { vi: 'Giáo Lý: Đức Kitô và chiến thắng sự dữ', en: 'The Catechism: Christ conquers evil' },
+    },
   },
 
   'defend-saints': {
@@ -647,7 +652,12 @@ export const SITUATIONS: Record<string, Situation> = {
         en: 'Jesus invites: come to me, all who labor and are burdened, and I will give you rest.',
       },
     },
-    nextStep: { href: '/giao-ly/1500', label: { vi: 'Đọc Giáo Lý về bệnh tật và đau khổ', en: 'Read the Catechism on illness & suffering' } },
+    // Land on CCC 1505 ("Moved by our suffering, Christ made it his own" — mirrors this situation's
+    // advice, "God entered your darkness"), not CCC 1500 (the cold "illness is a grave problem" top).
+    nextStep: {
+      href: '/giao-ly/1505#1505',
+      label: { vi: 'Giáo Lý: Đức Kitô mang lấy đau khổ của ta', en: 'The Catechism: Christ took our suffering' },
+    },
   },
 };
 
