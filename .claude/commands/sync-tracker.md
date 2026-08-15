@@ -22,6 +22,10 @@ Steps:
      A ready folder wins over Drafts/root if the script is in both. (Folder meanings: Finished Videos
      = the exact script of a published video · Unpublished = finalized script, no video yet ·
      Processed = a Finished/Unpublished script with CGKPV wikilinks added · Drafts = not ready.)
+   - **Processed** — does a mapped script exist specifically in the `Processed Video Scripts/` folder?
+     → Processed ✅. Else 🔲 (or `—` if there's no script). This is the gate for Q&A: **a Q&A is made
+     ONLY from the Processed (wikilinked) version**, so `Processed 🔲` means the Q&A is blocked until
+     the script is wikilinked (Session 4).
    - **Video** — does `content/video/<video-slug>.md` exist? → Video ✅.
    - **Video tagged** — does that video's frontmatter contain BOTH `category:` and `tags:`? → Tagged ✅.
    - **Q&A** — does `content/giai-dap/<qa-anchor>.md` exist? → Q&A ✅.
