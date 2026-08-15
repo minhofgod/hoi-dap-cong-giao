@@ -13,6 +13,8 @@ import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { FeaturedQuestion, type HeroQuestion } from '@/components/FeaturedQuestion';
 import { ReadingProgressBar, PartProgressBar } from '@/components/ReadingProgress';
 import { BrandMark } from '@/components/BrandMark';
+import { DongHanhCta } from '@/components/DongHanhCta';
+import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import { T } from '@/components/T';
 import styles from './page.module.css';
 
@@ -74,6 +76,15 @@ export default function HomePage() {
       <SiteHeader />
 
       <main className={styles.page}>
+      {/* Front-door companion CTA for seekers — top of the homepage. DongHanhCta self-gates
+          (returns null when the companion flag is off); the band wrapper is guarded too so no
+          empty bordered strip ships in that case. */}
+      {COMPANION_ENABLED && (
+        <section className={styles.companionBand}>
+          <DongHanhCta />
+        </section>
+      )}
+
       <section className={styles.sectionCards}>
         <Link href="/giai-dap" className={`${styles.card} ${styles.cardSage}`}>
           <span className={styles.cardImage}>

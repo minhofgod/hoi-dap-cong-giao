@@ -12,6 +12,14 @@
   border-bottom: 1px solid var(--border);
 }
 
+/* Front-door companion (Đồng hành) CTA — a prominent band at the top of the homepage for
+   seekers. Wraps the self-gating <DongHanhCta>; the band itself is guarded in the JSX so no
+   empty bordered strip ships when the companion flag is off. */
+.companionBand {
+  padding: 26px var(--page-gutter);
+  border-bottom: 1px solid var(--border);
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -609,6 +617,7 @@ a.card:hover {
   }
   .giaoLyBand,
   .sectionCards,
+  .companionBand,
   .hero,
   .fathersBand,
   .videoBand,

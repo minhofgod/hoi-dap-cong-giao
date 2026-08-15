@@ -8,6 +8,7 @@ import { BrandMark } from './BrandMark';
 import { LanguageToggle } from './LanguageToggle';
 import { T } from './T';
 import { useLang } from '@/lib/giao-phu/useLang';
+import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import styles from './SiteHeader.module.css';
 
 interface Section {
@@ -19,6 +20,9 @@ interface Section {
 }
 
 const SECTIONS: Section[] = [
+  // Đồng hành companion — front-door for seekers, first nav item. Gated so it vanishes (along
+  // with the route + homepage band) when NEXT_PUBLIC_COMPANION=0, leaving no dead link.
+  ...(COMPANION_ENABLED ? [{ href: '/dong-hanh', vi: 'Đồng hành', en: 'Companion' }] : []),
   { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A' },
   { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism' },
   // The Church History hub groups Giáo Phụ (Fathers) + Công Đồng (Councils) into one nav item,
