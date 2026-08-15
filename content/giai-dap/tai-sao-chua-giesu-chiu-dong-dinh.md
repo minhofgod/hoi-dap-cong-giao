@@ -3,7 +3,7 @@ question_vi: "Tại sao Chúa Giêsu phải chịu đóng đinh và chết trên
 question_en: "Why did Jesus have to be crucified and die on the cross?"
 topic: "Tại sao Chúa Giêsu chịu đóng đinh"
 category: "theology-doctrine"
-tags: ["jesus", "salvation", "suffering"]
+tags: ["jesus", "salvation", "suffering", "problem-of-evil"]
 subcategory: "Tổng quan"
 refs_ccc: [1023, 613, 609]
 refs_scripture: ["Kh 21,27", "Ga 3,16"]

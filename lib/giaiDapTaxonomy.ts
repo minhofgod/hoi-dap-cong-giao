@@ -63,6 +63,7 @@ export const TAGS: readonly TaxonomyTerm[] = [
   { id: 'afterlife', vi: 'Đời sau', en: 'Afterlife' },
   { id: 'consolation', vi: 'An ủi & hy vọng', en: 'Consolation & hope' },
   { id: 'persecution', vi: 'Bách hại & làm chứng', en: 'Persecution & witness' },
+  { id: 'problem-of-evil', vi: 'Vấn đề sự dữ', en: 'The problem of evil' },
 ] as const;
 
 const CATEGORY_BY_ID = new Map(CATEGORIES.map((c) => [c.id, c]));

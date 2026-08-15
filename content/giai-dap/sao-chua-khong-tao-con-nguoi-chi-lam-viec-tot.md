@@ -3,7 +3,7 @@ question_vi: "Tại sao Chúa không tạo ra con người mà chỉ cho phép h
 question_en: "Why didn't God create humans able to do only good, so they'd never fall into sin?"
 topic: "Tại sao Chúa Giêsu chịu đóng đinh"
 category: "theology-doctrine"
-tags: ["free-will"]
+tags: ["free-will", "problem-of-evil"]
 subcategory: "Thần học"
 refs_ccc: [1730, 311, 385]
 refs_scripture: []
