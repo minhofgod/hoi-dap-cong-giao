@@ -23,18 +23,24 @@ filters; global search; bilingual VI/EN; CCC + inline-`GLHTCG` popovers.
 **In progress:** the Đồng hành companion (finishing the flag-gating + folding videos into its pool);
 video ↔ Q&A linking via shared tags (see `docs/roadmap.md` "Content link model").
 
-## Active work streams (parallel sessions)
-Each session owns a **disjoint** set of files so they never collide. If a stream is lost, restart it
-with the matching prompt in `docs/roadmap.md` / the content-guide.
+## The sessions (numbered registry)
+Several parallel Claude sessions run at once — refer to them by **number**. Each owns a **disjoint**
+set of files so they don't collide (see the watch-points below). If one is lost, restart it with the
+matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
 
-| Stream | Does | Owns (files) | Status |
-|---|---|---|---|
-| Website / Taxonomy | framework; Q&A taxonomy + filters | `app/giai-dap`, `app/tim-kiem`, `components/GiaiDapBrowser`, `lib/giaiDap*`, `lib/giaiDapTaxonomy` | taxonomy DONE |
-| Companion (Đồng hành) | `/dong-hanh` guided tool | `app/dong-hanh`, `components/DongHanh*`, `lib/dongHanh`, `lib/videos`, `lib/companionFlag` | building; gating + video pool pending |
-| Content — Q&A | scripts → Giải Đáp Q&A | `content/giai-dap`, `public/images` | ongoing |
-| Content — Video companions | video blog companions + video tags | `content/video`, `public/images` | ongoing |
-| Councils | the 21 ecumenical councils | `content/cong-dong`, `app/cong-dong` | DONE (21/21) |
-| Bible backend | verse-lookup / scripture popover data | `scripts/build-bible.mjs`, `content/bible.json` | done |
+| # | Session | Owns (its lane) | Does | Status |
+|---|---|---|---|---|
+| 1 | Video Blog Companion | `content/video`, `public/images` | video blog companions + video tagging | active |
+| 2 | Q&A taxonomy / website | `app/giai-dap`, `app/tim-kiem`, `app/video`, `components/GiaiDapBrowser`, `lib/giaiDap*`, `lib/giaiDapTaxonomy` | framework; taxonomy + filters; video↔Q&A cross-links | taxonomy done · next: auto cross-links |
+| 3 | Content setup (script → Q&A) | `content/giai-dap` | turn Processed scripts into Giải Đáp Q&A | active |
+| 4 | Script Wikilink | Obsidian `Video Scripts/` → `Processed Video Scripts/` | add CGKPV wikilinks so a script is Q&A-ready | active |
+| 5 | Ecumenical Councils | `content/cong-dong`, `app/cong-dong` | the 21 councils | DONE (21/21) |
+| 6 | Bible backend | `scripts/build-bible.mjs`, `content/bible.json` | verse-lookup / scripture popover data | done |
+| 7 | Companion (Đồng hành) | `app/dong-hanh`, `components/DongHanh*`, `lib/dongHanh`, `lib/videos`, `lib/companionFlag` | the `/dong-hanh` guided tool | building (gating + video pool) |
+
+**Coordination watch-points (the only places lanes could touch):**
+- **1 & 3 are both content** — keep them disjoint: **1 owns `content/video`**, **3 owns `content/giai-dap`**. Don't have both editing the same folder at once.
+- **`lib/videos.ts`** is needed by both **2** (video-page cross-links) and **7** (video pool) — whoever adds the `category`/`tags` parse first, the other just consumes it; don't both edit it at once.
 
 ## Rules that keep parallel sessions safe
 - Each session commits **only its own lane's files** — never `git add -A`.
@@ -42,5 +48,6 @@ with the matching prompt in `docs/roadmap.md` / the content-guide.
   site, gate it behind a `NEXT_PUBLIC_*` flag (unset on Vercel = hidden) rather than reverting.
 - Verify `npx tsc --noEmit` + `npm run lint` clean before committing.
 
-> Keep the snapshot + the work-streams table roughly current: when a stream finishes a milestone,
-> update its row here so this stays the reliable "start here."
+> Keep the snapshot + the session registry roughly current: when a session finishes a milestone,
+> update its row here (and add a row when you start a new session) so this stays the reliable
+> "start here." Refer to sessions by their number everywhere.
