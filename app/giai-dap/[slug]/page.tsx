@@ -171,6 +171,41 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
     pins: question.relatedVideo,
   });
 
+  // Enough "see also" material to warrant the calm sticky rail on wide desktop? A lone link looks
+  // sparse in a rail, so require a video + a related question, or ≥3 items total — otherwise keep
+  // it at the bottom (docs/ux-inline-answer-and-sidebars.md, Session 2). The rail itself is desktop-
+  // only via CSS; mobile/tablet always stack it at the bottom, unchanged.
+  const seeAlsoTotal = relatedVideos.length + related.length;
+  const useRail =
+    seeAlsoTotal >= 3 || (relatedVideos.length >= 1 && related.length >= 1);
+
+  // Watch-video + related-questions, rendered once. Sits at the bottom by default; the `.hasRail`
+  // grid lifts this <aside> into the right margin (sticky) on wide desktop.
+  const seeAlso =
+    relatedVideos.length > 0 || related.length > 0 ? (
+      <aside className={styles.seeAlso}>
+        <div className={styles.seeAlsoHead}>
+          <T vi="XEM THÊM" en="SEE ALSO" />
+        </div>
+        <WatchVideo videos={relatedVideos} />
+        {related.length > 0 && (
+          <div className={styles.relatedBlock}>
+            <div className={styles.hairline} />
+            <div className={styles.eyebrow}>
+              <T vi="CÂU HỎI LIÊN QUAN" en="RELATED QUESTIONS" />
+            </div>
+            <ul className={styles.relatedList}>
+              {related.map((r) => (
+                <li key={r.slug} className={styles.relatedRow}>
+                  <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </aside>
+    ) : null;
+
   // Main/anchor question → assemble the whole article with a side nav.
   if (parts.length > 0) {
     return (
@@ -252,46 +287,32 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
     <>
       <SiteHeader />
       <div className={styles.page}>
-        <div className={styles.layout}>
-          {parent ? (
-            <Link href={`/giai-dap/${parent.slug}`} className={styles.backLink}>
-              ‹ <T vi="Thuộc loạt bài:" en="Part of:" /> {parent.questionVi}
-            </Link>
-          ) : (
-            <Link href="/giai-dap" className={styles.backLink}>
-              ‹ <T vi="Tất cả câu hỏi" en="All questions" />
-            </Link>
-          )}
-          <TaxonomyChips question={question} />
-          <h1 className={styles.question}>{question.questionVi}</h1>
-          <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />
+        <div className={`${styles.layout} ${useRail ? styles.hasRail : ''}`}>
+          <div className={styles.reading}>
+            {parent ? (
+              <Link href={`/giai-dap/${parent.slug}`} className={styles.backLink}>
+                ‹ <T vi="Thuộc loạt bài:" en="Part of:" /> {parent.questionVi}
+              </Link>
+            ) : (
+              <Link href="/giai-dap" className={styles.backLink}>
+                ‹ <T vi="Tất cả câu hỏi" en="All questions" />
+              </Link>
+            )}
+            <TaxonomyChips question={question} />
+            <h1 className={styles.question}>{question.questionVi}</h1>
+            <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />
 
-          {(question.refsCcc.length > 0 || question.refsScripture.length > 0) && (
-            <div className={styles.refsSection}>
-              <div className={styles.eyebrow}>
-                <T vi="THAM CHIẾU" en="REFERENCES" />
+            {(question.refsCcc.length > 0 || question.refsScripture.length > 0) && (
+              <div className={styles.refsSection}>
+                <div className={styles.eyebrow}>
+                  <T vi="THAM CHIẾU" en="REFERENCES" />
+                </div>
+                <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
               </div>
-              <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
-            </div>
-          )}
+            )}
+          </div>
 
-          <WatchVideo videos={relatedVideos} />
-
-          {related.length > 0 && (
-            <>
-              <div className={styles.hairline} />
-              <div className={styles.eyebrow}>
-                <T vi="CÂU HỎI LIÊN QUAN" en="RELATED QUESTIONS" />
-              </div>
-              <ul className={styles.relatedList}>
-                {related.map((r) => (
-                  <li key={r.slug} className={styles.relatedRow}>
-                    <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
-                  </li>
-                ))}
-              </ul>
-            </>
-          )}
+          {seeAlso}
 
           <PrevNext prev={prev} next={next} />
         </div>
