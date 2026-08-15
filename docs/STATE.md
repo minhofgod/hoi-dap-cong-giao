@@ -30,9 +30,9 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
 
 | # | Session | Owns (its lane) | Does | Status |
 |---|---|---|---|---|
-| 1 | Video Blog Companion | `content/video`, `public/images` | video blog companions + video tagging | active |
+| 1 | Video Blog Companion | `content/video`, `public/images/video` | video blog companions + video tagging | active |
 | 2 | Q&A taxonomy / website | `app/giai-dap`, `app/tim-kiem`, `app/video`, `components/GiaiDapBrowser`, `lib/giaiDap*`, `lib/giaiDapTaxonomy` | framework; taxonomy + filters; video↔Q&A cross-links | taxonomy done · next: auto cross-links |
-| 3 | Content setup (script → Q&A) | `content/giai-dap` | turn Processed scripts into Giải Đáp Q&A | active |
+| 3 | Content setup (script → Q&A) | `content/giai-dap`, `public/images/giai-dap` | Giải Đáp Q&A clusters **+ their card banners** | active |
 | 4 | Script Wikilink | Obsidian `Video Scripts/` → `Processed Video Scripts/` | add CGKPV wikilinks so a script is Q&A-ready | active |
 | 5 | Ecumenical Councils | `content/cong-dong`, `app/cong-dong` | the 21 councils | DONE (21/21) |
 | 6 | Bible backend | `scripts/build-bible.mjs`, `content/bible.json` | verse-lookup / scripture popover data | done |
