@@ -29,16 +29,23 @@ Catholic conventions, and getting them wrong is the #1 quality risk. For every e
 2. **For terms not yet in the site**, use an authoritative Vietnamese Catholic source —
    **HĐGM Việt Nam (hdgmvietnam.com)** or the Vietnamese CCC — not a fresh transliteration.
 3. **Do NOT trust Vietnamese Wikipedia for terminology** — it's often translated from English and
-   uses scholarly Latin forms ("Nicaea", "Trentô", "Constantinopolis") instead of the traditional
-   phonetic Catholic forms the site uses ("Nicêa", "Triđentinô", "Constantinôpôli").
+   uses scholarly Latin forms ("Nicaea", "Constantinopolis") instead of the traditional
+   phonetic Catholic forms the site uses ("Nicêa", "Constantinôpôli").
 4. **Prefer the traditional Vietnamese Catholic phonetic forms.** Write both languages together,
    anchoring the Vietnamese to these sources — never English→VN or VN→EN as a blind translation.
 
 **Verified reference (from the Catechism VI):** Councils — Nicêa I/II · Constantinôpôli I/II/III/IV ·
-Êphêsô · Chalcêđônia · Latêranô I–V · Lyon I/II · Vienne · Constance · Basel/Florentia · **Triđentinô**
+Êphêsô · Chalcêđônia · Latêranô I–V · Lyon I/II · Vienne · Constance · Basel/Florentia · **Trentô**
 (Trent) · Vaticanô I/II. Ecumenical council = "Công đồng chung". Heresies — lạc thuyết Ariô · Nestôriô ·
 Nhất tính thuyết (Monophysitism) · Nhất chí thuyết (Monothelitism) · Bài trừ ảnh tượng (Iconoclasm).
 Athanasius = "Athanasiô".
+
+**Trent — special case (decided 2026-08-15).** The site uses **Công đồng Trentô** as the everyday form.
+On the **first mention in each page's body**, write **Trentô (Triđentinô)** — the parenthetical bridges to
+the form the Catechism itself uses (`content/content.json` says *Công đồng Triđentinô*, and that CGKPV text
+is never altered); **every mention after the first on that page is plain Trentô.** The **city** stays
+**Trentô (Trento)** (geographic). This is the one council where the site's everyday form differs from the
+Catechism's — hence the one-time bridge.
 
 > ⚠️ **Audit existing content:** the Giáo Phụ (Church Fathers) entries predate this rule — spot-check
 > their Vietnamese names/terms against the sources above (likely mostly fine, but not verified).

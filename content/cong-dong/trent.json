@@ -2,7 +2,7 @@
   "no": 19,
   "slug": "trent",
   "era": "modern",
-  "name": { "vi": "Công đồng Triđentinô", "en": "Council of Trent" },
+  "name": { "vi": "Công đồng Trentô", "en": "Council of Trent" },
   "subtitle": {
     "vi": "Công đồng chung thứ mười chín · lời đáp của Hội Thánh trước cuộc Cải Cách",
     "en": "The nineteenth ecumenical council · the Church's answer to the Reformation"
@@ -20,7 +20,7 @@
       "en": "From 1517 the Protestant Reformation, begun by Martin Luther, had split Western Christianity. After many delays caused by war and politics, Pope Paul III convened an ecumenical council at Trent in 1545. It met in three periods stretching to 1563, under five popes — the longest council in history."
     },
     {
-      "vi": "Trentô làm hai việc song song. Về tín lý, nó trả lời rõ ràng các vấn đề mà cuộc Cải Cách nêu lên: nguồn mạch mặc khải (Kinh Thánh cùng với Thánh Truyền), bản danh mục Kinh Thánh, tội nguyên tổ, sự công chính hóa, bảy bí tích, sự hiện diện thật và “biến thể” trong Thánh Thể, Thánh Lễ là hy tế, luyện ngục, ân xá và việc tôn kính các thánh.",
+      "vi": "Trentô (Triđentinô) làm hai việc song song. Về tín lý, nó trả lời rõ ràng các vấn đề mà cuộc Cải Cách nêu lên: nguồn mạch mặc khải (Kinh Thánh cùng với Thánh Truyền), bản danh mục Kinh Thánh, tội nguyên tổ, sự công chính hóa, bảy bí tích, sự hiện diện thật và “biến thể” trong Thánh Thể, Thánh Lễ là hy tế, luyện ngục, ân xá và việc tôn kính các thánh.",
       "en": "Trent did two things at once. In doctrine, it answered clearly the questions the Reformation had raised: the sources of revelation (Scripture together with Tradition), the canon of Scripture, original sin, justification, the seven sacraments, the real presence and “transubstantiation” in the Eucharist, the Mass as sacrifice, purgatory, indulgences, and the veneration of the saints."
     },
     {
@@ -79,7 +79,7 @@
   "ccc_refs": [1992, 1129],
   "image": {
     "src": "/images/cong-dong/trent.jpg",
-    "medium": { "vi": "Phiên họp Công đồng Triđentinô, tranh thế kỷ XVI", "en": "A session of the Council of Trent, sixteenth-century painting" },
+    "medium": { "vi": "Phiên họp Công đồng Trentô, tranh thế kỷ XVI", "en": "A session of the Council of Trent, sixteenth-century painting" },
     "source": "Wikimedia Commons",
     "license": "public domain",
     "available": true
