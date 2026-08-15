@@ -580,10 +580,11 @@ export const SITUATIONS: Record<string, Situation> = {
 
 /* ------------------------------------------------------------------ matching */
 
-export type ResourceKind = 'native' | 'council';
+export type ResourceKind = 'native' | 'council' | 'video';
 
-/** A retrievable Q&A, unified across native Giải Đáp questions and council apologetics, so the
- *  matcher can score both with the taxonomy. Built server-side and passed to the client. */
+/** A retrievable resource, unified across native Giải Đáp questions, council apologetics, and
+ *  videos, so the matcher can score them all with the taxonomy. Built server-side, passed to the
+ *  client. */
 export interface Resource {
   key: string;
   kind: ResourceKind;

@@ -4,6 +4,7 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { DongHanh } from '@/components/DongHanh';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getCouncilApologetics } from '@/lib/councilsV2';
+import { getAllVideos } from '@/lib/videos';
 import { categoryLabel } from '@/lib/giaiDapTaxonomy';
 import { SITUATIONS, type Resource } from '@/lib/dongHanh';
 import { resolveReference, type ResolvedReference } from '@/lib/bibleRefs';
@@ -48,7 +49,22 @@ export default function DongHanhPage() {
     tags: qa.tags,
   }));
 
-  const pool = [...native, ...council];
+  // Videos join the same taxonomy-scored pool. Left without `featured`, so they never come through
+  // the explore-basics/showCommon path — a video only surfaces when it genuinely matches a
+  // situation's category/tags (and none do until Session 1 tags the video .md frontmatter).
+  const video: Resource[] = getAllVideos().map((v) => ({
+    key: `v:${v.slug}`,
+    kind: 'video',
+    href: `/video/${v.slug}`,
+    questionVi: v.title,
+    questionEn: v.titleEn ?? v.title,
+    metaVi: 'Video',
+    metaEn: 'Video',
+    category: v.category,
+    tags: v.tags,
+  }));
+
+  const pool = [...native, ...council, ...video];
 
   // Resolve each situation's Scripture reference to verse data — only when the licensing flag is
   // on, so no copyrighted CGKPV text ships while it's off (matches the rest of the site). When the

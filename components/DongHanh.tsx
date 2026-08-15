@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
-import { ArrowLeft, ArrowRight, Compass, RotateCcw } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Compass, Play, RotateCcw } from 'lucide-react';
 import { useLang } from '@/lib/giao-phu/useLang';
 import {
   STEPS,
@@ -218,14 +218,28 @@ function ResultView({
             )}
           </div>
           <ul className={styles.resourceList}>
-            {matches.map((r) => (
-              <li key={r.key}>
-                <Link href={r.href} className={styles.resourceRow}>
-                  <span className={styles.resourceQ}>{en ? r.questionEn : r.questionVi}</span>
-                  <span className={styles.resourceMeta}>{en ? r.metaEn : r.metaVi}</span>
-                </Link>
-              </li>
-            ))}
+            {matches.map((r) => {
+              const isVideo = r.kind === 'video';
+              return (
+                <li key={r.key}>
+                  <Link href={r.href} className={styles.resourceRow}>
+                    <span className={styles.resourceQ}>
+                      {isVideo && (
+                        <span className={styles.resourcePlay} aria-hidden="true">
+                          <Play size={11} fill="currentColor" strokeWidth={0} />
+                        </span>
+                      )}
+                      {en ? r.questionEn : r.questionVi}
+                    </span>
+                    <span
+                      className={`${styles.resourceMeta} ${isVideo ? styles.resourceMetaVideo : ''}`}
+                    >
+                      {isVideo ? <T vi="Video" en="Video" /> : en ? r.metaEn : r.metaVi}
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}

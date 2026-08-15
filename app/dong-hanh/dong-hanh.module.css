@@ -260,12 +260,35 @@
   color: var(--text-heading);
   transition: color 0.15s ease;
 }
+/* Videos read distinctly from Q&As: a small play badge before the title. */
+.resourcePlay {
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  vertical-align: text-bottom;
+  border-radius: 50%;
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+}
 .resourceMeta {
   flex-shrink: 0;
   font-size: 11.5px;
   font-weight: 600;
   color: var(--sage-deep);
   white-space: nowrap;
+}
+/* Video meta chip uses the accent (warm) to set it apart from the sage Q&A metas. */
+.resourceMetaVideo {
+  color: var(--accent-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 10.5px;
+}
+.resourceRow:hover .resourcePlay {
+  background: var(--accent);
+  color: #fff;
 }
 @media (max-width: 520px) {
   .resourceRow {

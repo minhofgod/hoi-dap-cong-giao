@@ -13,6 +13,11 @@ export interface Video {
   duration?: string;
   summary: string;
   summaryEn?: string;
+  // Q&A taxonomy (shared with Giải Đáp — see lib/giaiDapTaxonomy). One broad category id + tag ids,
+  // so videos can surface alongside Q&As in the Đồng hành companion. Optional until the video .md
+  // files are tagged: category is undefined and tags is [] when absent.
+  category?: string;
+  tags: string[];
   order: number;
   hasBody: boolean;
   bodyHtml: string;
@@ -53,6 +58,8 @@ function loadFile(filename: string): Video {
     duration: data.duration,
     summary: data.summary ?? '',
     summaryEn,
+    category: typeof data.category === 'string' ? data.category : undefined,
+    tags: Array.isArray(data.tags) ? data.tags : [],
     order: data.order ?? 999,
     hasBody: trimmed.length > 0,
     bodyHtml: trimmed ? render(body) : '',
