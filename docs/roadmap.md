@@ -264,7 +264,7 @@ On cap reached / follow-ups exhausted / "Chưa" to the satisfaction check — DO
 - **No entry-point, homepage, or backend changes** — nothing for Session 8; the existing
   `COMPANION_ENABLED` flag still covers the whole tool.
 
-## Companion — relevance-curation pass (research session, #11)
+## Companion — relevance-curation pass (research session — number it when you start it)
 
 **Why.** Even with Session 7's scoring/config fix, purely-algorithmic matching (`matchResources`) still
 misses: a 30-tag vocabulary can't capture every "these two Q&As are *experientially* related" or "this
