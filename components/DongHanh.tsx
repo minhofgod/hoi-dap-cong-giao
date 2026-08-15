@@ -64,7 +64,7 @@ export function DongHanh({
           <T vi="ĐỒNG HÀNH" en="COMPANION" />
         </div>
         <h1 className={styles.pageTitle}>
-          <T vi="Tìm điều hợp với bạn" en="Find what fits you" />
+          <T vi="Tìm câu trả lời" en="Find answers" />
         </h1>
         <p className={styles.pageSub}>
           <T
