@@ -72,7 +72,7 @@ Lead: *Đây là một trong những câu hỏi nặng nề nhất một trái t
 1. *Chúng ta phó thác người ấy cho lòng thương xót của Thiên Chúa — một lòng thương xót rộng lớn hơn chúng ta có thể đo lường. Chỉ một mình Thiên Chúa thấu suốt trọn vẹn tâm hồn một con người; Người xét xử không chỉ điều họ biết bên ngoài, mà cả cách họ đáp lại ánh sáng đã được ban cho.*
 2. *Hội Thánh dạy rằng những ai, không do lỗi của mình, đã không biết Đức Kitô hay Hội Thánh Người, nhưng đã thành tâm tìm kiếm Thiên Chúa và cố sống theo tiếng lương tâm — họ vẫn có thể đạt tới ơn cứu độ.* (GLHTCG 847)
 3. *Vì thế chúng ta không tuyên bố số phận của ai — không thất vọng, cũng không cả quyết giả tạo. Chúng ta hy vọng. Và "Thiên Chúa muốn mọi người được cứu độ."* (1 Tm 2,4)
-4. *Điều thánh thiện nhất bạn có thể làm lúc này là cầu nguyện cho họ. Từ ngàn xưa Hội Thánh vẫn cầu cho người đã khuất — tình yêu và lời cầu của bạn vẫn chạm tới họ. Bạn có thể xin dâng một Thánh lễ cầu cho họ, và nếu điều này quá nặng nề, hãy tìm đến một linh mục.*
+4. *Điều thánh thiện nhất bạn có thể làm lúc này là cầu nguyện cho họ. Hội Thánh vẫn luôn cầu nguyện cho những người đã khuất — tình yêu và lời cầu của bạn vẫn chạm tới họ. Bạn có thể xin dâng một Thánh lễ cầu cho họ, và nếu điều này quá nặng nề, hãy tìm đến một linh mục.*
 Cross-link: CCC 847 popover + crucifixion cluster + `nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong` (the doctrinal version). Tags: `afterlife`, `salvation`, `consolation`, `suffering`.
 
 ### 3. Persecution — life-threatening danger — QA `nguy-hiem-tinh-mang-vi-duc-tin`
