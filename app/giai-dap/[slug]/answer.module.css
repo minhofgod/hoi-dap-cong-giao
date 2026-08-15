@@ -120,6 +120,41 @@
   }
 }
 
+/* Article/anchor layout: same idea, sticky rail — the "see also" sits in the existing side aside,
+   below the "In this article" nav, sharing the calm treatment. Desktop only; mobile stacks it at
+   the bottom (handled in the max-width rule above). */
+@media (min-width: 900px) {
+  .articleLayout > .navRow {
+    grid-column: 1;
+  }
+  .toc .seeAlsoHead {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: var(--text-faint);
+    margin-top: 30px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+  }
+  .toc .hairline {
+    display: none;
+  }
+  .toc .eyebrow {
+    margin-top: 18px;
+  }
+  .toc .videoThumb {
+    width: 100px;
+  }
+  .toc .videoCardTitle {
+    font-size: 14px;
+  }
+  .toc .relatedRow {
+    font-size: 13.5px;
+    padding: 11px 0;
+  }
+}
+
 /* ---- Article mode (a main question that assembles its parts) ---- */
 .articleLayout {
   max-width: 980px;
@@ -458,7 +493,12 @@
     gap: 0;
     padding: 26px 22px 48px;
   }
+  /* Drop the in-article nav on mobile, but keep the aside so its "see also" still stacks at the
+     bottom (below the article + Prev/Next), matching the single-answer page. */
   .toc {
+    position: static;
+  }
+  .tocInner {
     display: none;
   }
   .sectionHeading {

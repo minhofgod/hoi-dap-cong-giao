@@ -99,6 +99,37 @@ function WatchVideo({ videos }: { videos: Video[] }) {
   );
 }
 
+// The "see also" cluster (watch-video + related-questions), rendered once and reused by both
+// layouts. In a sticky sidebar it reads as a calm "Xem thêm / See also" group; stacked at the
+// bottom (mobile, or a sparse single page) it keeps the original per-block eyebrows. Renders
+// nothing when there's neither a matching video nor a related question.
+function SeeAlsoContent({ videos, related }: { videos: Video[]; related: GiaiDapQuestion[] }) {
+  if (videos.length === 0 && related.length === 0) return null;
+  return (
+    <>
+      <div className={styles.seeAlsoHead}>
+        <T vi="XEM THÊM" en="SEE ALSO" />
+      </div>
+      <WatchVideo videos={videos} />
+      {related.length > 0 && (
+        <div className={styles.relatedBlock}>
+          <div className={styles.hairline} />
+          <div className={styles.eyebrow}>
+            <T vi="CÂU HỎI LIÊN QUAN" en="RELATED QUESTIONS" />
+          </div>
+          <ul className={styles.relatedList}>
+            {related.map((r) => (
+              <li key={r.slug} className={styles.relatedRow}>
+                <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </>
+  );
+}
+
 function Refs({ ccc, scripture }: { ccc: number[]; scripture: string[] }) {
   if (ccc.length === 0 && scripture.length === 0) return null;
   return (
@@ -179,32 +210,14 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
   const useRail =
     seeAlsoTotal >= 3 || (relatedVideos.length >= 1 && related.length >= 1);
 
-  // Watch-video + related-questions, rendered once. Sits at the bottom by default; the `.hasRail`
-  // grid lifts this <aside> into the right margin (sticky) on wide desktop.
-  const seeAlso =
-    relatedVideos.length > 0 || related.length > 0 ? (
-      <aside className={styles.seeAlso}>
-        <div className={styles.seeAlsoHead}>
-          <T vi="XEM THÊM" en="SEE ALSO" />
-        </div>
-        <WatchVideo videos={relatedVideos} />
-        {related.length > 0 && (
-          <div className={styles.relatedBlock}>
-            <div className={styles.hairline} />
-            <div className={styles.eyebrow}>
-              <T vi="CÂU HỎI LIÊN QUAN" en="RELATED QUESTIONS" />
-            </div>
-            <ul className={styles.relatedList}>
-              {related.map((r) => (
-                <li key={r.slug} className={styles.relatedRow}>
-                  <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-      </aside>
-    ) : null;
+  // Single-layout "see also": rendered once. Sits at the bottom by default; the `.hasRail` grid
+  // lifts this <aside> into the right margin (sticky) on wide desktop.
+  const hasSeeAlso = relatedVideos.length > 0 || related.length > 0;
+  const seeAlso = hasSeeAlso ? (
+    <aside className={styles.seeAlso}>
+      <SeeAlsoContent videos={relatedVideos} related={related} />
+    </aside>
+  ) : null;
 
   // Main/anchor question → assemble the whole article with a side nav.
   if (parts.length > 0) {
@@ -239,43 +252,28 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
                   <Refs ccc={p.refsCcc} scripture={p.refsScripture} />
                 </section>
               ))}
-
-              <WatchVideo videos={relatedVideos} />
-
-              {related.length > 0 && (
-                <>
-                  <div className={styles.hairline} />
-                  <div className={styles.eyebrow}>
-                <T vi="CÂU HỎI LIÊN QUAN" en="RELATED QUESTIONS" />
-              </div>
-                  <ul className={styles.relatedList}>
-                    {related.map((r) => (
-                      <li key={r.slug} className={styles.relatedRow}>
-                        <Link href={`/giai-dap/${r.slug}`}>{r.questionVi}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              )}
-
-              <PrevNext prev={prev} next={next} />
             </article>
 
             <aside className={styles.toc}>
-              <div className={styles.tocLabel}>
-                <T vi="Trong bài này" en="In this article" />
-              </div>
-              <nav className={styles.tocNav}>
-                <a href="#tong-quan" className={styles.tocLink}>
-                  <T vi="Tổng quan" en="Overview" />
-                </a>
-                {parts.map((p) => (
-                  <a key={p.slug} href={`#${p.slug}`} className={styles.tocLink}>
-                    {p.questionVi}
+              <div className={styles.tocInner}>
+                <div className={styles.tocLabel}>
+                  <T vi="Trong bài này" en="In this article" />
+                </div>
+                <nav className={styles.tocNav}>
+                  <a href="#tong-quan" className={styles.tocLink}>
+                    <T vi="Tổng quan" en="Overview" />
                   </a>
-                ))}
-              </nav>
+                  {parts.map((p) => (
+                    <a key={p.slug} href={`#${p.slug}`} className={styles.tocLink}>
+                      {p.questionVi}
+                    </a>
+                  ))}
+                </nav>
+              </div>
+              <SeeAlsoContent videos={relatedVideos} related={related} />
             </aside>
+
+            <PrevNext prev={prev} next={next} />
           </div>
         </div>
       </>
