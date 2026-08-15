@@ -1,0 +1,160 @@
+.rail {
+  position: fixed;
+  left: 0;
+  top: calc(74px + (100vh - 74px) / 2);
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 212px;
+  max-height: calc(100vh - 74px - 20px);
+  overflow-y: auto;
+  padding: 12px 12px 12px 28px;
+  box-sizing: border-box;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.groupLabel {
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  color: var(--text-quiet);
+  text-transform: uppercase;
+  padding-left: 17px;
+  margin-bottom: 3px;
+}
+.groupLabelActive {
+  color: var(--gold-deep);
+}
+
+.dots {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--border-strong);
+}
+
+.dotLink {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 4px 0;
+  margin-left: -4px;
+  color: inherit;
+}
+.dotLink:hover {
+  text-decoration: none;
+}
+
+.dot {
+  flex-shrink: 0;
+  margin-top: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--border-strong);
+  transition: background 0.12s ease, transform 0.12s ease;
+}
+.dotLink:hover .dot {
+  background: var(--gold);
+  transform: scale(1.35);
+}
+.dotCurrent {
+  width: 9px;
+  height: 9px;
+  margin-top: 4px;
+  background: var(--gold);
+  box-shadow: 0 0 0 3px var(--gold-tint);
+}
+
+.name {
+  font-size: 12.5px;
+  line-height: 1.3;
+  color: var(--text-quiet);
+  transition: color 0.12s ease;
+}
+.dotLink:hover .name {
+  color: var(--text-heading);
+}
+.nameCurrent {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--gold-deep);
+}
+
+/* Hover portrait card — portalled to <body>, so it is fixed to the viewport and never
+   affects the rail's layout (no flicker) or overflow (no scrollbar). */
+.preview {
+  position: fixed;
+  left: 216px;
+  transform: translateY(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 244px;
+  padding: 10px 14px 10px 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--gold);
+  border-radius: 10px;
+  box-shadow: 0 6px 22px rgba(32, 30, 29, 0.16);
+  pointer-events: none;
+}
+.previewPortrait {
+  position: relative;
+  flex-shrink: 0;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--gold-border);
+  background: var(--sage-tint);
+}
+.previewImg {
+  object-fit: cover;
+  object-position: 50% 18%;
+}
+.previewEmpty {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--sage-tint);
+}
+.previewInfo {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.previewName {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.25;
+  color: var(--text-heading);
+}
+.previewDates {
+  margin-top: 3px;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--gold-deep);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Below 900px the timeline is hidden entirely (mirrors the Giáo Phụ rail). Mobile navigation
+   falls to the header link (the full index) and the prev/next controls at the foot of each
+   profile. */
+@media (max-width: 899px) {
+  .rail {
+    display: none;
+  }
+}

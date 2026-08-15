@@ -1,0 +1,74 @@
+{
+  "no": 4,
+  "slug": "phaolo-le-bao-tinh",
+  "group": "martyrs-vn",
+  "name": {
+    "vi": "Phaolô Lê Bảo Tịnh",
+    "en": "Paul Lê Bảo Tịnh"
+  },
+  "role": {
+    "vi": "Linh mục, giám đốc chủng viện · người viết thư từ trong ngục",
+    "en": "Priest and seminary rector · writer of prison letters"
+  },
+  "dates": {
+    "display": "1793 — 1857",
+    "born": 1793,
+    "died": 1857
+  },
+  "quote": {
+    "vi": "Lao tù này quả thực là hình ảnh sống động của hỏa ngục đời đời. Thế nhưng giữa cảnh khốn cùng này, tôi vẫn vui mừng, vì không lẻ loi một mình — có Đức Kitô ở cùng tôi.",
+    "en": "This prison is truly a living image of everlasting hell. And yet, in the midst of this misery, I rejoice, for I am not alone — Christ is with me.",
+    "source": {
+      "vi": "Thư trong ngục gửi chủng sinh Kẻ Vĩnh, 1843",
+      "en": "Prison letter to the seminarians of Kẻ Vĩnh, 1843"
+    }
+  },
+  "life": [
+    {
+      "vi": "Phaolô Lê Bảo Tịnh sinh năm 1793 tại Trịnh Hà, Thanh Hóa. Ngay từ trẻ ngài đã nhiệt thành với đời sống đạo, làm thầy giảng rồi phục vụ Hội Thánh giữa cơn bách hại. Ngài bị cầm tù nhiều năm (1841–1848), và chính trong ngục, năm 1843, ngài viết cho các chủng sinh Kẻ Vĩnh một lá thư nổi tiếng — biến cảnh lao tù kinh hoàng thành nơi làm chứng cho niềm vui và ân sủng.",
+      "en": "Paul Lê Bảo Tịnh was born in 1793 in Trịnh Hà, Thanh Hóa. From his youth he was zealous for the faith, serving as a catechist and then as a servant of the Church amid persecution. He was imprisoned for years (1841–1848), and it was from prison, in 1843, that he wrote his famous letter to the seminarians of Kẻ Vĩnh — turning the horror of the jail into a witness of joy and grace."
+    },
+    {
+      "vi": "Được thụ phong linh mục năm 1848, ngài coi sóc chủng viện Vĩnh Trị, đào tạo thế hệ linh mục kế tiếp. Bị bắt lại, ngài bị trảm quyết tại pháp trường Bảy Mẫu (Nam Định) ngày 6 tháng 4 năm 1857, dưới đời vua Tự Đức. Lá thư trong ngục của ngài đến nay vẫn được Hội Thánh đọc trong giờ Kinh Sách ngày lễ các Thánh Tử Đạo Việt Nam.",
+      "en": "Ordained a priest in 1848, he directed the seminary at Vĩnh Trị, forming the next generation of priests. Arrested again, he was beheaded at the execution ground of Bảy Mẫu (Nam Định) on 6 April 1857, under the emperor Tự Đức. His prison letter is still read by the Church in the Office of Readings on the feast of the Vietnamese Martyrs."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "năm 1793, Trịnh Hà (Thanh Hóa)", "en": "1793, Trịnh Hà (Thanh Hóa)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "6 tháng 4, 1857, tại Bảy Mẫu (Nam Định)", "en": "6 April 1857, at Bảy Mẫu (Nam Định)" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Linh mục, giám đốc chủng viện Vĩnh Trị", "en": "Priest, rector of the Vĩnh Trị seminary" } },
+    { "label": { "vi": "Cách tử đạo", "en": "Manner of death" }, "value": { "vi": "Bị trảm quyết dưới đời vua Tự Đức", "en": "Beheaded under Emperor Tự Đức" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "24 tháng 11 (lễ chung các Thánh Tử Đạo VN)", "en": "24 November (feast of the Vietnamese Martyrs)" } },
+    { "label": { "vi": "Được phong thánh", "en": "Canonized" }, "value": { "vi": "19 tháng 6, 1988 (Đức Gioan Phaolô II)", "en": "19 June 1988 (John Paul II)" } }
+  ],
+  "works_label": { "vi": "Điều ngài để lại", "en": "What he left behind" },
+  "works": [
+    {
+      "title": { "vi": "Thư gửi chủng sinh Kẻ Vĩnh, viết trong ngục", "en": "Letter to the seminarians of Kẻ Vĩnh, written in prison" },
+      "latin": "",
+      "date": "1843"
+    }
+  ],
+  "works_note": {
+    "vi": "Lá thư năm 1843 được chọn làm bài đọc thứ hai trong giờ Kinh Sách ngày 24 tháng 11 — một trong số ít văn bản của chính các Thánh Tử Đạo Việt Nam còn được đọc trong phụng vụ.",
+    "en": "The 1843 letter is the second reading in the Office of Readings on 24 November — one of the few texts by the Vietnamese Martyrs themselves still read in the liturgy."
+  },
+  "sections": [
+    {
+      "id": "prison-letter",
+      "title": { "vi": "Niềm vui giữa lao tù", "en": "Joy in the midst of prison" },
+      "body": {
+        "vi": "Trong thư gửi các chủng sinh, cha Tịnh mô tả nhà tù như một hình ảnh sống động của hỏa ngục: gông cùm, đói khát, bệnh tật và cái chết vây quanh. Thế nhưng ngài không viết để than thân, mà để làm chứng rằng giữa tất cả những cực hình ấy, ơn Chúa vẫn nâng đỡ và biến đau khổ thành niềm vui. Chính giọng văn bình thản, gần như hân hoan ấy — chứ không phải cảnh khổ — mới là điều khiến lá thư trở thành một áng văn thiêng liêng được truyền lại.",
+        "en": "In his letter to the seminarians, Fr. Tịnh describes the prison as a living image of hell: chains, hunger, sickness, and death all around. Yet he writes not to complain but to bear witness that, in the midst of all these torments, God's grace still sustained him and turned suffering into joy. It is that serene, almost joyful voice — not the misery — that makes the letter a spiritual text handed down through the centuries."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/phaolo-le-bao-tinh.jpg",
+    "medium": { "vi": "Chân dung truyền thống", "en": "Traditional depiction" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

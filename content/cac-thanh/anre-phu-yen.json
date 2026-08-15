@@ -1,0 +1,62 @@
+{
+  "no": 2,
+  "slug": "anre-phu-yen",
+  "group": "martyrs-vn",
+  "name": {
+    "vi": "Á Thánh Anrê Phú Yên",
+    "en": "Bl. Andrew of Phú Yên"
+  },
+  "role": {
+    "vi": "Thầy giảng · vị tử đạo tiên khởi của Việt Nam",
+    "en": "Catechist · protomartyr of Vietnam"
+  },
+  "dates": {
+    "display": "khoảng 1625 — 1644",
+    "born": 1625,
+    "died": 1644
+  },
+  "quote": {
+    "vi": "Hãy lấy tình yêu đáp lại tình yêu, hãy lấy mạng sống đáp đền mạng sống. Hãy giữ nghĩa cùng Đức Chúa Giêsu cho đến hết hơi, cho đến trọn đời.",
+    "en": "Return love for love, and give life for life. Keep faith with the Lord Jesus to your last breath, to the very end of your life.",
+    "source": {
+      "vi": "Lời khuyên cuối cùng nơi pháp trường, năm 1644",
+      "en": "His final exhortation at the execution ground, 1644"
+    }
+  },
+  "life": [
+    {
+      "vi": "Anrê Phú Yên sinh khoảng năm 1625 tại vùng Phú Yên. Ngài là học trò và cộng sự thân tín của cha Đắc Lộ (Alexandre de Rhodes), gia nhập nhóm thầy giảng — những giáo dân tận hiến chuyên lo dạy giáo lý và nâng đỡ đời sống đức tin khi thiếu vắng linh mục. Dù còn rất trẻ, ngài nổi bật vì lòng nhiệt thành và sự trung tín.",
+      "en": "Andrew of Phú Yên was born around 1625 in the Phú Yên region. He was a disciple and trusted companion of Fr. Alexandre de Rhodes, and joined the catechists — consecrated laypeople who taught the faith and sustained the community where priests were scarce. Though very young, he stood out for his zeal and fidelity."
+    },
+    {
+      "vi": "Bị bắt vì đức tin, ngài bị đâm và chém đầu tại Kẻ Chàm (Quảng Nam) ngày 26 tháng 7 năm 1644, khi mới khoảng mười chín tuổi — trở thành người Việt Nam đầu tiên chết vì đạo. Đức Gioan Phaolô II tôn phong ngài lên bậc Á Thánh (Chân phước) ngày 5 tháng 3 năm 2000, với tước hiệu đặc biệt \"vị tử đạo tiên khởi của Việt Nam\". Vì thế ngài không nằm trong danh sách 117 vị hiển thánh, nhưng luôn được kể cùng các ngài như người mở đường.",
+      "en": "Arrested for the faith, he was speared and beheaded at Kẻ Chàm (Quảng Nam) on 26 July 1644, at about nineteen years old — becoming the first Vietnamese to die for the faith. John Paul II beatified him on 5 March 2000 with the singular title \"protomartyr of Vietnam.\" He is therefore not among the 117 canonized saints, but is always counted alongside them as the one who opened the way."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "khoảng năm 1625, Phú Yên", "en": "c. 1625, Phú Yên" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "26 tháng 7, 1644, tại Kẻ Chàm (Quảng Nam)", "en": "26 July 1644, at Kẻ Chàm (Quảng Nam)" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Thầy giảng (giáo dân tận hiến)", "en": "Catechist (consecrated layman)" } },
+    { "label": { "vi": "Danh hiệu", "en": "Title" }, "value": { "vi": "Vị tử đạo tiên khởi của Việt Nam", "en": "Protomartyr of Vietnam" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "26 tháng 7", "en": "26 July" } },
+    { "label": { "vi": "Được phong Á Thánh", "en": "Beatified" }, "value": { "vi": "5 tháng 3, 2000 (Đức Gioan Phaolô II)", "en": "5 March 2000 (John Paul II)" } }
+  ],
+  "sections": [
+    {
+      "id": "protomartyr",
+      "title": { "vi": "Người mở đường", "en": "The one who opened the way" },
+      "body": {
+        "vi": "Anrê Phú Yên chết trước cả 117 vị được tuyên thánh gần hai trăm năm. Cái chết của một thầy giảng mười chín tuổi, giữa buổi Hội Thánh Việt Nam còn non trẻ, đã trở thành hạt giống: chứng tá của ngài cho thấy đức tin mới mẻ ấy đủ sâu để người ta dám chết cho nó. Suốt các thế kỷ bách hại về sau, hình ảnh \"vị tử đạo tiên khởi\" luôn được nhắc đến như khởi điểm của một truyền thống anh hùng kéo dài đến tận cuộc tuyên thánh năm 1988.",
+        "en": "Andrew of Phú Yên died nearly two hundred years before the 117 who were canonized. The death of a nineteen-year-old catechist, at a moment when the Vietnamese Church was still young, became a seed: his witness showed that this new faith ran deep enough to die for. Through all the centuries of persecution that followed, the figure of the \"protomartyr\" was remembered as the starting point of a heroic tradition reaching all the way to the canonization of 1988."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/anre-phu-yen.jpg",
+    "medium": { "vi": "Chân dung truyền thống", "en": "Traditional depiction" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

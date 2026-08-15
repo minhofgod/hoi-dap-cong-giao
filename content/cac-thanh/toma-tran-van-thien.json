@@ -1,0 +1,51 @@
+{
+  "no": 6,
+  "slug": "toma-tran-van-thien",
+  "group": "martyrs-vn",
+  "name": {
+    "vi": "Tôma Trần Văn Thiện",
+    "en": "Thomas Trần Văn Thiện"
+  },
+  "role": {
+    "vi": "Chủng sinh · vị tử đạo trẻ tuổi",
+    "en": "Seminarian · a youthful martyr"
+  },
+  "dates": {
+    "display": "1820 — 1838",
+    "born": 1820,
+    "died": 1838
+  },
+  "quote": {
+    "vi": "Tôi chỉ mong chức quyền trên trời, chứ không màng đến chức quyền thế gian.",
+    "en": "I desire only rank and honour in Heaven; the honours of this world mean nothing to me.",
+    "source": {
+      "vi": "Trả lời quan khi được hứa gả con gái và ban chức tước",
+      "en": "Answering the mandarin who offered him marriage and office"
+    }
+  },
+  "life": [
+    {
+      "vi": "Tôma Trần Văn Thiện sinh năm 1820 trong một gia đình đạo hạnh tại làng Trung Quán. Là một thiếu niên thông minh và sốt sắng, ngài vừa được gọi vào chủng viện Di Loan (Quảng Trị), do cha Candalh (Cố Kim) coi sóc, thì bị bắt cùng với các tín hữu khác — khi mới đặt những bước đầu trên con đường tiến tới chức linh mục.",
+      "en": "Thomas Trần Văn Thiện was born in 1820 into a devout family in the village of Trung Quán. A bright and fervent youth, he had just been called to the seminary at Di Loan (Quảng Trị), under Fr. Candalh, when he was arrested with other believers — at the very first steps of his road toward the priesthood."
+    },
+    {
+      "vi": "Người ta hứa cho ngài cưới vợ và làm quan nếu ngài chịu bỏ đạo, nhưng ngài dứt khoát từ chối. Ngài chịu tử đạo tại pháp trường Nhan Biều (Quảng Trị) ngày 21 tháng 9 năm 1838, dưới đời vua Minh Mạng, khi mới mười tám tuổi. Là người chủng sinh duy nhất trong số 117 vị, ngài nhắc rằng lòng trung tín không đợi tuổi tác hay chức phận.",
+      "en": "He was offered marriage and a mandarin's career if he would renounce his faith, but he firmly refused. He was martyred at the execution ground of Nhan Biều (Quảng Trị) on 21 September 1838, under the emperor Minh Mạng, at just eighteen years old. As the one seminarian among the 117, he is a reminder that fidelity waits for neither age nor rank."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "năm 1820, làng Trung Quán", "en": "1820, the village of Trung Quán" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "21 tháng 9, 1838, tại Nhan Biều (Quảng Trị), lúc 18 tuổi", "en": "21 September 1838, at Nhan Biều (Quảng Trị), aged 18" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Chủng sinh — người chủng sinh duy nhất trong 117 vị", "en": "Seminarian — the only one among the 117" } },
+    { "label": { "vi": "Cách tử đạo", "en": "Manner of death" }, "value": { "vi": "Bị xử tử dưới đời vua Minh Mạng", "en": "Executed under Emperor Minh Mạng" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "24 tháng 11 (lễ chung các Thánh Tử Đạo VN)", "en": "24 November (feast of the Vietnamese Martyrs)" } },
+    { "label": { "vi": "Được phong thánh", "en": "Canonized" }, "value": { "vi": "19 tháng 6, 1988 (Đức Gioan Phaolô II)", "en": "19 June 1988 (John Paul II)" } }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/toma-tran-van-thien.jpg",
+    "medium": { "vi": "Chân dung truyền thống", "en": "Traditional depiction" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

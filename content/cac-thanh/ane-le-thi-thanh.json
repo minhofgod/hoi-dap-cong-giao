@@ -1,0 +1,62 @@
+{
+  "no": 3,
+  "slug": "ane-le-thi-thanh",
+  "group": "martyrs-vn",
+  "name": {
+    "vi": "Anê Lê Thị Thành",
+    "en": "Agnes Lê Thị Thành"
+  },
+  "role": {
+    "vi": "Giáo dân, người mẹ · người phụ nữ duy nhất trong số 117 vị",
+    "en": "Laywoman and mother · the only woman among the 117"
+  },
+  "dates": {
+    "display": "1781 — 1841",
+    "born": 1781,
+    "died": 1841
+  },
+  "quote": {
+    "vi": "Con đừng khóc, mẹ mặc áo hoa hồng đấy; mẹ vui lòng chịu khổ vì Chúa Giêsu, sao con lại khóc?",
+    "en": "Don’t cry, child — I am wearing a dress of roses; I gladly suffer for Jesus, so why do you weep?",
+    "source": {
+      "vi": "Nói với con gái vào thăm mẹ trong ngục",
+      "en": "To her daughter who visited her in prison"
+    }
+  },
+  "life": [
+    {
+      "vi": "Bà Anê Lê Thị Thành sinh năm 1781 tại Bái Điền, Thanh Hóa, quen được gọi thân mật là \"Bà Thánh Đê\". Bà kết hôn với ông Nguyễn Văn Nhất và sinh được sáu người con, chăm lo gia đình trong đức tin đạo hạnh. Nhà bà là nơi trú ẩn an toàn cho các linh mục trong thời cấm đạo.",
+      "en": "Agnes Lê Thị Thành was born in 1781 in Bái Điền, Thanh Hóa, and is affectionately remembered as \"Bà Thánh Đê.\" She married Nguyễn Văn Nhất and raised six children, keeping her household in devout faith. Her home was a safe refuge for priests during the persecution."
+    },
+    {
+      "vi": "Bị bắt ngày 14 tháng 4 năm 1841 vì chứa chấp thừa sai, bà bị tra tấn dã man nhưng không hề nao núng. Khi người con gái đến thăm và khóc thương thấy áo mẹ loang máu, bà đã an ủi con bằng hình ảnh chiếc áo nhuốm máu như một tấm áo hoa. Bà qua đời trong ngục ngày 12 tháng 7 năm 1841, dưới đời vua Thiệu Trị — người phụ nữ duy nhất trong số 117 vị Thánh Tử Đạo Việt Nam.",
+      "en": "Arrested on 14 April 1841 for sheltering a missionary, she was cruelly tortured but never wavered. When her daughter came weeping at the sight of her blood-stained garment, she consoled the girl by speaking of that stained robe as a robe of flowers. She died in prison on 12 July 1841, under the emperor Thiệu Trị — the only woman among the 117 Vietnamese Martyrs."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "năm 1781, Bái Điền (Thanh Hóa)", "en": "1781, Bái Điền (Thanh Hóa)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "12 tháng 7, 1841, trong ngục", "en": "12 July 1841, in prison" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Giáo dân, người mẹ của sáu con", "en": "Laywoman, mother of six" } },
+    { "label": { "vi": "Điều đặc biệt", "en": "Distinction" }, "value": { "vi": "Người phụ nữ duy nhất trong 117 vị tử đạo", "en": "The only woman among the 117 martyrs" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "12 tháng 7", "en": "12 July" } },
+    { "label": { "vi": "Được phong thánh", "en": "Canonized" }, "value": { "vi": "19 tháng 6, 1988 (Đức Gioan Phaolô II)", "en": "19 June 1988 (John Paul II)" } }
+  ],
+  "sections": [
+    {
+      "id": "one-woman",
+      "title": { "vi": "Sự thánh thiện của một người mẹ", "en": "A mother's holiness" },
+      "body": {
+        "vi": "Giữa một danh sách phần lớn là giám mục, linh mục và thầy giảng, Bà Thánh Đê nổi bật vì là một người vợ, người mẹ bình thường. Bà không giảng dạy công khai, không viết thư mục vụ; sự thánh thiện của bà lớn lên trong việc nuôi dạy con cái, trong lòng hiếu khách dám liều mình che giấu các linh mục, và cuối cùng trong sự kiên vững chịu đựng đến chết. Câu chuyện của bà nhắc rằng ơn tử đạo không dành riêng cho hàng giáo sĩ, mà mở ra cho cả những người mẹ trong gia đình.",
+        "en": "In a list mostly of bishops, priests, and catechists, Bà Thánh Đê stands out as an ordinary wife and mother. She preached no sermons and wrote no pastoral letters; her holiness grew in raising her children, in the hospitality that dared to hide priests, and finally in her steadfast endurance unto death. Her story is a reminder that the grace of martyrdom is not reserved for the clergy, but opens to mothers in their homes as well."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/ane-le-thi-thanh.jpg",
+    "medium": { "vi": "Chân dung truyền thống", "en": "Traditional depiction" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

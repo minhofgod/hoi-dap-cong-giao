@@ -1,0 +1,62 @@
+{
+  "no": 7,
+  "slug": "theophane-venard",
+  "group": "martyrs-vn",
+  "name": {
+    "vi": "Gioan Théophane Vénard (Ven)",
+    "en": "Jean-Théophane Vénard"
+  },
+  "role": {
+    "vi": "Linh mục thừa sai người Pháp (Hội Thừa Sai Paris)",
+    "en": "French missionary priest (Paris Foreign Missions)"
+  },
+  "dates": {
+    "display": "1829 — 1861",
+    "born": 1829,
+    "died": 1861
+  },
+  "quote": {
+    "vi": "Tất cả chúng ta đều là những bông hoa được trồng nơi trần gian, được Thiên Chúa hái về đúng lúc Người muốn — kẻ sớm hơn, người muộn hơn một chút. Còn tôi, đóa hoa bé nhỏ của một ngày, tôi ra đi trước hết.",
+    "en": "We are all flowers planted on this earth, which God gathers in His own time — some sooner, some a little later. And I, a little flower of a day, am the first to be taken.",
+    "source": {
+      "vi": "Thư từ biệt gửi thân phụ, 1861",
+      "en": "Farewell letter to his father, 1861"
+    }
+  },
+  "life": [
+    {
+      "vi": "Gioan Théophane Vénard sinh năm 1829 tại vùng Poitiers, nước Pháp. Ngay từ nhỏ ngài đã ước ao đi truyền giáo và chịu tử đạo. Gia nhập Hội Thừa Sai Paris (MEP), ngài đến Bắc Kỳ (miền Bắc Việt Nam) năm 1854 và âm thầm phục vụ giữa cơn bách hại dữ dội, thường phải ẩn trốn để lo cho đoàn chiên. Tại Việt Nam, ngài mang tên gọi thân mật là \"cố Ven\".",
+      "en": "Jean-Théophane Vénard was born in 1829 near Poitiers, France. From childhood he longed to be a missionary and a martyr. Joining the Paris Foreign Missions Society, he arrived in Tonkin (northern Vietnam) in 1854 and served quietly amid fierce persecution, often in hiding to care for his flock. In Vietnam he was known affectionately as \"cố Ven.\""
+    },
+    {
+      "vi": "Bị bắt năm 1860, ngài bị giam trong cũi và viết cho gia đình những lá thư trong trẻo, đầy bình an. Ngài bị trảm quyết gần Hà Nội ngày 2 tháng 2 năm 1861, dưới đời vua Tự Đức. Về sau, chính những lá thư ấy đã đánh động và truyền cảm hứng cho Thánh Têrêsa Hài Đồng Giêsu — nối một vị thừa sai tử đạo ở Việt Nam với vị thánh trẻ nước Pháp mà cả thế giới yêu mến.",
+      "en": "Arrested in 1860, he was kept in a cage and wrote his family letters of luminous peace. He was beheaded near Hà Nội on 2 February 1861, under the emperor Tự Đức. Those very letters would later move and inspire St. Thérèse of the Child Jesus — joining a missionary martyred in Vietnam to the young French saint beloved the world over."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "năm 1829, gần Poitiers (Pháp)", "en": "1829, near Poitiers (France)" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "2 tháng 2, 1861, gần Hà Nội", "en": "2 February 1861, near Hà Nội" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Linh mục thừa sai, Hội Thừa Sai Paris (MEP)", "en": "Missionary priest, Paris Foreign Missions (MEP)" } },
+    { "label": { "vi": "Cách tử đạo", "en": "Manner of death" }, "value": { "vi": "Bị trảm quyết dưới đời vua Tự Đức", "en": "Beheaded under Emperor Tự Đức" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "24 tháng 11 (lễ chung các Thánh Tử Đạo VN)", "en": "24 November (feast of the Vietnamese Martyrs)" } },
+    { "label": { "vi": "Được phong thánh", "en": "Canonized" }, "value": { "vi": "19 tháng 6, 1988 (Đức Gioan Phaolô II)", "en": "19 June 1988 (John Paul II)" } }
+  ],
+  "sections": [
+    {
+      "id": "venard-therese",
+      "title": { "vi": "Bông hoa mùa xuân", "en": "A flower of springtime" },
+      "body": {
+        "vi": "Trong những lá thư cuối cùng, cha Ven ví mình như một bông hoa nhỏ mùa xuân mà Chủ vườn hái đi đúng lúc Người muốn — một hình ảnh dịu dàng đón nhận cái chết như quà tặng chứ không phải mất mát. Nhiều năm sau, Têrêsa thành Lisieux đọc được tiểu sử ngài và xúc động sâu xa; cha Ven trở thành một trong những vị thánh ngài yêu mến nhất, và tinh thần \"con đường thơ ấu\" của ngài vọng lại chính lối phó thác ấy. Một sợi dây mảnh nối cánh đồng truyền giáo Việt Nam với đan viện kín ở Pháp.",
+        "en": "In his last letters, Fr. Vénard compared himself to a little spring flower that the Master of the garden gathers at the moment he chooses — a gentle image of receiving death as a gift rather than a loss. Years later, Thérèse of Lisieux read his life and was deeply moved; he became one of her most beloved saints, and her \"little way\" of trust echoes that same surrender. A slender thread joining the mission fields of Vietnam to an enclosed convent in France."
+      },
+      "open": false
+    }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/theophane-venard.jpg",
+    "medium": { "vi": "Chân dung truyền thống", "en": "Traditional depiction" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

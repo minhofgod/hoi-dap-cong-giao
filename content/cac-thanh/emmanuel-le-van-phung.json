@@ -1,0 +1,51 @@
+{
+  "no": 5,
+  "slug": "emmanuel-le-van-phung",
+  "group": "martyrs-vn",
+  "name": {
+    "vi": "Emmanuel Lê Văn Phụng",
+    "en": "Emmanuel Lê Văn Phụng"
+  },
+  "role": {
+    "vi": "Giáo dân · ông trùm, người đứng đầu họ đạo",
+    "en": "Layman · head of the parish community"
+  },
+  "dates": {
+    "display": "1796 — 1859",
+    "born": 1796,
+    "died": 1859
+  },
+  "quote": {
+    "vi": "Con ơi, hãy tha thứ, đừng tìm báo oán kẻ đã tố cáo cha.",
+    "en": "My son, forgive — do not seek revenge on the man who denounced your father.",
+    "source": {
+      "vi": "Lời trối với con trên đường ra pháp trường",
+      "en": "His last words to his son on the way to execution"
+    }
+  },
+  "life": [
+    {
+      "vi": "Ông Emmanuel Lê Văn Phụng sinh năm 1796, là một giáo dân được kính trọng và được bầu làm trùm họ đạo Đầu Nước, ở Cù Lao Giêng (An Giang). Là người ngay thẳng và tận tâm, ông chăm lo cộng đoàn: trùng tu nhà thờ, nâng đỡ các nữ tu, và biến họ đạo của mình thành nơi trú ẩn an toàn cho các thừa sai và linh mục bản xứ trong thời cấm đạo.",
+      "en": "Emmanuel Lê Văn Phụng, born in 1796, was a respected layman elected as trùm — head — of the parish community of Đầu Nước, on Cù Lao Giêng island (An Giang). Upright and devoted, he cared for the community: rebuilding the church, supporting the sisters, and making his parish a safe refuge for missionaries and native priests during the persecution."
+    },
+    {
+      "vi": "Ông bị bắt cùng với cha Phêrô Đoàn Công Quí. Ngày 31 tháng 7 năm 1859, ông bị xử giảo (thắt cổ bằng dây) tại Châu Đốc, dưới đời vua Tự Đức. Ông là mẫu gương của một giáo dân giữ vai trò lãnh đạo trong họ đạo — không phải giáo sĩ, nhưng gánh vác đời sống đức tin của cả một cộng đoàn cho đến lúc phải trả giá bằng mạng sống.",
+      "en": "He was arrested together with Fr. Peter Đoàn Công Quí. On 31 July 1859 he was strangled with a cord at Châu Đốc, under the emperor Tự Đức. He is a model of a layman in a leadership role within the parish — not a cleric, yet carrying the faith life of a whole community, until it cost him his life."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Sinh", "en": "Born" }, "value": { "vi": "năm 1796", "en": "1796" } },
+    { "label": { "vi": "Qua đời", "en": "Died" }, "value": { "vi": "31 tháng 7, 1859, tại Châu Đốc", "en": "31 July 1859, at Châu Đốc" } },
+    { "label": { "vi": "Bậc sống", "en": "State of life" }, "value": { "vi": "Giáo dân, trùm họ đạo Đầu Nước (Cù Lao Giêng)", "en": "Layman, head of the Đầu Nước parish (Cù Lao Giêng)" } },
+    { "label": { "vi": "Cách tử đạo", "en": "Manner of death" }, "value": { "vi": "Bị xử giảo (thắt cổ) dưới đời vua Tự Đức", "en": "Strangled under Emperor Tự Đức" } },
+    { "label": { "vi": "Lễ kính", "en": "Feast day" }, "value": { "vi": "24 tháng 11 (lễ chung các Thánh Tử Đạo VN)", "en": "24 November (feast of the Vietnamese Martyrs)" } },
+    { "label": { "vi": "Được phong thánh", "en": "Canonized" }, "value": { "vi": "19 tháng 6, 1988 (Đức Gioan Phaolô II)", "en": "19 June 1988 (John Paul II)" } }
+  ],
+  "portrait": {
+    "src": "/images/cac-thanh/emmanuel-le-van-phung.jpg",
+    "medium": { "vi": "Chân dung truyền thống", "en": "Traditional depiction" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}
