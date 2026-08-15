@@ -12,12 +12,6 @@
   border-bottom: 1px solid var(--border);
 }
 
-/* Companion (Đồng hành) entry band. */
-.companionBand {
-  padding: 26px var(--page-gutter);
-  border-bottom: 1px solid var(--border);
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -615,7 +609,6 @@ a.card:hover {
   }
   .giaoLyBand,
   .sectionCards,
-  .companionBand,
   .hero,
   .fathersBand,
   .videoBand,
