@@ -58,6 +58,7 @@ const targets = [
 
 const problems = [];
 let checked = 0;
+let sufferingCount = 0; // pastoral-content proxy — drives the deferred `consolation`-tag reminder below
 
 for (const { dir, label } of targets) {
   const abs = join(root, dir);
@@ -80,7 +81,22 @@ for (const { dir, label } of targets) {
       const bad = tags.values.filter((t) => !TAGS.has(t));
       if (bad.length) problems.push([rel, `unknown tag(s): ${bad.join(', ')}`]);
     }
+    if (dir === 'content/giai-dap' && tags.values.includes('suffering')) sufferingCount++;
   }
+}
+
+// --- deferred triggers: nudge the owner when a parked action's condition is met ------------------
+// From docs/companion-audit-handoff.md ("→ Session 2"). Each fires only while its trigger holds AND
+// the action is still undone — so it self-clears once the work lands. Not a failure; just a reminder.
+const reminders = [];
+// `consolation` tag (Session 2): planned once enough pastoral content exists to carry it. Proxy =
+// number of Q&As tagged `suffering`. Self-clears once `consolation` is added to lib/giaiDapTaxonomy.ts.
+const CONSOLATION_THRESHOLD = 4;
+if (!TAGS.has('consolation') && sufferingCount >= CONSOLATION_THRESHOLD) {
+  reminders.push(
+    `${sufferingCount} Q&As are now tagged \`suffering\` — likely enough pastoral content to add the \`consolation\` tag.\n` +
+    `      → Send the "→ Session 2" note in docs/companion-audit-handoff.md. (This reminder self-clears once \`consolation\` exists.)`,
+  );
 }
 
 if (problems.length) {
@@ -90,3 +106,7 @@ if (problems.length) {
   process.exit(1);
 }
 console.log(`check-tags: ✓ all ${checked} Q&A/video files have a valid category + tags.`);
+if (reminders.length) {
+  console.log(`\ncheck-tags: ⏰ ${reminders.length} deferred reminder(s):`);
+  for (const r of reminders) console.log(`  • ${r}`);
+}

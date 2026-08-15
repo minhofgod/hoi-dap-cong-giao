@@ -76,6 +76,11 @@ Two items parked from the relevance audit — **hold both for now:**
 - Optional new tag `consolation` (vi: *An ủi & hy vọng* / en: *Consolation & hope*) — only worth adding
   once ≥3–4 genuinely pastoral pieces will carry it. Until then the `suffering` path uses `seedPins`.
   Don't add a tag nothing uses.
+  - **Auto-reminder (no need to watch this manually):** `scripts/check-tags.mjs` — which you run before
+    every content commit — nudges you once ≥4 Q&As are tagged `suffering` (the pastoral-content proxy),
+    pointing back to this block. It prints as a `⏰ deferred reminder` (exit stays 0, not a failure) and
+    **self-clears** the moment `consolation` is added to `lib/giaiDapTaxonomy.ts`. So you'll be told when
+    it's time; you don't have to remember.
 - The `science-faith` category is currently used by zero Q&As (the cosmology cluster lives under
   `god-meaning`). Re-categorizing is an **owner decision** (it moves things in the `/giai-dap` filters
   too) — flagged, not actioned.
