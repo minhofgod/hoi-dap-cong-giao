@@ -249,6 +249,28 @@ INDEPENDENT expressions of the same topic. They're siblings, not source-and-tran
 - **Scripts stay OFF the site** (they're drafts). Track which finished scripts have become a video
   and/or a Q&A in a separate off-site tracker; here we publish only videos + Q&As.
 
+## How new content reaches the companion (Đồng hành)
+
+The `/dong-hanh` companion has two halves that update very differently — know which you're touching:
+
+- **The content it routes people TO → updates automatically.** The pool is rebuilt every deploy from
+  `getAllQuestions()` + `getCouncilApologetics()` + `getAllVideos()`, then scored against each intake
+  situation by `category` (+3) and each `tag` (+1). So a **new Q&A/video appears in the companion on
+  the next build with zero companion edits** — *provided it's tagged.* An untagged item (`category`/
+  `tags` missing) scores 0 and is **invisible** to the companion. This is the whole reason the tagging
+  step is non-negotiable: tag it and the companion stays current for free. (Note: each situation shows
+  only its top ~6, so new content *competes* on relevance — the best matches surface, not literally
+  everything.)
+- **The questions it ASKS → hand-authored, never automatic.** The intake branches and the ~15
+  situations live in `lib/dongHanh.ts` (deterministic, no LLM, doctrinally curated). Adding content
+  does **not** create a new question, branch, or choice. Edit `lib/dongHanh.ts` by hand **only** when a
+  new body of content opens a situation the tree doesn't yet ask about (e.g. a Saints section → a new
+  "find a patron / a saint's story" branch). Content that merely deepens an existing category needs no
+  tree edit — it flows into the matching situations on its own.
+
+**Takeaway:** tag every Q&A/video and the companion's *answers* self-update; only touch
+`lib/dongHanh.ts` when you want to expand the *questions it asks*.
+
 ## Verify + deploy
 
 - Before finishing: `npx tsc --noEmit` and `npm run lint` both clean.
