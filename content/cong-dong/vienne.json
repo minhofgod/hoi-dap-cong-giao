@@ -1,0 +1,87 @@
+{
+  "no": 15,
+  "slug": "vienne",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Vienne", "en": "Council of Vienne" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười lăm · giải thể Dòng Hiệp sĩ Đền Thờ",
+    "en": "The fifteenth ecumenical council · the suppression of the Knights Templar"
+  },
+  "dates": { "display": "1311–1312", "start": 1311, "end": 1312 },
+  "location": { "vi": "Vienne, Pháp", "en": "Vienne, France" },
+  "quote": {
+    "vi": "Ai dám chủ trương rằng linh hồn có suy lý không phải tự nó và theo bản chất là mô thể của thân xác con người, thì phải bị coi là lạc giáo.",
+    "en": "Whoever presumes to assert that the rational soul is not of itself and essentially the form of the human body is to be regarded as a heretic.",
+    "source": { "vi": "Hiến chế “Fidei catholicae”, Công đồng Vienne", "en": "The constitution “Fidei catholicae,” Council of Vienne" }
+  },
+  "background": [
+    {
+      "vi": "Đầu thế kỷ XIV, Giáo hoàng cư ngụ tại Avignon và chịu áp lực nặng nề từ vua Philípphê IV nước Pháp. Trong bầu khí ấy, Giáo hoàng Clêmentê V triệu tập công đồng chung tại Vienne (miền nam nước Pháp) năm 1311–1312, phần lớn để giải quyết vụ Dòng Hiệp sĩ Đền Thờ mà nhà vua muốn tiêu diệt.",
+      "en": "In the early fourteenth century the popes resided at Avignon and were under heavy pressure from King Philip IV of France. In that atmosphere Pope Clement V convened an ecumenical council at Vienne (in southern France) in 1311–1312, largely to settle the affair of the Knights Templar, whom the king was determined to destroy."
+    },
+    {
+      "vi": "Vua Philípphê IV cáo buộc các Hiệp sĩ Đền Thờ đủ thứ tội — nhiều lời thú nhận có được là do tra tấn. Công đồng không kết án chính thức về giáo lý, nhưng vì lợi ích chung, Giáo hoàng giải thể Dòng bằng quyền tông tòa và chuyển tài sản của Dòng cho các Hiệp sĩ Bệnh Viện. Đây là một trong những chương gây tranh cãi nhất của lịch sử Trung Cổ.",
+      "en": "King Philip IV accused the Templars of every kind of crime — many confessions extracted under torture. The council did not formally condemn them on doctrine, but for the sake of the common good the pope suppressed the order by apostolic authority and transferred its property to the Knights Hospitaller. It remains one of the most controversial chapters of medieval history."
+    },
+    {
+      "vi": "Bên cạnh vụ Đền Thờ, công đồng đưa ra một xác quyết tín lý quan trọng và trường tồn: linh hồn có suy lý (linh hồn thiêng liêng) tự nó và theo bản chất là mô thể của thân xác — nghĩa là con người là một hữu thể duy nhất, hồn và xác làm nên một ngôi vị, chứ không phải hai thứ chỉ tạm ghép lại. Công đồng cũng lên án một số sai lầm của phái Beguin và Beghard.",
+      "en": "Besides the Templar affair, the council made an important and lasting doctrinal statement: the rational (spiritual) soul is of itself and essentially the form of the body — meaning the human being is one single being, body and soul making up one person, not two things merely joined for a time. The council also condemned certain errors of the Beguines and Beghards."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Years" }, "value": { "vi": "1311–1312", "en": "1311–1312" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Vienne, Pháp", "en": "Vienne, France" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Clêmentê V", "en": "Pope Clement V" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Clêmentê V", "en": "Clement V" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "≈ 170 giám mục", "en": "≈ 170 bishops" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Giải thể Dòng Đền Thờ · linh hồn là mô thể của thân xác", "en": "Suppressing the Templars · the soul as form of the body" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Hiến chế về linh hồn là mô thể của thân xác", "en": "Constitution on the soul as form of the body" }, "latin": "Fidei catholicae", "date": "1312" },
+    { "title": { "vi": "Sắc lệnh giải thể Dòng Hiệp sĩ Đền Thờ", "en": "Decree suppressing the Knights Templar" }, "latin": "Vox in excelso", "date": "1312" },
+    { "title": { "vi": "Các khoản cải tổ và lập tòa dạy tiếng phương Đông", "en": "Reform canons and chairs for Oriental languages" }, "latin": "Inter cunctas", "date": "1312" }
+  ],
+  "documents_note": {
+    "vi": "Định tín của Vienne về linh hồn được sách Giáo Lý trích lại đến nay (GLHTCG 365): con người không phải là “hồn bị nhốt trong xác”, nhưng hồn và xác cùng làm nên một ngôi vị duy nhất và tốt lành.",
+    "en": "Vienne's definition on the soul is still quoted by the Catechism today (CCC 365): the human being is not a “soul trapped in a body,” but soul and body together make up one single, good person."
+  },
+  "sections": [
+    {
+      "id": "soul-form-body",
+      "title": { "vi": "Linh hồn là “mô thể” của thân xác", "en": "The soul as the “form” of the body" },
+      "body": {
+        "vi": "Dựa theo triết học của thánh Tôma Aquinô, công đồng dạy rằng linh hồn thiêng liêng là “mô thể” (form) của thân xác: chính linh hồn làm cho vật chất thành một con người sống động. Vì thế con người là một hợp nhất hồn–xác, chứ không phải hai thực thể rời rạc. Chân lý này bảo vệ phẩm giá của thân xác (nó thật sự thuộc về “tôi”) và nền tảng của niềm tin vào sự sống lại của thân xác: chính con người trọn vẹn, cả hồn lẫn xác, được cứu độ.",
+        "en": "Following the philosophy of St Thomas Aquinas, the council taught that the spiritual soul is the “form” of the body: it is the soul that makes matter into a living human being. So the human person is a unity of soul and body, not two separate things. This truth safeguards the dignity of the body (it truly belongs to “me”) and the foundation of belief in the resurrection of the body: it is the whole person, soul and body, who is saved."
+      },
+      "open": false
+    },
+    {
+      "id": "templars",
+      "title": { "vi": "Vụ Dòng Hiệp sĩ Đền Thờ", "en": "The affair of the Knights Templar" },
+      "body": {
+        "vi": "Nhiều sử gia ngày nay nhìn nhận việc giải thể Dòng Đền Thờ mang màu sắc chính trị: vua Philípphê IV nợ nần Dòng và thèm muốn tài sản của họ, và các lời thú tội phần lớn có được nhờ tra tấn. Giáo hoàng Clêmentê V không kết án Dòng về lạc giáo, mà chỉ giải thể vì “lợi ích chung” trước áp lực nặng nề. Biến cố này nhắc ta rằng các quyết định kỷ luật của một công đồng — khác với các định tín đức tin — mang dấu ấn của hoàn cảnh và có thể chịu phê phán của lịch sử.",
+        "en": "Many historians today see the suppression of the Templars as politically driven: King Philip IV was in debt to the order and coveted its wealth, and the confessions were largely obtained by torture. Pope Clement V did not condemn the order for heresy but only suppressed it for the “common good” under heavy pressure. The episode reminds us that a council's disciplinary decisions — unlike its definitions of faith — bear the mark of their circumstances and can stand under the judgment of history."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Nếu Công đồng Vienne đã xử oan Dòng Đền Thờ, sao còn tin Hội Thánh không thể sai lầm?", "en": "If the Council of Vienne wronged the Templars, how can the Church claim it doesn't err?" },
+      "a": {
+        "vi": "Hội Thánh không hề tuyên bố rằng mọi quyết định của mọi Giáo hoàng hay công đồng đều đúng đắn về mặt luân lý hay khôn ngoan. Ơn không thể sai lầm (bất khả ngộ) rất hạn hẹp: nó chỉ bảo đảm rằng khi Hội Thánh long trọng dạy một chân lý đức tin hoặc luân lý buộc mọi tín hữu tin, thì chân lý ấy không sai. Việc giải thể Dòng Đền Thờ là một quyết định kỷ luật, thuộc phạm vi cai quản, chịu ảnh hưởng của áp lực chính trị — và có thể sai. Ngược lại, điều Vienne dạy về linh hồn là mô thể của thân xác thì thuộc đức tin và vẫn đứng vững. Phân biệt hai điều này là chìa khóa để đọc lịch sử Hội Thánh cách trung thực.",
+        "en": "The Church has never claimed that every decision of every pope or council is morally right or prudent. Infallibility is very narrow: it only guarantees that when the Church solemnly teaches a truth of faith or morals to be held by all the faithful, that truth is not in error. The suppression of the Templars was a disciplinary act of governance, shaped by political pressure — and it could be mistaken. By contrast, what Vienne taught about the soul as the form of the body belongs to the faith and still stands. Telling these two apart is the key to reading Church history honestly."
+      },
+      "category": "the-church",
+      "tags": ["church-history", "authority", "free-will"]
+    }
+  ],
+  "ccc_refs": [365, 366],
+  "image": {
+    "src": "/images/cong-dong/vienne.jpg",
+    "medium": { "vi": "Chân dung Giáo hoàng Clêmentê V", "en": "Portrait of Pope Clement V" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

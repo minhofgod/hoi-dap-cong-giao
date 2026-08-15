@@ -1,0 +1,87 @@
+{
+  "no": 17,
+  "slug": "florence",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Florentinô", "en": "Council of Florence" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười bảy · nỗ lực lớn hiệp nhất với Đông phương",
+    "en": "The seventeenth ecumenical council · the great attempt at reunion with the East"
+  },
+  "dates": { "display": "1431–1445", "start": 1431, "end": 1445 },
+  "location": { "vi": "Basel · Ferrara · Florentia (Firenze) · Rôma", "en": "Basel · Ferrara · Florence · Rome" },
+  "quote": {
+    "vi": "Ước gì các tầng trời hân hoan và địa cầu nhảy mừng, vì bức tường ngăn cách Hội Thánh Tây phương và Đông phương đã bị phá đổ.",
+    "en": "Let the heavens rejoice and let the earth be glad, for the wall that divided the Western and Eastern Church has been taken down.",
+    "source": { "vi": "Sắc lệnh hiệp nhất “Laetentur Caeli”, 1439", "en": "The decree of union “Laetentur Caeli,” 1439" }
+  },
+  "background": [
+    {
+      "vi": "Công đồng khởi sự tại Basel năm 1431 dưới thời Giáo hoàng Êugêniô IV, giữa lúc thuyết công đồng còn mạnh và căng thẳng với Giáo hoàng. Khi cơ hội hiệp nhất với Đông phương mở ra, Giáo hoàng chuyển công đồng về Ferrara rồi Florentia (Firenze) — nơi diễn ra những phiên họp quan trọng nhất năm 1439.",
+      "en": "The council opened at Basel in 1431 under Pope Eugene IV, at a time when conciliarism was still strong and in tension with the pope. When the chance for reunion with the East arose, the pope transferred the council to Ferrara and then to Florence — where its most important sessions took place in 1439."
+    },
+    {
+      "vi": "Đế quốc Đông phương đang bị người Thổ uy hiếp, nên hoàng đế và Thượng phụ Constantinôpôli đích thân đến dự cùng một phái đoàn Hy Lạp lớn. Sau nhiều tháng tranh luận thần học, hai bên đạt tới sắc lệnh hiệp nhất “Laetentur Caeli” (1439), giải quyết bốn điểm gây chia rẽ: Filioque, luyện ngục, quyền tối thượng của Giáo hoàng, và bánh có men hay không men trong Thánh Thể.",
+      "en": "The Eastern Empire was under threat from the Turks, so the emperor and the Patriarch of Constantinople came in person with a large Greek delegation. After months of theological debate, the two sides reached the decree of union “Laetentur Caeli” (1439), settling the four dividing points: the Filioque, purgatory, the primacy of the pope, and whether the Eucharist uses leavened or unleavened bread."
+    },
+    {
+      "vi": "Công đồng còn ký các sắc lệnh hiệp nhất với người Armênia và người Copt, trong đó có những bản tóm lược quý giá về bảy bí tích và về đức tin. Nhưng cũng như Lyon II, sự hiệp nhất không được đón nhận rộng rãi ở Đông phương và tan vỡ sau khi Constantinôpôli thất thủ năm 1453. Dù vậy, các văn kiện của Florentinô vẫn là kho tàng tín lý.",
+      "en": "The council also signed decrees of union with the Armenians and the Copts, containing precious summaries of the seven sacraments and of the faith. But, like Lyon II, the union was not widely received in the East and fell apart after the fall of Constantinople in 1453. Even so, the documents of Florence remain a treasury of doctrine."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Years" }, "value": { "vi": "1431–1445", "en": "1431–1445" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Basel · Ferrara · Florentia · Rôma", "en": "Basel · Ferrara · Florence · Rome" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Êugêniô IV", "en": "Pope Eugene IV" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Êugêniô IV", "en": "Eugene IV" } },
+    { "label": { "vi": "Khách mời chính", "en": "Chief guests" }, "value": { "vi": "Hoàng đế và Thượng phụ Đông phương", "en": "The Eastern emperor and patriarch" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Hiệp nhất Đông–Tây · bảy bí tích · quyền tối thượng", "en": "East–West reunion · the seven sacraments · primacy" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Sắc lệnh hiệp nhất với người Hy Lạp", "en": "Decree of union with the Greeks" }, "latin": "Laetentur Caeli", "date": "1439" },
+    { "title": { "vi": "Sắc lệnh hiệp nhất với người Armênia (về bảy bí tích)", "en": "Decree of union with the Armenians (on the seven sacraments)" }, "latin": "Exsultate Deo", "date": "1439" },
+    { "title": { "vi": "Sắc lệnh hiệp nhất với người Copt và Êthiôpia", "en": "Decree of union with the Copts and Ethiopians" }, "latin": "Cantate Domino", "date": "1442" }
+  ],
+  "documents_note": {
+    "vi": "Sắc lệnh cho người Armênia là một trong những bản trình bày sớm và đầy đủ nhất về bảy bí tích, còn “Laetentur Caeli” định tín quyền tối thượng của Giáo hoàng — nền tảng mà Vaticanô I sẽ dựa vào.",
+    "en": "The decree for the Armenians is one of the earliest and fullest presentations of the seven sacraments, while “Laetentur Caeli” defined the primacy of the pope — the foundation Vatican I would build on."
+  },
+  "sections": [
+    {
+      "id": "primacy",
+      "title": { "vi": "Quyền tối thượng của Giáo hoàng", "en": "The primacy of the pope" },
+      "body": {
+        "vi": "Sắc lệnh “Laetentur Caeli” tuyên bố rằng Giáo hoàng Rôma, kế vị thánh Phêrô, là thủ lãnh của toàn thể Hội Thánh, là cha và thầy của mọi Kitô hữu, và được trao trọn quyền chăn dắt và cai quản Hội Thánh phổ quát. Đáng chú ý là chính phái đoàn Đông phương cũng ký nhận điều này — cho thấy quyền tối thượng của Phêrô không phải là “phát minh” của riêng Tây phương mà thuộc đức tin chung của Hội Thánh cổ.",
+        "en": "The decree “Laetentur Caeli” declared that the Roman pope, successor of St Peter, is head of the whole Church, father and teacher of all Christians, entrusted with full power to shepherd and govern the universal Church. Notably the Eastern delegation itself signed this — showing that the primacy of Peter is not a Western “invention” but part of the shared faith of the ancient Church."
+      },
+      "open": false
+    },
+    {
+      "id": "sacraments",
+      "title": { "vi": "Bảy bí tích được trình bày rõ", "en": "The seven sacraments set out clearly" },
+      "body": {
+        "vi": "Trong sắc lệnh cho người Armênia, công đồng lần đầu trình bày cách hệ thống về bảy bí tích: Rửa Tội, Thêm Sức, Thánh Thể, Giải Tội, Xức Dầu Bệnh Nhân, Truyền Chức Thánh và Hôn Phối — mỗi bí tích với chất thể, mô thể và thừa tác viên của nó. Bản văn này về sau nuôi dưỡng giáo lý của Công đồng Triđentinô và vẫn được sách Giáo Lý trích dẫn.",
+        "en": "In the decree for the Armenians the council for the first time set out the seven sacraments systematically: Baptism, Confirmation, the Eucharist, Penance, the Anointing of the Sick, Holy Orders, and Matrimony — each with its matter, form, and minister. This text later nourished the teaching of the Council of Trent and is still quoted by the Catechism."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Nếu Đông phương từng ký nhận quyền tối thượng của Giáo hoàng tại Florentinô rồi lại bỏ, thì ai đúng?", "en": "If the East signed on to papal primacy at Florence and then walked away, who was right?" },
+      "a": {
+        "vi": "Việc phái đoàn Đông phương ký nhận tại Florentinô năm 1439 cho thấy quyền tối thượng của Giáo hoàng không xa lạ với truyền thống cổ: các Giáo phụ và các công đồng đầu tiên vẫn nhìn nhận tòa Rôma có một vai trò đặc biệt trong việc gìn giữ đức tin. Việc sự hiệp nhất tan vỡ sau đó phần lớn vì lý do lịch sử và chính trị — nhất là sau khi Constantinôpôli thất thủ và phái đoàn về nước gặp sự phản đối — chứ không chứng minh rằng điều họ đã ký là sai. Công giáo tin rằng quyền tối thượng của Phêrô đặt nền trên chính lời Chúa Kitô: “Con là Đá… Thầy sẽ trao cho con chìa khóa Nước Trời” (Mt 16,18-19). Hôm nay Hội Thánh tiếp nối tinh thần Florentinô bằng đối thoại đại kết chân thành với Chính Thống giáo.",
+        "en": "That the Eastern delegation signed at Florence in 1439 shows that papal primacy was not foreign to the ancient tradition: the Fathers and the first councils recognized a special role for the See of Rome in guarding the faith. That the union later collapsed was largely for historical and political reasons — especially after Constantinople fell and the delegates met resistance back home — and does not prove that what they signed was false. Catholics hold that Peter's primacy rests on the very words of Christ: “You are Peter… I will give you the keys of the kingdom of heaven” (Matt 16:18-19). Today the Church carries on the spirit of Florence through sincere ecumenical dialogue with the Orthodox."
+      },
+      "category": "the-church",
+      "tags": ["papacy", "authority", "church-history"]
+    }
+  ],
+  "ccc_refs": [246, 1113],
+  "image": {
+    "src": "/images/cong-dong/florence.jpg",
+    "medium": { "vi": "Công đồng Ferrara–Florentinô, mộc bản trong “Liber Chronicarum” (1493)", "en": "The Council of Ferrara–Florence, woodcut in the “Liber Chronicarum” (1493)" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

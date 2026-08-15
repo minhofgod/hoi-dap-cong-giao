@@ -1,0 +1,87 @@
+{
+  "no": 13,
+  "slug": "lyon-i",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Lyon I", "en": "First Council of Lyon" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười ba · truất phế hoàng đế Fêđêricô II",
+    "en": "The thirteenth ecumenical council · the deposition of Emperor Frederick II"
+  },
+  "dates": { "display": "1245", "start": 1245, "end": 1245 },
+  "location": { "vi": "Lyon, Pháp", "en": "Lyon, France" },
+  "quote": {
+    "vi": "Chúng tôi tuyên bố ông ấy bị truất khỏi mọi vinh dự và phẩm vị… và giải thoát mọi người từng thề trung thành với ông khỏi lời thề ấy.",
+    "en": "We declare him deprived of all honour and dignity… and we absolve from their oath all who were bound to him by an oath of fealty.",
+    "source": { "vi": "Sắc lệnh truất phế hoàng đế Fêđêricô II, 1245", "en": "The sentence deposing Emperor Frederick II, 1245" }
+  },
+  "background": [
+    {
+      "vi": "Giữa thế kỷ XIII, Hội Thánh lâm vào cuộc xung đột gay gắt với hoàng đế Fêđêricô II (Frederick II) nhà Hôhenstaufen. Bị hoàng đế uy hiếp ngay tại Ý, Giáo hoàng Innôxentê IV phải trốn khỏi Rôma và triệu tập công đồng chung tại Lyon, trên đất Pháp, xa tầm với của quân đội hoàng gia.",
+      "en": "In the mid-thirteenth century the Church was locked in bitter conflict with the Hohenstaufen emperor Frederick II. Threatened by the emperor in Italy itself, Pope Innocent IV fled Rome and convened an ecumenical council at Lyon, on French soil, beyond the reach of the imperial armies."
+    },
+    {
+      "vi": "Công đồng họp năm 1245 với khoảng 150 giám mục. Đỉnh điểm là việc Giáo hoàng long trọng ra vạ tuyệt thông và tuyên bố truất phế Fêđêricô II, giải thoát các thần dân khỏi lời thề trung thành với ông — một trong những khẳng định mạnh mẽ nhất thời Trung Cổ về quyền của Hội Thánh trước quyền lực trần thế.",
+      "en": "The council met in 1245 with about 150 bishops. Its climax was the pope's solemn excommunication and declared deposition of Frederick II, releasing his subjects from their oath of loyalty — one of the strongest medieval assertions of the Church's authority against a temporal power."
+    },
+    {
+      "vi": "Ngoài vụ hoàng đế, công đồng còn báo động về ba mối nguy của thời đại: đất thánh Giêrusalem vừa thất thủ (1244), mối đe dọa của quân Mông Cổ đang tràn tới, và cuộc ly giáo với Đông phương. Công đồng kêu gọi một cuộc Thập Tự Chinh mới và ban hành các khoản cải tổ kỷ luật giáo sĩ.",
+      "en": "Beyond the emperor, the council sounded the alarm over three dangers of the age: the recent loss of Jerusalem (1244), the threat of the advancing Mongols, and the schism with the East. It called for a new crusade and issued canons reforming clerical discipline."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "1245", "en": "1245" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Lyon, Pháp", "en": "Lyon, France" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Innôxentê IV", "en": "Pope Innocent IV" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Innôxentê IV", "en": "Innocent IV" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "≈ 150 giám mục", "en": "≈ 150 bishops" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Truất phế hoàng đế · Thập Tự Chinh · cải tổ", "en": "Deposing the emperor · crusade · reform" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Sắc lệnh truất phế Fêđêricô II", "en": "The sentence deposing Frederick II" }, "latin": "Ad apostolicae dignitatis", "date": "1245" },
+    { "title": { "vi": "Các khoản cải tổ kỷ luật (22 hiến chế)", "en": "Reform canons (22 constitutions)" }, "latin": "", "date": "1245" },
+    { "title": { "vi": "Lời kêu gọi Thập Tự Chinh và cứu viện Đất Thánh", "en": "The call for a crusade and the relief of the Holy Land" }, "latin": "Afflicti corde", "date": "1245" }
+  ],
+  "documents_note": {
+    "vi": "Lyon I chủ yếu là một công đồng kỷ luật và chính trị hơn là tín lý: nó không định tín điều mới, nhưng cho thấy Hội Thánh thời Trung Cổ tự hiểu mình có quyền phán xét cả hoàng đế khi công ích của đức tin bị đe dọa.",
+    "en": "Lyon I was chiefly a disciplinary and political council rather than a doctrinal one: it defined no new dogma, but it shows how the medieval Church understood itself as able to judge even an emperor when the common good of the faith was at stake."
+  },
+  "sections": [
+    {
+      "id": "deposition",
+      "title": { "vi": "Vì sao truất phế một hoàng đế?", "en": "Why depose an emperor?" },
+      "body": {
+        "vi": "Fêđêricô II bị cáo buộc bội thề, bách hại Hội Thánh, cấu kết với người Hồi giáo và gây hại cho Đất Thánh. Trong khung cảnh Kitô giáo thời Trung Cổ, khi quyền đạo và quyền đời gắn chặt với nhau, Giáo hoàng cho rằng một ông vua công khai chống lại Hội Thánh thì không còn tư cách cai trị dân Kitô giáo. Bản án mang tính biểu tượng nhiều hơn là hiệu lực thực tế — Fêđêricô vẫn cai trị đến khi qua đời năm 1250 — nhưng nó đánh dấu cao điểm của tham vọng thần quyền thời Trung Cổ.",
+        "en": "Frederick II was charged with perjury, persecuting the Church, colluding with Muslims, and harming the Holy Land. In the medieval Christian setting, where spiritual and temporal power were tightly bound, the pope held that a ruler who openly fought the Church forfeited the right to rule a Christian people. The sentence was more symbolic than effective — Frederick ruled on until his death in 1250 — but it marked the high point of medieval papal claims over temporal rulers."
+      },
+      "open": false
+    },
+    {
+      "id": "crusade-and-reform",
+      "title": { "vi": "Thập Tự Chinh và cải tổ", "en": "Crusade and reform" },
+      "body": {
+        "vi": "Trước tin Giêrusalem thất thủ và quân Mông Cổ tiến đến tận châu Âu, công đồng kêu gọi một cuộc Thập Tự Chinh mới (dẫn tới cuộc viễn chinh của thánh vua Louis IX nước Pháp). Nó cũng ban 22 hiến chế chấn chỉnh đời sống giáo sĩ, tòa án Hội Thánh và việc quản trị tài sản — tiếp nối công cuộc cải tổ mà Latêranô IV đã khởi động.",
+        "en": "Faced with the news of Jerusalem's fall and the Mongols reaching into Europe, the council called for a new crusade (leading to the expedition of the holy king Louis IX of France). It also issued 22 constitutions correcting clerical life, Church courts, and the administration of property — continuing the reform that Lateran IV had begun."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Công đồng truất phế cả một hoàng đế — chẳng phải đó là bằng chứng Hội Thánh ham quyền lực chính trị sao?", "en": "The council deposed an emperor — isn't that proof the Church was hungry for political power?" },
+      "a": {
+        "vi": "Cần đọc biến cố trong bối cảnh của nó. Thời Trung Cổ, quyền đạo và quyền đời đan xen đến mức một vị vua thường được xức dầu và thề bảo vệ Hội Thánh; khi Fêđêricô II công khai bội thề và bách hại Hội Thánh, Giáo hoàng hành động như trọng tài luân lý mà cả thời ấy công nhận. Điều đó không phải là bản chất bất biến của Hội Thánh: chính Chúa Giêsu dạy “Của Xêda, trả về Xêda; của Thiên Chúa, trả về Thiên Chúa” (Mt 22,21), và Vaticanô II khẳng định cộng đoàn chính trị và Hội Thánh độc lập với nhau trong lĩnh vực riêng (x. Gaudium et Spes 76). Lyon I phản ánh một giai đoạn lịch sử, không phải một tín điều buộc phải tin.",
+        "en": "The event has to be read in its context. In the Middle Ages spiritual and temporal power were so interwoven that a king was typically anointed and sworn to defend the Church; when Frederick II openly broke that oath and persecuted the Church, the pope acted as the moral arbiter the age recognized. This is not the Church's unchanging nature: Jesus himself taught “Render to Caesar the things that are Caesar's, and to God the things that are God's” (Matt 22:21), and Vatican II affirmed that the political community and the Church are each independent in their own field (cf. Gaudium et Spes 76). Lyon I reflects a historical moment, not a dogma one must believe."
+      },
+      "category": "the-church",
+      "tags": ["church-history", "authority"]
+    }
+  ],
+  "ccc_refs": [2242, 2245],
+  "image": {
+    "src": "/images/cong-dong/lyon-i.jpg",
+    "medium": { "vi": "Chân dung Giáo hoàng Innôxentê IV", "en": "Portrait of Pope Innocent IV" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

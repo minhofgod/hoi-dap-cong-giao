@@ -1,0 +1,87 @@
+{
+  "no": 14,
+  "slug": "lyon-ii",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Lyon II", "en": "Second Council of Lyon" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười bốn · nỗ lực hiệp nhất với Đông phương",
+    "en": "The fourteenth ecumenical council · the attempt at reunion with the East"
+  },
+  "dates": { "display": "1274", "start": 1274, "end": 1274 },
+  "location": { "vi": "Lyon, Pháp", "en": "Lyon, France" },
+  "quote": {
+    "vi": "Chúng tôi tuyên xưng rằng Chúa Thánh Thần phát xuất đời đời từ Chúa Cha và Chúa Con, không như từ hai nguyên lý, nhưng như từ một nguyên lý duy nhất.",
+    "en": "We confess that the Holy Spirit proceeds eternally from the Father and the Son, not as from two principles, but as from one single principle.",
+    "source": { "vi": "Công đồng Lyon II, 1274", "en": "The Second Council of Lyon, 1274" }
+  },
+  "background": [
+    {
+      "vi": "Từ cuộc ly giáo năm 1054, Hội Thánh Đông phương và Tây phương chia rẽ. Đến thế kỷ XIII, hoàng đế Đông phương Micae VIII Palêôlôgô (Michael VIII) — vì lý do vừa đạo vừa đời — mong nối lại hiệp thông với Rôma. Giáo hoàng Grêgôriô X triệu tập công đồng chung tại Lyon năm 1274 để chính thức tái lập sự hiệp nhất.",
+      "en": "Since the schism of 1054 the Eastern and Western Churches had been divided. By the thirteenth century the Eastern emperor Michael VIII Palaiologos — for reasons both religious and political — sought to restore communion with Rome. Pope Gregory X convened an ecumenical council at Lyon in 1274 to re-establish that unity officially."
+    },
+    {
+      "vi": "Khoảng 500 giám mục tham dự. Các sứ thần của hoàng đế Đông phương long trọng tuyên xưng đức tin Công giáo, nhìn nhận Chúa Thánh Thần phát xuất từ Chúa Cha “và Chúa Con” (Filioque), nhìn nhận quyền tối thượng của Giáo hoàng Rôma, và bảy bí tích. Người ta cùng hát Kinh Tin Kính bằng tiếng Hy Lạp và tiếng Latinh — dấu chỉ của sự hiệp nhất được tái lập.",
+      "en": "About 500 bishops took part. The Eastern emperor's envoys solemnly professed the Catholic faith, acknowledging that the Holy Spirit proceeds from the Father “and the Son” (Filioque), the primacy of the Roman pope, and the seven sacraments. The Creed was sung together in Greek and in Latin — a sign of the restored unity."
+    },
+    {
+      "vi": "Công đồng cũng đưa ra giáo huấn rõ ràng đầu tiên của một công đồng chung về luyện ngục và về số phận linh hồn sau khi chết. Thánh Tôma Aquinô qua đời trên đường tới công đồng, còn thánh Bônaventura qua đời khi công đồng đang họp. Đáng tiếc, sự hiệp nhất chỉ tồn tại ít năm: các Giáo hội Đông phương phần lớn bác bỏ, và nó tan vỡ sau khi Micae VIII mất.",
+      "en": "The council also gave the first clear teaching of an ecumenical council on purgatory and the fate of souls after death. St Thomas Aquinas died on his way to the council, and St Bonaventure died while it was in session. Sadly the union lasted only a few years: the Eastern Churches largely rejected it, and it collapsed after the death of Michael VIII."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Year" }, "value": { "vi": "1274", "en": "1274" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Lyon, Pháp", "en": "Lyon, France" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Grêgôriô X", "en": "Pope Gregory X" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Pope" }, "value": { "vi": "Grêgôriô X", "en": "Gregory X" } },
+    { "label": { "vi": "Số nghị phụ", "en": "Attendees" }, "value": { "vi": "≈ 500 giám mục", "en": "≈ 500 bishops" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Hiệp nhất Đông–Tây · Filioque · luyện ngục", "en": "East–West reunion · Filioque · purgatory" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Tuyên xưng đức tin của hoàng đế Micae VIII", "en": "The profession of faith of Emperor Michael VIII" }, "latin": "", "date": "1274" },
+    { "title": { "vi": "Hiến chế về Chúa Thánh Thần phát xuất", "en": "Constitution on the procession of the Holy Spirit" }, "latin": "Fideli ac devota", "date": "1274" },
+    { "title": { "vi": "Sắc lệnh về việc bầu Giáo hoàng (luật mật nghị)", "en": "Decree on the papal election (the conclave law)" }, "latin": "Ubi periculum", "date": "1274" }
+  ],
+  "documents_note": {
+    "vi": "Từ Lyon II mà Hội Thánh có luật “mật nghị” (conclave) buộc các Hồng y bầu Giáo hoàng trong tình trạng cách ly — vẫn còn hiệu lực đến nay — và một trong những tuyên tín rõ ràng đầu tiên về luyện ngục.",
+    "en": "From Lyon II the Church has the “conclave” law that shuts the cardinals away to elect a pope — still in force today — and one of the first clear professions on purgatory."
+  },
+  "sections": [
+    {
+      "id": "reunion",
+      "title": { "vi": "Một sự hiệp nhất ngắn ngủi", "en": "A short-lived reunion" },
+      "body": {
+        "vi": "Sự hiệp nhất tại Lyon II được ký kết từ trên xuống — do hoàng đế Đông phương thúc đẩy vì cần Tây phương giúp chống lại kẻ thù — chứ chưa thấm xuống hàng giáo sĩ và giáo dân Hy Lạp, vốn còn nghi ngại Rôma. Vì thế nó không bền: phần lớn Đông phương từ chối đón nhận, và sự hiệp thông tan vỡ chỉ vài năm sau. Bài học của Lyon II là hiệp nhất thật sự không thể áp đặt bằng thỏa hiệp chính trị, mà phải lớn lên từ đức tin chung và lòng tin cậy được chữa lành — con đường mà Vaticanô II sẽ nối lại qua phong trào đại kết.",
+        "en": "The unity of Lyon II was signed from the top down — driven by the Eastern emperor, who needed Western help against his enemies — and had not yet reached the Greek clergy and faithful, who still distrusted Rome. So it did not hold: most of the East refused to receive it, and communion broke apart within a few years. The lesson of Lyon II is that real unity cannot be imposed by political bargain, but must grow out of shared faith and healed trust — the path Vatican II would later take up through the ecumenical movement."
+      },
+      "open": false
+    },
+    {
+      "id": "purgatory",
+      "title": { "vi": "Giáo huấn về luyện ngục", "en": "The teaching on purgatory" },
+      "body": {
+        "vi": "Lyon II dạy rằng những ai chết trong ơn nghĩa Chúa nhưng chưa đền tội trọn vẹn thì được thanh luyện sau khi chết, và lời cầu nguyện của người còn sống — nhất là Thánh Lễ — có thể trợ giúp họ. Đây không phải là “nơi” Hội Thánh mới bịa ra, mà là cách diễn tả một niềm tin cổ xưa: Hội Thánh vẫn cầu cho người đã qua đời từ thời các Tông đồ. Công đồng Florentinô và Triđentinô về sau xác nhận lại giáo huấn này.",
+        "en": "Lyon II taught that those who die in God's grace but have not fully made satisfaction for their sins are purified after death, and that the prayers of the living — above all the Mass — can help them. This was not a “place” the Church newly invented, but a way of expressing an ancient belief: the Church has prayed for the dead since apostolic times. The Councils of Florence and Trent later reaffirmed this teaching."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Luyện ngục chỉ được “phát minh” ở Lyon II thời Trung Cổ, đúng không?", "en": "Wasn't purgatory just “invented” at Lyon II in the Middle Ages?" },
+      "a": {
+        "vi": "Không. Lyon II (1274) diễn đạt bằng ngôn ngữ chính xác một niềm tin có sẵn từ lâu, chứ không tạo ra điều mới. Kinh Thánh đã cho thấy việc cầu nguyện và dâng lễ đền tội cho người chết là điều tốt lành và thánh thiện (x. 2 Mcb 12,45), và thánh Phaolô nói tới một sự được cứu “như thể băng qua lửa” (x. 1 Cr 3,15). Các Kitô hữu tiên khởi khắc lời cầu cho người quá cố trên các hang toại đạo. Điều Hội Thánh gọi là “luyện ngục” chính là sự thanh luyện sau cùng ấy — một dấu chỉ của lòng thương xót, không phải sự trừng phạt vô vọng.",
+        "en": "No. Lyon II (1274) put into precise language a belief already long held; it did not create something new. Scripture already shows that praying and making atonement for the dead is a holy and good thing to do (cf. 2 Macc 12:45), and St Paul speaks of one being saved “but only as through fire” (cf. 1 Cor 3:15). The early Christians carved prayers for the departed on the catacomb walls. What the Church calls “purgatory” is precisely that final purification — a sign of mercy, not hopeless punishment."
+      },
+      "category": "theology-doctrine",
+      "tags": ["purgatory", "salvation", "church-history"]
+    }
+  ],
+  "ccc_refs": [1031, 1032],
+  "image": {
+    "src": "/images/cong-dong/lyon-ii.jpg",
+    "medium": { "vi": "Chân dung Giáo hoàng Grêgôriô X", "en": "Portrait of Pope Gregory X" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

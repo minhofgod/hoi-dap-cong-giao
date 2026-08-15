@@ -1,0 +1,87 @@
+{
+  "no": 18,
+  "slug": "lateran-v",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Latêranô V", "en": "Fifth Council of the Lateran" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười tám · linh hồn bất tử và lời kêu gọi cải tổ",
+    "en": "The eighteenth ecumenical council · the immortal soul and a call to reform"
+  },
+  "dates": { "display": "1512–1517", "start": 1512, "end": 1517 },
+  "location": { "vi": "Đền Latêranô, Rôma", "en": "The Lateran Basilica, Rome" },
+  "quote": {
+    "vi": "Linh hồn không những thật sự, tự nó và theo bản chất là mô thể của thân xác… mà còn bất tử.",
+    "en": "The soul is not only truly, of itself, and essentially the form of the body… but also immortal.",
+    "source": { "vi": "Hiến chế “Apostolici regiminis”, 1513", "en": "The constitution “Apostolici regiminis,” 1513" }
+  },
+  "background": [
+    {
+      "vi": "Năm 1512, Giáo hoàng Giuliô II (Julius II) triệu tập công đồng chung tại Đền Latêranô ở Rôma, một phần để đáp lại một “công đồng” ly khai do vài Hồng y và vua nước Pháp dựng lên tại Pisa. Công đồng tiếp tục dưới thời Giáo hoàng kế nhiệm là Lêô X và kéo dài đến năm 1517.",
+      "en": "In 1512 Pope Julius II convened an ecumenical council at the Lateran in Rome, partly to answer a breakaway “council” set up at Pisa by a few cardinals and the king of France. The council continued under his successor Pope Leo X and lasted until 1517."
+    },
+    {
+      "vi": "Đóng góp tín lý bền vững nhất của Latêranô V là hiến chế “Apostolici regiminis” (1513): trước các triết gia thời Phục Hưng cho rằng linh hồn chết theo thân xác hoặc mọi người chỉ chung một trí khôn duy nhất, công đồng long trọng định tín rằng linh hồn thiêng liêng của mỗi người thì bất tử và mang tính cá vị — mỗi người một linh hồn riêng.",
+      "en": "Lateran V's most lasting doctrinal contribution is the constitution “Apostolici regiminis” (1513): against Renaissance philosophers who held that the soul dies with the body or that all people share one single intellect, the council solemnly defined that each person's spiritual soul is immortal and individual — each has their own soul."
+    },
+    {
+      "vi": "Công đồng cũng bác bỏ thuyết công đồng, tái khẳng định quyền tối thượng của Giáo hoàng, và soạn thảo nhiều đề nghị cải tổ Hội Thánh. Nhưng các cải tổ ấy phần lớn nằm trên giấy; công đồng bế mạc tháng Ba năm 1517, chỉ vài tháng trước khi Máctinô Luthêr công bố các luận đề mở đầu cuộc Cải Cách Thệ phản. Cơ hội canh tân đã bị bỏ lỡ.",
+      "en": "The council also rejected conciliarism, reaffirmed the primacy of the pope, and drew up many proposals for Church reform. But those reforms largely stayed on paper; the council closed in March 1517, only months before Martin Luther posted the theses that began the Protestant Reformation. The chance for renewal had been missed."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Years" }, "value": { "vi": "1512–1517", "en": "1512–1517" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Đền Latêranô, Rôma", "en": "The Lateran, Rome" } },
+    { "label": { "vi": "Triệu tập", "en": "Convened by" }, "value": { "vi": "Giáo hoàng Giuliô II", "en": "Pope Julius II" } },
+    { "label": { "vi": "Giáo hoàng", "en": "Popes" }, "value": { "vi": "Giuliô II, rồi Lêô X", "en": "Julius II, then Leo X" } },
+    { "label": { "vi": "Định tín chính", "en": "Chief definition" }, "value": { "vi": "Linh hồn bất tử và cá vị", "en": "The soul is immortal and individual" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Linh hồn bất tử · quyền Giáo hoàng · cải tổ", "en": "The immortal soul · papal authority · reform" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Hiến chế về linh hồn bất tử", "en": "Constitution on the immortality of the soul" }, "latin": "Apostolici regiminis", "date": "1513" },
+    { "title": { "vi": "Bác bỏ “công đồng” Pisa và thuyết công đồng", "en": "Rejection of the Pisan “council” and of conciliarism" }, "latin": "Pastor aeternus", "date": "1516" },
+    { "title": { "vi": "Các sắc lệnh cải tổ Giáo triều và giáo sĩ", "en": "Decrees for the reform of the Curia and clergy" }, "latin": "Supernae dispositionis", "date": "1514" }
+  ],
+  "documents_note": {
+    "vi": "Định tín của Latêranô V về linh hồn bất tử được sách Giáo Lý trích lại (GLHTCG 366); nhưng lịch sử cũng ghi nhớ công đồng như một cơ hội cải tổ bị bỏ lỡ ngay trước thềm cuộc Cải Cách.",
+    "en": "Lateran V's definition on the immortal soul is quoted by the Catechism (CCC 366); yet history also remembers the council as a missed opportunity for reform on the very eve of the Reformation."
+  },
+  "sections": [
+    {
+      "id": "immortal-soul",
+      "title": { "vi": "Vì sao định tín linh hồn bất tử?", "en": "Why define that the soul is immortal?" },
+      "body": {
+        "vi": "Một số triết gia thời Phục Hưng, khi đọc lại Aristốt qua các nhà chú giải, cho rằng linh hồn tiêu tan cùng thân xác, hoặc chỉ có một “trí khôn” duy nhất cho cả loài người — nghĩa là không có sự sống đời đời cho từng người. Latêranô V đáp lại: mỗi người có một linh hồn thiêng liêng riêng, và linh hồn ấy bất tử. Chân lý này bảo vệ nền tảng của niềm hy vọng Kitô giáo — mỗi người sẽ sống mãi và sẽ chịu phán xét — và phẩm giá độc nhất của từng con người trước mặt Thiên Chúa.",
+        "en": "Some Renaissance philosophers, rereading Aristotle through his commentators, held that the soul dissolves with the body, or that there is only one single “intellect” for all humanity — meaning no eternal life for each person. Lateran V answered: each person has their own spiritual soul, and that soul is immortal. This truth guards the foundation of Christian hope — that each person will live forever and be judged — and the unique dignity of every human being before God."
+      },
+      "open": false
+    },
+    {
+      "id": "missed-reform",
+      "title": { "vi": "Một cơ hội cải tổ bị bỏ lỡ", "en": "A missed opportunity for reform" },
+      "body": {
+        "vi": "Nhiều nghị phụ tại Latêranô V thấy rõ Hội Thánh cần canh tân sâu xa: nạn mua bán chức thánh, giáo sĩ sống buông thả, việc lạm dụng ân xá. Công đồng đưa ra nhiều đề nghị tốt, nhưng thiếu ý chí thực thi, nên phần lớn không thành hiện thực. Chỉ ít tháng sau khi bế mạc, cuộc Cải Cách bùng nổ. Bài học lịch sử thật cay đắng: cải tổ được nói tới nhưng không được thi hành thì không đủ — điều mà Công đồng Triđentinô về sau sẽ nghiêm túc thực hiện.",
+        "en": "Many fathers at Lateran V saw clearly that the Church needed deep renewal: the buying and selling of Church office, lax clergy, abuses of indulgences. The council made good proposals, but lacked the will to carry them out, so most came to nothing. Only months after it closed, the Reformation erupted. The historical lesson is bitter: reform that is talked about but not enacted is not enough — something the Council of Trent would later take seriously."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Nếu Hội Thánh biết mình cần cải tổ mà không làm, thì cuộc Cải Cách Thệ phản chẳng phải là điều chính đáng sao?", "en": "If the Church knew it needed reform and didn't do it, wasn't the Protestant Reformation justified?" },
+      "a": {
+        "vi": "Công giáo thẳng thắn nhìn nhận rằng nhiều lạm dụng có thật đã kêu gào canh tân, và Latêranô V đã bỏ lỡ cơ hội ấy — chính các Giáo hoàng sau này cũng xin lỗi về những tội lỗi trong quá khứ của con cái Hội Thánh. Nhưng nhu cầu cải tổ về đời sống và kỷ luật thì khác với việc chối bỏ các chân lý đức tin. Cuộc Cải Cách không dừng ở việc sửa lạm dụng, mà đi tới chỗ bác bỏ những điều thuộc kho tàng đức tin — như bảy bí tích, Thánh Lễ là hy tế, quyền Giáo hoàng. Câu trả lời đúng đắn cho lạm dụng là thanh luyện Hội Thánh từ bên trong, như các thánh cải tổ và Công đồng Triđentinô đã làm, chứ không phải phá vỡ sự hiệp nhất mà Chúa Kitô cầu xin (x. Ga 17,21).",
+        "en": "Catholics frankly admit that real abuses cried out for renewal, and that Lateran V missed that chance — later popes themselves have apologized for the past sins of the Church's members. But the need to reform life and discipline is different from denying the truths of the faith. The Reformation did not stop at correcting abuses; it went on to reject things belonging to the deposit of faith — the seven sacraments, the Mass as sacrifice, the authority of the pope. The right answer to abuse is to purify the Church from within, as the reforming saints and the Council of Trent did, not to break the unity Christ prayed for (cf. John 17:21)."
+      },
+      "category": "the-church",
+      "tags": ["church-history", "protestant-objections", "authority"]
+    }
+  ],
+  "ccc_refs": [366, 1703],
+  "image": {
+    "src": "/images/cong-dong/lateran-v.jpg",
+    "medium": { "vi": "Chân dung Giáo hoàng Lêô X, tranh của Raffaello", "en": "Portrait of Pope Leo X, by Raphael" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}

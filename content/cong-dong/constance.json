@@ -1,0 +1,87 @@
+{
+  "no": 16,
+  "slug": "constance",
+  "era": "medieval",
+  "name": { "vi": "Công đồng Constance", "en": "Council of Constance" },
+  "subtitle": {
+    "vi": "Công đồng chung thứ mười sáu · chấm dứt cuộc Đại Ly Giáo Tây phương",
+    "en": "The sixteenth ecumenical council · the end of the Western Schism"
+  },
+  "dates": { "display": "1414–1418", "start": 1414, "end": 1418 },
+  "location": { "vi": "Constance (Konstanz), Đức", "en": "Constance (Konstanz), Germany" },
+  "quote": {
+    "vi": "Đã có ba người tự xưng là Giáo hoàng… Nay chỉ còn một mình Máctinô V, được toàn thể Hội Thánh nhìn nhận.",
+    "en": "There had been three claiming to be pope… now there is one alone, Martin V, recognized by the whole Church.",
+    "source": { "vi": "Về việc bầu Giáo hoàng Máctinô V, 1417", "en": "On the election of Pope Martin V, 1417" }
+  },
+  "background": [
+    {
+      "vi": "Đầu thế kỷ XV, Hội Thánh Tây phương rơi vào khủng hoảng chưa từng có: cuộc Đại Ly Giáo. Có tới ba người cùng tự xưng là Giáo hoàng — một ở Rôma, một ở Avignon, một thuộc dòng Pisa — mỗi vị có phe ủng hộ riêng, khiến cả châu Âu Kitô giáo hoang mang không biết ai là Giáo hoàng thật.",
+      "en": "In the early fifteenth century the Western Church fell into an unprecedented crisis: the Great Western Schism. As many as three men each claimed to be pope — one at Rome, one at Avignon, one of the Pisan line — each with his own following, leaving all of Christian Europe unsure who the true pope was."
+    },
+    {
+      "vi": "Dưới sức thúc của hoàng đế Sigismunđô (Sigismund), công đồng họp tại Constance từ năm 1414. Sau nhiều nỗ lực, hai vị từ nhiệm hoặc bị truất, người thứ ba bị bãi bỏ; và để cuộc bầu cử có giá trị trọn vẹn, Giáo hoàng hợp pháp Grêgôriô XII đã chính thức cho phép triệu tập công đồng rồi mới thoái vị. Năm 1417, công đồng bầu Giáo hoàng Máctinô V, chấm dứt cuộc ly giáo.",
+      "en": "Pressed by Emperor Sigismund, the council met at Constance from 1414. After long efforts two claimants resigned or were set aside and the third was deposed; and so that the election would be fully valid, the legitimate pope Gregory XII first formally authorized the council's convocation and then abdicated. In 1417 the council elected Pope Martin V, ending the schism."
+    },
+    {
+      "vi": "Constance cũng lên án các sai lầm của Gioan Wycliffe và của Gioan Hus (Jan Hus) — Hus bị trao cho chính quyền và bị thiêu năm 1415. Công đồng còn ban sắc lệnh “Haec Sancta” chủ trương công đồng có quyền trên cả Giáo hoàng (thuyết công đồng), một lập trường mà Hội Thánh về sau không nhìn nhận là giáo huấn đức tin.",
+      "en": "Constance also condemned the errors of John Wycliffe and of Jan Hus — Hus was handed over to the secular authorities and burned in 1415. The council further issued the decree “Haec Sancta,” claiming a council held authority above the pope (conciliarism), a position the Church later did not accept as a teaching of the faith."
+    }
+  ],
+  "facts": [
+    { "label": { "vi": "Năm", "en": "Years" }, "value": { "vi": "1414–1418", "en": "1414–1418" } },
+    { "label": { "vi": "Nơi họp", "en": "Location" }, "value": { "vi": "Constance, Đức", "en": "Constance, Germany" } },
+    { "label": { "vi": "Kết quả chính", "en": "Chief outcome" }, "value": { "vi": "Bầu Giáo hoàng Máctinô V", "en": "Election of Pope Martin V" } },
+    { "label": { "vi": "Bối cảnh", "en": "Context" }, "value": { "vi": "Đại Ly Giáo Tây phương (1378–1417)", "en": "The Great Western Schism (1378–1417)" } },
+    { "label": { "vi": "Cũng lên án", "en": "Also condemned" }, "value": { "vi": "Sai lầm của Wycliffe và Hus", "en": "The errors of Wycliffe and Hus" } },
+    { "label": { "vi": "Chủ đề", "en": "Focus" }, "value": { "vi": "Kết thúc ly giáo · hiệp nhất · cải tổ", "en": "Ending the schism · unity · reform" } }
+  ],
+  "documents": [
+    { "title": { "vi": "Sắc lệnh bầu Giáo hoàng Máctinô V", "en": "Decree electing Pope Martin V" }, "latin": "", "date": "1417" },
+    { "title": { "vi": "Lên án 45 điều của Wycliffe và các điều của Hus", "en": "Condemnation of 45 articles of Wycliffe and the articles of Hus" }, "latin": "", "date": "1415" },
+    { "title": { "vi": "Sắc lệnh cải tổ định kỳ triệu tập công đồng", "en": "Reform decree on the periodic holding of councils" }, "latin": "Frequens", "date": "1417" }
+  ],
+  "documents_note": {
+    "vi": "Constance đã cứu Hội Thánh khỏi sự chia rẽ, nhưng thành quả bền vững của nó là sự hiệp nhất được tái lập nơi một Giáo hoàng duy nhất — chứ không phải thuyết công đồng, điều mà các công đồng sau và Vaticanô I đều gạt bỏ.",
+    "en": "Constance saved the Church from division, but its lasting fruit is the unity restored in a single pope — not conciliarism, which later councils and Vatican I set aside."
+  },
+  "sections": [
+    {
+      "id": "healing-schism",
+      "title": { "vi": "Chữa lành một Hội Thánh chia rẽ", "en": "Healing a divided Church" },
+      "body": {
+        "vi": "Cuộc Đại Ly Giáo không phải là hai đạo khác nhau, mà là sự tranh chấp về việc ai là Giáo hoàng hợp pháp sau một mật nghị năm 1378 gây tranh cãi. Ngay cả các thánh thời đó cũng đứng về các phe khác nhau trong thiện chí. Constance giải quyết bằng cách để tất cả các bên cùng quy về một cuộc bầu cử duy nhất mà mọi phía chấp nhận, và Giáo hoàng hợp pháp cuối cùng đã trao quyền để bảo đảm tính liên tục. Nhờ đó chức Giáo hoàng được trao lại nguyên vẹn nơi Máctinô V.",
+        "en": "The Great Schism was not two different religions but a dispute over who was the legitimate pope after a contested conclave in 1378. Even the saints of the age took different sides in good faith. Constance resolved it by bringing all parties to a single election that every side accepted, with the last legitimate pope granting authority to secure continuity. So the papal office passed on intact in Martin V."
+      },
+      "open": false
+    },
+    {
+      "id": "conciliarism",
+      "title": { "vi": "Thuyết công đồng — điều Hội Thánh không nhận", "en": "Conciliarism — what the Church did not accept" },
+      "body": {
+        "vi": "Trong cơn khủng hoảng, một số nghị phụ ban sắc lệnh “Haec Sancta” cho rằng một công đồng chung có quyền trên cả Giáo hoàng. Đây là biện pháp khẩn cấp giữa lúc chưa rõ ai là Giáo hoàng thật, chứ không phải một định tín. Hội Thánh về sau không đón nhận thuyết công đồng như giáo huấn đức tin: Công đồng Florentinô tái khẳng định quyền tối thượng của Giáo hoàng, và Vaticanô I định tín rõ ràng điều đó. Vì vậy chỉ những phần của Constance được Giáo hoàng Máctinô V phê chuẩn mới có giá trị của một công đồng chung.",
+        "en": "In the crisis some council fathers issued the decree “Haec Sancta,” holding that an ecumenical council has authority above the pope. This was an emergency measure while it was unclear who the true pope was, not a definition. The Church later did not receive conciliarism as a teaching of the faith: the Council of Florence reaffirmed the primacy of the pope, and Vatican I defined it clearly. That is why only the parts of Constance approved by Pope Martin V carry the authority of an ecumenical council."
+      },
+      "open": false
+    }
+  ],
+  "apologetics": [
+    {
+      "q": { "vi": "Ba người cùng làm Giáo hoàng một lúc — chẳng phải điều đó phá hủy niềm tin vào sự kế vị của thánh Phêrô sao?", "en": "Three men were pope at once — doesn't that destroy any belief in the succession from St Peter?" },
+      "a": {
+        "vi": "Đó là một khủng hoảng nặng nề, nhưng không phá hủy sự kế vị. Trong ba người, chỉ một là Giáo hoàng hợp pháp — dù lúc ấy khó xác định ai; hai người kia là “ngụy Giáo hoàng”. Sự kế vị của thánh Phêrô không dựa vào việc lúc nào tín hữu cũng biết chắc ai là Giáo hoàng thật, mà dựa vào lời hứa của Chúa Kitô rằng Hội Thánh sẽ không bị sự dữ thắng thế (x. Mt 16,18). Constance chính là bằng chứng: giữa hỗn loạn, Hội Thánh vẫn tìm được đường trở về một Giáo hoàng duy nhất và không tan rã. Chuỗi kế vị được nối lại nơi Máctinô V và tiếp tục đến hôm nay.",
+        "en": "It was a grave crisis, but it did not destroy the succession. Of the three, only one was the legitimate pope — even if it was then hard to tell which; the other two were “antipopes.” Peter's succession does not rest on the faithful always knowing for certain who the true pope is, but on Christ's promise that the powers of evil will not prevail against the Church (cf. Matt 16:18). Constance is itself the proof: amid the chaos the Church found its way back to a single pope and did not fall apart. The line of succession was restored in Martin V and continues to this day."
+      },
+      "category": "the-church",
+      "tags": ["papacy", "church-history", "authority"]
+    }
+  ],
+  "ccc_refs": [880, 882],
+  "image": {
+    "src": "/images/cong-dong/constance.jpg",
+    "medium": { "vi": "Công đồng Constance, biên niên sử của Ulrich von Richental", "en": "The Council of Constance, from the chronicle of Ulrich von Richental" },
+    "source": "Wikimedia Commons",
+    "license": "public domain",
+    "available": true
+  }
+}
