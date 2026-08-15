@@ -1,9 +1,10 @@
 // Visibility gate for the "Đồng hành" guided companion flow (/dong-hanh).
 //
-// While this is false, the /dong-hanh route 404s and the entry CTA (DongHanhCta) renders nothing —
-// so the tool stays unpublished on Vercel while it's being polished. Turn on locally with
-// NEXT_PUBLIC_COMPANION=1 (in .env.local, which is gitignored) to preview; flip the default to
-// true when the flow is ready to ship.
+// LAUNCHED 2026-08-15 — live in production. While being polished this was gated off (the route
+// 404'd and the entry CTA rendered nothing) unless NEXT_PUBLIC_COMPANION=1; per the plan it's now
+// flipped on by default for launch, so /dong-hanh renders everywhere. An explicit
+// NEXT_PUBLIC_COMPANION=0 still forces it back off (kill switch); set that on Vercel — or flip the
+// fallback below to false — to hide it again.
 //
 // Client-safe (no fs) so both server and client code can read it.
-export const COMPANION_ENABLED = process.env.NEXT_PUBLIC_COMPANION === '1' ? true : false;
+export const COMPANION_ENABLED = process.env.NEXT_PUBLIC_COMPANION === '0' ? false : true;
