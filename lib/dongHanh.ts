@@ -202,6 +202,14 @@ export interface Situation {
    *  parity. Apply with the pastoral lens on grief paths: the advice stays primary, the pin is a
    *  gentle secondary. */
   seedPins?: string[];
+  /** "Companions in suffering" — 1–2 saints who relied on God THROUGH their suffering, linking to
+   *  their live /cac-thanh pages. HAND-CURATED, never tag-matched: pastoral tone is too important to
+   *  leave to the matcher, and a tonally-wrong saint here does real harm. Only the two suffering
+   *  situations carry this. `line` is the one-sentence reliance, SHOWN not told — presence →
+   *  reliance → closeness, an invitation ("you can ask them to walk with you"), never "so should
+   *  you." Sits alongside, never replaces, the priest off-ramp. See docs/content-guide.md
+   *  "Pastoral tone". */
+  companions?: { href: string; name: Bi; line: Bi }[];
 }
 
 export const SITUATIONS: Record<string, Situation> = {
@@ -374,6 +382,24 @@ export const SITUATIONS: Record<string, Situation> = {
     // path below deliberately sheds it.
     tags: ['suffering', 'free-will'],
     pastoral: true,
+    companions: [
+      {
+        href: '/cac-thanh/tu-dao-viet-nam',
+        name: { vi: 'Các Thánh Tử Đạo Việt Nam', en: 'The Vietnamese Martyrs' },
+        line: {
+          vi: 'Hàng trăm ngàn tín hữu Việt Nam đã giữ vững lòng tin đến chết, tựa nương vào Chúa giữa cơn bách hại tối tăm nhất.',
+          en: 'Hundreds of thousands of Vietnamese faithful held to their faith unto death, leaning on God through the darkest persecution.',
+        },
+      },
+      {
+        href: '/cac-thanh/teresa-calcutta',
+        name: { vi: 'Thánh Têrêsa Calcutta', en: 'St Teresa of Calcutta' },
+        line: {
+          vi: 'Suốt nhiều năm cảm thấy Chúa như vắng bóng, Mẹ vẫn phục vụ người nghèo khổ và bám chặt lấy Người trong đêm tối nội tâm.',
+          en: 'For years she felt God as absent, yet kept serving the poorest and held fast to him through a long interior darkness.',
+        },
+      },
+    ],
     scripture: {
       ref: 'Rm 8,28',
       gloss: {
@@ -596,6 +622,24 @@ export const SITUATIONS: Record<string, Situation> = {
     // dropped as too instructional). "Why the cross" closes present-first — God entered our
     // suffering out of love. The hand-written advice above stays primary; this is a gentle second.
     seedPins: ['n:tai-sao-chua-giesu-chiu-dong-dinh'],
+    companions: [
+      {
+        href: '/cac-thanh/carlo-acutis',
+        name: { vi: 'Thánh Carlo Acutis', en: 'St Carlo Acutis' },
+        line: {
+          vi: 'Một thiếu niên thời nay, đã dâng căn bệnh ung thư máu của mình cho Chúa trong bình an, tin cậy Người đến cùng.',
+          en: 'A teenager of our own day, who offered his leukemia to God in peace, trusting him to the very end.',
+        },
+      },
+      {
+        href: '/cac-thanh/therese-lisieux',
+        name: { vi: 'Thánh Têrêsa Hài Đồng Giêsu', en: 'St Thérèse of Lisieux' },
+        line: {
+          vi: 'Qua bệnh tật và những đêm tối của lòng tin, thánh nữ chọn “con đường nhỏ”: phó thác trọn vẹn như một trẻ thơ trong vòng tay Cha.',
+          en: 'Through illness and dark nights of faith, she chose her “little way”: entrusting herself completely, like a child in her Father’s arms.',
+        },
+      },
+    ],
     scripture: {
       ref: 'Mt 11,28',
       gloss: {

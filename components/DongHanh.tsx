@@ -412,6 +412,30 @@ function AnchorContent({
         </figcaption>
       </figure>
 
+      {situation.companions && situation.companions.length > 0 && (
+        <section className={styles.companions}>
+          <div className={styles.companionsLabel}>
+            <T vi="Những người đã đi qua đêm tối" en="Companions who walked through the dark" />
+          </div>
+          <p className={styles.companionsIntro}>
+            <T
+              vi="Bạn không phải là người đầu tiên đi qua bóng tối này. Có những người đã đi qua — và họ tựa vào Chúa. Bạn có thể xin họ cùng đồng hành."
+              en="You are not the first to walk through this dark. Others walked it — and they leaned on God. You can ask them to walk with you."
+            />
+          </p>
+          <ul className={styles.companionList}>
+            {situation.companions.map((c) => (
+              <li key={c.href}>
+                <Link href={c.href} className={styles.companionRow}>
+                  <span className={styles.companionName}>{pick(c.name)}</span>
+                  <span className={styles.companionLine}>{pick(c.line)}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <Link href={situation.nextStep.href} className={styles.nextStep}>
         <span className={styles.nextStepLabel}>
           <T vi="Gợi ý đọc trước" en="Suggested first read" />

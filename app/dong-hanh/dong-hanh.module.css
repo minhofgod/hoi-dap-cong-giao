@@ -217,6 +217,64 @@
   font-size: 13px;
 }
 
+/* --- Companions in suffering: hand-curated saints who relied on God through the dark --- */
+.companions {
+  margin: 0 0 24px;
+  padding: 18px 20px 20px;
+  background: var(--gold-tint);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-panel);
+}
+.companionsLabel {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--gold-deep);
+  margin-bottom: 6px;
+}
+.companionsIntro {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-body);
+  margin-bottom: 14px;
+}
+.companionList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.companionRow {
+  display: block;
+  padding: 11px 12px;
+  border-radius: var(--radius-row);
+  color: var(--text);
+  transition: background 0.15s ease;
+}
+.companionRow:hover {
+  text-decoration: none;
+  background: #F3EAD3;
+}
+.companionName {
+  display: block;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--text-heading);
+  margin-bottom: 2px;
+}
+.companionRow:hover .companionName {
+  color: var(--gold-deep);
+}
+.companionLine {
+  display: block;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
 /* --- Video play badge + video meta (shared: follow-up buttons and the reading header) --- */
 .resourcePlay {
   display: inline-grid;
