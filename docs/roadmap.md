@@ -199,6 +199,71 @@ lane). So after Tier 1 is live, ask the **companion session (7)** to add a Saint
 the martyr/patron tags). Without it, Saints is findable via search/filters/cross-links but the
 companion won't surface it. See `docs/content-guide.md` "How new content reaches the companion."
 
+## Companion — guided branching path (v2 spec, ready for Session 7)
+
+**Problem it fixes.** Today the companion is a one-shot router: 2–3 intake questions → one situation →
+a batch of Q&As, then it dead-ends — it hand-holds for two minutes, then abandons ("here's a pile,
+go figure it out"). v2 makes it a **guided journey** that keeps walking with the seeker until they're
+satisfied or gets a graceful, warm hand-off.
+
+**The mechanic (confirmed with owner 2026-08-15):**
+- After each answer, show **~4 short follow-up questions** as multiple choice — the questions a reader
+  would naturally have next.
+- Pick one → read that answer → get a **fresh** set of ~4.
+- **Every answer already read is removed** from future suggestions (a `visited` set); the pool shrinks
+  as they explore.
+- Continue until the good suggestions run out **or** a cycle cap (`MAX_CYCLES`, ~5) is hit.
+- Then (or via an always-present exit) ask **"Câu trả lời này có giúp được bạn không? / Did this
+  help?"** — Có / Chưa / Có lẽ.
+
+**Follow-ups are generated automatically, by shared tags (no LLM, deterministic):**
+- After a reader finishes Q&A X, candidates = all **unvisited** pool items scored by **tag overlap**
+  with X (secondarily the original intake situation's category/tags); take the top ~4.
+- Reuses the existing `matchResources` scoring (category +3 / tag +1). The full pool is already handed
+  to the client, so **the entire walk runs client-side** — no server round-trips, instant.
+- Optional `related_qa` pin on a Q&A forces a specific follow-up to the top (already in the content-
+  link model). Council Q&As + videos share the pool, so a chain can surface a "Xem video" or a council
+  answer mid-path.
+
+**Short-form button text (content field):**
+- Add an optional `short:` frontmatter field to `content/giai-dap/*.md` — a punchy 4–8 word phrasing
+  for the button; **falls back to the Q&A title** when absent, so it works before any backfill.
+
+**Never a maze — exits at every step:**
+- Every step keeps visible: "Đọc câu trả lời đầy đủ" (full Q&A), "Xem video" (if any), and a quiet
+  **"Tôi đã tìm được điều cần / I found what I needed"** self-declared exit. True satisfaction is hard
+  to detect, so let them leave whenever; `MAX_CYCLES` is the backstop, not the primary end.
+
+**The dead-end — warm handoff, NO inbox (keeps the "not an inbox" decision intact):**
+On cap reached / follow-ups exhausted / "Chưa" to the satisfaction check — DON'T dump a list:
+1. **Honest apology + warm, pre-seeded handoff:** *"Xin lỗi, có lẽ chúng tôi chưa có sẵn câu trả lời
+   đúng điều bạn cần."* → link to the `/giai-dap` browser **already filtered to their path's category
+   + tags** (not the full list), plus focused search and the related videos — everything scoped to the
+   trail they walked.
+2. **Pastoral / human off-ramp on the heavy branches** (suffering / doubting / loved-one): a gentle
+   *"Nếu đây là điều đang đè nặng trong lòng bạn, đôi khi trò chuyện với một linh mục còn giúp nhiều
+   hơn một trang web."* — a priest / RCIA / their parish. No build cost; doctrinally the right move.
+- **No backend** — no form, database, serverless function, or email capture. The whole v2 feature is
+  client-side.
+
+**Deliberately NOT doing (and why):**
+- **No "submit a question" inbox** — it would need a backend on a static site AND reverse the locked
+  "companion = self-assessment, not an inbox" decision. The warm handoff + human off-ramp cover the
+  same need without either cost.
+- The inbox's real goal (learning what content is missing) is better served later by **passively
+  logging which paths dead-end in "Chưa"** — an analytics signal telling the owner what to write, with
+  nothing asked of the user and no email exposed. Separate future add (needs analytics), not this spec.
+
+**Ownership / lanes:**
+- **Session 7 (companion)** owns the bulk: the branching state machine + UI in `lib/dongHanh.ts`
+  (follow-up selection by tag overlap, `visited` set, `MAX_CYCLES`, satisfaction step, warm-dead-end
+  config) and `components/DongHanh*`.
+- **The `short:` field** is content (Session 3, `content/giai-dap`) + a one-line loader parse
+  (Session 2, `lib/giaiDap*`) — both optional/backward-compatible via the title fallback, so Session 7
+  is **not blocked**: ship with title-fallback, backfill `short` labels later.
+- **No entry-point, homepage, or backend changes** — nothing for Session 8; the existing
+  `COMPANION_ENABLED` flag still covers the whole tool.
+
 ## Still open
 - **Q&A card banner fallback (website, Session 2).** `components/GiaiDapBrowser` renders the topic-card
   banner from `/images/giai-dap/<anchor>.jpg` unconditionally — a missing file shows a BROKEN image
