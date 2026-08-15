@@ -62,9 +62,9 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/ignatius-loyola.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Tranh chân dung (theo Rubens)", "en": "Portrait, after Rubens" },
+    "source": "Wikimedia Commons",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

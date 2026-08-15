@@ -62,9 +62,9 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/therese-lisieux.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Ảnh chụp thập niên 1890", "en": "Photograph, 1890s" },
+    "source": "Wikimedia Commons",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

@@ -74,9 +74,9 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/monica.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Tranh của Luis Tristán, năm 1616", "en": "Painting by Luis Tristán, 1616" },
+    "source": "Wikimedia Commons",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

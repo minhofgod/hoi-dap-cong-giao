@@ -65,9 +65,9 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/juan-diego.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Tranh của Miguel Cabrera, thế kỷ 18", "en": "Painting by Miguel Cabrera, 18th c." },
+    "source": "Wikimedia Commons",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

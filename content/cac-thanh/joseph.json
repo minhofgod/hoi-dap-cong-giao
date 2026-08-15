@@ -50,9 +50,9 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/joseph.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Tranh của Guido Reni, khoảng 1635", "en": "Painting by Guido Reni, c. 1635" },
+    "source": "Wikimedia Commons",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

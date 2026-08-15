@@ -65,9 +65,9 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/john-paul-ii.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Ảnh chụp năm 1993 (Nhà Trắng)", "en": "Photograph, 1993 (White House)" },
+    "source": "Wikimedia Commons",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

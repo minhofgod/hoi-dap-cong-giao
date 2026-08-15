@@ -62,9 +62,9 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/francis-assisi.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Bích họa Sacro Speco (Subiaco), khoảng 1224", "en": "Sacro Speco fresco (Subiaco), c. 1224" },
+    "source": "Wikimedia Commons",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

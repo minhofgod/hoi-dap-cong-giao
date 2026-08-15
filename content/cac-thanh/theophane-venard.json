@@ -54,9 +54,9 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/theophane-venard.jpg",
-    "medium": { "vi": "Chân dung truyền thống", "en": "Traditional depiction" },
-    "source": "",
+    "medium": { "vi": "Chân dung (nhà nguyện Hội Thừa Sai Paris)", "en": "Portrait (Paris Foreign Missions chapel)" },
+    "source": "Wikimedia Commons",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }
