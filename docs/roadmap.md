@@ -191,6 +191,14 @@ Thánh Ven / Théophane Vénard (foreign missionary).
 `content/cac-thanh/*.json` (per-saint, bilingual) · `public/images/cac-thanh` (PD portraits + a
 Catholic Images/CREDITS row each). Session 8 only adds the homepage card + nav link.
 
+**Follow-up once Saints ships — add a companion branch (NOT Session 9's lane).** The Đồng hành
+companion auto-*routes* to any tagged content, so tagged saint entries become findable on their own —
+BUT the companion only *asks* about topics hand-authored into `lib/dongHanh.ts` (that's Session 7's
+lane). So after Tier 1 is live, ask the **companion session (7)** to add a Saints branch/situation
+(e.g. "muốn tìm một vị thánh bổn mạng / a saint's story to learn from" → routes to `mary-saints` +
+the martyr/patron tags). Without it, Saints is findable via search/filters/cross-links but the
+companion won't surface it. See `docs/content-guide.md` "How new content reaches the companion."
+
 ## Still open
 - **Q&A card banner fallback (website, Session 2).** `components/GiaiDapBrowser` renders the topic-card
   banner from `/images/giai-dap/<anchor>.jpg` unconditionally — a missing file shows a BROKEN image
