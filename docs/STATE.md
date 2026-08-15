@@ -47,7 +47,10 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
   themselves). An **in-section CTA** (e.g. a companion nudge inside `/giai-dap`) belongs to **that
   section's session** (Session 2 for `/giai-dap`), not 8 and not the feature. A **feature session
   (e.g. 7) owns NO entry points.** Every companion entry point MUST be gated by `COMPANION_ENABLED` so
-  no dead link ships while the tool is off in prod.
+  no dead link ships while the tool is off in prod. A feature's CTA *component* (e.g.
+  `components/DongHanhCta`, which carries the look + the flag gate) may live in the feature's lane; the
+  shell/section session that places it just IMPORTS it — import ≠ edit, so one gated CTA component is
+  reused rather than re-written.
 
 ## Rules that keep parallel sessions safe
 - Each session commits **only its own lane's files** — never `git add -A`.
