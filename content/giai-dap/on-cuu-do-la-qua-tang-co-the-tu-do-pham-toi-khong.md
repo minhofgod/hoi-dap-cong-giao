@@ -1,5 +1,5 @@
 ---
-question_vi: "Nếu ơn cứu độ là quà tặng nhưng không, vậy cứ tin vào Chúa rồi thoải mái phạm tội cũng được sao?"
+question_vi: "Nếu ơn cứu độ là quà tặng cho không, vậy cứ tin vào Chúa rồi thoải mái phạm tội cũng được sao?"
 question_en: "If salvation is a free gift, can I just believe and then sin freely?"
 topic: "Tại sao Chúa Giêsu chịu đóng đinh"
 category: "theology-doctrine"
@@ -15,7 +15,7 @@ related:
   - "duc-tin-va-viec-lam"
 ---
 
-**Không.** Ơn cứu độ đúng là một quà tặng nhưng không — nhưng đó là quà tặng **cứu ta *khỏi* tội lỗi**, chứ không phải giấy phép để ta *tự do* phạm tội.
+**Không.** Ơn cứu độ đúng là một quà tặng cho không — nhưng đó là quà tặng **cứu ta *khỏi* tội lỗi**, chứ không phải giấy phép để ta *tự do* phạm tội.
 
 Trước hết, cần giữ đúng điều tốt lành: ơn cứu độ thật sự là một hồng ân, không phải phần thưởng ta kiếm được. Sách Giáo Lý dạy rằng ân sủng là "sự trợ giúp nhưng không Thiên Chúa ban để chúng ta đáp lại tiếng gọi… trở nên con cái Thiên Chúa" — nó "vượt quá khả năng của trí khôn và sức lực của ý chí con người" (x. GLHTCG 1996, 1998). Không một việc tốt nào "mua" được nó; ta chỉ có thể đón nhận trong đức tin.
 

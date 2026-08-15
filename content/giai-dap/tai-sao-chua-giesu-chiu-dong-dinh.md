@@ -33,8 +33,8 @@ Và không ai trong chúng ta có thể **tự trả hết** món nợ tội l�
 >
 > — **Ga 3,16** (CGKPV)
 
-Chúa Giêsu không bị *ép* lên thập giá; Ngài **tự nguyện** gánh lấy hậu quả của tội lỗi chúng ta, vì yêu. Sách Giáo Lý dạy rằng Đức Kitô "đã yêu thương [chúng ta] đến cùng", đón nhận cái chết trong lòng mến của Chúa Cha dành cho loài người (x. GLHTCG 609). Ơn cứu độ ấy là một **quà tặng nhưng không** — không phải phần thưởng ta kiếm được, mà là điều ta chỉ có thể đón nhận trong đức tin.
+Chúa Giêsu không bị *ép* lên thập giá; Ngài **tự nguyện** gánh lấy hậu quả của tội lỗi chúng ta, vì yêu. Sách Giáo Lý dạy rằng Đức Kitô "đã yêu thương [chúng ta] đến cùng", đón nhận cái chết trong lòng mến của Chúa Cha dành cho loài người (x. GLHTCG 609). Ơn cứu độ ấy là một **quà tặng cho không** — không phải phần thưởng ta kiếm được, mà là điều ta chỉ có thể đón nhận trong đức tin.
 
-Loạt bài dưới đây trả lời từng thắc mắc theo mạch của video: nếu là Thiên Chúa sao Ngài không tự cứu mình, tại sao Chúa ban tự do để con người sa ngã, tại sao việc tốt không trả hết tội, "chuộc tội thay" thật ra nghĩa là gì, ơn cứu độ nhưng không có phải là giấy phép phạm tội không, và số phận của những người chưa từng nghe biết Chúa Giêsu.
+Loạt bài dưới đây trả lời từng thắc mắc theo mạch của video: nếu là Thiên Chúa sao Ngài không tự cứu mình, tại sao Chúa ban tự do để con người sa ngã, tại sao việc tốt không trả hết tội, "chuộc tội thay" thật ra nghĩa là gì, ơn cứu độ cho không thì có phải là giấy phép phạm tội không, và số phận của những người chưa từng nghe biết Chúa Giêsu.
 
 Tất cả quy về một điểm: thập giá không phải là dấu chỉ Thiên Chúa xa cách hay tàn nhẫn, mà là đỉnh cao của tình yêu — Thiên Chúa đích thân trả món nợ mà chúng ta không thể trả, để mở lại cho ta cánh cửa sự sống đời đời.
