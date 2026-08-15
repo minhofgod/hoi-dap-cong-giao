@@ -12,6 +12,7 @@ import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { FeaturedQuestion, type HeroQuestion } from '@/components/FeaturedQuestion';
 import { ReadingProgressBar, PartProgressBar } from '@/components/ReadingProgress';
 import { BrandMark } from '@/components/BrandMark';
+import { DongHanhCta } from '@/components/DongHanhCta';
 import { T } from '@/components/T';
 import styles from './page.module.css';
 
@@ -148,6 +149,10 @@ export default function HomePage() {
             </span>
           </span>
         </Link>
+      </section>
+
+      <section className={styles.companionBand}>
+        <DongHanhCta />
       </section>
 
       {heroQuestions.length > 0 && (
