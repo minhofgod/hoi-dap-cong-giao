@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   ArrowLeft,
   ArrowRight,
@@ -32,6 +32,43 @@ import styles from '../app/dong-hanh/dong-hanh.module.css';
 
 type Pick = (b: Bi) => string;
 
+/* ------------------------------------------------------------------ persisted flow state
+ * The whole walk is a serializable snapshot so it survives leaving the page. The `trail` is stored
+ * as resource KEYS (not the full objects) and re-resolved from the pool, so a persisted journey
+ * degrades gracefully if content changes. Persisted to sessionStorage (restore on re-mount after an
+ * outbound link) AND mirrored into history.state per step (so Back — browser or in-UI — steps back
+ * one screen instead of exiting or resetting). */
+type Ended = null | 'closed' | 'deadend';
+type Flow = { stack: string[]; sitId: string | null; trailKeys: string[]; ended: Ended };
+
+const INITIAL_FLOW: Flow = { stack: [START_STEP], sitId: null, trailKeys: [], ended: null };
+const STORAGE_KEY = 'hdcg.dong-hanh';
+const HISTORY_KEY = 'dongHanh';
+
+/** Read + validate a persisted flow (drop unknown steps/situations so stale storage can't wedge the
+ *  UI on a screen that no longer exists). Returns null when there's nothing usable. */
+function readPersistedFlow(): Flow | null {
+  try {
+    const raw = window.sessionStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    const s = JSON.parse(raw) as Partial<Flow>;
+    if (!s || typeof s !== 'object') return null;
+    const stack = Array.isArray(s.stack)
+      ? s.stack.filter((x): x is string => typeof x === 'string' && Boolean(STEPS[x]))
+      : [];
+    return {
+      stack: stack.length ? stack : [START_STEP],
+      sitId: typeof s.sitId === 'string' && SITUATIONS[s.sitId] ? s.sitId : null,
+      trailKeys: Array.isArray(s.trailKeys)
+        ? s.trailKeys.filter((x): x is string => typeof x === 'string')
+        : [],
+      ended: s.ended === 'closed' || s.ended === 'deadend' ? s.ended : null,
+    };
+  } catch {
+    return null;
+  }
+}
+
 /**
  * "Đồng hành" — the guided branching companion (lib/dongHanh.ts + docs/roadmap.md v2 spec). The
  * intake tree (STEPS) resolves to a SITUATION; from there it becomes a *journey*: after each answer
@@ -51,15 +88,21 @@ export function DongHanh({
   const en = uiLang === 'en';
   const pick: Pick = (b) => (en ? b.en : b.vi);
 
-  // Intake steps shown so far (last = current). Once resolved, `sitId` holds the situation and the
-  // journey begins: `trail` is the ordered list of answers read; `ended` closes the walk.
-  const [stack, setStack] = useState<string[]>([START_STEP]);
-  const [sitId, setSitId] = useState<string | null>(null);
-  const [trail, setTrail] = useState<Resource[]>([]);
-  const [ended, setEnded] = useState<null | 'closed' | 'deadend'>(null);
+  // The whole walk lives in one serializable snapshot (see Flow). Starts at INITIAL_FLOW on both
+  // server and first client render (no hydration mismatch); a persisted journey is restored on mount.
+  const [flow, setFlow] = useState<Flow>(INITIAL_FLOW);
   const topRef = useRef<HTMLDivElement | null>(null);
 
+  const byKey = useMemo(() => new Map(pool.map((r) => [r.key, r])), [pool]);
+  const stack = flow.stack;
+  const sitId = flow.sitId;
+  const ended = flow.ended;
   const situation = sitId ? SITUATIONS[sitId] : null;
+  // Re-resolve the trail from keys against the live pool (dropping any that no longer exist).
+  const trail = useMemo(
+    () => flow.trailKeys.map((k) => byKey.get(k)).filter((r): r is Resource => Boolean(r)),
+    [flow.trailKeys, byKey]
+  );
   const current = trail.length ? trail[trail.length - 1] : null;
   const visited = useMemo(() => new Set(trail.map((r) => r.key)), [trail]);
 
@@ -71,31 +114,69 @@ export function DongHanh({
     [situation, current, pool, visited]
   );
 
-  const scrollTop = () =>
+  const scrollTop = useCallback(() => {
     topRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, []);
+  const persist = useCallback((f: Flow) => {
+    try {
+      window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(f));
+    } catch {
+      /* private mode / disabled storage — the flow still works in-memory */
+    }
+  }, []);
 
-  const restart = () => {
-    setStack([START_STEP]);
-    setSitId(null);
-    setTrail([]);
-    setEnded(null);
-    scrollTop();
-  };
-  const toIntake = () => {
-    setSitId(null);
-    setTrail([]);
-    setEnded(null);
-  };
-  const pickFollowUp = (r: Resource) => {
-    setTrail((t) => [...t, r]);
-    setEnded(null);
-    scrollTop();
-  };
-  const back = () => {
-    if (ended) return setEnded(null);
-    if (trail.length) return setTrail((t) => t.slice(0, -1));
-    return toIntake();
-  };
+  // Advance to a new screen: update state, persist, and push a history entry carrying the snapshot
+  // (preserving any Next.js router state), so Back returns to the previous screen.
+  const commit = useCallback(
+    (f: Flow) => {
+      setFlow(f);
+      persist(f);
+      try {
+        window.history.pushState({ ...(window.history.state ?? {}), [HISTORY_KEY]: f }, '');
+      } catch {
+        /* history unavailable — state + sessionStorage still carry the flow */
+      }
+      scrollTop();
+    },
+    [persist, scrollTop]
+  );
+
+  // Restore on mount — covers the re-mount after an outbound link (read full answer / video / etc.),
+  // and anchors the current history entry with the restored (or initial) snapshot so Back has a target.
+  useEffect(() => {
+    const saved = readPersistedFlow();
+    // Mount-time restore from sessionStorage: intentional setState-in-effect. First render is
+    // always INITIAL_FLOW (server + client agree — no hydration mismatch), then we sync to the
+    // saved snapshot once mounted.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (saved) setFlow(saved);
+    try {
+      window.history.replaceState(
+        { ...(window.history.state ?? {}), [HISTORY_KEY]: saved ?? INITIAL_FLOW },
+        ''
+      );
+    } catch {
+      /* ignore */
+    }
+  }, []);
+
+  // Back (browser button OR the in-UI control, which calls history.back()) → restore the previous
+  // screen's snapshot. Only Back from the first screen (no companion entry) leaves the page.
+  useEffect(() => {
+    const onPop = (e: PopStateEvent) => {
+      const f = (e.state && (e.state as Record<string, unknown>)[HISTORY_KEY]) as Flow | undefined;
+      const next = f ?? INITIAL_FLOW;
+      setFlow(next);
+      persist(next);
+    };
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, [persist]);
+
+  const restart = () => commit(INITIAL_FLOW);
+  const pickFollowUp = (r: Resource) =>
+    commit({ ...flow, trailKeys: [...flow.trailKeys, r.key], ended: null });
+  const back = () => window.history.back();
 
   return (
     <div className={styles.wrap} ref={topRef}>
@@ -130,14 +211,8 @@ export function DongHanh({
           onPick={pickFollowUp}
           onBack={back}
           onRestart={restart}
-          onClose={() => {
-            setEnded('closed');
-            scrollTop();
-          }}
-          onDeadEnd={() => {
-            setEnded('deadend');
-            scrollTop();
-          }}
+          onClose={() => commit({ ...flow, ended: 'closed' })}
+          onDeadEnd={() => commit({ ...flow, ended: 'deadend' })}
         />
       ) : (
         <IntakeView
@@ -147,12 +222,8 @@ export function DongHanh({
           canGoBack={stack.length > 1}
           onBack={back}
           onChoose={(goto) => {
-            if ('step' in goto) setStack((s) => [...s, goto.step]);
-            else {
-              setSitId(goto.situation);
-              setTrail([]);
-              setEnded(null);
-            }
+            if ('step' in goto) commit({ ...flow, stack: [...flow.stack, goto.step] });
+            else commit({ ...flow, sitId: goto.situation, trailKeys: [], ended: null });
           }}
         />
       )}
