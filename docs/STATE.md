@@ -37,10 +37,12 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
 | 5 | Ecumenical Councils | `content/cong-dong`, `app/cong-dong` | the 21 councils | DONE (21/21) |
 | 6 | Bible backend | `scripts/build-bible.mjs`, `content/bible.json` | verse-lookup / scripture popover data | done |
 | 7 | Companion (Đồng hành) | `app/dong-hanh`, `components/DongHanh*`, `lib/dongHanh`, `lib/videos`, `lib/companionFlag` | the `/dong-hanh` guided tool | building (gating + video pool) |
+| 8 | Site Design & Shell | `app/page.tsx` (homepage), `components/SiteHeader`, section-hub routes (`app/lich-su-hoi-thanh`, later `app/cac-thanh` / `app/phep-la`) + all entry-point wiring | homepage, global nav, section hubs, IA/design | new — Church History hub first |
 
 **Coordination watch-points (the only places lanes could touch):**
 - **1 & 3 are both content** — keep them disjoint: **1 owns `content/video`**, **3 owns `content/giai-dap`**. Don't have both editing the same folder at once.
 - **`lib/videos.ts`** is needed by both **2** (video-page cross-links) and **7** (video pool) — whoever adds the `category`/`tags` parse first, the other just consumes it; don't both edit it at once.
+- **Homepage (`app/page.tsx`) + global nav (`components/SiteHeader`) are owned by 8.** Any feature that needs a homepage card or nav link (e.g. 7's companion CTA) routes it through 8 — features don't edit the homepage/nav themselves.
 
 ## Rules that keep parallel sessions safe
 - Each session commits **only its own lane's files** — never `git add -A`.
