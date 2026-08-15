@@ -1101,6 +1101,14 @@ export const SITUATIONS: Record<string, Situation> = {
           en: 'They too were afraid, yet endured to the end by the grace given exactly when it was needed.',
         },
       },
+      {
+        href: '/cac-thanh/maximilian-kolbe',
+        name: { vi: 'Thánh Maximilianô Kolbe', en: 'St Maximilian Kolbe' },
+        line: {
+          vi: 'Ngay giữa trại Auschwitz, khi đối diện cái chết, ngài vẫn giữ được bình an và tình yêu — bằng ơn Chúa, chứ không bằng sức riêng.',
+          en: 'Even in Auschwitz, in the face of death, he kept his peace and his love — by God’s grace, not his own strength.',
+        },
+      },
     ],
     scripture: {
       ref: 'Mt 24,13',
