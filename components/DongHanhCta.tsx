@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Compass, ArrowRight } from 'lucide-react';
+import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import { T } from './T';
 import styles from './DongHanhCta.module.css';
 
@@ -7,8 +8,12 @@ import styles from './DongHanhCta.module.css';
  * Entry point for the "Đồng hành" guided flow (/dong-hanh). A single sage panel used both as a
  * band on the homepage and above the Giải Đáp browser — one design so the invitation reads the
  * same everywhere. Server-safe (pure Link + <T>).
+ *
+ * Renders nothing while the companion flag is off, so no dead link to the (404'd) route ships in
+ * production. Both entry points call this, so gating here covers the homepage and /giai-dap.
  */
 export function DongHanhCta({ className }: { className?: string }) {
+  if (!COMPANION_ENABLED) return null;
   return (
     <Link href="/dong-hanh" className={`${styles.cta} ${className ?? ''}`}>
       <span className={styles.icon} aria-hidden="true">

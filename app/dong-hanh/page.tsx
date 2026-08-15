@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { DongHanh } from '@/components/DongHanh';
 import { getAllQuestions } from '@/lib/giaiDap';
@@ -7,6 +8,7 @@ import { categoryLabel } from '@/lib/giaiDapTaxonomy';
 import { SITUATIONS, type Resource } from '@/lib/dongHanh';
 import { resolveReference, type ResolvedReference } from '@/lib/bibleRefs';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
+import { COMPANION_ENABLED } from '@/lib/companionFlag';
 
 export const metadata: Metadata = {
   title: 'Đồng hành · Hỏi Đáp Công Giáo',
@@ -15,6 +17,10 @@ export const metadata: Metadata = {
 };
 
 export default function DongHanhPage() {
+  // Gated OFF in production (404) while the flow is polished; visible locally with
+  // NEXT_PUBLIC_COMPANION=1. Same pattern as the Canvas flag.
+  if (!COMPANION_ENABLED) notFound();
+
   // Unify native Giải Đáp questions and council apologetics into one taxonomy-scored pool. The
   // matching itself runs on the client (the flow is interactive), so we only pass lightweight cards.
   const native: Resource[] = getAllQuestions().map((q) => ({
