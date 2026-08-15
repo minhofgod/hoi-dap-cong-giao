@@ -38,6 +38,7 @@ Suffering or loss
 │  ├─ Cô đơn (loneliness)
 │  │   ├─ Không có ai gần gũi (human)               → QA: co-don-khong-ai-gan-gui
 │  │   └─ Chúa như vắng mặt (spiritual)             → QA: co-don-chua-nhu-vang-mat  [Teresa Calcutta]
+│  ├─ Cảm thấy mình chưa đủ, không xứng đáng        → QA: toi-cam-thay-minh-chua-du  [imago Dei + grace]
 │  └─ Điều khác (something else)                     → QA: dau-kho-noi-chung   [general consolation]
 └─ Tôi vừa mất một người thân yêu  (I lost someone dear)
    ├─ Tôi đang đau, không biết đối diện (grief)      → QA: doi-dien-voi-mat-mat   [DRAFTED below]
@@ -151,6 +152,18 @@ Lead: *Dù nỗi đau của bạn không hợp với khung nào ở trên, Thiê
 3. *Bạn không phải mang một mình. Hãy nói với Chúa cách chân thật, và đừng ngại tìm đến một linh mục hoặc một người có thể lắng nghe bạn.*
 Scripture gloss: Mt 11,28. Tags: `consolation`, `suffering`.
 
+### 11. "I'm not enough" / self-worth wounds — QA `toi-cam-thay-minh-chua-du`
+Question: *"Tôi luôn cảm thấy mình chưa đủ, không xứng đáng được yêu — vì đâu, và Chúa nói gì?"*
+Lead: *Nhiều người trong chúng ta mang một khoảng trống bên trong — một cảm giác "mình chưa đủ" — thường bắt nguồn từ những vết thương thuở nhỏ. Nỗi đau ấy là thật, và nó xứng đáng được lắng nghe.*
+1. *Chúng ta cố lấp khoảng trống ấy: "Nếu mình giàu hơn, đẹp hơn, giỏi hơn, thì họ sẽ yêu mình." Nhưng luôn thấy chưa đủ — vì gốc rễ là niềm tin rằng chính bản thân mình chưa đủ.*
+2. *Niềm tin ấy thường đến từ những câu nói tưởng nhỏ, lặp lại nhiều lần, đủ để làm tổn thương một đứa trẻ. Và đứa trẻ kết luận: "nếu cả nhà còn không muốn mình, chắc có gì đó sai nơi mình." Nhưng đó là một lời dối.*
+3. *Sự thật là: giá trị của bạn đã được quyết định TRƯỚC khi bạn làm được bất cứ điều gì. Bạn được dựng nên theo hình ảnh Thiên Chúa. Người đã "dệt nên bạn trong lòng mẹ" (Tv 139,13), "biết bạn trước khi bạn thành hình" (Gr 1,5), và đếm từng sợi tóc trên đầu bạn (Lc 12,7). Giá trị ấy là quà tặng, không phải điều phải kiếm lấy.*
+4. *Và Thiên Chúa không chờ bạn hoàn hảo mới yêu bạn: "Đức Kitô đã chết cho chúng ta ngay khi chúng ta còn là tội nhân" (Rm 5,8). "Chúng ta yêu, vì Người đã yêu chúng ta trước" (1 Ga 4,19). Bạn không cần tạo ra tình yêu dành cho chính mình bằng ý chí — bạn chỉ cần đón nhận rằng mình đã được yêu.*
+5. *Chấp nhận những vết thương và khuyết điểm của mình là bước đầu — nhưng không phải điểm dừng. Hãy mang chúng đến với Đức Kitô, vị Lương Y chữa lành; bạn không phải tự chữa một mình. Và với những tổn thương sâu, tìm đến một chuyên viên tâm lý cũng là điều khôn ngoan và tốt lành — Chúa chữa lành qua cả ơn thánh lẫn những người Ngài đặt bên bạn.*
+6. *Đúng là Chúa mời gọi bạn "nên hoàn thiện như Cha trên trời" (Mt 5,48) — nhưng không bằng sức riêng. Không ai tự mình nên hoàn hảo được; đó chính là lý do Đức Kitô đã chết cho ta. Sự hoàn thiện ấy đến khi bạn bước đi trong Thần Khí, để Người biến đổi bạn từ bên trong. Giá trị của bạn đã trọn vẹn; sự trưởng thành là lời mời, không phải điều kiện.*
+7. *Vì thế, đừng cố tỏ ra hoàn hảo để chứng minh mình xứng đáng được yêu. Bạn đã được yêu rồi — và chính từ tình yêu đã đón nhận ấy, bạn mới có thể yêu chính mình và yêu người khác.*
+Scripture gloss: Tv 139,13 · Gr 1,5 · Lc 12,7 · Rm 5,8 · 1 Ga 4,19 · Mt 5,48. Tags: `consolation`, `grace`. *(A future `identity`/`healing` tag if an inner-struggles cluster grows.)*
+
 ---
 
 ## Q&As to write — Session 3
@@ -166,6 +179,7 @@ Scripture gloss: Mt 11,28. Tags: `consolation`, `suffering`.
 | `co-don-chua-nhu-vang-mat` | thấy Chúa như vắng mặt | god-meaning | consolation, prayer, saints | Mc 15,34 | Teresa Calcutta |
 | `bi-nguoi-nha-chong-doi-vi-duc-tin` | người nhà chống đối vì đức tin | morality-life | persecution, consolation | Mt 10,34–36 | — |
 | `the-gian-ghet-bo-vi-duc-tin` | thế gian ghét bỏ vì đức tin | morality-life | persecution, saints | Ga 15,18–19 | VN Martyrs, Kolbe |
+| `toi-cam-thay-minh-chua-du` | luôn cảm thấy mình chưa đủ, không xứng đáng được yêu | god-meaning | consolation, grace | Tv 139,13 · Rm 5,8 · Mt 5,48 | — |
 
 *(Slugs/categories are proposals — verify VN wording per the terminology rule; the owner may re-home
 categories. A future "spiritual life / đời sống thiêng liêng" category could group these, but not now —
