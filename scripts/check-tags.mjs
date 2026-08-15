@@ -9,7 +9,7 @@
 // Exits 1 (with a report) if anything is missing/empty/unknown; 0 if all clean.
 
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
-import { join, dirname, basename } from 'node:path';
+import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -60,7 +60,7 @@ const problems = [];
 let checked = 0;
 let sufferingCount = 0; // pastoral-content proxy — drives the deferred `consolation`-tag reminder below
 
-for (const { dir, label } of targets) {
+for (const { dir } of targets) {
   const abs = join(root, dir);
   if (!existsSync(abs)) continue;
   for (const file of readdirSync(abs)) {
