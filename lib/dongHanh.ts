@@ -450,9 +450,13 @@ export const SITUATIONS: Record<string, Situation> = {
         en: 'If a specific point is troubling you — the origin of the universe, evolution, miracles — name it clearly and look for a careful answer, rather than letting a vague sense that "science has disproved God" decide the matter for you.',
       },
     ],
-    categories: ['god-meaning'],
+    // science-faith added so the dedicated "science vs faith" Q&A matches this path (audit T2 — the
+    // category was previously unused; its content now lives here, not just under god-meaning).
+    categories: ['god-meaning', 'science-faith'],
     tags: ['science', 'atheism', 'evolution', 'miracles'],
     pastoral: true,
+    // Guarantee the on-the-nose answer leads the follow-ups over the broader cosmology cluster.
+    seedPins: ['n:khoa-hoc-va-ton-giao-co-mau-thuan-khong'],
     scripture: {
       ref: 'Kn 11,20',
       gloss: {
