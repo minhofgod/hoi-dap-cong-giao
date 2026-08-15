@@ -211,8 +211,8 @@ export const SITUATIONS: Record<string, Situation> = {
         en: 'Take it one step at a time. Begin by letting the question breathe, reading slowly, and if you can, talking with a believer you respect. Faith is a gift — we ask, we seek, and God does not abandon anyone who searches sincerely.',
       },
     ],
-    categories: ['god-meaning', 'science-faith'],
-    tags: ['atheism', 'miracles', 'trinity'],
+    categories: ['god-meaning'],
+    tags: ['atheism', 'science', 'trinity', 'miracles'],
     scripture: {
       ref: 'Rm 1,20',
       gloss: {
@@ -240,7 +240,7 @@ export const SITUATIONS: Record<string, Situation> = {
         en: 'The Councils of the Church — from Nicaea onward — are where the Church guarded and clarified that faith across the centuries. It is an unbroken line, from the Apostles down to today.',
       },
     ],
-    categories: ['the-church', 'evidence-history', 'theology-doctrine'],
+    categories: ['the-church', 'evidence-history'],
     tags: ['jesus', 'church-history', 'authority', 'trinity'],
     scripture: {
       ref: 'Mt 16,18',
@@ -295,8 +295,8 @@ export const SITUATIONS: Record<string, Situation> = {
         en: 'If a specific point is troubling you — the origin of the universe, evolution, miracles — name it clearly and look for a careful answer, rather than letting a vague sense that "science has disproved God" decide the matter for you.',
       },
     ],
-    categories: ['science-faith', 'god-meaning', 'evidence-history'],
-    tags: ['science', 'evolution', 'miracles', 'atheism'],
+    categories: ['god-meaning'],
+    tags: ['science', 'atheism', 'evolution', 'miracles'],
     scripture: {
       ref: 'Kn 11,20',
       gloss: {
@@ -325,7 +325,7 @@ export const SITUATIONS: Record<string, Situation> = {
       },
     ],
     categories: ['evidence-history'],
-    tags: ['resurrection', 'church-history', 'miracles', 'jesus'],
+    tags: ['resurrection', 'church-history', 'bible', 'miracles', 'jesus'],
     scripture: {
       ref: '1 Cr 15,3-4',
       gloss: {
@@ -353,7 +353,7 @@ export const SITUATIONS: Record<string, Situation> = {
         en: "If this pain is your own right now, please don't carry it alone. Reading can help, but talking with a priest or a trusted believer is worth far more.",
       },
     ],
-    categories: ['god-meaning'],
+    categories: [],
     tags: ['suffering'],
     scripture: {
       ref: 'Rm 8,28',
@@ -565,7 +565,7 @@ export const SITUATIONS: Record<string, Situation> = {
         en: "You don't need the 'right' prayer, and you don't need to feel strong. Just tell God what is actually in your heart, even if it is anger or silence. And please don't carry this alone — reach out to a priest, or a friend you trust, so that someone walks with you.",
       },
     ],
-    categories: ['god-meaning'],
+    categories: [],
     tags: ['suffering'],
     scripture: {
       ref: 'Mt 11,28',
@@ -598,24 +598,28 @@ export interface Resource {
   featured?: boolean;
 }
 
-/** Deterministically pick the Q&As that best fit a situation: +3 for a matching broad category,
- *  +1 per matching tag, with a small nudge so cluster anchors lead among ties. Returns ONLY
- *  genuine matches (score > 0) — never padded with off-topic answers, so a page shows an empty
- *  list rather than a misleading one when the site has no fitting content yet. The one exception
- *  is the "show me common questions" path (`showCommon`), which surfaces the featured anchors.
- *  Pure + stable → identical answers give identical results. */
+/** Deterministically pick the Q&As that best fit a situation. Relevance is TAG-driven: a precise
+ *  tag match is the signal, a broad category is only a booster.
+ *
+ *  Scoring: +2 per matching tag, +2 for a matching broad category, featured +0.5 as a tiebreak.
+ *  Crucially, a result must share AT LEAST ONE tag to qualify — a bare category match never
+ *  qualifies on its own. That stops an over-broad category from burying precise matches (e.g. a
+ *  "suffering" path must not fill with abstract `god-meaning` apologetics that merely share the
+ *  category). Returns ONLY genuine matches — a page shows an empty list rather than a misleading
+ *  one when the site has no fitting content yet. The one exception is the "show me common
+ *  questions" path (`showCommon`), which surfaces the featured anchors. Pure + stable. */
 export function matchResources(sit: Situation, pool: Resource[], limit = 6): Resource[] {
   if (sit.showCommon) {
     return pool.filter((r) => r.featured).slice(0, limit);
   }
   return pool
     .map((r) => {
-      let score = 0;
-      if (r.category && sit.categories.includes(r.category)) score += 3;
-      for (const t of r.tags) if (sit.tags.includes(t)) score += 1;
-      // Featured anchors get a small nudge, but ONLY as a tiebreaker among items that already
-      // match on category/tag — never a way for an off-topic anchor to score on its own.
-      if (score > 0 && r.featured) score += 0.5;
+      let tagHits = 0;
+      for (const t of r.tags) if (sit.tags.includes(t)) tagHits++;
+      if (tagHits === 0) return { r, score: 0 }; // require ≥1 tag overlap to qualify
+      let score = tagHits * 2;
+      if (r.category && sit.categories.includes(r.category)) score += 2;
+      if (r.featured) score += 0.5;
       return { r, score };
     })
     .filter((x) => x.score > 0)
