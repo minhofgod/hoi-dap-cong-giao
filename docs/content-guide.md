@@ -274,6 +274,11 @@ The `/dong-hanh` companion has two halves that update very differently — know 
 ## Verify + deploy
 
 - Before finishing: `npx tsc --noEmit` and `npm run lint` both clean.
+- **Tag guard — run `node scripts/check-tags.mjs`.** Fails if any `content/giai-dap/*.md` or
+  `content/video/*.md` is missing a `category`, has empty `tags`, or uses an id not in
+  `lib/giaiDapTaxonomy.ts` — i.e. anything the companion/filters would silently drop. Must exit 0
+  before you commit content. (English `*.en.md` sidecars are skipped — they inherit taxonomy from the
+  main file.) If you add a genuinely new tag, add its id to `lib/giaiDapTaxonomy.ts` first.
 - Commit + push to `main` → Vercel auto-deploys.
 - Note: `.next` sits inside Dropbox, so hot-reload can stall — restart `next dev` after edits if
   the preview stops updating.
