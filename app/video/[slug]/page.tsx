@@ -5,6 +5,8 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { T } from '@/components/T';
 import { getAllVideos, getVideoBySlug } from '@/lib/videos';
+import { getAllQuestions } from '@/lib/giaiDap';
+import { relatedByTaxonomy } from '@/lib/relatedContent';
 import styles from '../video.module.css';
 
 export function generateStaticParams() {
@@ -31,6 +33,14 @@ export default async function VideoWatchPage({ params }: { params: Promise<{ slu
   const more = getAllVideos()
     .filter((v) => v.slug !== slug)
     .slice(0, 6);
+
+  // Q&As whose taxonomy overlaps this video (auto tag/category match; explicit `related_qa` pinned
+  // first). One per cluster so a single topic doesn't fill the list — see lib/relatedContent.
+  const relatedQuestions = relatedByTaxonomy(video, getAllQuestions(), {
+    limit: 4,
+    pins: video.relatedQa,
+    dedupeKey: (q) => q.topic,
+  });
 
   return (
     <>
@@ -87,6 +97,30 @@ export default async function VideoWatchPage({ params }: { params: Promise<{ slu
         >
           <T vi="Xem trên YouTube ↗" en="Watch on YouTube ↗" />
         </a>
+
+        {relatedQuestions.length > 0 && (
+          <section className={styles.relatedQa}>
+            <h2 className={styles.relatedQaTitle}>
+              <T vi="Câu hỏi liên quan" en="Related questions" />
+            </h2>
+            <ul className={styles.relatedQaList}>
+              {relatedQuestions.map((q) => (
+                <li key={q.slug} className={styles.relatedQaRow}>
+                  <Link href={`/giai-dap/${q.slug}`} className={styles.relatedQaLink}>
+                    {q.questionEn ? (
+                      <>
+                        <span className="bi-vi">{q.questionVi}</span>
+                        <span className="bi-en">{q.questionEn}</span>
+                      </>
+                    ) : (
+                      q.questionVi
+                    )}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {more.length > 0 && (
           <section className={styles.more}>

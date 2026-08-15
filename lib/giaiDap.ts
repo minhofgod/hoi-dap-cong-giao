@@ -6,6 +6,13 @@ import { CATEGORY_IDS } from './giaiDapTaxonomy';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'giai-dap');
 
+// Normalize a frontmatter pin field (a single slug string or a list) to a clean string[].
+function toSlugArray(value: unknown): string[] {
+  if (typeof value === 'string') return value.trim() ? [value.trim()] : [];
+  if (Array.isArray(value)) return value.filter((v): v is string => typeof v === 'string');
+  return [];
+}
+
 export interface GiaiDapQuestion {
   slug: string;
   questionVi: string;
@@ -29,6 +36,9 @@ export interface GiaiDapQuestion {
   parts: string[];
   // The anchor slug this question is a part of (a sub-question only) — for the back-link.
   partOf?: string;
+  // Optional explicit pin(s): video slug(s) to force to the front of this Q&A's "Watch the video"
+  // (frontmatter `related_video`). Auto tag-overlap fills the rest — see lib/relatedContent.
+  relatedVideo: string[];
   bodyHtml: string;
   bodyRaw: string;
 }
@@ -64,6 +74,7 @@ function loadFile(filename: string): GiaiDapQuestion {
     related: data.related ?? [],
     parts: data.parts ?? [],
     partOf: data.part_of,
+    relatedVideo: toSlugArray(data.related_video),
     bodyHtml: marked.parse(body, { async: false }) as string,
     bodyRaw: body,
   };

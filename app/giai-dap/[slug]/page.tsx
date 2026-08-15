@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
 import { getAllQuestions, getQuestionBySlug, type GiaiDapQuestion } from '@/lib/giaiDap';
+import { getAllVideos, type Video } from '@/lib/videos';
+import { relatedByTaxonomy } from '@/lib/relatedContent';
 import { categoryLabel, tagLabel } from '@/lib/giaiDapTaxonomy';
 import { ScriptureRef } from '@/components/ScriptureRef';
 import { ScriptureBody } from '@/components/ScriptureBody';
@@ -51,6 +53,49 @@ function TaxonomyChips({ question }: { question: GiaiDapQuestion }) {
       })}
       {question.subcategory && <span className={styles.subcategory}>{question.subcategory}</span>}
     </div>
+  );
+}
+
+// "Watch the video" — videos whose taxonomy overlaps this Q&A (auto tag/category match, explicit
+// `related_video` pinned first). Renders nothing when there's no overlapping video.
+function WatchVideo({ videos }: { videos: Video[] }) {
+  if (videos.length === 0) return null;
+  return (
+    <>
+      <div className={styles.hairline} />
+      <div className={styles.eyebrow}>
+        <T vi="XEM VIDEO" en="WATCH THE VIDEO" />
+      </div>
+      <div className={styles.videoCards}>
+        {videos.map((v) => (
+          <Link key={v.slug} href={`/video/${v.slug}`} className={styles.videoCard}>
+            <span className={styles.videoThumb}>
+              {/* eslint-disable-next-line @next/next/no-img-element -- external YouTube thumbnail */}
+              <img
+                src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`}
+                alt=""
+                loading="lazy"
+                className={styles.videoThumbImg}
+              />
+              <span className={styles.videoPlay} aria-hidden="true">
+                ▶
+              </span>
+              {v.duration && <span className={styles.videoDuration}>{v.duration}</span>}
+            </span>
+            <span className={styles.videoCardTitle}>
+              {v.titleEn ? (
+                <>
+                  <span className="bi-vi">{v.title}</span>
+                  <span className="bi-en">{v.titleEn}</span>
+                </>
+              ) : (
+                v.title
+              )}
+            </span>
+          </Link>
+        ))}
+      </div>
+    </>
   );
 }
 
@@ -119,6 +164,13 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
   const prev = idx > 0 ? all[idx - 1] : undefined;
   const next = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : undefined;
 
+  // Videos whose taxonomy overlaps this Q&A (auto tag/category match; explicit `related_video`
+  // pinned first) — see lib/relatedContent.
+  const relatedVideos = relatedByTaxonomy(question, getAllVideos(), {
+    limit: 2,
+    pins: question.relatedVideo,
+  });
+
   // Main/anchor question → assemble the whole article with a side nav.
   if (parts.length > 0) {
     return (
@@ -152,6 +204,8 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
                   <Refs ccc={p.refsCcc} scripture={p.refsScripture} />
                 </section>
               ))}
+
+              <WatchVideo videos={relatedVideos} />
 
               {related.length > 0 && (
                 <>
@@ -220,6 +274,8 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
               <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
             </div>
           )}
+
+          <WatchVideo videos={relatedVideos} />
 
           {related.length > 0 && (
             <>

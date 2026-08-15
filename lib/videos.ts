@@ -18,6 +18,9 @@ export interface Video {
   // files are tagged: category is undefined and tags is [] when absent.
   category?: string;
   tags: string[];
+  // Optional explicit pin(s): Q&A slug(s) to force to the front of this video's "Related questions"
+  // (frontmatter `related_qa`). Auto tag-overlap fills the rest — see lib/relatedContent.
+  relatedQa: string[];
   order: number;
   hasBody: boolean;
   bodyHtml: string;
@@ -29,6 +32,13 @@ export interface Video {
 
 function render(md: string): string {
   return marked.parse(md, { async: false }) as string;
+}
+
+// Normalize a frontmatter pin field (a single slug string or a list) to a clean string[].
+function toSlugArray(value: unknown): string[] {
+  if (typeof value === 'string') return value.trim() ? [value.trim()] : [];
+  if (Array.isArray(value)) return value.filter((v): v is string => typeof v === 'string');
+  return [];
 }
 
 function loadFile(filename: string): Video {
@@ -60,6 +70,7 @@ function loadFile(filename: string): Video {
     summaryEn,
     category: typeof data.category === 'string' ? data.category : undefined,
     tags: Array.isArray(data.tags) ? data.tags : [],
+    relatedQa: toSlugArray(data.related_qa),
     order: data.order ?? 999,
     hasBody: trimmed.length > 0,
     bodyHtml: trimmed ? render(body) : '',
