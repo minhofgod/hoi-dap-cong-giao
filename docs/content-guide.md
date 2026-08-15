@@ -63,6 +63,29 @@ library**, so provenance is never lost and images can be reused across the user'
 Always prefer public-domain images and confirm the license on the image's Wikimedia Commons page
 before using it.
 
+## Pastoral tone — suffering, grief, and the saints (applies to ALL content)
+
+Any content a hurting or grieving person might reach — the companion's suffering branches, saint
+stories of martyrdom/illness, Q&As on suffering / evil / loss, and the videos/blogs — must be framed
+as **companionship and an invitation to lean on God**, never as instruction, comparison, or demand.
+
+- **Do:** *"others walked through this darkness too — you can ask them to walk with you."* Lead with
+  presence. Then, gently, the reliance-as-growth arc: the saints didn't grow closer to God *despite*
+  their suffering but *through* it, by leaning on him — so the reader is **invited** (never told) that
+  they can lean on him here too. Presence → reliance → closeness.
+- **Don't:** *"look how they suffered, so should you"* — to someone in fresh grief this reads as
+  dismissive. Avoid comparing their pain to a saint's as a lesson, minimizing the pain, or tossing off
+  "offer it up" as a glib instruction. Reliance is an open door, not an assignment.
+- **Choose saints who visibly *relied* on God, not merely suffered** — the martyrs (trusted God unto
+  death), Carlo Acutis (offered his illness), someone who grieved and held on. Show the reliance in the
+  story; don't preach it.
+- This **complements, never replaces**, the "talk to a priest / a real person" off-ramp. For acute
+  grief, a webpage is a companion, not a counselor.
+
+Rooted in the faith's own answer to suffering: *God did not stay outside our suffering — he entered it
+on the cross* (the companion's `doubt-suffering` situation already says this). The saints are simply
+the people who took him up on that.
+
 ## Video blog posts
 
 File: `content/video/<slug>.md`. Frontmatter:
