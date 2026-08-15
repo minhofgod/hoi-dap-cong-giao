@@ -99,9 +99,16 @@ may diverge in wording — each is authored and VERIFIED on its own, in its own 
 - **Link by shared taxonomy (tags/category), not by derivation.** Same vocabulary as Q&As
   (`lib/giaiDapTaxonomy`). This is what makes the companion, the `/giai-dap` filters, and search pull
   a video and its sibling Q&As together automatically — with no assumption one came from the other.
-- **Optional page cross-links are symmetric + loose:** `related_video: <slug>` on a Q&A cluster
-  anchor, `related_qa: [<slugs>]` on a video — shown as "related," NEVER as "the source/transcript."
-  Add only where a pairing is genuinely close, so divergence never reads as a contradiction.
+- **Page cross-links — DO THIS; it's how a companion reader finds the Q&As.** Each video page shows a
+  "Câu hỏi liên quan / Related questions" section, and each Q&A shows "Xem video / Watch the video."
+  Populate them AUTOMATICALLY from shared tags (a video surfaces Q&As whose tags overlap — the same
+  matching the companion uses), so no manual wiring and it stays current as Q&As are added. Optional
+  explicit pins (`related_qa` on a video, `related_video` on a Q&A anchor) can force a specific pairing
+  to the top. Shown as "related," never "the source/transcript."
+- **Every finished script → a Q&A cluster** (published-video scripts included, not just the unpublished
+  ones) so no video is represented only by its thin companion blog. One topic → up to 3 siblings: the
+  video (watch), the companion blog (read-alongside, may add more than the video), the Q&A cluster
+  (find the specific answer) — all linked by tags.
 - **Scripts are not a published content type** — they're drafts. Track "script → video? → Q&A?" in an
   OFF-SITE tracker (sheet/Notion) so finished-but-unmade scripts don't fall through the cracks. The
   site only publishes videos + Q&As.

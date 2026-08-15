@@ -235,6 +235,12 @@ INDEPENDENT expressions of the same topic. They're siblings, not source-and-tran
 - **Optional, symmetric cross-links only:** `related_video: <slug>` on a Q&A cluster anchor and
   `related_qa: [<slugs>]` on a video — rendered as "related," never "the source." Add only for a
   genuinely close pairing.
+- **Every finished script → a Q&A cluster** — whether or not it also became a video. Don't leave a
+  published video represented only by its companion blog: run its script through the Giải Đáp workflow
+  into a proper cluster too, so the video's questions are individually findable. (The companion blog
+  stays — it's its own complementary piece and may add more than the video says.) So one topic can
+  carry three siblings: the video (watch), the companion blog (read-alongside), the Q&A cluster (find
+  the specific answer) — all linked by shared tags.
 - **Scripts stay OFF the site** (they're drafts). Track which finished scripts have become a video
   and/or a Q&A in a separate off-site tracker; here we publish only videos + Q&As.
 
