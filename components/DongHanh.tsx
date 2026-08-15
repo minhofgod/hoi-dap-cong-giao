@@ -377,6 +377,19 @@ function JourneyView({
 
           {showSatisfaction && <Satisfaction onClose={onClose} onDeadEnd={onDeadEnd} />}
 
+          {/* The curated go-deeper link is a QUIET secondary option below the questions — in v2 the
+              follow-ups are the primary path. It also stays as the forward link / safety net on
+              content-poor situations, where FollowUps is empty and only Satisfaction shows. */}
+          {current === null && (
+            <Link href={situation.nextStep.href} className={styles.goDeeper}>
+              <span className={styles.goDeeperPrefix}>
+                <T vi="Hoặc đọc thêm" en="Or read more" />
+              </span>
+              <span className={styles.goDeeperLabel}>{pick(situation.nextStep.label)}</span>
+              <ArrowRight size={14} strokeWidth={2.2} />
+            </Link>
+          )}
+
           {/* Grief paths keep the human off-ramp visible on EVERY step of the walk, not just the
               first screen or the dead-end (relevance audit, pastoral-tone lens). */}
           {situation.pastoral && <PastoralOfframp />}
@@ -435,16 +448,6 @@ function AnchorContent({
           </ul>
         </section>
       )}
-
-      <Link href={situation.nextStep.href} className={styles.nextStep}>
-        <span className={styles.nextStepLabel}>
-          <T vi="Gợi ý đọc trước" en="Suggested first read" />
-        </span>
-        <span className={styles.nextStepText}>
-          {pick(situation.nextStep.label)}
-          <ArrowRight size={17} strokeWidth={2.2} />
-        </span>
-      </Link>
     </>
   );
 }

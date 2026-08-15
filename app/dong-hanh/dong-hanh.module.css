@@ -353,37 +353,35 @@
   color: var(--accent-press);
 }
 
-/* --- Anchor's "suggested first read" --- */
-.nextStep {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 16px 20px;
-  background: var(--sage-deep);
-  border-radius: var(--radius-panel);
-  color: #fff;
-  transition: background 0.15s ease;
+/* --- Quiet "or read more" — the curated go-deeper link, secondary to the follow-up questions.
+   Sits below the questions on the anchor; a plain inline link, not a CTA block. --- */
+.goDeeper {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 22px;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  color: var(--text-quiet);
 }
-.nextStep:hover {
+.goDeeper:hover {
   text-decoration: none;
-  background: #465430;
 }
-.nextStepLabel {
-  font-size: 11px;
+.goDeeperPrefix {
   font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--sage-tint);
-  opacity: 0.9;
 }
-.nextStepText {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--font-serif);
+.goDeeperLabel {
   font-weight: 600;
-  font-size: 17px;
-  color: #fff;
+  color: var(--sage-deep);
+}
+.goDeeper:hover .goDeeperLabel {
+  color: #465430;
+  text-decoration: underline;
+}
+.goDeeper svg {
+  align-self: center;
+  color: var(--sage-deep);
 }
 
 /* --- Follow-up questions (the branching walk) --- */
