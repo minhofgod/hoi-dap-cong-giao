@@ -192,9 +192,16 @@ export interface Situation {
    *  hand-written advice instead of padding with off-topic answers). */
   showCommon?: boolean;
   /** Heavy / pastoral branches (suffering, doubting, an unbelieving loved one). When true, the
-   *  warm dead-end handoff adds a gentle "talk to a priest / RCIA / your parish" off-ramp — some
-   *  burdens are better carried with a person than a web page. */
+   *  companion keeps a gentle "talk to a priest / RCIA / your parish" off-ramp visible across the
+   *  whole walk — some burdens are better carried with a person than a web page. */
   pastoral?: boolean;
+  /** Resource keys to force to the top of THIS situation's matches, ahead of tag scoring — for
+   *  curation the taxonomy can't reach (e.g. the authoritative council for a topic that ties with
+   *  everything else, or a consoling piece pool order would bury). Optional; absent = pure tag
+   *  scoring. Mirrors how `followUps` honours per-item `seed.pins`, bringing the anchor step to
+   *  parity. Apply with the pastoral lens on grief paths: the advice stays primary, the pin is a
+   *  gentle secondary. */
+  seedPins?: string[];
 }
 
 export const SITUATIONS: Record<string, Situation> = {
@@ -245,7 +252,9 @@ export const SITUATIONS: Record<string, Situation> = {
       },
     ],
     categories: ['the-church', 'evidence-history'],
-    tags: ['jesus', 'church-history', 'authority', 'trinity'],
+    // `authority` intentionally dropped: it's shared with defend-church and dragged medieval
+    // papal-politics councils in front of an explorer (audit F2). Keep this path doctrinal.
+    tags: ['jesus', 'church-history', 'trinity'],
     scripture: {
       ref: 'Mt 16,18',
       gloss: {
@@ -360,7 +369,10 @@ export const SITUATIONS: Record<string, Situation> = {
       },
     ],
     categories: [],
-    tags: ['suffering'],
+    // `free-will` keeps the theodicy answer (sao-chua-khong-tao…) reachable on this intellectual
+    // path once Session 3 re-tags that piece off `suffering` (audit F1a) — the pastoral `suffering`
+    // path below deliberately sheds it.
+    tags: ['suffering', 'free-will'],
     pastoral: true,
     scripture: {
       ref: 'Rm 8,28',
@@ -455,6 +467,9 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: [],
     tags: ['icons'],
+    // Every icon Q&A ties at one tag, so pool order buries the council that actually DEFINED icon
+    // veneration. Pin it to the top (audit F3).
+    seedPins: ['c:nicaea-ii-hoi-1'],
     scripture: {
       ref: 'Xh 25,18',
       gloss: {
@@ -577,6 +592,10 @@ export const SITUATIONS: Record<string, Situation> = {
     categories: [],
     tags: ['suffering'],
     pastoral: true,
+    // The one grief pin that survived the pastoral-tone confirm-pass (Good-Thief/atonement pins
+    // dropped as too instructional). "Why the cross" closes present-first — God entered our
+    // suffering out of love. The hand-written advice above stays primary; this is a gentle second.
+    seedPins: ['n:tai-sao-chua-giesu-chiu-dong-dinh'],
     scripture: {
       ref: 'Mt 11,28',
       gloss: {
@@ -632,7 +651,15 @@ export function matchResources(sit: Situation, pool: Resource[], limit = 6): Res
   if (sit.showCommon) {
     return pool.filter((r) => r.featured).slice(0, limit);
   }
-  return pool
+  // Curated seed pins lead, in listed order, ahead of tag scoring; the tag-scored rest follows with
+  // the pinned items removed so they're never duplicated.
+  const pinned = (sit.seedPins ?? [])
+    .map((k) => pool.find((r) => r.key === k))
+    .filter((r): r is Resource => Boolean(r));
+  const pinnedKeys = new Set(pinned.map((r) => r.key));
+
+  const scored = pool
+    .filter((r) => !pinnedKeys.has(r.key))
     .map((r) => {
       let tagHits = 0;
       for (const t of r.tags) if (sit.tags.includes(t)) tagHits++;
@@ -644,8 +671,9 @@ export function matchResources(sit: Situation, pool: Resource[], limit = 6): Res
     })
     .filter((x) => x.score > 0)
     .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
     .map((x) => x.r);
+
+  return [...pinned, ...scored].slice(0, limit);
 }
 
 /* ------------------------------------------------------------------ guided journey (v2) */

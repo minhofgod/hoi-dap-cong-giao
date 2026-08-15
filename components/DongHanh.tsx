@@ -305,6 +305,10 @@ function JourneyView({
           )}
 
           {showSatisfaction && <Satisfaction onClose={onClose} onDeadEnd={onDeadEnd} />}
+
+          {/* Grief paths keep the human off-ramp visible on EVERY step of the walk, not just the
+              first screen or the dead-end (relevance audit, pastoral-tone lens). */}
+          {situation.pastoral && <PastoralOfframp />}
         </>
       )}
     </div>
@@ -515,6 +519,19 @@ function ClosedView({ onRestart }: { onRestart: () => void }) {
   );
 }
 
+/* --- pastoral off-ramp: talk to a real person (shown across the whole grief-path walk) --- */
+
+function PastoralOfframp() {
+  return (
+    <p className={styles.pastoral}>
+      <T
+        vi="Và nếu đây là điều đang thật sự đè nặng trong lòng bạn, đôi khi trò chuyện với một linh mục — hay ghé giáo xứ gần bạn, hoặc một lớp tìm hiểu đức tin — còn nâng đỡ hơn bất cứ trang web nào."
+        en="And if this is something truly weighing on your heart, sometimes a conversation with a priest — or your local parish, or an RCIA / inquiry group — carries you further than any website can."
+      />
+    </p>
+  );
+}
+
 /* --- dead-end: an honest, scoped hand-off (NO inbox) --- */
 
 function DeadEndView({
@@ -596,14 +613,7 @@ function DeadEndView({
         </Link>
       </div>
 
-      {situation.pastoral && (
-        <p className={styles.pastoral}>
-          <T
-            vi="Và nếu đây là điều đang thật sự đè nặng trong lòng bạn, đôi khi trò chuyện với một linh mục — hay ghé giáo xứ gần bạn, hoặc một lớp tìm hiểu đức tin — còn nâng đỡ hơn bất cứ trang web nào."
-            en="And if this is something truly weighing on your heart, sometimes a conversation with a priest — or your local parish, or an RCIA / inquiry group — carries you further than any website can."
-          />
-        </p>
-      )}
+      {situation.pastoral && <PastoralOfframp />}
 
       <div className={styles.endingActions}>
         <button type="button" className={styles.endingPrimary} onClick={onRestart}>
