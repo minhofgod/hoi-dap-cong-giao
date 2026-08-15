@@ -570,8 +570,8 @@ export const SITUATIONS: Record<string, Situation> = {
         en: "First: I'm sorry for what you are carrying right now. Faith does not promise that believers will never hurt, but it promises we do not hurt alone. Jesus himself passed through betrayal, loneliness, and death — so there is no darkness of yours he has not already entered. He is with you in this very moment, especially when you feel most empty.",
       },
       {
-        vi: 'Bạn không cần phải có lời cầu nguyện “cho đúng”, cũng không cần cảm thấy mạnh mẽ. Chỉ cần thưa với Chúa điều đang có trong lòng bạn, dù đó là giận dữ hay im lặng. Và xin đừng mang gánh nặng này một mình — hãy tìm đến một linh mục, hay một người bạn tin cậy, để có người cùng đi với bạn.',
-        en: "You don't need the 'right' prayer, and you don't need to feel strong. Just tell God what is actually in your heart, even if it is anger or silence. And please don't carry this alone — reach out to a priest, or a friend you trust, so that someone walks with you.",
+        vi: 'Bạn không cần phải có lời cầu nguyện “cho đúng”, cũng không cần cảm thấy mạnh mẽ. Chỉ cần thưa với Chúa điều đang có trong lòng bạn, dù đó là giận dữ hay im lặng. Nương tựa vào Người trong lúc tối tăm không làm bạn yếu đi — đó thường lại là nơi người ta gặp được Người gần gũi hơn cả. Và xin đừng mang gánh nặng này một mình — hãy tìm đến một linh mục, hay một người bạn tin cậy, để có người cùng đi với bạn.',
+        en: "You don't need the 'right' prayer, and you don't need to feel strong. Just tell God what is actually in your heart, even if it is anger or silence. Leaning on him in the dark doesn't make you weaker — it's often the very place people come to know him more closely. And please don't carry this alone — reach out to a priest, or a friend you trust, so that someone walks with you.",
       },
     ],
     categories: [],
