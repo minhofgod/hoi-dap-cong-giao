@@ -87,15 +87,69 @@ Scripture gloss: Mt 24,13 (or Mt 10,22). Saint bridge: Các Thánh Tử Đạo V
 
 ---
 
-## Answer scaffolds (full drafts pending — say the word and I'll expand each for your check)
+## Drafted answers — batch 2 (owner to check; VI wording is a draft)
 
-- **Health / illness — `dau-om-benh-tat`** — presence first; Christ *took our suffering* (CCC 1505); **companions-in-suffering saints bridge** (Carlo Acutis, Bernadette — relied on God through illness); hope, never "offer it up" as a demand. Tags: `consolation`, `suffering`, `saints`.
-- **Financial — `lo-lang-tien-bac`** — frame as **God's providence + your dignity in the struggle**, NOT "just don't worry." Mt 6,25–34 as *reassurance you are seen and provided for*, not a scolding of anxiety. Tags: `consolation`, `suffering`.
-- **Loneliness (human) — `co-don-khong-ai-gan-gui`** — *"Thầy ở cùng anh em mọi ngày"* (Mt 28,20); communion of saints; the Church as family; **Christ really present in the Eucharist — go sit with Him** (adoration). Tags: `consolation`, `prayer`.
-- **Loneliness (spiritual) — `co-don-chua-nhu-vang-mat`** — the "dark night" is not failure; *Christ himself cried "why have you forsaken me"*; faithfulness in dryness; **Teresa Calcutta** (felt God's silence for decades, kept serving). Tags: `consolation`, `prayer`, `saints`.
-- **Persecution (family/friends) — `bi-nguoi-nha-chong-doi-vi-duc-tin`** — Mt 10,34–36 (a sword, not peace; enemies in one's own household); comfort: **Jesus foretold this division — it's not a sign you're wrong**; don't repay hate; pray for them. Tags: `persecution`, `consolation`.
-- **Persecution (the world) — `the-gian-ghet-bo-vi-duc-tin`** — Jn 15,18–19 ("it hated me first"; "you are not of the world"); you're **in company with Christ and the martyrs**; bridge to persecuted saints (VN Martyrs, Kolbe); don't be surprised or ashamed. Tags: `persecution`, `saints`.
-- **Something else — `dau-kho-noi-chung`** — gentle catch-all consolation + the priest off-ramp. Tags: `consolation`, `suffering`.
+### 4. Health / illness — QA `dau-om-benh-tat`
+Question: *"Tôi đang mang bệnh tật, đau ốm — đức tin nói gì với tôi lúc này?"*
+Lead: *Bệnh tật có thể khiến ta cảm thấy yếu đuối, sợ hãi và cô đơn. Bạn không phải đối diện với điều đó một mình.*
+1. *Đức Kitô không đứng xa giường bệnh của bạn. "Xúc động trước đau khổ, Người đã lấy những bệnh tật của chúng ta làm của mình."* (Mt 8,17 · GLHTCG 1505)
+2. *Những người đã đi trước bạn qua con đường này không lớn lên trong đức tin bất chấp bệnh tật, mà chính nhờ tựa vào Chúa giữa cơn bệnh: Carlô Acutis đã dâng căn bệnh ung thư của mình trong bình an; Bernadette đã mang bệnh tật lâu năm mà vẫn phó thác.*
+3. *Nỗi đau của bạn, khi kết hợp với Đức Kitô, không bao giờ vô ích — nhưng đây là một lời mời, không phải một đòi buộc. Hãy mang nỗi sợ và cơn đau đến với Người.*
+4. *Và đừng quên: Bí tích Xức Dầu Bệnh Nhân là một ơn sức mạnh và bình an — không chỉ dành cho người hấp hối. Hãy tìm đến một linh mục, các bí tích, và những người thương yêu bạn.*
+Scripture gloss: Mt 8,17. Saints: Carlô Acutis, Bernadette. Tags: `consolation`, `suffering`, `saints`.
+
+### 5. Financial / need — QA `lo-lang-tien-bac`
+Question: *"Tôi lo lắng về tiền bạc, thiếu thốn — Chúa có bỏ mặc tôi không?"*
+Lead: *Lo lắng về cơm áo là một gánh nặng thật, và bạn không có gì phải xấu hổ vì nó.*
+1. *Đức Kitô hiểu gánh nặng này từ bên trong: Người sinh ra trong cảnh nghèo, và "không có chỗ tựa đầu." Người không coi thường nỗi lo của bạn.*
+2. *Khi Người nói "đừng lo về của ăn áo mặc," đó không phải một lời quở trách, mà một lời hứa: "Cha anh em trên trời biết anh em cần gì." Bạn được nhìn thấy và được chăm sóc — quý giá hơn cả chim trời mà Người vẫn nuôi.* (Mt 6,26.32)
+3. *Giá trị của bạn không nằm ở số tiền bạn có. Trước mặt Thiên Chúa, bạn là vô giá — dù đang có hay đang thiếu.*
+4. *Hãy mang nỗi lo đến với Người cách chân thành — và cũng đừng ngại tìm đến cộng đoàn, những người có thể giúp. Bạn không phải gánh một mình.*
+Scripture gloss: Mt 6,25–34. Tags: `consolation`, `suffering`.
+
+### 6. Loneliness — no one close — QA `co-don-khong-ai-gan-gui`
+Question: *"Tôi cảm thấy cô đơn, không có ai thật sự gần gũi — Chúa ở đâu?"*
+Lead: *Cô đơn là một nỗi đau thật, và ngay cả Đức Kitô cũng đã nếm trải nó.*
+1. *Bạn không bao giờ thật sự một mình: "Thầy ở cùng anh em mọi ngày cho đến tận thế" (Mt 28,20); "Thầy sẽ không để anh em mồ côi" (Ga 14,18). Thiên Chúa còn gần bạn hơn cả hơi thở của bạn.*
+2. *Bạn thuộc về một gia đình trải dài từ đất đến trời — các thánh thông công vây quanh bạn. Hội Thánh được sinh ra để làm cho gia đình ấy nên hữu hình.*
+3. *Đức Kitô hiện diện thật sự trong Bí tích Thánh Thể — bạn có thể đến và ngồi với Người, không phải trò chuyện với một khoảng trống. Hãy thử một giờ chầu Thánh Thể.*
+4. *Và hãy để một ai đó bước vào: một giáo xứ, một cộng đoàn. Bước đầu tiên khó, nhưng bạn không được dựng nên để sống một mình.*
+Scripture gloss: Mt 28,20. Tags: `consolation`, `prayer`.
+
+### 7. Loneliness — God feels absent — QA `co-don-chua-nhu-vang-mat`
+Question: *"Tôi cầu nguyện nhưng thấy Chúa như vắng mặt, im lặng — tôi có làm gì sai không?"*
+Lead: *Cảm thấy Chúa xa cách không phải là một thất bại của đức tin — nhiều vị thánh lớn nhất đã đi qua chính bóng tối ấy.*
+1. *Đôi khi Thiên Chúa dường như im lặng không phải vì Người vắng mặt, mà vì Người đang mời bạn yêu mến Người vì chính Người, chứ không vì cảm giác an ủi. Sự trung thành giữa lúc khô khan là một tình yêu sâu xa.*
+2. *Chính Đức Kitô trên thập giá đã thốt lên: "Lạy Thiên Chúa của con, sao Ngài bỏ con?" (Mc 15,34). Ngay cả tiếng kêu ấy cũng là một lời cầu nguyện Người thấu hiểu từ bên trong.*
+3. *Thánh Têrêsa Calcutta đã sống trong sự im lặng của Thiên Chúa suốt nhiều thập niên mà vẫn phục vụ và mỉm cười — bóng tối ấy không dập tắt tình yêu của ngài, mà thanh luyện nó. Bạn đang ở trong hàng ngũ thánh thiện.*
+4. *Hãy cứ tiếp tục đến — lời cầu nguyện bạn dâng khi chẳng cảm thấy gì thường là điều đẹp lòng Chúa nhất. Và hãy nói với một linh mục hay người linh hướng để cùng bạn đi qua chặng này.*
+Scripture gloss: Mc 15,34. Saint: Têrêsa Calcutta. Tags: `consolation`, `prayer`, `saints`.
+
+### 8. Persecution — family / friends — QA `bi-nguoi-nha-chong-doi-vi-duc-tin`
+Question: *"Chính người thân, bạn bè chống đối và chế giễu tôi vì tôi theo Chúa — tôi phải làm sao?"*
+Lead: *Bị chính những người mình yêu thương quay lưng vì đức tin là một nỗi đau riêng — sâu và khó.*
+1. *Đức Giêsu đã báo trước chính vết thương này: "Thầy đến không phải để đem bình an, nhưng để đem gươm giáo... kẻ thù của mình chính là người nhà" (Mt 10,34-36). Sự chia rẽ bạn đang cảm nhận không phải dấu chỉ bạn làm sai — Người đã nói trước nó sẽ đến với những ai theo Người sát.*
+2. *Nhưng điều đó không bao giờ cho phép bạn lấy lạnh lùng đáp lại lạnh lùng. Hãy yêu thương họ, kiên nhẫn, để bình an và niềm vui của bạn trở thành lời chứng mà tranh luận không thắng được. Nhiều tâm hồn đã đổi thay sau nhiều năm — không nhờ lời cãi, mà nhờ chứng tá.*
+3. *Hãy cầu nguyện cho họ và phó thác kết quả cho Chúa. Bạn chịu trách nhiệm về tình yêu và lòng trung thành, không phải về việc hoán cải họ.*
+4. *Và đừng mang điều này một mình — hãy tìm một cộng đoàn đức tin, và một linh mục nếu nỗi đau quá nặng.*
+Scripture gloss: Mt 10,34–36. Tags: `persecution`, `consolation`.
+
+### 9. Persecution — the world — QA `the-gian-ghet-bo-vi-duc-tin`
+Question: *"Người ngoài, xã hội chế giễu và ghét bỏ tôi vì tôi tin Chúa — làm sao đứng vững?"*
+Lead: *Bị thế gian coi thường vì đức tin có thể khiến ta thấy lạc lõng — nhưng Đức Kitô đã nói trước điều này, và Người gọi đó là một dấu chỉ.*
+1. *"Nếu thế gian ghét anh em, thì hãy biết rằng nó đã ghét Thầy trước" (Ga 15,18). Bạn không bị chối từ vì một khiếm khuyết — bạn đang được kể vào hàng ngũ với chính Đức Kitô.*
+2. *"Anh em không thuộc về thế gian" (Ga 15,19) — sự khó chịu ấy là dấu chỉ bạn thuộc về một nơi cao hơn. Đây không phải lời mời gọi kiêu hãnh hay ghét lại, mà là một sự khác biệt thầm lặng và vui tươi.*
+3. *Bạn đứng trong một hàng dài các chứng nhân — các Thánh Tử Đạo Việt Nam, Thánh Maximilianô Kolbe — những người bị chế giễu, ruồng bỏ và hơn thế, mà vẫn can đảm. Lòng can đảm ấy không phải của riêng họ; đó là ân sủng, và cùng một ân sủng ấy được ban cho bạn.*
+4. *Đừng giấu đức tin vì sợ hãi, nhưng cũng đừng mang sự ghét bỏ của thế gian như một vết thương — hãy mang nó như Đức Kitô đã mang, với bình an. Và hãy tựa vào cộng đoàn của bạn; đừng đứng một mình.*
+Scripture gloss: Ga 15,18–19. Saints: VN Martyrs, Kolbe. Tags: `persecution`, `saints`.
+
+### 10. Something else — QA `dau-kho-noi-chung` (gentle catch-all)
+Question: *"Tôi đang đau khổ vì một điều khác..."*
+Lead: *Dù nỗi đau của bạn không hợp với khung nào ở trên, Thiên Chúa vẫn thấy rõ sức nặng riêng bạn đang mang.*
+1. *Người không đòi bạn phải gọi tên hay giải thích nó cho đúng — Người chỉ mời bạn mang nó đến, như nó là.*
+2. *"Tất cả những ai đang vất vả mang gánh nặng nề, hãy đến cùng Ta, Ta sẽ cho nghỉ ngơi bồi dưỡng." (Mt 11,28)*
+3. *Bạn không phải mang một mình. Hãy nói với Chúa cách chân thật, và đừng ngại tìm đến một linh mục hoặc một người có thể lắng nghe bạn.*
+Scripture gloss: Mt 11,28. Tags: `consolation`, `suffering`.
 
 ---
 
