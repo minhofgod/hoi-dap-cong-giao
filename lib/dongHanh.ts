@@ -68,7 +68,12 @@ export const STEPS: Record<string, Step> = {
       {
         id: 'suffering',
         label: { vi: 'Tôi đang trải qua đau khổ, mất mát', en: "I'm going through suffering or loss" },
-        goto: { situation: 'suffering' },
+        goto: { step: 'suffering-loss' },
+      },
+      {
+        id: 'persecuted',
+        label: { vi: 'Tôi bị ghét bỏ, bách hại vì đức tin', en: "I'm hated or persecuted for my faith" },
+        goto: { step: 'persecuted' },
       },
     ],
   },
@@ -157,6 +162,134 @@ export const STEPS: Record<string, Step> = {
         id: 'family',
         label: { vi: 'Con cái hoặc người thân đã rời xa đạo', en: 'A child or relative has drifted from the faith' },
         goto: { situation: 'loved-one-family' },
+      },
+    ],
+  },
+
+  /* --- "Suffering or loss" deepening sub-tree (companion-pastoral-tree.md). Each step opens with a
+     word of comfort (intro) before the fork; the priest off-ramp stays visible the whole way. --- */
+  'suffering-loss': {
+    id: 'suffering-loss',
+    intro: {
+      vi: 'Trước hết, xin được ở lại đây với bạn một chút. Bạn không bước đi một mình.',
+      en: 'First, let us stay here with you for a moment. You do not walk alone.',
+    },
+    question: { vi: 'Nỗi đau nào đang ở gần bạn nhất lúc này?', en: 'What pain is closest to you right now?' },
+    choices: [
+      {
+        id: 'self',
+        label: { vi: 'Chính tôi đang chịu đau khổ', en: 'I myself am suffering' },
+        goto: { step: 'suffering-self' },
+      },
+      {
+        id: 'bereaved',
+        label: { vi: 'Tôi vừa mất một người thân yêu', en: 'I have lost someone dear to me' },
+        goto: { step: 'bereaved' },
+      },
+    ],
+  },
+
+  'suffering-self': {
+    id: 'suffering-self',
+    intro: {
+      vi: 'Dù là điều gì, Thiên Chúa vẫn thấy rõ sức nặng riêng bạn đang mang.',
+      en: 'Whatever it is, God sees the exact weight you are carrying.',
+    },
+    question: { vi: 'Điều gì đang đè nặng bạn nhất?', en: 'What weighs on you most?' },
+    choices: [
+      {
+        id: 'health',
+        label: { vi: 'Sức khỏe, bệnh tật', en: 'My health, illness' },
+        goto: { situation: 's-health' },
+      },
+      {
+        id: 'financial',
+        label: { vi: 'Tiền bạc, thiếu thốn', en: 'Money, not having enough' },
+        goto: { situation: 's-financial' },
+      },
+      {
+        id: 'loneliness',
+        label: { vi: 'Cô đơn', en: 'Loneliness' },
+        goto: { step: 'loneliness' },
+      },
+      {
+        id: 'worth',
+        label: { vi: 'Cảm thấy mình chưa đủ, không xứng đáng', en: "Feeling I'm not enough, not worthy" },
+        goto: { situation: 's-worth' },
+      },
+      {
+        id: 'else',
+        label: { vi: 'Một điều khác', en: 'Something else' },
+        goto: { situation: 'suffering' },
+      },
+    ],
+  },
+
+  loneliness: {
+    id: 'loneliness',
+    intro: {
+      vi: 'Cô đơn là một nỗi đau thật — và ngay cả Đức Kitô cũng đã nếm trải nó.',
+      en: 'Loneliness is a real pain — and even Christ tasted it.',
+    },
+    question: { vi: 'Nỗi cô đơn ấy là…', en: 'That loneliness is…' },
+    choices: [
+      {
+        id: 'human',
+        label: { vi: 'Không có ai thật sự gần gũi', en: 'No one is truly close to me' },
+        goto: { situation: 's-lonely-human' },
+      },
+      {
+        id: 'god',
+        label: { vi: 'Chúa như vắng mặt, im lặng', en: 'God feels absent, silent' },
+        goto: { situation: 's-lonely-god' },
+      },
+    ],
+  },
+
+  bereaved: {
+    id: 'bereaved',
+    intro: {
+      vi: 'Mất một người thân yêu là một trong những nỗi đau sâu nhất. Hội Thánh không vội kéo bạn ra khỏi nó.',
+      en: 'Losing someone dear is among the deepest of human pains. The Church will not rush you out of it.',
+    },
+    question: { vi: 'Điều gì đang nặng nhất trong lòng bạn?', en: 'What is heaviest on your heart?' },
+    choices: [
+      {
+        id: 'grief',
+        label: { vi: 'Tôi đang đau, chưa biết đối diện', en: "I'm in pain and don't know how to face it" },
+        goto: { situation: 's-grief' },
+      },
+      {
+        id: 'saved',
+        label: { vi: 'Tôi không chắc họ đã được cứu độ', en: "I'm not sure they were saved" },
+        goto: { situation: 's-saved' },
+      },
+    ],
+  },
+
+  /* --- "Persecuted for my faith" — a NEW top-level path (the Vietnamese Martyrs' own story). --- */
+  persecuted: {
+    id: 'persecuted',
+    intro: {
+      vi: 'Chịu ghét bỏ vì đức tin là chính câu chuyện của các Thánh Tử Đạo Việt Nam. Bạn đứng trong một hàng dài chứng nhân.',
+      en: 'To be hated for the faith is the very story of the Vietnamese Martyrs. You stand in a long line of witnesses.',
+    },
+    question: { vi: 'Ai đang chống lại bạn vì bạn theo Đức Kitô?', en: 'Who is turning against you for following Christ?' },
+    choices: [
+      {
+        id: 'family',
+        label: { vi: 'Gia đình, bạn thân', en: 'Family, close friends' },
+        goto: { situation: 'p-family' },
+      },
+      {
+        id: 'world',
+        label: { vi: 'Người ngoài, xã hội', en: 'The world, society' },
+        goto: { situation: 'p-world' },
+      },
+      {
+        id: 'danger',
+        label: { vi: 'Nguy hiểm đến tính mạng', en: 'My life is in danger' },
+        goto: { situation: 'p-danger' },
       },
     ],
   },
@@ -658,6 +791,325 @@ export const SITUATIONS: Record<string, Situation> = {
       href: '/giao-ly/1505#1505',
       label: { vi: 'Giáo Lý: Đức Kitô mang lấy đau khổ của ta', en: 'The Catechism: Christ took our suffering' },
     },
+  },
+
+  /* --- Deepened suffering/loss leaves + the persecution leaves (companion-pastoral-tree.md). Each
+     holds a short present-first lead and routes to its hand-authored, tagged Q&A via seedPins — the
+     Q&A carries the substance (shown in the inline reading view + its own consolation-tag follow-ups).
+     tags:[] on purpose: these are HAND-CURATED, never tag-matched. pastoral:true keeps the priest
+     off-ramp visible on every step. --- */
+  's-health': {
+    id: 's-health',
+    title: { vi: 'Khi thân xác yếu đau', en: 'When the body is weak' },
+    lead: { vi: 'Bạn đang mang bệnh tật, đau ốm.', en: 'You are carrying illness or physical pain.' },
+    advice: [
+      {
+        vi: 'Bệnh tật có thể khiến ta thấy yếu đuối, sợ hãi và cô đơn — nhưng bạn không đối diện với điều đó một mình. Đức Kitô không đứng xa giường bệnh của bạn; chính Người đã mang lấy những bệnh tật và đau yếu của chúng ta.',
+        en: 'Illness can make us feel weak, afraid, and alone — but you do not face it by yourself. Christ does not stand far from your sickbed; he himself took up our infirmities and bore our diseases.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:dau-om-benh-tat'],
+    companions: [
+      {
+        href: '/cac-thanh/carlo-acutis',
+        name: { vi: 'Thánh Carlo Acutis', en: 'St Carlo Acutis' },
+        line: {
+          vi: 'Một thiếu niên thời nay đã dâng căn bệnh ung thư máu của mình cho Chúa trong bình an.',
+          en: 'A teenager of our own day who offered his leukemia to God in peace.',
+        },
+      },
+      {
+        href: '/cac-thanh/bernadette-soubirous',
+        name: { vi: 'Thánh Bernadette', en: 'St Bernadette' },
+        line: {
+          vi: 'Mang bệnh tật lâu năm, thánh nữ vẫn phó thác đời mình trong tay Chúa cho đến cùng.',
+          en: 'Chronically ill for years, she entrusted her life into God’s hands to the very end.',
+        },
+      },
+    ],
+    scripture: {
+      ref: 'Mt 8,17',
+      gloss: {
+        vi: 'Thánh Mátthêu nói về Đức Giêsu: chính Người đã gánh lấy những bệnh tật và đau yếu của chúng ta.',
+        en: 'Matthew says of Jesus: he himself took up our infirmities and carried our diseases.',
+      },
+    },
+    nextStep: {
+      href: '/giao-ly/1505#1505',
+      label: { vi: 'Giáo Lý: Đức Kitô mang lấy đau khổ của ta', en: 'The Catechism: Christ took our suffering' },
+    },
+  },
+
+  's-financial': {
+    id: 's-financial',
+    title: { vi: 'Khi lo lắng về cơm áo', en: 'When money worries weigh' },
+    lead: { vi: 'Bạn đang lo lắng về tiền bạc, về sự thiếu thốn.', en: "You're anxious about money, about not having enough." },
+    advice: [
+      {
+        vi: 'Lo lắng về cơm áo là một gánh nặng thật, và bạn không có gì phải xấu hổ vì nó. Đức Kitô hiểu gánh nặng này từ bên trong — Người sinh ra trong cảnh nghèo — và giá trị của bạn trước mặt Thiên Chúa không hề đo bằng những gì bạn có.',
+        en: "Worrying about daily needs is a real burden, and there's no shame in it. Christ knows this weight from the inside — he was born into poverty — and your worth before God is never measured by what you own.",
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:lo-lang-tien-bac'],
+    scripture: {
+      ref: 'Mt 6,26',
+      gloss: {
+        vi: 'Chúa Giêsu nhắc: Cha trên trời nuôi cả chim trời — anh em còn quý giá hơn nhiều.',
+        en: 'Jesus reminds us: your heavenly Father feeds the birds of the air — and you are worth far more than they.',
+      },
+    },
+    nextStep: { href: '/giai-dap', label: { vi: 'Xem thêm trong mục Giải Đáp', en: 'Browse more in the Q&A' } },
+  },
+
+  's-lonely-human': {
+    id: 's-lonely-human',
+    title: { vi: 'Khi không có ai gần bên', en: 'When no one is near' },
+    lead: { vi: 'Bạn cảm thấy cô đơn, không có ai thật sự gần gũi.', en: 'You feel alone, with no one truly close to you.' },
+    advice: [
+      {
+        vi: 'Cô đơn là một nỗi đau thật, và ngay cả Đức Kitô cũng đã nếm trải nó. Nhưng bạn không bao giờ thật sự một mình: Người hứa ở cùng bạn mọi ngày, và Người đặt bạn vào một gia đình trải dài từ đất đến trời.',
+        en: 'Loneliness is a real pain, and even Christ tasted it. Yet you are never truly alone: he promises to be with you always, and he places you within a family that stretches from earth to heaven.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:co-don-khong-ai-gan-gui'],
+    scripture: {
+      ref: 'Mt 28,20',
+      gloss: {
+        vi: 'Lời hứa cuối cùng của Chúa Giêsu: “Thầy ở cùng anh em mọi ngày cho đến tận thế.”',
+        en: 'Jesus’ closing promise: “I am with you always, to the end of the age.”',
+      },
+    },
+    nextStep: { href: '/giai-dap', label: { vi: 'Xem thêm trong mục Giải Đáp', en: 'Browse more in the Q&A' } },
+  },
+
+  's-lonely-god': {
+    id: 's-lonely-god',
+    title: { vi: 'Khi Chúa như im lặng', en: 'When God seems silent' },
+    lead: { vi: 'Bạn cầu nguyện nhưng thấy Chúa như vắng mặt, im lặng.', en: 'You pray, but God feels absent, silent.' },
+    advice: [
+      {
+        vi: 'Cảm thấy Chúa xa cách không phải là một thất bại của đức tin — nhiều vị thánh lớn nhất đã đi qua chính bóng tối ấy. Đôi khi Người dường như im lặng không phải vì vắng mặt, mà vì đang mời bạn yêu mến Người vì chính Người.',
+        en: 'Feeling God is distant is not a failure of faith — some of the greatest saints walked through that same darkness. Sometimes he seems silent not because he is absent, but because he is inviting you to love him for his own sake.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:co-don-chua-nhu-vang-mat'],
+    companions: [
+      {
+        href: '/cac-thanh/teresa-calcutta',
+        name: { vi: 'Thánh Têrêsa Calcutta', en: 'St Teresa of Calcutta' },
+        line: {
+          vi: 'Suốt nhiều năm cảm thấy Chúa như vắng bóng, Mẹ vẫn phục vụ và bám chặt lấy Người trong đêm tối nội tâm.',
+          en: 'For years she felt God as absent, yet kept serving and held fast to him through an interior darkness.',
+        },
+      },
+    ],
+    scripture: {
+      ref: 'Mc 15,34',
+      gloss: {
+        vi: 'Chính Đức Kitô trên thập giá đã kêu lên: “Lạy Thiên Chúa của con, sao Ngài bỏ con?” — Người thấu hiểu tiếng kêu ấy từ bên trong.',
+        en: 'Christ himself cried from the cross, “My God, why have you forsaken me?” — he knows that cry from the inside.',
+      },
+    },
+    nextStep: { href: '/giai-dap', label: { vi: 'Xem thêm trong mục Giải Đáp', en: 'Browse more in the Q&A' } },
+  },
+
+  's-worth': {
+    id: 's-worth',
+    title: { vi: 'Khi thấy mình chưa đủ', en: 'When you feel not enough' },
+    lead: { vi: 'Bạn luôn cảm thấy mình chưa đủ, không xứng đáng được yêu.', en: 'You keep feeling you are not enough, not worthy of love.' },
+    advice: [
+      {
+        vi: 'Cảm giác “mình chưa đủ” thường bắt nguồn từ những vết thương thật — và nó xứng đáng được lắng nghe. Nhưng sự thật đi trước mọi thành tích của bạn: bạn được dựng nên theo hình ảnh Thiên Chúa, và Người đã yêu bạn trước cả khi bạn làm được điều gì.',
+        en: 'The sense of “not being enough” often grows from real wounds — and it deserves to be heard. But the truth runs deeper than anything you achieve: you are made in God’s image, and he loved you before you had done anything at all.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:toi-cam-thay-minh-chua-du'],
+    scripture: {
+      ref: 'Tv 139,13',
+      gloss: {
+        vi: 'Tác giả Thánh Vịnh thưa với Chúa: chính Ngài đã dệt nên con trong lòng mẹ — bạn không phải là một tình cờ.',
+        en: 'The Psalmist tells God: you knit me together in my mother’s womb — you are no accident.',
+      },
+    },
+    nextStep: { href: '/giai-dap', label: { vi: 'Xem thêm trong mục Giải Đáp', en: 'Browse more in the Q&A' } },
+  },
+
+  's-grief': {
+    id: 's-grief',
+    title: { vi: 'Khi vừa mất một người thân yêu', en: 'When you have lost someone dear' },
+    lead: { vi: 'Bạn vừa mất một người thân yêu và đang mang nỗi đau ấy.', en: 'You have just lost someone dear, and you carry that grief.' },
+    advice: [
+      {
+        vi: 'Nỗi buồn của bạn chính là dấu chứng của tình yêu — và tình yêu ấy không mất đi. Chính Chúa Giêsu đã khóc bên mộ người bạn của Người; Thiên Chúa không đứng ngoài nước mắt của bạn, Người bước vào đó. Đức Maria cũng đã đứng dưới chân thập giá, nhìn Con mình chết — Mẹ hiểu nỗi đau này.',
+        en: 'Your sorrow is itself a sign of love — and that love is not lost. Jesus himself wept at the tomb of his friend; God does not stand outside your tears, he enters them. Mary too stood at the foot of the cross, watching her Son die — she understands this pain.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:doi-dien-voi-mat-mat'],
+    scripture: {
+      ref: 'Kh 21,4',
+      gloss: {
+        vi: 'Sách Khải Huyền hứa một ngày Thiên Chúa sẽ lau sạch mọi giọt nước mắt, và sự chết sẽ không còn nữa.',
+        en: 'Revelation promises a day when God will wipe away every tear, and death shall be no more.',
+      },
+    },
+    nextStep: { href: '/giai-dap', label: { vi: 'Xem thêm trong mục Giải Đáp', en: 'Browse more in the Q&A' } },
+  },
+
+  's-saved': {
+    id: 's-saved',
+    title: { vi: 'Họ có được cứu độ không?', en: 'Were they saved?' },
+    lead: {
+      vi: 'Bạn không chắc người thân đã khuất của mình có được cứu độ.',
+      en: "You're unsure whether your loved one who died was saved.",
+    },
+    advice: [
+      {
+        vi: 'Đây là một trong những câu hỏi nặng nề nhất một trái tim đang tang chế có thể mang — và chính việc bạn hỏi đã là một hành vi của tình yêu. Chúng ta không tuyên bố số phận của ai; chúng ta phó thác người ấy cho lòng thương xót của Thiên Chúa, một lòng thương xót rộng lớn hơn ta có thể đo lường.',
+        en: 'This is one of the heaviest questions a grieving heart can carry — and the very asking of it is an act of love. We do not pronounce anyone’s fate; we entrust them to the mercy of God, a mercy wider than we can measure.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:nguoi-than-qua-doi-duoc-cuu-khong'],
+    scripture: {
+      ref: '1 Tm 2,4',
+      gloss: {
+        vi: 'Thánh Phaolô nhắc: Thiên Chúa muốn cho mọi người được cứu độ — nên ta được phép hy vọng.',
+        en: 'St Paul reminds us: God desires everyone to be saved — so we are free to hope.',
+      },
+    },
+    nextStep: {
+      href: '/giao-ly/847#847',
+      label: { vi: 'Giáo Lý: lòng thương xót và ơn cứu độ', en: 'The Catechism: mercy and salvation' },
+    },
+  },
+
+  'p-family': {
+    id: 'p-family',
+    title: { vi: 'Khi chính người nhà chống đối', en: 'When your own family turns against you' },
+    lead: {
+      vi: 'Chính người thân, bạn bè chống đối hay chế giễu bạn vì đức tin.',
+      en: 'Your own family or friends oppose or mock you for your faith.',
+    },
+    advice: [
+      {
+        vi: 'Bị chính những người mình yêu thương quay lưng vì đức tin là một nỗi đau riêng, sâu và khó. Đức Giêsu đã báo trước chính vết thương này — nên sự chia rẽ bạn đang cảm nhận không phải là dấu chỉ bạn làm sai. Nhưng nó không bao giờ cho phép ta lấy lạnh lùng đáp lại lạnh lùng.',
+        en: 'To be turned on by the very people you love, because of the faith, is a particular and deep pain. Jesus foretold this very wound — so the division you feel is not a sign that you have done wrong. Yet it never permits us to answer coldness with coldness.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:bi-nguoi-nha-chong-doi-vi-duc-tin'],
+    scripture: {
+      ref: 'Mt 10,34-36',
+      gloss: {
+        vi: 'Chúa Giêsu nói trước rằng theo Người đôi khi sẽ gây chia rẽ ngay trong nhà — không phải để cổ vũ chia rẽ, mà để bạn khỏi ngỡ ngàng.',
+        en: 'Jesus foretells that following him can bring division even at home — not to encourage it, but so it will not take you by surprise.',
+      },
+    },
+    nextStep: { href: '/giai-dap', label: { vi: 'Xem thêm trong mục Giải Đáp', en: 'Browse more in the Q&A' } },
+  },
+
+  'p-world': {
+    id: 'p-world',
+    title: { vi: 'Khi thế gian ghét bỏ', en: 'When the world hates you' },
+    lead: {
+      vi: 'Người ngoài, xã hội chế giễu hay ghét bỏ bạn vì bạn tin Chúa.',
+      en: 'The world around you mocks or resents you for believing.',
+    },
+    advice: [
+      {
+        vi: 'Bị thế gian coi thường vì đức tin có thể khiến ta thấy lạc lõng — nhưng Đức Kitô đã nói trước điều này, và Người gọi đó là một dấu chỉ: “Nếu thế gian ghét anh em, hãy biết rằng nó đã ghét Thầy trước.” Bạn đang được kể vào hàng ngũ với chính Người.',
+        en: 'Being looked down on by the world for the faith can leave us feeling out of place — but Christ foretold this, and he calls it a sign: “If the world hates you, know that it hated me first.” You are being counted in his own company.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:the-gian-ghet-bo-vi-duc-tin'],
+    companions: [
+      {
+        href: '/cac-thanh/tu-dao-viet-nam',
+        name: { vi: 'Các Thánh Tử Đạo Việt Nam', en: 'The Vietnamese Martyrs' },
+        line: {
+          vi: 'Hàng trăm ngàn tín hữu Việt Nam đã chịu ruồng bỏ và cái chết mà vẫn giữ vững lòng tin, tựa nương vào Chúa.',
+          en: 'Hundreds of thousands of Vietnamese faithful endured rejection and death yet held their faith, leaning on God.',
+        },
+      },
+      {
+        href: '/cac-thanh/maximilian-kolbe',
+        name: { vi: 'Thánh Maximilianô Kolbe', en: 'St Maximilian Kolbe' },
+        line: {
+          vi: 'Trong trại Auschwitz, ngài đã tự nguyện chết thay cho một người xa lạ — tình yêu mạnh hơn cả sợ hãi.',
+          en: 'In Auschwitz he freely gave his life in place of a stranger — love stronger than fear.',
+        },
+      },
+    ],
+    scripture: {
+      ref: 'Ga 15,18',
+      gloss: {
+        vi: 'Chúa Giêsu nói: nếu thế gian ghét anh em, hãy nhớ nó đã ghét Thầy trước anh em.',
+        en: 'Jesus says: if the world hates you, remember that it hated me before it hated you.',
+      },
+    },
+    nextStep: { href: '/cac-thanh/tu-dao-viet-nam', label: { vi: 'Gặp các Thánh Tử Đạo Việt Nam', en: 'Meet the Vietnamese Martyrs' } },
+  },
+
+  'p-danger': {
+    id: 'p-danger',
+    title: { vi: 'Khi tính mạng bị đe dọa', en: 'When your life is in danger' },
+    lead: {
+      vi: 'Bạn có thể gặp nguy hiểm đến tính mạng vì đức tin của mình.',
+      en: 'You may be in danger of your life because of your faith.',
+    },
+    advice: [
+      {
+        vi: 'Sợ hãi cho mạng sống mình là điều rất con người — không phải một thất bại của đức tin. Và xin biết rõ điều này trước hết: Đức Giêsu KHÔNG đòi bạn tự tìm cái chết. Chính Người dạy hãy tìm nơi an toàn khi bị bách hại. Ngay bây giờ, hãy tìm nơi an toàn và tìm sự trợ giúp — đó là điều khôn ngoan và được phép.',
+        en: 'To fear for your life is deeply human — not a failure of faith. And know this first of all: Jesus does NOT ask you to seek death. He himself taught his followers to flee to safety when persecuted. Right now, seek safety and seek help — that is wise, and it is allowed.',
+      },
+    ],
+    categories: [],
+    tags: [],
+    pastoral: true,
+    seedPins: ['n:nguy-hiem-tinh-mang-vi-duc-tin'],
+    companions: [
+      {
+        href: '/cac-thanh/tu-dao-viet-nam',
+        name: { vi: 'Các Thánh Tử Đạo Việt Nam', en: 'The Vietnamese Martyrs' },
+        line: {
+          vi: 'Các ngài cũng đã sợ hãi, nhưng đã bền chí đến cùng nhờ ơn Chúa ban đúng lúc cần đến.',
+          en: 'They too were afraid, yet endured to the end by the grace given exactly when it was needed.',
+        },
+      },
+    ],
+    scripture: {
+      ref: 'Mt 24,13',
+      gloss: {
+        vi: 'Lời Chúa hứa không phải một lời đe dọa, mà một điểm tựa: ai bền chí đến cùng sẽ được cứu.',
+        en: 'This word of the Lord is not a threat but a handhold: whoever endures to the end will be saved.',
+      },
+    },
+    nextStep: { href: '/cac-thanh/tu-dao-viet-nam', label: { vi: 'Gặp các Thánh Tử Đạo Việt Nam', en: 'Meet the Vietnamese Martyrs' } },
   },
 };
 
