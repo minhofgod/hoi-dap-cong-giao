@@ -80,7 +80,7 @@ export default function HomePage() {
         <Link href="/giai-dap" className={`${styles.card} ${styles.cardSage}`}>
           <span className={styles.cardImage}>
             <Image
-              src="/images/giai-dap/duc-tin-va-viec-lam.jpg"
+              src="/images/giai-dap/ai-tao-ra-chua.jpg"
               alt=""
               fill
               sizes="(max-width: 900px) 100vw, 400px"
