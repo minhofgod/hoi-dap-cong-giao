@@ -5,6 +5,7 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { content, toc, resolveCatechism } from '@/lib/content';
 import { formatTocLabel } from '@/lib/titleFormat';
 import { getAllFathers } from '@/lib/churchFathers';
+import { getAllCouncils } from '@/lib/councilsV2';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getAllVideos } from '@/lib/videos';
 import { resolveReference } from '@/lib/bibleRefs';
@@ -41,6 +42,7 @@ const PART_IMAGES = [
   '/images/catechism/kinh-lay-cha.jpg', // IV — Kinh Nguyện (the Our Father)
 ];
 const fathersCount = getAllFathers().length;
+const councilsCount = getAllCouncils().length;
 const questions = getAllQuestions();
 const questionsCount = questions.length;
 const homeVideos = getAllVideos().slice(0, 3);
@@ -123,10 +125,10 @@ export default function HomePage() {
             </span>
           </span>
         </Link>
-        <Link href="/giao-phu" className={`${styles.card} ${styles.cardGold}`}>
+        <Link href="/lich-su-hoi-thanh" className={`${styles.card} ${styles.cardGold}`}>
           <span className={styles.cardImage}>
             <Image
-              src="/images/church-fathers/augustine-of-hippo.jpg"
+              src="/images/cong-dong/nicaea-i.jpg"
               alt=""
               fill
               sizes="(max-width: 900px) 100vw, 400px"
@@ -135,16 +137,19 @@ export default function HomePage() {
           </span>
           <span className={styles.cardBody}>
             <span className={styles.cardTitle}>
-              <T vi="Giáo Phụ" en="Church Fathers" />
+              <T vi="Lịch Sử Hội Thánh" en="Church History" />
             </span>
             <span className={styles.cardDesc}>
               <T
-                vi="Bản văn các Giáo Phụ tiên khởi của Hội Thánh."
-                en="Texts of the earliest Fathers of the Church."
+                vi="Các Giáo Phụ và các Công Đồng Chung trên cùng một dòng thời gian."
+                en="The Church Fathers and the Ecumenical Councils on one timeline."
               />
             </span>
             <span className={styles.cardCount}>
-              <T vi={`${fathersCount} bản văn`} en={`${fathersCount} texts`} />
+              <T
+                vi={`${fathersCount} Giáo Phụ · ${councilsCount} Công Đồng`}
+                en={`${fathersCount} Fathers · ${councilsCount} Councils`}
+              />
             </span>
           </span>
         </Link>
@@ -402,8 +407,8 @@ export default function HomePage() {
             <Link href="/giao-ly" className={styles.footerLink}>
               <T vi="Giáo Lý" en="Catechism" />
             </Link>
-            <Link href="/giao-phu" className={styles.footerLink}>
-              <T vi="Giáo Phụ" en="Church Fathers" />
+            <Link href="/lich-su-hoi-thanh" className={styles.footerLink}>
+              <T vi="Lịch Sử Hội Thánh" en="Church History" />
             </Link>
           </div>
           <div className={styles.footerCol}>
@@ -415,6 +420,9 @@ export default function HomePage() {
             </Link>
             <Link href="/giao-phu" className={styles.footerLink}>
               <T vi="Thư mục Giáo Phụ" en="Church Fathers directory" />
+            </Link>
+            <Link href="/cong-dong" className={styles.footerLink}>
+              <T vi="Các Công Đồng Chung" en="Ecumenical Councils" />
             </Link>
           </div>
         </div>

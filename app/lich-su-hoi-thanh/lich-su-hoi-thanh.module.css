@@ -1,0 +1,436 @@
+.wrap {
+  max-width: var(--canvas-max);
+  margin: 0 auto;
+  padding: 0 0 80px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px var(--page-gutter) 0;
+}
+
+/* ---- Dark hero band ---- */
+.hero {
+  margin: 16px var(--page-gutter) 0;
+  background: var(--dark-ground);
+  border-radius: var(--radius-band);
+  padding: 48px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 264px;
+  gap: 44px;
+  align-items: start;
+}
+
+.heroText {
+  max-width: 640px;
+}
+
+.eyebrow {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #c9a65c;
+  margin-bottom: 14px;
+}
+.eyebrowEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a79e92;
+  margin: 2px 0 14px;
+}
+
+.heroTitle {
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: -0.018em;
+  color: #fbf8f3;
+  margin: 0 0 16px;
+}
+
+.heroLedeVi {
+  margin: 0 0 6px;
+  max-width: 56ch;
+  font-size: 16.5px;
+  line-height: 1.74;
+  color: #cfc6b6;
+}
+.heroLedeEn {
+  margin: 0;
+  max-width: 58ch;
+  font-size: 16.5px;
+  line-height: 1.74;
+  color: #cfc6b6;
+}
+.heroLedeEnRecessed {
+  margin: 0;
+  max-width: 58ch;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #b2a99d;
+}
+
+/* ---- Quick "just one list" links ---- */
+.quickLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+.quickLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(201, 166, 92, 0.32);
+  background: rgba(251, 248, 243, 0.05);
+  color: #fbf8f3;
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: border-color 0.15s ease;
+}
+.quickLink:hover {
+  text-decoration: none;
+  border-color: rgba(201, 166, 92, 0.7);
+}
+.quickDot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.quickDotFather {
+  background: var(--gold);
+}
+.quickDotCouncil {
+  background: #93a06f;
+}
+.quickArrow {
+  color: #c9a65c;
+  font-size: 14px;
+}
+
+/* ---- Legend ---- */
+.legend {
+  align-self: start;
+  background: rgba(251, 248, 243, 0.05);
+  border: 1px solid rgba(201, 166, 92, 0.28);
+  border-radius: var(--radius-card);
+  padding: 20px 22px;
+}
+.legendTitle {
+  font-weight: 600;
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #c9a65c;
+  margin-bottom: 10px;
+}
+.legendTitleEnRecessed {
+  font-weight: 500;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #a79e92;
+  margin: 2px 0 10px;
+}
+.legendRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(201, 166, 92, 0.18);
+}
+.legendMarker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid;
+  flex-shrink: 0;
+}
+.legendMarkerFather {
+  background: rgba(201, 166, 92, 0.16);
+  border-color: var(--gold);
+  color: #e3c98a;
+}
+.legendMarkerCouncil {
+  background: rgba(147, 160, 111, 0.18);
+  border-color: #93a06f;
+  color: #c2cfa0;
+}
+.legendText {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+.legendName {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 15px;
+  color: #fbf8f3;
+}
+.legendCount {
+  font-weight: 600;
+  font-size: 13px;
+  color: #c9a65c;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Timeline ---- */
+.timeline {
+  margin-top: 8px;
+}
+
+.band {
+  padding-top: 44px;
+}
+
+.bandHeader {
+  margin: 0 var(--page-gutter);
+  background: var(--dark-ground);
+  border-radius: var(--radius-band);
+  padding: 34px 40px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  gap: 40px;
+  align-items: start;
+}
+.bandSpan {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #c9a65c;
+  margin-bottom: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.bandName {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #fbf8f3;
+  margin: 0;
+}
+.bandNameEnRecessed {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a79e92;
+  margin: 2px 0 0;
+}
+.bandBlurbVi {
+  margin: 0 0 8px;
+  font-size: 15px;
+  line-height: 1.74;
+  color: #cfc6b6;
+}
+.bandBlurbEn {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.74;
+  color: #cfc6b6;
+}
+.bandBlurbEnRecessed {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.68;
+  color: #b2a99d;
+}
+.bandCounts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 16px;
+}
+.bandCount {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 600;
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+}
+.bandCountFather {
+  color: #e3c98a;
+}
+.bandCountCouncil {
+  color: #c2cfa0;
+}
+
+/* The spine + markers */
+.track {
+  position: relative;
+  list-style: none;
+  margin: 10px var(--page-gutter) 0;
+  padding: 6px 0;
+}
+.track::before {
+  content: '';
+  position: absolute;
+  left: 27px;
+  top: 26px;
+  bottom: 26px;
+  width: 2px;
+  background: var(--border-strong);
+  border-radius: 2px;
+}
+
+.item {
+  list-style: none;
+}
+
+.itemLink {
+  position: relative;
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: center;
+  padding: 9px 16px 9px 0;
+  border-radius: var(--radius-row);
+  color: inherit;
+}
+.itemLink:hover {
+  text-decoration: none;
+  background: #fbf6ee;
+}
+
+.marker {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid;
+  background: var(--surface);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.itemFather .marker {
+  border-color: var(--gold);
+  background: var(--gold-tint);
+  color: var(--gold-deep);
+}
+.itemCouncil .marker {
+  border-color: var(--sage);
+  background: var(--sage-tint);
+  color: var(--sage-deep);
+}
+.itemFather:hover .marker {
+  box-shadow: 0 0 0 4px rgba(176, 138, 62, 0.14);
+}
+.itemCouncil:hover .marker {
+  box-shadow: 0 0 0 4px rgba(122, 138, 94, 0.16);
+}
+
+.itemBody {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.itemName {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 16.5px;
+  line-height: 1.3;
+  color: var(--text-heading);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.itemFather:hover .itemName {
+  color: var(--gold-deep);
+}
+.itemCouncil:hover .itemName {
+  color: var(--sage-deep);
+}
+.itemMeta {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--text-quiet);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.itemDates {
+  font-weight: 500;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.itemFather .itemDates {
+  color: var(--gold-deep);
+}
+.itemCouncil .itemDates {
+  color: var(--sage-deep);
+}
+
+/* Screen-reader-only kind label appended to each name */
+.srKind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 899px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 32px var(--mobile-gutter);
+    margin: 12px var(--mobile-gutter) 0;
+  }
+  .heroTitle {
+    font-size: 27px;
+    line-height: 1.24;
+    letter-spacing: -0.01em;
+  }
+  .bandHeader {
+    grid-template-columns: 1fr;
+    padding: 26px var(--mobile-gutter);
+    margin: 0 var(--mobile-gutter);
+    gap: 18px;
+  }
+  .track {
+    margin: 10px var(--mobile-gutter) 0;
+  }
+  .track::before {
+    left: 21px;
+  }
+  .itemLink {
+    grid-template-columns: 42px minmax(0, 1fr) auto;
+    gap: 12px;
+    padding: 9px 8px 9px 0;
+  }
+  .marker {
+    width: 32px;
+    height: 32px;
+  }
+  .itemName {
+    font-size: 15.5px;
+  }
+}

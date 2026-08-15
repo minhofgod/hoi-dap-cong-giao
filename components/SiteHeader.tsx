@@ -10,11 +10,21 @@ import { T } from './T';
 import { useLang } from '@/lib/giao-phu/useLang';
 import styles from './SiteHeader.module.css';
 
-const SECTIONS = [
+interface Section {
+  href: string;
+  vi: string;
+  en: string;
+  /** Extra route prefixes that should also mark this item active (e.g. hub child routes). */
+  also?: string[];
+}
+
+const SECTIONS: Section[] = [
   { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A' },
   { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism' },
-  { href: '/giao-phu', vi: 'Giáo Phụ', en: 'Church Fathers' },
-  { href: '/cong-dong', vi: 'Công Đồng', en: 'Councils' },
+  // The Church History hub groups Giáo Phụ (Fathers) + Công Đồng (Councils) into one nav item,
+  // surfacing the Councils without a separate top-level entry (docs/roadmap.md — homepage IA).
+  // `also` keeps the hub highlighted on its child routes (the Fathers/Councils detail pages).
+  { href: '/lich-su-hoi-thanh', vi: 'Lịch Sử Hội Thánh', en: 'Church History', also: ['/giao-phu', '/cong-dong'] },
   { href: '/video', vi: 'Video', en: 'Videos' },
 ];
 
@@ -22,7 +32,8 @@ export function SiteHeader() {
   const pathname = usePathname();
   const lang = useLang();
   const [open, setOpen] = useState(false);
-  const isActive = (prefix: string) => pathname.startsWith(prefix);
+  const isActive = (s: Section) =>
+    [s.href, ...(s.also ?? [])].some((prefix) => pathname.startsWith(prefix));
 
   return (
     <header className={styles.header}>
@@ -36,7 +47,7 @@ export function SiteHeader() {
           <Link
             key={s.href}
             href={s.href}
-            className={isActive(s.href) ? `${styles.navItem} ${styles.navItemActive}` : styles.navItem}
+            className={isActive(s) ? `${styles.navItem} ${styles.navItemActive}` : styles.navItem}
           >
             <T vi={s.vi} en={s.en} />
           </Link>
@@ -75,7 +86,7 @@ export function SiteHeader() {
             <Link
               key={s.href}
               href={s.href}
-              className={isActive(s.href) ? `${styles.mobileLink} ${styles.mobileLinkActive}` : styles.mobileLink}
+              className={isActive(s) ? `${styles.mobileLink} ${styles.mobileLinkActive}` : styles.mobileLink}
               onClick={() => setOpen(false)}
             >
               <T vi={s.vi} en={s.en} />
