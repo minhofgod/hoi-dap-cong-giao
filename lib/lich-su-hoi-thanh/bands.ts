@@ -61,7 +61,7 @@ export const BAND_BLURB: Record<BandId, Bi> = {
     en: 'Ten Western councils, from the Lateran councils to Lateran V — Church reform, the Crusades, and attempts at reunion with the East.',
   },
   modern: {
-    vi: 'Ba công đồng định hình Hội Thánh hiện đại: Triđentinô đáp lại cuộc Cải Cách, Vaticanô I về quyền tối thượng, và Vaticanô II về Hội Thánh giữa thế giới hôm nay.',
+    vi: 'Ba công đồng định hình Hội Thánh hiện đại: Trentô (Triđentinô) đáp lại cuộc Cải Cách, Vaticanô I về quyền tối thượng, và Vaticanô II về Hội Thánh giữa thế giới hôm nay.',
     en: 'Three councils that shaped the modern Church: Trent answering the Reformation, Vatican I on papal primacy, and Vatican II on the Church in the modern world.',
   },
 };
