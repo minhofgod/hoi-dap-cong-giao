@@ -1,5 +1,7 @@
 .wrap {
-  max-width: 720px;
+  /* Wide enough for the journey's two-column (answer + sticky choices) layout on desktop; the
+     intake/intro stay narrow (see .intro/.card max-width) so the reading width is comfortable. */
+  max-width: 920px;
   margin: 0 auto;
   padding: 48px var(--page-gutter) 88px;
 }
@@ -12,6 +14,7 @@
 
 /* --- Intro header --- */
 .intro {
+  max-width: 680px;
   margin-bottom: 28px;
 }
 .eyebrow {
@@ -39,6 +42,7 @@
 
 /* --- Intake card --- */
 .card {
+  max-width: 680px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
@@ -168,6 +172,115 @@
   .result {
     padding: 20px 18px 26px;
   }
+}
+
+/* --- Walking layout: single column on mobile (answer → choices → extras); two columns on desktop,
+   with the follow-up choices in a sticky sidebar so they stay in view while the answer scrolls. --- */
+.walk {
+  display: block;
+}
+.walkExtra:empty {
+  display: none;
+}
+@media (min-width: 900px) {
+  .walk {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    grid-template-areas:
+      'answer side'
+      'extra  side';
+    column-gap: 36px;
+    align-items: start;
+  }
+  .walkAnswer {
+    grid-area: answer;
+    min-width: 0;
+  }
+  .walkExtra {
+    grid-area: extra;
+  }
+  .walkSide {
+    grid-area: side;
+    position: sticky;
+    top: 24px;
+    align-self: start;
+    /* Prominent: the choices are the primary action on a walk. */
+    background: var(--sage-card);
+    border: 1px solid var(--sage-tint);
+    border-radius: var(--radius-card);
+    padding: 18px 18px 20px;
+  }
+  /* Flatten the inner blocks' own spacing/panels so they sit cleanly inside the sidebar panel. */
+  .walkSide .followUps {
+    margin-top: 0;
+  }
+  .walkSide .satisfaction {
+    margin-top: 0;
+    padding: 0;
+    background: none;
+  }
+}
+
+/* --- The full answer, rendered inline via ScriptureBody (typography; the ref-chip styling lives in
+   ScriptureBody.module.css). Slightly tighter than the standalone Q&A page — it reads within a walk. --- */
+.answerBody {
+  font-size: 15.5px;
+  line-height: 1.72;
+  color: var(--text-body);
+}
+.answerBody p {
+  margin-bottom: 14px;
+}
+.answerBody p:last-child {
+  margin-bottom: 0;
+}
+.answerBody h2,
+.answerBody h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.3;
+  color: var(--text-heading);
+  margin: 20px 0 8px;
+}
+.answerBody ul,
+.answerBody ol {
+  margin: 0 0 14px;
+  padding-left: 20px;
+}
+.answerBody li {
+  margin-bottom: 5px;
+}
+.answerBody strong {
+  font-weight: 600;
+  color: var(--text-heading);
+}
+.answerBody blockquote {
+  border-left: 3px solid var(--sage);
+  background: var(--sage-card);
+  border-radius: 0 var(--radius-row) var(--radius-row) 0;
+  margin: 14px 0;
+  padding: 10px 16px;
+  font-style: italic;
+  color: var(--text-body);
+}
+.answerBody a {
+  color: var(--sage-deep);
+  text-decoration: underline;
+}
+
+/* Quiet "open as its own page" link (sharing) — the answer already reads inline. */
+.openPage {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-quiet);
+}
+.openPage:hover {
+  text-decoration: none;
+  color: var(--sage-deep);
 }
 
 .resultLead {

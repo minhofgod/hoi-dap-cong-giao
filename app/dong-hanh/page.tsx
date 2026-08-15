@@ -7,7 +7,7 @@ import { getCouncilApologetics } from '@/lib/councilsV2';
 import { getAllVideos } from '@/lib/videos';
 import { categoryLabel } from '@/lib/giaiDapTaxonomy';
 import { SITUATIONS, type Resource } from '@/lib/dongHanh';
-import { resolveReference, type ResolvedReference } from '@/lib/bibleRefs';
+import { resolveReference, enrichBody, enrichBi, type ResolvedReference } from '@/lib/bibleRefs';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
 
@@ -46,6 +46,8 @@ export default function DongHanhPage() {
   // matching itself runs on the client (the flow is interactive), so we only pass lightweight cards.
   const native: Resource[] = getAllQuestions().map((q) => {
     const p = preview(q.bodyRaw);
+    // Enrich the full answer once (VI-only content), ready for inline ScriptureBody rendering.
+    const b = enrichBody(q.bodyHtml);
     return {
       key: `n:${q.slug}`,
       kind: 'native',
@@ -59,6 +61,8 @@ export default function DongHanhPage() {
       featured: q.featured,
       // Native answers are VI-only, so the EN preview reuses the VI text (the answer page is VI too).
       excerpt: { vi: p, en: p },
+      // VI-only content → ship one body; EN readers see the VI answer (as on the Q&A page).
+      body: { vi: b },
       // Content pins: sibling Q&As + a pinned video are forced to the top of this item's follow-ups.
       pins: [...q.related.map((s) => `n:${s}`), ...q.relatedVideo.map((s) => `v:${s}`)],
       // short: <- populate once lib/giaiDap exposes a bilingual `short:` field (Sessions 2/3).
@@ -76,6 +80,8 @@ export default function DongHanhPage() {
     category: qa.category,
     tags: qa.tags,
     excerpt: { vi: preview(qa.answer.vi), en: preview(qa.answer.en) },
+    // Council answers are plain prose (with inline refs) and truly bilingual → enrichBi.
+    body: enrichBi(qa.answer),
   }));
 
   // Videos join the same taxonomy-scored pool. Left without `featured`, so they never come through

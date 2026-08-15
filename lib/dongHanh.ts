@@ -10,6 +10,7 @@
 // NO LLM: everything here is authored and reviewable. The advice never generates at runtime.
 
 import type { Bi } from './giaiDapTaxonomy';
+import type { EnrichedAnswer } from './bibleRefs';
 
 export type { Bi };
 
@@ -1139,9 +1140,15 @@ export interface Resource {
   category?: string;
   tags: string[];
   featured?: boolean;
-  /** Plain-text answer preview (bilingual), shown inline as the reader walks the branching path so
-   *  they read a taste without leaving the companion; the full answer is one click away (`href`). */
+  /** Plain-text answer preview (bilingual). A fallback for items with no inline `body` (videos), and
+   *  used for the excerpt card before the full answer renders. */
   excerpt?: Bi;
+  /** The FULL answer, enriched server-side and ScriptureBody-ready ({ html, data, ccc } — inline
+   *  refs open the popover, honoring the SCRIPTURE_POPOVER gate). Rendered inline in the reading view
+   *  so the walk never navigates away. `vi` is always present; `en` only for truly bilingual content
+   *  (council answers) — native Q&As are VI-only, so EN readers see the VI answer (as on its page),
+   *  and omitting `en` there keeps the shipped payload lean. Videos carry none — you watch them. */
+  body?: { vi: EnrichedAnswer; en?: EnrichedAnswer };
   /** Resource keys to force to the top of THIS item's follow-ups — from the content pins
    *  (`related` / `related_video` on a Q&A, `related_qa` on a video). */
   pins?: string[];

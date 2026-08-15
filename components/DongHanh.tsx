@@ -8,6 +8,7 @@ import {
   BookOpen,
   Check,
   Compass,
+  ExternalLink,
   Play,
   RotateCcw,
   Search,
@@ -26,6 +27,7 @@ import {
 } from '@/lib/dongHanh';
 import { categoryLabel, tagLabel } from '@/lib/giaiDapTaxonomy';
 import { ScriptureRef } from './ScriptureRef';
+import { ScriptureBody } from './ScriptureBody';
 import type { ResolvedReference } from '@/lib/bibleRefs';
 import { T } from './T';
 import styles from '../app/dong-hanh/dong-hanh.module.css';
@@ -357,43 +359,49 @@ function JourneyView({
           onRestart={onRestart}
         />
       ) : (
-        <>
-          {current === null ? (
-            <AnchorContent situation={situation} scripture={scripture} pick={pick} />
-          ) : (
-            <ReadingContent current={current} pool={pool} en={en} pick={pick} />
-          )}
+        // Two columns on desktop (grid areas): the answer scrolls in the main column while the
+        // follow-up choices sit in a sticky sidebar, always in view — pick the next question without
+        // scrolling back up. On mobile it collapses to one column: answer → choices → extras.
+        <div className={styles.walk}>
+          <div className={styles.walkAnswer}>
+            {current === null ? (
+              <AnchorContent situation={situation} scripture={scripture} pick={pick} />
+            ) : (
+              <ReadingContent current={current} pool={pool} en={en} pick={pick} />
+            )}
+          </div>
 
-          {showFollowUps && (
-            <FollowUps
-              suggestions={suggestions}
-              atAnchor={current === null}
-              en={en}
-              pick={pick}
-              onPick={onPick}
-              onClose={onClose}
-            />
-          )}
+          <div className={styles.walkSide}>
+            {showFollowUps && (
+              <FollowUps
+                suggestions={suggestions}
+                atAnchor={current === null}
+                en={en}
+                pick={pick}
+                onPick={onPick}
+                onClose={onClose}
+              />
+            )}
+            {showSatisfaction && <Satisfaction onClose={onClose} onDeadEnd={onDeadEnd} />}
+          </div>
 
-          {showSatisfaction && <Satisfaction onClose={onClose} onDeadEnd={onDeadEnd} />}
+          <div className={styles.walkExtra}>
+            {/* The curated go-deeper link is a QUIET secondary option (v2: the follow-ups are the
+                primary path), and the forward link / safety net on content-poor situations. */}
+            {current === null && (
+              <Link href={situation.nextStep.href} className={styles.goDeeper}>
+                <span className={styles.goDeeperPrefix}>
+                  <T vi="Hoặc đọc thêm" en="Or read more" />
+                </span>
+                <span className={styles.goDeeperLabel}>{pick(situation.nextStep.label)}</span>
+                <ArrowRight size={14} strokeWidth={2.2} />
+              </Link>
+            )}
 
-          {/* The curated go-deeper link is a QUIET secondary option below the questions — in v2 the
-              follow-ups are the primary path. It also stays as the forward link / safety net on
-              content-poor situations, where FollowUps is empty and only Satisfaction shows. */}
-          {current === null && (
-            <Link href={situation.nextStep.href} className={styles.goDeeper}>
-              <span className={styles.goDeeperPrefix}>
-                <T vi="Hoặc đọc thêm" en="Or read more" />
-              </span>
-              <span className={styles.goDeeperLabel}>{pick(situation.nextStep.label)}</span>
-              <ArrowRight size={14} strokeWidth={2.2} />
-            </Link>
-          )}
-
-          {/* Grief paths keep the human off-ramp visible on EVERY step of the walk, not just the
-              first screen or the dead-end (relevance audit, pastoral-tone lens). */}
-          {situation.pastoral && <PastoralOfframp />}
-        </>
+            {/* Grief paths keep the human off-ramp visible on EVERY step of the walk. */}
+            {situation.pastoral && <PastoralOfframp />}
+          </div>
+        </div>
       )}
     </div>
   );
@@ -471,6 +479,9 @@ function ReadingContent({
     !isVideo && current.pins?.length
       ? pool.find((r) => r.kind === 'video' && current.pins!.includes(r.key))
       : undefined;
+  // The full answer, enriched server-side (native + council). EN only exists for bilingual (council)
+  // content; native falls back to VI (VI-only, as on its own page). Videos have none — you watch them.
+  const body = current.body ? (en && current.body.en ? current.body.en : current.body.vi) : null;
 
   return (
     <div className={styles.reading}>
@@ -484,17 +495,27 @@ function ReadingContent({
         )}
       </div>
       <h3 className={styles.readingQuestion}>{en ? current.questionEn : current.questionVi}</h3>
-      {current.excerpt && <p className={styles.readingExcerpt}>{pick(current.excerpt)}</p>}
+
+      {body ? (
+        // Full answer rendered INLINE (no navigation) — inline refs open the popover via ScriptureBody.
+        <ScriptureBody className={styles.answerBody} html={body.html} data={body.data} ccc={body.ccc} />
+      ) : (
+        current.excerpt && <p className={styles.readingExcerpt}>{pick(current.excerpt)}</p>
+      )}
 
       <div className={styles.readingActions}>
-        <Link href={current.href} className={styles.readFull}>
-          {isVideo ? <Play size={15} strokeWidth={2.2} /> : <BookOpen size={15} strokeWidth={2.2} />}
-          {isVideo ? (
+        {isVideo ? (
+          <Link href={current.href} className={styles.readFull}>
+            <Play size={15} strokeWidth={2.2} />
             <T vi="Xem video đầy đủ" en="Watch the full video" />
-          ) : (
-            <T vi="Đọc câu trả lời đầy đủ" en="Read the full answer" />
-          )}
-        </Link>
+          </Link>
+        ) : (
+          // "Read the full answer" is now inline; keep only a quiet link to the standalone page (for sharing).
+          <Link href={current.href} className={styles.openPage}>
+            <ExternalLink size={14} strokeWidth={2.2} />
+            <T vi="Mở trang riêng" en="Open as its own page" />
+          </Link>
+        )}
         {pinnedVideo && (
           <Link href={pinnedVideo.href} className={styles.readVideo}>
             <Play size={14} strokeWidth={2.2} />
