@@ -74,45 +74,100 @@
   color: #b2a99d;
 }
 
-/* ---- Quick "just one list" links ---- */
-.quickLinks {
+/* ---- Two "just one list" photo cards (also the page's main imagery) ---- */
+.jumpGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 28px var(--page-gutter) 0;
+}
+.jumpCard {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 28px;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
-.quickLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 16px;
-  border-radius: var(--radius-pill);
-  border: 1px solid rgba(201, 166, 92, 0.32);
-  background: rgba(251, 248, 243, 0.05);
-  color: #fbf8f3;
-  font-size: 13.5px;
-  font-weight: 600;
-  transition: border-color 0.15s ease;
-}
-.quickLink:hover {
+.jumpCard:hover {
   text-decoration: none;
-  border-color: rgba(201, 166, 92, 0.7);
 }
-.quickDot {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
+.jumpCardFather:hover {
+  border-color: var(--gold);
+  box-shadow: 0 8px 24px -16px rgba(176, 138, 62, 0.5);
+}
+.jumpCardCouncil:hover {
+  border-color: var(--sage);
+  box-shadow: 0 8px 24px -16px rgba(86, 102, 59, 0.5);
+}
+
+.jumpImage {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #efe7db;
+}
+.jumpImg {
+  object-fit: cover;
+  object-position: 50% 22%;
+}
+
+.jumpBody {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 18px;
+}
+.jumpMarker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid;
 }
-.quickDotFather {
-  background: var(--gold);
+.jumpMarkerFather {
+  background: var(--gold-tint);
+  border-color: var(--gold);
+  color: var(--gold-deep);
 }
-.quickDotCouncil {
-  background: #93a06f;
+.jumpMarkerCouncil {
+  background: var(--sage-tint);
+  border-color: var(--sage);
+  color: var(--sage-deep);
 }
-.quickArrow {
-  color: #c9a65c;
-  font-size: 14px;
+.jumpText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1;
+}
+.jumpTitle {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  color: var(--text-heading);
+}
+.jumpCta {
+  font-size: 13px;
+  font-weight: 600;
+  transition: transform 0.15s ease;
+}
+.jumpCardFather .jumpCta {
+  color: var(--gold-deep);
+}
+.jumpCardCouncil .jumpCta {
+  color: var(--sage-deep);
+}
+.jumpCard:hover .jumpCta {
+  transform: translateX(3px);
 }
 
 /* ---- Legend ---- */
@@ -408,6 +463,10 @@
     font-size: 27px;
     line-height: 1.24;
     letter-spacing: -0.01em;
+  }
+  .jumpGrid {
+    grid-template-columns: 1fr;
+    margin: 20px var(--mobile-gutter) 0;
   }
   .bandHeader {
     grid-template-columns: 1fr;

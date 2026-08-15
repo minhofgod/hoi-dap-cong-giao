@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Landmark, UserRound } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { LanguageToggle } from '@/components/LanguageToggle';
@@ -103,19 +104,6 @@ export default function ChurchHistoryHubPage() {
               enClassName={styles.heroLedeEn}
               enRecessedClassName={styles.heroLedeEnRecessed}
             />
-
-            <div className={styles.quickLinks}>
-              <Link href="/giao-phu" className={styles.quickLink}>
-                <span className={`${styles.quickDot} ${styles.quickDotFather}`} aria-hidden="true" />
-                <Bi2 value={{ vi: 'Xem tất cả Giáo Phụ', en: 'See all Church Fathers' }} as="span" />
-                <span className={styles.quickArrow} aria-hidden="true">→</span>
-              </Link>
-              <Link href="/cong-dong" className={styles.quickLink}>
-                <span className={`${styles.quickDot} ${styles.quickDotCouncil}`} aria-hidden="true" />
-                <Bi2 value={{ vi: 'Xem tất cả Công Đồng', en: 'See all Councils' }} as="span" />
-                <span className={styles.quickArrow} aria-hidden="true">→</span>
-              </Link>
-            </div>
           </div>
 
           <aside className={styles.legend}>
@@ -145,6 +133,59 @@ export default function ChurchHistoryHubPage() {
             </div>
           </aside>
         </div>
+
+        {/* Two photo cards for people who want just one list — also the page's main imagery. */}
+        <section className={styles.jumpGrid}>
+          <Link href="/giao-phu" className={`${styles.jumpCard} ${styles.jumpCardFather}`}>
+            <span className={styles.jumpImage}>
+              <Image
+                src="/images/church-fathers/augustine-of-hippo.jpg"
+                alt=""
+                fill
+                sizes="(max-width: 900px) 100vw, 600px"
+                className={styles.jumpImg}
+              />
+            </span>
+            <span className={styles.jumpBody}>
+              <span className={`${styles.jumpMarker} ${styles.jumpMarkerFather}`} aria-hidden="true">
+                <UserRound size={18} strokeWidth={2.2} />
+              </span>
+              <span className={styles.jumpText}>
+                <Bi2 value={{ vi: 'Giáo Phụ', en: 'Church Fathers' }} as="span" className={styles.jumpTitle} />
+                <Bi2
+                  value={{ vi: `Xem tất cả ${fathersTotal} Giáo Phụ →`, en: `See all ${fathersTotal} Fathers →` }}
+                  as="span"
+                  className={styles.jumpCta}
+                />
+              </span>
+            </span>
+          </Link>
+
+          <Link href="/cong-dong" className={`${styles.jumpCard} ${styles.jumpCardCouncil}`}>
+            <span className={styles.jumpImage}>
+              <Image
+                src="/images/cong-dong/trent.jpg"
+                alt=""
+                fill
+                sizes="(max-width: 900px) 100vw, 600px"
+                className={styles.jumpImg}
+              />
+            </span>
+            <span className={styles.jumpBody}>
+              <span className={`${styles.jumpMarker} ${styles.jumpMarkerCouncil}`} aria-hidden="true">
+                <Landmark size={18} strokeWidth={2.2} />
+              </span>
+              <span className={styles.jumpText}>
+                <Bi2 value={{ vi: 'Công Đồng Chung', en: 'Ecumenical Councils' }} as="span" className={styles.jumpTitle} />
+                <Bi2
+                  value={{ vi: `Xem tất cả ${councilsTotal} Công Đồng →`, en: `See all ${councilsTotal} Councils →` }}
+                  as="span"
+                  className={styles.jumpCta}
+                />
+              </span>
+            </span>
+          </Link>
+        </section>
 
         <HistoryTimeline bands={bands} />
       </div>
