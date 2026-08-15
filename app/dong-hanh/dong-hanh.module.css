@@ -133,6 +133,7 @@
   display: flex;
   flex-direction: column;
   gap: 3px;
+  min-width: 0;
 }
 .choiceLabel {
   font-size: 15.5px;
@@ -155,7 +156,7 @@
   color: var(--sage-deep);
 }
 
-/* --- Result --- */
+/* --- Result / journey shell --- */
 .result {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -202,7 +203,7 @@
   background: var(--sage-card);
   border-radius: 0 var(--radius-panel) var(--radius-panel) 0;
   padding: 16px 20px;
-  margin: 0 0 30px;
+  margin: 0 0 24px;
 }
 .scriptureGloss {
   font-family: var(--font-serif);
@@ -216,51 +217,7 @@
   font-size: 13px;
 }
 
-/* --- Matched resources --- */
-.resources {
-  margin-bottom: 28px;
-}
-.resourcesLabel {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-quiet);
-  margin-bottom: 8px;
-}
-.resourceList {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.resourceRow {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 14px 4px;
-  border-bottom: 1px solid var(--border);
-  color: var(--text);
-  transition: color 0.15s ease;
-}
-.resourceList li:first-child .resourceRow {
-  border-top: 1px solid var(--border);
-}
-.resourceRow:hover {
-  text-decoration: none;
-}
-.resourceRow:hover .resourceQ {
-  color: var(--sage-deep);
-}
-.resourceQ {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 15.5px;
-  line-height: 1.4;
-  color: var(--text-heading);
-  transition: color 0.15s ease;
-}
-/* Videos read distinctly from Q&As: a small play badge before the title. */
+/* --- Video play badge + video meta (shared: follow-up buttons and the reading header) --- */
 .resourcePlay {
   display: inline-grid;
   place-items: center;
@@ -272,35 +229,73 @@
   background: var(--accent-tint);
   color: var(--accent-deep);
 }
-.resourceMeta {
-  flex-shrink: 0;
-  font-size: 11.5px;
-  font-weight: 600;
-  color: var(--sage-deep);
-  white-space: nowrap;
+.choice:hover .resourcePlay {
+  background: var(--accent);
+  color: #fff;
 }
-/* Video meta chip uses the accent (warm) to set it apart from the sage Q&A metas. */
 .resourceMetaVideo {
   color: var(--accent-deep);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 10.5px;
-}
-.resourceRow:hover .resourcePlay {
-  background: var(--accent);
-  color: #fff;
-}
-@media (max-width: 520px) {
-  .resourceRow {
-    flex-direction: column;
-    gap: 4px;
-  }
-  .resourceMeta {
-    white-space: normal;
-  }
+  font-weight: 600;
 }
 
-/* --- Next step --- */
+/* --- Reading an answer inline (a step in the walk) --- */
+.reading {
+  margin-bottom: 22px;
+}
+.readingMeta {
+  margin-bottom: 8px;
+}
+.readingTopic {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--sage-deep);
+}
+.readingQuestion {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.3;
+  color: var(--text-heading);
+  margin-bottom: 12px;
+}
+.readingExcerpt {
+  font-size: 15px;
+  line-height: 1.72;
+  color: var(--text-body);
+  margin-bottom: 16px;
+}
+.readingActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  align-items: center;
+}
+.readFull,
+.readVideo {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--sage-deep);
+}
+.readFull:hover {
+  text-decoration: none;
+  color: #465430;
+}
+.readVideo {
+  color: var(--accent-deep);
+}
+.readVideo:hover {
+  text-decoration: none;
+  color: var(--accent-press);
+}
+
+/* --- Anchor's "suggested first read" --- */
 .nextStep {
   display: flex;
   flex-direction: column;
@@ -333,14 +328,157 @@
   color: #fff;
 }
 
-.resultFoot {
-  margin-top: 22px;
-  font-size: 13.5px;
-  line-height: 1.6;
-  color: var(--text-muted);
+/* --- Follow-up questions (the branching walk) --- */
+.followUps {
+  margin-top: 26px;
 }
-.footLink {
+.followLabel {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 12px;
+}
+.quietExit {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 16px;
+  padding: 8px 4px;
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-quiet);
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+.quietExit:hover {
+  color: var(--sage-deep);
+}
+
+/* --- Satisfaction check --- */
+.satisfaction {
+  margin-top: 28px;
+  padding: 20px 22px;
+  background: var(--sage-card);
+  border-radius: var(--radius-panel);
+}
+.satisfactionQ {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-heading);
+  margin-bottom: 14px;
+}
+.satisfactionButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.satYes,
+.satMaybe,
+.satNo {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 22px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  border: 1px solid var(--border-input);
+  background: var(--surface);
+  color: var(--text-quiet);
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+.satYes {
+  border-color: var(--sage-deep);
+  background: var(--sage-deep);
+  color: #fff;
+}
+.satYes:hover {
+  background: #465430;
+}
+.satMaybe:hover,
+.satNo:hover {
+  border-color: var(--sage);
+  color: var(--sage-deep);
+}
+
+/* --- Endings: closed (positive) + dead-end (warm hand-off) --- */
+.ending {
+  padding-top: 2px;
+}
+.endingLede {
+  font-size: 15.5px;
+  line-height: 1.72;
+  color: var(--text-body);
+  margin-bottom: 20px;
+}
+.endingActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+}
+.endingPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: var(--radius-pill);
+  background: var(--sage-deep);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.endingPrimary:hover {
+  background: #465430;
+}
+.endingSecondary {
+  font-size: 14px;
   font-weight: 600;
   color: var(--sage-deep);
-  white-space: nowrap;
+}
+.endingSecondary:hover {
+  text-decoration: none;
+  color: #465430;
+}
+
+.handoffLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-top: 20px;
+}
+.handoffLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--sage-deep);
+}
+.handoffLink:hover {
+  text-decoration: none;
+  color: #465430;
+}
+
+/* Pastoral off-ramp on the heavy branches — warm gold, distinct from the sage journey chrome. */
+.pastoral {
+  margin-top: 22px;
+  padding: 16px 20px;
+  border-left: 3px solid var(--gold);
+  background: var(--gold-tint);
+  border-radius: 0 var(--radius-panel) var(--radius-panel) 0;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--text-body);
 }

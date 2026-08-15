@@ -191,6 +191,10 @@ export interface Situation {
    *  genuinely-matching Q&As (and none when the site has no fitting content yet, resting on the
    *  hand-written advice instead of padding with off-topic answers). */
   showCommon?: boolean;
+  /** Heavy / pastoral branches (suffering, doubting, an unbelieving loved one). When true, the
+   *  warm dead-end handoff adds a gentle "talk to a priest / RCIA / your parish" off-ramp — some
+   *  burdens are better carried with a person than a web page. */
+  pastoral?: boolean;
 }
 
 export const SITUATIONS: Record<string, Situation> = {
@@ -297,6 +301,7 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: ['god-meaning'],
     tags: ['science', 'atheism', 'evolution', 'miracles'],
+    pastoral: true,
     scripture: {
       ref: 'Kn 11,20',
       gloss: {
@@ -326,6 +331,7 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: ['evidence-history'],
     tags: ['resurrection', 'church-history', 'bible', 'miracles', 'jesus'],
+    pastoral: true,
     scripture: {
       ref: '1 Cr 15,3-4',
       gloss: {
@@ -355,6 +361,7 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: [],
     tags: ['suffering'],
+    pastoral: true,
     scripture: {
       ref: 'Rm 8,28',
       gloss: {
@@ -509,6 +516,7 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: ['morality-life'],
     tags: ['marriage'],
+    pastoral: true,
     scripture: {
       ref: '1 Cr 7,14',
       gloss: {
@@ -538,6 +546,7 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: ['morality-life'],
     tags: [],
+    pastoral: true,
     scripture: {
       ref: 'Lc 15,20',
       gloss: {
@@ -567,6 +576,7 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: [],
     tags: ['suffering'],
+    pastoral: true,
     scripture: {
       ref: 'Mt 11,28',
       gloss: {
@@ -596,6 +606,16 @@ export interface Resource {
   category?: string;
   tags: string[];
   featured?: boolean;
+  /** Plain-text answer preview (bilingual), shown inline as the reader walks the branching path so
+   *  they read a taste without leaving the companion; the full answer is one click away (`href`). */
+  excerpt?: Bi;
+  /** Resource keys to force to the top of THIS item's follow-ups — from the content pins
+   *  (`related` / `related_video` on a Q&A, `related_qa` on a video). */
+  pins?: string[];
+  /** Punchy 4–8 word button label for follow-ups; falls back to the question when absent. Populated
+   *  later once lib/giaiDap exposes a `short:` frontmatter field (content Sessions 2/3) — the flow
+   *  ships on the title fallback, so this stays optional. */
+  short?: Bi;
 }
 
 /** Deterministically pick the Q&As that best fit a situation. Relevance is TAG-driven: a precise
@@ -620,6 +640,63 @@ export function matchResources(sit: Situation, pool: Resource[], limit = 6): Res
       let score = tagHits * 2;
       if (r.category && sit.categories.includes(r.category)) score += 2;
       if (r.featured) score += 0.5;
+      return { r, score };
+    })
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map((x) => x.r);
+}
+
+/* ------------------------------------------------------------------ guided journey (v2) */
+
+/** How many answers deep the branching walk goes before offering the satisfaction check. A
+ *  backstop, not the primary end — the reader can leave at any step. (docs/roadmap.md v2 spec.) */
+export const MAX_CYCLES = 5;
+
+/** The next ~4 follow-up suggestions for the branching journey — the questions a reader would
+ *  naturally have next after `seed` (the answer they just read; undefined at the situation anchor).
+ *
+ *  Deterministic, no LLM, and TAG-driven like `matchResources`: at the anchor the first set IS the
+ *  situation's matches (reuses the fixed matcher); once walking, candidates are scored by tag
+ *  overlap — primarily with `seed`, secondarily with the intake `situation` to stay on-theme — and
+ *  must share at least one tag (with seed or situation) to qualify, so a bare category match can't
+ *  drift the chain off-topic. Already-read items (`visited`) and the seed drop out, so the pool
+ *  shrinks as they explore. Content pins on the seed (`related`/`related_video`/`related_qa` →
+ *  `pins`) are forced to the top. */
+export function followUps(params: {
+  situation: Situation;
+  seed?: Resource;
+  pool: Resource[];
+  visited: ReadonlySet<string>;
+  limit?: number;
+}): Resource[] {
+  const { situation, seed, pool, visited, limit = 4 } = params;
+
+  // Anchor: the first set is exactly the situation's matches (or the featured anchors for the
+  // "common questions" path), minus anything already read.
+  if (!seed) {
+    return matchResources(situation, pool, pool.length)
+      .filter((r) => !visited.has(r.key))
+      .slice(0, limit);
+  }
+
+  const pinned = new Set(seed.pins ?? []);
+  return pool
+    .filter((r) => !visited.has(r.key) && r.key !== seed.key)
+    .map((r) => {
+      let seedTagHits = 0;
+      for (const t of r.tags) if (seed.tags.includes(t)) seedTagHits++;
+      let sitTagHits = 0;
+      for (const t of r.tags) if (situation.tags.includes(t)) sitTagHits++;
+      const isPinned = pinned.has(r.key);
+      if (seedTagHits === 0 && sitTagHits === 0 && !isPinned) return { r, score: 0 };
+      let score = seedTagHits * 3; // the just-read answer is the strongest signal
+      if (r.category && seed.category && r.category === seed.category) score += 2;
+      score += sitTagHits; // keep the walk anchored to the original situation
+      if (r.category && situation.categories.includes(r.category)) score += 1;
+      if (r.featured) score += 0.5;
+      if (isPinned) score += 100; // explicit content pins always lead
       return { r, score };
     })
     .filter((x) => x.score > 0)
