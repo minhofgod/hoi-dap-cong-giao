@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
 import { LanguageToggle } from '@/components/LanguageToggle';
@@ -31,6 +32,12 @@ const STATS: { num: string; label: Bi }[] = [
   { num: '1', label: { vi: 'Người phụ nữ trong số 117: Thánh Anê Lê Thị Thành', en: 'The one woman among the 117: St. Agnes Lê Thị Thành' } },
   { num: '24-11', label: { vi: 'Lễ kính chung các Thánh Tử Đạo Việt Nam', en: 'Their shared feast day' } },
 ];
+
+const HERO_IMG_ALT = 'Các Thánh Tử Đạo Việt Nam — tranh khắc năm 1903';
+const HERO_CREDIT = {
+  vi: 'Các Thánh Tử Đạo Tonkin, tranh khắc năm 1903 (Die katholischen Missionen). Wikimedia Commons, phạm vi công cộng.',
+  en: 'The Martyrs of Tonkin, 1903 engraving (Die katholischen Missionen). Wikimedia Commons, public domain.',
+};
 
 const SEC_PERSECUTION = { vi: 'Hơn một thế kỷ bách hại', en: 'More than a century of persecution' };
 const PERSECUTION_BODY: Bi[] = [
@@ -92,6 +99,23 @@ export default function VietnameseMartyrsOverviewPage() {
               enRecessedClassName={styles.heroLedeEnRecessed}
             />
           </div>
+          <figure className={styles.heroFigure}>
+            <Image
+              src="/images/cac-thanh/tu-dao-viet-nam.jpg"
+              alt={HERO_IMG_ALT}
+              width={820}
+              height={969}
+              className={styles.heroImg}
+              priority
+            />
+            <Bi2
+              value={HERO_CREDIT}
+              as="figcaption"
+              viClassName={styles.heroCredit}
+              enClassName={styles.heroCredit}
+              enRecessedClassName={styles.heroCredit}
+            />
+          </figure>
         </div>
 
         <div className={styles.stats}>
