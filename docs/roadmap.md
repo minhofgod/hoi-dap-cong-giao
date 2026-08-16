@@ -187,6 +187,15 @@ Thánh Ven / Théophane Vénard (foreign missionary).
 2. **Each bridge entry ends with a forward link** ("→ đọc về phép lạ") into the future Miracles
    section, so Saints-first pre-lays the on-ramps.
 
+**Saints are life STORIES, not summaries (refinement 2026-08-15).** Unlike the Fathers (under Church
+History for their *doctrinal* role — a summary of what they taught fits), the Saints are the
+*devotional* lens, where **the story is the point**. So a saint entry should carry a **narrative life
+story**, and longer is natural. Model: a short scannable **header** (name, dates, patronage, one-line
+who-they-are) + the **full life story as the centerpiece** below, rendered through
+`ScriptureBody`/`enrichBody` so verse/CCC refs in the story become popovers (same rule as Q&As). The
+framework should support a rich story for all; depth can vary (VN Martyrs, Carlo, Mônica deserve full
+treatment). This is a Session 9 enhancement to the saint model + detail page + the content itself.
+
 **Lane:** `app/cac-thanh` (list + detail) · `lib/saints*` (may mirror `churchFathersV2`) ·
 `content/cac-thanh/*.json` (per-saint, bilingual) · `public/images/cac-thanh` (PD portraits + a
 Catholic Images/CREDITS row each). Session 8 only adds the homepage card + nav link.
@@ -362,6 +371,30 @@ Pick **1–2 per situation** (minimal — an invitation, not a catalogue):
 
 **Lane:** Session 7 (`lib/dongHanh.ts` situation config + `components/DongHanh*` to render). Links into
 Session 9's live saint pages.
+
+## Advanced search / topical-verse tool — retrieval-first (idea 2026-08-15)
+
+A "smarter search bar": a visitor types a **situation or request in free text** — *"verses for grief,"
+*"what do I do when my marriage is failing"* — and gets back **relevant Scripture (with a short gloss),
+Catechism refs, and existing Q&As.** Essentially **the companion with a free-text box instead of guided
+buttons** — same deterministic taxonomy engine, same Q&A pool, same hand-written glosses; different door.
+
+**Firm line: RETRIEVAL, not generation. No AI for now (decided 2026-08-15).**
+- ✅ **Build:** free-text input → **curated** content only — matching existing Q&As, a **topical verse
+  index** (hand-picked verses per theme: grief / anxiety / hope / temptation / doubt / marriage… each
+  with a *hand-authored* one-line gloss), and Catechism refs. Everything shown is human-verified.
+- ⚠️ **Do NOT:** have an LLM write fresh commentary on verses per query — that's the roadmap's Tier-B
+  risk (one wrong/heterodox reading quietly erodes trust on an apologetics site, and you can't review
+  what you didn't write). kpv.vn's topical-verse feature is *curated/editorial*, not machine-generated —
+  which supports the curated approach, not an LLM.
+- **Where AI could safely enter LATER:** an LLM only to *interpret/route* a messy free-text query —
+  never to *generate* the answer. Content stays curated; same doctrinal-safety gate.
+
+**New pieces vs. what exists:** the engine (taxonomy matching, Q&A pool, glosses) already exists in the
+companion. Genuinely new: (a) a **topical verse index** with hand-authored glosses, (b) free-text→
+taxonomy input handling, (c) the search UI. **Dependency:** showing actual verse *text* rides on the
+same **CGKPV licensing gate** as the scripture popover (`NEXT_PUBLIC_SCRIPTURE_POPOVER`) — until that's
+resolved, the tool can show verse *references* + hand-glosses, not the full CGKPV text.
 
 ## Still open
 - **Q&A card banner fallback (website, Session 2).** `components/GiaiDapBrowser` renders the topic-card
