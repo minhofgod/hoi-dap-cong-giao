@@ -1,5 +1,28 @@
 @AGENTS.md
 
+## Verify facts before they ship — truth over speed (applies to EVERY session)
+
+The owner wants **correctness over speed or token cost**, and is relying on the sessions + their tools
+to get facts right — they cannot independently verify hard facts (dates, names, events) and are honest
+about that. So in every session — **including a fresh one after a crash or restart** — hold this
+standard:
+
+- **Hard facts** (dates, names, events, councils, canonizations, miracle recognitions, citations):
+  **never state them from memory.** Verify with web search against **authoritative / primary sources**
+  (Vatican.va, official Church documents, the Catechism itself), and **triangulate ≥2 independent good
+  sources.** Wikipedia and LLM drafts (Grok, ChatGPT, even this assistant's memory) are *starting
+  pointers to confirm elsewhere* — never the final word.
+- **Doctrine / theology:** anchor to the Catechism + magisterial documents; cross-check.
+- **Vietnamese Catholic terminology:** verify against the site's own content + the Vietnamese Catechism
+  + HĐGM VN — never memory or Vietnamese Wikipedia (see `docs/content-guide.md`).
+- **Flag uncertainty honestly.** If you can't verify, or sources conflict, **say so** / mark
+  `[cần kiểm chứng]`. A flagged uncertainty beats a confident wrong answer. **Never let an unverified
+  hard fact ship.**
+- Treat ALL drafts from external tools (Grok, etc.) as **unverified** until you've web-checked them.
+
+Standing rule for all sessions and all content. Full method: `docs/content-guide.md` → "Facts &
+verification."
+
 ## Scripture & Catechism references must open the popover
 
 Whenever content on this site mentions a **Bible verse** (e.g. `Ga 20,23`, `Mt 5,3-6`,

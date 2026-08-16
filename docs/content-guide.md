@@ -54,6 +54,27 @@ Catechism's — hence the one-time bridge.
 the Catechism content (`content.json`) uses throughout. Do **not** use French guillemets `« »`, even
 though they're valid Vietnamese typography; they'd be inconsistent with the rest of the site.
 
+## Facts & verification — truth over speed (applies to ALL content)
+
+The owner wants **correctness over speed or token cost** and relies on the sessions + tools to get hard
+facts right (they're honest that they can't independently verify dates/names/events). See also
+`CLAUDE.md` → "Verify facts before they ship." Method:
+
+1. **Hard facts get web-verified, never stated from memory** — dates, names, places, events, council
+   decrees, canonization/beatification steps, miracle recognitions, historical claims, citations.
+2. **Source hierarchy:** (a) primary/official — Vatican.va, the actual Church documents, the Catechism
+   itself, a sanctuary's or council's own records; (b) serious scholarship / reference; (c) Wikipedia
+   and LLM output (Grok, ChatGPT, an assistant's memory) = *pointers to confirm against (a)/(b)*, never
+   the final word.
+3. **Triangulate:** confirm each hard fact in **≥2 independent good sources.** If they conflict, dig or
+   flag it as contested — never pick the confident-sounding one.
+4. **Theology/doctrine:** anchor to the Catechism + magisterial documents; cross-check (Catholic Answers
+   etc. as secondary).
+5. **Flag, don't fake:** anything you can't verify → `[cần kiểm chứng]` or an explicit note. **A flagged
+   uncertainty is worth more than a smooth wrong answer. Never ship an unverified hard fact.**
+6. **External drafts (Grok, etc.) are UNVERIFIED until web-checked** — see
+   `docs/grok-content-prompts.md` → "Verification pass."
+
 ## Images — every new image also goes in the Catholic Images library (applies to ALL content)
 
 When you add ANY image to the site (`public/images/**`), also add it to the shared **Catholic Images
