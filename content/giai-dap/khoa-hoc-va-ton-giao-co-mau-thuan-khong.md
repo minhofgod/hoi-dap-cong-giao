@@ -7,6 +7,13 @@ tags: ["science", "atheism", "church-history"]
 subcategory: "Tổng quan"
 refs_ccc: [159, 283, 341]
 refs_scripture: []
+sources:
+  - label: "Georges Lemaître, \"The Beginning of the World from the Point of View of Quantum Theory,\" Nature 127 (1931): 706"
+  - label: "Edwin Hubble, \"A relation between distance and radial velocity among extra-galactic nebulae,\" PNAS 15 (1929): 168–173"
+  - label: "\"Lemaître Follows Two Paths to Truth,\" phỏng vấn trên The New York Times (1933)"
+    url: "https://catholicscientists.org/articles/lemaitre-follows-two-paths-to-truth-new-york-times-1933-interview-with-lemaitre/"
+  - label: "Mark Midbon, \"A Day Without Yesterday: Georges Lemaître & the Big Bang\""
+    url: "https://catholiceducation.org/en/science/a-day-without-yesterday-georges-lemaitre-amp-the-big-bang.html"
 featured: false
 related:
   - "ai-tao-ra-chua"

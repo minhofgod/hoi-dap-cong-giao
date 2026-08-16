@@ -7,6 +7,9 @@ tags: ["bible", "church-history"]
 subcategory: "Người thật việc thật"
 refs_ccc: [126, 124]
 refs_scripture: []
+sources:
+  - label: "Tacitus, Biên niên sử (Annals) 15.44"
+  - label: "Flavius Josephus, Cổ sử Do Thái (Antiquities of the Jews) 18.3.3; 20.9.1"
 featured: false
 part_of: "bang-chung-lich-su-cua-kinh-thanh"
 related:

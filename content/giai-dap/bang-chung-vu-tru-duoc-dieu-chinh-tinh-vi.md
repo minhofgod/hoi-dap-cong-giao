@@ -7,6 +7,11 @@ tags: ["science", "atheism"]
 subcategory: "Bằng chứng"
 refs_ccc: [341, 286]
 refs_scripture: []
+sources:
+  - label: "Stephen Hawking, A Brief History of Time (Bantam, 1988), ch. 8"
+  - label: "Roger Penrose, The Emperor's New Mind (Oxford University Press, 1989) — entropy thấp ban đầu (~1 trên 10^10^123)"
+  - label: "Martin Rees, Just Six Numbers (Basic Books, 2000)"
+  - label: "NASA — khái niệm vùng ở được (habitable / \"Goldilocks\" zone)"
 featured: false
 part_of: "vu-tru-ngau-nhien-hay-duoc-thiet-ke"
 related:

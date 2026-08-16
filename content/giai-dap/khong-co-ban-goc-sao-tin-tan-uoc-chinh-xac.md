@@ -7,6 +7,8 @@ tags: ["bible", "church-history"]
 subcategory: "Bản chép tay"
 refs_ccc: [105, 106]
 refs_scripture: []
+sources:
+  - label: "Bruce M. Metzger & Bart D. Ehrman, The Text of the New Testament: Its Transmission, Corruption, and Restoration, 4th ed. (Oxford University Press, 2005)"
 featured: false
 part_of: "bang-chung-lich-su-cua-kinh-thanh"
 related:

@@ -7,6 +7,9 @@ tags: ["resurrection", "bible", "church-history"]
 subcategory: "Nguồn sử liệu"
 refs_ccc: [639, 642]
 refs_scripture: []
+sources:
+  - label: "Tacitus, Biên niên sử (Annals) 15.44"
+  - label: "Flavius Josephus, Cổ sử Do Thái (Antiquities of the Jews) 18.3.3; 20.9.1"
 featured: false
 part_of: "bang-chung-chua-giesu-song-lai"
 related:

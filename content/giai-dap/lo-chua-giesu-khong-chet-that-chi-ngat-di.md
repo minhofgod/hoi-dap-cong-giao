@@ -7,6 +7,9 @@ tags: ["resurrection", "jesus"]
 subcategory: "Cái chết của Chúa"
 refs_ccc: [627, 641]
 refs_scripture: ["Ga 19,34"]
+sources:
+  - label: "Edwards WD, Gabel WJ, Hosmer FE, \"On the Physical Death of Jesus Christ,\" JAMA 1986;255(11):1455–1463"
+    url: "https://pubmed.ncbi.nlm.nih.gov/3512867/"
 featured: false
 part_of: "bang-chung-chua-giesu-song-lai"
 related:
