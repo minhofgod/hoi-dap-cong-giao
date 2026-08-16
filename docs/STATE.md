@@ -62,6 +62,25 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
   site, gate it behind a `NEXT_PUBLIC_*` flag (unset on Vercel = hidden) rather than reverting.
 - Verify `npx tsc --noEmit` + `npm run lint` clean before committing.
 
+## Handing off to another session
+Sessions can't message each other — hand-offs go **through the owner (the human)**, who relays. When
+your work creates a task for a different lane, don't paste a wall of detail into your report. Instead:
+1. **Know who you are + who owns what.** You're told your number at kickoff; the **registry above**
+   (Owns / lane column) tells you which session owns the files a task touches.
+2. **Write the detail to a repo doc** (e.g. `docs/<thing>.md`) with a small **hand-off table** assigning
+   each piece to its lane — commit it in your own lane.
+3. **Emit a one-line pointer** for the owner to relay, e.g.
+   *"→ Session N: read `docs/<thing>.md`; you're Session N — do your row."* Keep the substance in the
+   doc, not the message (see the "Session hand-off style" memory).
+4. **State ordering/dependencies** in the pointer when they matter (e.g. "step 1 of a 2→3→7 chain").
+5. **If you're NOT sure who owns it, or the change ripples across lanes, don't guess** — route it to the
+   **coordinator/architect session** (the one holding the whole-project picture) rather than a single
+   lane. Mis-routing and cross-lane traps (shared-tag overloads, numbering collisions, config that must
+   change in a *different* session than the content) are exactly what the coordinator catches.
+
+Rule of thumb: **self-hand-off the obvious in-lane follow-ups; escalate the ambiguous/cross-cutting ones
+to the coordinator.**
+
 > Keep the snapshot + the session registry roughly current: when a session finishes a milestone,
 > update its row here (and add a row when you start a new session) so this stays the reliable
 > "start here." Refer to sessions by their number everywhere.
