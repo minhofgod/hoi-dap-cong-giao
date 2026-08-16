@@ -73,6 +73,11 @@ export interface Saint {
   dates: { display: string; born: number | null; died: number | null };
   quote: { vi: string; en: string; source: Bi };
   life: Bi[];
+  /** The narrative life STORY — the devotional centerpiece (roadmap "Saints are life STORIES").
+   *  VN-primary: each paragraph carries `vi` (the story) and, until an English story is written, an
+   *  empty `en`. The detail page renders `story` as the main narrative in Vietnamese and falls back
+   *  to the shorter bilingual `life[]` summary for English readers, so no one hits a blank. */
+  story?: Bi[];
   facts: Fact[];
   /** Optional writings/legacy. `works_label` overrides the default "Major writings" heading
    *  (e.g. "Di sản để lại" / "What they left behind" for a saint who wrote no books). */

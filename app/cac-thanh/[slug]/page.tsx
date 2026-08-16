@@ -6,6 +6,7 @@ import { Bi2 } from '@/components/giao-phu/Bi2';
 import { SectionHeading } from '@/components/giao-phu/SectionHeading';
 import { CollapsibleSection } from '@/components/giao-phu/CollapsibleSection';
 import { SaintPortrait } from '@/components/cac-thanh/SaintPortrait';
+import { SaintStory } from '@/components/cac-thanh/SaintStory';
 import { SaintsRail } from '@/components/cac-thanh/SaintsRail';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import {
@@ -19,7 +20,7 @@ import {
 import { CatechismRef } from '@/components/CatechismRef';
 import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { resolveCatechism } from '@/lib/content';
-import { enrichBi } from '@/lib/bibleRefs';
+import { enrichBi, enrichPlain } from '@/lib/bibleRefs';
 import styles from './saint.module.css';
 
 export function generateStaticParams() {
@@ -117,15 +118,13 @@ export default async function SaintPage({ params }: { params: Promise<{ slug: st
 
         <div className={styles.column}>
           <SectionHeading {...UI.life} />
-          {saint.life.map((p, i) => (
-            <ScriptureBi2
-              key={i}
-              {...enrichBi(p)}
-              viClassName={styles.bodyVi}
-              enClassName={styles.bodyVi}
-              enRecessedClassName={styles.bodyEnRecessed}
-            />
-          ))}
+          <SaintStory
+            story={(saint.story ?? []).map((p) => enrichPlain(p.vi))}
+            life={saint.life.map((p) => enrichBi(p))}
+            viClassName={styles.bodyVi}
+            enClassName={styles.bodyVi}
+            enRecessedClassName={styles.bodyEnRecessed}
+          />
 
           {cccRefs.length > 0 && (
             <div className={styles.cccRow}>
