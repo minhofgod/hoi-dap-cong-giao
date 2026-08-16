@@ -224,6 +224,15 @@ if it fits. **Owner-set rule:** never auto-add a new question to an existing anc
 4. **Source every answer.** Each answer carries **≥1 `refs_ccc`** (sourcing is the point of the
    site). Verify Scripture refs and **extract verse text from CGKPV** (see below) — do not hand-type
    sacred text. Render a quoted verse as a `>` blockquote with a `— Abbr C,V (CGKPV)` citation.
+4b. **Science/history Q&As — fact-check + add `sources`.** For any answer that leans on external
+   evidence (scientific claims, named studies, historians, manuscript data, quotes/numbers attributed
+   to real people): **verify each specific claim before it ships** — a WebSearch on the quote / figure /
+   paper; never assert a citation you haven't confirmed; where a source is fuzzy, name it generically
+   rather than invent one. Then add a **`sources:`** frontmatter block on the member that makes the
+   claims — a list of `{ label, url? }` (label = full human-readable citation, `url` optional stable
+   link). It renders as a "Nguồn tham khảo" list. `sources` is for **external** citations only;
+   Scripture/CCC still go in `refs_scripture` / `refs_ccc`. *(Standing rule, applied by hand — there
+   is no automation that does this for you.)*
 5. **Verify terminology** per the "Vietnamese terminology" section above (grep the site + HĐGM VN;
    never VN Wikipedia). Keep the tone **charitable**, not polemical — especially for Protestant or
    other objections (the "Cầu nguyện với các thánh" cluster models this).
@@ -245,6 +254,8 @@ quotes use superscript verse numbers (¹²³).
 - One question = one real objection, in a real person's voice.
 - Direct answer first, then reasoning → Scripture → Catechism → takeaway.
 - ≥1 `refs_ccc`; Scripture verified + extracted from CGKPV; nothing invented.
+- **Science/history claims fact-checked + `sources:` block added** (external citations as
+  `{ label, url? }`; every quote/number/named study verified before shipping, never invented).
 - Charitable tone; verified Vietnamese terminology.
 - Slug is descriptive kebab-case from the Vietnamese, no diacritics.
 - Inline refs written as VN abbreviations `(Lc 20,38)` so the Scripture popover can detect them.
