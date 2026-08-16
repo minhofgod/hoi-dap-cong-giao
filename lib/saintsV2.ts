@@ -58,6 +58,10 @@ export interface Portrait {
   source: string;
   license: string;
   available: boolean;
+  /** Optional CSS object-position override for the circular crop (e.g. "50% 34%"). Defaults to the
+   *  top-weighted framing tuned for painted portraits; set it when a face sits lower in the source
+   *  (e.g. a relief or full-figure image). */
+  objectPosition?: string;
 }
 
 export interface Saint {

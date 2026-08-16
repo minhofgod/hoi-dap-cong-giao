@@ -87,9 +87,10 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/carlo-acutis.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "medium": { "vi": "Phù điêu tại nhà thờ Corpus Christi, London; ảnh: AndyScott", "en": "Relief at Corpus Christi Church, London; photo: AndyScott" },
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "available": true,
+    "objectPosition": "50% 34%"
   }
 }

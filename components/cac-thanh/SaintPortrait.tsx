@@ -21,6 +21,7 @@ export function SaintPortrait({
 }) {
   const alt = useBiText(name);
   const frameClass = size === 'frontispiece' ? styles.frameFrontispiece : styles.frameRow;
+  const objectPosition = portrait.objectPosition ?? (size === 'frontispiece' ? '50% 20%' : '50% 22%');
 
   if (portrait.available && portrait.src) {
     return (
@@ -31,7 +32,7 @@ export function SaintPortrait({
           fill
           sizes={size === 'frontispiece' ? '184px' : '56px'}
           className={styles.image}
-          style={{ objectPosition: size === 'frontispiece' ? '50% 20%' : '50% 22%' }}
+          style={{ objectPosition }}
         />
       </span>
     );
