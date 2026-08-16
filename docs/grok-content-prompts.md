@@ -69,31 +69,38 @@ anything it isn't sure of with **`[cần kiểm chứng]`** (needs verification)
 
 ## Prompt B — Saint life story (Các Thánh)
 
-> [PASTE SHARED STANDARDS ABOVE]
+**Revised 2026-08-15** after the first Grok run (Thérèse): it produced an excellent story but a
+**confidently-wrong, unflagged** date error (placed her 1883 Marian healing at age 11 after First
+Communion + wrong feast). Fixes below: hammer on **dates/sequence flagging**, and require a **FACTS
+block** so dates are laid out separately and cross-check fast. Also: many saints **already exist** as
+JSON entries (Session 9) — the story *enriches* the existing entry, so Grok should NOT invent a slug/schema.
+
+> Write a narrative life STORY of a Catholic saint, in VIETNAMESE, for the "Các Thánh" section of a
+> bilingual Vietnamese Catholic site. Write the story of: **[SAINT]**
 >
-> Write a **narrative life STORY** of **[SAINT]** for the "Các Thánh" section — this is the *devotional*
-> lens, so the **story is the point**: longer, narrative, moving. NOT a bullet summary. Output one
-> markdown file:
+> **VOICE:** natural Vietnamese Catholic prose (not translated-English). Traditional phonetic Catholic
+> name forms (Nicêa, Trentô, Inhaxiô, Augustinô, Phaolô, Cát Minh = Carmel; popes as Đức Piô XI, Đức
+> Gioan Phaolô II…). Unsure of a name/term → best guess + `[cần kiểm chứng]`. Curly quotes `" "`.
+> Scripture refs `Ga 11,35`, Catechism `GLHTCG 847` — reference only, never paste verse text.
 >
-> ```yaml
-> ---
-> slug: "[ascii-kebab, e.g. carlo-acutis]"
-> name: { vi: "[VN name — verify, flag if unsure]", en: "[English name]" }
-> dates: "[e.g. 1991–2006]"
-> patronage: { vi: "[bổn mạng của…]", en: "[patron of…]" }
-> group: "[martyrs-vn | modern | converts | bridge | patrons]"
-> ---
-> [SHORT HEADER: 2–3 sentences — who they are, when, what they're known/patron for.]
+> **FACTS = THE #1 ERROR RISK:** dates, ages, and the ORDER of events are where you'll most likely be
+> wrong. Double-check them; flag ANY date/age/sequence/feast-day you're not 100% sure of with
+> `[cần kiểm chứng]` — even confident-seeming ones. Don't guess which feast or exact age.
+> Doctrine per the Catechism; unsure → "Hội Thánh dạy…" + flag.
 >
-> [FULL LIFE STORY in Vietnamese — narrative, chronological, vivid. Where suffering/martyrdom appears,
->  frame it as witness and reliance on God, never grim spectacle. Weave in Scripture/GLHTCG refs where
->  natural. End on their legacy / why they still speak to us.]
-> ---
-> IMAGE: suggest ONE public-domain portrait (Wikimedia Commons) + its filename + source URL, for the
-> Catholic Images library. Mark [cần kiểm chứng] — Claude confirms the license.
-> ```
+> **TONE:** devotional — the STORY is the point: narrative, chronological, vivid, longer is good, NOT a
+> bullet summary. Suffering/martyrdom = witness + reliance on God, never grim spectacle or "so should you."
 >
-> Verify facts (dates, places, the cause/miracle for canonization). Flag anything uncertain `[cần kiểm chứng]`.
+> **OUTPUT (do NOT invent a slug or db fields — the maintainer integrates):**
+> 1. NAME `{ vi, en }`
+> 2. THE STORY (VN): 2–3 sentence header + full narrative; weave in Scripture/GLHTCG; end on legacy +
+>    why they still speak (a real Vietnamese connection if there is one).
+> 3. FACTS BLOCK (label each; flag uncertain): Born (date+place) · Died (date+place+age) · Key milestones
+>    each with date · Beatified/Canonized dates + which pope · Doctor/patronages if any · quotes used.
+> 4. IMAGE: one PD Wikimedia Commons portrait — exact filename + source URL, `[cần kiểm chứng]` for license.
+>
+> Your output is a DRAFT a human verifies. Flag generously — a flagged uncertainty helps; a confident
+> error harms.
 
 ---
 
