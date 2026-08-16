@@ -62,7 +62,7 @@ export const TYPE_BLURB: Record<MiracleType, Bi> = {
     en: 'Hosts reported to have changed, or to have kept from decaying. The Church permits veneration of these relics; it has never declared that science proves them — and a few of the "scientific proofs" circulating online turn out not to exist at all.',
   },
   'marian-apparition': {
-    vi: 'Những cuộc hiện ra đã qua điều tra và được thẩm quyền Hội Thánh chấp thuận. Tất cả đều thuộc mặc khải tư: được nhìn nhận là "đáng tin", nhưng không buộc phải tin như tín điều. Mặc khải công đã kết thúc với các Tông Đồ (GLHTCG 66).',
+    vi: 'Những cuộc hiện ra đã qua điều tra và được thẩm quyền Hội Thánh chấp thuận. Tất cả đều thuộc mặc khải tư: được nhìn nhận là "đáng tin", nhưng không buộc phải tin như tín điều. Mặc khải công khai đã kết thúc với các Tông Đồ (GLHTCG 66).',
     en: 'Apparitions that were investigated and approved by Church authority. Every one of them is private revelation: judged "worthy of belief," never binding as an article of faith. Public revelation closed with the apostles (GLHTCG 66).',
   },
   healing: {
@@ -125,6 +125,6 @@ export const STATUS_NOTE: Record<RecognitionStatus, Bi> = {
 /** The standing note carried on the section index and on every apparition page. Public revelation
  *  closed with the apostles (GLHTCG 66–67); approved apparitions are private revelation. */
 export const PRIVATE_REVELATION_NOTE: Bi = {
-  vi: 'Mặc khải công đã hoàn tất nơi Đức Kitô và kết thúc với các Tông Đồ (GLHTCG 66). Mọi cuộc hiện ra, kể cả những cuộc đã được Hội Thánh phê chuẩn, đều là mặc khải tư: chúng không thêm gì vào đức tin, không buộc phải tin, và vai trò của chúng là giúp ta sống Tin Mừng trọn vẹn hơn trong một thời điểm nhất định (GLHTCG 67).',
+  vi: 'Mặc khải công khai đã hoàn tất nơi Đức Kitô và kết thúc với các Tông Đồ (GLHTCG 66). Mọi cuộc hiện ra, kể cả những cuộc đã được Hội Thánh phê chuẩn, đều là mặc khải tư: chúng không thêm gì vào đức tin, không buộc phải tin, và vai trò của chúng là giúp ta sống Tin Mừng trọn vẹn hơn trong một thời điểm nhất định (GLHTCG 67).',
   en: 'Public revelation is complete in Christ and closed with the apostles (GLHTCG 66). Every apparition, including those the Church has approved, is private revelation: it adds nothing to the faith, no one is obliged to believe it, and its role is to help us live the Gospel more fully at a given moment (GLHTCG 67).',
 };

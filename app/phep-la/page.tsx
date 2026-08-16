@@ -28,7 +28,7 @@ const EXPLAINER = {
     en: 'How does the Church judge a miracle?',
   },
   body: {
-    vi: 'Mặc khải công và mặc khải tư, sáu kết luận có thể trong bộ quy tắc năm 2024 của Bộ Giáo lý Đức tin, và lý do vì sao từ nay Hội Thánh thường sẽ không còn tuyên bố một hiện tượng là "có nguồn gốc siêu nhiên". Nên đọc trang này trước.',
+    vi: 'Mặc khải công khai và mặc khải tư, sáu kết luận có thể trong bộ quy tắc năm 2024 của Bộ Giáo lý Đức tin, và lý do vì sao từ nay Hội Thánh thường sẽ không còn tuyên bố một hiện tượng là "có nguồn gốc siêu nhiên". Nên đọc trang này trước.',
     en: 'Public and private revelation, the six possible conclusions in the 2024 norms of the Dicastery for the Doctrine of the Faith, and why the Church will now, as a rule, no longer declare a phenomenon to be “of supernatural origin.” Worth reading first.',
   },
 };

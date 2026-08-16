@@ -25,10 +25,10 @@ const HERO_LEDE = {
 
 const SECTIONS: { heading: Bi; paragraphs: Bi[] }[] = [
   {
-    heading: { vi: 'Mặc khải công đã kết thúc', en: 'Public revelation is closed' },
+    heading: { vi: 'Mặc khải công khai đã kết thúc', en: 'Public revelation is closed' },
     paragraphs: [
       {
-        vi: 'Điều Thiên Chúa muốn tỏ bày cho nhân loại đã được nói trọn vẹn nơi Đức Giêsu Kitô, và mặc khải ấy kết thúc với cái chết của vị Tông Đồ cuối cùng. Sẽ không còn một mặc khải công nào khác trước ngày Chúa lại đến trong vinh quang (GLHTCG 66).',
+        vi: 'Điều Thiên Chúa muốn tỏ bày cho nhân loại đã được nói trọn vẹn nơi Đức Giêsu Kitô, và mặc khải ấy kết thúc với cái chết của vị Tông Đồ cuối cùng. Sẽ không còn một mặc khải công khai nào khác trước ngày Chúa lại đến trong vinh quang (GLHTCG 66).',
         en: 'What God wished to reveal to humanity was said in full in Jesus Christ, and that revelation closed with the death of the last apostle. No further public revelation is to be expected before Christ returns in glory (GLHTCG 66).',
       },
       {
@@ -36,7 +36,7 @@ const SECTIONS: { heading: Bi; paragraphs: Bi[] }[] = [
         en: 'So every apparition — Lourdes, Fatima, Guadalupe included — belongs to the category of “private revelation.” They add nothing to the deposit of faith, and they neither correct nor complete it. Their role, in the Catechism’s own words, is to help the faithful “live more fully” by that faith at a particular moment in history (GLHTCG 67).',
       },
       {
-        vi: 'Điều đó có một hệ quả thực tế mà nhiều người ngạc nhiên: một người Công giáo hoàn toàn có thể không tin vào Fatima mà vẫn là người Công giáo trọn vẹn. Không tin Chúa Kitô phục sinh thì không. Đó là khác biệt giữa mặc khải công và mặc khải tư.',
+        vi: 'Điều đó có một hệ quả thực tế mà nhiều người ngạc nhiên: một người Công giáo hoàn toàn có thể không tin vào Fatima mà vẫn là người Công giáo trọn vẹn. Không tin Chúa Kitô phục sinh thì không. Đó là khác biệt giữa mặc khải công khai và mặc khải tư.',
         en: 'That has a practical consequence which surprises many people: a Catholic may decline to believe in Fatima and remain a Catholic in good standing. Declining to believe in the resurrection of Christ is another matter entirely. That is the difference between public and private revelation.',
       },
     ],
@@ -134,7 +134,7 @@ const SOURCES = [
     url: 'https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240517_norme-fenomeni-soprannaturali_en.html',
   },
   {
-    label: 'Sách Giáo Lý Hội Thánh Công Giáo, số 65–67 (mặc khải công và mặc khải tư), 156, 548',
+    label: 'Sách Giáo Lý Hội Thánh Công Giáo, số 65–67 (mặc khải công khai và mặc khải tư), 156, 548',
   },
 ];
 
