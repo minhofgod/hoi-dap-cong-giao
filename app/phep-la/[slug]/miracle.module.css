@@ -1,0 +1,531 @@
+/* Phép Lạ detail — adapted from app/cac-thanh/[slug]/saint.module.css. No left rail (this section
+   has no equivalent of the saints rail yet), and the dark band that carries the pull-quote there
+   carries the "what this does NOT establish" block here. That swap is the section's whole thesis:
+   the loudest element on the page is the limit of the claim, not the claim. */
+
+.wrap {
+  max-width: var(--canvas-max);
+  margin: 0 auto;
+}
+
+.topRow {
+  padding: 16px 56px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.backLink {
+  font-weight: 600;
+  font-size: 12.5px;
+  color: var(--text-quiet);
+}
+.backLink:hover {
+  text-decoration: none;
+  color: var(--gold-deep);
+}
+
+.column {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ---- Frontispiece ---- */
+.frontispiece {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 40px 0;
+  text-align: center;
+}
+
+.eyebrow {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin: 12px 0 14px;
+}
+
+.name {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.014em;
+  color: var(--text-heading);
+  margin: 0 0 10px;
+}
+.nameEnRecessed {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 21px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.place {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.placeEnRecessed {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--text-en);
+  margin-top: 3px;
+}
+
+.dates {
+  margin-top: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+  color: var(--gold-deep);
+}
+
+.badgeRow {
+  margin-top: 16px;
+}
+
+/* ---- Summary + status caption ---- */
+.summary {
+  margin: 40px 0 0;
+  font-family: var(--font-serif);
+  font-size: 21px;
+  line-height: 1.6;
+  color: var(--text-heading);
+}
+.summaryEnRecessed {
+  margin: 10px 0 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+.statusNote,
+.revelationNote {
+  margin: 26px 0 0;
+  padding: 18px 22px;
+  background: var(--surface-quiet);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-panel) var(--radius-panel) 0;
+}
+.revelationNote {
+  margin: 22px 0 8px;
+}
+.statusNoteKicker {
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: 8px;
+}
+.statusNoteBody {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--text-body);
+}
+.statusNoteBodyEnRecessed {
+  margin: 6px 0 0;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 1.62;
+  color: var(--text-en);
+}
+
+/* ---- Reading text ---- */
+.bodyVi {
+  margin: 0 0 16px;
+  font-size: 18px;
+  line-height: 1.76;
+  color: var(--text);
+}
+.bodyEnRecessed {
+  margin: 0 0 16px;
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--text-en);
+}
+
+/* ---- "What this does NOT establish" band ---- */
+.limitsOuter {
+  max-width: 1280px;
+  margin: 52px auto 52px;
+  padding: 0 56px;
+}
+.limitsBand {
+  background: var(--dark-ground);
+  border-radius: var(--radius-band);
+  padding: 52px 48px;
+}
+.limitsTitle {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.24;
+  color: #fbf8f3;
+  margin: 0 0 22px;
+  max-width: 30ch;
+}
+.limitsBody {
+  margin: 0 0 14px;
+  max-width: 72ch;
+  font-size: 15.5px;
+  line-height: 1.78;
+  color: #cfc6b6;
+}
+.limitsBodyEnRecessed {
+  margin: 0 0 16px;
+  max-width: 74ch;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 1.62;
+  color: #b2a99d;
+}
+
+/* ---- CCC cross-reference chips ---- */
+.cccRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 26px 0 0;
+}
+.cccLabelWrap {
+  display: inline-block;
+  margin-right: 4px;
+}
+.cccLabel {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.cccChip {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12.5px;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-variant-numeric: tabular-nums;
+}
+.cccChip:hover {
+  text-decoration: none;
+  background: #f0dac6;
+}
+
+/* ---- Facts card ---- */
+.factsCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 8px 22px;
+}
+.factRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 13px 0;
+  border-bottom: 1px solid #f2eae0;
+  font-size: 14px;
+}
+.factRow:last-child {
+  border-bottom: 0;
+}
+.factLabelCell {
+  flex: none;
+}
+.factValueCell {
+  text-align: right;
+}
+.factLabel {
+  display: block;
+  color: var(--text-quiet);
+}
+.factValue {
+  display: block;
+  text-align: right;
+  font-weight: 500;
+  color: var(--text-body);
+}
+.factValueEnRecessed {
+  display: block;
+  text-align: right;
+  font-weight: 400;
+  font-size: 12.5px;
+  color: var(--text-en);
+  margin-top: 2px;
+}
+
+/* ---- Sources ---- */
+.sourcesSection {
+  margin-top: 44px;
+}
+.sourcesHeading {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.sourcesList {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+}
+.sourceItem {
+  position: relative;
+  padding: 0 0 0 18px;
+  margin-bottom: 9px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+.sourceItem::before {
+  content: '·';
+  position: absolute;
+  left: 4px;
+  color: var(--text-faint);
+}
+.sourceLink {
+  color: var(--accent-deep);
+}
+
+/* ---- Read on ---- */
+.readOn {
+  max-width: 700px;
+  margin: 48px auto 0;
+  padding: 0 40px;
+}
+.readOnHeading {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.readOnCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px;
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-card);
+  background: var(--accent-tint);
+  color: inherit;
+  margin-bottom: 12px;
+}
+a.readOnCard:hover {
+  text-decoration: none;
+  background: #f4e6d3;
+}
+.readOnCardSoon {
+  background: var(--surface);
+  border-style: dashed;
+  border-color: var(--border-strong);
+}
+.readOnText {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.readOnLabel {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.3;
+  color: var(--text-heading);
+}
+.readOnLabelEnRecessed {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 13.5px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.readOnNote {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-muted);
+  margin-top: 5px;
+}
+.readOnNoteEnRecessed {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-en);
+  margin-top: 3px;
+}
+.readOnArrow {
+  flex-shrink: 0;
+  font-size: 20px;
+  color: var(--gold-deep);
+}
+.readOnSoonTag {
+  flex-shrink: 0;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+
+/* ---- Credit ---- */
+.creditBlock {
+  padding: 48px 0 0;
+}
+.creditHeading {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.creditBody {
+  margin: 14px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+.creditBodyEnRecessed {
+  margin: 6px 0 0;
+  font-weight: 300;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-en);
+}
+
+/* ---- Prev / next ---- */
+.navRow {
+  margin: 40px 0 0;
+  padding: 40px 0 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  border-top: 1px solid var(--border-strong);
+}
+.navPrev,
+.navNext {
+  color: inherit;
+  min-height: 44px;
+}
+.navNext {
+  text-align: right;
+}
+.navPrev:hover,
+.navNext:hover {
+  text-decoration: none;
+  color: var(--gold-deep);
+}
+.navLabel {
+  display: block;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 6px;
+}
+.navName {
+  display: block;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.3;
+  color: var(--text-heading);
+}
+.navNameEnRecessed {
+  display: block;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+@media (max-width: 899px) {
+  .frontispiece {
+    padding: 20px var(--mobile-gutter) 0;
+  }
+  .name {
+    font-size: 27px;
+    line-height: 1.24;
+    letter-spacing: -0.01em;
+  }
+  .summary {
+    font-size: 18px;
+  }
+  .column {
+    padding: 0 var(--mobile-gutter);
+  }
+  .readOn {
+    padding: 0 var(--mobile-gutter);
+  }
+  .topRow {
+    padding: 12px var(--mobile-gutter) 0;
+  }
+  .limitsOuter {
+    padding: 0 var(--mobile-gutter);
+    margin: 40px auto;
+  }
+  .limitsBand {
+    padding: 32px 24px;
+  }
+  .limitsTitle {
+    font-size: 22px;
+  }
+  .navRow {
+    grid-template-columns: 1fr;
+  }
+  .navNext {
+    text-align: left;
+  }
+}
+
+/* Verse/Catechism refs inside the dark limits band (same treatment as the Fathers' dark bands). */
+.limitsBand :global(.scripture-inline-ref.scripture-inline-ref) {
+  color: #a8bc84;
+  border-bottom-color: #6b7a50;
+}
+.limitsBand :global(.scripture-inline-ref.scripture-inline-ref:hover) {
+  background: rgba(168, 188, 132, 0.16);
+  border-bottom-color: #a8bc84;
+}
+.limitsBand :global(.scripture-inline-ref--open.scripture-inline-ref--open) {
+  background: #232a1b;
+  color: #c7d6a6;
+}
+.limitsBand :global(.catechism-inline-ref.catechism-inline-ref) {
+  color: #d8a45f;
+  border-bottom-color: rgba(216, 164, 95, 0.5);
+}
+.limitsBand :global(.catechism-inline-ref.catechism-inline-ref:hover) {
+  background: rgba(216, 164, 95, 0.16);
+  border-bottom-color: #d8a45f;
+}
+.limitsBand :global(.catechism-inline-ref--open.catechism-inline-ref--open) {
+  background: rgba(216, 164, 95, 0.2);
+  color: #f0d6b0;
+}

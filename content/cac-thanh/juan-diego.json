@@ -54,13 +54,28 @@
   ],
   "related": [
     {
-      "href": "/phep-la",
-      "label": { "vi": "Đọc về Đức Mẹ Guadalupe", "en": "Read about Our Lady of Guadalupe" },
-      "note": {
-        "vi": "Tấm áo choàng in hình Đức Mẹ đến nay vẫn được gìn giữ và nghiên cứu — phần sắp được xây dựng của trang này.",
-        "en": "The cloak bearing Our Lady's image is still preserved and studied to this day — a section of this site still to come."
+      "href": "/phep-la/guadalupe",
+      "label": {
+        "vi": "Đức Mẹ Guadalupe",
+        "en": "Our Lady of Guadalupe"
       },
-      "available": false
+      "note": {
+        "vi": "Cuộc hiện ra năm 1531 — cùng hồ sơ lịch sử của nó, kể cả những chỗ còn tranh cãi.",
+        "en": "The 1531 apparition — with its historical file, contested parts included."
+      },
+      "available": true
+    },
+    {
+      "href": "/phep-la/tam-ao-guadalupe",
+      "label": {
+        "vi": "Tấm áo choàng Guadalupe",
+        "en": "The tilma of Guadalupe"
+      },
+      "note": {
+        "vi": "Chính bức ảnh, và các cuộc khảo sát khoa học mâu thuẫn nhau về nó.",
+        "en": "The image itself, and the scientific examinations that contradict one another."
+      },
+      "available": true
     }
   ],
   "portrait": {

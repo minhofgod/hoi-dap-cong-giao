@@ -1,0 +1,134 @@
+{
+  "no": 12,
+  "slug": "van-phong-y-khoa-lo-duc",
+  "type": "healing",
+  "status": "cure-approved",
+  "title": { "vi": "Văn phòng Y khoa Lộ Đức", "en": "The Lourdes Medical Bureau" },
+  "location": { "vi": "Đền thánh Đức Mẹ Lộ Đức, nước Pháp", "en": "Sanctuary of Our Lady of Lourdes, France" },
+  "date": { "display": "từ năm 1883 đến nay", "year": 1883 },
+  "summary": {
+    "vi": "Hơn bảy ngàn hồ sơ, bảy mươi trường hợp được nhìn nhận. Đây không phải là một câu chuyện phép lạ — đây là câu chuyện về một quy trình được thiết kế để nói \"không\".",
+    "en": "More than seven thousand claims, seventy recognised. This is not a miracle story — it is the story of a process designed to say no."
+  },
+  "story": [
+    {
+      "vi": "Ngay từ những năm sau các cuộc hiện ra, người ta bắt đầu kể về những ơn chữa lành ở Lộ Đức. Thay vì để mặc cho lời đồn, đền thánh làm một việc bất thường: năm 1883, theo yêu cầu của cha Rémi Sempé, giám đốc đầu tiên của đền thánh, bác sĩ Georges-Fernand Dunot de Saint-Maclou lập ra Văn phòng Xác nhận Y khoa (Bureau des Constatations Médicales).",
+      "en": "In the years after the apparitions, reports of cures at Lourdes began to spread. Rather than leave them to rumour, the sanctuary did something unusual: in 1883, at the request of Fr. Rémi Sempé, its first rector, Dr. Georges-Fernand Dunot de Saint-Maclou founded the Bureau of Medical Verifications (Bureau des Constatations Médicales)."
+    },
+    {
+      "vi": "Nguyên tắc của văn phòng này khiến nhiều người ngạc nhiên: bất cứ bác sĩ nào có mặt tại Lộ Đức đều được mời vào xem hồ sơ và tham gia thảo luận — kể cả bác sĩ không Công giáo, và bác sĩ vô thần. Đây là chỗ hiếm hoi mà một tổ chức tôn giáo chủ động mời người hoài nghi vào phòng họp.",
+      "en": "Its founding principle surprises people: any physician present at Lourdes may sit in on the files and take part in the discussion — including non-Catholic and atheist doctors. It is a rare instance of a religious institution actively inviting sceptics into the room."
+    },
+    {
+      "vi": "Năm 1947, Đức cha Pierre-Marie Théas, Giám mục Tarbes và Lộ Đức, cùng bác sĩ François Leuret lập thêm một Ủy ban Y khoa; năm 1954 ủy ban này được mở rộng thành Ủy ban Y khoa Quốc tế Lộ Đức (CMIL), gồm các chuyên gia từ nhiều nước. Ngày nay một hồ sơ phải qua cả hai cấp trước khi được chuyển tới giám mục.",
+      "en": "In 1947 Bishop Pierre-Marie Théas of Tarbes and Lourdes, with Dr. François Leuret, added a Medical Committee; in 1954 it was widened into the International Medical Committee of Lourdes (CMIL), drawn from specialists in several countries. Today a file must pass both bodies before it goes to a bishop."
+    }
+  ],
+  "recognition": [
+    {
+      "vi": "Điều quan trọng nhất cần hiểu là quy trình này có hai bước hoàn toàn tách biệt, và không bước nào lấn sang bước kia. Bước thứ nhất thuộc về y khoa: các bác sĩ chỉ trả lời một câu hỏi duy nhất — trường hợp này có giải thích được bằng kiến thức y học hiện nay không? Họ không được phép dùng chữ \"phép lạ\"; đó không phải việc của họ.",
+      "en": "The most important thing to understand is that the process has two entirely separate steps, and neither trespasses on the other. The first is medical: the doctors answer one question only — is this case explicable by current medical knowledge? They are not permitted to use the word \"miracle\"; that is not their job."
+    },
+    {
+      "vi": "Chỉ khi CMIL kết luận \"không giải thích được theo hiểu biết y học hiện nay\", hồ sơ mới được chuyển về cho giám mục giáo phận nơi người được chữa lành cư ngụ — chứ không phải giám mục Lộ Đức. Vị ấy mới là người có thể tuyên bố đây là một ơn chữa lành mang tính phép lạ. Y khoa nói \"không giải thích được\"; Hội Thánh mới nói \"phép lạ\". Không ai làm thay ai.",
+      "en": "Only when the CMIL concludes \"unexplained by current medical knowledge\" does the file go to the diocesan bishop of the person cured — not the bishop of Lourdes. He alone can declare the cure miraculous. Medicine says \"unexplained\"; the Church says \"miracle.\" Neither speaks for the other."
+    },
+    {
+      "vi": "Các tiêu chí mà Hội Thánh dùng có từ thế kỷ XVIII, do Đức Hồng y Prospero Lambertini — sau này là Đức Bênêđictô XIV — soạn thảo: bệnh phải nặng và được chẩn đoán chắc chắn; phải nan y hoặc rất khó chữa; việc khỏi phải tức khắc, hoàn toàn, và không do điều trị; và phải bền vững lâu dài. Bộ tiêu chí ấy được lập ra để loại bớt hồ sơ, không phải để thêm vào.",
+      "en": "The criteria the Church uses date from the eighteenth century, formulated by Cardinal Prospero Lambertini — later Benedict XIV: the illness must be serious and securely diagnosed; incurable or very difficult to treat; the recovery must be sudden, complete, and not attributable to treatment; and it must be lasting. That set of criteria was designed to eliminate files, not to add them."
+    }
+  ],
+  "evidence": [
+    {
+      "vi": "Con số tự nó là bằng chứng về mức độ khắt khe. Hơn 7.000 người đã nộp hồ sơ xin xác nhận kể từ năm 1858. Số trường hợp được Hội Thánh nhìn nhận là phép lạ: 70. Tức là khoảng một phần trăm — và đó là sau khi đã sàng lọc từ hàng triệu người hành hương, phần lớn trong số đó không nộp hồ sơ vì không có gì để nộp.",
+      "en": "The numbers are themselves evidence of the severity. More than 7,000 people have submitted files since 1858. The number recognised by the Church as miraculous: 70. Roughly one percent — and that is after filtering from millions of pilgrims, most of whom never file because there is nothing to file."
+    },
+    {
+      "vi": "Thời gian thẩm định cũng dài. Trường hợp gần nhất, của nữ tu Bernadette Moriau, xảy ra tháng 7-2008 và chỉ được tuyên bố vào tháng 2-2018 — mười năm, hơn 300 bác sĩ đã xem hồ sơ. Một quy trình muốn tạo ra phép lạ thì không làm như vậy.",
+      "en": "The timescale is long too. The most recent case, that of Sr. Bernadette Moriau, occurred in July 2008 and was declared only in February 2018 — ten years, with more than 300 physicians having reviewed the file. A process built to manufacture miracles does not work like this."
+    },
+    {
+      "vi": "Đền thánh Lộ Đức công bố công khai toàn bộ danh sách 70 trường hợp, kèm tên, nơi ở và ngày được nhìn nhận. Bất cứ ai cũng có thể đối chiếu.",
+      "en": "The sanctuary publishes the full list of all 70 cases, with names, places, and dates of recognition. Anyone can check it."
+    }
+  ],
+  "limits": [
+    {
+      "vi": "\"Không giải thích được theo hiểu biết y học hiện nay\" chính xác là điều nó nói, không hơn. Kiến thức y học thay đổi. Một số trường hợp được nhìn nhận từ thế kỷ XIX có thể sẽ được giải thích khác nếu xét lại bằng công cụ hôm nay, và chính CMIL cũng nhìn nhận điều đó. Đây là một kết luận về giới hạn của y học tại một thời điểm, không phải một chứng minh về sự can thiệp của Thiên Chúa.",
+      "en": "\"Unexplained by current medical knowledge\" means exactly that and no more. Medical knowledge changes. Some cases recognised in the nineteenth century might be read differently with today's tools, and the CMIL acknowledges as much. This is a conclusion about the limits of medicine at a moment in time, not a demonstration of divine intervention."
+    },
+    {
+      "vi": "Quy trình này cũng không nói gì về những người không được chữa lành — tức là gần như tất cả mọi người. Mỗi năm hàng triệu người đến Lộ Đức, rất nhiều người trong số đó đang bệnh nặng, và họ trở về vẫn bệnh. Bất cứ cách trình bày nào biến Lộ Đức thành một nơi \"đến là được khỏi\" đều là sai, và tàn nhẫn với những người đã đến.",
+      "en": "The process also says nothing about those who are not cured — which is very nearly everyone. Millions come to Lourdes each year, many gravely ill, and they go home still ill. Any presentation that turns Lourdes into a place where \"you go and you are healed\" is false, and cruel to the people who have gone."
+    }
+  ],
+  "significance": [
+    {
+      "vi": "Điều đáng chú ý ở Lộ Đức không phải là bảy mươi trường hợp, mà là sáu ngàn chín trăm ba mươi trường hợp còn lại. Một tổ chức muốn xây dựng danh tiếng bằng phép lạ sẽ không lập ra một cơ chế bác bỏ 99% hồ sơ của chính mình, rồi công bố tỉ lệ ấy.",
+      "en": "What is striking about Lourdes is not the seventy cases but the other six thousand nine hundred and thirty. An institution trying to build a reputation on miracles does not set up a body that rejects 99% of its own claims and then publishes the ratio."
+    },
+    {
+      "vi": "Và điều Lộ Đức thật sự làm hằng năm cho hàng triệu người bệnh không phải là chữa lành thể xác. Đó là việc họ được đưa đi, được tắm rửa, được đẩy xe lăn, được ăn uống và được ở giữa những người xem họ là quan trọng. Phần lớn các tình nguyện viên ấy chẳng bao giờ nghĩ mình đang tham gia vào một phép lạ.",
+      "en": "And what Lourdes actually does each year for millions of sick people is not physical healing. It is that they are brought there, washed, wheeled about, fed, and placed among people who treat them as mattering. Most of those volunteers never think of themselves as taking part in a miracle."
+    }
+  ],
+  "facts": [
+    {
+      "label": { "vi": "Văn phòng thành lập", "en": "Bureau founded" },
+      "value": { "vi": "1883, bs. G.-F. Dunot de Saint-Maclou", "en": "1883, Dr. G.-F. Dunot de Saint-Maclou" }
+    },
+    {
+      "label": { "vi": "Ủy ban Y khoa Quốc tế (CMIL)", "en": "International Medical Committee (CMIL)" },
+      "value": { "vi": "1947, mở rộng quốc tế 1954", "en": "1947, internationalised 1954" }
+    },
+    {
+      "label": { "vi": "Hồ sơ đã nộp", "en": "Claims filed" },
+      "value": { "vi": "hơn 7.000", "en": "more than 7,000" }
+    },
+    {
+      "label": { "vi": "Được Hội Thánh nhìn nhận", "en": "Recognised by the Church" },
+      "value": { "vi": "70", "en": "70" }
+    },
+    {
+      "label": { "vi": "Trường hợp gần nhất", "en": "Most recent" },
+      "value": { "vi": "Bernadette Moriau, 11-2-2018", "en": "Bernadette Moriau, 11 February 2018" }
+    }
+  ],
+  "ccc_refs": [1508, 156],
+  "sources": [
+    {
+      "label": "Sanctuaire Notre-Dame de Lourdes — danh sách chính thức 70 ơn chữa lành được nhìn nhận",
+      "url": "https://www.lourdes-france.org/en/miraculous-healings/"
+    },
+    {
+      "label": "Sanctuaire Notre-Dame de Lourdes — Văn phòng Y khoa của đền thánh",
+      "url": "https://www.lourdes-france.org/en/medical-bureau-sanctuary/"
+    },
+    { "label": "Prospero Lambertini (Đức Bênêđictô XIV), De Servorum Dei Beatificatione et Beatorum Canonizatione — nguồn của các tiêu chí thẩm định" }
+  ],
+  "related_saint": "bernadette-soubirous",
+  "related": [
+    {
+      "href": "/phep-la/bernadette-moriau",
+      "label": { "vi": "Nữ tu Bernadette Moriau — trường hợp thứ 70", "en": "Sr. Bernadette Moriau — the 70th case" },
+      "note": {
+        "vi": "Một hồ sơ cụ thể, từ đầu đến cuối.",
+        "en": "One file, followed from beginning to end."
+      },
+      "available": true
+    },
+    {
+      "href": "/phep-la/lo-duc",
+      "label": { "vi": "Đức Mẹ Lộ Đức", "en": "Our Lady of Lourdes" },
+      "note": { "vi": "Cuộc hiện ra năm 1858.", "en": "The apparitions of 1858." },
+      "available": true
+    }
+  ],
+  "image": {
+    "src": "/images/phep-la/van-phong-y-khoa-lo-duc.jpg",
+    "caption": { "vi": "Đền thánh Đức Mẹ Lộ Đức", "en": "The sanctuary of Our Lady of Lourdes" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

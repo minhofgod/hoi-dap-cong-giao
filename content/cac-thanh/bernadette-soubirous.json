@@ -54,13 +54,40 @@
   ],
   "related": [
     {
-      "href": "/phep-la",
-      "label": { "vi": "Đọc về Đức Mẹ Lộ Đức", "en": "Read about Our Lady of Lourdes" },
-      "note": {
-        "vi": "Hang đá nơi Bernadette thấy Đức Mẹ nay là một trung tâm hành hương, gắn với hàng loạt ơn chữa lành được điều tra kỹ lưỡng — phần sắp được xây dựng của trang này.",
-        "en": "The grotto where Bernadette saw Our Lady is now a place of pilgrimage, linked to a series of rigorously investigated healings — a section of this site still to come."
+      "href": "/phep-la/lo-duc",
+      "label": {
+        "vi": "Đức Mẹ Lộ Đức",
+        "en": "Our Lady of Lourdes"
       },
-      "available": false
+      "note": {
+        "vi": "Mười tám lần hiện ra năm 1858, và cuộc điều tra kéo dài hơn ba năm.",
+        "en": "The eighteen apparitions of 1858, and the inquiry that ran more than three years."
+      },
+      "available": true
+    },
+    {
+      "href": "/phep-la/van-phong-y-khoa-lo-duc",
+      "label": {
+        "vi": "Văn phòng Y khoa Lộ Đức",
+        "en": "The Lourdes Medical Bureau"
+      },
+      "note": {
+        "vi": "Hơn 7.000 hồ sơ, 70 trường hợp được nhìn nhận — một quy trình được lập ra để nói “không”.",
+        "en": "More than 7,000 claims, 70 recognised — a process built to say no."
+      },
+      "available": true
+    },
+    {
+      "href": "/phep-la/thi-hai-bernadette",
+      "label": {
+        "vi": "Thi hài của chị tại Nevers",
+        "en": "Her body at Nevers"
+      },
+      "note": {
+        "vi": "Điều ba biên bản khai quật thật sự ghi nhận — kể cả chiếc mặt nạ sáp năm 1925.",
+        "en": "What the three exhumation records actually say — including the wax mask of 1925."
+      },
+      "available": true
     }
   ],
   "portrait": {

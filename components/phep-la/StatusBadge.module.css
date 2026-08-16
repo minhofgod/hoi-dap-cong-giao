@@ -1,0 +1,41 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.row {
+  font-size: 10px;
+  padding: 4px 9px;
+}
+
+.detail {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  padding: 6px 14px;
+}
+
+/* A formal canonical act exists on the event (or on a reviewed cure). */
+.approved {
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  border: 1px solid var(--gold-border);
+}
+
+/* Cult/relic/feast sanctioned, but no modern decree on the event itself. */
+.venerated {
+  background: var(--surface);
+  color: var(--text-muted);
+  border: 1px solid var(--border-strong);
+}
+
+/* Never judged. Deliberately the quietest of the three — it must not read as approval. */
+.notRuled {
+  background: transparent;
+  color: var(--text-quiet);
+  border: 1px dashed var(--border-strong);
+}

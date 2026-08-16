@@ -1,0 +1,133 @@
+{
+  "no": 17,
+  "slug": "tam-ao-guadalupe",
+  "type": "miraculous-image",
+  "status": "venerated",
+  "title": { "vi": "Tấm áo choàng Guadalupe", "en": "The tilma of Guadalupe" },
+  "location": { "vi": "Vương cung thánh đường Đức Mẹ Guadalupe, Mexico City", "en": "Basilica of Our Lady of Guadalupe, Mexico City" },
+  "date": { "display": "từ 1531 đến nay", "year": 1531 },
+  "summary": {
+    "vi": "Bức ảnh được viếng nhiều nhất thế giới — và trường hợp mà các khảo sát khoa học không chỉ gây tranh cãi, mà còn mâu thuẫn trực tiếp với nhau, kể cả những khảo sát do chính đền thánh đặt hàng.",
+    "en": "The most visited image in the world — and the case where the scientific examinations do not merely disagree but flatly contradict one another, including those the shrine itself commissioned."
+  },
+  "story": [
+    {
+      "vi": "Theo trình thuật, khi Juan Diego mở tấm áo choàng trước mặt Đức cha Zumárraga tháng 12 năm 1531 để đổ ra những đóa hồng, trên tấm vải hiện lên hình một thiếu nữ mặc áo hồng và khoác choàng xanh điểm sao, đứng trên mặt trăng lưỡi liềm, được một thiên thần nâng đỡ.",
+      "en": "According to the account, when Juan Diego opened his cloak before Bishop Zumárraga in December 1531 to pour out the roses, there appeared on the cloth the figure of a young woman in a rose gown and a star-strewn blue mantle, standing on a crescent moon and upheld by an angel."
+    },
+    {
+      "vi": "Tấm vải ấy — bằng sợi thực vật, gồm hai mảnh khâu lại — được treo và tôn kính liên tục từ đó đến nay, gần năm thế kỷ, hiện đặt phía trên bàn thờ chính của Vương cung thánh đường mới ở Mexico City. Mỗi năm có khoảng hai mươi triệu khách hành hương đến đó.",
+      "en": "That cloth — of plant fibre, two pieces sewn together — has hung and been venerated continuously ever since, nearly five centuries, and now sits above the high altar of the new basilica in Mexico City. Some twenty million pilgrims come each year."
+    },
+    {
+      "vi": "Hình ảnh trên tấm vải cũng là một bản văn. Các nhà nghiên cứu về văn hóa Nahua chỉ ra rằng nhiều chi tiết — vị trí mặt trời sau lưng, mặt trăng dưới chân, dải băng thắt trên bụng, hoa bốn cánh trên áo — đều là những ký hiệu mà người bản địa đọc được ngay: đây là một người nữ đứng trên các thần của họ, và đang mang thai.",
+      "en": "The image is also a text. Scholars of Nahua culture point out that many details — the sun behind her, the moon beneath her feet, the sash tied above the waist, the four-petalled flower on the gown — were signs an indigenous viewer read at once: a woman standing above their gods, and with child."
+    }
+  ],
+  "recognition": [
+    {
+      "vi": "Việc tôn kính bức ảnh được Hội Thánh chuẩn nhận ở mức cao nhất và liên tục qua nhiều thế kỷ: lễ và phụng vụ riêng do Đức Bênêđictô XIV chuẩn nhận năm 1754; lễ đăng quang theo giáo luật cho bức ảnh ngày 12-10-1895; và việc tuyên thánh cho Juan Diego năm 2002.",
+      "en": "The veneration of the image has been approved by the Church at the highest level and continuously across centuries: a proper Mass and Office approved by Benedict XIV in 1754; the canonical coronation of the image on 12 October 1895; and the canonization of Juan Diego in 2002."
+    },
+    {
+      "vi": "Điều Hội Thánh chưa bao giờ làm là tuyên bố về việc bức ảnh ấy được tạo ra như thế nào. Không có văn kiện nào của Tòa Thánh khẳng định rằng tấm vải này không do tay người vẽ. Đó là một câu hỏi khoa học và lịch sử, và Hội Thánh không đưa ra phán quyết về nó.",
+      "en": "What the Church has never done is pronounce on how the image was produced. No act of the Holy See asserts that the cloth was not painted by human hands. That is a scientific and historical question, and the Church has issued no ruling on it."
+    }
+  ],
+  "evidence": [
+    {
+      "vi": "Đây là chỗ cần đọc chậm. Có ít nhất ba cuộc khảo sát lớn, và chúng không đồng ý với nhau. Năm 1751, họa sĩ Miguel Cabrera cùng một nhóm họa sĩ khảo sát bức ảnh và công bố tập Maravilla Americana (1756): ông cho rằng bức ảnh dùng bốn kỹ thuật hội họa khác nhau kết hợp theo cách ông chưa từng thấy, rằng tấm vải không được bồi lót, và rằng có thể nhìn xuyên từ mặt sau.",
+      "en": "This is the part to read slowly. There have been at least three major examinations, and they do not agree. In 1751 the painter Miguel Cabrera and a group of colleagues examined the image and published Maravilla Americana (1756): he held that it used four different painting techniques combined in a way he had never seen, that the cloth had not been sized, and that the image could be seen through from behind."
+    },
+    {
+      "vi": "Năm 1979, Philip Callahan (chuyên gia côn trùng học và quang phổ hồng ngoại) cùng Jody Brant Smith chụp ảnh hồng ngoại và báo cáo rằng họ không tìm thấy lớp lót hay nét phác dưới lớp màu ở những phần \"gốc\" của hình, và cho rằng không có lời giải thích cho những phần ấy hay cho sự bảo tồn của chúng.",
+      "en": "In 1979 Philip Callahan (an entomologist and infrared specialist) and Jody Brant Smith photographed it in infrared and reported that they found no sizing and no underdrawing beneath the paint in what they took to be the \"original\" portions, and held that there was no explanation for those portions or their preservation."
+    },
+    {
+      "vi": "Năm 1982, José Sol Rosales — chuyên gia phục chế, được chính viện trưởng vương cung thánh đường Guillermo Schulenburg mời — khảo sát bức ảnh và kết luận ngược lại: bức ảnh có nguồn gốc do con người làm ra. Ông ghi nhận tấm vải làm bằng sợi lanh và gai dầu, đã được phủ một lớp sơn trắng lót trước khi vẽ, có nhiều lối vẽ tempera khác nhau, các sắc tố đều là những chất phổ biến ở Mexico thế kỷ XVI, và có nhiều dấu vết chỉnh sửa, vẽ đè qua các thời kỳ.",
+      "en": "In 1982 José Sol Rosales — a conservator, invited by the basilica's own abbot, Guillermo Schulenburg — examined the image and concluded the opposite: the image is of human origin. He recorded that the cloth is linen and hemp, that it had been prepared with a white ground before being painted, that several tempera techniques are present, that all the pigments were commonly available in sixteenth-century Mexico, and that there is extensive retouching and overpainting from various periods."
+    }
+  ],
+  "limits": [
+    {
+      "vi": "Không thể vừa nói \"khoa học đã chứng minh tấm áo choàng là siêu nhiên\" vừa trung thực. Cuộc khảo sát chi tiết nhất về vật liệu, do chính đền thánh đặt hàng, kết luận rằng bức ảnh do con người vẽ. Người ta có thể tranh luận về kết luận ấy — và người ta đã tranh luận — nhưng không thể im lặng về nó.",
+      "en": "One cannot say \"science has proved the tilma is supernatural\" and be honest at the same time. The most detailed material examination, commissioned by the shrine itself, concluded that the image was painted. That conclusion can be disputed — and it has been — but it cannot be passed over in silence."
+    },
+    {
+      "vi": "Về những khẳng định phổ biến nhất: chuyện \"nhìn thấy hình người phản chiếu trong mắt Đức Mẹ\" (thường gắn với các nghiên cứu của José Aste Tonsmann) bị giới nghiên cứu xem là hiện tượng pareidolia — bộ não thấy khuôn mặt trong những vệt ngẫu nhiên, như khi ta nhìn ra hình thù trong đám mây. Ở độ phóng đại rất cao, những vệt màu trên vải sẽ luôn tạo ra thứ gì đó giống hình người.",
+      "en": "On the most-circulated claims: the reported figures reflected in Our Lady's eyes (usually attributed to the studies of José Aste Tonsmann) are regarded by researchers as pareidolia — the brain finding faces in random marks, as it does in clouds. At very high magnification, pigment on cloth will always produce something that resembles a figure."
+    },
+    {
+      "vi": "Về \"tấm vải sợi thùa đáng lẽ mục sau hai mươi năm\": tuổi thọ thật của sợi ayate còn tùy vào loại sợi, cách dệt và điều kiện bảo quản, và ngay việc tấm vải này làm bằng sợi gì cũng không được các nhà khảo sát thống nhất — Cabrera nói là ayate, Sol Rosales nói là lanh và gai dầu. Một tấm vải được treo trong không khí khô, ít ánh sáng và được đóng khung kính hàng thế kỷ không nằm trong điều kiện của một tấm áo mặc hằng ngày.",
+      "en": "On \"agave cloth should have rotted in twenty years\": the real lifespan of ayate fibre depends on the fibre, the weave, and the storage conditions, and even what this cloth is made of is not agreed among those who examined it — Cabrera said ayate, Sol Rosales said linen and hemp. A cloth kept for centuries in dry air, low light, and behind glass is not in the condition of a garment worn daily."
+    },
+    {
+      "vi": "Chúng tôi không kết luận rằng bức ảnh có nguồn gốc tự nhiên. Chúng tôi kết luận rằng câu hỏi ấy chưa được giải quyết, rằng các khảo sát mâu thuẫn nhau, và rằng bất cứ ai nói với bạn rằng vấn đề đã ngã ngũ — theo chiều nào cũng vậy — là đang nói quá.",
+      "en": "We do not conclude that the image has a natural origin. We conclude that the question is unresolved, that the examinations contradict each other, and that anyone telling you the matter is settled — in either direction — is overstating."
+    }
+  ],
+  "significance": [
+    {
+      "vi": "Nếu ngày mai có ai chứng minh được rằng tấm vải ấy do một họa sĩ bản địa tên Marcos vẽ, điều gì sẽ mất đi? Không mất tín điều nào. Không mất lời Đức Mẹ đã nói với Juan Diego trong trình thuật. Và không mất hàng triệu người đã xin lãnh nhận đức tin trong những thập niên sau đó.",
+      "en": "If tomorrow someone proved the cloth had been painted by an indigenous artist named Marcos, what would be lost? No article of faith. Nothing of what Our Lady says to Juan Diego in the account. And nothing of the millions who asked for baptism in the decades that followed."
+    },
+    {
+      "vi": "Đó chính là lý do chúng tôi có thể trình bày các dữ kiện trái chiều mà không sợ. Đức tin Kitô giáo không được xây trên tấm vải này; nó được xây trên sự Phục Sinh. Bất cứ điều gì khác — dù đẹp đến đâu — cũng chỉ là dấu chỉ, và một dấu chỉ thì có thể được xem xét.",
+      "en": "That is precisely why we can set out the conflicting findings without fear. Christian faith is not built on this cloth; it is built on the Resurrection. Everything else — however beautiful — is a sign, and a sign can be examined."
+    }
+  ],
+  "facts": [
+    {
+      "label": { "vi": "Chất liệu (theo Cabrera, 1751)", "en": "Material (per Cabrera, 1751)" },
+      "value": { "vi": "sợi ayate, hai mảnh khâu lại", "en": "ayate fibre, two pieces sewn" }
+    },
+    {
+      "label": { "vi": "Chất liệu (theo Sol Rosales, 1982)", "en": "Material (per Sol Rosales, 1982)" },
+      "value": { "vi": "lanh và gai dầu, có lớp lót sơn trắng", "en": "linen and hemp, with a white ground" }
+    },
+    {
+      "label": { "vi": "Khảo sát hồng ngoại", "en": "Infrared study" },
+      "value": { "vi": "Callahan & Smith, 1979", "en": "Callahan & Smith, 1979" }
+    },
+    {
+      "label": { "vi": "Đăng quang theo giáo luật", "en": "Canonical coronation" },
+      "value": { "vi": "12-10-1895", "en": "12 October 1895" }
+    },
+    {
+      "label": { "vi": "Phán quyết của Hội Thánh về cách bức ảnh hình thành", "en": "Church ruling on how the image formed" },
+      "value": { "vi": "không có", "en": "none" }
+    }
+  ],
+  "ccc_refs": [1159, 1161, 156],
+  "sources": [
+    { "label": "Miguel Cabrera, Maravilla Americana y conjunto de raras maravillas (Mexico, 1756)" },
+    { "label": "Philip S. Callahan, The Tilma under Infra-Red Radiation (CARA Studies on Popular Devotion, 1981)" },
+    { "label": "José Sol Rosales, báo cáo khảo sát bức ảnh do vương cung thánh đường Guadalupe đặt hàng (1982)" },
+    { "label": "Stafford Poole, Our Lady of Guadalupe: The Origins and Sources of a Mexican National Symbol, 1531–1797 (1995)" }
+  ],
+  "related_saint": "juan-diego",
+  "related": [
+    {
+      "href": "/phep-la/guadalupe",
+      "label": { "vi": "Đức Mẹ Guadalupe", "en": "Our Lady of Guadalupe" },
+      "note": { "vi": "Cuộc hiện ra năm 1531 và hồ sơ lịch sử của nó.", "en": "The 1531 apparition and its historical file." },
+      "available": true
+    },
+    {
+      "href": "/phep-la/hoi-thanh-tham-dinh",
+      "label": { "vi": "Hội Thánh thẩm định thế nào?", "en": "How does the Church judge a miracle?" },
+      "note": {
+        "vi": "Vì sao Hội Thánh chuẩn nhận lòng sùng kính mà không phán quyết về khoa học.",
+        "en": "Why the Church approves a devotion without ruling on the science."
+      },
+      "available": true
+    }
+  ],
+  "image": {
+    "src": "/images/phep-la/tam-ao-guadalupe.jpg",
+    "caption": { "vi": "Tấm áo choàng Guadalupe trên bàn thờ chính", "en": "The tilma of Guadalupe above the high altar" },
+    "source": "",
+    "license": "public domain",
+    "available": false
+  }
+}

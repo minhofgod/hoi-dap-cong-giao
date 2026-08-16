@@ -107,12 +107,27 @@
   "related": [
     {
       "href": "/phep-la",
-      "label": { "vi": "Đọc về các phép lạ Thánh Thể", "en": "Read about the Eucharistic miracles" },
-      "note": {
-        "vi": "Chính Carlo đã lập danh mục các phép lạ Thánh Thể khắp thế giới — một phần sắp được xây dựng của trang này.",
-        "en": "Carlo himself catalogued Eucharistic miracles around the world — a section of this site still to come."
+      "label": {
+        "vi": "Phép Lạ & Hiện Ra",
+        "en": "Miracles & Apparitions"
       },
-      "available": false
+      "note": {
+        "vi": "Phần này của trang được lấy cảm hứng từ chính Carlô — và mang lời đề tặng cho em.",
+        "en": "This section of the site is inspired by Carlo himself — and carries the dedication to him."
+      },
+      "available": true
+    },
+    {
+      "href": "/phep-la/phep-la-phong-thanh-carlo-acutis",
+      "label": {
+        "vi": "Hai phép lạ trong án phong thánh của em",
+        "en": "The two miracles in his cause"
+      },
+      "note": {
+        "vi": "Thiếu niên lập danh mục các phép lạ, rồi trở thành đối tượng của chính quy trình thẩm định ấy.",
+        "en": "The teenager who catalogued miracles became the subject of that same vetting process."
+      },
+      "available": true
     }
   ],
   "portrait": {
