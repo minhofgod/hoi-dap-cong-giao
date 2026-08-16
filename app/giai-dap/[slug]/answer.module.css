@@ -420,6 +420,41 @@
   margin-top: 40px;
 }
 
+/* External citations ("Nguồn tham khảo") — plain, muted list; some entries link out. Kept small and
+   unobtrusive to match the refs section. */
+.sourcesSection {
+  margin-top: 28px;
+}
+.sourcesList {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.sourceItem {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-quiet);
+  padding-left: 1.1em;
+}
+.sourceItem::before {
+  content: "•";
+  display: inline-block;
+  width: 1.1em;
+  margin-left: -1.1em;
+  color: var(--text-faint);
+}
+.sourceLink {
+  color: var(--accent-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.sourceLink:hover {
+  color: var(--accent);
+}
+
 .eyebrow {
   font-size: 11px;
   font-weight: 600;

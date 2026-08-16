@@ -2,7 +2,12 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
-import { getAllQuestions, getQuestionBySlug, type GiaiDapQuestion } from '@/lib/giaiDap';
+import {
+  getAllQuestions,
+  getQuestionBySlug,
+  type GiaiDapQuestion,
+  type GiaiDapSource,
+} from '@/lib/giaiDap';
 import { getAllVideos, type Video } from '@/lib/videos';
 import { relatedByTaxonomy } from '@/lib/relatedContent';
 import { categoryLabel, tagLabel } from '@/lib/giaiDapTaxonomy';
@@ -149,6 +154,38 @@ function Refs({ ccc, scripture }: { ccc: number[]; scripture: string[] }) {
   );
 }
 
+// External citations for a question/part — a plain "Nguồn tham khảo" list (books, papers, datasets),
+// links opening safely in a new tab. Distinct from <Refs> (Bible/Catechism popover chips); never a
+// popover. Renders nothing when there are no sources.
+function Sources({ sources }: { sources: GiaiDapSource[] }) {
+  if (sources.length === 0) return null;
+  return (
+    <div className={styles.sourcesSection}>
+      <div className={styles.eyebrow}>
+        <T vi="NGUỒN THAM KHẢO" en="SOURCES" />
+      </div>
+      <ul className={styles.sourcesList}>
+        {sources.map((s) => (
+          <li key={s.url ?? s.label} className={styles.sourceItem}>
+            {s.url ? (
+              <a
+                href={s.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.sourceLink}
+              >
+                {s.label}
+              </a>
+            ) : (
+              s.label
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 function PrevNext({ prev, next }: { prev?: GiaiDapQuestion; next?: GiaiDapQuestion }) {
   if (!prev && !next) return null;
   return (
@@ -243,6 +280,7 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
               <section id="tong-quan" className={styles.section}>
                 <ScriptureBody className={styles.answer} {...enrichBody(question.bodyHtml)} />
                 <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
+                <Sources sources={question.sources} />
               </section>
 
               {parts.map((p) => (
@@ -250,6 +288,7 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
                   <h2 className={styles.sectionHeading}>{p.questionVi}</h2>
                   <ScriptureBody className={styles.answer} {...enrichBody(p.bodyHtml)} />
                   <Refs ccc={p.refsCcc} scripture={p.refsScripture} />
+                  <Sources sources={p.sources} />
                 </section>
               ))}
             </article>
@@ -308,6 +347,8 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
                 <Refs ccc={question.refsCcc} scripture={question.refsScripture} />
               </div>
             )}
+
+            <Sources sources={question.sources} />
           </div>
 
           {seeAlso}

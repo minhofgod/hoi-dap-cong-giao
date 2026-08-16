@@ -13,6 +13,32 @@ function toSlugArray(value: unknown): string[] {
   return [];
 }
 
+// Normalize the `sources` frontmatter (list of { label, url? }) to clean GiaiDapSource[], dropping
+// malformed entries and blank labels. A plain string entry is accepted as a label-only source.
+function toSources(value: unknown): GiaiDapSource[] {
+  if (!Array.isArray(value)) return [];
+  return value.flatMap((entry): GiaiDapSource[] => {
+    if (typeof entry === 'string') {
+      const label = entry.trim();
+      return label ? [{ label }] : [];
+    }
+    if (entry && typeof entry === 'object') {
+      const { label, url } = entry as { label?: unknown; url?: unknown };
+      if (typeof label !== 'string' || !label.trim()) return [];
+      const trimmedUrl = typeof url === 'string' && url.trim() ? url.trim() : undefined;
+      return [{ label: label.trim(), ...(trimmedUrl ? { url: trimmedUrl } : {}) }];
+    }
+    return [];
+  });
+}
+
+// An external citation (book, paper, historian, dataset). Plain reference — NOT a popover chip like
+// refsScripture / refsCcc. `url` is an optional stable external link.
+export interface GiaiDapSource {
+  label: string;
+  url?: string;
+}
+
 export interface GiaiDapQuestion {
   slug: string;
   questionVi: string;
@@ -28,6 +54,9 @@ export interface GiaiDapQuestion {
   subcategory?: string;
   refsCcc: number[];
   refsScripture: string[];
+  // External citations (books, papers, datasets) rendered as a "Nguồn tham khảo" block. Plain
+  // references with optional links — not popover chips. Empty when absent.
+  sources: GiaiDapSource[];
   featured: boolean;
   related: string[];
   // Ordered member slugs that make up this question's full "article" (a main/anchor
@@ -70,6 +99,7 @@ function loadFile(filename: string): GiaiDapQuestion {
     subcategory: data.subcategory,
     refsCcc: data.refs_ccc ?? [],
     refsScripture: data.refs_scripture ?? [],
+    sources: toSources(data.sources),
     featured: Boolean(data.featured),
     related: data.related ?? [],
     parts: data.parts ?? [],
