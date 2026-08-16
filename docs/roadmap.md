@@ -146,6 +146,18 @@ cross-links.
 **Homepage:** hero + Đồng hành CTA, then the two families as card groups. The Church History hub is
 the immediate actionable (it surfaces the Councils now); Saints + Miracles are reserved slots.
 
+### Các Giáo Hoàng tiêu biểu (Notable Popes) — [future idea, noted 2026-08-15]
+A future **person-model** section (reuses the Giáo Phụ / Các Thánh model: portrait + bio + era/theme)
+profiling notable popes — the **papacy/history angle**, not the doctrinal one the Fathers already cover.
+**Curate, don't cover 260+**: a themed set (e.g. early martyr-popes, the great reformers,
+council-conveners like Leo XIII / John XXIII, defining moderns). **Overlap is the main design issue** —
+many popes are already Church Fathers (Clement of Rome, Leo the Great, Gregory the Great) or already
+in Các Thánh (Gioan Phaolô II, Gioan XXIII); don't re-cover them — cross-link instead, and pick popes
+notable *as popes* (governance, councils, reform, history) so the section earns its place beside Giáo
+Phụ and Các Thánh under the **History & witnesses** family. Not scheduled; slot after Saints/Miracles
+unless prioritized. (PD portraits: easy for pre-1900 popes; modern ones will hit the same
+copyright wall as the modern saints — expect the `available:false` fallback for recent pontiffs.)
+
 ### Build order: Saints BEFORE Miracles (decided 2026-08-15)
 Do **Các Thánh first**, then **Phép Lạ & Hiện Ra**. Why: (1) the Vietnamese Martyrs are the unique
 heritage anchor — highest distinctiveness, strongest identity pull; (2) a saint entry reuses the
