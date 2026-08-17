@@ -409,6 +409,15 @@ same **CGKPV licensing gate** as the scripture popover (`NEXT_PUBLIC_SCRIPTURE_P
 resolved, the tool can show verse *references* + hand-glosses, not the full CGKPV text.
 
 ## Still open
+- **Retrofit external `sources` / citations onto the OLDER content sections — Công Đồng (councils),
+  Giáo Phụ (church fathers), Các Thánh (saints).** These were built *before* the `sources` field existed
+  (Q&As have it; Miracles/Documents/Popes bake it in). The owner wants to go back and add cited sources so
+  the hard facts (dates, events, quotes) show their provenance — consistent with the verify-facts /
+  primary-source ethos (`CLAUDE.md`). **Two parts per section:** (a) add a `sources` field to that
+  section's data model + detail-page rendering *(the section's owning session)*; (b) populate **verified**
+  citations *(content)*. Reuse the `GiaiDapSource { label, url? }` shape. Substantial (~72 entries:
+  30 fathers · 21 councils · 21 saints) — **pace it; prioritize the most fact-dense entries first**, and
+  every citation web-verified before it ships.
 - **Q&A card banner fallback (website, Session 2).** `components/GiaiDapBrowser` renders the topic-card
   banner from `/images/giai-dap/<anchor>.jpg` unconditionally — a missing file shows a BROKEN image
   (recurring bug). Add a graceful fallback: on `next/image` error, swap to a placeholder (a colored
