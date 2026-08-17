@@ -67,6 +67,15 @@ anything it isn't sure of with **`[cần kiểm chứng]`** (needs verification)
 
 ---
 
+## Prompt A2 — Q&A cluster FROM a video script (Session 3's actual job)
+
+Turns a pasted video script into a Giải Đáp cluster (anchor + members). **Schema verified against the
+content-guide** — anchor carries `parts:`, members carry `part_of:`; answers are VI-only; `question_en`
+is for search. Self-contained (Grok has no repo access). Full copy-block is in the chat where this was
+requested; the key rules: sibling-not-transcript, concise question titles, tags from the fixed vocab,
+`sources` only for science/history, flag every uncertain fact/citation `[cần kiểm chứng]`, propose slugs
+(maintainer finalizes). Use this rather than the generic "Prompt A" when the input is an actual script.
+
 ## Prompt B — Saint life story (Các Thánh)
 
 **Revised 2026-08-15** after the first Grok run (Thérèse): it produced an excellent story but a
