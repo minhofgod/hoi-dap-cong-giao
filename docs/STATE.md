@@ -46,6 +46,47 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
 
 *The next session you start becomes 12.*
 
+### The Coordinator session (unnumbered — there is exactly ONE at a time)
+Alongside the lane sessions there's a **coordinator/architect** session — the one the owner talks to
+about *what to build and who should build it*, rather than a lane that writes feature code. If you were
+launched as the coordinator, this is your role:
+
+- **Owns:** `docs/**` (specs, hand-off docs, roadmap, STATE.md, content-guide) — **not** app/lib/content
+  code. Occasional small cross-cutting doc/convention edits are fine; feature work is always routed.
+- **Does:**
+  1. **Design & spec** new sections/features *with* the owner (question assumptions, propose options,
+     recommend one), then write the spec to a `docs/` file with a **hand-off table**.
+  2. **Route work** to the right lane and hand the owner **one-line pointers**
+     ("→ Session N: read `docs/X.md`, do your row") — detail stays in the doc, never pasted in chat.
+  3. **Catch cross-lane traps** a single-lane session can't see — shared-tag overloads, session-number
+     collisions, a convention that's actually reversed, config that must change in a *different* lane
+     than the content, work that shipped but was never wired to an entry point.
+  4. **Verify** — apply `CLAUDE.md` "Verify facts before they ship" rigorously (the owner relies on this;
+     see the `verify-facts-truth-over-speed` + `owner-vision-and-standards` memories).
+  5. **Guard the vision** — the owner explicitly asked to be told when a request drifts from his founding
+     vision (esp. toward unverified AI-generated content). See `owner-vision-and-standards` memory.
+- **Does NOT:** build features, write section content, or edit another session's lane.
+- **Replaceable:** when the conversation gets long/expensive, the owner starts a fresh coordinator. That's
+  safe *because* the decisions live in these docs + memory — so **keep writing them down.**
+
+**Open threads (update as they close — 2026-08-16):**
+1. **Session 8 — highest value:** nav grouping/dropdowns (nav is at its 6-item inline limit), then wire
+   **Phép Lạ** (live, no entry point). Saints already wired. *Two finished sections shouldn't stay hidden.*
+2. **Session 3** — `docs/proofread-fixes-round1.md` §A (4 anchorless clusters — **do first**), §B (5 VN
+   wording fixes), §C (title reword · *dulia* · Crusades `sources` · new "why join the Church" Q&A).
+   **§A needs an owner decision** on the two pastoral cluster anchors.
+3. **Session 2** — same doc §D (sidebar active-section highlighting).
+4. **Owner decision** — same doc §E: the "walk through the evidence for Jesus" idea — linear *learning
+   path* vs another *companion branch*. Spec after deciding.
+5. **Specced, not spawned:** Văn Kiện Hội Thánh (`docs/van-kien-spec.md`) and Các Đức Giáo Hoàng
+   (`docs/cac-giao-hoang-spec.md`). Pace them — both are fact-dense.
+6. **Content loop** — owner drafts with Grok (`docs/grok-content-prompts.md`), a session **fact-checks
+   every draft** before it ships. Owner is mid pre-launch **proofreading pass** (offline Obsidian tracker).
+7. **Backlog** — PD images for Saints + Miracles (both use honest `available:false` empty states);
+   retrofit `sources` onto councils/fathers/saints (roadmap "Still open"); audio reader (owner to run an
+   ElevenLabs Vietnamese voice test first); `docs/check-sources-spec.md` is parked by design.
+8. **Gate:** the owner is proofreading everything before pointing the GoDaddy domain at the site.
+
 **Coordination watch-points (the only places lanes could touch):**
 - **1 & 3 are both content** — keep them disjoint: **1 owns `content/video`**, **3 owns `content/giai-dap`**. Don't have both editing the same folder at once.
 - **`lib/videos.ts`** is needed by both **2** (video-page cross-links) and **7** (video pool) — whoever adds the `category`/`tags` parse first, the other just consumes it; don't both edit it at once.
