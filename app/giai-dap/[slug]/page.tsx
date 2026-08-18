@@ -10,6 +10,7 @@ import {
 } from '@/lib/giaiDap';
 import { getAllVideos, type Video } from '@/lib/videos';
 import { relatedByTaxonomy } from '@/lib/relatedContent';
+import { ArticleToc } from '@/components/ArticleToc';
 import { categoryLabel, tagLabel } from '@/lib/giaiDapTaxonomy';
 import { ScriptureRef } from '@/components/ScriptureRef';
 import { ScriptureBody } from '@/components/ScriptureBody';
@@ -256,6 +257,13 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
     </aside>
   ) : null;
 
+  // Section list for the article side nav (scrollspy): overview + each part, in reading order.
+  // Parts are Vietnamese-only, so vi === en (matching how they render as plain questionVi).
+  const tocSections = [
+    { id: 'tong-quan', vi: 'Tổng quan', en: 'Overview' },
+    ...parts.map((p) => ({ id: p.slug, vi: p.questionVi, en: p.questionVi })),
+  ];
+
   // Main/anchor question → assemble the whole article with a side nav.
   if (parts.length > 0) {
     return (
@@ -295,19 +303,7 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
 
             <aside className={styles.toc}>
               <div className={styles.tocInner}>
-                <div className={styles.tocLabel}>
-                  <T vi="Trong bài này" en="In this article" />
-                </div>
-                <nav className={styles.tocNav}>
-                  <a href="#tong-quan" className={styles.tocLink}>
-                    <T vi="Tổng quan" en="Overview" />
-                  </a>
-                  {parts.map((p) => (
-                    <a key={p.slug} href={`#${p.slug}`} className={styles.tocLink}>
-                      {p.questionVi}
-                    </a>
-                  ))}
-                </nav>
+                <ArticleToc sections={tocSections} />
               </div>
               <SeeAlsoContent videos={relatedVideos} related={related} />
             </aside>

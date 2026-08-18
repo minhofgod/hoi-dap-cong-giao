@@ -221,10 +221,17 @@
   padding: 7px 0 7px 14px;
   margin-left: -2px;
   border-left: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 .tocLink:hover {
   text-decoration: none;
   color: var(--text-heading);
+  border-left-color: var(--accent);
+}
+/* Scrollspy: the section currently in view (see components/ArticleToc). */
+.tocLinkActive {
+  color: var(--text-heading);
+  font-weight: 600;
   border-left-color: var(--accent);
 }
 
