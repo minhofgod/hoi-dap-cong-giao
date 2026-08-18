@@ -60,10 +60,15 @@ citations), optionally online sources *with verification*. Risks to design aroun
 - **Advice text = hand-written snippets** keyed to situations (no LLM to start; AI is a later layer).
 - **Build order**: taxonomy + browse/filter first → then the companion flow → then evaluate AI.
 
-### Companion tool — final naming & copy (locked 2026-08-15)
-- **Name / nav / entry:** Đi Tìm Lời Giải · EN **Find Answers**. Route `/tim-loi-giai`.
-  (Rejected: "Đồng Hành" — in VN it reads as a fundraising/sponsorship ask; "Đi Tìm Sự Thật" — too
-  narrow, excludes the strengthen-my-faith / need-advice audiences.)
+### Companion tool — final naming & copy (locked 2026-08-15 · **name REVERSED 2026-08-18**)
+- **Name / nav / entry — SETTLED: `Đồng hành` · EN `Companion`. Route `/dong-hanh`.** This is what the
+  code, the nav, the homepage band, the saint bridge links, and the docs have always used — the rename
+  below was locked on paper but never executed, and on 2026-08-18 the owner confirmed the current name
+  stands. **Do not "fix" this to match the old decision.**
+  - *Superseded (2026-08-15):* "Đi Tìm Lời Giải / Find Answers" at `/tim-loi-giai`, on the concern that
+    "Đồng Hành" reads in VN as a fundraising/sponsorship ask. Recorded so it isn't revisited.
+  - *Also rejected then and still rejected:* "Đi Tìm Sự Thật" — too narrow, excludes the
+    strengthen-my-faith / need-advice audiences.
 - **Tagline:** "Dù bạn đang tìm bằng chứng, muốn vững tin hơn, hay cần một lời khuyên — hãy bắt đầu tại đây."
   / "Whether you're looking for evidence, want to grow in faith, or need advice — start here."
 - **Opening question:** "Điều gì đưa bạn đến đây?" / "What brings you here?"

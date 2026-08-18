@@ -69,13 +69,18 @@ launched as the coordinator, this is your role:
 - **Replaceable:** when the conversation gets long/expensive, the owner starts a fresh coordinator. That's
   safe *because* the decisions live in these docs + memory — so **keep writing them down.**
 
-**Open threads (update as they close — 2026-08-16):**
-1. **Session 8 — highest value:** nav grouping/dropdowns (nav is at its 6-item inline limit), then wire
-   **Phép Lạ** (live, no entry point). Saints already wired. *Two finished sections shouldn't stay hidden.*
+**Open threads (update as they close — 2026-08-18):**
+1. **Session 8 — highest value, SPECCED & ready:** `docs/nav-and-phep-la-wiring.md`. Design the nav
+   shape (owner's call 2026-08-18: *Session 8 designs it*, constraints in the doc — design for ~9
+   sections, not 7), confirm with the owner, then wire **Phép Lạ** (live since 4fbd36e with no
+   homepage card, nav item, **or footer link** — URL-only). Saints already wired. *A finished section
+   nobody can find is the most expensive kind of unfinished work.*
 2. **Session 3** — `docs/proofread-fixes-round1.md` §A (4 anchorless clusters — **do first**), §B (5 VN
    wording fixes), §C (title reword · *dulia* · Crusades `sources` · new "why join the Church" Q&A).
-   **§A needs an owner decision** on the two pastoral cluster anchors.
-3. **Session 2** — same doc §D (sidebar active-section highlighting).
+   **§A: Session 3 is already working it (2026-08-18); the owner is holding the pastoral-anchor
+   decision until then — don't re-route or pre-empt it.**
+3. **Session 2** — same doc §D (sidebar active-section highlighting). **In progress 2026-08-18** —
+   `components/ArticleToc.tsx` + `app/giai-dap/[slug]/*` uncommitted in the tree.
 4. **Owner decision** — same doc §E: the "walk through the evidence for Jesus" idea — linear *learning
    path* vs another *companion branch*. Spec after deciding.
 5. **Specced, not spawned:** Văn Kiện Hội Thánh (`docs/van-kien-spec.md`) and Các Đức Giáo Hoàng
@@ -86,6 +91,13 @@ launched as the coordinator, this is your role:
    retrofit `sources` onto councils/fathers/saints (roadmap "Still open"); audio reader (owner to run an
    ElevenLabs Vietnamese voice test first); `docs/check-sources-spec.md` is parked by design.
 8. **Gate:** the owner is proofreading everything before pointing the GoDaddy domain at the site.
+9. **CLOSED 2026-08-18 — companion naming.** `docs/roadmap.md` had locked a rename to "Đi Tìm Lời Giải
+   / Find Answers" (`/tim-loi-giai`) on 2026-08-15; it was never executed and every file still said
+   `Đồng hành` / `/dong-hanh`. **Owner confirmed the current name stands — keep `Đồng hành`.** The
+   roadmap entry now records the reversal. If you spot the old decision, the CODE is right; don't
+   "fix" it.
+10. **Housekeeping:** `track.tmp` (sync-tracker output) is untracked in the repo root — gitignore or
+    delete it, don't commit it. A stale worktree sits at `.claude/worktrees/sleepy-yalow-821f8a/`.
 
 **Coordination watch-points (the only places lanes could touch):**
 - **1 & 3 are both content** — keep them disjoint: **1 owns `content/video`**, **3 owns `content/giai-dap`**. Don't have both editing the same folder at once.
