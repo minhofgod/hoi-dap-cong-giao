@@ -9,6 +9,9 @@ const TONE: Record<RecognitionStatus, string> = {
   venerated: styles.venerated,
   'not-ruled': styles.notRuled,
   'cure-approved': styles.approved,
+  // A real canonical act, but not Rome's — so it must not borrow the gold of `approved`, and must
+  // not wear the dashed outline that means "nobody has ruled."
+  'other-church': styles.otherChurch,
 };
 
 /** The recognition badge — the one piece of metadata this section must never let a reader miss.

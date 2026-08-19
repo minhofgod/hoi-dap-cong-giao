@@ -39,3 +39,11 @@
   color: var(--text-quiet);
   border: 1px dashed var(--border-strong);
 }
+
+/* A formal act, but by a Church other than the Catholic Church. Solid like a real decision,
+   sage rather than gold so it is never mistaken for a Roman approval. */
+.otherChurch {
+  background: var(--sage-tint);
+  color: var(--sage-deep);
+  border: 1px solid #cdd7bb;
+}

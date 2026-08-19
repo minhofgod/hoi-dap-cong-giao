@@ -62,8 +62,8 @@ export const TYPE_BLURB: Record<MiracleType, Bi> = {
     en: 'Hosts reported to have changed, or to have kept from decaying. The Church permits veneration of these relics; it has never declared that science proves them — and a few of the "scientific proofs" circulating online turn out not to exist at all.',
   },
   'marian-apparition': {
-    vi: 'Những cuộc hiện ra đã qua điều tra và được thẩm quyền Hội Thánh chấp thuận. Tất cả đều thuộc mặc khải tư: được nhìn nhận là "đáng tin", nhưng không buộc phải tin như tín điều. Mặc khải công khai đã kết thúc với các Tông Đồ (GLHTCG 66).',
-    en: 'Apparitions that were investigated and approved by Church authority. Every one of them is private revelation: judged "worthy of belief," never binding as an article of faith. Public revelation closed with the apostles (GLHTCG 66).',
+    vi: 'Những cuộc hiện ra đã qua điều tra của thẩm quyền Hội Thánh. Phần lớn đã được chuẩn nhận; một vài trường hợp có tình trạng khác — chưa từng có phán quyết, hoặc do một Giáo hội khác công nhận — và nhãn trên mỗi dòng nói rõ điều đó. Tất cả đều thuộc mặc khải tư: được nhìn nhận là "đáng tin", nhưng không buộc phải tin như tín điều. Mặc khải công khai đã kết thúc với các Tông Đồ (GLHTCG 66).',
+    en: 'Apparitions investigated by Church authority. Most were approved; a few stand differently — never ruled on, or recognised by another Church — and the label on each row says which. Every one of them is private revelation: judged "worthy of belief," never binding as an article of faith. Public revelation closed with the apostles (GLHTCG 66).',
   },
   healing: {
     vi: 'Nơi bằng chứng ở dạng chặt chẽ nhất: hồ sơ bệnh án, hội đồng bác sĩ, và một quy trình sẵn sàng nói "không giải thích được" mà vẫn không nói "đây là phép lạ". Trong hơn 7.000 hồ sơ tại Lộ Đức, chỉ 70 trường hợp được Hội Thánh nhìn nhận.',
@@ -91,14 +91,25 @@ export const TYPE_BLURB: Record<MiracleType, Bi> = {
  *                     ever adjudicated the event (most of the medieval Eucharistic cases).
  *   - `not-ruled`     the devotion is fully approved, the event itself has never been judged
  *                     (La Vang). Named explicitly rather than left to the reader to assume.
- *   - `cure-approved` a cure or canonization miracle formally recognised after medical review. */
-export type RecognitionStatus = 'approved' | 'venerated' | 'not-ruled' | 'cure-approved';
+ *   - `cure-approved` a cure or canonization miracle formally recognised after medical review.
+ *   - `other-church`  a Church in apostolic succession — not the Catholic Church — issued the
+ *                     formal act, and Rome deferred to it rather than ruling (Zeitoun, recognised
+ *                     by the Coptic Orthodox Church in 1968). Neither `approved` nor `not-ruled`
+ *                     tells that truth: the first would credit Rome with an act it never made,
+ *                     the second would erase a real canonical judgement. */
+export type RecognitionStatus =
+  | 'approved'
+  | 'venerated'
+  | 'not-ruled'
+  | 'cure-approved'
+  | 'other-church';
 
 export const STATUS_LABEL: Record<RecognitionStatus, Bi> = {
   approved: { vi: 'Đã được phê chuẩn', en: 'Formally approved' },
   venerated: { vi: 'Được tôn kính lâu đời', en: 'Long venerated' },
   'not-ruled': { vi: 'Chưa có phán quyết', en: 'No formal ruling' },
   'cure-approved': { vi: 'Đã được công nhận', en: 'Officially recognised' },
+  'other-church': { vi: 'Giáo hội khác công nhận', en: 'Recognised by another Church' },
 };
 
 /** One line spelling out what the label does and does not mean — rendered next to every badge, so
@@ -119,6 +130,10 @@ export const STATUS_NOTE: Record<RecognitionStatus, Bi> = {
   'cure-approved': {
     vi: 'Một hội đồng y khoa kết luận trường hợp này không giải thích được theo hiểu biết y học hiện nay, và sau đó giám mục giáo phận tuyên bố nhìn nhận. Hai bước tách biệt: y khoa nói "không giải thích được", Hội Thánh mới nói "phép lạ".',
     en: 'A medical board concluded the case is unexplained by current medical knowledge, after which the diocesan bishop declared it recognised. Two separate steps: medicine says "unexplained," only then does the Church say "miracle."',
+  },
+  'other-church': {
+    vi: 'Một Giáo hội có sự kế vị tông đồ — mà Hội Thánh Công giáo nhìn nhận chức thánh và các bí tích là thành sự — đã điều tra và ra tuyên bố chính thức về biến cố này. Tòa Thánh không tự ra phán quyết riêng, nhưng minh nhiên tôn trọng thẩm quyền của Giáo hội địa phương ấy. Vì thế đây không phải là "Rôma đã phê chuẩn", và cũng không phải là "chưa ai phán quyết".',
+    en: 'A Church in apostolic succession — whose orders and sacraments the Catholic Church recognises as valid — investigated and issued a formal statement on this event. The Holy See made no separate ruling of its own, but expressly deferred to that local Church’s authority. So this is neither “Rome approved it” nor “nobody has ruled.”',
   },
 };
 
