@@ -31,12 +31,18 @@ routed; don't write it yourself.
 
 | Folder | Meaning |
 |---|---|
-| `Drafts/` (or loose in the root) | not ready — the owner is still writing it. **Leave it alone.** |
+| `Drafts/` (or loose in the root) | not ready — the owner is still writing it. **Never touch the prose.** |
 | `Unpublished Video Scripts/` | finalized script, no video yet — **ready for you** |
 | `Finished Videos/` | the exact script of a published video — **ready for you** |
 | `Processed Video Scripts/` | your output: a ready script with wikilinks added |
 
 Copy into `Processed Video Scripts/` — the source file stays where it is.
+
+**"Leave alone" means the prose, not the metadata.** Frontmatter flags are bookkeeping, not writing, so
+you may correct a wrong `Wikilink:` / `To Q&A:` value **in any folder**, including `Drafts/`. A draft
+carrying `Wikilink: true` or `To Q&A: true` is simply wrong and should be fixed. **If a file is ever
+moved back to `Drafts/`, reset both flags to `false`** — it is no longer processed and no longer
+Q&A-ready.
 
 ## Never overwrite the source
 
@@ -44,6 +50,23 @@ Copy into `Processed Video Scripts/` — the source file stays where it is.
 official CGKPV verse text. Always **copy** to `Processed Video Scripts/` (same filename) and apply
 wikilinks to the copy only. Read-aloud verses become embeds that render official CGKPV text, which
 would otherwise collide with the owner's own phrasing in the source he records from.
+
+## Leftover AI/tool chatter — strip it from the Processed copy (ruling 2026-08-18)
+
+Some scripts carry text that isn't the owner's voice at all, but a previous tool talking to him —
+*"Dưới đây là bản dịch tiếng Việt đầy đủ…"*, *"Bạn muốn mình chỉnh lại phần nào…"*, *"I'll process
+this Vietnamese Catholic script…"*, *"✅ Vietnamese Version – Fully Converted"*. **Session 3 authors
+public Q&As from the Processed copies**, so this is a live contamination path into site content.
+"Never alter the script's prose" protects the owner's *voice* — chatter isn't his voice, so:
+
+- **In `Processed Video Scripts/`: remove it.** This is the copy Session 3 reads.
+  Record what you removed in an HTML comment at the top so nothing vanishes silently, e.g.
+  `<!-- GHI CHÚ: đã gỡ phần chatter của công cụ AI (dòng mở đầu "Dưới đây là bản dịch…" và câu hỏi cuối bài). -->`
+- **In `Finished Videos/` and `Unpublished Video Scripts/`: never.** Those are the voiceover masters —
+  a bad judgment call there costs the owner his own wording. Report what you saw instead.
+- **In `Drafts/`: never** — they're his working files.
+- **If a line is ambiguous** — it might be his — **leave it and flag it** with
+  `<!-- check: chatter or script? -->`. Do not guess.
 
 ## Frontmatter
 
@@ -121,10 +144,27 @@ no `To Q&A`, and no GHI CHÚ note despite having zero links. It's the only proce
 state. Add the frontmatter (`Wikilink: true`; `To Q&A: true` — `giao-hoi-co-tung-bat-buoc-nop-thap-phan`
 is live) and, if the script genuinely has no verse references, the GHI CHÚ note.
 
-**4. Confirm the Sola Fide rename.** `Duy Đức Tin (Faith alone, Sola Fide).md` sits in Unpublished +
-Processed, while the older `Sola Fide.md` and `Arguments against Sola Fide.md` sit in `Drafts/`. This
-looks like a rename you made. Confirm it, so the pipeline tracker's mapping row can be pointed at the
-current filename — right now the tracker maps the topic to two filenames that only exist as drafts.
+**4. ~~Confirm the Sola Fide rename.~~ RESOLVED 2026-08-18 — there was no rename.** (Session 4's audit
+corrected this; the original guess here was wrong.) `Duy Đức Tin (Faith alone, Sola Fide).md` is a
+**distinct, clean Vietnamese Sola Fide script**; `Sola Fide.md` and `Arguments against Sola Fide.md`
+are **separate older drafts** (the ones carrying tool chatter), since moved to `Drafts/`. So the
+pipeline tracker's row must **not** be repointed as a rename — instead its "Script file" cell should
+**add** `Duy Đức Tin (Faith alone, Sola Fide)`, which is the Q&A-ready file for `duc-tin-va-viec-lam`.
+*(Owner: that's the tracker edit; nothing for Session 4 here.)*
+
+**5. Fix the flag errors the audit found** (all in-lane, all metadata):
+- `Unpublished/Fine-tuning Argument.md` has `Wikilink: true` — it's a **source** file, so `false`.
+- `Drafts/Sola Fide.md` has `Wikilink: true` **and `To Q&A: true`** — both wrong on a draft.
+- `Drafts/Arguments against Sola Fide.md` has `Wikilink: true` — wrong on a draft.
+
+**6. Strip the tool chatter** from the Processed copies per the ruling above:
+`Duy Đức Tin` (opening line + closing question) and
+`Tại sao người Công Giáo cầu nguyện với các Thánh` (opening line). Leave the `Drafts/Sola Fide.md`
+chatter in place — it's a draft.
+
+**Note for the two Sola Scriptura scripts:** no Sola Scriptura cluster exists in `content/giai-dap/`
+yet, so they process with `To Q&A: false`. Once they're wikilinked, that's a **→ Session 3** flag: a
+Sola Scriptura Q&A cluster becomes authorable. Report it; don't write it.
 
 ## Reporting back
 
