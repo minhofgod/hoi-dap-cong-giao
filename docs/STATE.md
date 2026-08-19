@@ -83,7 +83,16 @@ launched as the coordinator, this is your role:
    `tai-sao-chua-giesu-chiu-dong-dinh` anchor's `parts:` (merged into the article) — the standing rule
    is *ask first, default to `related`*, and §C4 specified `related`. Owner to confirm keep-or-move.
 3. **CLOSED 2026-08-18 — §D sidebar scrollspy** landed in `1a69e19` (Session 2).
-   §E (evidence-walkthrough fork) is the only open item left in that doc — owner decision, thread 4.
+   `docs/proofread-fixes-round1.md` is now **fully resolved** (§E → thread 4).
+3b. **NEW → Session 3 (from the owner's proofreading pass, 2026-08-18).** Write the objection:
+   *"He's God, so his 'sacrifice' doesn't really mean much — he can just resurrect himself. Like a
+   very rich person giving away a few thousand dollars."* Belongs in the **crucifixion cluster**
+   (`tai-sao-chua-giesu-chiu-dong-dinh`) next to `song-tot-ca-doi-sao-khong-tu-tra-het-toi` and
+   `chua-giesu-la-thien-chua-sao-khong-tu-cuu-minh`. Per the revised rule (`docs/content-guide.md`)
+   adding it to the anchor's `parts:` is fine — **and then un-tick the anchor in the proofreading
+   tracker again**, plus add the new part's row. Theologically subtle (real human suffering, the
+   cost being genuine, who the offering is made by and to): **anchor to the Catechism + magisterial
+   documents and verify — do not reason it out from memory.**
 4. **DECIDED 2026-08-18 — §E "walk through the evidence for Jesus": a linear learning path, NOT a
    companion branch.** Specced in `docs/evidence-path-spec.md` (4 stages over 4 already-proofread
    clusters; `/bang-chung` + route-per-stage; composes with the companion rather than duplicating it).
