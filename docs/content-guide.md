@@ -227,9 +227,23 @@ pages stay separate for search/SEO (no content duplication). `featured: true` al
 on `/giai-dap` and can appear in the homepage hero.
 
 A single comment or one-off objection becomes **one** Q&A, `related`-linked to an existing cluster
-if it fits. **Owner-set rule:** never auto-add a new question to an existing anchor's `parts:` —
-**ask** whether to merge it into the article (`parts`) or just cross-link it (`related`). Default to
-`related`.
+if it fits.
+
+**Owner-set rule (revised 2026-08-18):** adding a new Q&A straight into an existing anchor's `parts:`
+is **fine when it genuinely belongs to that same topic/cluster** — no need to ask first. Judge it by
+the `topic`, not by convenience: if the question isn't really part of that topic, use `related`
+instead (that's still the default for a one-off objection that merely *touches* the cluster).
+
+**But merging into `parts:` changes the ANCHOR's page** — its article assembles the overview plus
+every part, so it grows a new section even though the anchor's own file wasn't edited. So whenever you
+add a part to an existing cluster:
+
+1. **Un-tick the anchor in the proofreading tracker** (`D:\Dropbox\Obsidian Vault\Hỏi Đáp —
+   Proofreading Tracker (pre-launch).md`) and note why — the owner re-proofreads the assembled
+   article, not just the new part.
+2. Add the new part's own row there too (unticked).
+
+*(Supersedes the earlier "never auto-add — always ask, default to `related`" rule.)*
 
 ### The process (per source)
 
