@@ -20,12 +20,39 @@ const beVietnamPro = Be_Vietnam_Pro({
   display: "swap",
 });
 
+const SITE_NAME = "Hỏi Đáp Công Giáo";
+const SITE_DESCRIPTION =
+  "Câu hỏi và giải đáp đức tin Công Giáo, Giáo Lý Hội Thánh Công Giáo song ngữ Việt–Anh, và các bản văn Giáo Phụ.";
+
 export const metadata: Metadata = {
   // metadataBase makes Open Graph / canonical URLs absolute. Without it Next warns at build and
   // social previews resolve against localhost. Single source of truth: lib/siteUrl.ts.
   metadataBase: new URL(SITE_URL),
-  title: "Hỏi Đáp Công Giáo",
-  description: "Câu hỏi và giải đáp đức tin Công Giáo, Giáo Lý Hội Thánh Công Giáo song ngữ Việt–Anh, và các bản văn Giáo Phụ.",
+  // `template` lets section pages set just their own title (e.g. "Giải Đáp") and get
+  // "Giải Đáp · Hỏi Đáp Công Giáo" without repeating the site name by hand. `default` is the
+  // home/untitled fallback.
+  title: {
+    default: SITE_NAME,
+    template: `%s · ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  // Vietnamese-first social card (a bare link on Facebook/Zalo otherwise shows no title/image).
+  // The image comes from app/opengraph-image.tsx via the file-based convention.
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    locale: "vi_VN",
+    alternateLocale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+  },
 };
 
 const LANG_PREPAINT_SCRIPT = `
