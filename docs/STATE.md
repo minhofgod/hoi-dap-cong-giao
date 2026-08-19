@@ -53,7 +53,9 @@ this file.
 
 | 13 | Evidence path (Bằng chứng về Chúa Giêsu) | `app/bang-chung`, `components/bang-chung`, `lib/evidencePath*`, `lib/evidencePathFlag.ts` | the guided 4-stage walk through the case for Jesus | **BUILT `8f02cf8`** — 4 stages over 4 existing clusters, **LOCAL-ONLY** behind `NEXT_PUBLIC_EVIDENCE_PATH` (default off, Canvas shape; routes `notFound()` and `generateStaticParams` returns `[]` when gated). Answers render **INLINE** (the no-navigate-away rule) — read from the cluster `.md` at build time, so no text is duplicated, and bodies mount only on expand so they stay out of crawlable HTML. Built **no** entry points by design. Verified: tsc + lint clean. **→ hand-off in `docs/evidence-path-handoff.md`: Session 8** (homepage card · nav · footer · **sitemap routes** — all flag-gated) and **Session 7** (`doubt-evidence` CTA). **→ owner:** proofread the 4 bridge paragraphs, add them to the tracker, then set the flag on Vercel. |
 
-*The next session you start becomes 14.*
+| 14 | Tổng luận Thần học (The Summa, Explained) | `docs/tong-luan-verification.md` in pass 1; then `content/tong-luan`, `app/tong-luan`, `lib/tongLuan*` | verifies then builds the 37-chapter Aquinas reader | **specced, not started** — `docs/tong-luan-spec.md`. **Source text is AI-GENERATED = unverified**, so VERIFY FIRST, BUILD SECOND; pilot on the intro + Phần I before committing to all 37. Gate behind `NEXT_PUBLIC_TONG_LUAN`. |
+
+*The next session you start becomes 15.*
 
 ### The Coordinator session (unnumbered — there is exactly ONE at a time)
 Alongside the lane sessions there's a **coordinator/architect** session — the one the owner talks to
