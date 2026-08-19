@@ -17,6 +17,8 @@ related:
   - "khoa-hoc-va-ton-giao-co-mau-thuan-khong"
 ---
 
+Hãy thử hình dung: gom hết mọi hạt cát trên tất cả các bãi biển của Trái Đất, rồi nhân lên hàng tỷ Trái Đất phủ đầy cát — và trong toàn bộ khối cát khổng lồ ấy chỉ có **một** hạt được đánh dấu. Bây giờ bịt mắt lại, thò tay vào đúng **một lần**, và bốc trúng ngay hạt ấy. Gần như không thể, phải không? Vậy mà các nhà khoa học tính rằng việc vũ trụ của chúng ta *tình cờ* khởi đầu ở đúng trạng thái cần thiết cho sự sống **còn khó xảy ra hơn cả thế.**
+
 Một trong những khám phá đáng kinh ngạc nhất của khoa học hiện đại là: vũ trụ của chúng ta được "thiết lập" với độ chính xác phi thường để sự sống có thể tồn tại. Các nhà khoa học — dù tin Chúa hay không — gọi hiện tượng này là **sự điều chỉnh tinh vi** (*fine-tuning*).
 
 Nếu chỉ cần thay đổi một chút các hằng số nền tảng của vật lý — tốc độ giãn nở của vũ trụ, sức mạnh của lực hấp dẫn, và nhiều thông số khác — thì đã không thể có ngôi sao, hành tinh, hay sự sống nào. Sự trùng khớp chính xác đến mức nhiều người thấy khó tin rằng nó chỉ là kết quả của **ngẫu nhiên thuần túy**. Đây là nền tảng của **lập luận thiết kế** cho sự hiện hữu của một Đấng Sáng Tạo — một Nhà Thiết Kế thông minh.
