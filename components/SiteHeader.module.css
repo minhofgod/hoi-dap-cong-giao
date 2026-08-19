@@ -8,7 +8,7 @@
   padding: 0 var(--page-gutter);
   border-bottom: 1px solid var(--border);
   background: var(--ground);
-  gap: 20px;
+  gap: 16px;
 }
 
 .brand {
@@ -36,8 +36,9 @@
 .nav {
   flex: 1;
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 20px;
 }
 
 .navItem {
@@ -57,6 +58,84 @@
   border-bottom-color: var(--accent);
 }
 
+/* ---- Family dropdowns (disclosure pattern: button + panel of links) ---- */
+.navGroup {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.navTrigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-family: inherit;
+  cursor: pointer;
+}
+.chevron {
+  transition: transform 0.15s ease;
+}
+.navTrigger[aria-expanded='true'] .chevron {
+  transform: rotate(180deg);
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 26px);
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 210px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: 0 12px 28px rgba(32, 30, 29, 0.12);
+  z-index: 40;
+}
+.dropdownLink {
+  padding: 10px 12px;
+  border-radius: var(--radius-row);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--text-body);
+  white-space: nowrap;
+}
+.dropdownLink:hover {
+  text-decoration: none;
+  background: #fbf6ee;
+  color: var(--text-heading);
+}
+.dropdownLinkActive {
+  font-weight: 500;
+  color: var(--text-heading);
+  background: var(--gold-tint);
+}
+
+/* ---- Mobile: groups flatten into labelled sections ---- */
+.mobileGroup {
+  border-bottom: 1px solid var(--border);
+  padding: 8px 0;
+}
+.mobileGroupLabel {
+  padding: 6px 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+}
+.mobileSubLink {
+  padding-left: 14px;
+  border-bottom: 0;
+  font-size: 15px;
+}
+
 .actions {
   display: flex;
   align-items: center;
@@ -66,7 +145,7 @@
 
 .searchForm {
   position: relative;
-  width: 200px;
+  width: 176px;
 }
 .searchIcon {
   position: absolute;
@@ -162,13 +241,11 @@
   padding: 14px 4px 2px;
 }
 
-/* Collapse the inline nav + search into the hamburger menu below the width where the full bar
-   comfortably fits (~1140px min content: brand + 6 nav items incl. the long "Lịch Sử Hội Thánh" +
-   language toggle + search). Kept at 1199px so no viewport shows a cramped/overflowing bar. The bar
-   is near the practical limit for inline items — as more sections are added (Miracles, etc.) the nav
-   will need grouping/dropdowns rather than a still-higher breakpoint; everything already lives in the
-   dropdown below this width, so the bar stays clean meanwhile. */
-@media (max-width: 1199px) {
+/* Collapse the inline nav + search into the hamburger below the width where the full bar fits
+   (~1200px min: brand + Giải Đáp + two long VI family labels + language toggle + search). Grouping
+   caps the bar at 4 top-level items, so this width is now STABLE — future sections slot into the
+   dropdowns without widening it. Everything lives in the hamburger below this breakpoint. */
+@media (max-width: 1259px) {
   .header {
     padding: 0 var(--mobile-gutter);
     gap: 10px;

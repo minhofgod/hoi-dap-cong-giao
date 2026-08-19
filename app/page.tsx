@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Play } from 'lucide-react';
+import { Play, Sparkles } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { content, toc, resolveCatechism } from '@/lib/content';
 import { formatTocLabel } from '@/lib/titleFormat';
 import { getAllFathers } from '@/lib/churchFathers';
 import { getAllCouncils } from '@/lib/councilsV2';
 import { getAllSaints } from '@/lib/saintsV2';
+import { getAllMiracles } from '@/lib/miraclesV2';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getAllVideos } from '@/lib/videos';
 import { resolveReference } from '@/lib/bibleRefs';
@@ -47,6 +48,7 @@ const PART_IMAGES = [
 const fathersCount = getAllFathers().length;
 const councilsCount = getAllCouncils().length;
 const saintsCount = getAllSaints().length;
+const miraclesCount = getAllMiracles().length;
 const questions = getAllQuestions();
 const questionsCount = questions.length;
 const homeVideos = getAllVideos().slice(0, 3);
@@ -179,6 +181,27 @@ export default function HomePage() {
             </span>
             <span className={styles.cardCount}>
               <T vi={`${saintsCount} vị`} en={`${saintsCount} saints`} />
+            </span>
+          </span>
+        </Link>
+        {/* No card image: /images/phep-la is Session 11's lane and doesn't exist yet, so use an
+            icon placeholder rather than an <Image> that would 404. */}
+        <Link href="/phep-la" className={`${styles.card} ${styles.cardBlue}`}>
+          <span className={`${styles.cardImage} ${styles.cardImagePlaceholder}`} aria-hidden="true">
+            <Sparkles size={40} strokeWidth={1.5} className={styles.cardPlaceholderIcon} />
+          </span>
+          <span className={styles.cardBody}>
+            <span className={styles.cardTitle}>
+              <T vi="Phép Lạ & Hiện Ra" en="Miracles & Apparitions" />
+            </span>
+            <span className={styles.cardDesc}>
+              <T
+                vi="Các trường hợp đã được thẩm định — kèm giới hạn của mỗi phép lạ và mức độ Hội Thánh chuẩn nhận."
+                en="Verified cases — each with what it does not establish and how far the Church has ruled."
+              />
+            </span>
+            <span className={styles.cardCount}>
+              <T vi={`${miraclesCount} trường hợp`} en={`${miraclesCount} cases`} />
             </span>
           </span>
         </Link>
@@ -450,6 +473,9 @@ export default function HomePage() {
             </Link>
             <Link href="/cac-thanh" className={styles.footerLink}>
               <T vi="Các Thánh" en="The Saints" />
+            </Link>
+            <Link href="/phep-la" className={styles.footerLink}>
+              <T vi="Phép Lạ & Hiện Ra" en="Miracles & Apparitions" />
             </Link>
           </div>
           <div className={styles.footerCol}>

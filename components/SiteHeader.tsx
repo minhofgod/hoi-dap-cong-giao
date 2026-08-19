@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { BrandMark } from './BrandMark';
 import { LanguageToggle } from './LanguageToggle';
 import { T } from './T';
@@ -11,34 +11,91 @@ import { useLang } from '@/lib/giao-phu/useLang';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import styles from './SiteHeader.module.css';
 
-interface Section {
+interface NavLink {
   href: string;
   vi: string;
   en: string;
-  /** Extra route prefixes that should also mark this item active (e.g. hub child routes). */
+  /** Extra route prefixes that also mark this link active (e.g. a hub's child routes). */
   also?: string[];
 }
+interface NavGroup {
+  vi: string;
+  en: string;
+  children: NavLink[];
+}
+type NavEntry = NavLink | NavGroup;
+const isGroup = (e: NavEntry): e is NavGroup => 'children' in e;
 
-const SECTIONS: Section[] = [
+// Nav shape: two flagship links flank two family dropdowns (docs/nav-and-phep-la-wiring.md, Option A).
+// Grouping keeps the bar to 4 top-level items as sections grow (Văn Kiện, Các Đức Giáo Hoàng slot into
+// the existing groups without a new top-level entry).
+const NAV: NavEntry[] = [
   { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A' },
-  { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism' },
-  // The Church History hub groups Giáo Phụ (Fathers) + Công Đồng (Councils) into one nav item,
-  // surfacing the Councils without a separate top-level entry (docs/roadmap.md — homepage IA).
-  // `also` keeps the hub highlighted on its child routes (the Fathers/Councils detail pages).
-  { href: '/lich-su-hoi-thanh', vi: 'Lịch Sử Hội Thánh', en: 'Church History', also: ['/giao-phu', '/cong-dong'] },
-  { href: '/cac-thanh', vi: 'Các Thánh', en: 'Saints' },
-  { href: '/video', vi: 'Video', en: 'Videos' },
-  // Đồng hành companion — last nav item. Gated so it vanishes (along with the route + homepage
-  // band) when NEXT_PUBLIC_COMPANION=0, leaving no dead link.
-  ...(COMPANION_ENABLED ? [{ href: '/dong-hanh', vi: 'Đồng hành', en: 'Companion' }] : []),
+  {
+    vi: 'Học hỏi đức tin',
+    en: 'Learn',
+    children: [
+      { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism' },
+      { href: '/video', vi: 'Video', en: 'Videos' },
+      // + Văn Kiện Hội Thánh (/van-kien) when that section ships.
+    ],
+  },
+  {
+    vi: 'Lịch sử & chứng nhân',
+    en: 'History & Witnesses',
+    children: [
+      // The Church History hub already groups Giáo Phụ + Công Đồng; `also` keeps it active there.
+      { href: '/lich-su-hoi-thanh', vi: 'Lịch Sử Hội Thánh', en: 'Church History', also: ['/giao-phu', '/cong-dong'] },
+      { href: '/cac-thanh', vi: 'Các Thánh', en: 'Saints' },
+      { href: '/phep-la', vi: 'Phép Lạ & Hiện Ra', en: 'Miracles & Apparitions' },
+      // + Các Đức Giáo Hoàng (/cac-giao-hoang) when that section ships.
+    ],
+  },
+  // Đồng hành companion — gated so it vanishes (with the route + homepage band) when the flag is off.
+  ...(COMPANION_ENABLED
+    ? [{ href: '/dong-hanh', vi: 'Đồng hành', en: 'Companion' } as NavLink]
+    : []),
 ];
 
 export function SiteHeader() {
   const pathname = usePathname();
   const lang = useLang();
-  const [open, setOpen] = useState(false);
-  const isActive = (s: Section) =>
-    [s.href, ...(s.also ?? [])].some((prefix) => pathname.startsWith(prefix));
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [openGroup, setOpenGroup] = useState<number | null>(null);
+  const navRef = useRef<HTMLElement>(null);
+  const triggerRefs = useRef<Array<HTMLButtonElement | null>>([]);
+
+  // Close everything on navigation. Done as a render-time comparison (not an effect) so a stale
+  // dropdown never paints on the new route — React re-renders immediately with the reset state.
+  const [lastPath, setLastPath] = useState(pathname);
+  if (pathname !== lastPath) {
+    setLastPath(pathname);
+    setOpenGroup(null);
+    setMobileOpen(false);
+  }
+
+  const linkActive = (l: NavLink) =>
+    [l.href, ...(l.also ?? [])].some((prefix) => pathname.startsWith(prefix));
+  const groupActive = (g: NavGroup) => g.children.some(linkActive);
+
+  // Click outside the nav closes an open desktop dropdown.
+  useEffect(() => {
+    if (openGroup === null) return;
+    const onDown = (e: MouseEvent) => {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) setOpenGroup(null);
+    };
+    document.addEventListener('mousedown', onDown);
+    return () => document.removeEventListener('mousedown', onDown);
+  }, [openGroup]);
+
+  // Escape closes the open dropdown and returns focus to its trigger (disclosure-menu a11y).
+  const onNavKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Escape' && openGroup !== null) {
+      const i = openGroup;
+      setOpenGroup(null);
+      triggerRefs.current[i]?.focus();
+    }
+  };
 
   return (
     <header className={styles.header}>
@@ -47,16 +104,56 @@ export function SiteHeader() {
         <span className={styles.brandName}>Hỏi Đáp Công Giáo</span>
       </Link>
 
-      <nav className={styles.nav}>
-        {SECTIONS.map((s) => (
-          <Link
-            key={s.href}
-            href={s.href}
-            className={isActive(s) ? `${styles.navItem} ${styles.navItemActive}` : styles.navItem}
-          >
-            <T vi={s.vi} en={s.en} />
-          </Link>
-        ))}
+      <nav className={styles.nav} ref={navRef} onKeyDown={onNavKeyDown}>
+        {NAV.map((entry, i) =>
+          isGroup(entry) ? (
+            <div key={entry.vi} className={styles.navGroup}>
+              <button
+                type="button"
+                ref={(el) => {
+                  triggerRefs.current[i] = el;
+                }}
+                className={
+                  groupActive(entry)
+                    ? `${styles.navItem} ${styles.navTrigger} ${styles.navItemActive}`
+                    : `${styles.navItem} ${styles.navTrigger}`
+                }
+                aria-expanded={openGroup === i}
+                aria-haspopup="true"
+                onClick={() => setOpenGroup(openGroup === i ? null : i)}
+              >
+                <T vi={entry.vi} en={entry.en} />
+                <ChevronDown size={15} strokeWidth={2.2} className={styles.chevron} aria-hidden="true" />
+              </button>
+              {openGroup === i && (
+                <div className={styles.dropdown}>
+                  {entry.children.map((c) => (
+                    <Link
+                      key={c.href}
+                      href={c.href}
+                      className={
+                        linkActive(c)
+                          ? `${styles.dropdownLink} ${styles.dropdownLinkActive}`
+                          : styles.dropdownLink
+                      }
+                      onClick={() => setOpenGroup(null)}
+                    >
+                      <T vi={c.vi} en={c.en} />
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ) : (
+            <Link
+              key={entry.href}
+              href={entry.href}
+              className={linkActive(entry) ? `${styles.navItem} ${styles.navItemActive}` : styles.navItem}
+            >
+              <T vi={entry.vi} en={entry.en} />
+            </Link>
+          )
+        )}
       </nav>
 
       <div className={styles.actions}>
@@ -78,25 +175,48 @@ export function SiteHeader() {
       <button
         type="button"
         className={styles.menuButton}
-        aria-label={open ? 'Đóng menu' : 'Mở menu'}
-        aria-expanded={open}
-        onClick={() => setOpen((v) => !v)}
+        aria-label={mobileOpen ? 'Đóng menu' : 'Mở menu'}
+        aria-expanded={mobileOpen}
+        onClick={() => setMobileOpen((v) => !v)}
       >
-        {open ? <X size={22} strokeWidth={2.2} /> : <Menu size={22} strokeWidth={2.2} />}
+        {mobileOpen ? <X size={22} strokeWidth={2.2} /> : <Menu size={22} strokeWidth={2.2} />}
       </button>
 
-      {open && (
+      {mobileOpen && (
         <div className={styles.mobileMenu}>
-          {SECTIONS.map((s) => (
-            <Link
-              key={s.href}
-              href={s.href}
-              className={isActive(s) ? `${styles.mobileLink} ${styles.mobileLinkActive}` : styles.mobileLink}
-              onClick={() => setOpen(false)}
-            >
-              <T vi={s.vi} en={s.en} />
-            </Link>
-          ))}
+          {NAV.map((entry) =>
+            isGroup(entry) ? (
+              // Groups flatten into a labelled section — no menu-nested-in-menu on mobile.
+              <div key={entry.vi} className={styles.mobileGroup}>
+                <div className={styles.mobileGroupLabel}>
+                  <T vi={entry.vi} en={entry.en} />
+                </div>
+                {entry.children.map((c) => (
+                  <Link
+                    key={c.href}
+                    href={c.href}
+                    className={
+                      linkActive(c)
+                        ? `${styles.mobileLink} ${styles.mobileSubLink} ${styles.mobileLinkActive}`
+                        : `${styles.mobileLink} ${styles.mobileSubLink}`
+                    }
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    <T vi={c.vi} en={c.en} />
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <Link
+                key={entry.href}
+                href={entry.href}
+                className={linkActive(entry) ? `${styles.mobileLink} ${styles.mobileLinkActive}` : styles.mobileLink}
+                onClick={() => setMobileOpen(false)}
+              >
+                <T vi={entry.vi} en={entry.en} />
+              </Link>
+            )
+          )}
           <div className={styles.mobileLangRow}>
             <LanguageToggle />
           </div>

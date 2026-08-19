@@ -6,16 +6,27 @@
 
 .sectionCards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 14px;
   padding: 26px var(--page-gutter);
   border-bottom: 1px solid var(--border);
 }
-/* 4 across on desktop → 2×2 on tablet → single column on phones (the phone rule lives in the
-   shared max-width:900px block below). */
-@media (max-width: 1100px) {
+/* 5 across on desktop → 3 (3+2) → 2 (2+2+1) → 1 as width narrows. Steps chosen to avoid a lone
+   4+1 orphan row. These override the shared max-width:900px block, so that block no longer sets
+   the card columns. */
+@media (max-width: 1200px) {
+  .sectionCards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 760px) {
   .sectionCards {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 520px) {
+  .sectionCards {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -50,6 +61,9 @@ a.card:hover {
 .cardRose {
   background: #F3EAEA;
 }
+.cardBlue {
+  background: #EAF0F5;
+}
 
 .cardImage {
   position: relative;
@@ -61,6 +75,17 @@ a.card:hover {
 .cardImg {
   object-fit: cover;
   object-position: 50% 26%;
+}
+/* Imageless card (Phép Lạ — no art available yet): a tinted panel with a centered icon instead of
+   a photo, so no broken/missing <Image> ships. */
+.cardImagePlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DEE8F0;
+}
+.cardPlaceholderIcon {
+  color: #5B7A96;
 }
 
 .cardBody {
@@ -98,6 +123,9 @@ a.card:hover {
 }
 .cardRose .cardCount {
   color: #97514F;
+}
+.cardBlue .cardCount {
+  color: #3A5A78;
 }
 
 .hero {
@@ -604,9 +632,6 @@ a.card:hover {
 }
 
 @media (max-width: 900px) {
-  .sectionCards {
-    grid-template-columns: 1fr;
-  }
   .partGrid {
     grid-template-columns: repeat(2, 1fr);
   }
