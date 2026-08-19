@@ -178,9 +178,14 @@
   padding: 14px 8px 4px;
 }
 
-/* ---- Mobile: hide the inline actions, make the button an icon-only hamburger, and drop the menu
-   full-width with the language toggle inside. ---- */
-@media (max-width: 899px) {
+/* ---- Compact / touch layout: hide the inline actions, make the button an icon-only hamburger, and
+   drop the menu full-width with the language toggle inside. ----
+   Applies below 900px OR on any TOUCH device (coarse pointer / no hover) at any width. The second
+   condition is the important one: the inline language toggle in .actions does not reliably receive
+   taps on iPadOS WebKit, but the same toggle inside the menu panel does (it's what iPhone uses). A
+   plain width breakpoint can't separate an iPad from a same-width laptop, so we route by input type —
+   touch → the reliable menu path; mouse/trackpad desktops keep the inline toggle. */
+@media (max-width: 899px), (hover: none), (pointer: coarse) {
   .header {
     padding: 0 var(--mobile-gutter);
     gap: 10px;
