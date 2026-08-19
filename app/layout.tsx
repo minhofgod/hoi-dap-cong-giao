@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Source_Serif_4, Be_Vietnam_Pro } from "next/font/google";
 import Script from "next/script";
 import { BackToTop } from "@/components/BackToTop";
+import { SITE_URL } from "@/lib/siteUrl";
 import "./globals.css";
 
 const sourceSerif4 = Source_Serif_4({
@@ -20,6 +21,9 @@ const beVietnamPro = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
+  // metadataBase makes Open Graph / canonical URLs absolute. Without it Next warns at build and
+  // social previews resolve against localhost. Single source of truth: lib/siteUrl.ts.
+  metadataBase: new URL(SITE_URL),
   title: "Hỏi Đáp Công Giáo",
   description: "Câu hỏi và giải đáp đức tin Công Giáo, Giáo Lý Hội Thánh Công Giáo song ngữ Việt–Anh, và các bản văn Giáo Phụ.",
 };
