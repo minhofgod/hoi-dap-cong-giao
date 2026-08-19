@@ -117,23 +117,23 @@
   background: var(--gold-tint);
 }
 
-/* ---- Mobile: groups flatten into labelled sections ---- */
+/* ---- Mobile: groups flatten into labelled sections (full-width stacked rows) ---- */
 .mobileGroup {
-  border-bottom: 1px solid var(--border);
-  padding: 8px 0;
+  padding: 4px 0 6px;
 }
 .mobileGroupLabel {
-  padding: 6px 4px;
+  padding: 10px 6px 2px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--gold-deep);
+  color: var(--text-quiet);
 }
 .mobileSubLink {
-  padding-left: 14px;
-  border-bottom: 0;
-  font-size: 15px;
+  padding-left: 18px;
+  font-size: 15.5px;
+  font-weight: 400;
+  color: var(--text-body);
 }
 
 .actions {
@@ -215,30 +215,37 @@
   right: 0;
   flex-direction: column;
   background: var(--ground);
+  border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  box-shadow: 0 10px 24px rgba(32, 30, 29, 0.09);
+  box-shadow: 0 12px 28px rgba(32, 30, 29, 0.12);
   padding: 6px var(--mobile-gutter) 12px;
   z-index: 30;
+  max-height: calc(100vh - 74px);
+  overflow-y: auto;
+}
+/* Hairline dividers only between top-level sections (flagship link · each group · companion ·
+   language row) — group children stay divider-free so each family reads as one block. */
+.mobileMenu > *:not(:first-child) {
+  border-top: 1px solid var(--border);
 }
 .mobileLink {
-  padding: 14px 4px;
-  font-size: 15.5px;
+  display: block;
+  padding: 13px 6px;
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.3;
   color: var(--text-heading);
-  border-bottom: 1px solid var(--border);
 }
-.mobileLink:last-child {
-  border-bottom: none;
-}
-.mobileLink:hover {
+.mobileLink:hover,
+.mobileLink:active {
   text-decoration: none;
-  color: var(--accent-deep);
+  background: #fbf6ee;
 }
 .mobileLinkActive {
   color: var(--accent-deep);
 }
 .mobileLangRow {
-  padding: 14px 4px 2px;
+  padding: 14px 6px 4px;
 }
 
 /* Collapse the inline nav + search into the hamburger below the width where the full bar fits
