@@ -101,6 +101,15 @@ launched as the coordinator, this is your role:
    "fix" it.
 10. **Housekeeping:** `track.tmp` (sync-tracker output) is untracked in the repo root — gitignore or
     delete it, don't commit it. A stale worktree sits at `.claude/worktrees/sleepy-yalow-821f8a/`.
+11. **SEO / launch (added 2026-08-18, coordinator — `c8480e1`).** The site had **no sitemap at all**,
+    which is what Search Console was erroring on. Added `app/sitemap.ts`, `app/robots.ts`, and
+    `lib/siteUrl.ts` (**the single source of truth for the public origin** —
+    `https://hoidapconggiao.com`, overridable via `NEXT_PUBLIC_SITE_URL`), plus `metadataBase` in
+    `app/layout.tsx`. **→ Session 8:** these are shell files in your neighbourhood — don't add a second
+    sitemap, and take the domain from `lib/siteUrl.ts` rather than hard-coding it anywhere.
+    **New routes must be added to `app/sitemap.ts`** (it derives from the same loaders as
+    `generateStaticParams`, so new *content* is automatic — only new *routes* need an edit), and any
+    flag-gated route must stay gated there too, or Google gets URLs that 404 in production.
 
 **Coordination watch-points (the only places lanes could touch):**
 - **1 & 3 are both content** — keep them disjoint: **1 owns `content/video`**, **3 owns `content/giai-dap`**. Don't have both editing the same folder at once.
