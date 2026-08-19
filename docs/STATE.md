@@ -89,7 +89,8 @@ launched as the coordinator, this is your role:
    clusters; `/bang-chung` + route-per-stage; composes with the companion rather than duplicating it).
    **Parked behind the launch gate — do not start before the domain is live.** Then: Session **12**
    builds it, Session 8 wires entry points **+ the new sitemap routes**, Session 7 adds the
-   `doubt-evidence` CTA. Owner still to pick the name.
+   `doubt-evidence` CTA. **Name locked: `Bằng chứng về Chúa Giêsu` / `The Evidence for Jesus`,
+   route `/bang-chung`.**
 5. **Specced, not spawned:** Văn Kiện Hội Thánh (`docs/van-kien-spec.md`) and Các Đức Giáo Hoàng
    (`docs/cac-giao-hoang-spec.md`). Pace them — both are fact-dense.
 6. **Content loop** — owner drafts with Grok (`docs/grok-content-prompts.md`), a session **fact-checks

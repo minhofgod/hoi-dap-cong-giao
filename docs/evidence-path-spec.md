@@ -76,18 +76,16 @@ they matter more than their length suggests. They are **new public content** and
 Everything else is presentation over already-verified material. **No AI-generated theology, no new
 claims** — the path asserts nothing the clusters don't already say.
 
-## Naming — owner's call
+## Naming — LOCKED 2026-08-18
 
-These are ordinary Vietnamese phrases, not technical Catholic terminology, so this is taste rather than
-a terminology-verification question (checked: the site's own content has no in-house precedent for them
-as UI labels). Options, VI / EN:
+**VI `Bằng chứng về Chúa Giêsu` · EN `The Evidence for Jesus` · route `/bang-chung`.**
 
-- **Bằng chứng về Chúa Giêsu** / *The Evidence for Jesus* — plainest, says exactly what it is.
-- **Lần theo bằng chứng** / *Follow the Evidence* — suggests the journey; good for a skeptic.
-- **Từng bước tìm hiểu bằng chứng** / *The Evidence, Step by Step* — most explicit about the path shape.
+Use this verbatim for the nav item, homepage card, page `<title>`, and the companion CTA's
+destination label — one name everywhere, no variants.
 
-Note "Đi Tìm Sự Thật" was rejected for the *companion* as too narrow (`docs/roadmap.md`) — but narrow is
-exactly right here, so it's re-usable if the owner prefers it.
+*(Rejected: "Lần theo bằng chứng" / Follow the Evidence; "Từng bước tìm hiểu bằng chứng" / The Evidence,
+Step by Step. These were ordinary Vietnamese phrasing choices, not technical Catholic terminology, so
+this was a taste call rather than a terminology-verification question. Recorded so it isn't reopened.)*
 
 ## Cross-lane traps
 
@@ -112,7 +110,7 @@ exactly right here, so it's re-usable if the owner prefers it.
 | 1 | **12** (new — the next session started becomes 12) | Build `/bang-chung` + the four stage routes; write the four bilingual bridge paragraphs; link into the existing clusters. Owns `app/bang-chung`, `lib/evidencePath*`, and nothing else. |
 | 2 | **8** | On completion: homepage card + nav item + footer link + **the new routes in `app/sitemap.ts`**. One combined hand-off. |
 | 3 | **7** | Add the `doubt-evidence` → path CTA in `lib/dongHanh.ts`. |
-| 4 | owner | Pick the name. Proofread the four bridge paragraphs before the path goes live. |
+| 4 | owner | Proofread the four bridge paragraphs before the path goes live. *(Name: settled — see above.)* |
 
 **Sequencing:** 1 → then 2 and 3 in parallel. **Do not start before launch** — this is a new public
 surface needing its own proofreading pass, and the domain gate comes first.
