@@ -229,12 +229,15 @@
   border-top: 1px solid var(--border);
 }
 .mobileLink {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 13px;
   padding: 13px 6px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.3;
   color: var(--text-heading);
+  border-radius: 10px;
 }
 .mobileLink:hover,
 .mobileLink:active {
@@ -244,6 +247,41 @@
 .mobileLinkActive {
   color: var(--accent-deep);
 }
+.mobileIcon {
+  flex-shrink: 0;
+  color: var(--accent-deep);
+}
+.mobileLabel {
+  min-width: 0;
+}
+
+/* The companion (Đồng hành) — an accent CTA tile at the foot of the menu, its own sage panel so
+   the seeker front-door stands apart from the section rows. Overrides the section divider above. */
+.mobileMenu > .mobileCta {
+  border-top: none;
+}
+.mobileCta {
+  margin-top: 10px;
+  padding: 14px;
+  background: var(--sage-card);
+  border-radius: 12px;
+}
+.mobileCta:hover,
+.mobileCta:active {
+  background: #eef2e6;
+}
+.mobileCta .mobileIcon {
+  color: var(--sage-deep);
+}
+.mobileCta .mobileLabel {
+  font-weight: 600;
+}
+.mobileCtaArrow {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: var(--sage-deep);
+}
+
 .mobileLangRow {
   padding: 14px 6px 4px;
 }

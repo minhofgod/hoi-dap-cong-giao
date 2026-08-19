@@ -3,7 +3,21 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import {
+  Menu,
+  X,
+  ChevronDown,
+  ArrowRight,
+  MessagesSquare,
+  BookOpen,
+  Play,
+  Landmark,
+  Users,
+  Sparkles,
+  Compass,
+  Route,
+  type LucideIcon,
+} from 'lucide-react';
 import { BrandMark } from './BrandMark';
 import { LanguageToggle } from './LanguageToggle';
 import { T } from './T';
@@ -18,6 +32,10 @@ interface NavLink {
   en: string;
   /** Extra route prefixes that also mark this link active (e.g. a hub's child routes). */
   also?: string[];
+  /** Icon shown beside the label in the mobile menu (desktop nav stays text-only). */
+  icon?: LucideIcon;
+  /** Render as an accent CTA tile in the mobile menu (the companion front-door). */
+  cta?: boolean;
 }
 interface NavGroup {
   vi: string;
@@ -31,13 +49,13 @@ const isGroup = (e: NavEntry): e is NavGroup => 'children' in e;
 // Grouping keeps the bar to 4 top-level items as sections grow (Văn Kiện, Các Đức Giáo Hoàng slot into
 // the existing groups without a new top-level entry).
 const NAV: NavEntry[] = [
-  { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A' },
+  { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A', icon: MessagesSquare },
   {
     vi: 'Học hỏi đức tin',
     en: 'Learn',
     children: [
-      { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism' },
-      { href: '/video', vi: 'Video', en: 'Videos' },
+      { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism', icon: BookOpen },
+      { href: '/video', vi: 'Video', en: 'Videos', icon: Play },
       // + Văn Kiện Hội Thánh (/van-kien) when that section ships.
     ],
   },
@@ -46,20 +64,21 @@ const NAV: NavEntry[] = [
     en: 'History & Witnesses',
     children: [
       // The Church History hub already groups Giáo Phụ + Công Đồng; `also` keeps it active there.
-      { href: '/lich-su-hoi-thanh', vi: 'Lịch Sử Hội Thánh', en: 'Church History', also: ['/giao-phu', '/cong-dong'] },
-      { href: '/cac-thanh', vi: 'Các Thánh', en: 'Saints' },
-      { href: '/phep-la', vi: 'Phép Lạ & Hiện Ra', en: 'Miracles & Apparitions' },
+      { href: '/lich-su-hoi-thanh', vi: 'Lịch Sử Hội Thánh', en: 'Church History', also: ['/giao-phu', '/cong-dong'], icon: Landmark },
+      { href: '/cac-thanh', vi: 'Các Thánh', en: 'Saints', icon: Users },
+      { href: '/phep-la', vi: 'Phép Lạ & Hiện Ra', en: 'Miracles & Apparitions', icon: Sparkles },
       // The evidence path — a guided walk through the case for Jesus. Belongs with the evidence /
       // witnesses family. Gated so it appears only once the flag is on (no dead link before then).
       ...(EVIDENCE_PATH_ENABLED
-        ? [{ href: '/bang-chung', vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus' }]
+        ? [{ href: '/bang-chung', vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus', icon: Route }]
         : []),
       // + Các Đức Giáo Hoàng (/cac-giao-hoang) when that section ships.
     ],
   },
   // Đồng hành companion — gated so it vanishes (with the route + homepage band) when the flag is off.
+  // `cta` gives it the accent tile treatment in the mobile menu (the seeker front-door).
   ...(COMPANION_ENABLED
-    ? [{ href: '/dong-hanh', vi: 'Đồng hành', en: 'Companion' } as NavLink]
+    ? [{ href: '/dong-hanh', vi: 'Đồng hành', en: 'Companion', icon: Compass, cta: true } as NavLink]
     : []),
 ];
 
@@ -101,6 +120,32 @@ export function SiteHeader() {
       setOpenGroup(null);
       triggerRefs.current[i]?.focus();
     }
+  };
+
+  // One mobile-menu row: icon + label, with the companion rendered as an accent CTA tile.
+  const renderMobileLink = (l: NavLink, sub: boolean) => {
+    const Icon = l.icon;
+    const cls = [
+      styles.mobileLink,
+      sub ? styles.mobileSubLink : '',
+      l.cta ? styles.mobileCta : '',
+      linkActive(l) ? styles.mobileLinkActive : '',
+    ]
+      .filter(Boolean)
+      .join(' ');
+    return (
+      <Link key={l.href} href={l.href} className={cls} onClick={() => setMobileOpen(false)}>
+        {Icon && (
+          <Icon size={l.cta ? 22 : 20} strokeWidth={2} className={styles.mobileIcon} aria-hidden="true" />
+        )}
+        <span className={styles.mobileLabel}>
+          <T vi={l.vi} en={l.en} />
+        </span>
+        {l.cta && (
+          <ArrowRight size={18} strokeWidth={2.2} className={styles.mobileCtaArrow} aria-hidden="true" />
+        )}
+      </Link>
+    );
   };
 
   return (
@@ -197,30 +242,10 @@ export function SiteHeader() {
                 <div className={styles.mobileGroupLabel}>
                   <T vi={entry.vi} en={entry.en} />
                 </div>
-                {entry.children.map((c) => (
-                  <Link
-                    key={c.href}
-                    href={c.href}
-                    className={
-                      linkActive(c)
-                        ? `${styles.mobileLink} ${styles.mobileSubLink} ${styles.mobileLinkActive}`
-                        : `${styles.mobileLink} ${styles.mobileSubLink}`
-                    }
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    <T vi={c.vi} en={c.en} />
-                  </Link>
-                ))}
+                {entry.children.map((c) => renderMobileLink(c, true))}
               </div>
             ) : (
-              <Link
-                key={entry.href}
-                href={entry.href}
-                className={linkActive(entry) ? `${styles.mobileLink} ${styles.mobileLinkActive}` : styles.mobileLink}
-                onClick={() => setMobileOpen(false)}
-              >
-                <T vi={entry.vi} en={entry.en} />
-              </Link>
+              renderMobileLink(entry, false)
             )
           )}
           <div className={styles.mobileLangRow}>
