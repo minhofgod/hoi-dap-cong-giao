@@ -75,12 +75,15 @@ launched as the coordinator, this is your role:
    sections, not 7), confirm with the owner, then wire **Phép Lạ** (live since 4fbd36e with no
    homepage card, nav item, **or footer link** — URL-only). Saints already wired. *A finished section
    nobody can find is the most expensive kind of unfinished work.*
-2. **Session 3** — `docs/proofread-fixes-round1.md` §A (4 anchorless clusters — **do first**), §B (5 VN
-   wording fixes), §C (title reword · *dulia* · Crusades `sources` · new "why join the Church" Q&A).
-   **§A: Session 3 is already working it (2026-08-18); the owner is holding the pastoral-anchor
-   decision until then — don't re-route or pre-empt it.**
-3. **Session 2** — same doc §D (sidebar active-section highlighting). **In progress 2026-08-18** —
-   `components/ArticleToc.tsx` + `app/giai-dap/[slug]/*` uncommitted in the tree.
+2. **CLOSED 2026-08-18 — `docs/proofread-fixes-round1.md` §A/§B/§C** landed in `83b3cc7` (Session 3).
+   Both pastoral clusters got NEW general anchors (`nguoi-cong-giao-doi-dien-voi-dau-kho`,
+   `khi-bi-bach-hai-vi-duc-tin-nen-lam-gi`), banners included. **Two owner follow-ups:** (a) those are
+   two new *pastoral* Q&As that shipped without sign-off — read them against the content-guide
+   "Pastoral tone" rule during proofreading; (b) `can-gi-gia-nhap-hoi-thanh` was added to the
+   `tai-sao-chua-giesu-chiu-dong-dinh` anchor's `parts:` (merged into the article) — the standing rule
+   is *ask first, default to `related`*, and §C4 specified `related`. Owner to confirm keep-or-move.
+3. **CLOSED 2026-08-18 — §D sidebar scrollspy** landed in `1a69e19` (Session 2).
+   §E (evidence-walkthrough fork) is the only open item left in that doc — owner decision, thread 4.
 4. **Owner decision** — same doc §E: the "walk through the evidence for Jesus" idea — linear *learning
    path* vs another *companion branch*. Spec after deciding.
 5. **Specced, not spawned:** Văn Kiện Hội Thánh (`docs/van-kien-spec.md`) and Các Đức Giáo Hoàng
