@@ -1,5 +1,5 @@
 .wrap {
-  max-width: 860px;
+  max-width: 1120px;
   margin: 0 auto;
   padding: 48px var(--page-gutter) 80px;
 }
@@ -337,7 +337,9 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* Responsive: ~3-up on wide desktop, 2-up on tablet, 1-up on mobile — auto-fill (not auto-fit) so
+     a lone card on the last row stays card-sized instead of stretching full width. */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 .card {
