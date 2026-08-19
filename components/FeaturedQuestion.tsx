@@ -69,30 +69,34 @@ export function FeaturedQuestion({ questions }: { questions: HeroQuestion[] }) {
 
       <h1 className={styles.question}>{q.question}</h1>
 
-      {/* Toggle is mobile-only (hidden on desktop, where the teaser always shows). */}
-      {q.lede.length > 0 && (
-        <button
-          type="button"
-          className={styles.toggle}
-          aria-expanded={expanded}
-          onClick={() => setExpanded((v) => !v)}
-        >
-          <T vi={expanded ? 'Thu gọn' : 'Xem trước câu trả lời'} en={expanded ? 'Show less' : 'Preview the answer'} />
-          <ChevronDown
-            size={15}
-            strokeWidth={2.2}
-            className={expanded ? `${styles.toggleIcon} ${styles.toggleIconOpen}` : styles.toggleIcon}
-          />
-        </button>
-      )}
+      {/* First paragraph is always shown as the answer preview. */}
+      {q.lede[0] && <p className={styles.lede}>{q.lede[0]}</p>}
 
-      <div className={expanded ? styles.detailsOpen : styles.details}>
-        {q.lede.map((p, idx) => (
-          <p key={idx} className={styles.lede}>
-            {p}
-          </p>
-        ))}
-      </div>
+      {/* The rest collapses on mobile behind the toggle (desktop always shows it, toggle hidden). */}
+      {q.lede.length > 1 && (
+        <>
+          <div className={expanded ? styles.detailsOpen : styles.details}>
+            {q.lede.slice(1).map((p, idx) => (
+              <p key={idx} className={styles.lede}>
+                {p}
+              </p>
+            ))}
+          </div>
+          <button
+            type="button"
+            className={styles.toggle}
+            aria-expanded={expanded}
+            onClick={() => setExpanded((v) => !v)}
+          >
+            <T vi={expanded ? 'Thu gọn' : 'Xem thêm'} en={expanded ? 'Show less' : 'Show more'} />
+            <ChevronDown
+              size={15}
+              strokeWidth={2.2}
+              className={expanded ? `${styles.toggleIcon} ${styles.toggleIconOpen}` : styles.toggleIcon}
+            />
+          </button>
+        </>
+      )}
 
       <div className={styles.buttons}>
         <Link href={`/giai-dap/${q.slug}`} className={styles.primary}>
