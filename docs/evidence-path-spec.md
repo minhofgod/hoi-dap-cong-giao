@@ -54,7 +54,14 @@ scorer or hardcode a chain through it, which is building (a) anyway, tangled int
 **They compose instead of competing** (this is what removes (a)'s only real downside — duplicating what
 the companion already routes to):
 
-- The path **links into the existing cluster anchors. It never restates an answer.**
+- The path **never restates an answer** — no answer text is duplicated in `content/`.
+  ⚠️ **SUPERSEDED 2026-08-18 (owner, during the build):** this originally read *"links into the
+  existing cluster anchors."* **It does not link out — it renders the answers INLINE**, the same way
+  the companion does (`components/DongHanh.tsx`), because the click-out-and-come-back round trip was
+  already tested and rejected. The *reason* behind the original line still holds: bodies are read from
+  the cluster `.md` at build time (no duplication) and mount only on expand, so they stay out of the
+  server-rendered HTML — measured at 0 occurrences in stage 3's crawlable text, so the path doesn't
+  compete with `/giai-dap` in search. **Do not "fix" this back to links.**
 - The companion's `doubt-evidence` situation gains a CTA into the path
   (*"muốn đi qua toàn bộ lập luận từ đầu?"*).
 
