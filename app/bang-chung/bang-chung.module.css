@@ -48,16 +48,41 @@
   color: var(--text-fainter);
 }
 
-/* ---- Dark hero band (index) ---- */
+/* ---- Dark hero band (index) ----
+   Two columns like the Church History hub's hero (app/lich-su-hoi-thanh): copy, then the banner
+   image. The text column comes first in the DOM, so the mobile stack leads with the title rather
+   than with a decorative photo. */
 .hero {
   margin: 16px var(--page-gutter) 0;
   background: var(--dark-ground);
   border-radius: var(--radius-band);
   padding: 48px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 44px;
+  align-items: center;
 }
 
 .heroText {
   max-width: 680px;
+}
+
+.heroMedia {
+  justify-self: center;
+  line-height: 0;
+}
+
+/* The source is a NASA photograph of Earth on black. Measured on the actual file: the globe is
+   centred with a radius of 44.6% of the frame, so masking to a disc at 46% removes the black
+   surround without touching the planet. Preferred over mix-blend-mode: screen, which left a faint
+   rectangle (the JPEG's "black" is 1–5, not 0, so screen lifted it ~4/255 above the band) and
+   washed the image by lightening every pixel. Unsupported → a plain square photo on a dark band:
+   still fine, and no layout shift. */
+.heroImage {
+  width: 300px;
+  height: auto;
+  -webkit-mask-image: radial-gradient(circle, #000 46%, transparent 50%);
+  mask-image: radial-gradient(circle, #000 46%, transparent 50%);
 }
 
 .eyebrow {
@@ -605,6 +630,18 @@
   border-color: var(--accent);
   background: var(--accent);
   color: #fff;
+}
+
+/* Below ~860px the 300px image column starves the text, so the hero stacks: title first, image
+   under it at a reduced size. */
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .heroImage {
+    width: 200px;
+  }
 }
 
 @media (max-width: 760px) {

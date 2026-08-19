@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
@@ -64,6 +65,24 @@ export default function BangChungIndexPage() {
               viClassName={styles.heroLede}
               enClassName={styles.heroLede}
               enRecessedClassName={styles.heroLedeEnRecessed}
+            />
+          </div>
+
+          {/* The Blue Marble (Apollo 17) — NASA, public domain, already in the shared image library
+              with its CREDITS.csv row (it is the "Vũ trụ được thiết kế" topic banner). Referenced by
+              path rather than copied: one asset, one credit, and it is exactly what step 1 opens on.
+              Decorative here — the heading already says what the page is — so alt="" and aria-hidden
+              keep it out of the accessibility tree instead of narrating a photo to someone who
+              cannot see it. Placed after the text so the DOM order leads with the title. */}
+          <div className={styles.heroMedia} aria-hidden="true">
+            <Image
+              src="/images/giai-dap/vu-tru-ngau-nhien-hay-duoc-thiet-ke.jpg"
+              alt=""
+              width={1200}
+              height={1201}
+              sizes="(max-width: 860px) 200px, 300px"
+              priority
+              className={styles.heroImage}
             />
           </div>
         </div>
