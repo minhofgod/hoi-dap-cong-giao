@@ -433,6 +433,20 @@ function AnchorContent({
         </figcaption>
       </figure>
 
+      {/* Prominent invitation into the guided evidence path. `evidencePath` is only set when the
+          EVIDENCE_PATH_ENABLED flag is on (lib/dongHanh.ts), so this is absent — never a dead link
+          to the 404'd /bang-chung — until the path is live. */}
+      {situation.evidencePath && (
+        <Link href={situation.evidencePath.href} className={styles.evidenceCta}>
+          <Compass size={20} strokeWidth={1.8} className={styles.evidenceCtaIcon} />
+          <span className={styles.evidenceCtaText}>
+            <span className={styles.evidenceCtaPrompt}>{pick(situation.evidencePath.prompt)}</span>
+            <span className={styles.evidenceCtaLabel}>{pick(situation.evidencePath.label)}</span>
+          </span>
+          <ArrowRight size={18} strokeWidth={2.2} className={styles.evidenceCtaArrow} />
+        </Link>
+      )}
+
       {situation.companions && situation.companions.length > 0 && (
         <section className={styles.companions}>
           <div className={styles.companionsLabel}>

@@ -388,6 +388,56 @@
   color: var(--text-muted);
 }
 
+/* --- Prominent CTA into the guided evidence path (/bang-chung), on the doubt-evidence anchor.
+   Deliberately more prominent than the quiet "or read more" — it invites a whole guided walk. --- */
+.evidenceCta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 24px;
+  padding: 15px 18px;
+  background: var(--sage-card);
+  border: 1px solid var(--sage);
+  border-radius: var(--radius-panel);
+  color: var(--text);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.evidenceCta:hover {
+  text-decoration: none;
+  background: #EAF0E0;
+  border-color: var(--sage-deep);
+}
+.evidenceCtaIcon {
+  flex-shrink: 0;
+  color: var(--sage-deep);
+}
+.evidenceCtaText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+.evidenceCtaPrompt {
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+.evidenceCtaLabel {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.25;
+  color: var(--text-heading);
+}
+.evidenceCtaArrow {
+  flex-shrink: 0;
+  color: var(--sage-deep);
+  transition: transform 0.15s ease;
+}
+.evidenceCta:hover .evidenceCtaArrow {
+  transform: translateX(3px);
+}
+
 /* --- Video play badge + video meta (shared: follow-up buttons and the reading header) --- */
 .resourcePlay {
   display: inline-grid;

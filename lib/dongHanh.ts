@@ -11,6 +11,7 @@
 
 import type { Bi } from './giaiDapTaxonomy';
 import type { EnrichedAnswer } from './bibleRefs';
+import { EVIDENCE_PATH_ENABLED } from './evidencePathFlag';
 
 export type { Bi };
 
@@ -336,6 +337,11 @@ export interface Situation {
    *  parity. Apply with the pastoral lens on grief paths: the advice stays primary, the pin is a
    *  gentle secondary. */
   seedPins?: string[];
+  /** A prominent CTA into the guided evidence path (/bang-chung) for "walk the whole argument"
+   *  situations (doubt-evidence). Present ONLY when EVIDENCE_PATH_ENABLED is on — the companion is
+   *  live in production, so gating it here means the CTA renders nothing (never a dead link) until
+   *  the path flag flips. `prompt` is the invitation; `label` is the locked destination name. */
+  evidencePath?: { href: string; prompt: Bi; label: Bi };
   /** "Companions in suffering" — 1–2 saints who relied on God THROUGH their suffering, linking to
    *  their live /cac-thanh pages. HAND-CURATED, never tag-matched: pastoral tone is too important to
    *  leave to the matcher, and a tonally-wrong saint here does real harm. Only the two suffering
@@ -487,6 +493,18 @@ export const SITUATIONS: Record<string, Situation> = {
     categories: ['evidence-history'],
     tags: ['resurrection', 'church-history', 'bible', 'miracles', 'jesus'],
     pastoral: true,
+    // Gated: renders nothing until the evidence path goes live (the companion ships to prod, so an
+    // ungated link to the 404'd /bang-chung would be a dead link on the real site).
+    evidencePath: EVIDENCE_PATH_ENABLED
+      ? {
+          href: '/bang-chung',
+          prompt: {
+            vi: 'Muốn đi qua toàn bộ lập luận, từ đầu đến cuối?',
+            en: 'Want to walk the whole argument, from the start?',
+          },
+          label: { vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus' },
+        }
+      : undefined,
     scripture: {
       ref: '1 Cr 15,3-4',
       gloss: {
