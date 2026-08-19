@@ -54,9 +54,10 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/padre-pio.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Ảnh chụp năm 1919 (Placido Bux)", "en": "Photograph, 1919 (Placido Bux)" },
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Padre-Pio-young.jpg",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

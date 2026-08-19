@@ -57,6 +57,9 @@ export interface Portrait {
   medium: Bi;
   source: string;
   license: string;
+  /** Wikimedia Commons file-page URL — the TASL "Source" link. Required for any non-PD image
+   *  (CC BY / CC BY-SA); provenance for PD ones too. See docs/content-guide.md → "Images". */
+  sourceUrl?: string;
   available: boolean;
   /** Optional CSS object-position override for the circular crop (e.g. "50% 34%"). Defaults to the
    *  top-weighted framing tuned for painted portraits; set it when a face sits lower in the source

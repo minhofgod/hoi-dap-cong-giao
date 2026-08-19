@@ -54,9 +54,10 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/edith-stein.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Ảnh chụp, khoảng năm 1938", "en": "Photograph, c. 1938" },
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edith_Stein_(ca._1938-1939).jpg",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

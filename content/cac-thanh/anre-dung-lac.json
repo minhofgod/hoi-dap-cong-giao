@@ -54,9 +54,11 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/anre-dung-lac.jpg",
-    "medium": { "vi": "Chân dung truyền thống", "en": "Traditional depiction" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "medium": { "vi": "Hũ đựng hài cốt tại Sở Kiện; ảnh: Hoangvantoanajc", "en": "Relic urn at Sở Kiện; photo: Hoangvantoanajc" },
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thanh_Anre_Dung_Lac.jpg",
+    "license": "CC BY-SA 4.0",
+    "available": true,
+    "objectPosition": "50% 40%"
   }
 }

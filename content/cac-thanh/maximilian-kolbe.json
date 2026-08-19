@@ -54,9 +54,10 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/maximilian-kolbe.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Ảnh chụp năm 1939", "en": "Photograph, 1939" },
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fr.Maximilian_Kolbe_1939.jpg",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

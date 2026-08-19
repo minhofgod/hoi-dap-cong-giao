@@ -62,9 +62,11 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/faustina-kowalska.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
+    "medium": { "vi": "Ảnh chụp tại Płock, năm 1931", "en": "Photograph, Płock, 1931" },
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siostra_Faustyna_Kowalska_-_Płock_(1931).jpg",
     "license": "public domain",
-    "available": false
+    "available": true,
+    "objectPosition": "50% 12%"
   }
 }

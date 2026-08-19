@@ -54,9 +54,10 @@
   ],
   "portrait": {
     "src": "/images/cac-thanh/teresa-calcutta.jpg",
-    "medium": { "vi": "Chân dung", "en": "Portrait" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "medium": { "vi": "Ảnh chụp năm 1995; ảnh: John Mathew Smith", "en": "Photograph, 1995; photo: John Mathew Smith" },
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg",
+    "license": "CC BY-SA 2.0",
+    "available": true
   }
 }
