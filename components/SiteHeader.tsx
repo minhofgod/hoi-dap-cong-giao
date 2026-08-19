@@ -83,8 +83,24 @@ const NAV: NavEntry[] = [
 ];
 
 // The mobile menu is a FLAT icon list — the per-item icons already distinguish the sections, so the
-// desktop family grouping (dropdowns) doesn't need repeating as labelled sub-sections here.
-const MOBILE_LINKS: NavLink[] = NAV.flatMap((e) => (isGroup(e) ? e.children : [e]));
+// desktop family grouping (dropdowns) doesn't need repeating as labelled sub-sections here. The
+// order MIRRORS the homepage cards (Giải Đáp → Bằng chứng → Giáo Lý → Lịch Sử → Các Thánh → Phép
+// Lạ), with Video and the Đồng hành CTA at the end. Built from NAV's leaves so gating still drops
+// evidence/companion when their flag is off (a missing href just isn't in the list).
+const MOBILE_ORDER = [
+  '/giai-dap',
+  '/bang-chung',
+  '/giao-ly',
+  '/lich-su-hoi-thanh',
+  '/cac-thanh',
+  '/phep-la',
+  '/video',
+  '/dong-hanh',
+];
+const MOBILE_LEAVES: NavLink[] = NAV.flatMap((e) => (isGroup(e) ? e.children : [e]));
+const MOBILE_LINKS: NavLink[] = MOBILE_ORDER.map((href) =>
+  MOBILE_LEAVES.find((l) => l.href === href)
+).filter((l): l is NavLink => Boolean(l));
 
 export function SiteHeader() {
   const pathname = usePathname();
