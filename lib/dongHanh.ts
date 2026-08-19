@@ -352,6 +352,21 @@ export interface Situation {
   companions?: { href: string; name: Bi; line: Bi }[];
 }
 
+/** Shared CTA into the guided evidence path, for the situations that land on "so is any of this
+ *  actually true?" (doubt-evidence, explore-god). Present ONLY when EVIDENCE_PATH_ENABLED is on —
+ *  otherwise undefined, so nothing renders (never a dead link to the 404'd /bang-chung on the live
+ *  companion). The `?from=dong-hanh` param lets the path offer a way back. */
+const EVIDENCE_PATH_CTA: Situation['evidencePath'] = EVIDENCE_PATH_ENABLED
+  ? {
+      href: '/bang-chung?from=dong-hanh',
+      prompt: {
+        vi: 'Muốn đi qua toàn bộ lập luận, từ đầu đến cuối?',
+        en: 'Want to walk the whole argument, from the start?',
+      },
+      label: { vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus' },
+    }
+  : undefined;
+
 export const SITUATIONS: Record<string, Situation> = {
   'explore-god': {
     id: 'explore-god',
@@ -372,6 +387,7 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: ['god-meaning'],
     tags: ['atheism', 'science', 'trinity', 'miracles'],
+    evidencePath: EVIDENCE_PATH_CTA,
     scripture: {
       ref: 'Rm 1,20',
       gloss: {
@@ -493,18 +509,7 @@ export const SITUATIONS: Record<string, Situation> = {
     categories: ['evidence-history'],
     tags: ['resurrection', 'church-history', 'bible', 'miracles', 'jesus'],
     pastoral: true,
-    // Gated: renders nothing until the evidence path goes live (the companion ships to prod, so an
-    // ungated link to the 404'd /bang-chung would be a dead link on the real site).
-    evidencePath: EVIDENCE_PATH_ENABLED
-      ? {
-          href: '/bang-chung',
-          prompt: {
-            vi: 'Muốn đi qua toàn bộ lập luận, từ đầu đến cuối?',
-            en: 'Want to walk the whole argument, from the start?',
-          },
-          label: { vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus' },
-        }
-      : undefined,
+    evidencePath: EVIDENCE_PATH_CTA,
     scripture: {
       ref: '1 Cr 15,3-4',
       gloss: {
