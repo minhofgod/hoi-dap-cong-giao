@@ -132,6 +132,19 @@ launched as the coordinator, this is your role:
    "fix" it.
 10. **Housekeeping:** `track.tmp` (sync-tracker output) is untracked in the repo root — gitignore or
     delete it, don't commit it. A stale worktree sits at `.claude/worktrees/sleepy-yalow-821f8a/`.
+10b. **Migrated from `PROGRESS.md` when it was slimmed (2026-08-19)** — still live:
+    - **The `churchFathersV2` migration was never finished, and it's SPREADING.** The V1
+      `lib/churchFathers.ts` is still imported by `app/page.tsx`, `app/tim-kiem/page.tsx`,
+      `components/Bi.tsx` — **and now `lib/evidencePathStages.ts`**, i.e. brand-new code (Session 13)
+      picked up the dead layer. Finish the migration and delete V1, or it keeps propagating. Crosses
+      lanes (8 · 2 · 13) → coordinator to route.
+    - **Footer credit placeholders** (`[nguồn]` / `[tên]`) are still present in `app/page.tsx` — 2
+      occurrences. **Session 8**, and worth doing before the domain is public.
+    - Canvas `/so-do`: finalize the remaining Obsidian canvases, then publish (flag + a
+      `/so-do/<slug>` page + `CANVAS_FOR` entry per topic).
+    - Catechism title i18n — see the `todo-catechism-title-i18n` memory.
+    - *(Two of its TODOs were verified DONE and dropped: all 30 Giáo Phụ portraits are in, and all 3
+      videos now have `.en.md` bodies.)*
 11. **SEO / launch (added 2026-08-18, coordinator — `c8480e1`).** The site had **no sitemap at all**,
     which is what Search Console was erroring on. Added `app/sitemap.ts`, `app/robots.ts`, and
     `lib/siteUrl.ts` (**the single source of truth for the public origin** —
