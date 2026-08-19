@@ -11,7 +11,7 @@ import styles from './bang-chung.module.css';
 export const metadata: Metadata = {
   title: 'Bằng chứng về Chúa Giêsu · Hỏi Đáp Công Giáo',
   description:
-    'Bốn bước lần theo lập luận: từ câu hỏi tại sao có một cái gì đó thay vì không có gì, đến sự sống lại của Chúa Giêsu. Mỗi bước dựa trên bước trước — và bạn có thể bắt đầu ở bất cứ bước nào.',
+    'Bốn bước lần theo lập luận: từ câu hỏi vũ trụ này là ngẫu nhiên hay được thiết kế, đến sự sống lại của Chúa Giêsu. Mỗi bước dựa trên bước trước — và bạn có thể bắt đầu ở bất cứ bước nào.',
 };
 
 const HERO_EYEBROW = { vi: 'Lần theo lập luận', en: 'Follow the argument' };
@@ -60,7 +60,7 @@ export default function BangChungIndexPage() {
         </div>
 
         <ol className={styles.stageCards}>
-          {cards.map(({ stage, answerCount, anchorQuestionVi, anchorQuestionEn }) => (
+          {cards.map(({ stage, answerCount }) => (
             <li key={stage.slug}>
               <Link href={`/bang-chung/${stage.slug}`} className={styles.stageCard}>
                 <span className={styles.stageNum}>{stage.step}</span>
@@ -81,10 +81,7 @@ export default function BangChungIndexPage() {
                     enRecessedClassName={styles.stageTitleEnRecessed}
                   />
                   <Bi2
-                    value={{
-                      vi: anchorQuestionVi,
-                      en: anchorQuestionEn ?? anchorQuestionVi,
-                    }}
+                    value={stage.covers}
                     as="span"
                     viClassName={styles.stageBlurb}
                     enClassName={styles.stageBlurb}

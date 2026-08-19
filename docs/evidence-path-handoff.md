@@ -75,19 +75,28 @@ route's `generateStaticParams` uses, so the sitemap can never list a stage that 
 **Name — use verbatim, no variants** (locked in the spec): VI `Bằng chứng về Chúa Giêsu` ·
 EN `The Evidence for Jesus` · route `/bang-chung`.
 
-The four stages, if you need their names or URLs anywhere. Stage names are **topic noun phrases,
-not questions** (renamed 2026-08-18): a question here would stack on top of the cluster's own
-question, which already renders directly underneath on the card.
+The four stages, if you need their names or URLs anywhere. **Order and names revised by the owner
+2026-08-18** — design now comes first, so each step answers the objection the previous one provokes.
 
 | # | Slug | VI | EN |
 |---|---|---|---|
-| 1 | `nguyen-nhan-dau-tien` | Nguyên nhân đầu tiên | The first cause |
-| 2 | `vu-tru-duoc-thiet-ke` | Vũ trụ được thiết kế | A designed universe |
-| 3 | `tan-uoc-co-dang-tin` | Độ tin cậy của Tân Ước | The reliability of the New Testament |
-| 4 | `chua-giesu-song-lai` | Sự sống lại của Chúa Giêsu | The Resurrection of Jesus |
+| 1 | `vu-tru-duoc-thiet-ke` | Vũ trụ được tạo ra ngẫu nhiên hay được thiết kế? | Was the universe made by chance, or was it designed? |
+| 2 | `ai-tao-ra-chua` | Nếu Chúa tạo ra vũ trụ, thì ai tạo ra Chúa? | If God made the universe, then who made God? |
+| 3 | `tan-uoc-co-dang-tin` | Thiên Chúa là ai, và bản văn kể về Ngài có đáng tin không? | Who is God — and can the record about him be trusted? |
+| 4 | `chua-giesu-song-lai` | Chúa Giêsu có thật sự sống lại? | Did Jesus really rise from the dead? |
 
-Stage 3 is `tan-uoc`, **not** `kinh-thanh` — that cluster is about the New Testament specifically,
-not the whole Bible.
+Two naming decisions, recorded so they aren't reopened:
+
+- **Stage 3 is `tan-uoc`, not `kinh-thanh`** — that cluster is about the New Testament specifically,
+  not the whole Bible.
+- **`duyên khởi` was rejected** for stage 1 (proposed, then dropped). It is the Vietnamese for
+  *paṭiccasamuppāda* — dependent origination — which Vietnamese Buddhist sources call the core of
+  all Buddhist philosophy, and it means arising *from conditions*, close to the opposite of "from
+  nothing, by chance." Don't reintroduce it.
+
+**⚠️ Names are long questions, and they change.** Don't retype them into a nav item or a card —
+import from `EVIDENCE_STAGES` in `@/lib/evidencePathStages` so a rename propagates. For a nav item
+that needs something short, use the section name (`Bằng chứng về Chúa Giêsu`), not a stage name.
 
 ---
 

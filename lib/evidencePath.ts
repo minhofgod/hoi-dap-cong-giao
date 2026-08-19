@@ -96,20 +96,16 @@ export function getResolvedStage(slug: string): ResolvedStage | undefined {
   return getResolvedStages().find((s) => s.stage.slug === slug);
 }
 
-/** Lightweight index-card data: no answer bodies, so the index page never ships 23 answers. */
+/** Lightweight index-card data: no answer bodies, so the index page never ships 23 answers.
+ *
+ *  The card renders `stage.title` (the step's question) over `stage.covers` (what's inside it), NOT
+ *  the anchor's own question — on stages 1 and 4 the stage name and the anchor question are nearly
+ *  the same sentence, so showing both made the card say one thing twice. */
 export interface StageCard {
   stage: EvidenceStage;
   answerCount: number;
-  /** The anchor's own question — the concrete thing this step argues about. */
-  anchorQuestionVi: string;
-  anchorQuestionEn?: string;
 }
 
 export function getStageCards(): StageCard[] {
-  return getResolvedStages().map(({ stage, anchor, answerCount }) => ({
-    stage,
-    answerCount,
-    anchorQuestionVi: anchor.questionVi,
-    anchorQuestionEn: anchor.questionEn,
-  }));
+  return getResolvedStages().map(({ stage, answerCount }) => ({ stage, answerCount }));
 }
