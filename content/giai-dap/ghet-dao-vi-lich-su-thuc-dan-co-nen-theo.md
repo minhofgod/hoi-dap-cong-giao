@@ -7,6 +7,9 @@ tags: ["church-history", "atheism"]
 subcategory: "Lịch sử và tha thứ"
 refs_ccc: [831, 2844]
 refs_scripture: []
+sources:
+  - label: "Catholic Encyclopedia (1913), \"The St. Thomas Christians\" (cộng đoàn Kitô hữu cổ xưa ở Ấn Độ)"
+    url: "https://www.newadvent.org/cathen/14678a.htm"
 featured: false
 part_of: "tai-sao-co-thap-tu-chinh"
 related:

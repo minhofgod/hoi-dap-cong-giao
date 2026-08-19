@@ -8,6 +8,7 @@ subcategory: "Giá trị bản thân"
 refs_ccc: [1700, 356, 1604]
 refs_scripture: ["Tv 139,13", "Rm 5,8", "Mt 5,48"]
 featured: false
+part_of: "nguoi-cong-giao-doi-dien-voi-dau-kho"
 related:
   - "co-don-chua-nhu-vang-mat"
 ---

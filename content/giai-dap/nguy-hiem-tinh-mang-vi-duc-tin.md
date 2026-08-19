@@ -8,6 +8,7 @@ subcategory: "Bách hại"
 refs_ccc: [2473, 1808]
 refs_scripture: ["Mt 10,23", "Mt 24,13"]
 featured: false
+part_of: "khi-bi-bach-hai-vi-duc-tin-nen-lam-gi"
 related:
   - "the-gian-ghet-bo-vi-duc-tin"
   - "bi-nguoi-nha-chong-doi-vi-duc-tin"

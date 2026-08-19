@@ -8,6 +8,7 @@ subcategory: "Mất mát"
 refs_ccc: [847, 1058]
 refs_scripture: ["1 Tm 2,4"]
 featured: false
+part_of: "nguoi-cong-giao-doi-dien-voi-dau-kho"
 related:
   - "doi-dien-voi-mat-mat"
   - "nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong"

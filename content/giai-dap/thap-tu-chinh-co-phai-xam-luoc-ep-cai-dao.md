@@ -7,6 +7,11 @@ tags: ["church-history"]
 subcategory: "Bối cảnh lịch sử"
 refs_ccc: [160, 2308]
 refs_scripture: []
+sources:
+  - label: "Thomas F. Madden, \"The Real History of the Crusades,\" Crisis Magazine (2011)"
+    url: "https://crisismagazine.com/opinion/the-real-history-of-the-crusades"
+  - label: "Fulcher of Chartres, tường thuật bài giảng của Đức Urbanô II tại Công đồng Clermont (1095) — Internet Medieval Sourcebook, Fordham University"
+    url: "https://sourcebooks.fordham.edu/source/urban2-fulcher.asp"
 featured: false
 part_of: "tai-sao-co-thap-tu-chinh"
 related:
@@ -20,6 +25,6 @@ Hãy nhìn bối cảnh lịch sử mà hình ảnh phổ biến thường bỏ 
 
 Điều quan trọng không kém: cưỡng bức cải đạo **chưa bao giờ** là mục tiêu chính đáng, và cũng đi ngược lại chính đức tin. Hội Thánh dạy rõ rằng đức tin tự bản chất phải tự nguyện: "không được cưỡng ép ai phải chấp nhận đức tin trái với ý muốn của họ" (x. GLHTCG 160). Một "sự cải đạo" bị ép buộc bằng gươm thì trước mặt Thiên Chúa cũng chẳng có giá trị gì.
 
-Cần nói cho cân bằng: điều này **không** có nghĩa là mọi cuộc Thập Tự Chinh đều trong sạch, hay không có tội ác nào xảy ra — có, và bài kế tiếp sẽ nhìn thẳng vào điều đó. Nhưng việc bảo vệ những cộng đoàn bị tấn công, về nguyên tắc, là chính đáng: Hội Thánh nhìn nhận quyền và cả bổn phận bảo vệ người vô tội trước một sự xâm lược bất công (x. GLHTCG 2308). Vấn đề luân lý nằm ở **cách** tiến hành, chứ không phải ở việc có được phép tự vệ hay không.
+Cần nói cho công bằng: điều này **không** có nghĩa là mọi cuộc Thập Tự Chinh đều trong sạch, hay không có tội ác nào xảy ra — có, và bài kế tiếp sẽ nhìn thẳng vào điều đó. Nhưng việc bảo vệ những cộng đoàn bị tấn công, về nguyên tắc, là chính đáng: Hội Thánh nhìn nhận quyền và cả bổn phận bảo vệ người vô tội trước một sự xâm lược bất công (x. GLHTCG 2308). Vấn đề luân lý nằm ở **cách** tiến hành, chứ không phải ở việc có được phép tự vệ hay không.
 
 Tóm lại: Thập Tự Chinh, xét về tổng thể, là một cuộc phòng vệ và giành lại đất đã mất, chứ không phải một chiến dịch ép người ta theo đạo — dù nó đã bị pha lẫn với những sai lầm nghiêm trọng của con người.

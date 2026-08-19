@@ -13,6 +13,7 @@ related:
   - "tai-sao-chua-giesu-chiu-dong-dinh"
   - "chua-giesu-chuoc-toi-nghia-la-gi"
   - "duc-tin-va-viec-lam"
+  - "can-gi-gia-nhap-hoi-thanh"
 ---
 
 Bởi vì **làm điều tốt không xóa đi điều xấu đã làm.** Việc thiện và tội lỗi không phải là hai con số cộng trừ vào nhau để ra một "số dư" — mỗi cái là một thực tại riêng.

@@ -7,7 +7,7 @@ tags: ["prayer", "faith", "sin", "confession"]
 subcategory: "Đời sống cầu nguyện"
 refs_ccc: [2736, 2737, 2735]
 refs_scripture: ["Mt 7,7-8", "Mt 7,9-11", "Cn 21,13", "Gc 1,5-6", "Gc 4,3", "Is 59,1-2"]
-featured: false
+featured: true
 related:
   - "co-don-chua-nhu-vang-mat"
 ---

@@ -8,6 +8,7 @@ subcategory: "Cô đơn"
 refs_ccc: [953, 2565]
 refs_scripture: ["Mt 28,20", "Ga 14,18"]
 featured: false
+part_of: "nguoi-cong-giao-doi-dien-voi-dau-kho"
 related:
   - "co-don-chua-nhu-vang-mat"
   - "lo-lang-tien-bac"

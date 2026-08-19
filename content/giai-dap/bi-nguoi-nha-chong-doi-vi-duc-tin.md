@@ -8,6 +8,7 @@ subcategory: "Bách hại"
 refs_ccc: [2473, 1816]
 refs_scripture: ["Mt 10,34-36"]
 featured: false
+part_of: "khi-bi-bach-hai-vi-duc-tin-nen-lam-gi"
 related:
   - "the-gian-ghet-bo-vi-duc-tin"
   - "nguy-hiem-tinh-mang-vi-duc-tin"
@@ -21,7 +22,7 @@ Bị chính những người mình yêu thương quay lưng vì đức tin là m
 >
 > — **Mt 10,34-36** (CGKPV)
 
-Sự chia rẽ bạn đang cảm nhận, vì thế, **không phải là dấu chỉ bạn đã làm sai điều gì.** Chính Chúa đã nói trước rằng nó có thể đến với những ai theo Người cách sát sao. Đây không phải là một lời cổ vũ cho xung đột, mà là một sự thật giúp bạn khỏi tự trách mình.
+Sự chia rẽ bạn đang cảm nhận, vì thế, **không phải là dấu chỉ bạn đã làm sai điều gì.** Chính Chúa đã nói trước rằng điều đó có thể đến với những ai thật lòng bước theo Người. Đây không phải là một lời cổ vũ cho xung đột, mà là một sự thật giúp bạn khỏi tự trách mình.
 
 Nhưng — và đây là điều quan trọng — sự thật ấy **không bao giờ cho phép bạn lấy lạnh lùng đáp lại lạnh lùng.** Hãy yêu thương họ, kiên nhẫn với họ, và để chính sự bình an và niềm vui của bạn trở thành lời chứng mà không một cuộc tranh cãi nào thắng được. Rất nhiều tâm hồn đã đổi thay sau nhiều năm — không nhờ lời cãi vã, mà nhờ **chứng tá âm thầm** của một người sống đức tin cách dịu dàng và trung thành (x. GLHTCG 2473). Giữ vững đức tin cách công khai nhưng khiêm tốn chính là điều Hội Thánh gọi là làm chứng cho chân lý (x. GLHTCG 1816).
 

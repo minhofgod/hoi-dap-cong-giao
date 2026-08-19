@@ -14,7 +14,7 @@ sources:
     url: "https://catholicscientists.org/articles/lemaitre-follows-two-paths-to-truth-new-york-times-1933-interview-with-lemaitre/"
   - label: "Mark Midbon, \"A Day Without Yesterday: Georges Lemaître & the Big Bang\""
     url: "https://catholiceducation.org/en/science/a-day-without-yesterday-georges-lemaitre-amp-the-big-bang.html"
-featured: false
+featured: true
 related:
   - "ai-tao-ra-chua"
   - "lam-sao-biet-vu-tru-co-khoi-dau"

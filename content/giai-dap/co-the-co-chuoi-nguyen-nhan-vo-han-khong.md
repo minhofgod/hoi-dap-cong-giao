@@ -1,5 +1,5 @@
 ---
-question_vi: "Chẳng lẽ không thể cứ nguyên nhân này gây ra nguyên nhân kia, kéo dài ngược về vô tận, khỏi cần “nguyên nhân đầu tiên”?"
+question_vi: "Sao không thể có một chuỗi nguyên nhân kéo dài vô tận, khỏi cần “nguyên nhân đầu tiên”?"
 question_en: "Why can't causes just go back infinitely, with no need for a “first cause”?"
 topic: "Ai tạo ra Chúa"
 category: "god-meaning"

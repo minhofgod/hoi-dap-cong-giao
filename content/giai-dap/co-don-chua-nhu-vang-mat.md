@@ -8,6 +8,7 @@ subcategory: "Cô đơn"
 refs_ccc: [2731, 227]
 refs_scripture: ["Mc 15,34"]
 featured: false
+part_of: "nguoi-cong-giao-doi-dien-voi-dau-kho"
 related:
   - "co-don-khong-ai-gan-gui"
   - "tai-sao-cau-nguyen-voi-cac-thanh"

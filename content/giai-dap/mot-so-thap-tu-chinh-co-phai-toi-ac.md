@@ -7,6 +7,11 @@ tags: ["church-history"]
 subcategory: "Bối cảnh lịch sử"
 refs_ccc: [827, 2317]
 refs_scripture: []
+sources:
+  - label: "Đức Innôcentê III, Thư khiển trách vị đặc sứ Tòa Thánh về vụ cướp phá Constantinople (1204), bản dịch J. Brundage — Internet Medieval Sourcebook, Fordham University"
+    url: "https://sourcebooks.fordham.edu/source/1204innocent.asp"
+  - label: "Thomas F. Madden, \"The Real History of the Crusades,\" Crisis Magazine (2011)"
+    url: "https://crisismagazine.com/opinion/the-real-history-of-the-crusades"
 featured: false
 part_of: "tai-sao-co-thap-tu-chinh"
 related:

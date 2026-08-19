@@ -7,6 +7,11 @@ tags: ["church-history", "atheism"]
 subcategory: "Tổng quan"
 refs_ccc: [160, 827]
 refs_scripture: ["Mt 28,19", "Mt 5,44"]
+sources:
+  - label: "Thomas F. Madden, \"The Real History of the Crusades,\" Crisis Magazine (2011)"
+    url: "https://crisismagazine.com/opinion/the-real-history-of-the-crusades"
+  - label: "Fulcher of Chartres, tường thuật bài giảng của Đức Urbanô II tại Công đồng Clermont (1095) — Internet Medieval Sourcebook, Fordham University"
+    url: "https://sourcebooks.fordham.edu/source/urban2-fulcher.asp"
 featured: true
 parts:
   - "thap-tu-chinh-co-phai-xam-luoc-ep-cai-dao"

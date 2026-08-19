@@ -8,6 +8,7 @@ subcategory: "Tài chính"
 refs_ccc: [305, 2547]
 refs_scripture: ["Mt 6,25-34", "Mt 8,20"]
 featured: false
+part_of: "nguoi-cong-giao-doi-dien-voi-dau-kho"
 related:
   - "dau-om-benh-tat"
   - "co-don-khong-ai-gan-gui"

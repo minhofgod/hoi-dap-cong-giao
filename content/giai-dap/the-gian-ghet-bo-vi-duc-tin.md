@@ -8,6 +8,7 @@ subcategory: "Bách hại"
 refs_ccc: [2473, 675]
 refs_scripture: ["Ga 15,18-19"]
 featured: false
+part_of: "khi-bi-bach-hai-vi-duc-tin-nen-lam-gi"
 related:
   - "bi-nguoi-nha-chong-doi-vi-duc-tin"
   - "nguy-hiem-tinh-mang-vi-duc-tin"

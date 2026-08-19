@@ -8,6 +8,7 @@ subcategory: "Mất mát"
 refs_ccc: [1681, 1011]
 refs_scripture: ["Ga 11,35", "Kh 21,4", "Mt 5,5"]
 featured: false
+part_of: "nguoi-cong-giao-doi-dien-voi-dau-kho"
 related:
   - "nguoi-than-qua-doi-duoc-cuu-khong"
   - "tai-sao-chua-giesu-chiu-dong-dinh"

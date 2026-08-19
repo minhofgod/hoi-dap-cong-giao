@@ -5,7 +5,7 @@ topic: "Tôn kính ảnh tượng"
 category: "theology-doctrine"
 tags: ["icons", "mary", "saints", "protestant-objections"]
 subcategory: "Kinh Thánh"
-refs_ccc: [2132, 2096]
+refs_ccc: [2132, 2096, 971]
 refs_scripture: ["St 23,7", "St 33,3", "1 Sm 24,9"]
 featured: false
 part_of: "nguoi-cong-giao-co-tho-nguong-tuong-khong"
@@ -37,4 +37,12 @@ Có thể ví như việc uống rượu: uống chừng mực thì tốt, nhưn
 
 Đây chính là sự phân biệt nền tảng mà Giáo Hội luôn giữ: việc **tôn thờ** (*latria*) chỉ dành riêng cho một mình Thiên Chúa, Đấng Tạo Hóa (x. GLHTCG 2096); còn với ảnh tượng thánh, "chúng ta chỉ tôn kính (*veneratio*), chứ không tôn thờ (*adoratio*) là việc chỉ dành cho một mình Thiên Chúa" — và lòng tôn kính ấy "hướng tới nguyên ảnh", tức con người được phác họa (x. GLHTCG 2132).
 
-Người Công Giáo chỉ tôn kính Đức Maria và các thánh, xin các ngài cầu bầu, và noi gương các ngài sống theo Chúa Kitô — chứ không hề tôn thờ các ngài. (Về việc *xin các thánh cầu nguyện* có phải là thờ phượng không, xem loạt bài "Cầu nguyện với các thánh" ở phần liên quan bên dưới.)
+Thật ra, truyền thống Công Giáo phân biệt rạch ròi **ba mức độ**, và tiếng Latinh dùng **ba từ khác nhau** cho ba thực tại khác nhau — điều mà tiếng Việt (hay tiếng Anh) đôi khi gộp chung vào một chữ "thờ", gây hiểu lầm:
+
+- **Thờ phượng** (*latria*): sự tôn thờ tuyệt đối, **chỉ dành cho một mình Thiên Chúa** là Đấng Tạo Hóa. Dâng điều này cho bất cứ thụ tạo nào cũng là tội thờ ngẫu tượng.
+- **Tôn kính** (*dulia*): lòng kính trọng và yêu mến dành cho **các thánh** — những con người đã sống thánh thiện và nay ở với Chúa. Đây **không** phải là thờ phượng, mà giống lòng kính trọng ta dành cho một bậc đáng kính, được nâng lên trong đức tin.
+- **Biệt kính** (*hyperdulia*, hay "tôn kính đặc biệt"): mức tôn kính **cao nhất dành cho một thụ tạo**, chỉ dành riêng cho **Đức Maria**, vì địa vị độc nhất của Mẹ là Mẹ Thiên Chúa. Nhưng biệt kính **vẫn không phải là thờ phượng**, và thua vô cùng so với sự tôn thờ dành cho Thiên Chúa. Sách Giáo Lý gọi lòng sùng kính Đức Maria là một phụng tự "độc nhất vô nhị", nhưng "tự bản chất vẫn khác biệt với phụng tự tôn thờ" dâng lên Ba Ngôi Thiên Chúa (x. GLHTCG 971).
+
+Nắm được ba từ ấy là nắm được câu trả lời: người Công Giáo **không** thờ phượng Đức Maria hay các thánh. Cử chỉ bên ngoài có thể trông giống nhau, nhưng thực tại bên trong thuộc về ba bậc hoàn toàn khác biệt — và chỉ một bậc cao nhất, *latria*, mới là thờ phượng.
+
+Nói gọn: người Công Giáo chỉ tôn kính Đức Maria và các thánh, xin các ngài cầu bầu, và noi gương các ngài sống theo Chúa Kitô — chứ không hề tôn thờ các ngài. (Về việc *xin các thánh cầu nguyện* có phải là thờ phượng không, xem loạt bài "Cầu nguyện với các thánh" ở phần liên quan bên dưới.)
