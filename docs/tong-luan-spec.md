@@ -51,11 +51,21 @@ impressionistic**: a citation either resolves to that question in the actual Sum
    order, canonisation, the *exitus/reditus* structure claim.
 5. **Latin terms** spelled and used correctly (*Quinque viae*, *Prima Pars*, *Prima Secundae*,
    *Secunda Secundae*, *Tertia Pars*, *Quaestio*, *objectiones*, *Sed contra*, *Respondeo*).
-6. **Vietnamese terminology** per `docs/content-guide.md` — verify against the site's own content and
-   HĐGM VN, **never Vietnamese Wikipedia**. High-risk terms here: *Tôma Aquinô*, *Dòng Anh Em Thuyết
-   Giáo*, *Tiến sĩ Thiên thần*, *nhân đức*, *ân sủng*, *Ngôi hiệp*, *Nhập thể*, *cánh chung*.
-7. **Scripture quotations** must match CGKPV (the intro already quotes `1 Cr 3,1-2`) — same standard as
-   every other section.
+6. ~~**Vietnamese terminology.**~~ **OUT OF SCOPE — the owner read all 37 chapters himself
+   (2026-08-19) and vouches for the Vietnamese terminology and register.** He is a native Vietnamese
+   Catholic reader; this is precisely the axis he *can* judge, and re-checking it would spend effort
+   where the tool adds nothing. **Do not re-audit word choice.**
+
+   **But keep the distinction:** *is this the right Vietnamese word* (owner's call, done) is a different
+   question from *is this the right Thomistic concept* (still yours). If a chapter uses **Ngôi hiệp**
+   correctly as Vietnamese but applies it to the wrong thing, that is a **doctrinal** error under
+   item 2, not a terminology one — still report it.
+7. **Scripture quotations must match CGKPV** (the intro already quotes `1 Cr 3,1-2`). **Keep this even
+   though terminology is out of scope** — it is not a word-choice question but a verbatim-text one, and
+   an AI-generated text quoting Vietnamese Scripture from memory is a live risk. Note also that
+   **CGKPV versification differs from English/Protestant numbering** near some OT chapter breaks and in
+   the Psalms — see `docs/session-4-script-wikilink.md` → "CGKPV versification". Open the CGKPV chapter
+   file and read the verse; never trust a remembered reference.
 
 ### Verdicts + the anti-rubber-stamp guard
 
