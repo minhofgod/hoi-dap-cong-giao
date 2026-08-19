@@ -1,7 +1,14 @@
 # PROGRESS — Hỏi Đáp Công Giáo
 
-Handoff / status doc. Update this at natural stopping points so any new session (or person)
-can pick up without re-deriving context. Last updated: **2026-08-14**.
+> ## ⚠️ STALE — read `docs/STATE.md` instead (flagged 2026-08-19)
+>
+> This file was last updated **2026-08-14** and has fallen five days behind. Since then the site
+> gained **Công Đồng, Các Thánh, Phép Lạ, the Đồng hành companion, the Q&A taxonomy, sitemap/robots,
+> and the evidence path** — none of which are described below. Its "Sections" list names only three.
+>
+> **`docs/STATE.md` is the single reliable entry point** (current snapshot, the numbered session
+> registry, open threads, and the rules for parallel sessions). Use this file only for the
+> deployment/setup detail it still carries, and trust nothing here about *what exists*.
 
 > There is also an auto-loaded Claude Code memory for this project (index at
 > `.claude/projects/<...>/memory/MEMORY.md`). This file is the in-repo, human-readable backup.
@@ -29,7 +36,12 @@ Sections (`app/`):
 - **Vercel:** connected via the GitHub integration (Vercel dashboard → Add New → Import repo), same
   pattern as the Visual Rosary site. **Every push to `main` auto-deploys** — no CLI needed. Vercel
   auto-detects Next.js; no `vercel.json` required.
-- **To ship a change:** `git add -A && git commit && git push origin main` → Vercel builds + deploys automatically.
+- **To ship a change:** stage **only your own lane's files**, commit, then `git push origin main` →
+  Vercel builds + deploys automatically.
+  > ⚠️ **Corrected 2026-08-19.** This line used to say `git add -A`. That is now **wrong and unsafe** —
+  > multiple sessions work in this repo at once, and `git add -A` sweeps up another session's
+  > in-progress files. The standing rule is in `docs/STATE.md` → "Rules that keep parallel sessions
+  > safe": **each session commits only its own lane's files, never `git add -A`.**
 - **Env vars (both unset on Vercel by default):** `NEXT_PUBLIC_SCRIPTURE_POPOVER` — leave unset to keep
   the Scripture popover off (copyrighted CGKPV text; `content/bible.json` is gitignored, `lib/bibleRefs.ts`
   degrades to inert chips when absent). `NEXT_PUBLIC_CANVAS` — leave unset to keep the `/so-do` canvas
