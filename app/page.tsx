@@ -110,6 +110,36 @@ export default function HomePage() {
             </span>
           </span>
         </Link>
+        {/* Evidence path — placed right after Giải Đáp (it's built from the Q&A clusters). Gated off
+            by default (EVIDENCE_PATH_ENABLED); appears only once the flag is on, so no dead card
+            ships before then. Borrows the resurrection banner — the path's climax. */}
+        {EVIDENCE_PATH_ENABLED && (
+          <Link href="/bang-chung" className={`${styles.card} ${styles.cardEvidence}`}>
+            <span className={styles.cardImage}>
+              <Image
+                src="/images/giai-dap/bang-chung-chua-giesu-song-lai.jpg"
+                alt=""
+                fill
+                sizes="(max-width: 900px) 100vw, 400px"
+                className={styles.cardImg}
+              />
+            </span>
+            <span className={styles.cardBody}>
+              <span className={styles.cardTitle}>
+                <T vi="Bằng chứng về Chúa Giêsu" en="The Evidence for Jesus" />
+              </span>
+              <span className={styles.cardDesc}>
+                <T
+                  vi="Đi qua từng bước lập luận — từ nguyên nhân đầu tiên đến sự phục sinh."
+                  en="Walk the argument step by step — from the first cause to the resurrection."
+                />
+              </span>
+              <span className={styles.cardCount}>
+                <T vi={`${evidenceStagesCount} chặng`} en={`${evidenceStagesCount} steps`} />
+              </span>
+            </span>
+          </Link>
+        )}
         <Link href="/giao-ly" className={`${styles.card} ${styles.cardAccent}`}>
           <span className={styles.cardImage}>
             <Image
@@ -213,35 +243,6 @@ export default function HomePage() {
             </span>
           </span>
         </Link>
-        {/* Evidence path — gated off by default (EVIDENCE_PATH_ENABLED); appears only once the flag is
-            on, so no dead card ships before then. Borrows the resurrection banner — the path's climax. */}
-        {EVIDENCE_PATH_ENABLED && (
-          <Link href="/bang-chung" className={`${styles.card} ${styles.cardEvidence}`}>
-            <span className={styles.cardImage}>
-              <Image
-                src="/images/giai-dap/bang-chung-chua-giesu-song-lai.jpg"
-                alt=""
-                fill
-                sizes="(max-width: 900px) 100vw, 400px"
-                className={styles.cardImg}
-              />
-            </span>
-            <span className={styles.cardBody}>
-              <span className={styles.cardTitle}>
-                <T vi="Bằng chứng về Chúa Giêsu" en="The Evidence for Jesus" />
-              </span>
-              <span className={styles.cardDesc}>
-                <T
-                  vi="Đi qua từng bước lập luận — từ nguyên nhân đầu tiên đến sự phục sinh."
-                  en="Walk the argument step by step — from the first cause to the resurrection."
-                />
-              </span>
-              <span className={styles.cardCount}>
-                <T vi={`${evidenceStagesCount} chặng`} en={`${evidenceStagesCount} steps`} />
-              </span>
-            </span>
-          </Link>
-        )}
       </section>
 
       {/* Front-door companion CTA for seekers, just below the section cards. DongHanhCta self-gates

@@ -117,25 +117,6 @@
   background: var(--gold-tint);
 }
 
-/* ---- Mobile: groups flatten into labelled sections (full-width stacked rows) ---- */
-.mobileGroup {
-  padding: 4px 0 6px;
-}
-.mobileGroupLabel {
-  padding: 10px 6px 2px;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-quiet);
-}
-.mobileSubLink {
-  padding-left: 18px;
-  font-size: 15.5px;
-  font-weight: 400;
-  color: var(--text-body);
-}
-
 .actions {
   display: flex;
   align-items: center;

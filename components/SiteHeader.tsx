@@ -82,6 +82,10 @@ const NAV: NavEntry[] = [
     : []),
 ];
 
+// The mobile menu is a FLAT icon list — the per-item icons already distinguish the sections, so the
+// desktop family grouping (dropdowns) doesn't need repeating as labelled sub-sections here.
+const MOBILE_LINKS: NavLink[] = NAV.flatMap((e) => (isGroup(e) ? e.children : [e]));
+
 export function SiteHeader() {
   const pathname = usePathname();
   const lang = useLang();
@@ -123,11 +127,10 @@ export function SiteHeader() {
   };
 
   // One mobile-menu row: icon + label, with the companion rendered as an accent CTA tile.
-  const renderMobileLink = (l: NavLink, sub: boolean) => {
+  const renderMobileLink = (l: NavLink) => {
     const Icon = l.icon;
     const cls = [
       styles.mobileLink,
-      sub ? styles.mobileSubLink : '',
       l.cta ? styles.mobileCta : '',
       linkActive(l) ? styles.mobileLinkActive : '',
     ]
@@ -235,19 +238,7 @@ export function SiteHeader() {
 
       {mobileOpen && (
         <div className={styles.mobileMenu}>
-          {NAV.map((entry) =>
-            isGroup(entry) ? (
-              // Groups flatten into a labelled section — no menu-nested-in-menu on mobile.
-              <div key={entry.vi} className={styles.mobileGroup}>
-                <div className={styles.mobileGroupLabel}>
-                  <T vi={entry.vi} en={entry.en} />
-                </div>
-                {entry.children.map((c) => renderMobileLink(c, true))}
-              </div>
-            ) : (
-              renderMobileLink(entry, false)
-            )
-          )}
+          {MOBILE_LINKS.map((l) => renderMobileLink(l))}
           <div className={styles.mobileLangRow}>
             <LanguageToggle />
           </div>
