@@ -1,8 +1,41 @@
 # The evidence path — a guided walk through the case for Jesus (spec)
 
 Decided 2026-08-18 with the owner. Resolves `docs/proofread-fixes-round1.md` §E — the last open item
-from proofreading round 1. **Parked behind the launch gate: spec now, build after the domain goes
-live.**
+from proofreading round 1.
+
+**BUILD STARTED 2026-08-18 (owner) — behind a flag.** This was originally parked until after launch.
+It doesn't need to be, because there is **no staging environment**: anything pushed to `main` deploys
+to the live domain either way. So the actual protection isn't *when* it's built, it's the standing
+project rule (`docs/STATE.md` → "Rules that keep parallel sessions safe"): **gate unfinished work
+behind a `NEXT_PUBLIC_*` flag, unset on Vercel, rather than delaying or reverting it.**
+
+### Flag gating — REQUIRED, build it in from the first commit
+
+Add `lib/evidencePathFlag.ts` mirroring `lib/canvasFlag.ts` (the OFF-by-default shape, not the
+companion's on-by-default one):
+
+```ts
+export const EVIDENCE_PATH_ENABLED = process.env.NEXT_PUBLIC_EVIDENCE_PATH === '1';
+```
+
+- The routes **404 while the flag is off**, exactly like `/so-do` does today.
+- **Every entry point must be gated too** (nav item, homepage card, footer, companion CTA) so no dead
+  link ships — same rule the companion follows.
+- **`app/sitemap.ts` must gate its routes on the flag**, following the existing `COMPANION_ENABLED` /
+  `CANVAS_ENABLED` blocks there. Otherwise Google is handed URLs that 404 in production.
+**This makes it LOCAL-ONLY, which is what the owner asked for (2026-08-18).** The default is `off`, so
+a normal Vercel build never renders it — no kill switch needed, no action required to keep it private.
+Preview it with `NEXT_PUBLIC_EVIDENCE_PATH=1` in `.env.local`, which is **gitignored and never leaves
+the machine**. Add it there with the same comment style the other local-only flags use:
+
+```
+# Local-only: preview the evidence path (/bang-chung). Do NOT set this on Vercel until the
+# four bridge paragraphs are proofread.
+NEXT_PUBLIC_EVIDENCE_PATH=1
+```
+
+**Do NOT set this variable on Vercel.** It goes public only by that one deliberate act, and only after
+the owner has proofread the four bridge paragraphs. That's the real gate — not the calendar.
 
 ## The decision: a linear learning path, NOT another companion branch
 
@@ -107,10 +140,10 @@ this was a taste call rather than a terminology-verification question. Recorded 
 
 | # | Session | Task |
 |---|---|---|
-| 1 | **a new session — take the next free number from the `docs/STATE.md` registry** (12 is now the fact-verification audit) | Build `/bang-chung` + the four stage routes; write the four bilingual bridge paragraphs; link into the existing clusters. Owns `app/bang-chung`, `lib/evidencePath*`, and nothing else. |
-| 2 | **8** | On completion: homepage card + nav item + footer link + **the new routes in `app/sitemap.ts`**. One combined hand-off. |
-| 3 | **7** | Add the `doubt-evidence` → path CTA in `lib/dongHanh.ts`. |
-| 4 | owner | Proofread the four bridge paragraphs before the path goes live. *(Name: settled — see above.)* |
+| 1 | **13** (12 is the fact-verification audit) | Build `/bang-chung` + the four stage routes behind `EVIDENCE_PATH_ENABLED`; write the four bilingual bridge paragraphs; link into the existing clusters. Owns `app/bang-chung`, `lib/evidencePath*`, `lib/evidencePathFlag.ts`, and nothing else. |
+| 2 | **8** | On completion: homepage card + nav item + footer link + **the new routes in `app/sitemap.ts`** — **all four gated on the flag**. One combined hand-off. |
+| 3 | **7** | Add the `doubt-evidence` → path CTA in `lib/dongHanh.ts`, gated on the flag. |
+| 4 | owner | Proofread the four bridge paragraphs → add them to the proofreading tracker → **then** set `NEXT_PUBLIC_EVIDENCE_PATH=1` on Vercel. |
 
-**Sequencing:** 1 → then 2 and 3 in parallel. **Do not start before launch** — this is a new public
-surface needing its own proofreading pass, and the domain gate comes first.
+**Sequencing:** 1 → then 2 and 3 in parallel → owner proofreads → flag on. Building before launch is
+fine *because* of the flag; without it there is no staging and `main` is production.

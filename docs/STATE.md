@@ -46,7 +46,9 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
 
 | 12 | Fact-verification audit (research) | `docs/fact-verification-audit.md` in pass 1; then `content/giao-phu` + `content/cong-dong` in pass 2 | web-verifies every hard fact (dates, quotes, works, canons) + VN terminology in the two oldest sections, which predate the verify-facts rule | **specced, not started** — `docs/fact-verification-audit-spec.md`. Giáo Phụ (30) first, then Công Đồng (21). Two passes: report → owner approves → apply. Not a launch blocker. |
 
-*The next session you start becomes 13.*
+| 13 | Evidence path (Bằng chứng về Chúa Giêsu) | `app/bang-chung`, `lib/evidencePath*`, `lib/evidencePathFlag.ts` | builds the guided 4-stage walk through the case for Jesus, linking into existing Q&A clusters | **starting 2026-08-18** — spec `docs/evidence-path-spec.md`. LOCAL-ONLY behind `NEXT_PUBLIC_EVIDENCE_PATH` (default off). Owns NO entry points — hands them to 8 with the sitemap routes. |
+
+*The next session you start becomes 14.*
 
 ### The Coordinator session (unnumbered — there is exactly ONE at a time)
 Alongside the lane sessions there's a **coordinator/architect** session — the one the owner talks to
@@ -101,7 +103,9 @@ launched as the coordinator, this is your role:
    **Parked behind the launch gate — do not start before the domain is live.** Then: Session **12**
    builds it, Session 8 wires entry points **+ the new sitemap routes**, Session 7 adds the
    `doubt-evidence` CTA. **Name locked: `Bằng chứng về Chúa Giêsu` / `The Evidence for Jesus`,
-   route `/bang-chung`.** *(The build session takes the next free number — 12 is now the audit.)*
+   route `/bang-chung`.** **BUILD STARTED 2026-08-18 as Session 13, gated LOCAL-ONLY behind
+   `NEXT_PUBLIC_EVIDENCE_PATH` (default off — do NOT set it on Vercel).** No staging exists, so the
+   flag *is* the gate; it flips on only after the owner proofreads the four bridge paragraphs.
 4b. **Fact-verification audit — Session 12, specced 2026-08-18:** `docs/fact-verification-audit-spec.md`.
    Giáo Phụ (30) then Công Đồng (21) — the two sections authored before the verify-facts rule and
    before `sources` existed. Owner's decision: hard facts get delegated to a verification agent
