@@ -174,11 +174,20 @@ export const EVIDENCE_STAGES: EvidenceStage[] = [
       en: 'So what does God want from us?',
     },
     covers: {
-      vi: 'Sống tốt cả đời đã đủ chưa, và "chuộc tội" thật sự nghĩa là gì.',
-      en: 'Whether living a good life is enough, and what "atonement" actually means.',
+      vi: 'Sống tốt cả đời đã đủ chưa, "chuộc tội" thật sự nghĩa là gì, và ông bà tổ tiên chưa từng nghe biết Chúa thì sao.',
+      en: 'Whether living a good life is enough, what "atonement" actually means, and what becomes of ancestors who never heard of Christ.',
     },
     anchor: 'tai-sao-chua-giesu-chiu-dong-dinh',
-    only: ['song-tot-ca-doi-sao-khong-tu-tra-het-toi', 'chua-giesu-chuoc-toi-nghia-la-gi'],
+    // Order matters here — this is the last thing anyone reads on the whole path. It builds:
+    // "isn't a good life enough?" → "what did the cross actually do?" → "so what about those who
+    // never heard?". The last one carries Ga 14,2-3 ("Thầy đi dọn chỗ cho anh em… để Thầy ở đâu,
+    // anh em cũng ở đó"), which is the most literal answer this stage's title can have — he wants
+    // you where he is. Putting it first would open the closing step on a fairness objection instead.
+    only: [
+      'song-tot-ca-doi-sao-khong-tu-tra-het-toi',
+      'chua-giesu-chuoc-toi-nghia-la-gi',
+      'nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong',
+    ],
     bridge: {
       vi: 'Nếu năm bước trước đứng vững, thì câu hỏi không còn là "có Thiên Chúa hay không", mà là một câu riêng tư hơn nhiều: nếu chuyện đó có thật, thì nó liên quan gì tới tôi? Đến đây phần bằng chứng đã xong việc của nó. Bước cuối này không chứng minh thêm điều gì nữa — nó chỉ trả lời câu hỏi còn lại: Thiên Chúa muốn gì nơi bạn, và tại sao câu trả lời ấy lại đi qua thập giá.',
       en: 'If the five previous steps hold, the question is no longer whether there is a God but something far more personal: if this is true, what does it have to do with me? The evidence has finished its work by here. This last step proves nothing further — it only answers the question that is left: what God wants of you, and why that answer runs through the cross.',
