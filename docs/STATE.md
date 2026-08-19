@@ -138,8 +138,13 @@ launched as the coordinator, this is your role:
       `components/Bi.tsx` — **and now `lib/evidencePathStages.ts`**, i.e. brand-new code (Session 13)
       picked up the dead layer. Finish the migration and delete V1, or it keeps propagating. Crosses
       lanes (8 · 2 · 13) → coordinator to route.
-    - **Footer credit placeholders** (`[nguồn]` / `[tên]`) are still present in `app/page.tsx` — 2
-      occurrences. **Session 8**, and worth doing before the domain is public.
+    - **Footer credits — CORRECTED 2026-08-19.** The `[nguồn]` / `[tên]` placeholders are inside a JSX
+      comment in `app/page.tsx` (~line 490), so **nothing placeholder-ish is live** — an earlier note
+      here implied it was. The real issue is the opposite: **the footer shows no credits at all.** The
+      site renders the CGKPV Catechism translation and public-domain patristic texts with **no
+      attribution line anywhere**, which sits oddly beside the TASL image-attribution rule we just
+      adopted. **Needs an owner decision on the wording** (how to credit the Giáo Lý translation, and
+      what name goes in "Thực hiện bởi"), then **Session 8** uncomments and fills it.
     - Canvas `/so-do`: finalize the remaining Obsidian canvases, then publish (flag + a
       `/so-do/<slug>` page + `CANVAS_FOR` entry per topic).
     - Catechism title i18n — see the `todo-catechism-title-i18n` memory.
