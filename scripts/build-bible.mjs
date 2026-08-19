@@ -96,7 +96,12 @@ const EXTRA_ABBREVS = {
   '2 Timôthê': ['2 Tim'],
   'Titô': ['Titus', 'Tit'],
   'Philêmon': ['Phlm', 'Phm'],
-  'Do thái': ['Heb'],
+  // "Hr" is NOT a CGKPV abbreviation — the printed CGKPV Bible uses "Dt" (confirmed against the
+  // physical copy, 2026-08-19), and that's the alias the vault declares. But the Vietnamese
+  // Catechism translation in content/content.json cites Hebrews as "Hr" throughout, and we must
+  // not edit HĐGM VN's text to match ours. So "Hr" is accepted here as an INBOUND alias only:
+  // references written that way resolve, while "Dt" stays canonical for anything we author.
+  'Do thái': ['Heb', 'Hr'],
   'Giacôbê': ['Jas'],
   '1 Phêrô': ['1 Pet', '1 Pt'],
   '2 Phêrô': ['2 Pet', '2 Pt'],
