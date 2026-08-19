@@ -125,9 +125,13 @@ keep the established note so it's clear the file was handled rather than skipped
 
 ## Your current queue (derived from the real files, 2026-08-18)
 
-**1. Two ready scripts are unprocessed** — this is the actual backlog:
-- `Unpublished Video Scripts/Sola Scriptura English.md`
-- `Unpublished Video Scripts/Sola Scriptura Vietnamese.md`
+**1. ~~Two ready scripts are unprocessed.~~ CORRECTED 2026-08-18 (owner).**
+- `Sola Scriptura Vietnamese` — **DONE.** Session 4 processed it, and Session 3 has already authored the
+  full **Duy Kinh Thánh (Sola Scriptura)** cluster from it (anchor + 9 parts, commit `2edd4b1`).
+- `Sola Scriptura English` — **NOT a pending Q&A source.** It exists for the future **English Q&A**
+  project (`docs/roadmap.md` → "English Q&A bodies"), not for a Vietnamese cluster. **Do not treat it
+  as a blocked Q&A**, and don't expect `To Q&A: true` to follow from processing it — the English
+  content model doesn't exist yet. Wikilink it if useful; otherwise leave it.
 
 **2. Fix stale `To Q&A` flags.** The flag disagrees with the repo on four files — the repo is the
 truth. Verify each against `content/giai-dap/` before changing it:

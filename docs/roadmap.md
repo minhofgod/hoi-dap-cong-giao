@@ -431,3 +431,35 @@ resolved, the tool can show verse *references* + hand-glosses, not the full CGKP
   `available:false` — Q&A cards don't).
 - Content AI later: site-content-only with citations (recommended) vs. also online sources.
 - Languages: companion flow bilingual (like the rest of the site) — assumed yes.
+
+### English Q&A bodies — the site's one monolingual section (noted 2026-08-18)
+
+**The gap:** every other section is bilingual VI/EN, but **Giải Đáp answers are Vietnamese-only.** All
+90 Q&As carry `question_en` (the *title*, used by search), and **none has an English body** — the
+detail page renders `questionVi` + one body with no language toggle (`docs/content-guide.md` → data
+model). So an English-speaking visitor can find a question and then can't read the answer. That's the
+site's **core content**, so it's the largest remaining bilingual gap.
+
+**Source material is already accumulating.** `Sola Scriptura English.md` in the vault exists for
+exactly this — it is *not* a pending Vietnamese Q&A source (a Session 4 brief said otherwise; corrected
+2026-08-18).
+
+**Infrastructure precedent exists:** videos already use an `.en.md` sidecar
+(`content/video/<slug>.en.md`) with a VI/EN/Cả hai toggle. The same shape would work here
+(`content/giai-dap/<slug>.en.md`), so this is mostly **content**, not framework — though the loader +
+detail page need the toggle wiring (Session 2's lane).
+
+**⚠️ The fork to settle before anyone starts — and it matters:**
+- **(a) Hand-authored + verified English**, in its own register, the way the video companions are done.
+  Consistent with the founding vision and the "author each expression on its own" rule.
+- **(b) Machine translation** of 90 Vietnamese answers.
+
+**(b) is exactly the drift the owner asked to be warned about.** These answers carry doctrine,
+Scripture citations, and Catechism references; a translation pass that nobody verifies would put
+unverified theological content on an apologetics site in a language the owner is less able to
+spot-check — while *looking* finished. If (b) is ever chosen for speed, it must be treated as a
+**draft requiring the same verification pass as any external draft** (`CLAUDE.md`), not as shippable
+output.
+
+**Not scheduled.** Large (90 answers), not a launch blocker, and worth doing cluster-by-cluster
+(highest-traffic clusters first) rather than as one push.
