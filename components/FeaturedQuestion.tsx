@@ -1,12 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
-import { ChevronRight, RotateCw } from 'lucide-react';
+import { useRef, useState } from 'react';
+import { ChevronRight, ChevronDown, RotateCw } from 'lucide-react';
 import type { ResolvedReference } from '@/lib/bibleRefs';
 import type { ResolvedCatechism } from '@/lib/content';
-import { ScriptureRef } from './ScriptureRef';
-import { CatechismRef } from './CatechismRef';
 import { T } from './T';
 import styles from './FeaturedQuestion.module.css';
 
@@ -20,26 +18,49 @@ export type HeroQuestion = {
   cccData: Record<string, ResolvedCatechism | null>;
 };
 
-/** The landing hero (design README §3): a real featured question with a two-paragraph
- *  answer teaser. "Câu khác" swaps in the next question client-side. */
+/** The landing hero (design README §3): a real featured question with a short answer teaser.
+ *  "Câu khác" (or a horizontal swipe on touch) swaps in the next question client-side. On mobile
+ *  the teaser is collapsed behind a toggle so the hero stays short and the sections sit close. */
 export function FeaturedQuestion({ questions }: { questions: HeroQuestion[] }) {
   const [i, setI] = useState(0);
-  if (questions.length === 0) return null;
-  const q = questions[i % questions.length];
+  const [expanded, setExpanded] = useState(false);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const len = questions.length;
+
+  // Change the shown question and re-collapse the teaser (so each one starts short on mobile).
+  const go = (delta: number) => {
+    if (len < 2) return;
+    setI((v) => (v + delta + len) % len);
+    setExpanded(false);
+  };
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    const t = e.touches[0];
+    touchStart.current = { x: t.clientX, y: t.clientY };
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    const s = touchStart.current;
+    touchStart.current = null;
+    if (!s) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - s.x;
+    const dy = t.clientY - s.y;
+    // Only a clearly-horizontal swipe changes the question (so it never fights vertical scrolling).
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.5) go(dx < 0 ? 1 : -1);
+  };
+
+  if (len === 0) return null;
+  const q = questions[i % len];
 
   return (
-    <div className={styles.left}>
+    <div className={styles.left} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
       <div className={styles.eyebrowRow}>
         <span className={styles.eyebrow}>
           <T vi="Câu hỏi" en="Question" />
         </span>
         <span className={styles.rule} />
-        {questions.length > 1 && (
-          <button
-            type="button"
-            className={styles.cauKhac}
-            onClick={() => setI((v) => (v + 1) % questions.length)}
-          >
+        {len > 1 && (
+          <button type="button" className={styles.cauKhac} onClick={() => go(1)}>
             <RotateCw size={13} strokeWidth={2.2} />
             <T vi="Câu khác" en="Another" />
           </button>
@@ -48,25 +69,30 @@ export function FeaturedQuestion({ questions }: { questions: HeroQuestion[] }) {
 
       <h1 className={styles.question}>{q.question}</h1>
 
-      {q.lede.map((p, idx) => (
-        <p key={idx} className={styles.lede}>
-          {p}
-        </p>
-      ))}
-
-      {(q.ccc.length > 0 || q.scripture.length > 0) && (
-        <div className={styles.refs}>
-          <span className={styles.refsLabel}>
-            <T vi="Tham chiếu" en="References" />
-          </span>
-          {q.ccc.map((n) => (
-            <CatechismRef key={n} number={n} data={q.cccData[n] ?? null} />
-          ))}
-          {q.scripture.map((s) => (
-            <ScriptureRef key={s} refLabel={s} variant="chip" data={q.scriptureData[s] ?? null} />
-          ))}
-        </div>
+      {/* Toggle is mobile-only (hidden on desktop, where the teaser always shows). */}
+      {q.lede.length > 0 && (
+        <button
+          type="button"
+          className={styles.toggle}
+          aria-expanded={expanded}
+          onClick={() => setExpanded((v) => !v)}
+        >
+          <T vi={expanded ? 'Thu gọn' : 'Xem trước câu trả lời'} en={expanded ? 'Show less' : 'Preview the answer'} />
+          <ChevronDown
+            size={15}
+            strokeWidth={2.2}
+            className={expanded ? `${styles.toggleIcon} ${styles.toggleIconOpen}` : styles.toggleIcon}
+          />
+        </button>
       )}
+
+      <div className={expanded ? styles.detailsOpen : styles.details}>
+        {q.lede.map((p, idx) => (
+          <p key={idx} className={styles.lede}>
+            {p}
+          </p>
+        ))}
+      </div>
 
       <div className={styles.buttons}>
         <Link href={`/giai-dap/${q.slug}`} className={styles.primary}>

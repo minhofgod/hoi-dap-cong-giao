@@ -35,6 +35,8 @@
      keeps DOM order, so it becomes: featured Q → cards → companion → the rest. */
   .hero {
     order: -1;
+    padding-top: 24px;
+    padding-bottom: 28px;
   }
   /* Compact card: photo + title + count only (the description would double each card's height). */
   .cardDesc {
@@ -663,6 +665,11 @@ a.card:hover {
   .support {
     grid-template-columns: 1fr;
     gap: 32px;
+  }
+  /* The "Được hỏi nhiều" rail stacks below the featured question on mobile and just adds length —
+     hide it; the hero's "Xem tất cả câu hỏi" button already leads to the full list. */
+  .heroRail {
+    display: none;
   }
   .rosaryInner {
     grid-template-columns: 1fr;
