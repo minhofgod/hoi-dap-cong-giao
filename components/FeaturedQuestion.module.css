@@ -1,5 +1,13 @@
 .left {
   max-width: 640px;
+  /* Clip the answer panel as it slides out; reserve horizontal drags for the swipe (vertical still
+     scrolls the page). */
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.slider {
+  will-change: transform;
 }
 
 .eyebrowRow {
