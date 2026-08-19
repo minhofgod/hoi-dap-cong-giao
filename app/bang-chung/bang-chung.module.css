@@ -9,20 +9,38 @@
   padding: 0 0 80px;
 }
 
+/* flex-end + `margin-right: auto` on the leading item, rather than space-between: the leading item
+   is optional (the index's companion escape hatch renders only for readers who arrived from it),
+   and with space-between its absence would drag the language toggle over to the left. */
 .topBar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 16px;
   padding: 16px var(--page-gutter) 0;
 }
 
 .back {
+  margin-right: auto;
   font-size: 13.5px;
   color: var(--text-quiet);
   text-decoration: none;
 }
 .back:hover {
+  color: var(--accent-deep);
+}
+
+/* Quiet by design — an escape hatch back to /dong-hanh, not a nav item. */
+.companionReturn {
+  margin-right: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-quiet);
+  text-decoration: none;
+}
+.companionReturn:hover {
   color: var(--accent-deep);
 }
 .backEnRecessed {

@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { LanguageToggle } from '@/components/LanguageToggle';
 import { Bi2 } from '@/components/giao-phu/Bi2';
+import { CompanionReturn } from '@/components/bang-chung/CompanionReturn';
 import { getStageCards } from '@/lib/evidencePath';
 import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
 import styles from './bang-chung.module.css';
@@ -38,6 +40,12 @@ export default function BangChungIndexPage() {
       <SiteHeader />
       <div className={styles.wrap}>
         <div className={styles.topBar}>
+          {/* Suspense keeps the rest of this page prerendered: useSearchParams client-renders only
+              the tree up to the nearest boundary (next/dist/docs → use-search-params, "Prerendering").
+              Without it the whole index would drop out of static generation for one escape hatch. */}
+          <Suspense fallback={null}>
+            <CompanionReturn />
+          </Suspense>
           <LanguageToggle />
         </div>
 
