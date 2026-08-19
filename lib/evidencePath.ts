@@ -34,6 +34,10 @@ export interface ResolvedStage {
   parts: EvidenceAnswer[];
   /** anchor + parts — what "5 giải đáp" on the index card counts. */
   answerCount: number;
+  /** True when the stage deliberately shows only a SLICE of its cluster (`stage.only` is set and
+   *  the cluster really does have more). The UI says so and points at the full cluster, so taking
+   *  the evidential part of a theology-heavy cluster never reads as "this is all there is". */
+  partial: boolean;
 }
 
 /** A short plain-text preview of an answer, for the collapsed row. Strips Markdown and inline verse
@@ -76,16 +80,25 @@ export function getResolvedStages(): ResolvedStage[] {
   return EVIDENCE_STAGES.flatMap((stage): ResolvedStage[] => {
     const anchorQ = bySlug.get(stage.anchor);
     if (!anchorQ) return [];
-    const parts = anchorQ.parts
+
+    // `only` narrows a theology-heavy cluster to the evidential slice the path needs — it's scoped
+    // to the anchor's own members so a stage can never pull in an unrelated Q&A, and unknown slugs
+    // just drop out. Without `only` the stage walks the whole cluster.
+    const memberSlugs = stage.only
+      ? stage.only.filter((slug) => anchorQ.parts.includes(slug))
+      : anchorQ.parts;
+    const parts = memberSlugs
       .map((slug) => bySlug.get(slug))
       .filter((q): q is GiaiDapQuestion => Boolean(q))
       .map(toAnswer);
+
     return [
       {
         stage,
         anchor: toAnswer(anchorQ),
         parts,
         answerCount: 1 + parts.length,
+        partial: parts.length < anchorQ.parts.length,
       },
     ];
   });

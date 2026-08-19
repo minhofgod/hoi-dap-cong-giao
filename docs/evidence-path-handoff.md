@@ -112,6 +112,41 @@ Use the locked destination label above.
 
 ---
 
+## → Session 3 (later) — the "did Jesus claim to be God?" cluster
+
+The owner is writing this cluster. It fills the one real gap in the path: step 4's payoff — *if he
+rose, what he said about himself is vindicated* — needs the reader to have been shown **that he said
+it**, and today no Q&A on the site argues that. (Searched all of `content/giai-dap`: the only two
+that touch his divinity live inside `tai-sao-chua-giesu-chiu-dong-dinh` and both *assume* it.) Until
+it exists, step 3's bridge only reports the claim — "Kitô giáo trả lời rằng…" — and must keep doing
+so; a bridge asserting it would be unverified theology.
+
+**The constraint that matters when wiring it in (owner, 2026-08-18):**
+
+> The cluster will have many parts. The path only needs **one verse or argument** named — not the
+> whole thing. The point is still for people to learn about **evidence, not theology yet.**
+
+The code enforces this rather than trusting anyone to remember it. `EvidenceStage` has an optional
+`only?: string[]` — name one or two member slugs and the stage walks just those:
+
+```ts
+{
+  slug: 'chua-giesu-xung-minh-la-thien-chua',
+  step: 4,                       // and bump the Resurrection to 5
+  anchor: '<the new cluster anchor>',
+  only: ['<the one evidential member>'],   // ← without this the whole cluster gets pulled in
+  ...
+}
+```
+
+`only` is scoped to the anchor's own `parts:`, unknown slugs drop out, and the stage page then
+renders a note saying it shows only the evidence portion, with a link to the full cluster — so a
+slice never reads as "this is all there is." Verified working (9 members → 1) before it shipped.
+
+The natural home is a **new stage between today's 3 and 4**, which makes the path five steps.
+
+---
+
 ## → Owner — before the flag goes on
 
 The four **bridge paragraphs** are the only new public writing on this path (~2–4 sentences each,

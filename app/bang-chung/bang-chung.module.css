@@ -351,6 +351,24 @@
   margin-bottom: 10px;
 }
 
+/* Shown only when a stage deliberately walks a SLICE of its cluster (`only` in evidencePathStages). */
+.partialNote {
+  margin: -2px 0 12px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--text-quiet);
+  max-width: 68ch;
+}
+.partialLink {
+  font-weight: 500;
+  color: var(--accent-deep);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.partialLink:hover {
+  text-decoration: underline;
+}
+
 .answerList {
   list-style: none;
   margin: 0;

@@ -34,6 +34,19 @@ export interface EvidenceStage {
   /** Slug of the Giải Đáp cluster ANCHOR this stage walks. Its `parts:` supply the member
    *  questions, so the path can never drift out of sync with the cluster. */
   anchor: string;
+  /** Optional: show ONLY these member slugs, in this order, instead of the anchor's whole `parts:`
+   *  list. Omit it and the stage walks the entire cluster (what all four stages do today).
+   *
+   *  This exists because THE PATH IS AN EVIDENCE CHAIN, NOT A THEOLOGY COURSE (owner, 2026-08-18).
+   *  Some clusters are theologically rich and much larger than the evidential slice the path needs
+   *  — the coming "did Jesus claim to be God?" cluster is the case in point: it will have many
+   *  parts, but the path only needs the one verse or argument that carries the evidence, and the
+   *  reader who wants the rest follows the link into /giai-dap.
+   *
+   *  Without this field the failure is silent: point a stage at a big anchor and it quietly drags
+   *  the whole cluster in. Prefer naming one or two slugs over adding a stage that walks twelve.
+   *  Unknown slugs are ignored, so a renamed part degrades to a shorter list rather than a crash. */
+  only?: string[];
   /** THE bridge: 2–4 sentences saying what the previous stage established and why that forces this
    *  question. The one piece of genuinely new writing on this path — deliberately connective logic
    *  only, asserting no dates, names, events or citations of its own (see the spec's scope note).

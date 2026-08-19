@@ -25,9 +25,14 @@ import styles from '@/app/bang-chung/bang-chung.module.css';
 export function EvidenceAnswers({
   anchor,
   parts,
+  partial = false,
 }: {
   anchor: EvidenceAnswer;
   parts: EvidenceAnswer[];
+  /** The stage shows only the evidential slice of a larger cluster — say so, and point at the rest.
+   *  The path is an evidence chain, not a theology course, so taking a slice is deliberate; leaving
+   *  the reader thinking the slice IS the cluster is not. */
+  partial?: boolean;
 }) {
   const lang = useLang();
   const en = lang === 'en';
@@ -81,6 +86,17 @@ export function EvidenceAnswers({
               en={`${parts.length} questions in this step`}
             />
           </div>
+          {partial && (
+            <p className={styles.partialNote}>
+              <T
+                vi="Bước này chỉ lấy phần bằng chứng của một chủ đề rộng hơn. Cụm bài đầy đủ — gồm cả phần đạo lý — nằm trong Giải Đáp."
+                en="This step takes only the evidence part of a larger topic. The full cluster — including the doctrinal side — is in Giải Đáp."
+              />{' '}
+              <Link href={anchor.href} className={styles.partialLink}>
+                <T vi="Đọc trọn cụm bài →" en="Read the whole cluster →" />
+              </Link>
+            </p>
+          )}
           <ol className={styles.answerList}>
             {parts.map((a, i) => {
               const isOpen = open === a.slug;

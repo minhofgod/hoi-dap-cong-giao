@@ -43,7 +43,7 @@ export default async function EvidenceStagePage({ params }: { params: Promise<Pa
   const index = stages.findIndex((s) => s.stage.slug === slug);
   if (index === -1) notFound();
 
-  const { stage, anchor, parts } = stages[index];
+  const { stage, anchor, parts, partial } = stages[index];
   const prev = index > 0 ? stages[index - 1] : null;
   const next = index < stages.length - 1 ? stages[index + 1] : null;
   const total = stages.length;
@@ -115,7 +115,7 @@ export default async function EvidenceStagePage({ params }: { params: Promise<Pa
             />
           </section>
 
-          <EvidenceAnswers anchor={anchor} parts={parts} />
+          <EvidenceAnswers anchor={anchor} parts={parts} partial={partial} />
 
           <nav className={styles.stageNav}>
             {prev ? (
