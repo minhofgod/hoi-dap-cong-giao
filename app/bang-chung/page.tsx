@@ -9,7 +9,8 @@ import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
 import styles from './bang-chung.module.css';
 
 export const metadata: Metadata = {
-  title: 'Bằng chứng về Chúa Giêsu · Hỏi Đáp Công Giáo',
+  // No site-name suffix here: app/layout.tsx's title `template` appends "· Hỏi Đáp Công Giáo".
+  title: 'Bằng chứng về Chúa Giêsu',
   description:
     'Sáu bước lần theo lập luận: từ câu hỏi vũ trụ này là ngẫu nhiên hay được thiết kế, qua sự sống lại của Chúa Giêsu, đến điều Thiên Chúa muốn nơi bạn. Mỗi bước dựa trên bước trước — và bạn có thể bắt đầu ở bất cứ bước nào.',
 };

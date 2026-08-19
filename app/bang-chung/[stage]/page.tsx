@@ -29,7 +29,8 @@ export async function generateMetadata({
   if (!resolved) return {};
   const { stage } = resolved;
   return {
-    title: `${stage.title.vi} — Bằng chứng về Chúa Giêsu · Hỏi Đáp Công Giáo`,
+    // No site-name suffix: app/layout.tsx's title `template` appends "· Hỏi Đáp Công Giáo".
+    title: `${stage.title.vi} — Bằng chứng về Chúa Giêsu`,
     description: stage.bridge.vi,
   };
 }
