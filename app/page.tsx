@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Play, Sparkles } from 'lucide-react';
+import { Play } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { content, toc, resolveCatechism } from '@/lib/content';
 import { formatTocLabel } from '@/lib/titleFormat';
@@ -184,11 +184,15 @@ export default function HomePage() {
             </span>
           </span>
         </Link>
-        {/* No card image: /images/phep-la is Session 11's lane and doesn't exist yet, so use an
-            icon placeholder rather than an <Image> that would 404. */}
         <Link href="/phep-la" className={`${styles.card} ${styles.cardBlue}`}>
-          <span className={`${styles.cardImage} ${styles.cardImagePlaceholder}`} aria-hidden="true">
-            <Sparkles size={40} strokeWidth={1.5} className={styles.cardPlaceholderIcon} />
+          <span className={styles.cardImage}>
+            <Image
+              src="/images/phep-la/la-vang.jpg"
+              alt=""
+              fill
+              sizes="(max-width: 900px) 100vw, 400px"
+              className={styles.cardImg}
+            />
           </span>
           <span className={styles.cardBody}>
             <span className={styles.cardTitle}>

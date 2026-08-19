@@ -76,17 +76,6 @@ a.card:hover {
   object-fit: cover;
   object-position: 50% 26%;
 }
-/* Imageless card (Phép Lạ — no art available yet): a tinted panel with a centered icon instead of
-   a photo, so no broken/missing <Image> ships. */
-.cardImagePlaceholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #DEE8F0;
-}
-.cardPlaceholderIcon {
-  color: #5B7A96;
-}
 
 .cardBody {
   display: flex;
