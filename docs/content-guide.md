@@ -91,6 +91,41 @@ library**, so provenance is never lost and images can be reused across the user'
 Always prefer public-domain images and confirm the license on the image's Wikimedia Commons page
 before using it.
 
+### Which licenses we can use (verified 2026-08-18 against the CC licenses + CC guidance)
+
+- ✅ **Public domain / CC0** — always fine. Still credit it; the library rule above applies regardless.
+- ✅ **CC BY** and ✅ **CC BY-SA** — **fine to use, and they do NOT make the site CC-licensed.** The
+  CC BY-SA legal code carves this out explicitly: *"A work that constitutes a Collection will not be
+  considered an Adaptation for the purposes of the License."* ShareAlike attaches only to
+  **adaptations**; an unmodified image sitting on a page next to our own writing is a *collection*.
+- ⚠️ **Only if you MODIFY the image file** (recolour, composite, edit and re-save a crop) does it
+  become an adaptation — and then **that derived image must itself be released CC BY-SA**. Displaying
+  an unmodified file cropped by CSS (`object-fit: cover` on a card banner) is **not** a modification,
+  and CC 4.0 states that format changes alone never produce adapted material. **Prefer displaying
+  originals unmodified** so this never comes up.
+- ⚠️ **CC BY-ND (NoDerivatives)** — usable unmodified, but never edited.
+- ⚠️ **CC BY-NC (NonCommercial)** — avoid. The site is non-commercial today, but "non-commercial" is
+  a fuzzy line if donations or ads are ever added, and re-licensing images later is painful. Don't
+  build a dependency on it.
+
+### Attribution — TASL, on the page, not just in the library
+
+Required for every non-PD image: **T**itle · **A**uthor · **S**ource · **L**icense. Two rules:
+
+1. **It must be visible where the image is used.** The `Catholic Images/CREDITS.csv` library is
+   *internal provenance* and does **not** satisfy attribution on its own.
+2. **Link the source and the license** where feasible — on a web page it always is. CC's recommended
+   practice is a hyperlink to the original file page and to the license deed
+   (e.g. `https://creativecommons.org/licenses/by-sa/4.0/`), not just their names as plain text.
+
+The section data models already carry this — `{ src, caption, source, sourceUrl, license, available }`
+(see `content/phep-la/*.json`). **Fill `sourceUrl` and `license` on every non-PD image**, and render
+them as links.
+
+> ⚠️ **Known gap (2026-08-18):** the saint/father credit blocks render `medium. source, license.` as
+> **plain text**, ignoring the `sourceUrl` already present in the data. Linking source + license is a
+> small render change worth making in each section's detail page.
+
 ## Pastoral tone — suffering, grief, and the saints (applies to ALL content)
 
 Any content a hurting or grieving person might reach — the companion's suffering branches, saint
