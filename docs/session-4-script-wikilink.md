@@ -38,17 +38,48 @@ routed; don't write it yourself.
 
 Copy into `Processed Video Scripts/` — the source file stays where it is.
 
-## Frontmatter + the no-verse note
+## Never overwrite the source
 
-Every processed script carries:
+`Finished Videos/` holds the owner's **exact voiceover wording**, which can differ slightly from the
+official CGKPV verse text. Always **copy** to `Processed Video Scripts/` (same filename) and apply
+wikilinks to the copy only. Read-aloud verses become embeds that render official CGKPV text, which
+would otherwise collide with the owner's own phrasing in the source he records from.
+
+## Frontmatter
+
+Every script file — **source files too**, not just processed ones — carries:
 
 ```yaml
-Wikilink: true      # you set this when you process it
-To Q&A: true|false  # whether a Q&A cluster for this topic exists in the repo
+YouTube Video Number:      # e.g. "MOG YT01" (blank = not on YouTube) — the OWNER fills these in
+Tiktok Video Number:       # e.g. "MOG TT02"                          — leave blank
+YouTube Folder:            # location of the YouTube video file        — leave blank
+Tiktok Folder:             # location of the TikTok video file         — leave blank
+Wikilink: <true|false>     # true ONLY in Processed Video Scripts/; source folders are false
+To Q&A: <true|false>       # true = that content is published on the website as Q&A
 ```
 
-`To Q&A` is **derived from the repo**, not remembered — check whether the matching cluster anchor
-exists under `content/giai-dap/`. It is currently stale on several files (see the queue below).
+- Adding frontmatter to a source file is safe — it only prepends metadata and never touches the
+  voiceover wording. **Prepend or replace the first `---…---` block only; never double-add one.**
+- `To Q&A` is **derived from the repo**, not remembered — check whether the matching cluster anchor
+  exists under `content/giai-dap/`. It is currently stale on several files (see the queue below).
+
+## Verify every verse against the actual CGKPV text
+
+A wikilink that points at the wrong verse silently misattributes Scripture, so this is not optional:
+
+- For every cited verse, **open the actual CGKPV chapter file** and confirm the `###### N` anchor
+  exists **and** that the quoted text really is that verse or range. The owner's typed citation label
+  can be off.
+- **When they disagree, fix the number/range to match what is actually quoted** — updating *both* the
+  citation label in the prose *and* the embed/link. E.g. a quote labelled `Giacôbê 1:6` whose text
+  actually spans 1:5-6 → correct it to `1:5-6` and embed the full range
+  (`![[Giacôbê 1#5|…1:5]]` + `![[Giacôbê 1#6|…1:6]]`).
+- **Catch allusions, not just explicit citations** — a paraphrase or a reference with no chapter:verse
+  ("thư gửi tín hữu Cô-rin-tô", "the 500 witnesses") still gets linked or embedded. Read aloud →
+  embed; merely cited or alluded to → link.
+- **Placement:** when a verse is only partly quoted or alluded to inline, keep the inline citation as a
+  **link** and add the full verse **embed on its own line after the paragraph** — the owner prefers the
+  CGKPV text to render on screen.
 
 **Scripts with no Bible references still get processed** — copy them over, set `Wikilink: true`, and
 keep the established note so it's clear the file was handled rather than skipped:
