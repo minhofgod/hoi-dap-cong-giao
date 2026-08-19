@@ -1,0 +1,364 @@
+/* ── Shared shell ─────────────────────────────────────────────────────────── */
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 48px var(--page-gutter) 80px;
+}
+@media (max-width: 900px) {
+  .wrap {
+    padding-left: var(--mobile-gutter);
+    padding-right: var(--mobile-gutter);
+  }
+}
+
+.header {
+  margin-bottom: 40px;
+  max-width: var(--measure-prose);
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: 34px;
+  line-height: 1.2;
+  color: var(--text-heading);
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: var(--sage-deep);
+  margin-bottom: 18px;
+}
+
+.lede {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text-body);
+}
+
+.back {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--sage-deep);
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.back:hover {
+  text-decoration: underline;
+}
+
+/* ── Index: parts and chapter rows ────────────────────────────────────────── */
+
+.part {
+  margin-bottom: var(--section-rhythm, 44px);
+}
+
+.partHead {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+  margin-bottom: 6px;
+}
+
+.partTitle {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  color: var(--text-heading);
+}
+
+.partBlurb {
+  font-size: 13px;
+  color: var(--sage-deep);
+  margin-top: 3px;
+}
+
+.chapterList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chapterRow {
+  display: flex;
+  gap: 14px;
+  align-items: baseline;
+  padding: 13px 10px;
+  border-bottom: 1px solid var(--border);
+  border-radius: var(--radius-row);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease;
+}
+.chapterRow:hover {
+  background: var(--sage-tint);
+}
+
+.num {
+  flex: 0 0 auto;
+  min-width: 26px;
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  color: var(--accent-number, var(--sage-deep));
+}
+
+.rowMain {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.rowTitle {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  color: var(--text-heading);
+  line-height: 1.35;
+}
+
+.rowTitleEn {
+  font-size: 12.5px;
+  color: var(--sage-deep);
+  margin-top: 2px;
+}
+
+.rowRef {
+  flex: 0 0 auto;
+  font-size: 11.5px;
+  color: var(--sage-deep);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .rowRef {
+    display: none;
+  }
+}
+
+.supplTag {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 1px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--gold-tint);
+  border: 1px solid var(--gold-border);
+  color: var(--gold-deep);
+  margin-left: 8px;
+  vertical-align: 2px;
+}
+
+/* ── Chapter page: two-column reader ──────────────────────────────────────── */
+
+.layout {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 44px;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+}
+
+.sidebar {
+  position: sticky;
+  top: 88px;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  font-size: 13px;
+  padding-right: 6px;
+}
+@media (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sideGroup {
+  margin-bottom: 18px;
+}
+
+.sideGroupTitle {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  margin-bottom: 6px;
+}
+
+.sideLink {
+  display: block;
+  padding: 4px 8px;
+  border-radius: var(--radius-row);
+  color: var(--text-body);
+  text-decoration: none;
+  line-height: 1.4;
+}
+.sideLink:hover {
+  background: var(--sage-tint);
+}
+.sideLinkActive {
+  background: var(--accent-tint);
+  color: var(--text-heading);
+  font-weight: 600;
+}
+
+.article {
+  min-width: 0;
+  max-width: var(--measure-prose);
+}
+
+.chapterHead {
+  margin-bottom: 26px;
+}
+
+.partLabel {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  margin-bottom: 8px;
+}
+
+.chapterTitle {
+  font-family: var(--font-serif);
+  font-size: 30px;
+  line-height: 1.22;
+  color: var(--text-heading);
+}
+
+.chapterTitleEn {
+  font-size: 14px;
+  color: var(--sage-deep);
+  margin-top: 5px;
+}
+
+.summaRef {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 12.5px;
+  color: var(--sage-deep);
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-quiet);
+  border: 1px solid var(--border);
+}
+
+/* Caveat shown on chapters expounding the Supplementum — text Aquinas did not write. */
+.supplNote {
+  margin: 18px 0 4px;
+  padding: 13px 16px;
+  border-radius: var(--radius-card);
+  background: var(--gold-tint);
+  border: 1px solid var(--gold-border);
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-body);
+}
+.supplNoteTitle {
+  font-weight: 700;
+  color: var(--gold-deep);
+  margin-bottom: 4px;
+}
+
+.refsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 20px 0 4px;
+}
+
+.body {
+  font-size: 15.5px;
+  line-height: 1.78;
+  color: var(--text-body);
+}
+
+.sources {
+  margin-top: 40px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.sourcesTitle {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  margin-bottom: 8px;
+}
+
+.sourcesList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--sage-deep);
+}
+.sourcesList li {
+  margin-bottom: 4px;
+}
+.sourcesList a {
+  color: var(--accent-deep);
+}
+
+/* ── Prev / next ──────────────────────────────────────────────────────────── */
+
+.neighbours {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 40px;
+}
+@media (max-width: 640px) {
+  .neighbours {
+    grid-template-columns: 1fr;
+  }
+}
+
+.neighbour {
+  display: block;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.neighbour:hover {
+  background: var(--sage-tint);
+  border-color: var(--border-strong);
+}
+.neighbourNext {
+  text-align: right;
+}
+
+.neighbourLabel {
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  margin-bottom: 4px;
+}
+
+.neighbourTitle {
+  font-family: var(--font-serif);
+  font-size: 14.5px;
+  color: var(--text-heading);
+  line-height: 1.35;
+}

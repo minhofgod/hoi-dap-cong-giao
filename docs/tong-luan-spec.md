@@ -93,9 +93,16 @@ content/tong-luan/
   phan-i/                 10 chapters — God + creation
   phan-i-ii/               5 chapters — general morality
   phan-ii-ii/              8 chapters — the particular virtues
-  phan-iii/               12 chapters — Christ + the sacraments
+  phan-iii/                9 chapters — Christ + the sacraments   (was 12)
   99-ket-luan.md          conclusion
 ```
+
+**Updated 2026-08-19 (Pass 3): 35 chapters, not 37.** Three Phần III chapters — Anointing, Orders,
+Matrimony — were **cut**, because they expounded *Supplementum* q.29–68, which Aquinas did not write, in
+a section named after his book. Phần III now ends where the Summa ends (Reconciliation, III q.90), plus
+one kept eschatology chapter flagged as Supplementum. **One chapter was added:**
+`98-vi-sao-ngung-viet.md` (`part: ket-luan`, `order: 98`) — why Aquinas stopped writing, which the cuts
+made necessary to explain. Full record: `docs/tong-luan-verification.md` → Pass 3 and Addendum 2.
 
 Each chapter is ~380–750 words. Frontmatter to add (the vault files are bare markdown with an H1):
 
@@ -103,16 +110,57 @@ Each chapter is ~380–750 words. Frontmatter to add (the vault files are bare m
 ---
 title_vi: "Sự hiện hữu của Thiên Chúa – Năm con đường"
 title_en: "The existence of God — the Five Ways"
-part: "phan-i"            # phan-i · phan-i-ii · phan-ii-ii · phan-iii
+part: "phan-i"            # mo-dau · phan-i · phan-i-ii · phan-ii-ii · phan-iii · ket-luan
 order: 1                   # within the part
-summa_ref: "I, q.2"        # the Summa location this chapter expounds
+summa_ref: "I, q.2, a.3"   # article-level where it matters — that's what makes it checkable
 refs_ccc: [31, 34]         # Catechism paragraphs, where they apply
 refs_scripture: ["1 Cr 3,1-2"]
 sources: [{ label, url }]  # added BY the verification pass
+# --- only on chapters expounding the Supplementum (see below) ---
+summa_source: "supplementum"
+summa_note: "Thánh Tôma dừng bút ở Phần III, Câu hỏi 90. Phần Phụ lục do các môn đệ biên soạn…"
 ---
 ```
 
 `sources` is populated by the verifier, not the author — that's what makes the citations real.
+
+**`summa_source` / `summa_note` (added 2026-08-19, Pass 3).** The Summa breaks off at **III q.90**;
+everything after it is the posthumously compiled *Supplementum*. A chapter expounding that material must
+say so on the page, or the section's citations quietly stop meaning what they claim. Chapters Aquinas
+wrote himself omit both fields; the loader renders a visible caveat wherever `summa_source` is present.
+Currently one chapter carries it: `phan-iii/09-canh-chung`.
+
+**Abbreviation note:** `refs_scripture` values must resolve against `content/bible.json`'s
+`abbrevIndex` (lowercased). Hebrews is **`Dt`**, not `Hr`.
+
+---
+
+## Vietnamese Summa terminology — LOCKED (owner's call, 2026-08-19)
+
+There is **more than one Vietnamese translation of the Summa**, and they use different words for the
+same structure. The section follows **Lm. Giuse Trần Ngọc Châu** (gp. Qui Nhơn, 1920–2000; translated
+from the Latin 1978–1992; published by his family 2017, NXB Phương Đông) — the owner's judgement being
+that this is the version a Vietnamese reader is most likely to be holding.
+
+| Latin | **Trần Ngọc Châu — USE THIS** | Dòng Đa Minh (Nguyễn Văn Liêm, O.P.) |
+|---|---|---|
+| *Articulus* | **Tiết** | Mục |
+| *Objectiones* | **Vấn nạn** | Nghi vấn |
+| *Sed contra* | **Trái lại** | Nhưng |
+| *Respondeo* | **Trả lời** | Luận giải |
+| replies | **Giải đáp** | Giải đáp |
+
+`00-mo-dau` §4 carries a reader-facing table of both, so someone holding the other translation isn't
+lost. **New chapters must use the Châu column.** Watch the sweep hazard: `mục đích`, `linh mục`,
+`Giám mục`, `ngoạn mục` are unrelated words and must not be touched.
+
+> **⚠️ Both translations are in copyright.** Same footing as CGKPV. Follow their *terminology* and cite
+> them, but **do not reproduce their rendering of Aquinas's text.** Every Summa quotation in this section
+> is our own Vietnamese rendering made from the Latin (corpusthomisticum) and the public-domain
+> Dominican Fathers English (newadvent) — not lifted from either Vietnamese edition.
+
+**Reference — partial text online:** [linhmucmen.com](https://linhmucmen.com/) hosts portions of both
+translations. Useful for checking terminology and question/article numbering.
 
 ## Page structure — reuse the reader NAVIGATION, not the Catechism data model
 
@@ -138,13 +186,17 @@ frontmatter per item) with a part grouping on top. Small new model, familiar nav
 
 ## Hand-off
 
-| # | Session | Task |
-|---|---|---|
-| 1 | **14** (new) | **Pass 1 — VERIFY.** Pilot: intro + Phần I (11 files). Report to `docs/tong-luan-verification.md`. Change no content. |
-| 2 | owner | Judge the pilot. Continue, rewrite, or drop. |
-| 3 | **14** | Verify the remaining 26; apply approved corrections; add `sources`. |
-| 4 | **14** | Build `/tong-luan` + the loader, flag-gated. Owns `app/tong-luan`, `lib/tongLuan*`, `content/tong-luan`. |
-| 5 | **8** | Homepage card · nav · footer · sitemap routes — all flag-gated. |
-| 6 | owner | Proofread (the tracker gets 37 new rows), then set the flag on Vercel. |
+| # | Session | Task | Status |
+|---|---|---|---|
+| 1 | **14** | **Pass 1 — VERIFY.** Pilot: intro + Phần I (11 files). Report to `docs/tong-luan-verification.md`. Change no content. | ✅ 20 flags |
+| 2 | owner | Judge the pilot. Continue, rewrite, or drop. | ✅ "continue" |
+| 3 | **14** | Verify the remaining 26; apply corrections; add `sources`. | ✅ 40 more flags; 34 files written to `content/tong-luan/` |
+| 4 | **14** | Build `/tong-luan` + the loader, flag-gated. Owns `app/tong-luan`, `lib/tongLuan*`, `content/tong-luan`. | ✅ built + verified |
+| 5 | **8** | Homepage card · nav · footer · sitemap routes — all flag-gated. | ← **next** |
+| 6 | owner | Proofread (the tracker gets **35** new rows), then set the flag on Vercel. | |
 
 **Sequencing: 1 → 2 → 3 → 4 → 5 → 6.** Verification gates the build, not the other way round.
+
+**Two owner decisions still open before step 4** (see `docs/tong-luan-verification.md` → Pass 3):
+keep or cut `phan-iii/09-canh-chung` (the one remaining Supplementum chapter), and keep or revert
+chapter 2's `title_vi`.
