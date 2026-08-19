@@ -84,8 +84,12 @@ launched as the coordinator, this is your role:
    is *ask first, default to `related`*, and §C4 specified `related`. Owner to confirm keep-or-move.
 3. **CLOSED 2026-08-18 — §D sidebar scrollspy** landed in `1a69e19` (Session 2).
    §E (evidence-walkthrough fork) is the only open item left in that doc — owner decision, thread 4.
-4. **Owner decision** — same doc §E: the "walk through the evidence for Jesus" idea — linear *learning
-   path* vs another *companion branch*. Spec after deciding.
+4. **DECIDED 2026-08-18 — §E "walk through the evidence for Jesus": a linear learning path, NOT a
+   companion branch.** Specced in `docs/evidence-path-spec.md` (4 stages over 4 already-proofread
+   clusters; `/bang-chung` + route-per-stage; composes with the companion rather than duplicating it).
+   **Parked behind the launch gate — do not start before the domain is live.** Then: Session **12**
+   builds it, Session 8 wires entry points **+ the new sitemap routes**, Session 7 adds the
+   `doubt-evidence` CTA. Owner still to pick the name.
 5. **Specced, not spawned:** Văn Kiện Hội Thánh (`docs/van-kien-spec.md`) and Các Đức Giáo Hoàng
    (`docs/cac-giao-hoang-spec.md`). Pace them — both are fact-dense.
 6. **Content loop** — owner drafts with Grok (`docs/grok-content-prompts.md`), a session **fact-checks
