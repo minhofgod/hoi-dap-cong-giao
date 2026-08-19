@@ -437,7 +437,7 @@ a.card:hover {
   border: 1px solid var(--border);
   padding: 44px 48px;
   display: grid;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 320px;
   gap: 40px;
   align-items: center;
 }
@@ -486,8 +486,8 @@ a.card:hover {
   position: relative;
   display: block;
   width: 100%;
-  max-width: 220px;
-  aspect-ratio: 4 / 5;
+  max-width: 340px;
+  aspect-ratio: 3 / 2;
   border-radius: 16px;
   overflow: hidden;
   background: #efe7db;
@@ -495,7 +495,8 @@ a.card:hover {
 }
 .rosaryImg {
   object-fit: cover;
-  object-position: 50% 28%;
+  /* Landscape crop centred on the two figures (angel + Mary), with the dove above. */
+  object-position: 50% 50%;
 }
 
 /* Video band (homepage) */
@@ -681,7 +682,7 @@ a.card:hover {
     justify-content: flex-start;
   }
   .rosaryImage {
-    max-width: 150px;
+    max-width: 420px;
   }
   .giaoLyBand,
   .sectionCards,
