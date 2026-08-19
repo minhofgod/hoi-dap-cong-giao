@@ -104,9 +104,10 @@
   ],
   "image": {
     "src": "/images/phep-la/santarem.jpg",
-    "caption": { "vi": "Đền thánh Phép Lạ Rất Thánh, Santarém", "en": "Sanctuary of the Most Holy Miracle, Santarém" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Đền thánh Phép Lạ Rất Thánh, Santarém", "en": "The Sanctuary of the Most Holy Miracle, Santarém" },
+    "source": "GualdimG / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIgreja%20do%20Sant%C3%ADssimo%20Milagre%2001.jpg",
+    "license": "CC BY-SA 4.0",
+    "available": true
   }
 }

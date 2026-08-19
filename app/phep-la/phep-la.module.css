@@ -321,7 +321,7 @@
 
 .row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: 96px minmax(0, 1fr) auto;
   gap: 20px;
   align-items: center;
   padding: 15px 8px;
@@ -365,14 +365,19 @@
 .rowRight {
   display: flex;
   align-items: center;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  min-width: 0;
 }
+/* NOT nowrap. Unlike the Saints' tidy "1844 — 1879", several dates in this section are phrases
+   ("qua đời 1879 — khai quật 1909, 1919, 1925"). Held on one line they set a floor on the row's
+   width that the viewport can't satisfy, and the whole page scrolls sideways on a phone. */
 .rowDates {
   font-weight: 500;
   font-size: 12.5px;
   font-variant-numeric: tabular-nums;
   color: var(--gold-deep);
-  white-space: nowrap;
+  min-width: 0;
 }
 
 @media (max-width: 899px) {
@@ -408,9 +413,21 @@
     margin: 0 var(--mobile-gutter);
     padding: 4px 12px 8px;
   }
+  /* Thumbnail stays alongside the text; the badge + date wrap underneath. */
   .row {
-    grid-template-columns: 1fr;
-    gap: 8px;
+    grid-template-columns: 68px minmax(0, 1fr);
+    gap: 10px 14px;
+  }
+  .rowRight {
+    grid-column: 2;
+    gap: 8px 12px;
+  }
+  /* Titles and places wrap on a phone rather than ellipsing — a Vietnamese title is long enough
+     that truncation loses the subject, and there is vertical room to spare here. */
+  .rowName,
+  .rowMeta {
+    white-space: normal;
+    overflow: visible;
   }
   .rowRight {
     gap: 10px;

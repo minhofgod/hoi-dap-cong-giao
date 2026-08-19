@@ -243,8 +243,12 @@
 .factRow:last-child {
   border-bottom: 0;
 }
+/* Shrinkable, not `flex: none`. Labels here run long ("Tuyên thánh Francisco & Jacinta"), and a
+   non-shrinking cell sets a min-content floor that pushes the row past a phone's width — the same
+   failure the index rows had. */
 .factLabelCell {
-  flex: none;
+  flex: 0 1 auto;
+  min-width: 0;
 }
 .factValueCell {
   text-align: right;
@@ -413,6 +417,17 @@ a.readOnCard:hover {
   font-size: 12.5px;
   line-height: 1.6;
   color: var(--text-en);
+}
+.creditLink {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--accent-deep);
+}
+
+/* The lead image already opens the reading column, so the summary needs less air above it. */
+figure + .summary {
+  margin-top: 30px;
 }
 
 /* ---- Prev / next ---- */

@@ -125,9 +125,10 @@
   ],
   "image": {
     "src": "/images/phep-la/tam-ao-guadalupe.jpg",
-    "caption": { "vi": "Tấm áo choàng Guadalupe trên bàn thờ chính", "en": "The tilma of Guadalupe above the high altar" },
-    "source": "",
+    "caption": { "vi": "Ngôi vương cung thánh đường cũ tại Tepeyac, ảnh chụp khoảng năm 1900", "en": "The old basilica at Tepeyac, photographed around 1900" },
+    "source": "Tác giả khuyết danh / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChurch%20of%20Our%20Lady%20of%20Guadalupe%2C%20near%20Mexico%20City%2C%20Mexico%2C%20ca.1900%20(CHS-685).jpg",
     "license": "public domain",
-    "available": false
+    "available": true
   }
 }

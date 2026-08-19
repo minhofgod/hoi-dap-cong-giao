@@ -103,9 +103,10 @@
   ],
   "image": {
     "src": "/images/phep-la/la-salette.jpg",
-    "caption": { "vi": "Đền thánh Đức Mẹ La Salette trên dãy Alps", "en": "The shrine of Our Lady of La Salette in the Alps" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Vùng núi cao La Salette — nơi hai em chăn bò gặp Bà, tháng 9 năm 1846", "en": "The high pastures at La Salette, where the two cowherds met the Lady in September 1846" },
+    "source": "Vassil / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASanctuaire%20de%20Notre-Dame%20de%20la%20Salette%20Paysage%2024072017.jpg",
+    "license": "CC0",
+    "available": true
   }
 }

@@ -115,9 +115,10 @@
   ],
   "image": {
     "src": "/images/phep-la/bernadette-moriau.jpg",
-    "caption": { "vi": "Hang đá Massabielle, nơi hành hương", "en": "The grotto of Massabielle" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Nhà thờ chính tòa Beauvais — giáo phận đã tuyên bố nhìn nhận ơn chữa lành", "en": "Beauvais cathedral — the diocese that declared the cure recognised" },
+    "source": "Diliff / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeauvais%20Cathedral%20Exterior%201%2C%20Picardy%2C%20France%20-%20Diliff.jpg",
+    "license": "CC BY-SA 3.0",
+    "available": true
   }
 }

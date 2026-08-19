@@ -116,9 +116,10 @@
   ],
   "image": {
     "src": "/images/phep-la/fatima.jpg",
-    "caption": { "vi": "Đền thánh Đức Mẹ Fatima, Cova da Iria", "en": "The sanctuary of Our Lady of Fátima, Cova da Iria" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Đền thánh Fatima tại Cova da Iria", "en": "The sanctuary of Fátima at the Cova da Iria" },
+    "source": "Reis Quarteu / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABas%C3%ADlica%20da%20Sant%C3%ADssima%20Trindade%20-%20Santu%C3%A1rio%20de%20F%C3%A1tima%20-%2001.jpg",
+    "license": "CC BY-SA 4.0",
+    "available": true
   }
 }

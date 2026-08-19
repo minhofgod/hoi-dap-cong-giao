@@ -116,9 +116,10 @@
   ],
   "image": {
     "src": "/images/phep-la/lanciano.jpg",
-    "caption": { "vi": "Hào quang đựng thánh tích Lanciano", "en": "The monstrance holding the Lanciano relics" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Nhà thờ San Francesco, Lanciano — nơi lưu giữ hai thánh tích", "en": "The church of San Francesco, Lanciano, where the two relics are kept" },
+    "source": "Luca Aless / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALanciano%20-%20Chiesa%20di%20San%20Francesco%2001.jpg",
+    "license": "CC BY-SA 4.0",
+    "available": true
   }
 }

@@ -121,9 +121,10 @@
   ],
   "image": {
     "src": "/images/phep-la/la-vang.jpg",
-    "caption": { "vi": "Tháp chuông đền thánh La Vang", "en": "The bell tower of the La Vang shrine" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Tháp chuông đền thánh La Vang — phế tích còn lại sau chiến sự năm 1972", "en": "The bell tower of the La Vang shrine, left standing after the fighting of 1972" },
+    "source": "Hoangvantoanajc / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATh%C3%A1p%20chu%C3%B4ng%20nh%C3%A0%20th%E1%BB%9D%20La%20Vang.JPG",
+    "license": "CC BY-SA 3.0",
+    "available": true
   }
 }

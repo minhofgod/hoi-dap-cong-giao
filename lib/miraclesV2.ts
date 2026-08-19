@@ -61,12 +61,23 @@ export interface RelatedLink {
   available: boolean;
 }
 
-/** Mirrors the Saints' Portrait: `available: false` renders an honest empty frame rather than a
- *  broken image, so entries can ship before a public-domain photograph is licensed. */
+/** Mirrors the Saints' Portrait, with one addition: `sourceUrl`. Most images in this section are
+ *  CC BY-SA / CC BY rather than public domain, and those licences require attribution that a
+ *  reader can actually follow — so the credit line links back to the Commons file page.
+ *
+ *  Images here are of PLACES — the church at Lanciano, the grotto at Massabielle, the bell tower
+ *  at La Vang — never of the contested object itself. A photograph of a relic would function as an
+ *  evidentiary claim on a page whose whole point is that the claim is not settled.
+ *
+ *  `available: false` renders nothing rather than a broken image, so an entry can ship before a
+ *  usable photograph is found (see buenos-aires-1996). */
 export interface MiracleImage {
   src: string;
   caption: Bi;
+  /** Attribution line: "<author> / Wikimedia Commons". */
   source: string;
+  /** Commons file page, so the attribution is followable. Omit for images with no online source. */
+  sourceUrl?: string;
   license: string;
   available: boolean;
   objectPosition?: string;

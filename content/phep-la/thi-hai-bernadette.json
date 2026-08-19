@@ -122,9 +122,10 @@
   ],
   "image": {
     "src": "/images/phep-la/thi-hai-bernadette.jpg",
-    "caption": { "vi": "Nhà nguyện tu viện Saint-Gildard, Nevers", "en": "The convent chapel of Saint-Gildard, Nevers" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Tu viện Saint-Gildard, Nevers — nơi Bernadette qua đời", "en": "The convent of Saint-Gildard, Nevers, where Bernadette died" },
+    "source": "Moreau.henri / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A098A%20Nevers%20Chapelle%20du%20couvent%20Saint-Gildard%20o%C3%B9%20mourut%20Bernadette%20Soubirous.jpg",
+    "license": "CC BY-SA 3.0",
+    "available": true
   }
 }

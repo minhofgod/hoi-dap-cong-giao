@@ -110,9 +110,10 @@
   ],
   "image": {
     "src": "/images/phep-la/thi-hai-catherine-laboure.jpg",
-    "caption": { "vi": "Nhà nguyện Rue du Bac, Paris", "en": "The chapel of the rue du Bac, Paris" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Lòng nhà nguyện Rue du Bac, Paris", "en": "The nave of the rue du Bac chapel, Paris" },
+    "source": "Mbzt / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1240776%20Paris%20VII%20ND%20medaille%20miraculeuse%20nef%20rwk.jpg",
+    "license": "CC BY-SA 3.0",
+    "available": true
   }
 }

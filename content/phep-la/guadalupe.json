@@ -118,9 +118,10 @@
   ],
   "image": {
     "src": "/images/phep-la/guadalupe.jpg",
-    "caption": { "vi": "Vương cung thánh đường Đức Mẹ Guadalupe, Mexico City", "en": "Basilica of Our Lady of Guadalupe, Mexico City" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Vương cung thánh đường Đức Mẹ Guadalupe dưới chân đồi Tepeyac", "en": "The basilica of Our Lady of Guadalupe at the foot of Tepeyac" },
+    "source": "José Luiz / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20from%20the%20street%20-%20New%20Basilica%20of%20Our%20Lady%20of%20Guadalupe%20-%20Mexico%202024.jpg",
+    "license": "CC BY-SA 4.0",
+    "available": true
   }
 }

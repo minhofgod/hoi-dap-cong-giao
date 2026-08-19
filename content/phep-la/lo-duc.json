@@ -126,9 +126,10 @@
   ],
   "image": {
     "src": "/images/phep-la/lo-duc.jpg",
-    "caption": { "vi": "Hang Massabielle, Lộ Đức", "en": "The grotto of Massabielle, Lourdes" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Đền thánh Lộ Đức bên sông Gave, phía trên hang Massabielle", "en": "The sanctuary of Lourdes above the grotto of Massabielle, on the river Gave" },
+    "source": "Jan Hager / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABasilica%20of%20the%20Immaculate%20Conception%20and%20surroundings%20of%20the%20grotto.jpg",
+    "license": "CC BY-SA 4.0",
+    "available": true
   }
 }

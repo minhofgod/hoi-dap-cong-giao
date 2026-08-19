@@ -127,9 +127,10 @@
   ],
   "image": {
     "src": "/images/phep-la/phep-la-phong-thanh-carlo-acutis.jpg",
-    "caption": { "vi": "Đền thờ nơi đặt mộ Thánh Carlô Acutis, Assisi", "en": "The shrine housing the tomb of St. Carlo Acutis, Assisi" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Vương cung thánh đường Thánh Phanxicô, Assisi — nơi cử hành lễ tôn phong chân phước năm 2020", "en": "The basilica of St. Francis, Assisi, where the 2020 beatification was celebrated" },
+    "source": "SunOfErat / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVeduta%20della%20Basilica%20di%20San%20Francesco%20ad%20Assisi%20(1).JPG",
+    "license": "CC BY-SA 3.0",
+    "available": true
   }
 }

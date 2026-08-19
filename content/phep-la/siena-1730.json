@@ -112,9 +112,10 @@
   ],
   "image": {
     "src": "/images/phep-la/siena-1730.jpg",
-    "caption": { "vi": "Vương cung thánh đường San Francesco, Siena", "en": "Basilica of San Francesco, Siena" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Vương cung thánh đường San Francesco, Siena", "en": "The basilica of San Francesco, Siena" },
+    "source": "Zairon / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASiena%20Torre%20del%20Mangia%20Vista%20su%20la%20Basilica%20di%20San%20Francesco.jpg",
+    "license": "CC BY 4.0",
+    "available": true
   }
 }

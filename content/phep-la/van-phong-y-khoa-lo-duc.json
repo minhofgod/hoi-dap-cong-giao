@@ -127,8 +127,9 @@
   "image": {
     "src": "/images/phep-la/van-phong-y-khoa-lo-duc.jpg",
     "caption": { "vi": "Đền thánh Đức Mẹ Lộ Đức", "en": "The sanctuary of Our Lady of Lourdes" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "source": "Patrice Bon / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASanctuaire%20de%20Lourdes%2033.jpg",
+    "license": "CC0",
+    "available": true
   }
 }

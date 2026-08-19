@@ -104,9 +104,10 @@
   ],
   "image": {
     "src": "/images/phep-la/bolsena-orvieto.jpg",
-    "caption": { "vi": "Hòm thánh tích khăn thánh, nhà thờ chính tòa Orvieto", "en": "The reliquary of the corporal, Orvieto cathedral" },
-    "source": "",
-    "license": "public domain",
-    "available": false
+    "caption": { "vi": "Mặt tiền nhà thờ chính tòa Orvieto, được xây để lưu giữ khăn thánh", "en": "The facade of Orvieto cathedral, built to house the corporal" },
+    "source": "Georges Jansoone (JoJan) / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrvieto001.jpg",
+    "license": "CC BY-SA 3.0",
+    "available": true
   }
 }

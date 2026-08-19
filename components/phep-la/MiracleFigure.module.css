@@ -1,0 +1,63 @@
+/* Lead image + index thumbnail for the Phép Lạ section. Deliberately restrained: a plain 3:2
+   frame with a quiet caption, no shadow, no zoom-on-hover. The pictures here document a place;
+   they are not meant to persuade. */
+
+.figure {
+  margin: 34px 0 0;
+}
+
+.frame {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background: var(--surface-warm);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.caption {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-quiet);
+}
+.captionEnRecessed {
+  display: block;
+  margin-top: 3px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--text-en);
+}
+
+/* ---- Index row thumbnail ---- */
+.thumb,
+.thumbEmpty {
+  position: relative;
+  display: block;
+  width: 96px;
+  height: 64px;
+  overflow: hidden;
+  border-radius: var(--radius-row);
+  background: var(--surface-warm);
+}
+
+/* Entries with no usable photograph keep the row's alignment without faking an image. */
+.thumbEmpty {
+  border: 1px dashed var(--border-strong);
+  background: transparent;
+}
+
+@media (max-width: 899px) {
+  .thumb,
+  .thumbEmpty {
+    width: 68px;
+    height: 46px;
+  }
+}

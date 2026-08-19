@@ -7,6 +7,7 @@ import { SectionHeading } from '@/components/giao-phu/SectionHeading';
 import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { CatechismRef } from '@/components/CatechismRef';
 import { StatusBadge } from '@/components/phep-la/StatusBadge';
+import { MiracleFigure } from '@/components/phep-la/MiracleFigure';
 import {
   getAllMiracles,
   getMiracleBySlug,
@@ -40,6 +41,7 @@ const UI = {
   meansKicker: { vi: 'Tình trạng này nghĩa là gì', en: 'What this status means' },
   privateRevelation: { vi: 'Về mặc khải tư', en: 'On private revelation' },
   credit: { vi: 'Nguồn ảnh', en: 'Image credit' },
+  imageFile: { vi: 'Xem tệp gốc trên Wikimedia Commons', en: 'View the source file on Wikimedia Commons' },
   prev: { vi: 'Trường hợp trước', en: 'Previous' },
   next: { vi: 'Trường hợp sau', en: 'Next' },
   saintBridge: { vi: 'Người trong câu chuyện', en: 'The person in this story' },
@@ -134,6 +136,8 @@ export default async function MiraclePage({ params }: { params: Promise<{ slug: 
         </div>
 
         <div className={styles.column}>
+          <MiracleFigure image={miracle.image} />
+
           <Bi2
             value={miracle.summary}
             as="p"
@@ -363,6 +367,18 @@ export default async function MiraclePage({ params }: { params: Promise<{ slug: 
                 enClassName={styles.creditBody}
                 enRecessedClassName={styles.creditBodyEnRecessed}
               />
+              {/* Most images here are CC BY-SA / CC BY, whose attribution has to be followable —
+                  so the credit links back to the Commons file page, not just the author's name. */}
+              {miracle.image.sourceUrl && (
+                <a
+                  href={miracle.image.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.creditLink}
+                >
+                  <Bi2 value={UI.imageFile} as="span" />
+                </a>
+              )}
             </div>
           </div>
         )}

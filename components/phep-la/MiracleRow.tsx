@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useLang } from '@/lib/giao-phu/useLang';
 import { StatusBadge } from './StatusBadge';
+import { MiracleThumb } from './MiracleFigure';
 import type { Miracle } from '@/lib/miraclesV2';
 import styles from '../../app/phep-la/phep-la.module.css';
 
@@ -22,6 +23,7 @@ export function MiracleRow({ miracle }: { miracle: Miracle }) {
 
   return (
     <Link href={`/phep-la/${miracle.slug}`} className={styles.row}>
+      <MiracleThumb image={miracle.image} />
       <span className={styles.rowText}>
         <span className={styles.rowName}>{title}</span>
         <span className={styles.rowMeta}>{place}</span>
