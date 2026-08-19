@@ -150,6 +150,20 @@ launched as the coordinator, this is your role:
     - Catechism title i18n — see the `todo-catechism-title-i18n` memory.
     - *(Two of its TODOs were verified DONE and dropped: all 30 Giáo Phụ portraits are in, and all 3
       videos now have `.en.md` bodies.)*
+10c. **→ Session 8, pre-launch shell gaps (found 2026-08-19).** The global shell is missing four
+    App-Router files. Ranked by what actually costs you at launch:
+    - **No Open Graph metadata and no `app/opengraph-image`.** `app/layout.tsx` sets only `title` +
+      `description` — no `openGraph`/`twitter` block. **A link shared to Facebook or Zalo therefore
+      renders as a bare URL with no title, description, or image.** For a Vietnamese Catholic site
+      whose audience spreads links in groups and chats, that is the single biggest cheap win here.
+      `metadataBase` is already set (`lib/siteUrl.ts`), so an OG image will resolve correctly.
+    - **No `app/not-found.tsx`.** The site serves Next's bare default 404 — no header, no nav, no way
+      back. This matters *more* here than on most sites because **flag-gating deliberately 404s real
+      routes** (`/bang-chung`, `/so-do`), so 404s are a designed-in path, not just typos.
+    - **No `app/error.tsx`** — an unhandled error shows the default error screen.
+    - Minor: no `app/manifest.ts`, no `apple-icon`. `app/icon.svg` exists.
+    Also worth considering: a `title.template` (e.g. `%s · Hỏi Đáp Công Giáo`) so pages stop repeating
+    the site name by hand.
 11. **SEO / launch (added 2026-08-18, coordinator — `c8480e1`).** The site had **no sitemap at all**,
     which is what Search Console was erroring on. Added `app/sitemap.ts`, `app/robots.ts`, and
     `lib/siteUrl.ts` (**the single source of truth for the public origin** —
