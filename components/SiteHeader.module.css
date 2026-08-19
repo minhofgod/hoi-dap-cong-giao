@@ -33,95 +33,14 @@
   color: var(--text-heading);
 }
 
-.nav {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-.navItem {
-  font-size: 14px;
-  font-weight: 400;
-  color: var(--text-muted);
-  padding-bottom: 2px;
-  border-bottom: 2px solid transparent;
-}
-.navItem:hover {
-  text-decoration: none;
-  color: var(--text-heading);
-}
-.navItemActive {
-  font-weight: 500;
-  color: var(--text-heading);
-  border-bottom-color: var(--accent);
-}
-
-/* ---- Family dropdowns (disclosure pattern: button + panel of links) ---- */
-.navGroup {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-}
-.navTrigger {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  background: none;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  font-family: inherit;
-  cursor: pointer;
-}
-.chevron {
-  transition: transform 0.15s ease;
-}
-.navTrigger[aria-expanded='true'] .chevron {
-  transform: rotate(180deg);
-}
-
-.dropdown {
-  position: absolute;
-  top: calc(100% + 26px);
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 210px;
-  display: flex;
-  flex-direction: column;
-  padding: 8px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-  box-shadow: 0 12px 28px rgba(32, 30, 29, 0.12);
-  z-index: 40;
-}
-.dropdownLink {
-  padding: 10px 12px;
-  border-radius: var(--radius-row);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.35;
-  color: var(--text-body);
-  white-space: nowrap;
-}
-.dropdownLink:hover {
-  text-decoration: none;
-  background: #fbf6ee;
-  color: var(--text-heading);
-}
-.dropdownLinkActive {
-  font-weight: 500;
-  color: var(--text-heading);
-  background: var(--gold-tint);
-}
-
+/* Language toggle + search — inline on the right on desktop, hidden on mobile (the menu carries the
+   language toggle). `margin-left: auto` pushes this right-hand group away from the brand. */
 .actions {
   display: flex;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .searchForm {
@@ -150,128 +69,118 @@
   color: var(--text-faint);
 }
 
-.helpButton {
-  width: 38px;
-  height: 38px;
-  border-radius: 999px;
-  border: 1px solid var(--border-input);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  font-size: 14px;
-  font-weight: 600;
-}
-.helpButton:hover {
-  text-decoration: none;
-  background: #FBF6EE;
-}
-
-/* Hamburger — mobile only. Hidden on desktop where the inline nav is shown. */
+/* The one nav control at every width: a "Menu ☰" button (desktop) / hamburger (mobile) that opens
+   the section list. Sits at the far right, after the actions on desktop. */
 .menuButton {
-  display: none;
-  width: 40px;
-  height: 40px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 7px;
+  height: 38px;
+  padding: 0 15px;
   border: 1px solid var(--border-input);
-  border-radius: 10px;
+  border-radius: var(--radius-pill);
   background: var(--surface);
   color: var(--text-heading);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
   flex-shrink: 0;
-  margin-left: auto;
 }
 .menuButton:hover {
-  background: #FBF6EE;
+  background: #fbf6ee;
+}
+.menuButtonLabel {
+  white-space: nowrap;
 }
 
-/* Dropdown panel below the header on mobile. Rendered only when open (see SiteHeader.tsx),
-   so display:none here is a safety net for the resize-while-open edge case. */
-.mobileMenu {
-  display: none;
+/* Section-list panel, dropped from the button. Desktop: a compact right-aligned card. Rendered only
+   when open (see SiteHeader.tsx). */
+.menuPanel {
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  right: var(--page-gutter);
+  width: 300px;
+  margin-top: 8px;
+  display: flex;
   flex-direction: column;
   background: var(--ground);
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  box-shadow: 0 12px 28px rgba(32, 30, 29, 0.12);
-  padding: 6px var(--mobile-gutter) 12px;
-  z-index: 30;
-  max-height: calc(100vh - 74px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: 0 14px 30px rgba(32, 30, 29, 0.16);
+  padding: 8px;
+  z-index: 40;
+  max-height: calc(100vh - 90px);
   overflow-y: auto;
 }
-/* Hairline dividers only between top-level sections (flagship link · each group · companion ·
-   language row) — group children stay divider-free so each family reads as one block. */
-.mobileMenu > *:not(:first-child) {
+/* Hairline dividers between rows; the companion CTA tile overrides its own (below). */
+.menuPanel > *:not(:first-child) {
   border-top: 1px solid var(--border);
 }
-.mobileLink {
+.menuLink {
   display: flex;
   align-items: center;
   gap: 13px;
-  padding: 13px 6px;
-  font-size: 16px;
+  padding: 12px 10px;
+  font-size: 15.5px;
   font-weight: 500;
   line-height: 1.3;
   color: var(--text-heading);
   border-radius: 10px;
 }
-.mobileLink:hover,
-.mobileLink:active {
+.menuLink:hover,
+.menuLink:active {
   text-decoration: none;
   background: #fbf6ee;
 }
-.mobileLinkActive {
+.menuLinkActive {
   color: var(--accent-deep);
 }
-.mobileIcon {
+.menuIcon {
   flex-shrink: 0;
   color: var(--accent-deep);
 }
-.mobileLabel {
+.menuLabel {
   min-width: 0;
 }
 
-/* The companion (Đồng hành) — an accent CTA tile at the foot of the menu, its own sage panel so
-   the seeker front-door stands apart from the section rows. Overrides the section divider above. */
-.mobileMenu > .mobileCta {
+/* The companion (Đồng hành) — an accent CTA tile at the foot of the menu so the seeker front-door
+   stands apart from the section rows. */
+.menuPanel > .menuCta {
   border-top: none;
 }
-.mobileCta {
+.menuCta {
   margin-top: 10px;
-  padding: 14px;
+  padding: 13px 12px;
   background: var(--sage-card);
   border-radius: 12px;
 }
-.mobileCta:hover,
-.mobileCta:active {
+.menuCta:hover,
+.menuCta:active {
   background: #eef2e6;
 }
-.mobileCta .mobileIcon {
+.menuCta .menuIcon {
   color: var(--sage-deep);
 }
-.mobileCta .mobileLabel {
+.menuCta .menuLabel {
   font-weight: 600;
 }
-.mobileCtaArrow {
+.menuCtaArrow {
   margin-left: auto;
   flex-shrink: 0;
   color: var(--sage-deep);
 }
 
-.mobileLangRow {
-  padding: 14px 6px 4px;
+/* Language toggle inside the panel — only needed on mobile, where the header's actions are hidden. */
+.menuLangRow {
+  display: none;
+  padding: 14px 8px 4px;
 }
 
-/* Collapse the inline nav + search into the hamburger below the width where the full bar fits
-   (~1200px min: brand + Giải Đáp + two long VI family labels + language toggle + search). Grouping
-   caps the bar at 4 top-level items, so this width is now STABLE — future sections slot into the
-   dropdowns without widening it. Everything lives in the hamburger below this breakpoint. */
-@media (max-width: 1259px) {
+/* ---- Mobile: hide the inline actions, make the button an icon-only hamburger, and drop the menu
+   full-width with the language toggle inside. ---- */
+@media (max-width: 899px) {
   .header {
     padding: 0 var(--mobile-gutter);
     gap: 10px;
@@ -286,16 +195,31 @@
   .brandName {
     font-size: 15px;
   }
-  .nav {
-    display: none;
-  }
   .actions {
     display: none;
   }
   .menuButton {
-    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 10px;
+    margin-left: auto;
   }
-  .mobileMenu {
-    display: flex;
+  .menuButtonLabel {
+    display: none;
+  }
+  .menuPanel {
+    left: 0;
+    right: 0;
+    width: auto;
+    margin-top: 0;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 6px var(--mobile-gutter) 12px;
+    max-height: calc(100vh - 74px);
+  }
+  .menuLangRow {
+    display: block;
   }
 }
