@@ -107,7 +107,7 @@ this was a taste call rather than a terminology-verification question. Recorded 
 
 | # | Session | Task |
 |---|---|---|
-| 1 | **12** (new — the next session started becomes 12) | Build `/bang-chung` + the four stage routes; write the four bilingual bridge paragraphs; link into the existing clusters. Owns `app/bang-chung`, `lib/evidencePath*`, and nothing else. |
+| 1 | **a new session — take the next free number from the `docs/STATE.md` registry** (12 is now the fact-verification audit) | Build `/bang-chung` + the four stage routes; write the four bilingual bridge paragraphs; link into the existing clusters. Owns `app/bang-chung`, `lib/evidencePath*`, and nothing else. |
 | 2 | **8** | On completion: homepage card + nav item + footer link + **the new routes in `app/sitemap.ts`**. One combined hand-off. |
 | 3 | **7** | Add the `doubt-evidence` → path CTA in `lib/dongHanh.ts`. |
 | 4 | owner | Proofread the four bridge paragraphs before the path goes live. *(Name: settled — see above.)* |

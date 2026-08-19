@@ -44,7 +44,9 @@ matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
 | 11 | Phép Lạ & Hiện Ra (Miracles) | `app/phep-la`, `lib/miracles*`, `content/phep-la`, `components/phep-la`, `public/images/phep-la` | builds the whole Miracles & Apparitions section — event model + list/detail pages + content | **FIRST BATCH LIVE — 17 entries** (5 Thánh Thể · 6 hiện ra · 3 chữa lành · 2 không hư nát · 1 ảnh tượng), grouped by `type`. NEW event model (`lib/miracles/types.ts` client-safe + `lib/miraclesV2.ts` loader) with a required **`limits`** field ("what this does NOT establish") rendered as the page's dark band, and a `status` axis (`approved` / `venerated` / `not-ruled` / `cure-approved`) badged on every row. Also `/phep-la/hoi-thanh-tham-dinh` — the groundwork page on public vs private revelation + the 2024 DDF norms. Carlo Acutis dedication on the index. Saint bridges LANDED: `carlo-acutis`, `juan-diego`, `bernadette-soubirous` forward-links flipped to `available:true` (touched 3 files in Session 9's `content/cac-thanh` — the only cross-lane edit, agreed at kickoff). Images use `image.available:false` (honest empty state) — PD images are the remaining follow-up, same as Saints. **→ Session 8 can wire the homepage card + nav link** (nav is at its inline limit — see row 8). |
 | 9 | Các Thánh (Saints) | `app/cac-thanh`, `lib/saints*` (mirror `churchFathersV2`), `content/cac-thanh`, `public/images/cac-thanh` | builds the whole Saints section — data model + list/detail pages + content | **COMPLETE — all 21 live** (theme-grouped: 7 martyrs-vn · 6 modern · 2 converts · 3 bridge · 3 patrons). List + `[slug]` detail + `/cac-thanh/tu-dao-viet-nam` overview. Every VN name/fact/quote HĐGM-verified. Bridge forward-links: Carlo/Bernadette/Juan Diego → `/phep-la` render as non-clickable "coming soon" (no dead links); Mônica → `/dong-hanh` (companion-flag-gated) + Augustinô; JP II → back to the VN martyrs. Portraits use `available:false` (honest empty state, not a broken image) — **PD images are the one remaining follow-up.** **→ Session 8 can wire the homepage card + nav link.** |
 
-*The next session you start becomes 12.*
+| 12 | Fact-verification audit (research) | `docs/fact-verification-audit.md` in pass 1; then `content/giao-phu` + `content/cong-dong` in pass 2 | web-verifies every hard fact (dates, quotes, works, canons) + VN terminology in the two oldest sections, which predate the verify-facts rule | **specced, not started** — `docs/fact-verification-audit-spec.md`. Giáo Phụ (30) first, then Công Đồng (21). Two passes: report → owner approves → apply. Not a launch blocker. |
+
+*The next session you start becomes 13.*
 
 ### The Coordinator session (unnumbered — there is exactly ONE at a time)
 Alongside the lane sessions there's a **coordinator/architect** session — the one the owner talks to
@@ -99,7 +101,13 @@ launched as the coordinator, this is your role:
    **Parked behind the launch gate — do not start before the domain is live.** Then: Session **12**
    builds it, Session 8 wires entry points **+ the new sitemap routes**, Session 7 adds the
    `doubt-evidence` CTA. **Name locked: `Bằng chứng về Chúa Giêsu` / `The Evidence for Jesus`,
-   route `/bang-chung`.**
+   route `/bang-chung`.** *(The build session takes the next free number — 12 is now the audit.)*
+4b. **Fact-verification audit — Session 12, specced 2026-08-18:** `docs/fact-verification-audit-spec.md`.
+   Giáo Phụ (30) then Công Đồng (21) — the two sections authored before the verify-facts rule and
+   before `sources` existed. Owner's decision: hard facts get delegated to a verification agent
+   (he can't verify them himself and would rather not guess); VN terminology folded in since the
+   entry is open anyway and Giáo Phụ carries the content-guide's standing ⚠️. Two passes: report →
+   owner approves → apply. **Not a launch blocker** — can run after the domain is live.
 5. **Specced, not spawned:** Văn Kiện Hội Thánh (`docs/van-kien-spec.md`) and Các Đức Giáo Hoàng
    (`docs/cac-giao-hoang-spec.md`). Pace them — both are fact-dense.
 6. **Content loop** — owner drafts with Grok (`docs/grok-content-prompts.md`), a session **fact-checks
