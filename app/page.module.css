@@ -1,7 +1,11 @@
-/* Cap the homepage content and center it, so it doesn't stretch too wide on large monitors. */
+/* Cap the homepage content and center it, so it doesn't stretch too wide on large monitors.
+   Flex column so mobile can pull the featured-question hero above the section cards via `order`
+   (see the max-width:760px block) — on desktop every child keeps DOM order (order: 0). */
 .page {
   max-width: var(--canvas-max);
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .sectionCards {
@@ -19,14 +23,30 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+/* Mobile: keep the cards 2-up (never a single tall column) and compact them, and pull the
+   featured question above the cards so a real Q&A is the first thing after the header — the section
+   cards are partly redundant with the hamburger, so they don't need to own the whole first screen. */
 @media (max-width: 760px) {
   .sectionCards {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
-}
-@media (max-width: 520px) {
-  .sectionCards {
-    grid-template-columns: 1fr;
+  /* Content-first: the featured-question hero jumps ahead of the cards (order < 0). Everything else
+     keeps DOM order, so it becomes: featured Q → cards → companion → the rest. */
+  .hero {
+    order: -1;
+  }
+  /* Compact card: photo + title + count only (the description would double each card's height). */
+  .cardDesc {
+    display: none;
+  }
+  .cardBody {
+    padding: 10px 12px 12px;
+    gap: 2px;
+  }
+  .cardTitle {
+    font-size: 14.5px;
+    line-height: 1.25;
   }
 }
 /* With the evidence card on there are 6 cards; drop the desktop row from 5 → 3 so it reads as a
