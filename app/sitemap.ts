@@ -10,6 +10,8 @@ import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import { CANVAS_ENABLED } from '@/lib/canvasFlag';
 import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
 import { getResolvedStages } from '@/lib/evidencePath';
+import { TONG_LUAN_ENABLED } from '@/lib/tongLuanFlag';
+import { getAllChapters } from '@/lib/tongLuan';
 import { SITE_URL } from '@/lib/siteUrl';
 
 // Every URL is derived from the SAME loader each route's generateStaticParams uses, so the sitemap
@@ -111,6 +113,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: url(`/bang-chung/${s.stage.slug}`),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
+      }))
+    );
+  }
+  // Tổng luận Thần học (/tong-luan) index + every chapter. Chapter URLs come from the same loader
+  // the route's generateStaticParams uses, so the sitemap can never list a chapter that wasn't built.
+  if (TONG_LUAN_ENABLED) {
+    entries.push({ url: url('/tong-luan'), changeFrequency: 'monthly', priority: 0.8 });
+    entries.push(
+      ...getAllChapters().map((c) => ({
+        url: url(`/tong-luan/${c.slug}`),
+        changeFrequency: 'yearly' as const,
+        priority: 0.6,
       }))
     );
   }

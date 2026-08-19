@@ -15,6 +15,7 @@ import {
   Sparkles,
   Compass,
   Route,
+  Library,
   type LucideIcon,
 } from 'lucide-react';
 import { BrandMark } from './BrandMark';
@@ -23,6 +24,7 @@ import { T } from './T';
 import { useLang } from '@/lib/giao-phu/useLang';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
+import { TONG_LUAN_ENABLED } from '@/lib/tongLuanFlag';
 import styles from './SiteHeader.module.css';
 
 interface NavLink {
@@ -47,6 +49,9 @@ const NAV: NavLink[] = [
     ? [{ href: '/bang-chung', vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus', icon: Route } as NavLink]
     : []),
   { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism', icon: BookOpen },
+  ...(TONG_LUAN_ENABLED
+    ? [{ href: '/tong-luan', vi: 'Tổng luận Thần học', en: 'The Summa, Explained', icon: Library } as NavLink]
+    : []),
   {
     href: '/lich-su-hoi-thanh',
     vi: 'Lịch Sử Hội Thánh',

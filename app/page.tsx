@@ -1,6 +1,7 @@
+import type { CSSProperties } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Play } from 'lucide-react';
+import { Play, Library } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { content, toc, resolveCatechism } from '@/lib/content';
 import { formatTocLabel } from '@/lib/titleFormat';
@@ -10,6 +11,8 @@ import { getAllSaints } from '@/lib/saintsV2';
 import { getAllMiracles } from '@/lib/miraclesV2';
 import { getStageCards } from '@/lib/evidencePath';
 import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
+import { getAllChapters } from '@/lib/tongLuan';
+import { TONG_LUAN_ENABLED } from '@/lib/tongLuanFlag';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getAllVideos } from '@/lib/videos';
 import { resolveReference } from '@/lib/bibleRefs';
@@ -53,6 +56,12 @@ const saintsCount = getAllSaints().length;
 const miraclesCount = getAllMiracles().length;
 // Evidence path: gated off by default, so the card/count only matter once the flag is on.
 const evidenceStagesCount = EVIDENCE_PATH_ENABLED ? getStageCards().length : 0;
+// Tổng luận Thần học: gated off by default too.
+const tongLuanCount = TONG_LUAN_ENABLED ? getAllChapters().length : 0;
+// Section-card grid: 5 base cards plus the two gated ones. Pick a desktop column count that tiles
+// cleanly for the total (5 → 5, 6 → 3+3, 7 → 4+3) — see .sectionCards in page.module.css.
+const sectionCardCount = 5 + (EVIDENCE_PATH_ENABLED ? 1 : 0) + (TONG_LUAN_ENABLED ? 1 : 0);
+const sectionCols = sectionCardCount <= 5 ? 5 : sectionCardCount === 6 ? 3 : 4;
 const questions = getAllQuestions();
 const questionsCount = questions.length;
 const homeVideos = getAllVideos().slice(0, 3);
@@ -84,7 +93,10 @@ export default function HomePage() {
       <SiteHeader />
 
       <main className={styles.page}>
-      <section className={EVIDENCE_PATH_ENABLED ? `${styles.sectionCards} ${styles.sectionCards6}` : styles.sectionCards}>
+      <section
+        className={styles.sectionCards}
+        style={{ '--section-cols': sectionCols } as CSSProperties}
+      >
         <Link href="/giai-dap" className={`${styles.card} ${styles.cardSage}`}>
           <span className={styles.cardImage}>
             <Image
@@ -165,6 +177,30 @@ export default function HomePage() {
             </span>
           </span>
         </Link>
+        {/* Tổng luận Thần học — gated off by default (TONG_LUAN_ENABLED); appears only once the flag
+            is on, so no dead card ships before then. No section art yet, so use an icon placeholder
+            rather than an <Image> that would 404. */}
+        {TONG_LUAN_ENABLED && (
+          <Link href="/tong-luan" className={`${styles.card} ${styles.cardTongLuan}`}>
+            <span className={`${styles.cardImage} ${styles.cardImagePlaceholder}`} aria-hidden="true">
+              <Library size={40} strokeWidth={1.5} className={styles.cardPlaceholderIcon} />
+            </span>
+            <span className={styles.cardBody}>
+              <span className={styles.cardTitle}>
+                <T vi="Tổng luận Thần học" en="The Summa, Explained" />
+              </span>
+              <span className={styles.cardDesc}>
+                <T
+                  vi="Tổng luận Thần học của thánh Tôma Aquinô, giải thích theo từng chương."
+                  en="St Thomas Aquinas's Summa Theologiae, walked through chapter by chapter."
+                />
+              </span>
+              <span className={styles.cardCount}>
+                <T vi={`${tongLuanCount} chương`} en={`${tongLuanCount} chapters`} />
+              </span>
+            </span>
+          </Link>
+        )}
         <Link href="/lich-su-hoi-thanh" className={`${styles.card} ${styles.cardGold}`}>
           <span className={styles.cardImage}>
             <Image
@@ -506,6 +542,11 @@ export default function HomePage() {
             <Link href="/giao-ly" className={styles.footerLink}>
               <T vi="Giáo Lý" en="Catechism" />
             </Link>
+            {TONG_LUAN_ENABLED && (
+              <Link href="/tong-luan" className={styles.footerLink}>
+                <T vi="Tổng luận Thần học" en="The Summa, Explained" />
+              </Link>
+            )}
             <Link href="/lich-su-hoi-thanh" className={styles.footerLink}>
               <T vi="Lịch Sử Hội Thánh" en="Church History" />
             </Link>

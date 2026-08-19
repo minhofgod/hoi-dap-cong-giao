@@ -10,7 +10,9 @@
 
 .sectionCards {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  /* Desktop column count is set inline per the number of (gated) cards — 5 / 6 / 7 → 5 / 3 / 4
+     columns — so the row tiles cleanly (5, 3+3, 4+3) instead of leaving an orphan. */
+  grid-template-columns: repeat(var(--section-cols, 5), 1fr);
   gap: 14px;
   padding: 26px var(--page-gutter);
   border-bottom: 1px solid var(--border);
@@ -51,15 +53,6 @@
     line-height: 1.25;
   }
 }
-/* With the evidence card on there are 6 cards; drop the desktop row from 5 → 3 so it reads as a
-   clean 3+3 instead of a 5+1 orphan. Desktop-only (min-width): the max-width steps above already
-   give 3 / 2 / 1 at narrower widths, where 6 cards tile evenly (3+3, 2+2+2). */
-@media (min-width: 1201px) {
-  .sectionCards6 {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 /* Front-door companion (Đồng hành) CTA — a prominent band at the top of the homepage for
    seekers. Wraps the self-gating <DongHanhCta>; the band itself is guarded in the JSX so no
    empty bordered strip ships when the companion flag is off. */
@@ -97,6 +90,9 @@ a.card:hover {
 .cardEvidence {
   background: #EDE9E2;
 }
+.cardTongLuan {
+  background: #EEEAF3;
+}
 
 .cardImage {
   position: relative;
@@ -108,6 +104,17 @@ a.card:hover {
 .cardImg {
   object-fit: cover;
   object-position: 50% 26%;
+}
+/* Imageless card (no section art yet): a tinted panel with a centred icon instead of a photo, so
+   no broken/missing <Image> ships. */
+.cardImagePlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E3DCEE;
+}
+.cardPlaceholderIcon {
+  color: #6E5B8A;
 }
 
 .cardBody {
@@ -151,6 +158,9 @@ a.card:hover {
 }
 .cardEvidence .cardCount {
   color: #6E5B3E;
+}
+.cardTongLuan .cardCount {
+  color: #5E4B78;
 }
 
 .hero {
