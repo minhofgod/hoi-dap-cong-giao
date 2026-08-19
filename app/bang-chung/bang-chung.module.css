@@ -1,0 +1,593 @@
+/* Bằng chứng về Chúa Giêsu (/bang-chung) — the guided evidence path.
+   Reuses the site's band + list-card system (see app/phep-la/phep-la.module.css and
+   app/cac-thanh/cac-thanh.module.css); the one thing new here is the step furniture — the
+   progress bar, the bridge block, and the prev/next/jump rail. */
+
+.wrap {
+  max-width: var(--canvas-max);
+  margin: 0 auto;
+  padding: 0 0 80px;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px var(--page-gutter) 0;
+}
+
+.back {
+  font-size: 13.5px;
+  color: var(--text-quiet);
+  text-decoration: none;
+}
+.back:hover {
+  color: var(--accent-deep);
+}
+.backEnRecessed {
+  font-size: 12.5px;
+  color: var(--text-fainter);
+}
+
+/* ---- Dark hero band (index) ---- */
+.hero {
+  margin: 16px var(--page-gutter) 0;
+  background: var(--dark-ground);
+  border-radius: var(--radius-band);
+  padding: 48px;
+}
+
+.heroText {
+  max-width: 680px;
+}
+
+.eyebrow {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #c9a65c;
+  margin-bottom: 14px;
+}
+.eyebrowEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a79e92;
+  margin: 2px 0 14px;
+}
+
+.heroTitle {
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: -0.018em;
+  color: #fbf8f3;
+  margin: 0 0 16px;
+}
+
+.heroLede {
+  margin: 0 0 6px;
+  max-width: 56ch;
+  font-size: 16.5px;
+  line-height: 1.74;
+  color: #cfc6b6;
+}
+.heroLedeEnRecessed {
+  margin: 0;
+  max-width: 58ch;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #b2a99d;
+}
+
+/* ---- Stage cards (index) ---- */
+.stageCards {
+  list-style: none;
+  margin: 24px var(--page-gutter) 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.stageCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 20px 22px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.stageCard:hover {
+  border-color: var(--accent);
+  background: var(--accent-tint-2);
+}
+
+.stageNum {
+  flex: 0 0 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-numeral);
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-family: var(--font-serif);
+  font-size: 19px;
+}
+
+.stageText {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.stageMeta {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.stageMetaEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin: 0 0 6px;
+}
+
+.stageTitle {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  line-height: 1.35;
+  color: var(--text-heading);
+  margin-bottom: 5px;
+}
+.stageTitleEnRecessed {
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--text-en);
+  margin-bottom: 5px;
+}
+
+.stageBlurb {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+}
+.stageBlurbEnRecessed {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-faint);
+  margin: 3px 0 0;
+}
+
+.stageArrow {
+  align-self: center;
+  color: var(--accent-number);
+  font-size: 20px;
+}
+
+/* ---- Honest note on the index ---- */
+.indexNote {
+  margin: 28px var(--page-gutter) 0;
+  padding: 20px 22px;
+  background: var(--surface-quiet);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-panel);
+  max-width: 760px;
+}
+.indexNoteBody {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--text-body);
+}
+.indexNoteBodyEnRecessed {
+  margin: 8px 0 0;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-faint);
+}
+.indexNoteLink {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--accent-deep);
+  text-decoration: none;
+}
+.indexNoteLink:hover {
+  text-decoration: underline;
+}
+.indexNoteLinkEnRecessed {
+  font-size: 12.5px;
+  color: var(--text-faint);
+}
+
+/* ---- Stage page ---- */
+.stagePage {
+  max-width: 780px;
+  margin: 20px auto 0;
+  padding: 0 var(--page-gutter);
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.progressBars {
+  display: flex;
+  flex: 1;
+  gap: 6px;
+}
+.progressBar,
+.progressBarDone {
+  flex: 1;
+  height: 4px;
+  border-radius: var(--radius-pill);
+  background: var(--border);
+}
+.progressBarDone {
+  background: var(--accent);
+}
+.progressLabel {
+  flex: 0 0 auto;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+}
+.progressLabelEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.stagePageTitle {
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.012em;
+  color: var(--text-heading);
+  margin: 0 0 6px;
+}
+.stagePageTitleEnRecessed {
+  font-family: var(--font-sans);
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--text-en);
+  margin: 0 0 6px;
+}
+
+/* ---- The bridge paragraph — the one piece of new writing ---- */
+.bridge {
+  margin: 22px 0 26px;
+  padding: 18px 20px;
+  background: var(--gold-tint);
+  border-left: 3px solid var(--gold);
+  border-radius: 0;
+}
+.bridgeKicker {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: 8px;
+}
+.bridgeKickerEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+.bridgeBody {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.78;
+  color: var(--text-body);
+}
+.bridgeBodyEnRecessed {
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.68;
+  color: var(--text-faint);
+}
+
+/* ---- The cluster anchor's overview ---- */
+.overview {
+  background: var(--surface-quiet);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-panel);
+  padding: 20px 22px;
+  margin-bottom: 24px;
+}
+.overviewKicker {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 8px;
+}
+.overviewQuestion {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  line-height: 1.42;
+  color: var(--text-heading);
+  margin: 0 0 10px;
+}
+.overviewExcerpt {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--text-muted);
+}
+
+/* ---- Member questions, each expanding IN PLACE (no navigation) ---- */
+.listLabel {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 10px;
+}
+
+.answerList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.answerRow,
+.answerRowOpen {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-row);
+  background: var(--surface);
+  overflow: hidden;
+}
+.answerRowOpen {
+  border-color: var(--border-strong);
+}
+
+.answerHead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 15px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+.answerHead:hover {
+  background: var(--accent-tint-2);
+}
+
+.answerNum {
+  flex: 0 0 auto;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent-number);
+}
+
+.answerQuestion {
+  flex: 1;
+  min-width: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-body);
+}
+
+.chevron,
+.chevronOpen {
+  flex: 0 0 auto;
+  color: var(--accent-number);
+  transition: transform 0.15s ease;
+}
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.answerPanel {
+  padding: 0 15px 16px;
+  border-top: 1px solid var(--border);
+  margin-top: -1px;
+}
+
+.answerBody {
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: var(--text-body);
+  max-width: var(--measure-prose);
+}
+
+.answerActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.expand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--accent-deep);
+}
+.expand:hover {
+  text-decoration: underline;
+}
+
+.openPage {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--text-quiet);
+  text-decoration: none;
+}
+.openPage:hover {
+  color: var(--accent-deep);
+}
+
+/* ---- Prev / next + jump ---- */
+.stageNav {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.navPrev,
+.navNext,
+.navEmpty {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 13px 15px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-row);
+  text-decoration: none;
+}
+.navNext {
+  border-color: var(--accent);
+  background: var(--accent-tint-2);
+}
+.navPrev:hover,
+.navNext:hover {
+  border-color: var(--accent-deep);
+}
+.navEmpty {
+  border-color: transparent;
+}
+
+.navNext {
+  text-align: right;
+}
+
+.navMeta {
+  font-size: 11px;
+  color: var(--text-quiet);
+}
+.navMetaNext {
+  font-size: 11px;
+  color: var(--accent-deep);
+}
+.navMetaEnRecessed {
+  font-size: 10px;
+  color: var(--text-fainter);
+}
+.navTitle {
+  font-size: 14px;
+  line-height: 1.42;
+  color: var(--text-body);
+}
+.navTitleEnRecessed {
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--text-faint);
+}
+
+.jump {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.jumpLabel {
+  font-size: 11.5px;
+  color: var(--text-quiet);
+  margin-right: 3px;
+}
+.jumpLabelEnRecessed {
+  font-size: 10.5px;
+  color: var(--text-fainter);
+}
+.jumpPill,
+.jumpPillCurrent {
+  min-width: 32px;
+  text-align: center;
+  font-size: 12.5px;
+  padding: 4px 11px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.jumpPill:hover {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+}
+.jumpPillCurrent {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    margin: 12px var(--mobile-gutter) 0;
+    padding: 32px 24px;
+  }
+  .heroTitle {
+    font-size: 32px;
+  }
+  .topBar,
+  .stageCards,
+  .indexNote {
+    padding-left: var(--mobile-gutter);
+    padding-right: var(--mobile-gutter);
+  }
+  .stageCards,
+  .indexNote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .stagePage {
+    padding: 0 var(--mobile-gutter);
+  }
+  .stagePageTitle {
+    font-size: 25px;
+  }
+  .stageNav {
+    flex-direction: column;
+  }
+  .navNext {
+    text-align: left;
+  }
+}
