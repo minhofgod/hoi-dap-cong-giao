@@ -93,6 +93,31 @@ A wikilink that points at the wrong verse silently misattributes Scripture, so t
 - For every cited verse, **open the actual CGKPV chapter file** and confirm the `###### N` anchor
   exists **and** that the quoted text really is that verse or range. The owner's typed citation label
   can be off.
+
+### ⚠️ CGKPV versification differs from English/Protestant Bibles (verified 2026-08-18)
+
+**This is the single most likely source of a wrong-but-plausible wikilink**, because scripts drafted
+from English sources (or from Grok) carry English verse numbers. A missing `###### N` anchor is usually
+*this*, not a typo.
+
+**The direction: CGKPV follows the Hebrew/Masoretic versification. English Protestant numbering runs
+one BEHIND CGKPV in the affected passages.** Two recurring causes, both verified against the CGKPV
+files themselves:
+
+1. **Chapter-break differences.** Confirmed: **English Deut 12:32 = CGKPV `Đệ Nhị Luật 13,1`** — the
+   *"đừng thêm gì vào đó cũng đừng bớt gì"* verse. CGKPV `Đnl 12` ends at **v31** and `Đnl 13` runs to
+   **v19**; the offset continues through the chapter (English 13:x = CGKPV 13:x+1) and realigns at 14:1.
+2. **Psalm superscriptions are counted as verse 1.** CGKPV `Tv 22,1` is the superscription
+   (*"Phần nhạc trưởng…"*); the famous *"Ngài nỡ lòng ruồng bỏ con sao"* is **`Tv 22,2`** — English
+   Bibles call it Ps 22:1. So for any psalm with a superscription, expect **English + 1**.
+
+**When an anchor is missing, check the neighbouring verse/chapter (usually +1, and the adjacent
+chapter's v1) before concluding it's a typo.**
+
+> **Do NOT reason from "CGKPV = Vulgate/LXX numbering" — that is false and would send you the wrong
+> way.** Checked directly: CGKPV Psalms use **Hebrew** numbering, not Vulgate — `Tv 23` is
+> *"CHÚA là mục tử chăn dắt tôi"* (Vulgate numbers that psalm 22). The reliable move is always to
+> **open the chapter file and read the text**, not to apply a remembered offset.
 - **When they disagree, fix the number/range to match what is actually quoted** — updating *both* the
   citation label in the prose *and* the embed/link. E.g. a quote labelled `Giacôbê 1:6` whose text
   actually spans 1:5-6 → correct it to `1:5-6` and embed the full range
