@@ -68,8 +68,10 @@
   border-radius: var(--radius-pill);
 }
 
-/* In-section companion entry — sits between the page header and the search/browser. */
+/* In-section companion entry — sits between the page header and the search/browser. Capped so it
+   stays a tidy left-aligned band on the now-wider (1120px) index instead of stretching full width. */
 .companionCta {
+  max-width: 680px;
   margin-bottom: 24px;
 }
 
