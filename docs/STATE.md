@@ -7,11 +7,15 @@ state, the active work streams, and how to recover.
 ## How to resume
 1. **Memory auto-loads.** Any new Claude session in this folder gets the memory index (`MEMORY.md` +
    notes: project overview, deployment, sections, roadmap). It already knows the stack + conventions.
-2. **Read, in order:** this file → `docs/roadmap.md` (the plan + locked decisions) → `PROGRESS.md`
-   (what's been built). `docs/content-guide.md` = how to author content.
+2. **Read, in order:** this file → `docs/roadmap.md` (the plan + locked decisions) →
+   `docs/content-guide.md` (how to author content). **This file is the authority on what exists** —
+   `PROGRESS.md` is an older status doc kept for its deployment/setup detail; don't trust it for
+   what's been built.
 3. **See recent work:** `git log --oneline -30`.
 4. **Recover a lost chat:** in the terminal, `claude --resume` (or `claude -r`) lists past sessions
    in this folder to reopen — transcripts are saved on disk, so they're recoverable.
+5. **Lost EVERYTHING?** → **"Restarting a lost session"** at the bottom of this file: copy-paste
+   prompts to rebuild the coordinator and every lane from scratch, plus what lives outside git.
 
 ## Where things stand (snapshot — 2026-08-15)
 **Live on `main` → Vercel:** Catechism reader; Giáo Phụ (30 Church Fathers); **Công Đồng — all 21
@@ -27,8 +31,9 @@ video ↔ Q&A linking via shared tags (see `docs/roadmap.md` "Content link model
 
 ## The sessions (numbered registry)
 Several parallel Claude sessions run at once — refer to them by **number**. Each owns a **disjoint**
-set of files so they don't collide (see the watch-points below). If one is lost, restart it with the
-matching prompt in `docs/roadmap.md` / the content-guide, or `claude --resume`.
+set of files so they don't collide (see the watch-points below). If one is lost, reopen it with
+`claude --resume`, or restart it from scratch using **"Restarting a lost session"** at the bottom of
+this file.
 
 | # | Session | Owns (its lane) | Does | Status |
 |---|---|---|---|---|
@@ -178,3 +183,86 @@ to the coordinator.**
 > Keep the snapshot + the session registry roughly current: when a session finishes a milestone,
 > update its row here (and add a row when you start a new session) so this stays the reliable
 > "start here." Refer to sessions by their number everywhere.
+
+---
+
+## Restarting a lost session — TOTAL-LOSS RECOVERY
+
+**If every chat is gone, this section is how the project comes back.** Open one new session in this
+folder, tell it *"read `docs/STATE.md` and help me restart my sessions"*, and work down this list.
+
+Order matters: **restart the coordinator FIRST**, then let it hand out the lane prompts. Nothing here
+depends on chat history — the registry above plus the specs in `docs/` are the whole state.
+
+### 1. The coordinator (do this one first)
+
+```
+You are the Coordinator session for the Hỏi Đáp Công Giáo project — the unnumbered
+architect/routing role, not a lane session.
+
+Read, in this order: docs/STATE.md (especially "The Coordinator session" and the open
+threads), docs/roadmap.md, docs/content-guide.md, CLAUDE.md. Then skim
+git log --oneline -30.
+
+Design and spec with me, write specs to docs/ with a hand-off table, and give me one-line
+pointers to relay to lane sessions — never walls of detail. Watch for cross-lane traps.
+Don't build features or write section content yourself; route it.
+
+Give me a short read of where things stand and what you'd do first.
+```
+
+### 2. Lane sessions — one template, filled from the registry
+
+**Do not restart sessions marked DONE** (5 Councils, 6 Bible backend, 9 Saints, 10 relevance audit)
+unless there is new work for that lane. Restart only what the open threads actually need.
+
+Paste this, substituting `<N>`, `<name>`, and `<lane>` from that session's row in the registry above:
+
+```
+You are Session <N> (<name>) on the Hỏi Đáp Công Giáo project, in
+"D:\Dropbox\Claude\MinhofGod Websites\Hoi Dap Cong Giao Website".
+
+Read docs/STATE.md and find your row (Session <N>) in the session registry — that is your
+lane, what you own, and where you left off. Also read docs/content-guide.md if you touch
+content, and any spec doc your row names.
+
+You own ONLY <lane>. Never edit another session's files. Never `git add -A` — stage only
+your own lane's files. If a task crosses lanes or you are unsure who owns it, hand it to
+the coordinator rather than guessing.
+
+Before changing anything, tell me your plan and what you think your current task is.
+```
+
+**Sessions with their own written brief** — point them at it instead of relying on the row alone:
+
+| # | Session | Brief to read |
+|---|---|---|
+| 4 | Script Wikilink | `docs/session-4-script-wikilink.md` (+ the vault's `CGKPV_Wikilink_Rules.md`) |
+| 8 | Site Design & Shell | `docs/nav-and-phep-la-wiring.md`, `docs/evidence-path-handoff.md` |
+| 9 | Các Thánh | `docs/image-sourcing-brief.md` |
+| 11 | Phép Lạ | `docs/phep-la-spec.md`, `docs/image-sourcing-brief.md` |
+| 12 | Fact-verification audit | `docs/fact-verification-audit-spec.md` |
+| 13 | Evidence path | `docs/evidence-path-spec.md`, `docs/evidence-path-handoff.md` |
+
+### 3. What is NOT in this repo (recover these separately)
+
+- **The Obsidian vault** — `D:\Dropbox\Obsidian Vault\`: the video scripts + CGKPV Bible (Session 4's
+  lane), the **content pipeline tracker**, and the **pre-launch proofreading tracker**. The trackers are
+  the owner's, live outside git, and are the only record of what has been proofread.
+- **`.env.local`** — gitignored by design. Recreate it to preview flag-gated work locally:
+  `NEXT_PUBLIC_SCRIPTURE_POPOVER=1`, `NEXT_PUBLIC_CANVAS=1`, `NEXT_PUBLIC_COMPANION=1`,
+  `NEXT_PUBLIC_EVIDENCE_PATH=1`. **None of these should be set on Vercel** except where a row says so.
+- **Claude memory** — auto-loads per folder, but it is keyed to the folder a session STARTS in. A session
+  started in the vault gets a different memory store. Start sessions in the website folder.
+
+### 4. Sanity checks after a restart
+
+```bash
+git log --oneline -30          # what actually landed
+git status --short             # any session's in-flight work
+npx tsc --noEmit && npm run lint
+```
+
+Then reconcile the two trackers against the real files before trusting either — both have drifted
+before. The files are always the source of truth, never a tracker or a memory.
+
