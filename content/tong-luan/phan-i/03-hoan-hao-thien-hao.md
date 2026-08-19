@@ -51,11 +51,15 @@ Thiên Chúa thì khác. Lý do Thánh Tôma đưa ra rất chặt: một mô th
 
 Vô hạn ở đây không có nghĩa là “rất lớn”, nhưng là **không bị bất cứ giới hạn nào cả**.
 
-### 4. Thiên Chúa là Đấng bất biến *(Câu hỏi 9)*
+### 4. Thiên Chúa là Đấng bất biến *(Câu hỏi 9, Tiết 1)*
 
-Mọi sự thay đổi đều giả thiết có một tiềm năng chưa được hoàn tất: cái gì thay đổi thì trở thành điều nó chưa là.
+Thánh Tôma đưa ra ba lý do. Lý do dễ thấy nhất là lý do thứ ba:
 
-Nhưng nơi Thiên Chúa không có tiềm năng nào cả. Ngài là **Hiện thể thuần túy** (*actus purus*). Vì thế, Ngài **không thể thay đổi**.
+> “Phàm cái gì chuyển động thì nhờ chuyển động ấy mà **nhận được điều gì đó**, và **đạt tới điều trước đó nó chưa đạt tới**.”
+
+Nghĩa là: thay đổi luôn luôn là một cách **thêm vào**. Cái gì thay đổi thì trước đó còn thiếu điều nó sắp nhận được — nói cách khác, nó còn một **tiềm năng** chưa được hoàn tất.
+
+Nhưng nơi Thiên Chúa không thiếu điều gì để phải nhận thêm, và không có tiềm năng nào để phải hoàn tất. Ngài là **Hiện thể thuần túy** (*actus purus*). Vì thế Ngài **không thể thay đổi**.
 
 Sự bất biến của Thiên Chúa không có nghĩa là Ngài xa cách hoặc lạnh lùng, nhưng là Ngài luôn luôn viên mãn, luôn luôn trung tín, và không bao giờ thất thường.
 
