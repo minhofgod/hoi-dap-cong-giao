@@ -12,6 +12,7 @@ parts:
   - "chua-giesu-la-thien-chua-sao-khong-tu-cuu-minh"
   - "sao-chua-khong-tao-con-nguoi-chi-lam-viec-tot"
   - "song-tot-ca-doi-sao-khong-tu-tra-het-toi"
+  - "hy-sinh-cua-chua-giesu-co-that-su-lon-khong"
   - "chua-giesu-chuoc-toi-nghia-la-gi"
   - "on-cuu-do-la-qua-tang-co-the-tu-do-pham-toi-khong"
   - "nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong"

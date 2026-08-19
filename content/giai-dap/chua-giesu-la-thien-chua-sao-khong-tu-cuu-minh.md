@@ -12,6 +12,7 @@ part_of: "tai-sao-chua-giesu-chiu-dong-dinh"
 related:
   - "tai-sao-chua-giesu-chiu-dong-dinh"
   - "chua-giesu-chuoc-toi-nghia-la-gi"
+  - "hy-sinh-cua-chua-giesu-co-that-su-lon-khong"
 ---
 
 **Ngài hoàn toàn có thể — nhưng Ngài đã chọn không làm vậy.** Và chính sự lựa chọn đó mới là điều quan trọng nhất.
