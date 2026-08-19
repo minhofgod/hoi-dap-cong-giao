@@ -21,7 +21,7 @@ sources:
 
 *(Tổng luận thần học, Phần I, Câu hỏi 14 và Câu hỏi 19)*
 
-Sau khi nói về tính đơn thuần và các thuộc tính của Thiên Chúa, Thánh Tôma bàn đến **sự hiểu biết** (Câu hỏi 14) và **ý muốn** (Câu hỏi 19) của Ngài. Đây là hai điều giúp chúng ta hiểu cách Thiên Chúa liên hệ với muôn loài.
+Sau khi nói về tính đơn nhất và các thuộc tính của Thiên Chúa, Thánh Tôma bàn đến **sự hiểu biết** (Câu hỏi 14) và **ý muốn** (Câu hỏi 19) của Ngài. Đây là hai điều giúp chúng ta hiểu cách Thiên Chúa liên hệ với muôn loài.
 
 *(Giữa hai câu hỏi này còn có Câu hỏi 15 về các ý niệm mẫu nơi Thiên Chúa, Câu hỏi 16–17 về chân lý và sai lầm, Câu hỏi 18 về sự sống của Thiên Chúa.)*
 
@@ -57,7 +57,7 @@ Thiên Chúa muốn điều thiện cho mọi thụ tạo, nhưng theo những c
 
 ### 3. Mối liên hệ giữa hiểu biết và ý muốn
 
-Nơi Thiên Chúa, sự hiểu biết và ý muốn không tách rời nhau như nơi con người. Vì Thiên Chúa là Đấng đơn thuần, nên hành vi hiểu biết và hành vi yêu thương của Ngài cũng là một với bản chất của Ngài.
+Nơi Thiên Chúa, sự hiểu biết và ý muốn không tách rời nhau như nơi con người. Vì Thiên Chúa là Đấng đơn nhất, nên hành vi hiểu biết và hành vi yêu thương của Ngài cũng là một với bản chất của Ngài.
 
 Điều này giúp chúng ta hiểu rằng:
 

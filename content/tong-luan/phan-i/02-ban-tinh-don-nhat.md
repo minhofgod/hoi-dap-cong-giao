@@ -35,7 +35,7 @@ Hãy nhìn lại tên các Tiết trong Câu hỏi 3 thì thấy ngay: “Phải
 
 Đây không phải là chi tiết kỹ thuật. Đó là chìa khóa để đọc đúng toàn bộ các Câu hỏi 3–11: những gì sắp nói về Thiên Chúa không phải là một bản mô tả, mà là một chuỗi những điều **không** đúng về Ngài. Càng loại bỏ, chúng ta càng biết Ngài vượt trên mọi điều chúng ta có thể nghĩ.
 
-### Thiên Chúa đơn thuần nghĩa là gì?
+### Thiên Chúa đơn nhất nghĩa là gì?
 
 Khi chúng ta nói một sự vật “phức hợp”, có nghĩa là nó được cấu tạo bởi nhiều phần khác nhau. Ví dụ:
 
@@ -43,7 +43,7 @@ Khi chúng ta nói một sự vật “phức hợp”, có nghĩa là nó đư�
 - Một vật thể gồm chất thể và mô thể.
 - Ngay cả trong tư tưởng của chúng ta, chúng ta cũng phân biệt “bản chất” và “hiện hữu”.
 
-Nơi Thiên Chúa thì **không có sự phân chia nào cả**. Ngài không phải là vật thể (Tiết 1), không gồm chất thể và mô thể (Tiết 2), không gồm bản chất và chủ thể (Tiết 3), không gồm bản chất và hiện hữu (Tiết 4), không gồm giống và loại biệt (Tiết 5), không có tùy thể (Tiết 6). Kết luận ở Tiết 7: Thiên Chúa **hoàn toàn đơn thuần**.
+Nơi Thiên Chúa thì **không có sự phân chia nào cả**. Ngài không phải là vật thể (Tiết 1), không gồm chất thể và mô thể (Tiết 2), không gồm bản chất và chủ thể (Tiết 3), không gồm bản chất và hiện hữu (Tiết 4), không gồm giống và loại biệt (Tiết 5), không có tùy thể (Tiết 6). Kết luận ở Tiết 7: Thiên Chúa **hoàn toàn đơn nhất**.
 
 Điểm sâu nhất là Tiết 4: **nơi Thiên Chúa, bản chất và hiện hữu chỉ là một**. Thiên Chúa không phải là một hữu thể có sẵn một bản chất rồi mới được ban cho sự hiện hữu; nơi Ngài, “là Thiên Chúa” và “hiện hữu” không phải hai điều.
 
@@ -80,7 +80,7 @@ Cả hai đều đúng về Thiên Chúa, nhưng chúng trả lời hai câu h�
 
 ### Tóm lại
 
-Tính đơn thuần của Thiên Chúa là nền tảng cho mọi điều khác mà Thánh Tôma sẽ nói về Ngài. Vì nơi Thiên Chúa không có sự phức hợp nào, nên Ngài cũng là:
+Tính đơn nhất của Thiên Chúa là nền tảng cho mọi điều khác mà Thánh Tôma sẽ nói về Ngài. Vì nơi Thiên Chúa không có sự phức hợp nào, nên Ngài cũng là:
 
 - Hoàn hảo tuyệt đối,
 - Vô hạn,

@@ -21,7 +21,7 @@ Chúng ta đã cùng nhau đi hết con đường lớn mà Thánh Tôma Aquinô
 
 Nhiều người quen tóm tắt toàn bộ tác phẩm bằng một nhịp điệu: **mọi sự phát xuất từ Thiên Chúa (*exitus*) và trở về với Thiên Chúa (*reditus*)**. Như đã nói ở phần Mở đầu, đây là cách đọc của các nhà nghiên cứu – gắn với tên tuổi cha M.-D. Chenu từ năm 1939 – chứ không phải điều chính Thánh Tôma tuyên bố về công trình của mình. Nhưng đó vẫn là tấm bản đồ hữu ích nhất để nhìn lại chặng đường:
 
-- **Phần thứ nhất** cho chúng ta chiêm ngưỡng chính Thiên Chúa: Đấng đơn thuần tuyệt đối, hoàn hảo, Ba Ngôi Chí Thánh, và công trình sáng tạo. Từ đó chúng ta thấy nguồn gốc của mọi sự.
+- **Phần thứ nhất** cho chúng ta chiêm ngưỡng chính Thiên Chúa: Đấng đơn nhất tuyệt đối, hoàn hảo, Ba Ngôi Chí Thánh, và công trình sáng tạo. Từ đó chúng ta thấy nguồn gốc của mọi sự.
 - **Phần thứ hai** cho thấy con người – hình ảnh của Thiên Chúa – được tạo dựng để hướng về Ngài. Hạnh phúc thật sự chỉ có nơi Thiên Chúa. Để đạt tới hạnh phúc ấy, con người cần các nhân đức, luật và nhất là ân sủng.
 - **Phần thứ ba** chỉ cho chúng ta **con đường** trở về: chính Đức Giêsu Kitô. Nhờ mầu nhiệm Nhập thể, cuộc Thương Khó, sự Phục Sinh và các Bí tích, Người là Đấng đã nói: “Chính Thầy là con đường, là sự thật và là sự sống. Không ai đến với Chúa Cha mà không qua Thầy” (Ga 14,6 – CGKPV).
 

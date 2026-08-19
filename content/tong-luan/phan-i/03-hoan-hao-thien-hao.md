@@ -23,7 +23,7 @@ sources:
 
 *(Tổng luận thần học, Phần I, Câu hỏi 4–7 và Câu hỏi 9)*
 
-Sau khi khẳng định Thiên Chúa là Đấng đơn thuần, Thánh Tôma tiếp tục trình bày những thuộc tính quan trọng nhất của Ngài. Những thuộc tính này không phải là những “phần” được thêm vào Thiên Chúa; chúng vẫn nằm trong **con đường loại bỏ** đã nói ở chương trước – mỗi thuộc tính gạt đi một giới hạn nào đó nơi thụ tạo.
+Sau khi khẳng định Thiên Chúa là Đấng đơn nhất, Thánh Tôma tiếp tục trình bày những thuộc tính quan trọng nhất của Ngài. Những thuộc tính này không phải là những “phần” được thêm vào Thiên Chúa; chúng vẫn nằm trong **con đường loại bỏ** đã nói ở chương trước – mỗi thuộc tính gạt đi một giới hạn nào đó nơi thụ tạo.
 
 *(Về vị trí trong bộ sách: Câu hỏi 4 bàn sự hoàn hảo, Câu hỏi 5–6 sự thiện hảo, Câu hỏi 7 sự vô hạn, Câu hỏi 9 sự bất biến. Xen vào giữa còn có Câu hỏi 8 về sự hiện diện của Thiên Chúa trong muôn vật, Câu hỏi 10 về sự vĩnh cửu và Câu hỏi 11 về tính duy nhất – ba đề tài chương này không bàn tới.)*
 
