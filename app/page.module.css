@@ -29,6 +29,14 @@
     grid-template-columns: 1fr;
   }
 }
+/* With the evidence card on there are 6 cards; drop the desktop row from 5 → 3 so it reads as a
+   clean 3+3 instead of a 5+1 orphan. Desktop-only (min-width): the max-width steps above already
+   give 3 / 2 / 1 at narrower widths, where 6 cards tile evenly (3+3, 2+2+2). */
+@media (min-width: 1201px) {
+  .sectionCards6 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /* Front-door companion (Đồng hành) CTA — a prominent band at the top of the homepage for
    seekers. Wraps the self-gating <DongHanhCta>; the band itself is guarded in the JSX so no
@@ -63,6 +71,9 @@ a.card:hover {
 }
 .cardBlue {
   background: #EAF0F5;
+}
+.cardEvidence {
+  background: #EDE9E2;
 }
 
 .cardImage {
@@ -115,6 +126,9 @@ a.card:hover {
 }
 .cardBlue .cardCount {
   color: #3A5A78;
+}
+.cardEvidence .cardCount {
+  color: #6E5B3E;
 }
 
 .hero {

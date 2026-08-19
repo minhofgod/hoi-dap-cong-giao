@@ -8,6 +8,8 @@ import { getAllFathers } from '@/lib/churchFathers';
 import { getAllCouncils } from '@/lib/councilsV2';
 import { getAllSaints } from '@/lib/saintsV2';
 import { getAllMiracles } from '@/lib/miraclesV2';
+import { getStageCards } from '@/lib/evidencePath';
+import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getAllVideos } from '@/lib/videos';
 import { resolveReference } from '@/lib/bibleRefs';
@@ -49,6 +51,8 @@ const fathersCount = getAllFathers().length;
 const councilsCount = getAllCouncils().length;
 const saintsCount = getAllSaints().length;
 const miraclesCount = getAllMiracles().length;
+// Evidence path: gated off by default, so the card/count only matter once the flag is on.
+const evidenceStagesCount = EVIDENCE_PATH_ENABLED ? getStageCards().length : 0;
 const questions = getAllQuestions();
 const questionsCount = questions.length;
 const homeVideos = getAllVideos().slice(0, 3);
@@ -80,7 +84,7 @@ export default function HomePage() {
       <SiteHeader />
 
       <main className={styles.page}>
-      <section className={styles.sectionCards}>
+      <section className={EVIDENCE_PATH_ENABLED ? `${styles.sectionCards} ${styles.sectionCards6}` : styles.sectionCards}>
         <Link href="/giai-dap" className={`${styles.card} ${styles.cardSage}`}>
           <span className={styles.cardImage}>
             <Image
@@ -209,6 +213,35 @@ export default function HomePage() {
             </span>
           </span>
         </Link>
+        {/* Evidence path — gated off by default (EVIDENCE_PATH_ENABLED); appears only once the flag is
+            on, so no dead card ships before then. Borrows the resurrection banner — the path's climax. */}
+        {EVIDENCE_PATH_ENABLED && (
+          <Link href="/bang-chung" className={`${styles.card} ${styles.cardEvidence}`}>
+            <span className={styles.cardImage}>
+              <Image
+                src="/images/giai-dap/bang-chung-chua-giesu-song-lai.jpg"
+                alt=""
+                fill
+                sizes="(max-width: 900px) 100vw, 400px"
+                className={styles.cardImg}
+              />
+            </span>
+            <span className={styles.cardBody}>
+              <span className={styles.cardTitle}>
+                <T vi="Bằng chứng về Chúa Giêsu" en="The Evidence for Jesus" />
+              </span>
+              <span className={styles.cardDesc}>
+                <T
+                  vi="Đi qua từng bước lập luận — từ nguyên nhân đầu tiên đến sự phục sinh."
+                  en="Walk the argument step by step — from the first cause to the resurrection."
+                />
+              </span>
+              <span className={styles.cardCount}>
+                <T vi={`${evidenceStagesCount} chặng`} en={`${evidenceStagesCount} steps`} />
+              </span>
+            </span>
+          </Link>
+        )}
       </section>
 
       {/* Front-door companion CTA for seekers, just below the section cards. DongHanhCta self-gates
@@ -481,6 +514,11 @@ export default function HomePage() {
             <Link href="/phep-la" className={styles.footerLink}>
               <T vi="Phép Lạ & Hiện Ra" en="Miracles & Apparitions" />
             </Link>
+            {EVIDENCE_PATH_ENABLED && (
+              <Link href="/bang-chung" className={styles.footerLink}>
+                <T vi="Bằng chứng về Chúa Giêsu" en="The Evidence for Jesus" />
+              </Link>
+            )}
           </div>
           <div className={styles.footerCol}>
             <div className={styles.footerColTitle}>

@@ -8,6 +8,8 @@ import { getAllMiracles } from '@/lib/miraclesV2';
 import { getAllVideos } from '@/lib/videos';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import { CANVAS_ENABLED } from '@/lib/canvasFlag';
+import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
+import { getResolvedStages } from '@/lib/evidencePath';
 import { SITE_URL } from '@/lib/siteUrl';
 
 // Every URL is derived from the SAME loader each route's generateStaticParams uses, so the sitemap
@@ -97,6 +99,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
   if (CANVAS_ENABLED) {
     entries.push({ url: url('/so-do/sola-fide'), changeFrequency: 'yearly', priority: 0.5 });
+  }
+  // The evidence path (/bang-chung) + its stage routes. Content pages are automatic above, but new
+  // ROUTES are not — this is the block that keeps /bang-chung from launching with no sitemap entry.
+  // Stage URLs come from the same loader the route's generateStaticParams uses, so the sitemap can
+  // never list a stage that wasn't built.
+  if (EVIDENCE_PATH_ENABLED) {
+    entries.push({ url: url('/bang-chung'), changeFrequency: 'monthly', priority: 0.8 });
+    entries.push(
+      ...getResolvedStages().map((s) => ({
+        url: url(`/bang-chung/${s.stage.slug}`),
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+      }))
+    );
   }
 
   return entries;

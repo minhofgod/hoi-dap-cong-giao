@@ -9,6 +9,7 @@ import { LanguageToggle } from './LanguageToggle';
 import { T } from './T';
 import { useLang } from '@/lib/giao-phu/useLang';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
+import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
 import styles from './SiteHeader.module.css';
 
 interface NavLink {
@@ -48,6 +49,11 @@ const NAV: NavEntry[] = [
       { href: '/lich-su-hoi-thanh', vi: 'Lịch Sử Hội Thánh', en: 'Church History', also: ['/giao-phu', '/cong-dong'] },
       { href: '/cac-thanh', vi: 'Các Thánh', en: 'Saints' },
       { href: '/phep-la', vi: 'Phép Lạ & Hiện Ra', en: 'Miracles & Apparitions' },
+      // The evidence path — a guided walk through the case for Jesus. Belongs with the evidence /
+      // witnesses family. Gated so it appears only once the flag is on (no dead link before then).
+      ...(EVIDENCE_PATH_ENABLED
+        ? [{ href: '/bang-chung', vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus' }]
+        : []),
       // + Các Đức Giáo Hoàng (/cac-giao-hoang) when that section ships.
     ],
   },
