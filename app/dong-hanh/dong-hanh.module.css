@@ -186,14 +186,21 @@
   .walk {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 320px;
+    /* Left column stacks answer → CTA → extras; the choices sidebar spans all three rows on the
+       right. (On mobile the block flow + DOM order puts the CTA above the follow-ups instead.) */
     grid-template-areas:
       'answer side'
+      'cta    side'
       'extra  side';
     column-gap: 36px;
     align-items: start;
   }
   .walkAnswer {
     grid-area: answer;
+    min-width: 0;
+  }
+  .walkCta {
+    grid-area: cta;
     min-width: 0;
   }
   .walkExtra {
