@@ -4,16 +4,28 @@
 // components can import it. The loader that joins these stages to the real Q&A content lives in
 // lib/evidencePath.ts (server-only — it reads content/giai-dap through lib/giaiDap).
 //
-// Spec: docs/evidence-path-spec.md, with the ORDER revised by the owner 2026-08-18. It now runs
-//   is the universe designed → then who made the designer → who is he, and is the record about him
-//   reliable → did the event actually happen,
-// so each step answers the objection the previous step provokes. (The spec's original order opened
-// with the first-cause cluster; that made "who created God?" a rebuttal to a premise the reader had
-// not been given yet. Design first puts a *someone* on the table, and "then who made him?" becomes
-// the natural next question rather than a non-sequitur.)
+// Spec: docs/evidence-path-spec.md, but the shape has moved on twice with the owner (2026-08-18).
+// SIX steps now, each answering the question the previous one provokes:
 //
-// Each stage maps onto ONE already-written, already-proofread Giải Đáp cluster anchor. The path
-// asserts nothing those clusters don't already say.
+//   1 is the universe designed  →  2 then who made the designer  →  3 can the record be trusted
+//   →  4 what did he actually claim  →  5 did the event happen  →  6 what does that ask of you
+//
+// Two ordering calls worth not re-litigating:
+//   • Design comes before "who made God?". The spec opened with the first-cause cluster, which made
+//     "who created God?" a rebuttal to a premise the reader had not been given. Design first puts a
+//     *someone* on the table, so the objection follows naturally.
+//   • The CLAIM (4) comes before the RESURRECTION (5), not after. The Resurrection cluster is
+//     self-contained — all 8 parts argue "did it happen", none argue "therefore he is God" — so the
+//     reverse order also works, and was considered. It loses on the reader's experience: step 5 is
+//     the longest, most forensic stage on the path, and a reader who already knows the claim reads
+//     those nine answers with stakes rather than doing tomb forensics for no stated reason. Two
+//     answers buy the whole stage its motivation.
+//
+// Steps 4 and 6 are deliberately SHORT hinges either side of the long Resurrection stage, sliced
+// with `only` (below). Step 6 is openly past the evidence — its bridge says so.
+//
+// Each stage maps onto ONE Giải Đáp cluster anchor. The path asserts nothing those clusters don't
+// already say. NOTE: the stage-4 cluster is new (2026-08-18) and NOT yet proofread.
 
 import type { Bi } from '@/lib/churchFathers';
 
@@ -104,13 +116,38 @@ export const EVIDENCE_STAGES: EvidenceStage[] = [
     },
     anchor: 'bang-chung-lich-su-cua-kinh-thanh',
     bridge: {
-      vi: 'Hai bước đầu, nếu đứng vững, mới chỉ đưa ta tới một Đấng có trí tuệ và có ý hướng — chưa nói được Ngài là ai. Mà câu hỏi "Thiên Chúa là ai?" thì không thể trả lời bằng cách suy luận thêm về vũ trụ: chỉ chính Ngài tỏ mình ra mới trả lời được. Kitô giáo trả lời rằng Ngài đã tỏ mình ra nơi một con người có thật trong lịch sử — và câu trả lời ấy đến với ta qua một bộ tài liệu. Nên trước khi cân nhắc lời tuyên bố, phải cân nhắc tài liệu đã: chúng có đáng tin không?',
-      en: 'The first two steps, if they hold, get us only as far as an intelligent, purposeful Someone — not to who he is. And "who is God?" cannot be answered by reasoning further about the universe: only his showing himself could answer it. Christianity answers that he did show himself, in a real man in history — and that answer reaches us through a set of documents. So before weighing the claim, we have to weigh the documents: can they be trusted?',
+      vi: 'Hai bước đầu, nếu đứng vững, mới chỉ đưa ta tới một Đấng có trí tuệ và có ý hướng — chưa nói được Ngài là ai. Mà câu hỏi "Thiên Chúa là ai?" thì không thể trả lời bằng cách suy luận thêm về vũ trụ: chỉ chính Ngài tỏ mình ra mới trả lời được. Kitô giáo nói rằng điều đó đã xảy ra, và câu trả lời được ghi lại trong một bộ tài liệu cụ thể. Bước sau sẽ đọc xem các tài liệu ấy ghi gì; nhưng trước hết phải hỏi: chúng có đáng tin không?',
+      en: 'The first two steps, if they hold, get us only as far as an intelligent, purposeful Someone — not to who he is. And "who is God?" cannot be answered by reasoning further about the universe: only his showing himself could answer it. Christianity says that is exactly what happened, and that the answer was written down in a particular set of documents. The next step reads what those documents record; but first we have to ask whether they can be trusted at all.',
+    },
+  },
+  {
+    // The hinge. Deliberately TWO answers — the anchor plus one verse-argument — because the path
+    // needs the claim, not a course in Christology. `only` keeps the rest of the cluster out; the
+    // stage page links to it. Ga 10,30 + 10,33 is the pick because it carries the claim AND the
+    // reaction of the people who heard it, so the argument rests on how they understood it rather
+    // than on how a modern reader parses the words. (Ga 20,28 was the alternative; Ga 14,28 is a
+    // defence against an objection, not a claim.) The verse itself lives in the answer, where it
+    // has been checked — never quoted in this bridge.
+    slug: 'chua-giesu-tuyen-bo-la-thien-chua',
+    step: 4,
+    title: {
+      vi: 'Chúa Giêsu có tuyên bố mình là Thiên Chúa không?',
+      en: 'Did Jesus claim to be God?',
+    },
+    covers: {
+      vi: 'Câu "Tôi và Chúa Cha là một", và phản ứng của chính những người đang đứng nghe câu ấy.',
+      en: 'The sentence "I and the Father are one", and how the people standing there reacted to it.',
+    },
+    anchor: 'chua-giesu-co-tuyen-bo-minh-la-thien-chua-khong',
+    only: ['toi-va-chua-cha-la-mot-nghia-la-gi'],
+    bridge: {
+      vi: 'Nếu bản văn đáng tin, thì việc tiếp theo là đọc xem nó thật sự ghi lại điều gì. Và đến đây toàn bộ lập luận thu lại thành một điểm duy nhất: chính Chúa Giêsu đã nói gì về mình? Đây là bước ngắn nhất trong con đường này, vì nó chỉ xoay quanh một câu nói — và quanh chuyện những người đang đứng nghe đã hiểu câu ấy ra sao.',
+      en: 'If the record can be trusted, the next thing to do is read what it actually records. And here the whole argument narrows to a single point: what did Jesus say about himself? This is the shortest step on the path, because it turns on one sentence — and on how the people standing there understood it.',
     },
   },
   {
     slug: 'chua-giesu-song-lai',
-    step: 4,
+    step: 5,
     title: {
       vi: 'Chúa Giêsu có thật sự sống lại?',
       en: 'Did Jesus really rise from the dead?',
@@ -121,8 +158,30 @@ export const EVIDENCE_STAGES: EvidenceStage[] = [
     },
     anchor: 'bang-chung-chua-giesu-song-lai',
     bridge: {
-      vi: 'Đến đây, ba bước trước đã dọn đường chứ chưa kết luận: có thể có một Đấng Sáng Tạo có ý hướng, và bản văn kể lại chuyện này là tư liệu lịch sử đáng xét. Tất cả vẫn còn treo trên một điều duy nhất. Kitô giáo không đứng trên một lập luận triết học, mà trên một biến cố đã xảy ra — hoặc đã không xảy ra. Nếu biến cố ấy có thật, thì điều Chúa Giêsu nói về chính mình được chứng thực; nếu không, thì không còn gì để bàn nữa.',
-      en: 'By now the three previous steps have cleared the ground without concluding anything: there may well be a purposeful Creator, and the documents telling this story are historical sources worth weighing. All of it still hangs on one thing. Christianity rests not on a philosophical argument but on an event that either happened or did not. If it happened, what Jesus said about himself is vindicated; if it did not, there is nothing left to discuss.',
+      vi: 'Bước trước cho thấy lời tuyên bố ấy đã thật sự được nói ra. Nhưng một lời tuyên bố, tự nó, chưa chứng minh được gì — ai cũng có thể nói ra một câu như thế. Điều duy nhất có thể chứng thực hoặc phá đổ nó là một biến cố trong lịch sử: hoặc đã xảy ra, hoặc đã không. Kitô giáo không đứng trên một lập luận triết học, mà đứng đúng ở chỗ đó. Đây là bước dài nhất, và cũng là bước quyết định.',
+      en: 'The previous step showed that the claim really was made. But a claim on its own proves nothing — anyone can say such a thing. The only thing that can vindicate it or destroy it is an event in history: it either happened or it did not. Christianity rests not on a philosophical argument but on exactly that. This is the longest step, and the deciding one.',
+    },
+  },
+  {
+    // The closing hinge, and openly PAST the evidence — its bridge says so out loud. Sliced to the
+    // two members that speak to the reader's own position; the cluster's other six are the doctrinal
+    // mechanics (atonement, grace, the unevangelised, joining the Church) and belong in /giai-dap,
+    // not at the end of an evidence walk where they would be the heaviest thing on the path.
+    slug: 'thien-chua-muon-gi',
+    step: 6,
+    title: {
+      vi: 'Vậy Thiên Chúa muốn gì nơi chúng ta?',
+      en: 'So what does God want from us?',
+    },
+    covers: {
+      vi: 'Sống tốt cả đời đã đủ chưa, và "chuộc tội" thật sự nghĩa là gì.',
+      en: 'Whether living a good life is enough, and what "atonement" actually means.',
+    },
+    anchor: 'tai-sao-chua-giesu-chiu-dong-dinh',
+    only: ['song-tot-ca-doi-sao-khong-tu-tra-het-toi', 'chua-giesu-chuoc-toi-nghia-la-gi'],
+    bridge: {
+      vi: 'Nếu năm bước trước đứng vững, thì câu hỏi không còn là "có Thiên Chúa hay không", mà là một câu riêng tư hơn nhiều: nếu chuyện đó có thật, thì nó liên quan gì tới tôi? Đến đây phần bằng chứng đã xong việc của nó. Bước cuối này không chứng minh thêm điều gì nữa — nó chỉ trả lời câu hỏi còn lại: Thiên Chúa muốn gì nơi bạn, và tại sao câu trả lời ấy lại đi qua thập giá.',
+      en: 'If the five previous steps hold, the question is no longer whether there is a God but something far more personal: if this is true, what does it have to do with me? The evidence has finished its work by here. This last step proves nothing further — it only answers the question that is left: what God wants of you, and why that answer runs through the cross.',
     },
   },
 ];

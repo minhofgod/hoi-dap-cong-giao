@@ -1,10 +1,10 @@
 # Evidence path — built, gated off. Hand-off to Sessions 8 and 7
 
 Session 13 finished step 1 of the chain in `docs/evidence-path-spec.md` → "Hand-off" on 2026-08-18.
-`/bang-chung` and its four stage routes are **on `main` and 404 in production**, because
+`/bang-chung` and its six stage routes are **on `main` and 404 in production**, because
 `NEXT_PUBLIC_EVIDENCE_PATH` is unset on Vercel and the flag defaults to off.
 
-Sequencing: **13 → then 8 and 7 in parallel → owner proofreads the four bridge paragraphs → flag on.**
+Sequencing: **13 → then 8 and 7 in parallel → owner proofreads the six bridge paragraphs → flag on.**
 Sessions 8 and 7 can both start now; their work is invisible until the flag flips, which is the point.
 
 ## What shipped
@@ -12,17 +12,17 @@ Sessions 8 and 7 can both start now; their work is invisible until the flag flip
 | Path | What it is |
 |---|---|
 | `lib/evidencePathFlag.ts` | `EVIDENCE_PATH_ENABLED` — OFF by default (the `canvasFlag` shape). **Import this in every entry point.** |
-| `lib/evidencePathStages.ts` | Client-safe config: 4 stages, bilingual names, the 4 bridge paragraphs, anchor slugs. No `fs`. |
+| `lib/evidencePathStages.ts` | Client-safe config: the 6 stages, bilingual names, the 6 bridge paragraphs, anchor slugs, `only`. No `fs`. |
 | `lib/evidencePath.ts` | Server loader — joins the stages to `content/giai-dap` through `lib/giaiDap`. |
 | `components/bang-chung/EvidenceAnswers.tsx` | The expand-in-place answer list (client). |
-| `app/bang-chung/page.tsx` | Index — hero + 4 stage cards. |
-| `app/bang-chung/[stage]/page.tsx` | One dynamic route, 4 static params. |
+| `app/bang-chung/page.tsx` | Index — hero + 6 stage cards. |
+| `app/bang-chung/[stage]/page.tsx` | One dynamic route, 6 static params. |
 | `app/bang-chung/bang-chung.module.css` | Reuses the site's band + list-card system. |
 
-**Verified:** `tsc --noEmit` and `eslint` both exit 0. With the flag ON all 5 routes return 200, an
-unknown stage 404s, answers expand in place, and a `GLHTCG 105` reference opens the Catechism
-popover. With the flag OFF all 5 routes return 404 and the rest of the site is untouched (tested by
-flipping `.env.local`, not assumed).
+**Verified:** `tsc --noEmit` and `eslint` both exit 0. With the flag ON all 7 routes return 200, an
+unknown stage 404s, answers expand in place, sliced stages show their partial note, and a
+`GLHTCG 105` reference opens the Catechism popover. With the flag OFF all routes return 404 and the
+rest of the site is untouched (tested by flipping `.env.local`, not assumed).
 
 ## Design decision worth knowing before you wire anything
 
@@ -75,15 +75,20 @@ route's `generateStaticParams` uses, so the sitemap can never list a stage that 
 **Name — use verbatim, no variants** (locked in the spec): VI `Bằng chứng về Chúa Giêsu` ·
 EN `The Evidence for Jesus` · route `/bang-chung`.
 
-The four stages, if you need their names or URLs anywhere. **Order and names revised by the owner
-2026-08-18** — design now comes first, so each step answers the objection the previous one provokes.
+**SIX stages** as of 2026-08-18 (the spec says four — it predates two owner revisions). Each step
+answers the question the previous one provokes.
 
-| # | Slug | VI | EN |
-|---|---|---|---|
-| 1 | `vu-tru-duoc-thiet-ke` | Vũ trụ được tạo ra ngẫu nhiên hay được thiết kế? | Was the universe made by chance, or was it designed? |
-| 2 | `ai-tao-ra-chua` | Nếu Chúa tạo ra vũ trụ, thì ai tạo ra Chúa? | If God made the universe, then who made God? |
-| 3 | `tan-uoc-co-dang-tin` | Thiên Chúa là ai, và bản văn kể về Ngài có đáng tin không? | Who is God — and can the record about him be trusted? |
-| 4 | `chua-giesu-song-lai` | Chúa Giêsu có thật sự sống lại? | Did Jesus really rise from the dead? |
+| # | Slug | VI | EN | Answers |
+|---|---|---|---|---|
+| 1 | `vu-tru-duoc-thiet-ke` | Vũ trụ được tạo ra ngẫu nhiên hay được thiết kế? | Was the universe made by chance, or was it designed? | 4 |
+| 2 | `ai-tao-ra-chua` | Nếu Chúa tạo ra vũ trụ, thì ai tạo ra Chúa? | If God made the universe, then who made God? | 5 |
+| 3 | `tan-uoc-co-dang-tin` | Thiên Chúa là ai, và bản văn kể về Ngài có đáng tin không? | Who is God — and can the record about him be trusted? | 5 |
+| 4 | `chua-giesu-tuyen-bo-la-thien-chua` | Chúa Giêsu có tuyên bố mình là Thiên Chúa không? | Did Jesus claim to be God? | 2 |
+| 5 | `chua-giesu-song-lai` | Chúa Giêsu có thật sự sống lại? | Did Jesus really rise from the dead? | 9 |
+| 6 | `thien-chua-muon-gi` | Vậy Thiên Chúa muốn gì nơi chúng ta? | So what does God want from us? | 3 |
+
+28 answers. Steps 4 and 6 are short hinges either side of the long Resurrection stage, sliced with
+`only` — see "Slicing a cluster" below.
 
 Two naming decisions, recorded so they aren't reopened:
 
@@ -112,44 +117,44 @@ Use the locked destination label above.
 
 ---
 
-## → Session 3 (later) — the "did Jesus claim to be God?" cluster
+## Slicing a cluster — `only`, and why steps 4 and 6 use it
 
-The owner is writing this cluster. It fills the one real gap in the path: step 4's payoff — *if he
-rose, what he said about himself is vindicated* — needs the reader to have been shown **that he said
-it**, and today no Q&A on the site argues that. (Searched all of `content/giai-dap`: the only two
-that touch his divinity live inside `tai-sao-chua-giesu-chiu-dong-dinh` and both *assume* it.) Until
-it exists, step 3's bridge only reports the claim — "Kitô giáo trả lời rằng…" — and must keep doing
-so; a bridge asserting it would be unverified theology.
-
-**The constraint that matters when wiring it in (owner, 2026-08-18):**
+**The constraint (owner, 2026-08-18):**
 
 > The cluster will have many parts. The path only needs **one verse or argument** named — not the
 > whole thing. The point is still for people to learn about **evidence, not theology yet.**
 
-The code enforces this rather than trusting anyone to remember it. `EvidenceStage` has an optional
-`only?: string[]` — name one or two member slugs and the stage walks just those:
+The code enforces this rather than trusting anyone to remember it. `EvidenceStage.only?: string[]`
+names the members a stage shows; omit it and the stage walks the whole cluster (steps 1, 2, 3, 5).
+It is scoped to the anchor's own `parts:` so a stage can never pull in an unrelated Q&A, unknown
+slugs drop out rather than crash, and a sliced stage renders a note plus a link to the full cluster
+— so a slice never reads as "this is all there is."
 
-```ts
-{
-  slug: 'chua-giesu-xung-minh-la-thien-chua',
-  step: 4,                       // and bump the Resurrection to 5
-  anchor: '<the new cluster anchor>',
-  only: ['<the one evidential member>'],   // ← without this the whole cluster gets pulled in
-  ...
-}
-```
+- **Step 4** takes 1 of 3 from `chua-giesu-co-tuyen-bo-minh-la-thien-chua-khong`:
+  `toi-va-chua-cha-la-mot-nghia-la-gi` (Ga 10,30 + 10,33). Chosen because it carries the claim **and
+  the reaction of the people who heard it** — so the argument rests on how they understood it, not
+  on how a modern reader parses the words. `toma-goi-chua-giesu-la-thien-chua-cua-con` (Ga 20,28) is
+  the alternative; `chua-cha-lon-hon-toi…` is a defence against an objection, not a claim.
+- **Step 6** takes 2 of 8 from `tai-sao-chua-giesu-chiu-dong-dinh`. The other six are the doctrinal
+  mechanics (grace, the unevangelised, joining the Church) — good content, but they would make the
+  path end with its heaviest stage exactly where readers drop off, and would push it from 28 answers
+  to 34.
 
-`only` is scoped to the anchor's own `parts:`, unknown slugs drop out, and the stage page then
-renders a note saying it shows only the evidence portion, with a link to the full cluster — so a
-slice never reads as "this is all there is." Verified working (9 members → 1) before it shipped.
+**Why the claim sits at 4, before the Resurrection, and not after** (both were considered): the
+Resurrection cluster is self-contained — all 8 parts argue "did it happen", none argue "therefore he
+is God" — so the reverse order works logically. It loses on the reader's experience. Step 5 is the
+longest, most forensic stage on the path, and a reader who already knows the claim reads those nine
+answers with stakes instead of doing tomb forensics for no stated reason. Two answers buy the whole
+stage its motivation.
 
-The natural home is a **new stage between today's 3 and 4**, which makes the path five steps.
+⚠️ **The step-4 cluster is new (`ba51dd4`) and NOT yet proofread.** It is live in `/giai-dap`
+regardless of this path, and needs rows in the proofreading tracker.
 
 ---
 
 ## → Owner — before the flag goes on
 
-The four **bridge paragraphs** are the only new public writing on this path (~2–4 sentences each,
+The six **bridge paragraphs** are the only new public writing on this path (~2–4 sentences each,
 bilingual). They're in `lib/evidencePathStages.ts`, one `bridge:` field per stage.
 
 They were written to a deliberate constraint: **pure connective logic, no new hard facts** — no
