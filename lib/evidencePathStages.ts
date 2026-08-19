@@ -16,10 +16,12 @@ export interface EvidenceStage {
   slug: string;
   /** 1-based position; rendered as "Bước N / 4". */
   step: number;
-  /** The stage's own title — the question this step answers, in the reader's words. */
+  /** The stage's NAME — a short topic noun phrase, not a question. It has to work as a card
+   *  heading, a page <h1>, a prev/next label and a <title>, and it sits directly above the
+   *  cluster's own question on the index card, so a question here would just stack two questions.
+   *  Kept in the site's existing vocabulary rather than a parallel one: "Vũ trụ được thiết kế" is
+   *  that cluster's own `topic:`, and "nguyên nhân đầu tiên" is the term its answer already uses. */
   title: Bi;
-  /** One line naming what the step is about, shown on the index cards. */
-  blurb: Bi;
   /** Slug of the Giải Đáp cluster ANCHOR this stage walks. Its `parts:` supply the member
    *  questions, so the path can never drift out of sync with the cluster. */
   anchor: string;
@@ -35,12 +37,8 @@ export const EVIDENCE_STAGES: EvidenceStage[] = [
     slug: 'nguyen-nhan-dau-tien',
     step: 1,
     title: {
-      vi: 'Tại sao lại có một cái gì đó, thay vì không có gì?',
-      en: 'Why is there anything at all, rather than nothing?',
-    },
-    blurb: {
-      vi: 'Nguyên nhân đầu tiên — có buộc phải có một Đấng không được tạo ra không?',
-      en: 'The first cause — must something uncaused exist?',
+      vi: 'Nguyên nhân đầu tiên',
+      en: 'The first cause',
     },
     anchor: 'ai-tao-ra-chua',
     bridge: {
@@ -52,12 +50,8 @@ export const EVIDENCE_STAGES: EvidenceStage[] = [
     slug: 'vu-tru-duoc-thiet-ke',
     step: 2,
     title: {
-      vi: 'Nguyên nhân ấy thuộc loại nào?',
-      en: 'What kind of cause is it?',
-    },
-    blurb: {
-      vi: 'Sự điều chỉnh tinh vi của vũ trụ — ngẫu nhiên hay được thiết kế?',
-      en: 'The fine-tuning of the universe — chance or design?',
+      vi: 'Vũ trụ được thiết kế',
+      en: 'A designed universe',
     },
     anchor: 'vu-tru-ngau-nhien-hay-duoc-thiet-ke',
     bridge: {
@@ -66,15 +60,13 @@ export const EVIDENCE_STAGES: EvidenceStage[] = [
     },
   },
   {
-    slug: 'kinh-thanh-co-dang-tin',
+    // `tan-uoc`, not `kinh-thanh`: this cluster is specifically about the NEW TESTAMENT, not the
+    // whole Bible — its own answer says so in its first line.
+    slug: 'tan-uoc-co-dang-tin',
     step: 3,
     title: {
-      vi: 'Bản văn có đáng tin không?',
-      en: 'Can the record be trusted?',
-    },
-    blurb: {
-      vi: 'Tân Ước có đáng tin về mặt lịch sử không?',
-      en: 'Is the New Testament historically reliable?',
+      vi: 'Độ tin cậy của Tân Ước',
+      en: 'The reliability of the New Testament',
     },
     anchor: 'bang-chung-lich-su-cua-kinh-thanh',
     bridge: {
@@ -86,12 +78,8 @@ export const EVIDENCE_STAGES: EvidenceStage[] = [
     slug: 'chua-giesu-song-lai',
     step: 4,
     title: {
-      vi: 'Chuyện đó có thật sự xảy ra không?',
-      en: 'Did it actually happen?',
-    },
-    blurb: {
-      vi: 'Sự sống lại — chính lời tuyên bố.',
-      en: 'The Resurrection — the claim itself.',
+      vi: 'Sự sống lại của Chúa Giêsu',
+      en: 'The Resurrection of Jesus',
     },
     anchor: 'bang-chung-chua-giesu-song-lai',
     bridge: {

@@ -12,7 +12,7 @@ Sessions 8 and 7 can both start now; their work is invisible until the flag flip
 | Path | What it is |
 |---|---|
 | `lib/evidencePathFlag.ts` | `EVIDENCE_PATH_ENABLED` — OFF by default (the `canvasFlag` shape). **Import this in every entry point.** |
-| `lib/evidencePathStages.ts` | Client-safe config: 4 stages, bilingual titles/blurbs, the 4 bridge paragraphs, anchor slugs. No `fs`. |
+| `lib/evidencePathStages.ts` | Client-safe config: 4 stages, bilingual names, the 4 bridge paragraphs, anchor slugs. No `fs`. |
 | `lib/evidencePath.ts` | Server loader — joins the stages to `content/giai-dap` through `lib/giaiDap`. |
 | `components/bang-chung/EvidenceAnswers.tsx` | The expand-in-place answer list (client). |
 | `app/bang-chung/page.tsx` | Index — hero + 4 stage cards. |
@@ -75,8 +75,19 @@ route's `generateStaticParams` uses, so the sitemap can never list a stage that 
 **Name — use verbatim, no variants** (locked in the spec): VI `Bằng chứng về Chúa Giêsu` ·
 EN `The Evidence for Jesus` · route `/bang-chung`.
 
-The four stage slugs, if you want them anywhere: `nguyen-nhan-dau-tien`, `vu-tru-duoc-thiet-ke`,
-`kinh-thanh-co-dang-tin`, `chua-giesu-song-lai`.
+The four stages, if you need their names or URLs anywhere. Stage names are **topic noun phrases,
+not questions** (renamed 2026-08-18): a question here would stack on top of the cluster's own
+question, which already renders directly underneath on the card.
+
+| # | Slug | VI | EN |
+|---|---|---|---|
+| 1 | `nguyen-nhan-dau-tien` | Nguyên nhân đầu tiên | The first cause |
+| 2 | `vu-tru-duoc-thiet-ke` | Vũ trụ được thiết kế | A designed universe |
+| 3 | `tan-uoc-co-dang-tin` | Độ tin cậy của Tân Ước | The reliability of the New Testament |
+| 4 | `chua-giesu-song-lai` | Sự sống lại của Chúa Giêsu | The Resurrection of Jesus |
+
+Stage 3 is `tan-uoc`, **not** `kinh-thanh` — that cluster is about the New Testament specifically,
+not the whole Bible.
 
 ---
 
