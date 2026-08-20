@@ -94,6 +94,53 @@ A wikilink that points at the wrong verse silently misattributes Scripture, so t
   exists **and** that the quoted text really is that verse or range. The owner's typed citation label
   can be off.
 
+### English scripts get the FULL treatment, against the Vietnamese Bible (ruling 2026-08-20)
+
+**English scripts are wikilinked exactly like Vietnamese ones** — links *and* embeds — pointing at the
+**CGKPV (Vietnamese) Bible**, with **Vietnamese display text**. An embed inside an English script
+therefore renders Vietnamese verse text. That is intended, not a bug.
+
+**Why:** there is no English Bible in the vault — `Bible/NRSVCE` is empty — so CGKPV is the only
+linkable text. A reference left bare would be worse than one that resolves to the Vietnamese.
+
+- Book names + display text follow the normal rules (`CGKPV_Wikilink_Rules.md`): full Vietnamese book
+  names, never abbreviations. `![[Gioan 3#16|Gioan 3:16]]`, not `John 3:16`.
+- Detection still reads **English** references in the script (`John 3:16`, `Rom 5:8`) and maps them via
+  the alias table.
+- **Versification is the trap here, not an edge case.** An English script carries *English* verse
+  numbers, and CGKPV follows the Hebrew/Masoretic numbering — so the offsets below apply to **every**
+  English script by default. Open the chapter file; never convert from memory.
+
+*(If an English Bible is ever added to the vault, revisit this — it exists because CGKPV is the only
+option today.)*
+
+### Nested quotations — link the QUOTING verse, not the quoted source (ruling 2026-08-20)
+
+When the New Testament quotes the Old — *Jesus quoting Isaiah inside Mark 7*, Paul quoting the
+Psalms — the script's prose is following the **NT** wording. **Embed the NT verse.** Do **not** embed
+the OT source in its place.
+
+**Why this is a correctness rule, not a preference.** The NT authors quote the Septuagint; the OT books
+are translated from the Hebrew. **CGKPV renders them separately, and the Vietnamese differs
+noticeably.** Verified 2026-08-20:
+
+> **Máccô 7,6-7** — “Dân này **tôn kính** Ta bằng môi bằng miệng, còn lòng chúng thì lại xa Ta. Chúng
+> có thờ phượng Ta thì cũng vô ích, vì **giáo lý chúng giảng dạy chỉ là giới luật phàm nhân**.”
+>
+> **Isaia 29,13** — “Dân này chỉ **đến gần** Ta bằng miệng, **tôn vinh** Ta bằng môi, còn lòng chúng
+> thì xa Ta lắm; chúng chỉ **kính sợ Ta theo lệnh của người phàm**, nhưng đó chỉ là **sáo ngữ**.”
+
+Embedding `Isaia 29,13` where the script quotes *Jesus quoting Isaiah* would render text that does not
+match what the script says Jesus said. The reader sees prose and verse disagree.
+
+**So:**
+- Nested quote, no citation of its own → **embed the NT verse** (here `![[Máccô 7#6]]` + `#7`).
+- Add a **link** to the OT source **only if the script makes a point about the original** (e.g. "Isaiah
+  said this centuries earlier") — as `[[Isaia 29#13|Isaia 29:13]]`, a link, never a competing embed.
+- **This resolves the recurring `<!-- check: … Isaia 29:13 … embed? -->` flags** in the Sola Scriptura
+  VI *and* EN scripts: embed Máccô 7,6-7, leave Isaiah as prose or a link. Apply the same rule to any
+  future nested quotation instead of raising it each time.
+
 ### ⚠️ CGKPV versification differs from English/Protestant Bibles (verified 2026-08-18)
 
 **This is the single most likely source of a wrong-but-plausible wikilink**, because scripts drafted
