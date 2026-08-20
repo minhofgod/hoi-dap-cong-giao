@@ -10,6 +10,8 @@ refs_scripture: []
 sources:
   - label: "Catholic Encyclopedia (1913), \"Johann Tetzel\""
     url: "https://www.newadvent.org/cathen/14539a.htm"
+  - label: "Catholic Encyclopedia (1913), \"Indulgences\""
+    url: "https://www.newadvent.org/cathen/07783a.htm"
 featured: false
 part_of: "an-xa-la-gi-co-phai-mua-on-tha-toi"
 related:

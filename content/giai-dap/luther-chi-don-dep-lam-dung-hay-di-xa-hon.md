@@ -5,8 +5,13 @@ topic: "Ân xá"
 category: "the-church"
 tags: ["church-history", "protestant-objections"]
 subcategory: "Cải Cách"
-refs_ccc: []
+refs_ccc: [857, 827]
 refs_scripture: []
+sources:
+  - label: "Catholic Encyclopedia (1913), \"The Reformation\""
+    url: "https://www.newadvent.org/cathen/12700b.htm"
+  - label: "Công đồng Trentô (1545–1563) — các sắc lệnh tín lý"
+    url: "https://www.papalencyclicals.net/councils/trent/index.htm"
 featured: false
 part_of: "an-xa-la-gi-co-phai-mua-on-tha-toi"
 related:
@@ -28,4 +33,4 @@ Nhưng Luther và Phong trào Cải Cách đã **không dừng lại** ở việ
 
 Vì thế, Phong trào Cải Cách **không chỉ là một cuộc "dọn dẹp nhà cửa"**, mà là một sự thay đổi **nền tảng** về cách hiểu đức tin Kitô giáo. Đây là điều quan trọng cần phân biệt: sửa một **lạm dụng** thực tế là một chuyện; thay đổi chính **đức tin đã được truyền lại** lại là chuyện hoàn toàn khác.
 
-Giáo hội Công giáo chọn con đường thứ ba: **vừa thừa nhận và sửa chữa** những lạm dụng có thật (đúng như Công đồng Trentô đã làm với ân xá), **vừa giữ vững** những giáo lý được truyền lại từ thời các Thánh Tông đồ. (Xem thêm các bài về "Đức tin và việc làm" và "Duy Kinh Thánh (Sola Scriptura)" ở phần liên quan.)
+Giáo hội Công giáo chọn con đường thứ ba: **vừa thừa nhận và sửa chữa** những lạm dụng có thật (đúng như Công đồng Trentô đã làm với ân xá), **vừa giữ vững** những giáo lý được truyền lại từ thời các Thánh Tông đồ (x. GLHTCG 857) — vì Hội Thánh, tuy "vừa thánh thiện vừa phải luôn được thanh tẩy" (x. GLHTCG 827), vẫn có bổn phận trung thành với kho tàng đức tin đã lãnh nhận. (Xem thêm các bài về "Đức tin và việc làm" và "Duy Kinh Thánh (Sola Scriptura)" ở phần liên quan.)
