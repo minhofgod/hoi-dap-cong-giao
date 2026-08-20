@@ -1,5 +1,5 @@
 ---
-question_vi: "Chỉ cần Kinh Thánh thôi (Sola Scriptura) có đúng không?"
+question_vi: "Chỉ cần Kinh Thánh thôi (\"Duy Kinh Thánh\", sola scriptura) có đúng không?"
 question_en: "Is \"Scripture alone\" (Sola Scriptura) true?"
 topic: "Duy Kinh Thánh (Sola Scriptura)"
 category: "scripture"
@@ -13,17 +13,19 @@ parts:
   - "kinh-thanh-noi-gi-ve-thanh-truyen"
   - "kinh-thanh-da-du-chua-sao-con-can-gi-nua"
   - "ai-quyet-dinh-sach-nao-thuoc-kinh-thanh"
+  - "ngay-ca-cac-giao-phu-cung-bat-dong"
   - "chua-giesu-len-an-truyen-thong-trong-macco-7"
   - "nguoi-berea-tra-cuu-kinh-thanh-moi-ngay"
   - "khai-huyen-22-cam-them-vao-kinh-thanh"
   - "kinh-thanh-co-day-can-giam-muc-va-huan-quyen-khong"
+  - "hoi-thanh-co-phai-chi-la-cong-doan-vo-hinh"
   - "giao-hoi-day-nguoi-toi-loi-sao-tin-quyen-binh"
 related:
   - "duc-tin-va-viec-lam"
   - "can-gi-gia-nhap-hoi-thanh"
 ---
 
-**Ngắn gọn: không.** Nhiều anh em Tin Lành xem *Sola Scriptura* — "chỉ có Kinh Thánh thôi" — là quy tắc đức tin duy nhất và không thể sai lầm. Nhưng chính Kinh Thánh **không nơi nào** dạy điều đó. Người Công Giáo hết lòng yêu mến và tin Kinh Thánh là Lời Thiên Chúa được linh hứng — nhưng tin rằng Chúa Kitô đã trao đức tin cho Hội Thánh qua **ba con đường gắn bó với nhau.**
+**Ngắn gọn: không.** Nhiều anh em Tin Lành gọi lập trường này là **Duy Kinh Thánh** (*sola scriptura*) — "chỉ có Kinh Thánh thôi" — và xem đó là quy tắc đức tin duy nhất và không thể sai lầm. Nhưng chính Kinh Thánh **không nơi nào** dạy điều đó. Người Công Giáo hết lòng yêu mến và tin Kinh Thánh là Lời Thiên Chúa được linh hứng — nhưng tin rằng Chúa Kitô đã trao đức tin cho Hội Thánh qua **ba con đường gắn bó với nhau.**
 
 Người Công Giáo không tin vào ba nguồn mặc khải tách biệt, mà tin vào **một kho tàng đức tin** duy nhất đến với ta theo ba cách liên kết:
 
@@ -51,4 +53,4 @@ Và ngài gọi chính **Hội Thánh** — chứ không phải cuốn sách —
 >
 > — **1 Tm 3,15** (CGKPV)
 
-*Sola Scriptura* nghe đơn giản, nhưng tạo ra những vấn đề nghiêm trọng: nó không giải thích được làm sao ta có bộ Kinh Thánh ngay từ đầu; nó không thể là quy tắc của các Kitô hữu đầu tiên (khi Tân Ước hoàn chỉnh chưa tồn tại); và nó dẫn tới chia rẽ bất tận. Loạt bài dưới đây trả lời từng câu Kinh Thánh mà người ta hay trích để bênh *Sola Scriptura*, và cho thấy vì sao chính Kinh Thánh lại chỉ về Hội Thánh sống động mà Chúa Kitô đã lập.
+**Duy Kinh Thánh** nghe đơn giản, nhưng tạo ra những vấn đề nghiêm trọng: nó không giải thích được làm sao ta có bộ Kinh Thánh ngay từ đầu; nó không thể là quy tắc của các Kitô hữu đầu tiên (khi Tân Ước hoàn chỉnh chưa tồn tại); và nó dẫn tới chia rẽ bất tận. Loạt bài dưới đây trả lời từng câu Kinh Thánh mà người ta hay trích để bênh **Duy Kinh Thánh**, và cho thấy vì sao chính Kinh Thánh lại chỉ về Hội Thánh sống động mà Chúa Kitô đã lập.

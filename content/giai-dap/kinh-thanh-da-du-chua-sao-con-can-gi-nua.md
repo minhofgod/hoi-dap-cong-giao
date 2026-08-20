@@ -28,4 +28,4 @@ Còn một lý do thực tế nữa: Kinh Thánh **có thể bị hiểu sai**. 
 >
 > — **2 Pr 3,16-17** (CGKPV)
 
-Nếu Kinh Thánh có thể bị bóp méo tới mức "diệt vong", thì ta cần **hơn** là mỗi người tự giải thích một kiểu. Ta cần Hội Thánh mà Chúa Kitô đã lập để bảo vệ ý nghĩa đích thực. Vì thế Sách Giáo Lý dạy rằng Kitô giáo "không phải là một tôn giáo của Sách vở" mà của Lời sống động (x. GLHTCG 108), và Kinh Thánh phải được đọc "trong **Thánh Truyền sống động của Hội Thánh**" (x. GLHTCG 113) — chứ không tách rời khỏi cộng đoàn đã viết ra và gìn giữ nó.
+Nếu Kinh Thánh có thể bị bóp méo tới mức "diệt vong", thì việc để mỗi người tự giải thích theo ý riêng rõ ràng là **chưa đủ**. Ta cần Hội Thánh mà Chúa Kitô đã lập để bảo vệ ý nghĩa đích thực. Vì thế Sách Giáo Lý dạy rằng Kitô giáo "không phải là một tôn giáo của Sách vở" mà của Lời sống động (x. GLHTCG 108), và Kinh Thánh phải được đọc "trong **Thánh Truyền sống động của Hội Thánh**" (x. GLHTCG 113) — chứ không tách rời khỏi cộng đoàn đã viết ra và gìn giữ nó.

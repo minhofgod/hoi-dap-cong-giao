@@ -1,5 +1,5 @@
 ---
-question_vi: "Có phải chúng ta được cứu độ chỉ nhờ đức tin (Sola Fide) không?"
+question_vi: "Có phải chúng ta được cứu độ chỉ nhờ đức tin (\"Duy Đức Tin\", Sola Fide) không?"
 question_en: "Are we saved by faith alone (Sola Fide)?"
 topic: "Đức tin và việc làm"
 category: "theology-doctrine"
@@ -21,7 +21,7 @@ related: []
 
 "Được cứu độ chỉ nhờ đức tin mà thôi" — điều đó có đúng không? Đây là một trong những khác biệt nền tảng giữa Công giáo và anh chị em Tin Lành.
 
-Người Công giáo hoàn toàn tin rằng chúng ta được cứu **bởi ân sủng**. Nhưng điều đáng chú ý là: cụm từ "chỉ nhờ đức tin" (*sola fide*) duy nhất xuất hiện trong toàn bộ Kinh Thánh lại nằm ở thư Giacôbê — và để **phủ định** nó:
+Người Công giáo hoàn toàn tin rằng chúng ta được cứu **bởi ân sủng**. Nhưng điều đáng chú ý là: cụm từ "chỉ nhờ đức tin" — điều mà anh em Tin Lành gọi là **Duy Đức Tin** (*sola fide*) — duy nhất xuất hiện trong toàn bộ Kinh Thánh lại nằm ở thư Giacôbê, và để **phủ định** nó:
 
 > Anh em thấy đó, nhờ hành động mà con người được nên công chính, chứ không phải chỉ nhờ đức tin mà thôi.
 >

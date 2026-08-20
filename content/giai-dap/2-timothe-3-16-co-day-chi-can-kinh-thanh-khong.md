@@ -14,7 +14,7 @@ related:
   - "kinh-thanh-noi-gi-ve-thanh-truyen"
 ---
 
-**Đúng là Kinh Thánh được linh hứng và có ích — nhưng hãy để ý điều câu này *không* nói.** Nó không nói "chỉ có Kinh Thánh là đủ" hay "Kinh Thánh là quyền bính duy nhất". Đây là câu được trích nhiều nhất để bênh *Sola Scriptura*, nhưng nó không hề khẳng định điều ấy.
+**Đúng là Kinh Thánh được linh hứng và có ích — nhưng hãy để ý điều câu này *không* nói.** Nó không nói "chỉ có Kinh Thánh là đủ" hay "Kinh Thánh là quyền bính duy nhất". Đây là câu được trích nhiều nhất để bênh **Duy Kinh Thánh** (*sola scriptura*), nhưng nó không hề khẳng định điều ấy.
 
 > ¹⁶ Tất cả những gì viết trong Sách Thánh đều do Thiên Chúa linh hứng, và có ích cho việc giảng dạy, biện bác, sửa dạy, giáo dục để trở nên công chính. ¹⁷ Nhờ vậy, người của Thiên Chúa nên thập toàn, và được trang bị đầy đủ để làm mọi việc lành.
 >

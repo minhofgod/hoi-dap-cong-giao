@@ -23,13 +23,15 @@ Câu rõ nhất là lời thánh Phaolô:
 >
 > — **2 Tx 2,15** (CGKPV)
 
-Ngài đặt "**lời nói**" và "**thư từ**" song song, cùng một quyền bính. Có người vặn: "Chẳng phải chỉ những truyền thống nào *khớp với* Kinh Thánh mới được giữ sao?" Nhưng Phaolô **không** nói thế; ngài không đặt điều kiện, cũng không nói truyền khẩu phải bị loại khi đã có thư. Cả hai đều phát xuất từ cùng một quyền bính tông đồ. Ngài lặp lại ý ấy ở nơi khác:
+Ngài đặt "**lời nói**" và "**thư từ**" song song, cùng một quyền bính. Có người phản biện rằng: "Chẳng phải chỉ những truyền thống nào *khớp với* Kinh Thánh mới được giữ sao?" Nhưng Phaolô **không** nói thế; ngài không đặt điều kiện, cũng không nói truyền khẩu phải bị loại khi đã có thư. Cả hai đều phát xuất từ cùng một quyền bính tông đồ. Ngài lặp lại ý ấy ở nơi khác:
 
 > Tôi có lời khen anh em đã nhớ đến tôi trong mọi dịp và nắm giữ các truyền thống tôi đã để lại cho anh em.
 >
 > — **1 Cr 11,2** (CGKPV)
 
 (và ngài còn dạy tránh xa những ai sống ngược với "**truyền thống**" đã lãnh nhận — x. 2 Tx 3,6).
+
+Một chi tiết đáng lưu ý về **bản dịch**: từ Hy Lạp thánh Phaolô dùng ở đây là *paradosis* (παράδοσις), nghĩa gốc là "**truyền thống**" — điều được **trao lại**. Bản CGKPV dịch sát là "truyền thống"; nhưng một số bản khác, kể cả bản Kinh Thánh Tin Lành quen dùng ở Việt Nam (*Bản Truyền Thống*), lại dịch nhẹ đi thành "**những điều dạy dỗ**". Cách dịch ấy không sai hẳn về nghĩa, nhưng dễ làm mờ đi điều Phaolô thật sự nói: hãy nắm giữ **các truyền thống** đã được trao lại — cả bằng lời nói lẫn bằng thư từ.
 
 **Vậy Thánh Truyền được gìn giữ thế nào khi các Tông đồ qua đời?** Qua một chuỗi nhân chứng sống động. Đức Kitô sai các Tông đồ đi với chính quyền bính của Người ("Như Chúa Cha đã sai Thầy, thì Thầy cũng sai anh em" — Ga 20,21), rồi truyền các ngài trao lại điều đã nghe cho những người tin cẩn để dạy tiếp (2 Tm 2,2). Từ đó thành một chuỗi: các Tông đồ là nhân chứng của Đức Kitô; các giám mục đầu tiên là nhân chứng của các Tông đồ; mỗi thế hệ sau nối tiếp.
 

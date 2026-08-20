@@ -24,7 +24,7 @@ related:
 
 Người Công giáo **hoàn toàn đồng ý** với câu này: chúng ta được cứu bởi ân sủng, như một ân huệ nhưng không, chứ không do công trạng của mình. Không ai có thể "mua" ơn cứu độ hay hãnh diện về nó.
 
-Nhưng "được cứu nhờ đức tin" không có nghĩa là "chỉ nhờ đức tin mà không cần một đời sống đổi mới". Chính thánh Giacôbê nói rõ:
+Nhưng "được cứu nhờ đức tin" không có nghĩa là **Duy Đức Tin** — "chỉ nhờ đức tin mà không cần một đời sống đổi mới". Chính thánh Giacôbê nói rõ:
 
 > Cũng vậy, đức tin không có hành động thì quả là đức tin chết.
 >

@@ -14,7 +14,7 @@ related:
   - "kinh-thanh-da-du-chua-sao-con-can-gi-nua"
 ---
 
-**Người Bêrêa là tấm gương tốt — nhưng họ không hề thực hành *Sola Scriptura* theo kiểu ngày nay người ta dạy.** Hãy xem thực sự đang xảy ra điều gì.
+**Người Bêrêa là tấm gương tốt — nhưng họ không hề thực hành *Duy Kinh Thánh* (sola scriptura) theo kiểu ngày nay người ta dạy.** Hãy xem thực sự đang xảy ra điều gì.
 
 Phaolô vào hội đường Do Thái ở Bêrêa và giảng rằng Đấng Mêsia phải chịu đau khổ và sống lại, và Đức Giêsu chính là Đấng Mêsia đó. Người Bêrêa đón nhận và kiểm tra:
 
