@@ -95,6 +95,15 @@ launched as the coordinator, this is your role:
    is *ask first, default to `related`*, and §C4 specified `related`. Owner to confirm keep-or-move.
 3. **CLOSED 2026-08-18 — §D sidebar scrollspy** landed in `1a69e19` (Session 2).
    `docs/proofread-fixes-round1.md` is now **fully resolved** (§E → thread 4).
+3c. **→ Session 3 (coordinator check of the 23 new Q&As, 2026-08-20).** The `sources` pattern across
+   the four new clusters is right — history-making answers cite, doctrinal ones rest on CCC. **One
+   defect:** `luther-chi-don-dep-lam-dung-hay-di-xa-hon` has **`refs_ccc: []`, `refs_scripture: []`, and
+   no `sources`** — *no citations of any kind*, against the good-Q&A checklist's "**≥1 `refs_ccc`**".
+   It's also the worst candidate for it: it argues the Reformation went beyond fixing the indulgence
+   abuse to changing core doctrine, names Tetzel and Trent, and is aimed at Protestant readers. Add CCC
+   refs and `sources` (every citation web-verified). **Secondary:** `sao-giao-hoang-leo-x-cho-dong-tien-
+   lanh-an-xa` and `ngay-ca-cac-giao-phu-cung-bat-dong` carry one citation each — thin for how hard the
+   Leo X / St Peter's / Tetzel story gets attacked; consider a second.
 3b. **NEW → Session 3 (from the owner's proofreading pass, 2026-08-18).** Write the objection:
    *"He's God, so his 'sacrifice' doesn't really mean much — he can just resurrect himself. Like a
    very rich person giving away a few thousand dollars."* Belongs in the **crucifixion cluster**
