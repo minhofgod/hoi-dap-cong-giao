@@ -3,18 +3,19 @@ question_vi: "Tại sao đức tin chung lại quan trọng đến vậy trong h
 question_en: "Why does sharing the same faith matter so much in marriage?"
 topic: "Hôn nhân khác đạo"
 category: "morality-life"
-tags: ["marriage", "evangelization"]
+tags: ["marriage"]
 subcategory: "Vì sao đức tin chung quan trọng"
-refs_ccc: [1637]
-refs_scripture: ["2 Cr 6,14", "1 Cr 7,16", "Ga 11,25-26", "Ep 5,25"]
+refs_ccc: [1634]
+refs_scripture: ["2 Cr 6,14", "1 Cr 7,16"]
 featured: false
 part_of: "cong-giao-co-duoc-ket-hon-voi-nguoi-khac-dao"
 related:
   - "cong-giao-co-duoc-ket-hon-voi-nguoi-khac-dao"
-  - "hon-nhan-khac-dao-giao-hoi-dat-dieu-kien-gi"
+  - "nuoi-con-theo-cong-giao-chang-phai-dao-nao-cung-tot"
+  - "dang-trong-hon-nhan-khac-dao-lam-sao-giu-dao"
 ---
 
-**Vì với người Công giáo, đức tin không chỉ là "một cái đạo" — nó là chính con đường sống và lời hứa sự sống đời đời.** Một khác biệt sâu xa ở đó sẽ chạm đến mọi khía cạnh của mái nhà.
+**Giáo Hội không cấm, nhưng *khuyến khích* người Công giáo kết hôn với người cùng đức tin — vì đức tin chạm đến những điều sâu xa nhất của một mái nhà.** Khi hai vợ chồng cùng hướng về Chúa, gia đình dễ đồng lòng hơn: cùng một nền tảng để nuôi dạy con, cùng một cách đối diện đau khổ và những quyết định lớn. Khi khác biệt lớn về đức tin, những mâu thuẫn ấy dễ nảy sinh theo thời gian.
 
 Thánh Phaolô dùng một hình ảnh rất đời thường:
 
@@ -22,16 +23,16 @@ Thánh Phaolô dùng một hình ảnh rất đời thường:
 >
 > — **2 Cr 6,14** (CGKPV)
 
-Hai con bò mang chung một ách mà muốn kéo về hai hướng thì sẽ quay vòng và kiệt sức. Trong hôn nhân, một khác biệt lớn về đức tin dễ gây căng thẳng lâu dài.
+"Cái ách" là khúc gỗ đặt trên cổ hai con vật để cùng kéo. Nếu cả hai đi **cùng hướng**, chúng kéo được rất nhiều mà nhẹ nhàng; nếu mỗi con muốn đi một ngả thì nặng nề, cứ quay vòng mà chẳng tới đâu. Hôn nhân cũng thế.
 
-Nhưng đây **không phải một lời nguyền.** Nhiều cặp đôi khác đạo vẫn sống hạnh phúc, và chính thánh Phaolô dạy: nếu người không tin bằng lòng chung sống, thì đừng bỏ họ — biết đâu chính gương sống của người có đạo lại dẫn người kia đến với Chúa:
+Cần nói ngay cho công bằng: hình ảnh "ánh sáng – bóng tối", "công chính – bất chính" **không** có nghĩa người Công giáo mặc nhiên là tốt còn người ngoại đạo là xấu — chính Chúa Giêsu rất yêu mến người ngoại đạo. Đó chỉ là một so sánh hơi phóng đại, để nói rằng khi hai điều khác nhau quá nhiều thì tự nhiên dễ đi khác hướng.
+
+Và đây **không phải một lời nguyền.** Nhiều cặp đôi khác đạo vẫn sống hạnh phúc — tình yêu có thể là nhịp cầu nối hai người. Chính thánh Phaolô dạy: nếu người ngoại đạo bằng lòng chung sống thì đừng bỏ họ, vì biết đâu gương sống của người có đạo lại dẫn người kia đến với Chúa:
 
 > Chị là vợ, biết đâu chị chẳng cứu được chồng? Hay anh là chồng, biết đâu anh chẳng cứu được vợ?
 >
 > — **1 Cr 7,16** (CGKPV)
 
-Vậy tại sao Giáo Hội vẫn tha thiết chuyện đức tin chung? Vì với người Công giáo, Chúa Giêsu là "con đường, là sự thật và là sự sống" (Ga 14,6), và Người mang **lời hứa sự sống đời đời**: "Chính Thầy là sự sống lại và là sự sống… Ai sống và tin vào Thầy, sẽ không bao giờ phải chết" (**Ga 11,25-26**). Nếu ta thật sự tin điều đó, thì việc giữ và truyền lại đức tin cho con cái **không phải chuyện nhỏ** — đời này chỉ như một giọt nước, còn đời sau là cả một đại dương.
+Sách Giáo Lý nói rõ sự khác biệt đức tin "không tạo nên một ngăn trở không thể vượt qua" khi hai người biết đóng góp cho nhau điều tốt mình đã lãnh nhận (x. GLHTCG 1634).
 
-Trên thực tế, kết quả thường tùy vào đức tin của người Công giáo có vững hay không, và người bạn đời có tôn trọng, ủng hộ hay không. Kinh Thánh nói chồng là "đầu" trong gia đình (Ep 5,23) — nhưng cùng đoạn ấy dạy vợ chồng phải "**phục tùng lẫn nhau**" (Ep 5,21) và chồng phải **yêu vợ như Đức Kitô yêu Hội Thánh**, nghĩa là yêu đến mức hy sinh (x. **Ep 5,25**). Khi cả hai cùng tôn trọng và nâng đỡ nhau, hôn nhân khác đạo có thể rất đẹp; nhưng khi thiếu tôn trọng, dễ căng thẳng kéo dài và con cái ít giữ đạo.
-
-Sách Giáo Lý dành cho người phối ngẫu Công giáo một nhiệm vụ đặc biệt, và cũng một niềm hy vọng: "chồng ngoại đạo được thánh hóa nhờ vợ và vợ ngoại đạo được thánh hóa nhờ người chồng có đạo" (x. GLHTCG 1637). Giáo Hội không nói hôn nhân khác đạo chắc chắn thất bại — Giáo Hội chỉ muốn **bảo vệ hạnh phúc của bạn và linh hồn con cái bạn.**
+Nhưng vì sao Giáo Hội vẫn **tha thiết** chuyện đức tin chung đến vậy, và một hôn nhân khác đạo trong thực tế diễn ra thế nào? Hai bài kế tiếp trả lời sâu hơn: **"chẳng phải đạo nào cũng tốt sao"** — vì sao với người Công giáo, đức tin là một *lời hứa* chứ không chỉ là "một cái đạo"; và **nếu bạn đang trong một hôn nhân khác đạo**, làm sao giữ vững đức tin và giúp bạn đời đến với Chúa.

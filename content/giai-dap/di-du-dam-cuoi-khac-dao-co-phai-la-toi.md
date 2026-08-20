@@ -16,7 +16,7 @@ related:
 
 **Không.** Ở Việt Nam có hai hiểu lầm khá phổ biến về việc đi dự đám cưới khác đạo — và cả hai đều không đúng.
 
-**Hiểu lầm thứ nhất: "Chỉ cần đi dự một đám cưới khác đạo cũng đã phạm tội."** Nếu người Công giáo kết hôn với người không Công giáo trong nhà thờ (**đã được Giáo Hội cho phép**) và cử hành hợp pháp, thì việc khách mời đến dự **không phải là tội.** Bạn chỉ đang chúc mừng và ủng hộ hai người **chính thức kết hôn** — một điều tốt.
+**Hiểu lầm thứ nhất: "Chỉ cần đi dự một đám cưới khác đạo cũng đã phạm tội."** Nếu người Công giáo kết hôn với người ngoại đạo trong nhà thờ (**đã được Giáo Hội cho phép**) và cử hành hợp pháp, thì việc khách mời đến dự **không phải là tội.** Bạn chỉ đang chúc mừng và ủng hộ hai người **chính thức kết hôn** — một điều tốt.
 
 **Hiểu lầm thứ hai: "Nếu cô dâu đã có thai trước khi cưới, thì đi dự là đồng lõa với tội của họ."** Đúng là nếu hai người đã quan hệ trước hôn nhân thì đó là một tội của **họ** — nhưng những người đi dự đám cưới **không** vì thế mà phạm tội. Đi dự **không** có nghĩa là bạn tán thành việc họ đã quan hệ trước; bạn đang ủng hộ họ **đưa mối quan hệ trở lại đúng với ý Chúa** qua một cuộc hôn nhân chính thức.
 
