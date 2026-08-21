@@ -3,6 +3,8 @@
   "slug": "van-phong-y-khoa-lo-duc",
   "type": "healing",
   "status": "cure-approved",
+  "category": "science-faith",
+  "tags": ["miracles", "science", "mary"],
   "title": { "vi": "Văn phòng Y khoa Lộ Đức", "en": "The Lourdes Medical Bureau" },
   "location": { "vi": "Đền thánh Đức Mẹ Lộ Đức, nước Pháp", "en": "Sanctuary of Our Lady of Lourdes, France" },
   "date": { "display": "từ năm 1883 đến nay", "year": 1883 },

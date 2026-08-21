@@ -3,6 +3,8 @@
   "slug": "la-vang",
   "type": "marian-apparition",
   "status": "not-ruled",
+  "category": "evidence-history",
+  "tags": ["mary", "miracles", "persecution", "church-history"],
   "title": { "vi": "Đức Mẹ La Vang", "en": "Our Lady of La Vang" },
   "location": { "vi": "La Vang, Quảng Trị, Việt Nam", "en": "La Vang, Quảng Trị, Vietnam" },
   "date": { "display": "truyền thống: 1798", "year": 1798 },

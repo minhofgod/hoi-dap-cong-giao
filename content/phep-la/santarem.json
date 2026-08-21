@@ -3,6 +3,8 @@
   "slug": "santarem",
   "type": "eucharistic",
   "status": "venerated",
+  "category": "evidence-history",
+  "tags": ["eucharist", "miracles"],
   "title": { "vi": "Phép lạ Thánh Thể Santarém", "en": "The Eucharistic Miracle of Santarém" },
   "location": { "vi": "Santarém, Bồ Đào Nha", "en": "Santarém, Portugal" },
   "date": { "display": "truyền thống: 1226 hoặc 1247", "year": 1247 },

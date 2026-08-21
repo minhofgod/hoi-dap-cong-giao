@@ -3,6 +3,8 @@
   "slug": "bernadette-moriau",
   "type": "healing",
   "status": "cure-approved",
+  "category": "science-faith",
+  "tags": ["miracles", "science"],
   "title": { "vi": "Nữ tu Bernadette Moriau — trường hợp thứ 70", "en": "Sr. Bernadette Moriau — the 70th case" },
   "location": { "vi": "Bresles, giáo phận Beauvais, nước Pháp", "en": "Bresles, diocese of Beauvais, France" },
   "date": { "display": "khỏi bệnh 2008 — nhìn nhận 2018", "year": 2008 },

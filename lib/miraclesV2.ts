@@ -13,6 +13,7 @@ import {
   type RecognitionStatus,
   type Bi,
 } from '@/lib/miracles/types';
+import { CATEGORY_IDS } from '@/lib/giaiDapTaxonomy';
 
 export type { MiracleType, RecognitionStatus, Bi };
 export {
@@ -88,6 +89,16 @@ export interface Miracle {
   slug: string;
   type: MiracleType;
   status: RecognitionStatus;
+  /** Broad audience-facing category id from lib/giaiDapTaxonomy (e.g. "evidence-history").
+   *  Optional in the type so a malformed file still loads; scripts/check-tags.mjs makes it
+   *  effectively required at author time. */
+  category?: string;
+  /** Cross-cutting tag ids from lib/giaiDapTaxonomy — the SAME vocabulary the Q&As and videos use.
+   *  This is the field the rest of the site links by: the roadmap's model is "link by shared
+   *  taxonomy, not by derivation", so a Q&A tagged `eucharist` reaches Lanciano through this and
+   *  nothing else. An untagged miracle is invisible to the companion, cross-links and filters —
+   *  which is why check-tags guards it. */
+  tags: string[];
   title: Bi;
   location: Bi;
   date: { display: string; year: number | null };
@@ -109,13 +120,40 @@ export interface Miracle {
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'phep-la');
 
+/** Normalize the taxonomy fields the way lib/giaiDap does for frontmatter: drop non-strings, trim,
+ *  drop blanks, de-duplicate. A `category` is kept only when it's a real id from the shared
+ *  vocabulary, so a typo degrades to "uncategorised" rather than creating a phantom category. */
+function toTagArray(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  const seen = new Set<string>();
+  for (const v of value) {
+    if (typeof v !== 'string') continue;
+    const id = v.trim();
+    if (id) seen.add(id);
+  }
+  return [...seen];
+}
+
+function toCategory(value: unknown): string | undefined {
+  return typeof value === 'string' && CATEGORY_IDS.has(value.trim()) ? value.trim() : undefined;
+}
+
 function loadMiracles(): Miracle[] {
   const files = readdirSync(CONTENT_DIR).filter((f) => f.endsWith('.json'));
-  const miracles = files.map(
-    (f) => JSON.parse(readFileSync(path.join(CONTENT_DIR, f), 'utf8')) as Miracle
-  );
+  const miracles = files.map((f) => {
+    const raw = JSON.parse(readFileSync(path.join(CONTENT_DIR, f), 'utf8')) as Miracle;
+    return { ...raw, category: toCategory(raw.category), tags: toTagArray(raw.tags) };
+  });
   miracles.sort((a, b) => a.no - b.no);
   return miracles;
+}
+
+/** Every miracle carrying ANY of the given tag ids, in section order. The selector the rest of the
+ *  site should use — evidence-path stage 4, the companion pool and Q&A cross-links all want "the
+ *  miracles about X", never a hardcoded slug list that goes stale as entries are added. */
+export function getMiraclesByTag(tags: string[]): Miracle[] {
+  const want = new Set(tags);
+  return all().filter((m) => m.tags.some((t) => want.has(t)));
 }
 
 // Memoized once per server process (mirrors saintsV2 / churchFathersV2). In `next dev` an edit to a

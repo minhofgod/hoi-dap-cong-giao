@@ -3,6 +3,8 @@
   "slug": "siena-1730",
   "type": "eucharistic",
   "status": "venerated",
+  "category": "evidence-history",
+  "tags": ["eucharist", "miracles", "science"],
   "title": { "vi": "Những bánh thánh Siena", "en": "The Hosts of Siena" },
   "location": { "vi": "Vương cung thánh đường San Francesco, Siena, nước Ý", "en": "Basilica of San Francesco, Siena, Italy" },
   "date": { "display": "1730 — đến nay", "year": 1730 },

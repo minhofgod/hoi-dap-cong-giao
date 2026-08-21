@@ -3,6 +3,8 @@
   "slug": "zeitoun",
   "type": "marian-apparition",
   "status": "other-church",
+  "category": "evidence-history",
+  "tags": ["mary", "miracles", "church-history"],
   "title": { "vi": "Đức Mẹ Zeitoun", "en": "Our Lady of Zeitoun" },
   "location": { "vi": "Zeitoun, Cairo, Ai Cập", "en": "Zeitoun, Cairo, Egypt" },
   "date": { "display": "1968 — 1971", "year": 1968 },

@@ -1,4 +1,4 @@
-// Guard: every published Q&A + video must carry a valid `category` and at least one valid `tag`.
+// Guard: every published Q&A, video + miracle must carry a valid `category` and ≥1 valid `tag`.
 //
 // Why this exists: the /dong-hanh companion (and the /giai-dap filters + search) match content by
 // taxonomy. A file with a missing/empty `tags` scores 0 and is INVISIBLE to the companion; a typo'd
@@ -51,31 +51,60 @@ function readField(fm, key) {
 }
 
 // --- what to check ------------------------------------------------------------------------------
+// `format` matters: Q&As and videos are markdown-with-frontmatter, miracles are JSON. Both carry the
+// same two taxonomy fields from lib/giaiDapTaxonomy, so the checks below are identical once the
+// fields are extracted.
 const targets = [
-  { dir: 'content/giai-dap', label: 'Q&A' },
-  { dir: 'content/video', label: 'video' },
+  { dir: 'content/giai-dap', label: 'Q&A', format: 'md' },
+  { dir: 'content/video', label: 'video', format: 'md' },
+  { dir: 'content/phep-la', label: 'miracle', format: 'json' },
 ];
+
+/** Pull `category` / `tags` out of a miracle JSON file, in the same shape readField returns. */
+function readJsonField(obj, key) {
+  const raw = obj[key];
+  if (raw === undefined) return { present: false, values: [] };
+  if (Array.isArray(raw)) return { present: true, values: raw.filter((v) => typeof v === 'string') };
+  return { present: true, values: typeof raw === 'string' && raw.trim() ? [raw.trim()] : [] };
+}
 
 const problems = [];
 let checked = 0;
 let sufferingCount = 0; // pastoral-content proxy — drives the deferred `consolation`-tag reminder below
 
-for (const { dir } of targets) {
+for (const { dir, format } of targets) {
   const abs = join(root, dir);
   if (!existsSync(abs)) continue;
   for (const file of readdirSync(abs)) {
-    if (!file.endsWith('.md')) continue; // skips EXAMPLE.md.txt
-    if (file.endsWith('.en.md')) continue; // English sidecars inherit taxonomy from the main file
-    checked++;
-    const fm = frontmatter(readFileSync(join(abs, file), 'utf8'));
     const rel = `${dir}/${file}`;
-    if (!fm) { problems.push([rel, 'no frontmatter']); continue; }
+    let cat;
+    let tags;
 
-    const cat = readField(fm, 'category');
+    if (format === 'json') {
+      if (!file.endsWith('.json')) continue;
+      checked++;
+      let obj;
+      try {
+        obj = JSON.parse(readFileSync(join(abs, file), 'utf8'));
+      } catch (e) {
+        problems.push([rel, `invalid JSON — ${e.message}`]);
+        continue;
+      }
+      cat = readJsonField(obj, 'category');
+      tags = readJsonField(obj, 'tags');
+    } else {
+      if (!file.endsWith('.md')) continue; // skips EXAMPLE.md.txt
+      if (file.endsWith('.en.md')) continue; // English sidecars inherit taxonomy from the main file
+      checked++;
+      const fm = frontmatter(readFileSync(join(abs, file), 'utf8'));
+      if (!fm) { problems.push([rel, 'no frontmatter']); continue; }
+      cat = readField(fm, 'category');
+      tags = readField(fm, 'tags');
+    }
+
     if (!cat.present || cat.values.length === 0) problems.push([rel, 'missing category']);
     else if (!CATEGORIES.has(cat.values[0])) problems.push([rel, `unknown category "${cat.values[0]}"`]);
 
-    const tags = readField(fm, 'tags');
     if (!tags.present || tags.values.length === 0) problems.push([rel, 'missing/empty tags']);
     else {
       const bad = tags.values.filter((t) => !TAGS.has(t));
@@ -105,7 +134,7 @@ if (problems.length) {
   console.error(`\nFix: add a valid category + ≥1 tag from lib/giaiDapTaxonomy.ts (add the id there first if it's new).\n`);
   process.exit(1);
 }
-console.log(`check-tags: ✓ all ${checked} Q&A/video files have a valid category + tags.`);
+console.log(`check-tags: ✓ all ${checked} Q&A/video/miracle files have a valid category + tags.`);
 if (reminders.length) {
   console.log(`\ncheck-tags: ⏰ ${reminders.length} deferred reminder(s):`);
   for (const r of reminders) console.log(`  • ${r}`);

@@ -3,6 +3,8 @@
   "slug": "lanciano",
   "type": "eucharistic",
   "status": "venerated",
+  "category": "evidence-history",
+  "tags": ["eucharist", "miracles", "science"],
   "title": { "vi": "Phép lạ Thánh Thể Lanciano", "en": "The Eucharistic Miracle of Lanciano" },
   "location": { "vi": "Lanciano, vùng Abruzzo, nước Ý", "en": "Lanciano, Abruzzo, Italy" },
   "date": { "display": "truyền thống: thế kỷ VIII", "year": 750 },

@@ -3,6 +3,8 @@
   "slug": "fatima",
   "type": "marian-apparition",
   "status": "approved",
+  "category": "evidence-history",
+  "tags": ["mary", "miracles", "prayer"],
   "title": { "vi": "Đức Mẹ Fatima", "en": "Our Lady of Fátima" },
   "location": { "vi": "Cova da Iria, Fatima, Bồ Đào Nha", "en": "Cova da Iria, Fátima, Portugal" },
   "date": { "display": "13-5 đến 13-10-1917", "year": 1917 },

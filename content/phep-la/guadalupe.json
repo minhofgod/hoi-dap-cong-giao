@@ -3,6 +3,8 @@
   "slug": "guadalupe",
   "type": "marian-apparition",
   "status": "approved",
+  "category": "evidence-history",
+  "tags": ["mary", "miracles", "church-history", "evangelization"],
   "title": { "vi": "Đức Mẹ Guadalupe", "en": "Our Lady of Guadalupe" },
   "location": { "vi": "Đồi Tepeyac, Mexico City, Mexico", "en": "Tepeyac hill, Mexico City, Mexico" },
   "date": { "display": "tháng 12 năm 1531", "year": 1531 },

@@ -3,6 +3,8 @@
   "slug": "tam-ao-guadalupe",
   "type": "miraculous-image",
   "status": "venerated",
+  "category": "evidence-history",
+  "tags": ["mary", "miracles", "icons", "science"],
   "title": { "vi": "Tấm áo choàng Guadalupe", "en": "The tilma of Guadalupe" },
   "location": { "vi": "Vương cung thánh đường Đức Mẹ Guadalupe, Mexico City", "en": "Basilica of Our Lady of Guadalupe, Mexico City" },
   "date": { "display": "từ 1531 đến nay", "year": 1531 },

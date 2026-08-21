@@ -3,6 +3,8 @@
   "slug": "lo-duc",
   "type": "marian-apparition",
   "status": "approved",
+  "category": "evidence-history",
+  "tags": ["mary", "miracles", "prayer"],
   "title": { "vi": "Đức Mẹ Lộ Đức", "en": "Our Lady of Lourdes" },
   "location": { "vi": "Hang Massabielle, Lộ Đức, nước Pháp", "en": "The grotto of Massabielle, Lourdes, France" },
   "date": { "display": "11-2 đến 16-7-1858", "year": 1858 },

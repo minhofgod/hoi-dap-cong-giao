@@ -3,6 +3,8 @@
   "slug": "bolsena-orvieto",
   "type": "eucharistic",
   "status": "venerated",
+  "category": "evidence-history",
+  "tags": ["eucharist", "miracles", "church-history"],
   "title": { "vi": "Khăn thánh Bolsena — Orvieto", "en": "The Corporal of Bolsena — Orvieto" },
   "location": { "vi": "Bolsena và Orvieto, nước Ý", "en": "Bolsena and Orvieto, Italy" },
   "date": { "display": "truyền thống: 1263", "year": 1263 },

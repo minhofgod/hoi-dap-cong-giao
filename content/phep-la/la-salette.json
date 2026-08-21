@@ -3,6 +3,8 @@
   "slug": "la-salette",
   "type": "marian-apparition",
   "status": "approved",
+  "category": "evidence-history",
+  "tags": ["mary", "miracles"],
   "title": { "vi": "Đức Mẹ La Salette", "en": "Our Lady of La Salette" },
   "location": { "vi": "La Salette, vùng Isère, nước Pháp", "en": "La Salette, Isère, France" },
   "date": { "display": "19-9-1846", "year": 1846 },
