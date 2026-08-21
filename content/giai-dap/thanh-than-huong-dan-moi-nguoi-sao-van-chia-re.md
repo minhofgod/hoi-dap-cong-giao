@@ -29,7 +29,7 @@ Và người "dẫn giải" ấy — ông Philípphê — không phải một t�
 >
 > — **2 Pr 1,20** (CGKPV)
 
-**Hệ quả trong thực tế.** Chân lý thì tuyệt đối, chứ không tương đối: nếu người A bảo một câu dạy điều X, còn người B bảo nó dạy điều ngược lại, thì chỉ có thể **A đúng, hoặc B đúng, hoặc cả hai cùng sai** — họ **không thể cùng đúng**. Thiếu một thẩm quyền tối hậu do chính Chúa Kitô thiết lập, thì không cách nào giải quyết bất đồng; và điều xảy ra đúng là như vậy — Kitô giáo dựa trên "chỉ Kinh Thánh" đã vỡ ra thành **rất nhiều hệ phái**, bất đồng nhau ngay cả về những điểm cốt yếu như Rửa Tội, Thánh Thể, ơn cứu độ. Đó không phải một tác dụng phụ nhỏ; nó đi ngược chính lời Chúa Giêsu tha thiết cầu xin cho các môn đệ:
+**Hệ quả trong thực tế.** Chân lý thì tuyệt đối, chứ không tương đối: nếu người A bảo một câu dạy điều X, còn người B bảo nó dạy điều ngược lại, thì chỉ có thể **A đúng, hoặc B đúng, hoặc cả hai cùng sai** — họ **không thể cùng đúng**. Thiếu một thẩm quyền tối hậu do chính Chúa Kitô thiết lập, thì không cách nào giải quyết bất đồng; và điều xảy ra đúng là như vậy — Kitô giáo dựa trên **Duy Kinh Thánh** (*sola scriptura*) đã vỡ ra thành **rất nhiều hệ phái**, bất đồng nhau ngay cả về những điểm cốt yếu như Rửa Tội, Thánh Thể, ơn cứu độ. Đó không phải một tác dụng phụ nhỏ; nó đi ngược chính lời Chúa Giêsu tha thiết cầu xin cho các môn đệ:
 
 > để tất cả nên một, như Cha ở trong con và con ở trong Cha để họ cũng ở trong chúng ta. Như vậy, thế gian sẽ tin rằng Cha đã sai con.
 >
