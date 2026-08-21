@@ -11,6 +11,7 @@ import {
 import { getAllVideos, type Video } from '@/lib/videos';
 import { relatedByTaxonomy } from '@/lib/relatedContent';
 import { ArticleToc } from '@/components/ArticleToc';
+import { ShareButton } from '@/components/ShareButton';
 import { categoryLabel, tagLabel } from '@/lib/giaiDapTaxonomy';
 import { ScriptureRef } from '@/components/ScriptureRef';
 import { ScriptureBody } from '@/components/ScriptureBody';
@@ -299,6 +300,10 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
                   <Sources sources={p.sources} />
                 </section>
               ))}
+
+              <div className={styles.shareRow}>
+                <ShareButton title={question.questionVi} className={styles.shareButton} iconSize={16} />
+              </div>
             </article>
 
             <aside className={styles.toc}>
@@ -345,6 +350,10 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
             )}
 
             <Sources sources={question.sources} />
+
+            <div className={styles.shareRow}>
+              <ShareButton title={question.questionVi} className={styles.shareButton} iconSize={16} />
+            </div>
           </div>
 
           {seeAlso}

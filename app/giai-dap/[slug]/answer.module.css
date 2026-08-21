@@ -427,6 +427,30 @@
   margin-top: 40px;
 }
 
+/* Share affordance — quiet pill at the end of the answer (a reference site, not a social app). */
+.shareRow {
+  margin-top: 32px;
+}
+.shareButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  border: 1px solid var(--border-input);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-quiet);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+.shareButton:hover {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+}
+
 /* External citations ("Nguồn tham khảo") — plain, muted list; some entries link out. Kept small and
    unobtrusive to match the refs section. */
 .sourcesSection {

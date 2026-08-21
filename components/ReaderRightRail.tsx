@@ -1,9 +1,10 @@
 'use client';
 
-import { Bookmark, Printer, Share2 } from 'lucide-react';
+import { Bookmark, Printer } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { useLang } from '@/lib/giao-phu/useLang';
 import type { Paragraph } from '@/lib/types';
+import { ShareButton } from './ShareButton';
 import { T } from './T';
 import styles from './ReaderRightRail.module.css';
 
@@ -44,19 +45,6 @@ export function ReaderRightRail({ paragraphs, articleTitle }: { paragraphs: Para
     }
   };
 
-  const share = async () => {
-    const url = window.location.href;
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: articleTitle, url });
-      } catch {
-        // user cancelled
-      }
-    } else {
-      await navigator.clipboard.writeText(url);
-    }
-  };
-
   return (
     <aside className={styles.rail}>
       <div className={styles.section}>
@@ -84,10 +72,7 @@ export function ReaderRightRail({ paragraphs, articleTitle }: { paragraphs: Para
           <Bookmark size={15} strokeWidth={2.4} fill={saved ? 'var(--accent)' : 'none'} />
           {uiLang === 'en' ? (saved ? 'Saved' : 'Save') : saved ? 'Đã lưu' : 'Lưu bài này'}
         </button>
-        <button type="button" className={styles.actionButton} onClick={share}>
-          <Share2 size={15} strokeWidth={2.4} />
-          <T vi="Chia sẻ" en="Share" />
-        </button>
+        <ShareButton title={articleTitle} className={styles.actionButton} />
         <button type="button" className={styles.actionButton} onClick={() => window.print()}>
           <Printer size={15} strokeWidth={2.4} />
           <T vi="In / PDF" en="Print / PDF" />
