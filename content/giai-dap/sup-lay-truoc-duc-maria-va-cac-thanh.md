@@ -37,7 +37,9 @@ Có thể ví như việc uống rượu: uống chừng mực thì tốt, nhưn
 
 Đây chính là sự phân biệt nền tảng mà Giáo Hội luôn giữ: việc **tôn thờ** (*latria*) chỉ dành riêng cho một mình Thiên Chúa, Đấng Tạo Hóa (x. GLHTCG 2096); còn với ảnh tượng thánh, "chúng ta chỉ tôn kính (*veneratio*), chứ không tôn thờ (*adoratio*) là việc chỉ dành cho một mình Thiên Chúa" — và lòng tôn kính ấy "hướng tới nguyên ảnh", tức con người được phác họa (x. GLHTCG 2132).
 
-Thật ra, truyền thống Công Giáo phân biệt rạch ròi **ba mức độ**, và tiếng Latinh dùng **ba từ khác nhau** cho ba thực tại khác nhau — điều mà tiếng Việt (hay tiếng Anh) đôi khi gộp chung vào một chữ "thờ", gây hiểu lầm:
+Thật ra, truyền thống Công Giáo phân biệt rạch ròi **ba mức độ**, và tiếng Latinh dùng **ba từ khác nhau** cho ba thực tại khác nhau — điều mà tiếng Việt (hay tiếng Anh) đôi khi gộp chung vào một chữ "thờ", gây hiểu lầm.
+
+Đáng chú ý: ngay chữ *worship* ("thờ phượng") trong tiếng Anh vốn là *worth-ship* — nghĩa gốc là **"nhìn nhận giá trị, phẩm giá"** của một ai đó; trong tiếng Anh cổ, người ta có thể "worship" một vị vua hay một bậc đáng kính mà không hề coi họ là thần. Vấn đề chưa bao giờ nằm ở *chữ dùng*, mà ở **mức độ và đối tượng** của lòng kính trọng — cũng như người Việt "thờ kính ông bà tổ tiên" là **hiếu kính**, chứ không tôn thờ các ngài như Thiên Chúa. Ba mức độ ấy là:
 
 - **Thờ phượng** (*latria*): sự tôn thờ tuyệt đối, **chỉ dành cho một mình Thiên Chúa** là Đấng Tạo Hóa. Dâng điều này cho bất cứ thụ tạo nào cũng là tội thờ ngẫu tượng.
 - **Tôn kính** (*dulia*): lòng kính trọng và yêu mến dành cho **các thánh** — những con người đã sống thánh thiện và nay ở với Chúa. Đây **không** phải là thờ phượng, mà giống lòng kính trọng ta dành cho một bậc đáng kính, được nâng lên trong đức tin.

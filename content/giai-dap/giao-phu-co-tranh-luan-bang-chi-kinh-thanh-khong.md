@@ -1,5 +1,5 @@
 ---
-question_vi: "Hội Thánh thời các Giáo phụ có giải quyết tranh cãi đức tin bằng \"chỉ Kinh Thánh\" không?"
+question_vi: "Hội Thánh thời các Giáo phụ có giải quyết tranh cãi đức tin bằng \"Duy Kinh Thánh\" không?"
 question_en: "Did the early Church settle doctrinal disputes by \"Scripture alone\"?"
 topic: "Duy Kinh Thánh (Sola Scriptura)"
 category: "scripture"
@@ -18,7 +18,7 @@ related:
   - "ngay-ca-cac-giao-phu-cung-bat-dong"
 ---
 
-**Không — và một trong những Giáo phụ sớm nhất đã nói thẳng vì sao.** Nếu "chỉ Kinh Thánh" là cách Chúa định cho Hội Thánh giải quyết tranh cãi, hẳn các Kitô hữu đầu tiên đã làm đúng như vậy. Nhưng họ đã không làm thế.
+**Không — và một trong những Giáo phụ sớm nhất đã nói thẳng vì sao.** Nếu "Duy Kinh Thánh" là cách Chúa định cho Hội Thánh giải quyết tranh cãi, hẳn các Kitô hữu đầu tiên đã làm đúng như vậy. Nhưng họ đã không làm thế.
 
 Vào **khoảng năm 200** — hơn một ngàn ba trăm năm trước thời Cải Cách — **Tertulianô** đối diện với những nhóm lạc giáo cũng trích dẫn Kinh Thánh để bênh vực quan điểm sai lạc của họ. Ông nhận ra rằng **tranh luận thuần bằng Kinh Thánh với họ là vô ích**: cả hai bên đều viện cùng bộ sách mà hiểu ngược nhau — y hệt cảnh chia rẽ ngày nay. Ông viết (bản dịch):
 
