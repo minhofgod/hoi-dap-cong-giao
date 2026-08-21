@@ -206,7 +206,13 @@ launched as the coordinator, this is your role:
 **OWNER'S TRACK (not routed to a session)**
 12. **Pre-launch proofreading** — the gate before pointing the GoDaddy domain at the site. Offline
     tracker in Obsidian (*Hỏi Đáp — Proofreading Tracker*); ~215 pieces, re-sync it as content lands.
-13. **Content ideas approved, not yet specced:** ⭐ **ancestor veneration (thờ cúng ông bà tổ tiên)** —
+13. **Content ideas approved, not yet specced:** ⭐ **Marian doctrines** (Mẹ Thiên Chúa · Vô nhiễm
+    nguyên tội · trọn đời đồng trinh · hồn xác lên trời) — **the clearest gap the Công Giáo và Tin
+    Lành path exposed**: its Mary branch covers intercession and images but carries a written
+    caveat that the dogmas themselves have no page, and those are exactly the Marian points
+    Protestants press hardest. Theotokos already has a home to link to — Êphêsô in `content/cong-dong`.
+    **When it ships, delete the caveat in `lib/congGiaoTinLanhPath.ts`** (see
+    `docs/cong-giao-tin-lanh-spec.md` → "Pending removal"). ⭐ **ancestor veneration (thờ cúng ông bà tổ tiên)** —
     the most distinctive gap on the site; Vietnamese Catholic history (incl. quốc ngữ); "how to go to
     confession"; cultural objections (*"đạo nào cũng tốt"*). Prayers → decided to live on **Visual
     Rosary** instead (prayer *texts* there; *questions about* prayer stay here).

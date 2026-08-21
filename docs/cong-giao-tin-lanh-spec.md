@@ -86,6 +86,23 @@ question once authority is settled.
 
 Branches are **enterable in any order**; the root is offered first but never forced.
 
+### 📌 Pending removal — the Marian caveat (added 2026-08-20)
+
+The **Mary and the saints** branch intro (`lib/congGiaoTinLanhPath.ts`, the `vi` string) ends with
+an honest limitation:
+
+> *"…ở đây bàn tới việc chuyển cầu và ảnh tượng — **còn các tín điều về chính Đức Maria thì trang
+> này chưa có bài**."*
+
+That is **correct today**: the branch covers intercession (`Cầu nguyện với các thánh`) and images
+(`Tôn kính ảnh tượng`), and the site has **no cluster on the Marian dogmas themselves**. Only
+`me-thien-chua-nu-vuong-co-phai-nang-me-len-ngang-chua` brushes against them.
+
+**→ DELETE that clause the moment a Marian-doctrine cluster ships**, and add the branch to the
+table above. Leaving a stale "chưa có bài" once the content exists would tell a Protestant reader
+the site has nothing to say on the very doctrines they most want addressed. See `docs/STATE.md`
+thread 13 (content ideas).
+
 **Answers render INLINE, expanding in place** — same as `/bang-chung` and the companion. The
 click-out-and-come-back round trip was tested and rejected (memory: `no-navigate-away-mid-flow`), and
 inline keeps bodies out of the server-rendered HTML so the path does not compete with `/giai-dap` in
