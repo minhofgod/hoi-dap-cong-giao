@@ -55,7 +55,7 @@ this file.
 
 | 14 | Tổng luận Thần học (The Summa, Explained) | `docs/tong-luan-verification.md` in pass 1; then `content/tong-luan`, `app/tong-luan`, `lib/tongLuan*` | verifies then builds the 37-chapter Aquinas reader | **specced, not started** — `docs/tong-luan-spec.md`. **Source text is AI-GENERATED = unverified**, so VERIFY FIRST, BUILD SECOND; pilot on the intro + Phần I before committing to all 37. Gate behind `NEXT_PUBLIC_TONG_LUAN`. |
 
-| 15 | Công Giáo và Tin Lành (guided path) | `app/cong-giao-va-tin-lanh`, `lib/congGiaoTinLanh*`, its flag file | a guided path through the 42 `protestant-objections` Q&As, written FOR a Protestant reader | **specced, not started** — `docs/cong-giao-tin-lanh-spec.md`. Root (authority) + 3 branches; answers inline. Gated `NEXT_PUBLIC_CG_TL` (default off). Owns NO entry points. |
+| 15 | Công Giáo và Tin Lành (guided path) | `app/cong-giao-va-tin-lanh`, `lib/congGiaoTinLanh*`, `components/cong-giao-tin-lanh`, its flag file | a guided path through the `protestant-objections` Q&As, written FOR a Protestant reader | **BUILT, gated off, awaiting the owner's proofread** — `docs/cong-giao-tin-lanh-spec.md`. Landing + root (authority) + 3 branches, answers inline from the cluster `.md`. **58 answers, not 42** — the 7 clusters hold all 42 tagged plus 16 untagged ones that are plainly the same conversation, so it walks whole clusters. Gated `NEXT_PUBLIC_CG_TL` (verified: flag off → HTTP 404, no branch paths, no prose in the HTML). Owns NO entry points → 8/7/3 still to wire. |
 
 *The next session you start becomes 16.*
 
@@ -165,6 +165,14 @@ launched as the coordinator, this is your role:
    ⚠️ **Tone is the whole risk.** Never "Protestants believe X" (the traditions differ materially);
    never impute bad faith — see the §E1 *paradosis* near-miss for the model failure. Write each page
    as if the reader is sitting next to their Catholic spouse.
+   **→ BUILT 2026-08-21, gated off.** `/cong-giao-va-tin-lanh` + 4 branch routes. All new prose is in
+   **one file for proofreading — `lib/congGiaoTinLanhPath.ts`**: landing copy (lede, shared ground,
+   the honest note) + 4 branch intros. Nothing else was written; the 58 answers render inline from
+   the cluster `.md` at build time. Three Catechism citations in the framing (**GLHTCG 818 · 1271 ·
+   1996**) were checked against `content/content.json` and cross-checked on vatican.va. **Next:**
+   owner proofreads → then Sessions 8 (nav/footer + `app/sitemap.ts` routes), 7 (companion
+   `defending` link), 3 (`related` links from the 7 anchors + `Hôn nhân khác đạo`) — all flag-gated
+   → then the flag on Vercel.
 **READY — thread 2 (§A) is DONE, both unblocked 2026-08-20**
 3. **Session 13 — evidence-path stage 4** (§B, same doc): "Is God still acting?" — miracles as the
    *final* stage, selecting by tag. Keep the `limits` field and "approval ≠ proof"; lead with the Lourdes

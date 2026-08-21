@@ -50,6 +50,7 @@ Set them in `.env.local` (gitignored) to preview locally. **Do not set them on V
 | `NEXT_PUBLIC_CANVAS` | `/so-do` canvas diagrams | not finalized; routes 404 + links hidden while off |
 | `NEXT_PUBLIC_COMPANION` | `/dong-hanh` companion | **on by default** — set to `0` as a kill switch |
 | `NEXT_PUBLIC_EVIDENCE_PATH` | `/bang-chung` evidence path | local-only until the 4 bridge paragraphs are proofread |
+| `NEXT_PUBLIC_CG_TL` | `/cong-giao-va-tin-lanh` — Công Giáo và Tin Lành | local-only until the owner proofreads the framing text (landing copy + 4 branch intros, all in `lib/congGiaoTinLanhPath.ts`) |
 
 Anything flag-gated must also be gated in **`app/sitemap.ts`**, or Google gets URLs that 404.
 

@@ -1,0 +1,593 @@
+/* Công Giáo và Tin Lành (/cong-giao-va-tin-lanh) — the guided path written for a Protestant reader.
+
+   Reuses the site's band + list-card system, and shares the evidence path's answer-row furniture
+   almost verbatim (app/bang-chung/bang-chung.module.css) because it is the same affordance: a
+   question you open in place. What is deliberately NOT here is the step furniture — no progress
+   bar, no prev/next rail, no numbered jump pills. This path is a root plus three peers, enterable
+   in any order, and borrowing the ladder's chrome would have told the reader to walk it in order.
+
+   The one new block is .sharedGround: the landing opens on what the two traditions hold together,
+   and it has to LOOK like the main statement of the page rather than a preamble — so it takes the
+   gold band treatment the evidence path gives its bridge, at a larger size. */
+
+.wrap {
+  max-width: var(--canvas-max);
+  margin: 0 auto;
+  padding: 0 0 80px;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 16px var(--page-gutter) 0;
+}
+
+.back {
+  margin-right: auto;
+  font-size: 13.5px;
+  color: var(--text-quiet);
+  text-decoration: none;
+}
+.back:hover {
+  color: var(--accent-deep);
+}
+.backEnRecessed {
+  font-size: 12.5px;
+  color: var(--text-fainter);
+}
+
+/* ---- Dark hero band (landing) ---- */
+.hero {
+  margin: 16px var(--page-gutter) 0;
+  background: var(--dark-ground);
+  border-radius: var(--radius-band);
+  padding: 48px;
+}
+
+.heroText {
+  max-width: 720px;
+}
+
+.eyebrow {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #c9a65c;
+  margin-bottom: 14px;
+}
+.eyebrowEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a79e92;
+  margin: 2px 0 14px;
+}
+
+.heroTitle {
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: -0.018em;
+  color: #fbf8f3;
+  margin: 0 0 16px;
+}
+
+.heroLede {
+  margin: 0 0 6px;
+  max-width: 60ch;
+  font-size: 16.5px;
+  line-height: 1.74;
+  color: #cfc6b6;
+}
+.heroLedeEnRecessed {
+  margin: 0;
+  max-width: 62ch;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #b2a99d;
+}
+
+/* ---- Shared ground: the first thing on the page, and the point of it ---- */
+.sharedGround {
+  margin: 24px var(--page-gutter) 0;
+  padding: 24px 26px;
+  background: var(--gold-tint);
+  border-left: 3px solid var(--gold);
+  max-width: 860px;
+}
+.sharedGroundKicker {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: 10px;
+}
+.sharedGroundKickerEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+.sharedGroundBody {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.82;
+  color: var(--text-body);
+}
+.sharedGroundBodyEnRecessed {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-faint);
+}
+
+/* ---- The honest note about whose voice the answers are in ---- */
+.honestNote {
+  margin: 20px var(--page-gutter) 0;
+  padding: 18px 20px;
+  background: var(--surface-quiet);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-panel);
+  max-width: 860px;
+}
+.honestNoteKicker {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 8px;
+}
+.honestNoteKickerEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-fainter);
+}
+.honestNoteBody {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.78;
+  color: var(--text-body);
+}
+.honestNoteBodyEnRecessed {
+  margin: 10px 0 0;
+  font-size: 13.5px;
+  line-height: 1.66;
+  color: var(--text-faint);
+}
+
+/* ---- Branch cards ----
+   A plain <ul>, not the evidence path's <ol>: these are peers in no required order, and an ordered
+   list would say otherwise to a screen reader as well as to the eye. */
+.branchCards {
+  list-style: none;
+  margin: 28px var(--page-gutter) 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.branchCard,
+.branchCardRoot {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 20px 22px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.branchCard:hover,
+.branchCardRoot:hover {
+  border-color: var(--accent);
+  background: var(--accent-tint-2);
+}
+
+/* The root gets a slightly stronger edge — it is offered first — but NOT a number and not a
+   different size: it is a starting point, not step one of four. */
+.branchCardRoot {
+  border-color: var(--border-strong);
+  background: var(--accent-tint-2);
+}
+
+.branchText {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.branchMeta {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.branchMetaEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin: 0 0 6px;
+}
+
+.branchTitle {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.3;
+  color: var(--text-heading);
+  margin-bottom: 5px;
+}
+.branchTitleEnRecessed {
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--text-en);
+  margin-bottom: 5px;
+}
+
+.branchBlurb {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+}
+.branchBlurbEnRecessed {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-faint);
+  margin: 3px 0 0;
+}
+
+.branchArrow {
+  align-self: center;
+  color: var(--accent-number);
+  font-size: 20px;
+}
+
+/* ---- Closing note on the landing ---- */
+.indexNote {
+  margin: 28px var(--page-gutter) 0;
+  padding: 20px 22px;
+  background: var(--surface-quiet);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-panel);
+  max-width: 760px;
+}
+.indexNoteBody {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--text-body);
+}
+.indexNoteBodyEnRecessed {
+  margin: 8px 0 0;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-faint);
+}
+.indexNoteLink {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--accent-deep);
+  text-decoration: none;
+}
+.indexNoteLink:hover {
+  text-decoration: underline;
+}
+.indexNoteLinkEnRecessed {
+  font-size: 12.5px;
+  color: var(--text-faint);
+}
+
+/* ---- Branch page ---- */
+.branchPage {
+  max-width: 780px;
+  margin: 20px auto 0;
+  padding: 0 var(--page-gutter);
+}
+
+.branchPageTitle {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.26;
+  letter-spacing: -0.008em;
+  color: var(--text-heading);
+  margin: 0 0 6px;
+}
+.branchPageTitleEnRecessed {
+  font-family: var(--font-sans);
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--text-en);
+  margin: 0 0 6px;
+}
+
+/* The intro — one of the four pieces of new writing on this path. */
+.intro {
+  margin: 22px 0 26px;
+  padding: 18px 20px;
+  background: var(--gold-tint);
+  border-left: 3px solid var(--gold);
+}
+.introBody {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.78;
+  color: var(--text-body);
+}
+.introBodyEnRecessed {
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.68;
+  color: var(--text-faint);
+}
+
+/* ---- Clusters, and their answers ---- */
+.cluster {
+  margin-bottom: 34px;
+}
+.cluster:last-of-type {
+  margin-bottom: 0;
+}
+
+.overview {
+  background: var(--surface-quiet);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-panel);
+  padding: 20px 22px;
+  margin-bottom: 24px;
+}
+.overviewKicker {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 8px;
+}
+.overviewQuestion {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.3;
+  color: var(--text-heading);
+  margin: 0 0 10px;
+}
+.overviewExcerpt {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--text-muted);
+}
+
+.listLabel {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 10px;
+}
+
+.answerList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.answerRow,
+.answerRowOpen {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-row);
+  background: var(--surface);
+  overflow: hidden;
+}
+.answerRowOpen {
+  border-color: var(--border-strong);
+}
+
+.answerHead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 15px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+.answerHead:hover {
+  background: var(--accent-tint-2);
+}
+
+.answerNum {
+  flex: 0 0 auto;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent-number);
+}
+
+.answerQuestion {
+  flex: 1;
+  min-width: 0;
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-heading);
+}
+
+.chevron,
+.chevronOpen {
+  flex: 0 0 auto;
+  color: var(--accent-number);
+  transition: transform 0.15s ease;
+}
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.answerPanel {
+  padding: 0 15px 16px;
+  border-top: 1px solid var(--border);
+  margin-top: -1px;
+}
+
+.answerBody {
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: var(--text-body);
+  max-width: var(--measure-prose);
+}
+
+.answerActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.expand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--accent-deep);
+}
+.expand:hover {
+  text-decoration: underline;
+}
+
+.openPage {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--text-quiet);
+  text-decoration: none;
+}
+.openPage:hover {
+  color: var(--accent-deep);
+}
+
+/* ---- "The other parts" ----
+   Where the evidence path has prev/next, this has siblings: the reader finishes a branch and is
+   offered the three they have not read, in no particular order. */
+.siblings {
+  margin-top: 36px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+.siblingsLabel {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-quiet);
+  margin-bottom: 12px;
+}
+.siblingsLabelEnRecessed {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-fainter);
+}
+.siblingList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.sibling {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 15px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-row);
+  text-decoration: none;
+}
+.sibling:hover {
+  border-color: var(--accent-deep);
+  background: var(--accent-tint-2);
+}
+.siblingTitle {
+  flex: 1;
+  min-width: 0;
+  font-size: 14.5px;
+  line-height: 1.42;
+  color: var(--text-body);
+}
+.siblingTitleEnRecessed {
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--text-faint);
+}
+.siblingArrow {
+  flex: 0 0 auto;
+  color: var(--accent-number);
+  font-size: 17px;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    margin: 12px var(--mobile-gutter) 0;
+    padding: 32px 24px;
+  }
+  .heroTitle {
+    font-size: 32px;
+  }
+  .topBar,
+  .sharedGround,
+  .honestNote,
+  .branchCards,
+  .indexNote {
+    padding-left: var(--mobile-gutter);
+    padding-right: var(--mobile-gutter);
+  }
+  .sharedGround,
+  .honestNote,
+  .branchCards,
+  .indexNote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sharedGroundBody {
+    font-size: 15px;
+  }
+  .branchPage {
+    padding: 0 var(--mobile-gutter);
+  }
+  .branchPageTitle {
+    font-size: 24px;
+  }
+}
