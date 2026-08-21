@@ -87,23 +87,25 @@ launched as the coordinator, this is your role:
    `app/giai-dap/[slug]/opengraph-image.tsx` so shared links preview the **question** instead of the
    generic site card. Watch the three pitfalls in the spec (font subsetting → VN diacritics, long-question
    clamping, curly quotes) and the Facebook-debugger verification.
-2. **Session 11 — miracles taxonomy (§A)** (`docs/miracles-taxonomy-and-evidence-stage.md`) — **the
+2. ~~**Session 11 — miracles taxonomy (§A)**~~ **✅ DONE 2026-08-20 — verified: 18/18 miracles tagged, `check-tags` extended to `content/phep-la`, 141 files passing.** Q&A↔miracle cross-links (Eucharist→Lanciano, Mary→Lộ Đức) now work by shared tag with no per-page wiring. *(original brief:)* (`docs/miracles-taxonomy-and-evidence-stage.md`) — **the
    unblocker; send next.** Miracles carry `type`/`status`/`related_saint` but **no taxonomy `tags`**, so
    18 entries are invisible to every automatic cross-link. Adding tags unlocks Q&A↔miracle links
    (Eucharist→Lanciano, Mary→Lộ Đức), the companion pool, search, and lets evidence stage 4 select by tag.
-3. **Session 8 — revisit `a57d078`.** Its stated rationale ("the inline language toggle doesn't receive
-   taps on iPadOS") is **disproven** — the real cause was the Safari <16.4 JS failure (thread 6). The
-   commit routes *every* touch device to the compact header at any width, hiding the VI/EN toggle behind
-   the menu. **Verify on a real iPad now that JS runs, then likely revert to width-only** — and fix the
-   CSS comment, which still documents the wrong root cause.
-
-**BLOCKED on thread 2**
-4. **Session 13 — evidence-path stage 4** (§B, same doc): "Is God still acting?" — miracles as the
+**READY — thread 2 (§A) is DONE, both unblocked 2026-08-20**
+3. **Session 13 — evidence-path stage 4** (§B, same doc): "Is God still acting?" — miracles as the
    *final* stage, selecting by tag. Keep the `limits` field and "approval ≠ proof"; lead with the Lourdes
    Medical Bureau (a body that *rejects* most claims persuades this audience).
-5. **Session 7 — miracles into the companion pool** (§A2) as a resource kind, mirroring `'video'`.
+4. **Session 7 — miracles into the companion pool** (§A2) as a resource kind, mirroring `'video'`.
 
-**CLOSED (verified in the repo 2026-08-20 — do not re-send)**
+**CLOSED (verified in the repo — do not re-send)**
+5b. **Session 8 — `a57d078` false-premise cleanup** → **DONE `2cdb53d`** (verified). The compact layout
+   is gated on **width only** again, so touch users at tablet/desktop widths get the inline VI/EN toggle
+   back; the CSS comment now records the true root cause and warns against re-adding the pointer routing.
+   **→ OWNER follow-up (not a session):** a live real-iPad tap check of the inline toggle — the failure
+   mode provably no longer exists, but a device confirmation is the honest final tick.
+5c. **`docs/nav-and-phep-la-wiring.md` RETIRED** — its work shipped and the nav has since evolved past it
+   (now a single "Menu" button / flat icon list at every width). The file carries an OBSOLETE banner.
+   **Do not hand it to a session.**
 6. **Safari <16.4 got ZERO JavaScript site-wide** → FIXED `dc8f1e9` (`browserslist: ["defaults",
    "safari >= 15"]`); verified 0 `static {` blocks in the deployed chunks. Case study + portable lessons:
    **`docs/web-project-checklist.md`**. Key heuristic: *links work but buttons don't → JS isn't running;

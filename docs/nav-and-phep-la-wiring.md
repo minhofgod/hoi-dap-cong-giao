@@ -1,3 +1,14 @@
+# ⛔ OBSOLETE — DONE, DO NOT RE-ISSUE (retired 2026-08-20)
+
+> This brief's work **shipped** and the design has since moved past it. Phép Lạ has its homepage card,
+> nav item and footer link; `/bang-chung` has its card, nav item and sitemap routes. The nav then
+> **evolved past what this doc describes** — it's now a single "Menu" button (flat icon list) at every
+> width, not the inline items specced here. Kept only as a record of the reasoning.
+>
+> **Do not hand this to a session.** Current work lives in `docs/STATE.md` → "Open threads."
+
+---
+
 # Nav grouping + wiring Phép Lạ — Session 8 brief
 
 Written 2026-08-18 (coordinator). **Session 8 owns this whole doc's work** — it's all shell:
