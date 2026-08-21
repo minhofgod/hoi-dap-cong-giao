@@ -427,6 +427,41 @@
   margin-top: 40px;
 }
 
+/* "Công Giáo và Tin Lành" offer — for a Protestant reader who landed on an objection answer. Warm
+   sage invitation, deliberately distinct from the terracotta apologetics accents; flag-gated. */
+.cgtlOffer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 32px;
+  padding: 18px 22px;
+  border: 1px solid var(--sage-tint);
+  border-radius: 14px;
+  background: var(--sage-card);
+  color: var(--text);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.cgtlOffer:hover {
+  text-decoration: none;
+  border-color: var(--sage);
+  background: #eef2e6;
+}
+.cgtlOfferText {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-quiet);
+}
+.cgtlOfferText strong {
+  color: var(--sage-deep);
+  font-weight: 600;
+}
+.cgtlOfferName {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--sage-deep);
+}
+
 /* Share affordance — quiet pill at the end of the answer (a reference site, not a social app). */
 .shareRow {
   margin-top: 32px;

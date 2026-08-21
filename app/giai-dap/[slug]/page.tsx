@@ -12,6 +12,7 @@ import { getAllVideos, type Video } from '@/lib/videos';
 import { relatedByTaxonomy } from '@/lib/relatedContent';
 import { ArticleToc } from '@/components/ArticleToc';
 import { ShareButton } from '@/components/ShareButton';
+import { CG_TL_ENABLED } from '@/lib/congGiaoTinLanhFlag';
 import { categoryLabel, tagLabel } from '@/lib/giaiDapTaxonomy';
 import { ScriptureRef } from '@/components/ScriptureRef';
 import { ScriptureBody } from '@/components/ScriptureBody';
@@ -152,6 +153,37 @@ function SeeAlsoContent({ videos, related }: { videos: Video[]; related: GiaiDap
         </div>
       )}
     </>
+  );
+}
+
+// For a Q&A that answers a Protestant objection: a quiet offer of the guided "Công Giáo và Tin Lành"
+// path — framed as something written FOR a Protestant reader, not more apologetics. Lives in the
+// rendering layer (not `related:`, which only holds Q&A slugs) and is gated on CG_TL_ENABLED, so no
+// dead link ships while the path is off. Shows only on pages tagged `protestant-objections`.
+function ProtestantPathOffer({ tags }: { tags: string[] }) {
+  if (!CG_TL_ENABLED || !tags.includes('protestant-objections')) return null;
+  return (
+    <Link href="/cong-giao-va-tin-lanh" className={styles.cgtlOffer}>
+      <span className={styles.cgtlOfferText}>
+        <T
+          vi={
+            <>
+              Bạn đang đọc điều này với tư cách một người Tin Lành? Có một trang được viết{' '}
+              <strong>cho bạn</strong> — về những gì chúng ta cùng tin, và những gì còn khác biệt.
+            </>
+          }
+          en={
+            <>
+              Reading this as a Protestant? There&rsquo;s a page written <strong>for you</strong> — on
+              what we share, and where we differ.
+            </>
+          }
+        />
+      </span>
+      <span className={styles.cgtlOfferName}>
+        <T vi="Công Giáo và Tin Lành" en="Catholic and Protestant" /> →
+      </span>
+    </Link>
   );
 }
 
@@ -319,6 +351,8 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
                 </section>
               ))}
 
+              <ProtestantPathOffer tags={question.tags} />
+
               <div className={styles.shareRow}>
                 <ShareButton title={question.questionVi} className={styles.shareButton} iconSize={16} />
               </div>
@@ -368,6 +402,8 @@ export default async function GiaiDapAnswerPage({ params }: { params: Promise<{ 
             )}
 
             <Sources sources={question.sources} />
+
+            <ProtestantPathOffer tags={question.tags} />
 
             <div className={styles.shareRow}>
               <ShareButton title={question.questionVi} className={styles.shareButton} iconSize={16} />
