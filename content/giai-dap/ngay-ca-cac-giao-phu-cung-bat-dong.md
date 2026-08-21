@@ -21,7 +21,7 @@ related:
 
 **Một phản đối tinh tế:** nếu ngay cả các Giáo phụ cũng không nhất trí về quy điển, thì làm sao biết Hội Thánh Công giáo đã chọn **đúng**? Có ba câu trả lời.
 
-**1. Lập luận này cắt cả hai chiều.** Anh em Tin Lành dùng gần **đúng cùng một** danh mục Tân Ước (27 sách) như người Công giáo. Vậy nếu "các Giáo phụ từng bất đồng" đủ để làm lung lay quy điển Công giáo, thì nó cũng làm lung lay **cuốn Tân Ước của mọi Kitô hữu** như nhau — kể cả của chính người phản đối. Không ai thoát khỏi câu hỏi "ai đã chốt danh mục?"; và câu trả lời lịch sử, cho hết mọi người, là **Hội Thánh**.
+**1. Lập luận này cắt cả hai chiều.** Anh em Tin Lành dùng **chính xác cùng một** danh mục Tân Ước (27 sách) như người Công giáo (khác biệt về quy điển chỉ nằm ở Cựu Ước, chứ không ở Tân Ước). Vậy nếu "các Giáo phụ từng bất đồng" đủ để làm lung lay quy điển Công giáo, thì nó cũng làm lung lay **cuốn Tân Ước của mọi Kitô hữu** như nhau — kể cả của chính người phản đối. Không ai thoát khỏi câu hỏi "ai đã chốt danh mục?"; và câu trả lời lịch sử, cho hết mọi người, là **Hội Thánh**.
 
 **2. Ơn bất khả ngộ chưa bao giờ được hứa cho từng cá nhân.** Chúa Kitô không hứa rằng **mọi** Giáo phụ sẽ không bao giờ sai; Người hứa gìn giữ **Hội Thánh như một toàn thể** (và cách riêng, thừa tác vụ của thánh Phêrô). Việc một vài Giáo phụ do dự về Thư Do Thái hay sách Khải Huyền **không** phá vỡ lời hứa ấy — vì lời hứa đặt nơi Hội Thánh cùng nhau phân định, chứ không nơi sự không-thể-sai của mỗi tác giả. Sách Giáo Lý dạy đúng điều này: Đức Kitô muốn cho **Hội Thánh** được thông phần vào ơn bất khả ngộ của Người để gìn giữ đức tin tinh tuyền (x. GLHTCG 889); và chính Truyền Thống các Tông đồ đã giúp Hội Thánh phân định Thư quy (x. GLHTCG 120).
 
