@@ -22,6 +22,8 @@ related:
 
 Điểm mấu chốt: linh mục **không** đứng *giữa* bạn và Chúa Kitô như một trung gian **cạnh tranh**. Ngài đứng *trong* Chúa Kitô, như một khí cụ sống động của chính Đấng Trung Gian duy nhất ấy. Cũng như Chúa Kitô dùng con người để rao giảng Tin Mừng, ban phép Rửa và cử hành Thánh Thể, Người cũng dùng con người để nói lời tha thứ. Đó không phải là thêm một "đấng trung gian" thứ hai; đó là **cùng một** ơn của Đấng Trung Gian duy nhất, đến với ta qua phương thế Người đã chọn.
 
+Thật ra, đây là cách Thiên Chúa vẫn hành động xuyên suốt lịch sử cứu độ: Người **thích làm việc qua con người**, chứ không phải một mình. Người ban cho ông Môsê một **cây gậy** để làm những dấu lạ và rẽ Biển Đỏ, thay vì tự tay làm mà chẳng cần đến ai. Người **linh hứng cho các ngôn sứ và Tông đồ viết ra Kinh Thánh**, thay vì tự tay viết lấy Lời của mình. Cũng một Thiên Chúa ấy, khi muốn ban ơn tha thứ, đã chọn ban qua bàn tay và lời nói của một con người — không phải vì Người **cần** đến con người, mà vì Người muốn đến với ta cách **hữu hình, gần gũi**, chạm được. Ơn tha vẫn trọn vẹn là của Chúa; con người chỉ là **khí cụ** Người dùng.
+
 Chính thánh Phaolô mô tả mình đúng như thế — một khí cụ, chứ không phải một nguồn ơn độc lập:
 
 > Vì thế, chúng tôi là sứ giả thay mặt Đức Ki-tô, như thể chính Thiên Chúa dùng chúng tôi mà khuyên dạy. Vậy, nhân danh Đức Ki-tô, chúng tôi nài xin anh em hãy làm hoà với Thiên Chúa.

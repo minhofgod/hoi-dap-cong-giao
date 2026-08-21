@@ -6,7 +6,7 @@ category: "the-church"
 tags: ["confession", "sacraments", "protestant-objections"]
 subcategory: "Tổng quan"
 refs_ccc: [1441, 1442, 1461]
-refs_scripture: ["Ga 20,21-23"]
+refs_scripture: ["Ga 20,21-23", "Mt 18,15-18"]
 featured: true
 parts:
   - "linh-muc-lam-sao-co-quyen-tha-toi"
@@ -30,7 +30,15 @@ related:
 
 Đây không phải một lời khuyên tùy nghi. Chúa Giêsu **thổi hơi** ban Thánh Thần trên các Tông đồ — cử chỉ gợi lại việc Thiên Chúa thổi sinh khí vào con người lúc tạo dựng — rồi trao cho các ông quyền **tha** hoặc **cầm giữ** tội. Bí tích Hòa Giải chính là cách thông thường Chúa Kitô tiếp tục thi hành sứ vụ ấy qua Hội Thánh.
 
-Vậy bí tích thêm điều gì mà lời xưng thú riêng tư không luôn có? Nó cho ta **nghe tận tai lời xá giải** ("Cha tha tội cho con"), nhận **ân sủng bí tích** để chữa lành và mạnh sức chống lại tội, và được **giao hòa với cả Hội Thánh** — chứ không chỉ với Thiên Chúa trong lòng mình.
+Vậy bí tích mang lại thêm những gì mà việc xưng tội riêng một mình không phải lúc nào cũng có? Nó cho ta **nghe tận tai lời xá giải** ("Cha tha tội cho con"), nhận **ân sủng bí tích** để chữa lành và mạnh sức chống lại tội, và được **giao hòa với cả Hội Thánh** — chứ không chỉ với Thiên Chúa trong lòng mình.
+
+Chiều kích **cộng đoàn** ấy có gốc trong chính lời Chúa Giêsu. Người dạy một tiến trình để xử lý tội lỗi giữa anh em: trước hết sửa lỗi riêng, rồi đem theo một hai người làm chứng, và nếu vẫn không nghe thì "hãy đi thưa **Hội Thánh**" (Mt 18,15-17). Ngay sau đó, Người trao quyền cầm buộc và tháo cởi cho **cả cộng đoàn các môn đệ** — chứ không riêng một mình thánh Phêrô:
+
+> Thầy bảo thật anh em: dưới đất, anh em cầm buộc những điều gì, trên trời cũng cầm buộc như vậy; dưới đất, anh em tháo cởi những điều gì, trên trời cũng tháo cởi như vậy.
+>
+> — **Mt 18,18** (CGKPV)
+
+Vì tội không chỉ xúc phạm Thiên Chúa mà còn làm tổn thương thân thể Hội Thánh, nên ơn giao hòa cũng mang chiều kích cộng đoàn — và bí tích diễn tả điều đó cách hữu hình.
 
 Nền tảng thần học rất rõ: **chỉ một mình Thiên Chúa mới có quyền tha tội** (x. GLHTCG 1441) — nhưng chính Đức Kitô đã muốn toàn thể Hội Thánh làm **dấu chỉ và dụng cụ** cho ơn tha thứ ấy, và đã ủy thác việc thực thi quyền tha tội cho **thừa tác vụ Tông đồ** (x. GLHTCG 1442). Các giám mục kế nhiệm các Tông đồ, cùng các linh mục cộng sự, tiếp tục thi hành thừa tác vụ giao hòa đó cho đến hôm nay (x. GLHTCG 1461).
 
