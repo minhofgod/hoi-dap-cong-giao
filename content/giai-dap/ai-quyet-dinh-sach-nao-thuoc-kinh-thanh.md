@@ -1,6 +1,6 @@
 ---
-question_vi: "Ai quyết định sách nào thuộc Kinh Thánh? Kinh Thánh chẳng phải tự xác thực sao?"
-question_en: "Who decided which books belong in the Bible? Isn't Scripture self-authenticating?"
+question_vi: "Kinh Thánh vốn là Lời Chúa, tự nó đã có thẩm quyền — vậy tại sao lại cần Hội Thánh \"trao quyền\" hay công nhận nó?"
+question_en: "Scripture is God's Word with its own authority — so why would it need the Church to \"authorize\" or recognize it?"
 topic: "Duy Kinh Thánh (Sola Scriptura)"
 category: "scripture"
 tags: ["bible", "church-history", "protestant-objections"]
@@ -19,7 +19,9 @@ related:
   - "khai-huyen-22-cam-them-vao-kinh-thanh"
 ---
 
-**Một người Tin Lành thường không hỏi "ai quyết định", mà nói cách khác:** Hội Thánh **không *ban quyền*** cho các sách, mà chỉ ***nhìn nhận*** điều vốn đã được Thiên Chúa linh hứng. Nói vậy có phần đúng — nhưng chưa đủ. Vì **"nhìn nhận" tự nó đã là một hành vi phán đoán**: phải có ai đó **phân định** xem giữa vô số văn bản Kitô giáo thời đầu, sách nào mang dấu ấn của ơn linh hứng, sách nào không. Và cộng đoàn đã phân định điều đó — qua nhiều thế kỷ, nhờ Thánh Truyền tông đồ và dưới ơn Chúa Thánh Thần — chính là **Hội Thánh**. Thật vậy, nếu Kinh Thánh "tự xác thực" rõ đến mức ai tin cũng nhận ra ngay, thì hẳn các Kitô hữu đầu tiên đã lập tức nhất trí về danh mục các sách. Lịch sử cho thấy điều ngược lại.
+**Bạn nói đúng ở một điểm rất quan trọng — và người Công giáo hoàn toàn đồng ý: thẩm quyền của Kinh Thánh đến từ *Thiên Chúa*, Đấng đã linh hứng, chứ *không* từ Hội Thánh.** Hội Thánh **không** "ban quyền" hay "làm cho" một cuốn sách trở thành Lời Chúa — sách được linh hứng thì đã là Lời Chúa ngay từ khi được viết ra. Vậy nên nếu ai hiểu lập trường Công giáo là "Hội Thánh trao thẩm quyền cho Kinh Thánh", thì đó là một **hiểu lầm**.
+
+Điều Hội Thánh làm **không** phải là *trao quyền*, mà là ***nhận ra*** (phân định) đâu là những sách thật sự được Thiên Chúa linh hứng. Và đây mới là mấu chốt: **chính việc "nhận ra" ấy đã là một hành vi phán đoán có thẩm quyền.** Giữa vô số văn bản Kitô giáo thời đầu — các Tin Mừng, các thư, lẫn những tác phẩm "gần giống" mà một số cộng đoàn cũng đọc — **phải có ai đó phân định** sách nào mang dấu ấn của ơn linh hứng, sách nào không. Cộng đoàn đã làm việc phân định ấy — qua nhiều thế kỷ, nhờ Thánh Truyền tông đồ và dưới ơn Chúa Thánh Thần — chính là **Hội Thánh**. Thật vậy, nếu Kinh Thánh "tự xác thực" hiển nhiên đến mức ai thành tâm cũng nhận ra ngay, thì hẳn các Kitô hữu đầu tiên đã lập tức nhất trí về danh mục các sách. **Lịch sử cho thấy điều ngược lại.**
 
 Suốt mấy thế kỷ đầu có sự bất đồng thật sự:
 
