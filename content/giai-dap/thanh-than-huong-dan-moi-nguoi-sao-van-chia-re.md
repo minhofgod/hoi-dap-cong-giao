@@ -1,6 +1,6 @@
 ---
-question_vi: "Nếu Chúa Thánh Thần hướng dẫn mỗi người đọc Kinh Thánh, tại sao lại sinh ra bất đồng và chia rẽ?"
-question_en: "If the Holy Spirit guides each person reading the Bible, why does disagreement and division result?"
+question_vi: "Ai thật sự có Chúa Thánh Thần thì tự mình hiểu đúng Kinh Thánh — vậy đâu cần một thẩm quyền đứng ra giải thích?"
+question_en: "Anyone who truly has the Holy Spirit can interpret the Bible rightly — so why is an interpreting authority needed?"
 topic: "Duy Kinh Thánh (Sola Scriptura)"
 category: "scripture"
 tags: ["bible", "authority", "protestant-objections"]
@@ -15,7 +15,7 @@ related:
   - "kinh-thanh-co-day-can-giam-muc-va-huan-quyen-khong"
 ---
 
-**Vấn đề không nằm ở Chúa Thánh Thần — mà ở chỗ thiếu một thẩm quyền sống động để phân định.** Chúa Thánh Thần không bao giờ tự mâu thuẫn. Nhưng khi mỗi người tự làm "toà phán quyết" cho riêng mình về ý nghĩa Kinh Thánh, thì hễ hai người chân thành đọc **cùng một câu** mà hiểu **ngược nhau** — cả hai đều quả quyết mình được Thánh Thần soi sáng — sẽ **không có gì** để phân xử.
+**Nghe thì rất hợp lý — nhưng chính thực tế lại lật ngược lập luận này.** Đúng là mọi Kitô hữu đều được Chúa Thánh Thần trợ giúp khi đọc Lời Chúa; người Công giáo tin điều đó. Nhưng nếu "thật lòng có Thánh Thần là đủ để tự mình hiểu đúng", thì tại sao **chính những người thành tâm nhất** — ai cũng quả quyết được Thánh Thần soi sáng — lại đọc **cùng một câu** Kinh Thánh mà hiểu **ngược nhau**? Chúa Thánh Thần **không bao giờ tự mâu thuẫn**; nên vấn đề không nằm ở Ngài, mà ở chỗ mỗi người tự làm "toà phán quyết" cho riêng mình — và khi hai cách hiểu chân thành xung đột nhau thì **không có gì để phân xử**.
 
 Chính Kinh Thánh cho thấy việc đọc cần **người hướng dẫn có thẩm quyền**. Khi viên quan người Êthióp đọc ngôn sứ Isaia, ông không nghĩ rằng "cứ có lòng thành là đủ hiểu":
 
