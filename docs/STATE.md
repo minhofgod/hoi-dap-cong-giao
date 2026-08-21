@@ -173,6 +173,23 @@ launched as the coordinator, this is your role:
    owner proofreads → then Sessions 8 (nav/footer + `app/sitemap.ts` routes), 7 (companion
    `defending` link), 3 (`related` links from the 7 anchors + `Hôn nhân khác đạo`) — all flag-gated
    → then the flag on Vercel.
+2h. 🔴 **→ Session 12 — the fact-verification audit is INCOMPLETE and its findings are serious.**
+   Report committed `a6700cc`; resume brief `docs/fact-verification-resume.md`.
+   **Only 6 of 30 Giáo Phụ entries were verified** — 13 verifier agents were killed mid-run by a
+   spend limit, so **entries 7–30 carry no verdict at all.** All 30 are live on the public domain.
+   **Every one of the six checked had problems** — 37 rows, ~6 per entry, 15 definite errors. The
+   pattern is quotations that are *almost* right: Clement of Rome's headline quote contains a phrase
+   in **no** standard translation **and the apostolic-succession argument hangs on it**; Ignatius
+   splices two letters inside one set of quote marks.
+   **Owner decided 2026-08-21:** continue, and raise the spend limit — `CLAUDE.md` says correctness
+   over token cost, and solo verification is both slower and dearer per entry.
+   Order: (1) finish entries 5–6, whose `sections[]` bodies were never opened — they are marked
+   verified but are not, and that false ✔ is how they get skipped forever; (2) **Tertullian, Cyril of
+   Jerusalem, Jerome out of order** — they are quoted *inside* the Q&A clusters, Tertullian 4× incl.
+   the Duy Kinh Thánh capstone, so their quotes do argumentative work; (3) the remaining 21 by
+   fan-out; (4) apply the 15 decided corrections — **into three files**, per the report's S3.
+   Also: `ccc_refs` is empty on all 30, and 5 entries disagree with the site's own VN Catechism.
+   **Công Đồng (21) has not been started at all.**
 **READY — thread 2 (§A) is DONE, both unblocked 2026-08-20**
 3. **Session 13 — evidence-path stage 4** (§B, same doc): "Is God still acting?" — miracles as the
    *final* stage, selecting by tag. Keep the `limits` field and "approval ≠ proof"; lead with the Lourdes
