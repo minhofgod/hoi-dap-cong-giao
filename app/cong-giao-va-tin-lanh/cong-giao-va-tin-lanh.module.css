@@ -2,9 +2,15 @@
 
    Reuses the site's band + list-card system, and shares the evidence path's answer-row furniture
    almost verbatim (app/bang-chung/bang-chung.module.css) because it is the same affordance: a
-   question you open in place. What is deliberately NOT here is the step furniture — no progress
-   bar, no prev/next rail, no numbered jump pills. This path is a root plus three peers, enterable
-   in any order, and borrowing the ladder's chrome would have told the reader to walk it in order.
+   question you open in place.
+
+   It borrows the ladder's prev/next rail too, but NOT its progress bar or numbered jump pills.
+   This started as a flat list of "the other parts" on the grounds that the branches are peers
+   enterable in any order — which was true, and read badly: finishing branch 2 offered branch 1
+   first, so the reader was pointed back at where they had just been (owner, 2026-08-21). A reading
+   order is not a dependency chain. The cards on the landing still let anyone enter anywhere, and
+   the root's intro says out loud that it can be skipped; what the rail adds is simply a sense of
+   forward. The progress bar stays out, because THAT would claim a required sequence.
 
    The one new block is .sharedGround: the landing opens on what the two traditions hold together,
    and it has to LOOK like the main statement of the page rather than a preamble — so it takes the
@@ -497,65 +503,64 @@
   color: var(--accent-deep);
 }
 
-/* ---- "The other parts" ----
-   Where the evidence path has prev/next, this has siblings: the reader finishes a branch and is
-   offered the three they have not read, in no particular order. */
-.siblings {
+/* ---- Prev / next ---- */
+.branchNav {
+  display: flex;
+  gap: 12px;
   margin-top: 36px;
   padding-top: 20px;
   border-top: 1px solid var(--border);
 }
-.siblingsLabel {
-  font-weight: 600;
-  font-size: 11px;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--text-quiet);
-  margin-bottom: 12px;
-}
-.siblingsLabelEnRecessed {
-  font-weight: 500;
-  font-size: 10px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-fainter);
-}
-.siblingList {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 8px;
-}
-.sibling {
+
+.navPrev,
+.navNext,
+.navEmpty {
+  flex: 1 1 0;
+  min-width: 0;
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  gap: 4px;
   padding: 13px 15px;
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-row);
   text-decoration: none;
 }
-.sibling:hover {
-  border-color: var(--accent-deep);
+.navNext {
+  border-color: var(--accent);
   background: var(--accent-tint-2);
+  text-align: right;
 }
-.siblingTitle {
-  flex: 1;
-  min-width: 0;
-  font-size: 14.5px;
+.navPrev:hover,
+.navNext:hover {
+  border-color: var(--accent-deep);
+}
+/* The root has no previous. An empty, borderless cell keeps the "next" card in the right-hand
+   column instead of letting it slide over and look like a "previous". */
+.navEmpty {
+  border-color: transparent;
+}
+
+.navMeta {
+  font-size: 11px;
+  color: var(--text-quiet);
+}
+.navMetaNext {
+  font-size: 11px;
+  color: var(--accent-deep);
+}
+.navMetaEnRecessed {
+  font-size: 10px;
+  color: var(--text-fainter);
+}
+.navTitle {
+  font-size: 14px;
   line-height: 1.42;
   color: var(--text-body);
 }
-.siblingTitleEnRecessed {
+.navTitleEnRecessed {
   font-size: 12.5px;
   line-height: 1.4;
   color: var(--text-faint);
-}
-.siblingArrow {
-  flex: 0 0 auto;
-  color: var(--accent-number);
-  font-size: 17px;
 }
 
 @media (max-width: 760px) {
@@ -589,5 +594,15 @@
   }
   .branchPageTitle {
     font-size: 24px;
+  }
+  .branchNav {
+    flex-direction: column;
+  }
+  .navNext {
+    text-align: left;
+  }
+  /* Stacked, an empty cell is just dead vertical space above the "next" card. */
+  .navEmpty {
+    display: none;
   }
 }

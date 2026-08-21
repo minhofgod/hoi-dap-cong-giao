@@ -49,9 +49,16 @@ export default async function CgTlBranchPage({ params }: { params: Promise<Param
   if (!current) notFound();
 
   const { branch, clusters } = current;
-  // Peers, not "next" — the reader picks, or leaves. Kept in config order so the root stays first
-  // in the list wherever the reader happens to be standing.
-  const siblings = branches.filter((b) => b.branch.slug !== nhanh);
+  // Prev/next through the branches in config order. This was a flat "the other parts" list at
+  // first — the branches ARE peers, enterable in any order — but that read badly in practice:
+  // finishing branch 2 offered branch 1 at the top of the list, pointing the reader back at where
+  // they had just been (owner, 2026-08-21). Ordering them relative to the current branch would
+  // have fixed the symptom; a rail says the useful thing outright, which is simply "there is a
+  // next one". Entry from any branch still works — that is the landing page's job, plus the
+  // back-link above, and the root's intro says it can be skipped.
+  const index = branches.findIndex((b) => b.branch.slug === nhanh);
+  const prev = index > 0 ? branches[index - 1] : null;
+  const next = index < branches.length - 1 ? branches[index + 1] : null;
 
   return (
     <>
@@ -89,30 +96,63 @@ export default async function CgTlBranchPage({ params }: { params: Promise<Param
 
           <CgTlClusters clusters={clusters} />
 
-          <nav className={styles.siblings}>
-            <Bi2
-              value={{ vi: 'Những phần khác', en: 'The other parts' }}
-              as="div"
-              className={styles.siblingsLabel}
-              enRecessedClassName={styles.siblingsLabelEnRecessed}
-            />
-            <ul className={styles.siblingList}>
-              {siblings.map(({ branch: sib }) => (
-                <li key={sib.slug}>
-                  <Link href={`${CG_TL_ROUTE}/${sib.slug}`} className={styles.sibling}>
-                    <Bi2
-                      value={sib.title}
-                      as="span"
-                      className={styles.siblingTitle}
-                      enRecessedClassName={styles.siblingTitleEnRecessed}
-                    />
-                    <span className={styles.siblingArrow} aria-hidden="true">
-                      →
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <nav className={styles.branchNav}>
+            {prev ? (
+              <Link href={`${CG_TL_ROUTE}/${prev.branch.slug}`} className={styles.navPrev}>
+                <Bi2
+                  value={{ vi: '← Phần trước', en: '← Previous' }}
+                  as="span"
+                  className={styles.navMeta}
+                  enRecessedClassName={styles.navMetaEnRecessed}
+                />
+                <Bi2
+                  value={prev.branch.title}
+                  as="span"
+                  className={styles.navTitle}
+                  enRecessedClassName={styles.navTitleEnRecessed}
+                />
+              </Link>
+            ) : (
+              <span className={styles.navEmpty} />
+            )}
+            {next ? (
+              <Link href={`${CG_TL_ROUTE}/${next.branch.slug}`} className={styles.navNext}>
+                <Bi2
+                  value={{ vi: 'Phần sau →', en: 'Next →' }}
+                  as="span"
+                  className={styles.navMetaNext}
+                  enRecessedClassName={styles.navMetaEnRecessed}
+                />
+                <Bi2
+                  value={next.branch.title}
+                  as="span"
+                  className={styles.navTitle}
+                  enRecessedClassName={styles.navTitleEnRecessed}
+                />
+              </Link>
+            ) : (
+              // The last branch. Sending the reader to /giai-dap here would hand a Protestant
+              // reader the whole Catholic Q&A index as their parting screen; the landing is the
+              // better close — it is the page written for them, and its four cards are exactly the
+              // "what else is here" they now want.
+              <Link href={CG_TL_ROUTE} className={styles.navNext}>
+                <Bi2
+                  value={{ vi: 'Hết phần cuối', en: 'End of the last part' }}
+                  as="span"
+                  className={styles.navMetaNext}
+                  enRecessedClassName={styles.navMetaEnRecessed}
+                />
+                <Bi2
+                  value={{
+                    vi: 'Về đầu trang Công Giáo và Tin Lành',
+                    en: 'Back to Catholic and Protestant',
+                  }}
+                  as="span"
+                  className={styles.navTitle}
+                  enRecessedClassName={styles.navTitleEnRecessed}
+                />
+              </Link>
+            )}
           </nav>
         </main>
       </div>
