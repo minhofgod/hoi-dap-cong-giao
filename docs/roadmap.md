@@ -414,6 +414,31 @@ same **CGKPV licensing gate** as the scripture popover (`NEXT_PUBLIC_SCRIPTURE_P
 resolved, the tool can show verse *references* + hand-glosses, not the full CGKPV text.
 
 ## Still open
+
+- **🐛 KNOWN BUG (deprioritized by the owner 2026-08-19, but UNEXPLAINED — not an old-device issue).**
+  On the owner's iPad (**iPadOS 16.2**), the **hamburger menu** and the **buttons inside `/dong-hanh`**
+  do not respond. Owner chose not to fix it for now; recording it accurately so it isn't mis-filed.
+  - **Ruled out** (tested against the live site): hydration failure (React mounts; a companion button
+    click advances the flow), disabled buttons / `pointer-events`, an overlay (the menu panel is
+    conditionally rendered, absent from the DOM when closed), a hydration mismatch from
+    `TONG_LUAN_ENABLED` (build-time `NEXT_PUBLIC_*` constant), a companion sticky-sidebar collision
+    (`DongHanh.module.css` has no media queries/sticky at all), and `(hover:none)/(pointer:coarse)`
+    leaking beyond `SiteHeader.module.css`.
+  - **Also ruled out — the "old iPad" theory.** The bundle needs ~Safari 13.1+ (`?.`, `??`), 14+
+    (`||=`), and **15.4+ (`.at()`)**; **iPadOS 16.2 supports all of them**, so the JS parses and runs.
+    A too-old-WebKit dead-bundle does NOT explain it. **Do not record this as an old-device problem.**
+  - **Not reproduced:** the failing condition is a **wide viewport (~1024px) + coarse pointer**, which
+    the browser tooling can't emulate (touch emulation only engages below 768px). Needs a real iPad or
+    proper device emulation.
+  - **Remaining prime suspect:** commit `a57d078` (Session 8) — `@media (max-width: 899px),
+    (hover: none), (pointer: coarse)` now applies the compact header layout on **any touch device at
+    any width**. Check for overlapping/duplicated header elements at ~1024px coarse-pointer; the menu
+    button's `textContent` reads **"MenuMenu"** (doubled), which may indicate two overlapping buttons.
+  - **Worth re-examining:** `a57d078` was itself an "iPad fix" and changed behavior for **all** touch
+    users. If it's the cause, it may be solving a problem that no longer exists.
+  - **Lanes:** hamburger → **Session 8** (`SiteHeader`); companion buttons → **Session 7**
+    (`components/DongHanh*`). Both failing together suggests one shared cause — have 8 lead.
+
 - **Retrofit external `sources` / citations onto the OLDER content sections — Công Đồng (councils),
   Giáo Phụ (church fathers), Các Thánh (saints).** These were built *before* the `sources` field existed
   (Q&As have it; Miracles/Documents/Popes bake it in). The owner wants to go back and add cited sources so
