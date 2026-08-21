@@ -55,7 +55,9 @@ this file.
 
 | 14 | Tổng luận Thần học (The Summa, Explained) | `docs/tong-luan-verification.md` in pass 1; then `content/tong-luan`, `app/tong-luan`, `lib/tongLuan*` | verifies then builds the 37-chapter Aquinas reader | **specced, not started** — `docs/tong-luan-spec.md`. **Source text is AI-GENERATED = unverified**, so VERIFY FIRST, BUILD SECOND; pilot on the intro + Phần I before committing to all 37. Gate behind `NEXT_PUBLIC_TONG_LUAN`. |
 
-*The next session you start becomes 15.*
+| 15 | Công giáo & Tin Lành (guided path) | `app/cong-giao-va-tin-lanh`, `lib/congGiaoTinLanh*`, its flag file | a guided path through the 42 `protestant-objections` Q&As, written FOR a Protestant reader | **specced, not started** — `docs/cong-giao-tin-lanh-spec.md`. Root (authority) + 3 branches; answers inline. Gated `NEXT_PUBLIC_CG_TL` (default off). Owns NO entry points. |
+
+*The next session you start becomes 16.*
 
 ### The Coordinator session (unnumbered — there is exactly ONE at a time)
 Alongside the lane sessions there's a **coordinator/architect** session — the one the owner talks to
@@ -152,6 +154,17 @@ launched as the coordinator, this is your role:
    `NEXT_PUBLIC_CANVAS` (off in prod), so it can be built safely. **Owner to decide whether to spec
    it** — note the canvas section has been dormant and the flag has never been turned on.
 
+2g. **→ Session 15 (specced 2026-08-20) — `docs/cong-giao-tin-lanh-spec.md`.** A guided path over
+   the **42 Q&As tagged `protestant-objections`** (7 clusters, ~a third of the site), **written to a
+   Protestant reader directly** rather than to a Catholic answering one.
+   **Why it is not the companion's `defending` branch:** that branch reads *"Tôi muốn hiểu và trả
+   lời những phản đối"* — written for a Catholic gathering ammunition, so a Protestant landing there
+   sees they are the thing being answered, not the reader.
+   Own route because the point is **sending someone a link** (a Catholic to a Protestant spouse or
+   sibling) — which no existing surface supports. Deliberately **not** on the homepage.
+   ⚠️ **Tone is the whole risk.** Never "Protestants believe X" (the traditions differ materially);
+   never impute bad faith — see the §E1 *paradosis* near-miss for the model failure. Write each page
+   as if the reader is sitting next to their Catholic spouse.
 **READY — thread 2 (§A) is DONE, both unblocked 2026-08-20**
 3. **Session 13 — evidence-path stage 4** (§B, same doc): "Is God still acting?" — miracles as the
    *final* stage, selecting by tag. Keep the `limits` field and "approval ≠ proof"; lead with the Lourdes
