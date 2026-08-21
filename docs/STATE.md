@@ -83,13 +83,27 @@ launched as the coordinator, this is your role:
 **Open threads (refreshed against the repo 2026-08-20 — verify before trusting; these go stale fast):**
 
 **ACTIVE — in flight**
-0. 🔴 **URGENT — site-wide metadata missing** (`docs/metadata-audit-urgent.md`). ~210 content pages
-   all emit `<title>Hỏi Đáp Công Giáo</title>` + the same description; `og:url` points at the site root
-   on every page (so Facebook/Threads resolve every shared link to the HOMEPAGE card — confirmed in the
-   Sharing Debugger); no canonical tags; `/dong-hanh` + `/video` double the site name in their titles.
-   **This nullifies the per-Q&A OG cards and makes the content undifferentiated to search.** Fix =
-   remove the hardcoded `openGraph.url` in `app/layout.tsx` + add `generateMetadata` to every content
-   route. **Lane exception: ONE session does the whole pass — recommend Session 8.** Highest priority.
+0. ✅ **CLOSED 2026-08-20 — site-wide metadata** (`docs/metadata-audit-urgent.md`, fully addressed).
+   Session 8, commit **`a9074b2`** (25 files). Root cause was the hardcoded `openGraph.url = SITE_URL`
+   in `app/layout.tsx`, which made every shared link resolve to the homepage card. Shipped: a shared
+   **`lib/pageMetadata.ts`** helper (one implementation, no per-section drift) building self-referential
+   canonical + `og:url`; `generateMetadata` on all 9 content detail routes; per-page metadata on all 6
+   section indexes and every standalone page; doubled site-name titles fixed on **5** routes (the brief
+   named 2 — `/tong-luan`, `/tong-luan/[slug]`, `/video/[slug]` had it too). `tsc` + lint clean,
+   verified in dev.
+   - ⚠️ **Cross-lane notice — Sessions 2 / 5 / 9 / 11 / 14 (and 7/13-adjacent gated routes):** Session 8
+     added `generateMetadata` inside routes you own, under the doc's one-session exception. **Metadata
+     only; no other logic touched.** Don't edit those routes' metadata concurrently — coordinate first.
+   - Regression caught and fixed in-flight, worth remembering: **Next merges metadata shallowly**, so
+     overriding `openGraph` on a page *replaces the whole object* and silently dropped the inherited OG
+     card image. Fixed with `resolveParentImages(parent)`. Any future per-page `openGraph` override must
+     carry the parent image forward or it loses its card.
+   - **→ owner (checklist 4–5), after the next deploy:** re-run the **Facebook Sharing Debugger →
+     Scrape Again** (Redirect Path should stop bouncing to `/`), then **request indexing** on a couple of
+     detail URLs in Search Console.
+   - Deliberate non-changes, not blockers: `/tim-kiem` (search — arguably should be `noindex`; note it's
+     already `Disallow`ed in `robots.txt`) and `app/bang-chung/**` (titles already bare/unique, gated off
+     in prod, root fix covers its `og:url`) → **Session 13** can add canonical/per-page OG at launch.
 1. **Session 2 — per-Q&A OG share cards** (`docs/og-share-cards-spec.md`) — *sent 2026-08-20.* Builds
    `app/giai-dap/[slug]/opengraph-image.tsx` so shared links preview the **question** instead of the
    generic site card. Watch the three pitfalls in the spec (font subsetting → VN diacritics, long-question
