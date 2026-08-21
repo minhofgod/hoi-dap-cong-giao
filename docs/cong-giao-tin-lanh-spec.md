@@ -96,16 +96,24 @@ intro per branch. Everything else is existing, proofread content.
 
 ---
 
-## Naming — owner's call
+## Naming — LOCKED 2026-08-20
 
-Route and label should name **both** traditions and target neither. Options, VI / EN:
+**VI `Công Giáo và Tin Lành` · EN `Catholic and Protestant` · route `/cong-giao-va-tin-lanh`.**
 
-- **Công giáo và Tin Lành** / *Catholic and Protestant* — plain, mutual, descriptive. *(recommended)*
-- **Những câu hỏi giữa chúng ta** / *The questions between us* — warmest; frames it as shared enquiry.
-- **Người Tin Lành thường hỏi** / *Questions Protestants often ask* — clearest about content, but puts
-  the reader in a category.
+Use it verbatim for the page title, the `<title>`, the OG card, and every entry-point label — one
+name everywhere, no variants.
 
-❌ **Not** *"Trả lời người Tin Lành"* — makes the reader the object being answered.
+It names **both** traditions and targets neither, which is the point: the title itself should not
+tell the reader they are a problem to be solved.
+
+*(Considered and rejected: "Những câu hỏi giữa chúng ta" — warm but tells a cold arrival nothing;
+"Người Tin Lành thường hỏi" and "Gửi anh chị em Tin Lành" — clearer about audience, but put the
+reader in a category before they read a word; "Điều Hội Thánh Công giáo thật sự dạy" — too long, and
+it describes the **whole site**, so it fails to distinguish this surface. And ❌ never "Trả lời
+người Tin Lành", which makes the reader the object being answered.)*
+
+⚠️ **The title is mutual; the CONTENT is still written to a Protestant reader in the second person.**
+A neutral name does not soften the audience decision — see the voice section above.
 
 ---
 

@@ -55,7 +55,7 @@ this file.
 
 | 14 | Tổng luận Thần học (The Summa, Explained) | `docs/tong-luan-verification.md` in pass 1; then `content/tong-luan`, `app/tong-luan`, `lib/tongLuan*` | verifies then builds the 37-chapter Aquinas reader | **specced, not started** — `docs/tong-luan-spec.md`. **Source text is AI-GENERATED = unverified**, so VERIFY FIRST, BUILD SECOND; pilot on the intro + Phần I before committing to all 37. Gate behind `NEXT_PUBLIC_TONG_LUAN`. |
 
-| 15 | Công giáo & Tin Lành (guided path) | `app/cong-giao-va-tin-lanh`, `lib/congGiaoTinLanh*`, its flag file | a guided path through the 42 `protestant-objections` Q&As, written FOR a Protestant reader | **specced, not started** — `docs/cong-giao-tin-lanh-spec.md`. Root (authority) + 3 branches; answers inline. Gated `NEXT_PUBLIC_CG_TL` (default off). Owns NO entry points. |
+| 15 | Công Giáo và Tin Lành (guided path) | `app/cong-giao-va-tin-lanh`, `lib/congGiaoTinLanh*`, its flag file | a guided path through the 42 `protestant-objections` Q&As, written FOR a Protestant reader | **specced, not started** — `docs/cong-giao-tin-lanh-spec.md`. Root (authority) + 3 branches; answers inline. Gated `NEXT_PUBLIC_CG_TL` (default off). Owns NO entry points. |
 
 *The next session you start becomes 16.*
 
