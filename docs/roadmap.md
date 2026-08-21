@@ -443,7 +443,7 @@ chứng nào cho thấy **điều này** là thật không?"*, which worked only
 thấy khó tin"*. As a top-level door the parent is gone and *điều này* refers to nothing. Naming the
 subject also lines the door up with the destination's own locked name, *Bằng chứng về Chúa Giêsu*.
 **Check every promoted label for this** — they were all written as children. *("có thật" matches the
-phrasing the intake already uses in : "Thiên Chúa có thật không, và Ngài là ai?")*
+phrasing the intake already uses in the old `explore-god`: "Thiên Chúa có thật không, và Ngài là ai?")*
 
 **Cuts, with the reasoning (owner's audit):**
 
