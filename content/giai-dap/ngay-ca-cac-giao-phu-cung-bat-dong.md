@@ -10,6 +10,8 @@ refs_scripture: []
 sources:
   - label: "Catholic Encyclopedia (1913), \"Canon of the New Testament\""
     url: "https://www.newadvent.org/cathen/03274a.htm"
+  - label: "Eusêbiô Xêdarêa, Lịch sử Giáo hội (Ecclesiastical History) III, 25 — phân biệt sách \"được công nhận\" với sách \"còn tranh cãi\""
+    url: "https://www.newadvent.org/fathers/250103.htm"
 featured: false
 part_of: "chi-can-kinh-thanh-sola-scriptura-co-dung-khong"
 related:
