@@ -80,110 +80,64 @@ launched as the coordinator, this is your role:
 - **Replaceable:** when the conversation gets long/expensive, the owner starts a fresh coordinator. That's
   safe *because* the decisions live in these docs + memory — so **keep writing them down.**
 
-**Open threads (update as they close — 2026-08-18):**
-1. **Session 8 — highest value, SPECCED & ready:** `docs/nav-and-phep-la-wiring.md`. Design the nav
-   shape (owner's call 2026-08-18: *Session 8 designs it*, constraints in the doc — design for ~9
-   sections, not 7), confirm with the owner, then wire **Phép Lạ** (live since 4fbd36e with no
-   homepage card, nav item, **or footer link** — URL-only). Saints already wired. *A finished section
-   nobody can find is the most expensive kind of unfinished work.*
-2. **CLOSED 2026-08-18 — `docs/proofread-fixes-round1.md` §A/§B/§C** landed in `83b3cc7` (Session 3).
-   Both pastoral clusters got NEW general anchors (`nguoi-cong-giao-doi-dien-voi-dau-kho`,
-   `khi-bi-bach-hai-vi-duc-tin-nen-lam-gi`), banners included. **Two owner follow-ups:** (a) those are
-   two new *pastoral* Q&As that shipped without sign-off — read them against the content-guide
-   "Pastoral tone" rule during proofreading; (b) `can-gi-gia-nhap-hoi-thanh` was added to the
-   `tai-sao-chua-giesu-chiu-dong-dinh` anchor's `parts:` (merged into the article) — the standing rule
-   is *ask first, default to `related`*, and §C4 specified `related`. Owner to confirm keep-or-move.
-3. **CLOSED 2026-08-18 — §D sidebar scrollspy** landed in `1a69e19` (Session 2).
-   `docs/proofread-fixes-round1.md` is now **fully resolved** (§E → thread 4).
-3c. **→ Session 3 (coordinator check of the 23 new Q&As, 2026-08-20).** The `sources` pattern across
-   the four new clusters is right — history-making answers cite, doctrinal ones rest on CCC. **One
-   defect:** `luther-chi-don-dep-lam-dung-hay-di-xa-hon` has **`refs_ccc: []`, `refs_scripture: []`, and
-   no `sources`** — *no citations of any kind*, against the good-Q&A checklist's "**≥1 `refs_ccc`**".
-   It's also the worst candidate for it: it argues the Reformation went beyond fixing the indulgence
-   abuse to changing core doctrine, names Tetzel and Trent, and is aimed at Protestant readers. Add CCC
-   refs and `sources` (every citation web-verified). **Secondary:** `sao-giao-hoang-leo-x-cho-dong-tien-
-   lanh-an-xa` and `ngay-ca-cac-giao-phu-cung-bat-dong` carry one citation each — thin for how hard the
-   Leo X / St Peter's / Tetzel story gets attacked; consider a second.
-3b. **NEW → Session 3 (from the owner's proofreading pass, 2026-08-18).** Write the objection:
-   *"He's God, so his 'sacrifice' doesn't really mean much — he can just resurrect himself. Like a
-   very rich person giving away a few thousand dollars."* Belongs in the **crucifixion cluster**
-   (`tai-sao-chua-giesu-chiu-dong-dinh`) next to `song-tot-ca-doi-sao-khong-tu-tra-het-toi` and
-   `chua-giesu-la-thien-chua-sao-khong-tu-cuu-minh`. Per the revised rule (`docs/content-guide.md`)
-   adding it to the anchor's `parts:` is fine — **and then un-tick the anchor in the proofreading
-   tracker again**, plus add the new part's row. Theologically subtle (real human suffering, the
-   cost being genuine, who the offering is made by and to): **anchor to the Catechism + magisterial
-   documents and verify — do not reason it out from memory.**
-4. **DECIDED 2026-08-18 — §E "walk through the evidence for Jesus": a linear learning path, NOT a
-   companion branch.** Specced in `docs/evidence-path-spec.md` (4 stages over 4 already-proofread
-   clusters; `/bang-chung` + route-per-stage; composes with the companion rather than duplicating it).
-   **Parked behind the launch gate — do not start before the domain is live.** Then: Session **12**
-   builds it, Session 8 wires entry points **+ the new sitemap routes**, Session 7 adds the
-   `doubt-evidence` CTA. **Name locked: `Bằng chứng về Chúa Giêsu` / `The Evidence for Jesus`,
-   route `/bang-chung`.** **BUILD STARTED 2026-08-18 as Session 13, gated LOCAL-ONLY behind
-   `NEXT_PUBLIC_EVIDENCE_PATH` (default off — do NOT set it on Vercel).** No staging exists, so the
-   flag *is* the gate; it flips on only after the owner proofreads the four bridge paragraphs.
-4b. **Fact-verification audit — Session 12, specced 2026-08-18:** `docs/fact-verification-audit-spec.md`.
-   Giáo Phụ (30) then Công Đồng (21) — the two sections authored before the verify-facts rule and
-   before `sources` existed. Owner's decision: hard facts get delegated to a verification agent
-   (he can't verify them himself and would rather not guess); VN terminology folded in since the
-   entry is open anyway and Giáo Phụ carries the content-guide's standing ⚠️. Two passes: report →
-   owner approves → apply. **Not a launch blocker** — can run after the domain is live.
-5. **Specced, not spawned:** Văn Kiện Hội Thánh (`docs/van-kien-spec.md`) and Các Đức Giáo Hoàng
-   (`docs/cac-giao-hoang-spec.md`). Pace them — both are fact-dense.
-6. **Content loop** — owner drafts with Grok (`docs/grok-content-prompts.md`), a session **fact-checks
-   every draft** before it ships. Owner is mid pre-launch **proofreading pass** (offline Obsidian tracker).
-7. **Backlog** — PD images for Saints + Miracles (both use honest `available:false` empty states);
-   retrofit `sources` onto councils/fathers/saints (roadmap "Still open"); audio reader (owner to run an
-   ElevenLabs Vietnamese voice test first); `docs/check-sources-spec.md` is parked by design.
-8. **Gate:** the owner is proofreading everything before pointing the GoDaddy domain at the site.
-9. **CLOSED 2026-08-18 — companion naming.** `docs/roadmap.md` had locked a rename to "Đi Tìm Lời Giải
-   / Find Answers" (`/tim-loi-giai`) on 2026-08-15; it was never executed and every file still said
-   `Đồng hành` / `/dong-hanh`. **Owner confirmed the current name stands — keep `Đồng hành`.** The
-   roadmap entry now records the reversal. If you spot the old decision, the CODE is right; don't
-   "fix" it.
-10. **Housekeeping:** `track.tmp` (sync-tracker output) is untracked in the repo root — gitignore or
-    delete it, don't commit it. A stale worktree sits at `.claude/worktrees/sleepy-yalow-821f8a/`.
-10b. **Migrated from `PROGRESS.md` when it was slimmed (2026-08-19)** — still live:
-    - **The `churchFathersV2` migration was never finished, and it's SPREADING.** The V1
-      `lib/churchFathers.ts` is still imported by `app/page.tsx`, `app/tim-kiem/page.tsx`,
-      `components/Bi.tsx` — **and now `lib/evidencePathStages.ts`**, i.e. brand-new code (Session 13)
-      picked up the dead layer. Finish the migration and delete V1, or it keeps propagating. Crosses
-      lanes (8 · 2 · 13) → coordinator to route.
-    - **Footer credits — CORRECTED 2026-08-19.** The `[nguồn]` / `[tên]` placeholders are inside a JSX
-      comment in `app/page.tsx` (~line 490), so **nothing placeholder-ish is live** — an earlier note
-      here implied it was. The real issue is the opposite: **the footer shows no credits at all.** The
-      site renders the CGKPV Catechism translation and public-domain patristic texts with **no
-      attribution line anywhere**, which sits oddly beside the TASL image-attribution rule we just
-      adopted. **Needs an owner decision on the wording** (how to credit the Giáo Lý translation, and
-      what name goes in "Thực hiện bởi"), then **Session 8** uncomments and fills it.
-    - Canvas `/so-do`: finalize the remaining Obsidian canvases, then publish (flag + a
-      `/so-do/<slug>` page + `CANVAS_FOR` entry per topic).
-    - Catechism title i18n — see the `todo-catechism-title-i18n` memory.
-    - *(Two of its TODOs were verified DONE and dropped: all 30 Giáo Phụ portraits are in, and all 3
-      videos now have `.en.md` bodies.)*
-10c. **→ Session 8, pre-launch shell gaps (found 2026-08-19).** The global shell is missing four
-    App-Router files. Ranked by what actually costs you at launch:
-    - **No Open Graph metadata and no `app/opengraph-image`.** `app/layout.tsx` sets only `title` +
-      `description` — no `openGraph`/`twitter` block. **A link shared to Facebook or Zalo therefore
-      renders as a bare URL with no title, description, or image.** For a Vietnamese Catholic site
-      whose audience spreads links in groups and chats, that is the single biggest cheap win here.
-      `metadataBase` is already set (`lib/siteUrl.ts`), so an OG image will resolve correctly.
-    - **No `app/not-found.tsx`.** The site serves Next's bare default 404 — no header, no nav, no way
-      back. This matters *more* here than on most sites because **flag-gating deliberately 404s real
-      routes** (`/bang-chung`, `/so-do`), so 404s are a designed-in path, not just typos.
-    - **No `app/error.tsx`** — an unhandled error shows the default error screen.
-    - Minor: no `app/manifest.ts`, no `apple-icon`. `app/icon.svg` exists.
-    Also worth considering: a `title.template` (e.g. `%s · Hỏi Đáp Công Giáo`) so pages stop repeating
-    the site name by hand.
-11. **SEO / launch (added 2026-08-18, coordinator — `c8480e1`).** The site had **no sitemap at all**,
-    which is what Search Console was erroring on. Added `app/sitemap.ts`, `app/robots.ts`, and
-    `lib/siteUrl.ts` (**the single source of truth for the public origin** —
-    `https://hoidapconggiao.com`, overridable via `NEXT_PUBLIC_SITE_URL`), plus `metadataBase` in
-    `app/layout.tsx`. **→ Session 8:** these are shell files in your neighbourhood — don't add a second
-    sitemap, and take the domain from `lib/siteUrl.ts` rather than hard-coding it anywhere.
-    **New routes must be added to `app/sitemap.ts`** (it derives from the same loaders as
-    `generateStaticParams`, so new *content* is automatic — only new *routes* need an edit), and any
-    flag-gated route must stay gated there too, or Google gets URLs that 404 in production.
+**Open threads (refreshed against the repo 2026-08-20 — verify before trusting; these go stale fast):**
+
+**ACTIVE — in flight**
+1. **Session 2 — per-Q&A OG share cards** (`docs/og-share-cards-spec.md`) — *sent 2026-08-20.* Builds
+   `app/giai-dap/[slug]/opengraph-image.tsx` so shared links preview the **question** instead of the
+   generic site card. Watch the three pitfalls in the spec (font subsetting → VN diacritics, long-question
+   clamping, curly quotes) and the Facebook-debugger verification.
+2. **Session 11 — miracles taxonomy (§A)** (`docs/miracles-taxonomy-and-evidence-stage.md`) — **the
+   unblocker; send next.** Miracles carry `type`/`status`/`related_saint` but **no taxonomy `tags`**, so
+   18 entries are invisible to every automatic cross-link. Adding tags unlocks Q&A↔miracle links
+   (Eucharist→Lanciano, Mary→Lộ Đức), the companion pool, search, and lets evidence stage 4 select by tag.
+3. **Session 8 — revisit `a57d078`.** Its stated rationale ("the inline language toggle doesn't receive
+   taps on iPadOS") is **disproven** — the real cause was the Safari <16.4 JS failure (thread 6). The
+   commit routes *every* touch device to the compact header at any width, hiding the VI/EN toggle behind
+   the menu. **Verify on a real iPad now that JS runs, then likely revert to width-only** — and fix the
+   CSS comment, which still documents the wrong root cause.
+
+**BLOCKED on thread 2**
+4. **Session 13 — evidence-path stage 4** (§B, same doc): "Is God still acting?" — miracles as the
+   *final* stage, selecting by tag. Keep the `limits` field and "approval ≠ proof"; lead with the Lourdes
+   Medical Bureau (a body that *rejects* most claims persuades this audience).
+5. **Session 7 — miracles into the companion pool** (§A2) as a resource kind, mirroring `'video'`.
+
+**CLOSED (verified in the repo 2026-08-20 — do not re-send)**
+6. **Safari <16.4 got ZERO JavaScript site-wide** → FIXED `dc8f1e9` (`browserslist: ["defaults",
+   "safari >= 15"]`); verified 0 `static {` blocks in the deployed chunks. Case study + portable lessons:
+   **`docs/web-project-checklist.md`**. Key heuristic: *links work but buttons don't → JS isn't running;
+   stop looking at CSS.*
+7. **Session 8 — nav redesign + Phép Lạ wiring + `/bang-chung` entry points.** Done: Phép Lạ is in the
+   nav and on the homepage; `/bang-chung` has card, nav, and 4 sitemap routes.
+8. **Session 3 — the "his sacrifice cost him nothing" objection** → written as
+   `hy-sinh-cua-chua-giesu-co-that-su-lon-khong`, already in the crucifixion anchor's `parts:`.
+9. **Session 3 — citation defect** on the Indulgences/Reformation Q&A → fixed `9e6f8eb`.
+10. **`docs/proofread-fixes-round1.md`** fully resolved (§A/§B/§C `83b3cc7`, §D scrollspy `1a69e19`).
+    **§E decided:** the evidence walk is a *linear learning path*, not a companion branch → built as
+    Session 13, `/bang-chung`, flag-gated.
+11. **Companion naming** — SETTLED as `Đồng hành` / `/dong-hanh`; the paper rename to "Đi Tìm Lời Giải"
+    was never executed and is superseded. Don't "fix" it.
+
+**OWNER'S TRACK (not routed to a session)**
+12. **Pre-launch proofreading** — the gate before pointing the GoDaddy domain at the site. Offline
+    tracker in Obsidian (*Hỏi Đáp — Proofreading Tracker*); ~215 pieces, re-sync it as content lands.
+13. **Content ideas approved, not yet specced:** ⭐ **ancestor veneration (thờ cúng ông bà tổ tiên)** —
+    the most distinctive gap on the site; Vietnamese Catholic history (incl. quốc ngữ); "how to go to
+    confession"; cultural objections (*"đạo nào cũng tốt"*). Prayers → decided to live on **Visual
+    Rosary** instead (prayer *texts* there; *questions about* prayer stay here).
+14. **Features approved, not yet specced:** feast-day / liturgical-calendar hook; offline/PWA; a
+    "start here" path for the newly curious.
+15. **Backlog:** retrofit `sources` onto Councils/Fathers/Saints · 5 remaining saint portraits · audio
+    reader (owner to run an ElevenLabs Vietnamese voice test first) · advanced search / topical-verse
+    tool (retrieval-first, **no LLM generating theology**) · English translation strategy (hand-authored
+    vs machine — undecided) · `docs/check-sources-spec.md` parked by design.
+16. **Specced, not spawned:** Văn Kiện Hội Thánh (`docs/van-kien-spec.md`), Các Đức Giáo Hoàng
+    (`docs/cac-giao-hoang-spec.md`), fact-verification audit of Fathers + Councils, development-of-
+    doctrine cluster (`docs/proofread-fixes-round2-sola-scriptura.md` §G).
+
+**Standing note:** the bottleneck has shifted from *making* content (~215 pieces) to *helping people
+find it*. Rank work as: (1) can they use it? (2) can they find it? (3) is there more of it?
 
 **Coordination watch-points (the only places lanes could touch):**
 - **1 & 3 are both content** — keep them disjoint: **1 owns `content/video`**, **3 owns `content/giai-dap`**. Don't have both editing the same folder at once.
