@@ -141,3 +141,42 @@ A neutral name does not soften the audience decision — see the voice section a
 | 5 | owner | Pick the name; proofread the framing text; then set the flag on Vercel. |
 
 **Sequencing:** 1 → 2/3/4 in parallel → owner proofreads → flag on.
+
+---
+
+## BUILT 2026-08-21 (Session 15) — the combined entry-point request
+
+Commit `4ab3ae0`. `/cong-giao-va-tin-lanh` (landing) + 4 branch routes, all behind
+`NEXT_PUBLIC_CG_TL`. Verified with the flag off: the landing returns **HTTP 404**,
+`generateStaticParams` yields no branch paths, and no framing prose is in the built HTML.
+
+**Two corrections to this spec, from the actual content:**
+
+- **58 answers, not 42.** The seven clusters hold all 42 tagged Q&As *plus 16 that were never
+  tagged* but are plainly the same conversation (Abraham's justification, the good thief, whether
+  the early Fathers opposed images, and two of the anchors themselves). Filtering on the tag would
+  have dropped Abraham and the good thief out of a branch about salvation, so the path walks whole
+  clusters. Every per-cluster count in the structure table above is still exactly right. No Q&A
+  belongs to two of these clusters, so nothing renders twice.
+- **The "Mary and the saints" branch is thinner on Mary than the name implies** — only two of its
+  16 answers are Marian, both inside the images cluster, and the site has no cluster on the Marian
+  dogmas. The name is kept (it is what a reader is looking for), and the branch intro says the gap
+  out loud rather than papering over it. **A content lane could close this.**
+
+**The four branch routes** (needed by 8 and 3): `kinh-thanh-va-quyen-binh` (root) · `on-cuu-do` ·
+`hoi-thanh-va-bi-tich` · `duc-me-va-cac-thanh`.
+
+| Session | The ask — all of it gated on `CG_TL_ENABLED` (`lib/congGiaoTinLanhFlag.ts`) |
+|---|---|
+| **8** | Nav/footer treatment (**not** the homepage — owner's call) **and `app/sitemap.ts`**: the landing plus the 4 branch routes. Content is automatic in the sitemap; **new ROUTES are not**, and this path currently has zero rows. Import the route list from `getResolvedBranches()`, the way the `/bang-chung` block already does. |
+| **7** | One link from the companion's `defending` branch. Worth saying in the label that the destination is written *to* a Protestant reader — a Catholic arriving from `defending` should know they are being handed something to share, not more ammunition. |
+| **3** | `related`-style links from the Sola Scriptura anchor, the other 6 cluster anchors, and `Hôn nhân khác đạo`. Point each at its own branch, not the landing, except `Hôn nhân khác đạo` which should go to the landing. |
+
+**Do not turn the flag on** until the owner has proofread the five pieces of framing text — all of
+them in `lib/congGiaoTinLanhPath.ts`, and tracked as their own section in the proofreading tracker.
+
+**One known issue, not blocking:** a branch page ships 150–245KB of HTML, because the answer bodies
+are serialized into the RSC payload as props even though only the expanded one is in the DOM. The
+same is true of `/bang-chung` (whose code comment overstates this — see
+`components/cong-giao-tin-lanh/CgTlClusters.tsx`). Fixing it means fetching a body on expand, which
+belongs to both paths at once.
