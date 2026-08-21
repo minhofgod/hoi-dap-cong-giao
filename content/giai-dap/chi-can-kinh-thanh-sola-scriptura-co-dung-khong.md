@@ -14,6 +14,7 @@ parts:
   - "kinh-thanh-da-du-chua-sao-con-can-gi-nua"
   - "ai-quyet-dinh-sach-nao-thuoc-kinh-thanh"
   - "ngay-ca-cac-giao-phu-cung-bat-dong"
+  - "thanh-than-huong-dan-moi-nguoi-sao-van-chia-re"
   - "chua-giesu-len-an-truyen-thong-trong-macco-7"
   - "nguoi-berea-tra-cuu-kinh-thanh-moi-ngay"
   - "khai-huyen-22-cam-them-vao-kinh-thanh"
