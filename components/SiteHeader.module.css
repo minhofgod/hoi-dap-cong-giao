@@ -178,14 +178,18 @@
   padding: 14px 8px 4px;
 }
 
-/* ---- Compact / touch layout: hide the inline actions, make the button an icon-only hamburger, and
-   drop the menu full-width with the language toggle inside. ----
-   Applies below 900px OR on any TOUCH device (coarse pointer / no hover) at any width. The second
-   condition is the important one: the inline language toggle in .actions does not reliably receive
-   taps on iPadOS WebKit, but the same toggle inside the menu panel does (it's what iPhone uses). A
-   plain width breakpoint can't separate an iPad from a same-width laptop, so we route by input type —
-   touch → the reliable menu path; mouse/trackpad desktops keep the inline toggle. */
-@media (max-width: 899px), (hover: none), (pointer: coarse) {
+/* ---- Compact layout (below 900px): hide the inline actions, make the button an icon-only
+   hamburger, and drop the menu full-width with the language toggle inside. ----
+   Gated on WIDTH ONLY — deliberately no (hover: none) / (pointer: coarse) branch.
+   History (don't re-add the pointer routing): a57d078 once routed every touch device here at any
+   width, believing the inline language toggle "did not reliably receive taps on iPadOS WebKit."
+   That diagnosis was wrong. The real bug was an ES2022 class static block (`static {}`, Safari
+   16.4+) in a Next chunk that SyntaxError'd at parse time on the owner's iPad (Safari 16.2), so NO
+   JavaScript ran site-wide — the hamburger, companion, and filter chips were all dead, not just the
+   toggle. Fixed in dc8f1e9 via browserslist "safari >= 15" (see package.json). The toggle is a
+   plain <button onClick> with nothing overlaying it, so it takes taps fine now that JS runs; touch
+   users at tablet/desktop widths get the inline toggle back. Route by width, never by input type. */
+@media (max-width: 899px) {
   .header {
     padding: 0 var(--mobile-gutter);
     gap: 10px;
