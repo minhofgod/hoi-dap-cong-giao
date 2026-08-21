@@ -33,11 +33,17 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
-// Render per request so the hero can open on a RANDOM featured question each load (the pick happens
-// in the component below). Same trade-off the /cong-dong and /giao-phu indexes already make for their
-// random "featured" rows; the heavy work (mapping + ref resolution) stays at module scope, so a
-// request only pays for a shuffle.
-export const dynamic = 'force-dynamic';
+// The hero opens on a RANDOM featured question — the shuffle runs in the component below.
+//
+// ISR, deliberately NOT `force-dynamic` (changed 2026-08-20). This is the site's most-visited page
+// and the first one crawlers and social scrapers hit, so it stays statically cached and is
+// regenerated once a minute; the featured question still rotates, without paying a serverless
+// render on every single visit. `force-dynamic` would buy per-*load* randomness at the cost of
+// static delivery of the homepage — not a trade worth making here.
+//
+// (`/cong-dong` and `/giao-phu` still use `force-dynamic` for their random featured rows. Lower
+// traffic, and their own sessions' call — but the same swap would suit them.)
+export const revalidate = 60;
 
 // First two body paragraphs as a plain-text teaser (drop quotes, headings, lists, and Markdown).
 function ledeParagraphs(bodyRaw: string, count = 2): string[] {
