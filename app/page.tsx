@@ -22,6 +22,7 @@ import { ReadingProgressBar, PartProgressBar } from '@/components/ReadingProgres
 import { BrandMark } from '@/components/BrandMark';
 import { DongHanhCta } from '@/components/DongHanhCta';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
+import { CG_TL_ENABLED } from '@/lib/congGiaoTinLanhFlag';
 import { T } from '@/components/T';
 import type { Metadata } from 'next';
 import styles from './page.module.css';
@@ -596,6 +597,11 @@ export default function HomePage() {
             {EVIDENCE_PATH_ENABLED && (
               <Link href="/bang-chung" className={styles.footerLink}>
                 <T vi="Bằng chứng về Chúa Giêsu" en="The Evidence for Jesus" />
+              </Link>
+            )}
+            {CG_TL_ENABLED && (
+              <Link href="/cong-giao-va-tin-lanh" className={styles.footerLink}>
+                <T vi="Công Giáo và Tin Lành" en="Catholic and Protestant" />
               </Link>
             )}
           </div>

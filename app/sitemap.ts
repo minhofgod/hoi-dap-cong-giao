@@ -12,6 +12,9 @@ import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
 import { getResolvedStages } from '@/lib/evidencePath';
 import { TONG_LUAN_ENABLED } from '@/lib/tongLuanFlag';
 import { getAllChapters } from '@/lib/tongLuan';
+import { CG_TL_ENABLED } from '@/lib/congGiaoTinLanhFlag';
+import { getResolvedBranches } from '@/lib/congGiaoTinLanh';
+import { CG_TL_ROUTE } from '@/lib/congGiaoTinLanhPath';
 import { SITE_URL } from '@/lib/siteUrl';
 
 // Every URL is derived from the SAME loader each route's generateStaticParams uses, so the sitemap
@@ -125,6 +128,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: url(`/tong-luan/${c.slug}`),
         changeFrequency: 'yearly' as const,
         priority: 0.6,
+      }))
+    );
+  }
+  // Công Giáo và Tin Lành (/cong-giao-va-tin-lanh) landing + its 4 branch routes. Branch URLs come
+  // from getResolvedBranches() — the same loader the branch route's generateStaticParams uses — so
+  // the sitemap can never list a branch that wasn't built. New ROUTES aren't automatic; this block
+  // is what keeps the path from launching with no sitemap entry.
+  if (CG_TL_ENABLED) {
+    entries.push({ url: url(CG_TL_ROUTE), changeFrequency: 'monthly', priority: 0.8 });
+    entries.push(
+      ...getResolvedBranches().map((b) => ({
+        url: url(`${CG_TL_ROUTE}/${b.branch.slug}`),
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
       }))
     );
   }

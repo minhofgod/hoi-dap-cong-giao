@@ -16,6 +16,7 @@ import {
   Compass,
   Route,
   Library,
+  Handshake,
   type LucideIcon,
 } from 'lucide-react';
 import { BrandMark } from './BrandMark';
@@ -25,6 +26,7 @@ import { useLang } from '@/lib/giao-phu/useLang';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
 import { TONG_LUAN_ENABLED } from '@/lib/tongLuanFlag';
+import { CG_TL_ENABLED } from '@/lib/congGiaoTinLanhFlag';
 import styles from './SiteHeader.module.css';
 
 interface NavLink {
@@ -47,6 +49,9 @@ const NAV: NavLink[] = [
   { href: '/giai-dap', vi: 'Giải Đáp', en: 'Q&A', icon: MessagesSquare },
   ...(EVIDENCE_PATH_ENABLED
     ? [{ href: '/bang-chung', vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus', icon: Route } as NavLink]
+    : []),
+  ...(CG_TL_ENABLED
+    ? [{ href: '/cong-giao-va-tin-lanh', vi: 'Công Giáo và Tin Lành', en: 'Catholic and Protestant', icon: Handshake } as NavLink]
     : []),
   { href: '/giao-ly', vi: 'Giáo Lý', en: 'Catechism', icon: BookOpen },
   ...(TONG_LUAN_ENABLED
