@@ -13,8 +13,13 @@ parts:
   - "xung-toi-co-nghich-dang-trung-gian-duy-nhat"
   - "1-gioan-1-9-xung-toi-voi-chua-la-du-roi"
   - "xung-toi-rieng-co-phai-bia-dat-thoi-trung-co"
+  - "xung-toi-voi-tu-te-co-goc-trong-cuu-uoc-khong"
+  - "linh-muc-co-tiet-lo-dieu-toi-xung-khong"
 related:
   - "cau-nguyen-voi-cac-thanh-co-phai-boi-toan"
+  - "duc-tin-va-viec-lam"
+  - "an-xa-la-gi-co-phai-mua-on-tha-toi"
+  - "chua-giesu-chuoc-toi-nghia-la-gi"
 ---
 
 **Bạn hoàn toàn có thể — và nên — xưng tội thẳng với Thiên Chúa.** Ngài luôn lắng nghe một tấm lòng chân thành. Bí tích Hòa Giải **không thay thế** việc cầu nguyện riêng ấy. Nhưng sau khi sống lại, chính Chúa Giêsu đã cố ý trao cho các Tông đồ quyền tha tội nhân danh Người:
