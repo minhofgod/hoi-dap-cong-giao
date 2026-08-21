@@ -83,11 +83,37 @@ Split into two sentences; the argument is good, the sentence is overloaded.
 ## E. ⚠️ VERIFY BEFORE USING — two claims that could be rebutted · Session 3
 Per `CLAUDE.md` "Verify facts before they ship."
 
-**E1 — *paradosis* translated "teaching" instead of "tradition."** Real and worth making (2 Th 2,15;
-1 Cr 11,2 — Greek *παράδοσις* = tradition; some English versions render it "teachings"/"ordinances").
-**But the owner asked whether Vietnamese translations do the same — do NOT assume they do.** Check an
-actual Vietnamese Protestant Bible before claiming it; if VN versions render it "truyền thống" properly,
-the point doesn't apply to a VN reader and should be dropped or reframed as an English-translation note.
+**E1 — *paradosis* translated "teaching" instead of "tradition." ✅ VERIFIED 2026-08-20 (coordinator).
+The claim is HALF true — do NOT write it as stated.**
+
+**CGKPV (Catholic) uses the plain word in both verses:**
+- **2 Th 2,15** — "nắm giữ **các truyền thống** chúng tôi đã dạy cho anh em"
+- **1 Cr 11,2** — "nắm giữ **các truyền thống** tôi đã để lại cho anh em"
+
+**Vietnamese Protestant versions are SPLIT** (1 Cr 11,2, verified via HTTLVN's own comparison tool):
+
+| Version | Renders *paradosis* as |
+|---|---|
+| **VI1934 / Bản Truyền Thống** (oldest, most used) | "những điều **dạy dỗ**" — *teachings* |
+| **BPT** (Bản Phổ Thông) | "những điều tôi **khuyên dạy**" — *instructions* |
+| **RVV11** (HTTLVN's own 2011 revision) | "**các truyền thống**" — *traditions* |
+| **BD2011** | "những **truyền thống**" — *traditions* |
+
+2 Th 2,15 in VI1934 likewise reads "vâng giữ **những điều dạy dỗ**".
+
+⚠️ **So "Protestant Bibles hide the word" is false as a general claim** — RVV11 and BD2011 say
+*truyền thống* exactly as CGKPV does. Writing it as stated would be **inaccurate and uncharitable**,
+against the content-guide's charitable-tone rule, and trivially rebutted by any reader holding an RVV11.
+
+**Better argument — and it doesn't depend on translation at all.** Scripture uses **the same Greek word
+*paradosis*** for the tradition Paul tells us to *hold fast* (2 Th 2,15; 1 Cr 11,2) and for the "truyền
+thống của loài người" Jesus *condemns* (Mc 7,8-13). So the Bible itself doesn't reject tradition as
+such — it distinguishes **apostolic** tradition from merely **human** tradition. That is the real point,
+it stands on the Greek rather than on any translator's choice, and it can't be rebutted by producing a
+different Vietnamese Bible.
+
+*(If a translation note is still wanted, phrase it narrowly: "the older Bản Truyền Thống renders it
+'điều dạy dỗ'; newer versions such as RVV11 use 'truyền thống'" — factual, no accusation.)*
 
 **E2 — the *apostellō* argument. ✅ VERIFIED 2026-08-20 (coordinator) — the argument WORKS, but move it
 to a different verse.**
