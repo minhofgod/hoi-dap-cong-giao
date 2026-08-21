@@ -83,8 +83,21 @@ Split into two sentences; the argument is good, the sentence is overloaded.
 ## E. ⚠️ VERIFY BEFORE USING — two claims that could be rebutted · Session 3
 Per `CLAUDE.md` "Verify facts before they ship."
 
-**E1 — *paradosis* translated "teaching" instead of "tradition." ✅ VERIFIED 2026-08-20 (coordinator).
-The claim is HALF true — do NOT write it as stated.**
+**E1 — *paradosis*. ✅ ALREADY SHIPPED AND HANDLED WELL — no fix needed.**
+
+Session 3 wrote this into `kinh-thanh-noi-gi-ve-thanh-truyen.md` and got the discipline right without
+being told: it says **"một số bản khác"** (*some* other versions, not all), **names** the specific
+version (*Bản Truyền Thống*), and concedes **"không sai hẳn về nghĩa"** — the rendering isn't wrong in
+meaning, only that it can obscure Paul's point. Accurate and charitable. **Leave it alone.**
+
+**Optional strengthening only:** the verification below found that **RVV11** (HTTLVN's own 2011
+revision) and **BD2011** *do* say "truyền thống". Adding half a sentence to that effect would preempt
+the obvious reply — *"but my Bible does say truyền thống"* — and make the passage even more clearly
+fair. Not required; the text is already defensible as written.
+
+<details><summary>Verification record (2026-08-20, coordinator)</summary>
+
+The claim is HALF true — which is why it must never be written as a blanket statement.
 
 **CGKPV (Catholic) uses the plain word in both verses:**
 - **2 Th 2,15** — "nắm giữ **các truyền thống** chúng tôi đã dạy cho anh em"
@@ -114,6 +127,8 @@ different Vietnamese Bible.
 
 *(If a translation note is still wanted, phrase it narrowly: "the older Bản Truyền Thống renders it
 'điều dạy dỗ'; newer versions such as RVV11 use 'truyền thống'" — factual, no accusation.)*
+
+</details>
 
 **E2 — the *apostellō* argument. ✅ VERIFIED 2026-08-20 (coordinator) — the argument WORKS, but move it
 to a different verse.**
