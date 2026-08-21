@@ -1151,11 +1151,11 @@ export const SITUATIONS: Record<string, Situation> = {
 
 /* ------------------------------------------------------------------ matching */
 
-export type ResourceKind = 'native' | 'council' | 'video';
+export type ResourceKind = 'native' | 'council' | 'video' | 'miracle';
 
-/** A retrievable resource, unified across native Giải Đáp questions, council apologetics, and
- *  videos, so the matcher can score them all with the taxonomy. Built server-side, passed to the
- *  client. */
+/** A retrievable resource, unified across native Giải Đáp questions, council apologetics, videos,
+ *  and miracles (Phép Lạ), so the matcher can score them all with the taxonomy. Built server-side,
+ *  passed to the client. */
 export interface Resource {
   key: string;
   kind: ResourceKind;
@@ -1176,6 +1176,10 @@ export interface Resource {
    *  (council answers) — native Q&As are VI-only, so EN readers see the VI answer (as on its page),
    *  and omitting `en` there keeps the shipped payload lean. Videos carry none — you watch them. */
   body?: { vi: EnrichedAnswer; en?: EnrichedAnswer };
+  /** A miracle's "what this does NOT establish" (`limits`), enriched like `body`. Rendered inline
+   *  as its own labeled callout below the body so this honesty — the section's whole credibility —
+   *  never travels lost or buried when a miracle surfaces in a companion walk. Miracles only. */
+  limits?: { vi: EnrichedAnswer; en?: EnrichedAnswer };
   /** Resource keys to force to the top of THIS item's follow-ups — from the content pins
    *  (`related` / `related_video` on a Q&A, `related_qa` on a video). */
   pins?: string[];

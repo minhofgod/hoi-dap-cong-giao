@@ -12,6 +12,7 @@ import {
   Play,
   RotateCcw,
   Search,
+  Sparkles,
 } from 'lucide-react';
 import { useLang } from '@/lib/giao-phu/useLang';
 import {
@@ -490,14 +491,17 @@ function ReadingContent({
   pick: Pick;
 }) {
   const isVideo = current.kind === 'video';
+  const isMiracle = current.kind === 'miracle';
   // A video explicitly pinned to this Q&A (content link), surfaced as a direct "watch" action.
   const pinnedVideo =
     !isVideo && current.pins?.length
       ? pool.find((r) => r.kind === 'video' && current.pins!.includes(r.key))
       : undefined;
-  // The full answer, enriched server-side (native + council). EN only exists for bilingual (council)
-  // content; native falls back to VI (VI-only, as on its own page). Videos have none — you watch them.
+  // The full answer, enriched server-side (native + council + miracle). EN only exists for truly
+  // bilingual content (council, miracle); native falls back to VI. Videos have none — you watch them.
   const body = current.body ? (en && current.body.en ? current.body.en : current.body.vi) : null;
+  // A miracle's "what this does NOT establish" — travels as its own callout, never dropped.
+  const limits = current.limits ? (en && current.limits.en ? current.limits.en : current.limits.vi) : null;
 
   return (
     <div className={styles.reading}>
@@ -505,6 +509,11 @@ function ReadingContent({
         {isVideo ? (
           <span className={styles.resourceMetaVideo}>
             <T vi="Video" en="Video" />
+          </span>
+        ) : isMiracle ? (
+          <span className={styles.resourceMetaMiracle}>
+            <Sparkles size={12} strokeWidth={2} />
+            <T vi="Phép lạ" en="Miracle" />
           </span>
         ) : (
           <span className={styles.readingTopic}>{en ? current.metaEn : current.metaVi}</span>
@@ -519,11 +528,32 @@ function ReadingContent({
         current.excerpt && <p className={styles.readingExcerpt}>{pick(current.excerpt)}</p>
       )}
 
+      {/* A miracle's honesty rides in its own labeled callout — "what this does NOT establish" —
+          so it's never lost or buried when the miracle surfaces mid-walk. */}
+      {limits && (
+        <div className={styles.limitsCallout}>
+          <div className={styles.limitsLabel}>
+            <T vi="Điều này KHÔNG chứng minh" en="What this does NOT establish" />
+          </div>
+          <ScriptureBody
+            className={styles.limitsBody}
+            html={limits.html}
+            data={limits.data}
+            ccc={limits.ccc}
+          />
+        </div>
+      )}
+
       <div className={styles.readingActions}>
         {isVideo ? (
           <Link href={current.href} className={styles.readFull}>
             <Play size={15} strokeWidth={2.2} />
             <T vi="Xem video đầy đủ" en="Watch the full video" />
+          </Link>
+        ) : isMiracle ? (
+          <Link href={current.href} className={styles.openPage}>
+            <ExternalLink size={14} strokeWidth={2.2} />
+            <T vi="Xem tường thuật đầy đủ" en="Read the full account" />
           </Link>
         ) : (
           // "Read the full answer" is now inline; keep only a quiet link to the standalone page (for sharing).
@@ -572,6 +602,7 @@ function FollowUps({
       <div className={styles.choices}>
         {suggestions.map((r) => {
           const isVideo = r.kind === 'video';
+          const isMiracle = r.kind === 'miracle';
           const label = r.short ? pick(r.short) : en ? r.questionEn : r.questionVi;
           return (
             <button key={r.key} type="button" className={styles.choice} onClick={() => onPick(r)}>
@@ -582,10 +613,23 @@ function FollowUps({
                       <Play size={10} fill="currentColor" strokeWidth={0} />
                     </span>
                   )}
+                  {isMiracle && (
+                    <span className={styles.resourceSparkle} aria-hidden="true">
+                      <Sparkles size={11} strokeWidth={2.2} />
+                    </span>
+                  )}
                   {label}
                 </span>
                 <span className={styles.choiceHint}>
-                  {isVideo ? <T vi="Video" en="Video" /> : en ? r.metaEn : r.metaVi}
+                  {isVideo ? (
+                    <T vi="Video" en="Video" />
+                  ) : isMiracle ? (
+                    <T vi="Phép lạ" en="Miracle" />
+                  ) : en ? (
+                    r.metaEn
+                  ) : (
+                    r.metaVi
+                  )}
                 </span>
               </span>
               <ArrowRight size={18} strokeWidth={2} className={styles.choiceArrow} />
@@ -714,6 +758,7 @@ function DeadEndView({
           <div className={styles.choices}>
             {unread.map((r) => {
               const isVideo = r.kind === 'video';
+              const isMiracle = r.kind === 'miracle';
               return (
                 <button key={r.key} type="button" className={styles.choice} onClick={() => onPick(r)}>
                   <span className={styles.choiceText}>
@@ -723,10 +768,23 @@ function DeadEndView({
                           <Play size={10} fill="currentColor" strokeWidth={0} />
                         </span>
                       )}
+                      {isMiracle && (
+                        <span className={styles.resourceSparkle} aria-hidden="true">
+                          <Sparkles size={11} strokeWidth={2.2} />
+                        </span>
+                      )}
                       {en ? r.questionEn : r.questionVi}
                     </span>
                     <span className={styles.choiceHint}>
-                      {isVideo ? <T vi="Video" en="Video" /> : en ? r.metaEn : r.metaVi}
+                      {isVideo ? (
+                        <T vi="Video" en="Video" />
+                      ) : isMiracle ? (
+                        <T vi="Phép lạ" en="Miracle" />
+                      ) : en ? (
+                        r.metaEn
+                      ) : (
+                        r.metaVi
+                      )}
                     </span>
                   </span>
                   <ArrowRight size={18} strokeWidth={2} className={styles.choiceArrow} />

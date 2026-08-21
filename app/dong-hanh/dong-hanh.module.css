@@ -290,6 +290,36 @@
   color: var(--sage-deep);
 }
 
+/* --- A miracle's "what this does NOT establish" — a sober gold callout below the body. This
+   honesty is the section's whole credibility, so it travels as its own labeled block, never
+   buried in prose. --- */
+.limitsCallout {
+  margin: 16px 0 4px;
+  padding: 13px 16px;
+  border-left: 3px solid var(--gold);
+  background: var(--gold-tint);
+  border-radius: 0 var(--radius-row) var(--radius-row) 0;
+}
+.limitsLabel {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: 6px;
+}
+.limitsBody {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--text-body);
+}
+.limitsBody p {
+  margin-bottom: 10px;
+}
+.limitsBody p:last-child {
+  margin-bottom: 0;
+}
+
 .resultLead {
   font-size: 13px;
   font-weight: 600;
@@ -463,6 +493,34 @@
 }
 .resourceMetaVideo {
   color: var(--accent-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 10.5px;
+  font-weight: 600;
+}
+
+/* --- Miracle (Phép Lạ) treatment: a gold sparkle badge + label, the analog of the video play icon,
+   so a Church-recognised miracle reads distinctly from a Q&A or a video in the walk. --- */
+.resourceSparkle {
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  vertical-align: text-bottom;
+  border-radius: 50%;
+  background: var(--gold-tint);
+  color: var(--gold-deep);
+}
+.choice:hover .resourceSparkle {
+  background: var(--gold);
+  color: #fff;
+}
+.resourceMetaMiracle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--gold-deep);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 10.5px;

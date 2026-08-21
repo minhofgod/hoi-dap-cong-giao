@@ -4,9 +4,17 @@ import { DongHanh } from '@/components/DongHanh';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getCouncilApologetics } from '@/lib/councilsV2';
 import { getAllVideos } from '@/lib/videos';
+import { getAllMiracles } from '@/lib/miraclesV2';
 import { categoryLabel } from '@/lib/giaiDapTaxonomy';
 import { SITUATIONS, type Resource } from '@/lib/dongHanh';
-import { resolveReference, enrichBody, enrichBi, type ResolvedReference } from '@/lib/bibleRefs';
+import {
+  resolveReference,
+  enrichBody,
+  enrichBi,
+  enrichReferences,
+  type EnrichedAnswer,
+  type ResolvedReference,
+} from '@/lib/bibleRefs';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import { staticPageMetadata } from '@/lib/pageMetadata';
@@ -37,6 +45,20 @@ function preview(md: string, max = 240): string {
   const cut = text.slice(0, max);
   const lastSpace = cut.lastIndexOf(' ');
   return `${(lastSpace > 120 ? cut.slice(0, lastSpace) : cut).trim()}…`;
+}
+
+const escapeHtml = (s: string) =>
+  (s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+// Compose a bilingual ScriptureBody-ready block from Bi paragraphs (miracle prose is plain text
+// with inline refs). Each paragraph is escaped, wrapped in <p>, then enriched so its Catechism /
+// Scripture references still open the popover — the same enrichment the /phep-la page uses per-block.
+function enrichParagraphs(
+  paras: { vi: string; en: string }[]
+): { vi: EnrichedAnswer; en: EnrichedAnswer } {
+  const build = (lang: 'vi' | 'en') =>
+    enrichReferences(paras.map((p) => `<p>${escapeHtml(p[lang])}</p>`).join(''));
+  return { vi: build('vi'), en: build('en') };
 }
 
 export default function DongHanhPage() {
@@ -103,7 +125,26 @@ export default function DongHanhPage() {
     pins: v.relatedQa.map((s) => `n:${s}`),
   }));
 
-  const pool = [...native, ...council, ...video];
+  // Church-recognised miracles (Phép Lạ) join the same taxonomy-scored pool via their shared
+  // `category`/`tags` (Session 11). No `featured`, so they never come through explore-basics. The
+  // inline body is the summary + evidence; the `limits` ("what this does NOT establish") rides in
+  // its own field so that honesty is never lost when a miracle surfaces in a walk.
+  const miracle: Resource[] = getAllMiracles().map((m) => ({
+    key: `m:${m.slug}`,
+    kind: 'miracle',
+    href: `/phep-la/${m.slug}`,
+    questionVi: m.title.vi,
+    questionEn: m.title.en,
+    metaVi: 'Phép lạ',
+    metaEn: 'Miracle',
+    category: m.category,
+    tags: m.tags,
+    excerpt: { vi: preview(m.summary.vi), en: preview(m.summary.en) },
+    body: enrichParagraphs([m.summary, ...m.evidence]),
+    limits: enrichParagraphs(m.limits),
+  }));
+
+  const pool = [...native, ...council, ...video, ...miracle];
 
   // Resolve each situation's Scripture reference to verse data — only when the licensing flag is
   // on, so no copyrighted CGKPV text ships while it's off (matches the rest of the site). When the
