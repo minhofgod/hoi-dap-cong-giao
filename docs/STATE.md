@@ -118,27 +118,39 @@ launched as the coordinator, this is your role:
    unblocker; send next.** Miracles carry `type`/`status`/`related_saint` but **no taxonomy `tags`**, so
    18 entries are invisible to every automatic cross-link. Adding tags unlocks Q&A↔miracle links
    (Eucharist→Lanciano, Mary→Lộ Đức), the companion pool, search, and lets evidence stage 4 select by tag.
-2b. **Session 3 — restructure the Baptism cluster** (owner's call, from the proofreading tracker,
-   2026-08-20). **Verified: 3 of the 7 members aren't about *infant* baptism at all** —
-   `phep-rua-chi-la-bieu-tuong…` (what baptism does), `phep-rua-va-chua-thanh-than`,
-   `ten-trom-tren-thap-gia…` (necessity). The topic name under-describes its own contents.
-   - **New anchor to write:** *is baptism necessary for salvation?* — the question that actually holds
-     these together. **Half the spine already exists:** `ten-trom-tren-thap-gia` cites **CCC 1257–1260**
-     (necessary where the Gospel is proclaimed · baptism of blood · of desire). Add **CCC 1261** —
-     infants who die unbaptised, entrusted to God's mercy.
-     ⚠️ **CCC 1261 is pastorally live, not academic:** a parent who lost a baby can land on that page.
-     The content-guide **"Pastoral tone"** rule applies — presence before doctrine, never a lecture.
-   - **Rename the topic** *Rửa tội trẻ em* → *Phép Rửa* (owner's wording call) across all members.
-   - **Demote** `tai-sao-rua-toi-cho-tre-em` to a member (`featured: false` + `part_of`) — infant baptism
-     becomes one question inside Baptism rather than the frame.
-   - ⚠️ **The new anchor NEEDS a banner** at `public/images/giai-dap/<new-anchor>.jpg` — required for any
-     `featured: true`; a missing file renders a broken image. This has bitten repeatedly.
-   - **Cross-link `related` both ways** to `nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong` and
-     `can-gi-gia-nhap-hoi-thanh` — CCC 1260 and CCC 847 are the same material from two angles.
-   - **Fix the anchor's `question_vi`** (same tracker note): *"…rửa tội cho trẻ em chưa thể hiểu hay tin
-     gì?"* → *"…rửa tội cho trẻ em **trong khi chúng** chưa thể hiểu hay tin gì?"*, or the punchier
-     *"Tại sao 'ép' trẻ em vào đạo bằng cách rửa tội trẻ sơ sinh?"*
-   - Re-sync the proofreading tracker afterwards (rows + the renamed cluster heading).
+2b. ✅ **CLOSED 2026-08-20 — Baptism cluster restructured** (Session 3, `a1acd73`). Topic renamed
+   *Rửa tội trẻ em* → **Phép Rửa**; new necessity anchor `phep-rua-co-can-thiet-de-duoc-cuu-do-khong`
+   (CCC 1257–1261); infant baptism demoted to a member; banner `git mv`d; salvation cross-links wired
+   both ways. **The CCC 1261 paragraph is written to the bereaved** — leads with hope, renders 1261
+   as "cho phép chúng ta hy vọng" (not a guarantee), and ends by pointing to a priest. Verified.
+2c. ✅ **CLOSED 2026-08-20 — Confession cluster** (Session 3, `f1d36a2`, `b1f3d2c`). +2 members:
+   `xung-toi-voi-tu-te-co-goc-trong-cuu-uoc-khong` (OT roots — cites Lv 5,5-6 **and** Dt 10,4, so it
+   argues roots without claiming the old sacrifices sufficed) and
+   `linh-muc-co-tiet-lo-dieu-toi-xung-khong` (the seal; CCC 1467, 2490 + CIC can. 1386). Plus the
+   reword, the "God works THROUGH people" argument, and **Mt 18,15-18** now cited in the anchor —
+   the binding/loosing text the cluster had been missing. Anchor un-ticked (2 parts joined).
+2d. ✅ **CLOSED 2026-08-20 — Sola Scriptura §E1/§E2 verified** (coordinator + Session 3, `b57c074`,
+   `137d553`). **§E1** (*paradosis*): no fix needed — the existing text already says *some* versions,
+   names *Bản Truyền Thống*, and concedes the rendering is not wrong. ⚠️ **Never write it as
+   "Protestant Bibles hide the word"** — RVV11 (HTTLVN's own revision) and BD2011 both say
+   *truyền thống*. **§E2** (*apostellō*): the argument works, but **pin it on Ga 17,18**, which uses
+   *apostellō* in BOTH clauses — **not Ga 20,21, which switches to *pempō***. It rests on the
+   etymology + Rm 10,15, deliberately NOT on the contested *apostellō*-vs-*pempō* contrast.
+   Full record: `docs/proofread-fixes-round2-sola-scriptura.md` §E1/§E2.
+2e. ✅ **CLOSED 2026-08-20 — Sola Scriptura cluster reworked around AUTHORITY** (Session 3,
+   `33a75b1`, `46c2257`; owner-directed from his Obsidian canvas "Authority: Catholicism vs
+   Protestantism"). Anchor + 11 → **anchor + 13**; the anchor now frames the authority question with
+   **Apostolic Succession as the explicit foundation**. NEW:
+   `thanh-than-huong-dan-moi-nguoi-sao-van-chia-re` (if the Spirit guides every reader, why the
+   divisions?) and the capstone `giao-phu-co-tranh-luan-bang-chi-kinh-thanh-khong` (Tertullian,
+   *De Praescriptione Haereticorum* 19, web-verified at New Advent, flagged as a translation).
+   **The inflated "33,000 denominations" figure was deliberately avoided** — the right call: it is a
+   widely-repeated miscount and using it would hand a skeptic a free rebuttal.
+2f. **→ a website lane (unspecced) — the authority FLOWCHART as a `/so-do` canvas.** Session 3
+   flags that the reworked cluster now has all the content for a visual "where does authority come
+   from?" diagram. Pure presentation build, no new writing. Canvas is already gated behind
+   `NEXT_PUBLIC_CANVAS` (off in prod), so it can be built safely. **Owner to decide whether to spec
+   it** — note the canvas section has been dormant and the flag has never been turned on.
 
 **READY — thread 2 (§A) is DONE, both unblocked 2026-08-20**
 3. **Session 13 — evidence-path stage 4** (§B, same doc): "Is God still acting?" — miracles as the
