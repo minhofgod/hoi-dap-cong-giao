@@ -21,12 +21,13 @@ parts:
   - "kinh-thanh-co-day-can-giam-muc-va-huan-quyen-khong"
   - "hoi-thanh-co-phai-chi-la-cong-doan-vo-hinh"
   - "giao-hoi-day-nguoi-toi-loi-sao-tin-quyen-binh"
+  - "giao-phu-co-tranh-luan-bang-chi-kinh-thanh-khong"
 related:
   - "duc-tin-va-viec-lam"
   - "can-gi-gia-nhap-hoi-thanh"
 ---
 
-**Ngắn gọn: không.** Nhiều anh em Tin Lành gọi lập trường này là **Duy Kinh Thánh** (*sola scriptura*) — "chỉ có Kinh Thánh thôi" — và xem đó là quy tắc đức tin duy nhất và không thể sai lầm. Nhưng chính Kinh Thánh **không nơi nào** dạy điều đó. Người Công Giáo hết lòng yêu mến và tin Kinh Thánh là Lời Thiên Chúa được linh hứng — nhưng tin rằng Chúa Kitô đã trao đức tin cho Hội Thánh qua **ba con đường gắn bó với nhau.**
+**Ngắn gọn: không — nhưng để thấy vì sao, cần đặt đúng câu hỏi.** Cuộc tranh luận này thật ra **không** phải là "ai yêu mến Kinh Thánh hơn ai" — cả người Công giáo lẫn anh em Tin Lành đều tin Kinh Thánh là Lời Thiên Chúa được linh hứng. Câu hỏi thật sự là về **thẩm quyền**: đâu là thẩm quyền **tối hậu** về đức tin? Anh em Tin Lành đáp — *chỉ một mình Kinh Thánh* (**Duy Kinh Thánh**, *sola scriptura*), quy tắc duy nhất và không thể sai lầm. Nhưng chính Kinh Thánh **không nơi nào** dạy điều đó; trái lại, nó chỉ về một thẩm quyền rộng hơn "một cuốn sách". Người Công Giáo hết lòng yêu mến Kinh Thánh — nhưng tin rằng Chúa Kitô đã trao đức tin cho Hội Thánh qua **ba con đường gắn bó với nhau.**
 
 Người Công Giáo không tin vào ba nguồn mặc khải tách biệt, mà tin vào **một kho tàng đức tin** duy nhất đến với ta theo ba cách liên kết:
 
@@ -54,4 +55,6 @@ Và ngài gọi chính **Hội Thánh** — chứ không phải cuốn sách —
 >
 > — **1 Tm 3,15** (CGKPV)
 
-**Duy Kinh Thánh** nghe đơn giản, nhưng tạo ra những vấn đề nghiêm trọng: nó không giải thích được làm sao ta có bộ Kinh Thánh ngay từ đầu; nó không thể là quy tắc của các Kitô hữu đầu tiên (khi Tân Ước hoàn chỉnh chưa tồn tại); và nó dẫn tới chia rẽ bất tận. Loạt bài dưới đây trả lời từng câu Kinh Thánh mà người ta hay trích để bênh **Duy Kinh Thánh**, và cho thấy vì sao chính Kinh Thánh lại chỉ về Hội Thánh sống động mà Chúa Kitô đã lập.
+Vậy điều gì **nâng đỡ** cả ba chân ghế ấy? — **Sự Kế Thừa Tông Đồ** (*apostolic succession*). Chúa Giêsu không viết một cuốn sách rồi để mặc đám đông tự lo; Người đã **chọn, sai đi và ban quyền** cho các Tông đồ — chính chữ "Tông đồ" (*apostolos*) nghĩa là "**người được sai đi**". Rồi các ngài đặt tay trao lại thừa tác vụ ấy cho những người kế vị, thành một **chuỗi sống động** kéo dài tới hôm nay. Vì thế thẩm quyền của Hội Thánh **không** phát xuất từ chính mình, mà từ **Đấng đã sai**: nên khi Hội Thánh gìn giữ Kinh Thánh, trao lại Thánh Truyền và giải thích cả hai, đó không phải là tiếm quyền Thiên Chúa, mà là **thi hành đúng sứ mạng Người đã ủy thác**. (Xem "Chính Kinh Thánh nói gì về Thánh Truyền?" ở phần liên quan.)
+
+**Duy Kinh Thánh** nghe đơn giản, nhưng tự nó **sụp đổ** ở hai điểm: **(1)** nó không giải thích nổi làm sao ta biết được **sách nào** là Kinh Thánh ngay từ đầu — chính Hội Thánh đã phân định quy điển; và **(2)** khi mỗi người tự làm toà phán quyết về ý nghĩa, nó sinh ra **chia rẽ bất tận**, không có thẩm quyền nào phân xử. Loạt bài dưới đây khai triển hai vấn đề ấy, trả lời từng câu Kinh Thánh mà người ta hay trích để bênh **Duy Kinh Thánh**, và cho thấy ngay các Giáo phụ thời sơ khai cũng không hề giải quyết tranh cãi đức tin bằng "chỉ Kinh Thánh".
