@@ -99,8 +99,8 @@ export const CG_TL_BRANCHES: CgTlBranch[] = [
     // question once authority is settled. So the intro's job is to say why it comes first WITHOUT
     // making it a gate — the last sentence hands the reader permission to leave.
     intro: {
-      vi: 'Phần này được đặt trước, vì phần lớn những khác biệt còn lại đều quay về đây. Cả bạn lẫn người Công giáo bạn quen đều tin Kinh Thánh là Lời Thiên Chúa được linh hứng — chỗ khác nhau không nằm ở lòng yêu mến Kinh Thánh, mà ở một câu hỏi đến sau đó: khi hai người đọc cùng một đoạn và hiểu ngược nhau, điều gì phân xử? Bạn không buộc phải bắt đầu ở đây. Nhưng nếu bạn bắt đầu ở một phần khác, rất có thể câu hỏi này sẽ đợi bạn ở cuối con đường ấy.',
-      en: 'This part comes first because most of the remaining differences lead back to it. You and the Catholic you know both believe Scripture is the inspired word of God — the difference is not about who loves the Bible more, but about a question that comes after that: when two people read the same passage and understand it in opposite ways, what settles it? You do not have to start here. But if you start somewhere else, this question will most likely be waiting for you at the end of that road.',
+      vi: 'Phần này được đặt trước, vì phần lớn những khác biệt còn lại đều quay về đây. Người Công giáo cũng như bạn đều tin Kinh Thánh là Lời Thiên Chúa được linh hứng — chỗ khác nhau không nằm ở lòng yêu mến Kinh Thánh, mà ở một câu hỏi đến sau đó: khi hai người đọc cùng một đoạn và hiểu ngược nhau, điều gì phân xử? Bạn không buộc phải bắt đầu ở đây. Nhưng nếu bạn bắt đầu ở một phần khác, rất có thể câu hỏi này sẽ đợi bạn ở cuối con đường ấy.',
+      en: 'This part comes first because most of the remaining differences lead back to it. Catholics, like you, believe Scripture is the inspired word of God — the difference is not about who loves the Bible more, but about a question that comes after that: when two people read the same passage and understand it in opposite ways, what settles it? You do not have to start here. But if you start somewhere else, this question will most likely be waiting for you at the end of that road.',
     },
     anchors: ['chi-can-kinh-thanh-sola-scriptura-co-dung-khong'],
   },
@@ -175,9 +175,14 @@ export const CG_TL_LANDING = {
     en: 'The questions between us',
   } satisfies Bi,
 
+  // Do NOT presume the reader has a Catholic in their life. The spec's motivating use case is a
+  // Catholic sending the link to a spouse or sibling, but plenty of readers arrive simply because
+  // they want to know (owner, 2026-08-21) — and telling a curious reader why they are here, wrongly,
+  // is exactly the kind of small misfire that makes someone stop reading. Both reasons are offered,
+  // neither is asserted. Same correction applies to the root branch's intro below.
   lede: {
-    vi: 'Nếu bạn là người Tin Lành và đang mở trang này, rất có thể có một người Công giáo nào đó thân với bạn. Trang này được viết cho bạn — không phải để thắng một cuộc tranh luận, mà để bạn nghe chính Hội Thánh Công giáo nói về mình, thay vì nghe lại qua lời người khác. Bạn có thể bắt đầu ở bất cứ câu hỏi nào bạn thật sự mang theo.',
-    en: 'If you are a Protestant Christian and you have opened this page, there is a fair chance that someone close to you is Catholic. This page is written for you — not to win an argument, but so that you can hear what the Catholic Church says about itself, instead of hearing it second-hand. Start wherever the question you actually came with is.',
+    vi: 'Nếu bạn là người Tin Lành và đang mở trang này — có thể vì ai đó thân với bạn là người Công giáo, có thể chỉ vì bạn muốn tự mình tìm hiểu — thì trang này được viết cho bạn. Không phải để thắng một cuộc tranh luận, mà để bạn nghe chính Hội Thánh Công giáo nói về mình, thay vì nghe lại qua lời người khác. Bạn có thể bắt đầu ở bất cứ câu hỏi nào bạn thật sự mang theo.',
+    en: 'If you are a Protestant Christian and you have opened this page — perhaps because someone close to you is Catholic, perhaps simply because you want to find out for yourself — then this page is written for you. Not to win an argument, but so that you can hear what the Catholic Church says about itself, instead of hearing it second-hand. Start wherever the question you actually came with is.',
   } satisfies Bi,
 
   // The page opens on shared ground and MEANS it — not as a softener before the real business, but
