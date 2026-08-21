@@ -430,13 +430,20 @@ they are filed under.
 
 | Door (intent) | Destination | Absorbs |
 |---|---|---|
-| "Có bằng chứng nào cho thấy điều này là thật không?" | `/bang-chung` | `doubt-evidence`, `explore-god` |
+| "Có bằng chứng nào cho thấy **Chúa Giêsu có thật** không?" | `/bang-chung` | `doubt-evidence`, `explore-god` |
 | "Tôi là người Tin Lành, muốn hiểu người Công giáo tin gì" | `/cong-giao-va-tin-lanh` | — **the door that is missing today** |
 | "Khoa học dường như mâu thuẫn với đức tin" | `doubt-science` (keeps its `seedPins`) | — |
 | "Tôi đang đau khổ, mất mát" | the suffering family | **`doubt-suffering`** |
 | "Tôi lo cho một người thân chưa tin" | `loved-one` | — |
 | "Tôi bị ghét bỏ, bách hại vì đức tin" | `persecuted` | — |
 | "Tôi muốn trả lời những phản đối về đạo" | `defending` | — Catholic-facing twin of the Protestant path |
+
+⚠️ **Promoted labels lose their antecedent — rewrite every one.** The old label read *"Có bằng
+chứng nào cho thấy **điều này** là thật không?"*, which worked only as a CHILD of *"Tôi đang hoài nghi,
+thấy khó tin"*. As a top-level door the parent is gone and *điều này* refers to nothing. Naming the
+subject also lines the door up with the destination's own locked name, *Bằng chứng về Chúa Giêsu*.
+**Check every promoted label for this** — they were all written as children. *("có thật" matches the
+phrasing the intake already uses in : "Thiên Chúa có thật không, và Ngài là ai?")*
 
 **Cuts, with the reasoning (owner's audit):**
 
