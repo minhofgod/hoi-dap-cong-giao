@@ -425,16 +425,50 @@ framing for a Protestant reader. Even there the door is phrased as *intent* — 
 muốn hiểu người Công giáo tin gì"* — so the identity is incidental to what they want, not a category
 they are filed under.
 
-**The shape to build instead — intent-shaped doors at the top, one question:**
+**The shape to build instead — intent-shaped doors, one question (audited against the live tree,
+2026-08-20):**
 
-| Door (intent) | Destination |
-|---|---|
-| "Tôi muốn xem có bằng chứng nào không" | `/bang-chung` |
-| "Tôi là người Tin Lành, muốn hiểu người Công giáo tin gì" | `/cong-giao-va-tin-lanh` |
-| "Tôi đang đau khổ, mất mát" | the pastoral situations — **no identity asked** |
-| "Tôi mới tìm hiểu đạo" | a "start here" path *(approved, unspecced)* |
-| "Tôi có một câu hỏi cụ thể" | the existing situational tree / search |
+| Door (intent) | Destination | Absorbs |
+|---|---|---|
+| "Có bằng chứng nào cho thấy điều này là thật không?" | `/bang-chung` | `doubt-evidence`, `explore-god` |
+| "Tôi là người Tin Lành, muốn hiểu người Công giáo tin gì" | `/cong-giao-va-tin-lanh` | — **the door that is missing today** |
+| "Khoa học dường như mâu thuẫn với đức tin" | `doubt-science` (keeps its `seedPins`) | — |
+| "Tôi đang đau khổ, mất mát" | the suffering family | **`doubt-suffering`** |
+| "Tôi lo cho một người thân chưa tin" | `loved-one` | — |
+| "Tôi bị ghét bỏ, bách hại vì đức tin" | `persecuted` | — |
+| "Tôi muốn trả lời những phản đối về đạo" | `defending` | — Catholic-facing twin of the Protestant path |
 
+**Cuts, with the reasoning (owner's audit):**
+
+- ❌ **The whole `exploring` branch collapses** — all three children go, so the branch has nothing
+  left to hold.
+  - `explore-basics` ("Cứ cho tôi xem những câu hỏi thường gặp nhất") — **not a situation, a
+    bail-out.** A guided tool offering "skip the guiding" concedes the guiding was not worth it, and
+    `/giai-dap`'s topic cards already browse better.
+  - `explore-jesus-church` — squeezed from both sides once `/bang-chung` covers Jesus and
+    `/cong-giao-va-tin-lanh` covers the Church's authority. No middle left.
+  - `explore-god` — this *is* `/bang-chung` stages 1–2.
+- ❌ **No "Người Công giáo tin gì?" door.** Same test that killed it as a *name*: **a door must
+  narrow.** If it describes the whole site it is not routing anyone — the nav and `/giai-dap`
+  already serve that reader.
+
+**The one re-parenting that matters: `doubt-suffering` moves out of *doubting* and into the
+*suffering* family.** The two doubts are not the same kind. `doubt-evidence` asks *"is this true?"*
+— evidential, and that is exactly `/bang-chung`. `doubt-suffering` is the problem of evil: someone
+asking *"if God is real, why so much suffering"* is usually **not requesting an argument**, they are
+hurting and using the language of argument. Routing them into a four-stage apologetic ladder answers
+a question they did not ask. The roadmap already half-recognises this — the "companions in suffering"
+saints bridge is specced for `suffering` **and** `doubt-suffering` together.
+
+**Noted, not yet decided:** `defending`'s four children (saints · faith-works · images · church) are
+the *same four clusters* the Protestant path walks. That duplication is correct — one framed for a
+Catholic answering objections, one for a Protestant asking them — but it should be a **conscious
+pairing**, and the `defending` labels should say "để trả lời" explicitly so the two do not blur.
+
+⚠️ **Before cutting anything: each situation carries hand-written advice prose.** Deleting
+`explore-basics` / `explore-jesus-church` throws that writing away. Check whether any of it deserves
+to move into a surviving door first — the kind of thing an analysis pass catches and a live edit
+does not.
 ⚠️ **Never build a door without content behind it.** A Buddhist door was considered; nothing is
 written for it (*"đạo nào cũng tốt"* is an idea, not a cluster). A door that promises tailoring and
 delivers three loosely-related Q&As is worse than no door — the companion already has a warm
