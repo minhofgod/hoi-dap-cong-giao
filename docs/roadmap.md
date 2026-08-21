@@ -389,6 +389,66 @@ Pick **1–2 per situation** (minimal — an invitation, not a catalogue):
 **Lane:** Session 7 (`lib/dongHanh.ts` situation config + `components/DongHanh*` to render). Links into
 Session 9's live saint pages.
 
+## Companion intake — DOORS, not identity (decided 2026-08-20)
+
+**The problem.** The companion has become a router with no map: ~33 situations and ~32 routing
+options, and it now has to reach whole destinations too — `/bang-chung`, `/cong-giao-va-tin-lanh`,
+and a future "start here". Left alone, some intake questions grow to ten-plus choices.
+
+**The idea considered and REJECTED: opening with "who are you?"** (atheist / Protestant / Catholic /
+Buddhist…, with an anonymity notice and an "I'd rather not say" option) and routing by identity.
+
+**Why it was rejected — the owner's own formulation:**
+
+> *"Catholics or Protestants or Buddhists might be looking for evidence too, so it doesn't really
+> matter who they are."*
+
+**Identity does not predict need.** Three further reasons, in descending force:
+
+1. **It is pastorally wrong on the suffering branches.** Asking a grieving person to declare their
+   religion before being met inverts the content-guide rule (presence first). The current opening —
+   *"Điều gì đưa bạn đến đây?"* — meets them where they are; "who are you?" makes them fill in a form.
+2. **Self-labelling has friction that an anonymity notice does not fix.** "What brings you here?"
+   asks about *need* (low commitment). "Who are you?" asks for self-categorisation. An atheist may not
+   click *"tôi là người vô thần"*; a Catholic whose faith is wobbling does not know which box is
+   honest. Anonymity addresses privacy; the barrier is **being labelled**. *(An "I'd rather not say"
+   escape helps — but if many would take it, the question was not earning its place.)*
+3. **It multiplies rather than reduces.** Identity × need is a matrix: ask identity first and you
+   still have to ask what they need. Two questions and more branches, not fewer.
+
+**The rule that replaces it:**
+
+> **Ask identity ONLY where it changes the answer — never as a gate.**
+
+The one place it genuinely does is **Công Giáo và Tin Lành**: same doctrines, materially different
+framing for a Protestant reader. Even there the door is phrased as *intent* — *"Tôi là người Tin Lành,
+muốn hiểu người Công giáo tin gì"* — so the identity is incidental to what they want, not a category
+they are filed under.
+
+**The shape to build instead — intent-shaped doors at the top, one question:**
+
+| Door (intent) | Destination |
+|---|---|
+| "Tôi muốn xem có bằng chứng nào không" | `/bang-chung` |
+| "Tôi là người Tin Lành, muốn hiểu người Công giáo tin gì" | `/cong-giao-va-tin-lanh` |
+| "Tôi đang đau khổ, mất mát" | the pastoral situations — **no identity asked** |
+| "Tôi mới tìm hiểu đạo" | a "start here" path *(approved, unspecced)* |
+| "Tôi có một câu hỏi cụ thể" | the existing situational tree / search |
+
+⚠️ **Never build a door without content behind it.** A Buddhist door was considered; nothing is
+written for it (*"đạo nào cũng tốt"* is an idea, not a cluster). A door that promises tailoring and
+delivers three loosely-related Q&As is worse than no door — the companion already has a warm
+dead-end for exactly that reason. **Doors follow content, never lead it.**
+
+**Timing: POST-LAUNCH.** This is a re-architecture of Session 7's lane and it is not a launch
+blocker. The gate is the owner's proofreading pass; adding a companion rework to the pre-launch pile
+would push the domain back for a surface that already works.
+
+**When it is picked up:** worth an analysis pass first (the shape Session 10 used for the matcher) —
+inventory every situation, ask which of the ~33 still earn their place, and only then design the
+doors. Some situations likely predate content that has since arrived.
+
+---
 ## Advanced search / topical-verse tool — retrieval-first (idea 2026-08-15)
 
 A "smarter search bar": a visitor types a **situation or request in free text** — *"verses for grief,"
