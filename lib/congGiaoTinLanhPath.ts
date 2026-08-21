@@ -114,13 +114,21 @@ export const CG_TL_BRANCHES: CgTlBranch[] = [
       vi: 'Đức tin và việc làm, thư Rôma và thư Giacôbê, ơn bền đỗ — và chuyện ân xá.',
       en: 'Faith and works, Romans and James, perseverance — and the matter of indulgences.',
     },
+    // "nhưng không" is glossed ("nghĩa là một món quà cho không") and the gloss must STAY — it is
+    // not redundant with "không ai mua hay kiếm được". The phrase is Catholic catechetical
+    // Vietnamese that people rarely meet outside the Catechism (owner, 2026-08-21), so the one
+    // audience least likely to know it is the Protestant reader this page is written for. It earns
+    // its place twice over: the GLHTCG 1996 popover the sentence links to says "một sự trợ giúp
+    // nhưng không", so the gloss also equips the reader to read the citation itself. The EN needs
+    // no equivalent — it already says "a free gift", with no jargon to unpack.
+    //
     // This intro carries the fault admission, and it is the most important sentence on the page:
     // the Ân xá cluster already says the Tetzel preaching was "sai nghiêm trọng", so the intro can
     // say so plainly without overclaiming. Note what it does NOT say — it does not say the Church
     // sold forgiveness, because the cluster itself shows that is not what happened. Admitting the
     // real fault and refusing the false charge are the same act of honesty.
     intro: {
-      vi: 'Không có câu nào trong phần này nói rằng bạn có thể tự cứu lấy mình. Hội Thánh Công giáo dạy rằng ơn công chính hóa là do ân sủng của Thiên Chúa — một hồng ân nhưng không, không ai mua hay kiếm được (GLHTCG 1996). Điều được bàn ở đây là chuyện đến sau đó: một đức tin như thế thì sống ra sao. Phần này cũng gồm chuyện ân xá; và nếu điều đầu tiên bạn từng nghe về đạo Công giáo là chuyện tiền bạc đổi lấy ơn tha tội, thì bạn có lý do chính đáng để hỏi. Trong câu chuyện ấy có một sự lạm dụng có thật, và các bài dưới đây gọi thẳng nó là sai chứ không tìm cách chối.',
+      vi: 'Không có câu nào trong phần này nói rằng bạn có thể tự cứu lấy mình. Hội Thánh Công giáo dạy rằng ơn công chính hóa là do ân sủng của Thiên Chúa — một hồng ân nhưng không, nghĩa là một món quà cho không, không ai mua hay kiếm được (GLHTCG 1996). Điều được bàn ở đây là chuyện đến sau đó: một đức tin như thế thì sống ra sao. Phần này cũng gồm chuyện ân xá; và nếu điều đầu tiên bạn từng nghe về đạo Công giáo là chuyện tiền bạc đổi lấy ơn tha tội, thì bạn có lý do chính đáng để hỏi. Trong câu chuyện ấy có một sự lạm dụng có thật, và các bài dưới đây gọi thẳng nó là sai chứ không tìm cách chối.',
       en: 'Nothing in this part says you can save yourself. The Catholic Church teaches that justification comes from the grace of God — a free gift, which no one buys or earns (GLHTCG 1996). What is discussed here is what comes after that: how a faith like that lives. This part also covers indulgences; and if the first thing you ever heard about the Catholic faith was money exchanged for forgiveness, you have good reason to ask. There is a real abuse inside that story, and the answers below call it wrong rather than explain it away.',
     },
     anchors: ['duc-tin-va-viec-lam', 'an-xa-la-gi-co-phai-mua-on-tha-toi'],
