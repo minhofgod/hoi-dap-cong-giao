@@ -6,6 +6,7 @@ import { LanguageToggle } from '@/components/LanguageToggle';
 import { Bi2 } from '@/components/giao-phu/Bi2';
 import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { EvidenceAnswers } from '@/components/bang-chung/EvidenceAnswers';
+import { EvidenceMiracles } from '@/components/bang-chung/EvidenceMiracles';
 import { getResolvedStage, getResolvedStages } from '@/lib/evidencePath';
 import { enrichBi } from '@/lib/bibleRefs';
 import { EVIDENCE_PATH_ENABLED } from '@/lib/evidencePathFlag';
@@ -44,7 +45,8 @@ export default async function EvidenceStagePage({ params }: { params: Promise<Pa
   const index = stages.findIndex((s) => s.stage.slug === slug);
   if (index === -1) notFound();
 
-  const { stage, anchor, parts, partial } = stages[index];
+  const resolved = stages[index];
+  const { stage } = resolved;
   const prev = index > 0 ? stages[index - 1] : null;
   const next = index < stages.length - 1 ? stages[index + 1] : null;
   const total = stages.length;
@@ -116,7 +118,18 @@ export default async function EvidenceStagePage({ params }: { params: Promise<Pa
             />
           </section>
 
-          <EvidenceAnswers anchor={anchor} parts={parts} partial={partial} />
+          {resolved.kind === 'cluster' ? (
+            <EvidenceAnswers
+              anchor={resolved.anchor}
+              parts={resolved.parts}
+              partial={resolved.partial}
+            />
+          ) : (
+            <EvidenceMiracles
+              miracles={resolved.miracles}
+              excludedCount={resolved.excludedCount}
+            />
+          )}
 
           <nav className={styles.stageNav}>
             {prev ? (

@@ -15,14 +15,14 @@ export const metadata: Metadata = {
   // No site-name suffix here: app/layout.tsx's title `template` appends "· Hỏi Đáp Công Giáo".
   title: 'Bằng chứng về Chúa Giêsu',
   description:
-    'Sáu bước lần theo lập luận: từ câu hỏi vũ trụ này là ngẫu nhiên hay được thiết kế, qua sự sống lại của Chúa Giêsu, đến điều Thiên Chúa muốn nơi bạn. Mỗi bước dựa trên bước trước — và bạn có thể bắt đầu ở bất cứ bước nào.',
+    'Bảy bước lần theo lập luận: từ câu hỏi vũ trụ này là ngẫu nhiên hay được thiết kế, qua sự sống lại của Chúa Giêsu, đến điều Thiên Chúa muốn nơi bạn — và những phép lạ Hội Thánh đã nhìn nhận. Mỗi bước dựa trên bước trước, và bạn có thể bắt đầu ở bất cứ bước nào.',
 };
 
 const HERO_EYEBROW = { vi: 'Lần theo lập luận', en: 'Follow the argument' };
 const HERO_TITLE = { vi: 'Bằng chứng về Chúa Giêsu', en: 'The Evidence for Jesus' };
 const HERO_LEDE = {
-  vi: 'Sáu bước, đi từ câu hỏi nền tảng nhất đến chính lời tuyên bố — rồi đến điều lời ấy đòi hỏi nơi bạn. Mỗi bước dựa trên bước trước, nên đọc theo thứ tự sẽ thấy lập luận mạnh nhất — nhưng bạn hoàn toàn có thể bắt đầu ở bất cứ bước nào bạn quan tâm.',
-  en: 'Six steps, running from the most basic question to the claim itself — and then to what that claim asks of you. Each step rests on the one before it, so reading in order shows the argument at its strongest — but you are free to start at whichever step you came for.',
+  vi: 'Sáu bước đi từ câu hỏi nền tảng nhất đến chính lời tuyên bố, rồi đến điều lời ấy đòi hỏi nơi bạn — và một bước cuối cùng nhìn sang những phép lạ Hội Thánh đã chính thức nhìn nhận. Mỗi bước dựa trên bước trước, nên đọc theo thứ tự sẽ thấy lập luận mạnh nhất — nhưng bạn hoàn toàn có thể bắt đầu ở bất cứ bước nào bạn quan tâm.',
+  en: 'Six steps running from the most basic question to the claim itself, then to what that claim asks of you — and a last step turning to the miracles the Church has formally recognised. Each step rests on the one before it, so reading in order shows the argument at its strongest — but you are free to start at whichever step you came for.',
 };
 
 const NOTE = {
