@@ -98,9 +98,15 @@ launched as the coordinator, this is your role:
      overriding `openGraph` on a page *replaces the whole object* and silently dropped the inherited OG
      card image. Fixed with `resolveParentImages(parent)`. Any future per-page `openGraph` override must
      carry the parent image forward or it loses its card.
-   - **→ owner (checklist 4–5), after the next deploy:** re-run the **Facebook Sharing Debugger →
-     Scrape Again** (Redirect Path should stop bouncing to `/`), then **request indexing** on a couple of
-     detail URLs in Search Console.
+   - ✅ **Checklist 4 DONE — verified in the Facebook Sharing Debugger 2026-08-20.** Scraped
+     `www.hoidapconggiao.com/giai-dap/me-thien-chua-nu-vuong-…`: **200**, **canonical == fetched URL**
+     (no bounce to `/`), and the Link Preview renders **the question** with VN diacritics and curly
+     quotes intact — so Session 8's `og:url` fix *and* Session 2's per-Q&A cards are both confirmed live.
+     Also confirms the **www** canonical (`edf399e`): no redirect hop on the image.
+     *(The debugger's `fb:app_id` "missing required property" warning is **safe to ignore** — it only
+     enables Facebook Insights share analytics and is irrelevant to previews, as that very scrape shows.)*
+   - **→ owner (checklist 5, still open):** **request indexing** on a couple of detail URLs in Search
+     Console.
    - Deliberate non-changes, not blockers: `/tim-kiem` (search — arguably should be `noindex`; note it's
      already `Disallow`ed in `robots.txt`) and `app/bang-chung/**` (titles already bare/unique, gated off
      in prod, root fix covers its `og:url`) → **Session 13** can add canonical/per-page OG at launch.
@@ -112,6 +118,28 @@ launched as the coordinator, this is your role:
    unblocker; send next.** Miracles carry `type`/`status`/`related_saint` but **no taxonomy `tags`**, so
    18 entries are invisible to every automatic cross-link. Adding tags unlocks Q&A↔miracle links
    (Eucharist→Lanciano, Mary→Lộ Đức), the companion pool, search, and lets evidence stage 4 select by tag.
+2b. **Session 3 — restructure the Baptism cluster** (owner's call, from the proofreading tracker,
+   2026-08-20). **Verified: 3 of the 7 members aren't about *infant* baptism at all** —
+   `phep-rua-chi-la-bieu-tuong…` (what baptism does), `phep-rua-va-chua-thanh-than`,
+   `ten-trom-tren-thap-gia…` (necessity). The topic name under-describes its own contents.
+   - **New anchor to write:** *is baptism necessary for salvation?* — the question that actually holds
+     these together. **Half the spine already exists:** `ten-trom-tren-thap-gia` cites **CCC 1257–1260**
+     (necessary where the Gospel is proclaimed · baptism of blood · of desire). Add **CCC 1261** —
+     infants who die unbaptised, entrusted to God's mercy.
+     ⚠️ **CCC 1261 is pastorally live, not academic:** a parent who lost a baby can land on that page.
+     The content-guide **"Pastoral tone"** rule applies — presence before doctrine, never a lecture.
+   - **Rename the topic** *Rửa tội trẻ em* → *Phép Rửa* (owner's wording call) across all members.
+   - **Demote** `tai-sao-rua-toi-cho-tre-em` to a member (`featured: false` + `part_of`) — infant baptism
+     becomes one question inside Baptism rather than the frame.
+   - ⚠️ **The new anchor NEEDS a banner** at `public/images/giai-dap/<new-anchor>.jpg` — required for any
+     `featured: true`; a missing file renders a broken image. This has bitten repeatedly.
+   - **Cross-link `related` both ways** to `nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong` and
+     `can-gi-gia-nhap-hoi-thanh` — CCC 1260 and CCC 847 are the same material from two angles.
+   - **Fix the anchor's `question_vi`** (same tracker note): *"…rửa tội cho trẻ em chưa thể hiểu hay tin
+     gì?"* → *"…rửa tội cho trẻ em **trong khi chúng** chưa thể hiểu hay tin gì?"*, or the punchier
+     *"Tại sao 'ép' trẻ em vào đạo bằng cách rửa tội trẻ sơ sinh?"*
+   - Re-sync the proofreading tracker afterwards (rows + the renamed cluster heading).
+
 **READY — thread 2 (§A) is DONE, both unblocked 2026-08-20**
 3. **Session 13 — evidence-path stage 4** (§B, same doc): "Is God still acting?" — miracles as the
    *final* stage, selecting by tag. Keep the `limits` field and "approval ≠ proof"; lead with the Lourdes
