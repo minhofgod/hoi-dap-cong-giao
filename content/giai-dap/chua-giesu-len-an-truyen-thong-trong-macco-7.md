@@ -22,7 +22,7 @@ Bối cảnh: người Pharisêu chê trách các môn đệ không giữ nghi t
 >
 > — **Mc 7,8** (CGKPV)
 
-Người còn nêu một ví dụ cụ thể: tập tục **Corban**. Một người có thể tuyên bố tài sản của mình "đã dâng cho Thiên Chúa", rồi viện lời khấn đó để **khỏi phải phụng dưỡng cha mẹ**. Nghĩa là một truyền thống loài người đang bị dùng để hủy bỏ một điều răn rõ ràng của Thiên Chúa — "Ngươi phải thờ cha kính mẹ". Vấn đề không phải là người Pharisêu **có** truyền thống, mà là truyền thống của họ **gạt bỏ** lệnh Chúa.
+Người còn nêu một ví dụ cụ thể: tập tục **Corban**. Một người có thể tuyên bố tài sản của mình "đã dâng cho Thiên Chúa", rồi viện lời khấn đó để **khỏi phải phụng dưỡng cha mẹ**. Nghĩa là một truyền thống loài người đang bị dùng để hủy bỏ một điều răn rõ ràng của Thiên Chúa — "Ngươi phải thờ cha kính mẹ" (chữ "thờ" ở đây nghĩa là **hiếu kính, tôn kính** cha mẹ, chứ không phải "tôn thờ / thờ phượng" như đối với một mình Thiên Chúa). Vấn đề không phải là người Pharisêu **có** truyền thống, mà là truyền thống của họ **gạt bỏ** lệnh Chúa.
 
 Điều đó rất khác với **Thánh Truyền tông đồ** mà Hội Thánh gìn giữ. Sách Giáo Lý phân biệt rành mạch: phải phân biệt "Truyền Thống các Tông Đồ" — xuất phát từ chính giáo huấn của Chúa Giêsu và các Tông đồ — với "các truyền thống" nhân loại có tính thần học, kỷ luật hay văn hóa nảy sinh theo thời gian (x. GLHTCG 83). Thánh Truyền không phải là sáng chế của loài người đi ngược Kinh Thánh; nó là chính giáo huấn tông đồ được trao lại — mà chính thánh Phaolô truyền phải nắm giữ "bằng lời nói hay bằng thư từ" (x. **2 Tx 2,15**).
 
