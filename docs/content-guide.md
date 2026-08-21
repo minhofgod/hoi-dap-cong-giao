@@ -327,6 +327,12 @@ quotes use superscript verse numbers (¹²³).
 - **Science/history claims fact-checked + `sources:` block added** (external citations as
   `{ label, url? }`; every quote/number/named study verified before shipping, never invented).
 - Charitable tone; verified Vietnamese terminology.
+- **Gloss the load-bearing theological/technical terms with their English**, in parentheses, on
+  first use — e.g. `quy điển (canon)`, `đệ nhị quy điển (deuterocanonical)`, `Ngụy thư (apocrypha)`,
+  `không thể sai lầm (infallible)`, `Duy Kinh Thánh (sola scriptura)`, `Bảy Mươi (Septuaginta)`. It
+  lets the reader cross-check the concept in English (and Google it). Only the *key* terms of the
+  answer, not every word. **Backlog: sweep existing Q&As to add these glosses** (started 2026-08-21,
+  from the Sola Scriptura cluster — not yet applied cluster-wide).
 - Slug is descriptive kebab-case from the Vietnamese, no diacritics.
 - Inline refs written as VN abbreviations `(Lc 20,38)` so the Scripture popover can detect them.
 - **Anchor image — REQUIRED for a `featured: true` anchor.** The topic card renders a banner from
