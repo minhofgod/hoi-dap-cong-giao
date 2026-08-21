@@ -83,6 +83,13 @@ launched as the coordinator, this is your role:
 **Open threads (refreshed against the repo 2026-08-20 — verify before trusting; these go stale fast):**
 
 **ACTIVE — in flight**
+0. 🔴 **URGENT — site-wide metadata missing** (`docs/metadata-audit-urgent.md`). ~210 content pages
+   all emit `<title>Hỏi Đáp Công Giáo</title>` + the same description; `og:url` points at the site root
+   on every page (so Facebook/Threads resolve every shared link to the HOMEPAGE card — confirmed in the
+   Sharing Debugger); no canonical tags; `/dong-hanh` + `/video` double the site name in their titles.
+   **This nullifies the per-Q&A OG cards and makes the content undifferentiated to search.** Fix =
+   remove the hardcoded `openGraph.url` in `app/layout.tsx` + add `generateMetadata` to every content
+   route. **Lane exception: ONE session does the whole pass — recommend Session 8.** Highest priority.
 1. **Session 2 — per-Q&A OG share cards** (`docs/og-share-cards-spec.md`) — *sent 2026-08-20.* Builds
    `app/giai-dap/[slug]/opengraph-image.tsx` so shared links preview the **question** instead of the
    generic site card. Watch the three pitfalls in the spec (font subsetting → VN diacritics, long-question
