@@ -13,6 +13,7 @@ related:
   - "nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong"
   - "song-tot-ca-doi-sao-khong-tu-tra-het-toi"
   - "tai-sao-chua-giesu-chiu-dong-dinh"
+  - "phep-rua-co-can-thiet-de-duoc-cuu-do-khong"
 ---
 
 **Câu hỏi này lẫn lộn hai hoàn cảnh rất khác nhau.** Việc Thiên Chúa **có thể** cứu một người *chưa hề* biết Tin Mừng mà không do lỗi của họ **không** biến Hội Thánh thành một lựa chọn tùy thích cho người **đã** biết sự thật. Đây là hai trường hợp khác nhau, và gộp chúng lại chính là chỗ sai của lập luận "vậy khỏi cần vào đạo".

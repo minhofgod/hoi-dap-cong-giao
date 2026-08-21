@@ -13,6 +13,7 @@ related:
   - "tai-sao-chua-giesu-chiu-dong-dinh"
   - "duc-tin-va-viec-lam"
   - "can-gi-gia-nhap-hoi-thanh"
+  - "phep-rua-co-can-thiet-de-duoc-cuu-do-khong"
 ---
 
 **Có — họ vẫn có thể được cứu độ.** Giáo Hội Công Giáo **không** dạy rằng ai chưa từng nghe biết Chúa Giêsu thì tự động bị hư mất. Đây là một trong những giáo huấn hay bị hiểu lầm nhất, nên xin nói cho rõ.

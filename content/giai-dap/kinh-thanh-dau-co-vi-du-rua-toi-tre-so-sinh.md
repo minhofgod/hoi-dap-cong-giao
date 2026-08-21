@@ -1,7 +1,7 @@
 ---
 question_vi: "Kinh Thánh đâu có ví dụ rõ ràng nào về rửa tội cho trẻ sơ sinh — chẳng phải đây là truyền thống muộn thời sau?"
 question_en: "There's no clear example of infant baptism in Scripture — isn't it a later tradition?"
-topic: "Rửa tội cho trẻ em"
+topic: "Phép Rửa"
 category: "the-church"
 tags: ["baptism", "church-history", "protestant-objections"]
 subcategory: "Lịch sử & Kinh Thánh"
@@ -11,7 +11,7 @@ sources:
   - label: "Catholic Answers, \"Infant Baptism\" — chứng từ Giáo phụ (Ôrigênê, Công đồng Carthagô 253)"
     url: "https://www.catholic.com/tract/infant-baptism"
 featured: false
-part_of: "tai-sao-rua-toi-cho-tre-em"
+part_of: "phep-rua-co-can-thiet-de-duoc-cuu-do-khong"
 related:
   - "tai-sao-rua-toi-cho-tre-em"
   - "tre-so-sinh-chua-tin-sao-lai-rua-toi"

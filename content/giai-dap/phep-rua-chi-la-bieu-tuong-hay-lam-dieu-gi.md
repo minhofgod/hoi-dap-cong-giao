@@ -1,14 +1,14 @@
 ---
 question_vi: "Phép Rửa chỉ là một biểu tượng bên ngoài, hay nó thật sự làm điều gì về mặt thiêng liêng?"
 question_en: "Is Baptism just an outward symbol, or does it actually do something?"
-topic: "Rửa tội cho trẻ em"
+topic: "Phép Rửa"
 category: "the-church"
 tags: ["baptism", "sacraments", "protestant-objections"]
 subcategory: "Phép Rửa làm gì"
 refs_ccc: [1263, 1265, 1213]
 refs_scripture: ["Ga 3,5", "1 Pr 3,21", "Tt 3,5-7", "Rm 6,3-4"]
 featured: false
-part_of: "tai-sao-rua-toi-cho-tre-em"
+part_of: "phep-rua-co-can-thiet-de-duoc-cuu-do-khong"
 related:
   - "tai-sao-rua-toi-cho-tre-em"
   - "phep-rua-va-chua-thanh-than"

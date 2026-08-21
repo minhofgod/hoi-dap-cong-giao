@@ -1,14 +1,14 @@
 ---
 question_vi: "Tên trộm trên thập giá được cứu mà không cần chịu phép Rửa — chẳng phải điều đó chứng tỏ phép Rửa không cần thiết sao?"
 question_en: "The thief on the cross was saved without Baptism — doesn't that prove Baptism isn't necessary?"
-topic: "Rửa tội cho trẻ em"
+topic: "Phép Rửa"
 category: "the-church"
 tags: ["baptism", "sacraments", "protestant-objections"]
 subcategory: "Trường hợp đặc biệt"
 refs_ccc: [1257, 1258, 1259, 1260]
 refs_scripture: ["Ga 3,5"]
 featured: false
-part_of: "tai-sao-rua-toi-cho-tre-em"
+part_of: "phep-rua-co-can-thiet-de-duoc-cuu-do-khong"
 related:
   - "tai-sao-rua-toi-cho-tre-em"
   - "nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong"

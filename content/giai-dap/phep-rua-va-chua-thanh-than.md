@@ -1,14 +1,14 @@
 ---
 question_vi: "Phép Rửa ảnh hưởng thế nào đến Chúa Thánh Thần — chẳng phải mọi người đều đã có Chúa Thánh Thần rồi sao?"
 question_en: "How does Baptism relate to the Holy Spirit — doesn't everyone already have the Holy Spirit?"
-topic: "Rửa tội cho trẻ em"
+topic: "Phép Rửa"
 category: "the-church"
 tags: ["baptism", "sacraments", "protestant-objections"]
 subcategory: "Chúa Thánh Thần"
 refs_ccc: [1265, 1266]
 refs_scripture: ["1 Cr 6,19", "1 Tm 2,4"]
 featured: false
-part_of: "tai-sao-rua-toi-cho-tre-em"
+part_of: "phep-rua-co-can-thiet-de-duoc-cuu-do-khong"
 related:
   - "tai-sao-rua-toi-cho-tre-em"
   - "phep-rua-chi-la-bieu-tuong-hay-lam-dieu-gi"

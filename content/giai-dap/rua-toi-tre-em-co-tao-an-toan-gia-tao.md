@@ -1,14 +1,14 @@
 ---
 question_vi: "Rửa tội cho trẻ em có tạo ra một cảm giác an toàn giả tạo — những \"Kitô hữu\" tưởng mình được cứu chỉ vì một nghi thức không?"
 question_en: "Doesn't infant baptism create a false sense of security — people who think a ritual saved them?"
-topic: "Rửa tội cho trẻ em"
+topic: "Phép Rửa"
 category: "the-church"
 tags: ["baptism", "sacraments", "protestant-objections"]
 subcategory: "Sống ơn phép Rửa"
 refs_ccc: [1254, 1272]
 refs_scripture: ["Pl 2,12"]
 featured: false
-part_of: "tai-sao-rua-toi-cho-tre-em"
+part_of: "phep-rua-co-can-thiet-de-duoc-cuu-do-khong"
 related:
   - "tai-sao-rua-toi-cho-tre-em"
   - "tre-so-sinh-chua-tin-sao-lai-rua-toi"

@@ -1,14 +1,14 @@
 ---
 question_vi: "Trẻ sơ sinh chưa thể ăn năn hay tin — phép Rửa dành cho người có đức tin cá nhân, vậy sao lại rửa tội cho trẻ?"
 question_en: "Infants can't repent or believe — Baptism is for personal faith, so why baptize them?"
-topic: "Rửa tội cho trẻ em"
+topic: "Phép Rửa"
 category: "the-church"
 tags: ["baptism", "sacraments", "protestant-objections"]
 subcategory: "Đức tin của Hội Thánh"
 refs_ccc: [1253, 1282]
 refs_scripture: ["Lc 18,15-17", "Mc 2,5", "1 Cr 7,14"]
 featured: false
-part_of: "tai-sao-rua-toi-cho-tre-em"
+part_of: "phep-rua-co-can-thiet-de-duoc-cuu-do-khong"
 related:
   - "tai-sao-rua-toi-cho-tre-em"
   - "kinh-thanh-dau-co-vi-du-rua-toi-tre-so-sinh"
