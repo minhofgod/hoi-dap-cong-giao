@@ -89,14 +89,35 @@ Per `CLAUDE.md` "Verify facts before they ship."
 actual Vietnamese Protestant Bible before claiming it; if VN versions render it "truyền thống" properly,
 the point doesn't apply to a VN reader and should be dropped or reframed as an English-translation note.
 
-**E2 — the *apostellō* argument (Ga 20,21-23).** The owner wants to argue *Apostello* = "những người
-được sai đi." The underlying point (apostles are *sent ones* bearing the sender's authority; *apostolos*
-derives from *apostellō*) is sound — **but Jn 20:21 appears to use two different Greek verbs** (the
-Father *apostellō*-sent Christ; Christ *pempō*-sends the disciples). If the argument is pinned on
-*apostellō* in v.21 specifically, a knowledgeable Protestant can rebut the detail. **Verify against the
-Greek text before writing**, and if confirmed, make the argument from *apostolos*/the sending motif
-generally rather than from that one verb in that one verse. Ga 20,21-23 is still an excellent passage
-here (the sending + the Spirit + the authority to forgive sins).
+**E2 — the *apostellō* argument. ✅ VERIFIED 2026-08-20 (coordinator) — the argument WORKS, but move it
+to a different verse.**
+
+The flag was correct: **Ga 20,21 does switch verbs** — ἀπέσταλκέν (*apostellō*, perfect) for the Father
+sending Christ, but **πέμπω** (*pempō*, present) for Christ sending the disciples. Pinning the argument
+on *apostellō* there is rebuttable.
+
+**Use Ga 17,18 instead — it uses *apostellō* BOTH times:**
+> *καθὼς ἐμὲ **ἀπέστειλας** εἰς τὸν κόσμον, κἀγὼ **ἀπέστειλα** αὐτοὺς εἰς τὸν κόσμον*
+> "Như Cha đã sai con đến thế gian, thì con cũng sai họ đến thế gian." (Ga 17,18)
+
+Same verb, Father→Son and Son→disciples. That is precisely the point the owner wants, with nothing to
+rebut. **Keep Ga 20,21-23 as well** — it still carries the sending + the Spirit + the authority to
+forgive sins, and one commentary tradition reads **17,18 as proleptic, fulfilled in 20,21**, which lets
+both verses work together rather than forcing a choice.
+
+⚠️ **Do NOT build the argument on an *apostellō* vs *pempō* contrast.** Whether the distinction is
+significant is **genuinely contested**: some hold *apostellō* = commission with delegated authority vs
+*pempō* = general sending, others hold that John alternates them as stylistic variation (characteristic
+of his Greek). Per `CLAUDE.md`, present contested scholarship as contested — or simply avoid needing it,
+which 17,18 lets us do.
+
+**Facts confirmed:** *apostellō* (Strong's 649) occurs **~133×** in the NT — Mt 10,5 and Mc 3,14
+(sending the Twelve), Lc 10,1 (the seventy), Ga 3,17 and 5,36 (the Father sending the Son), Cv 13,4.
+*apostolos* does derive from *apostellō*. Sources: BibleHub interlinears for Ga 17,18 and Ga 20,21 +
+Strong's 649 lexicon entry.
+
+📌 **Session 3:** quote the Vietnamese from **CGKPV** as always, and verify the Ga 17,18 wording in the
+CGKPV file rather than translating the Greek yourself.
 
 ---
 
