@@ -29,7 +29,7 @@ Suốt mấy thế kỷ đầu có sự bất đồng thật sự:
 - Cùng lúc, những tác phẩm khác như **Mục tử Hécma, Điđakhê, và 1 Clêmentê** lại được đọc trong một số cộng đoàn và **chỉ được một số ít người coi là Kinh Thánh**.
 - **Danh mục** đúng 27 sách Tân Ước như ta có ngày nay được **thánh Athanasiô** nêu ra lần đầu trong lá **thư Phục Sinh năm 367**. Các **Công đồng Hippô (393)** và **Carthagô (397)** khẳng định danh mục ấy ở Bắc Phi.
 
-Với Cựu Ước cũng vậy: Hội Thánh sơ khai dùng bản dịch Hy Lạp **Bảy Mươi (Septuaginta)**, trong đó có các sách **đệ nhị quy điển** (deuterocanonical). Những sách đó đã là một phần Kinh Thánh Kitô giáo suốt hơn một ngàn năm, mãi tới thời Cải Cách mới bị các nhà Cải Cách Tin Lành loại khỏi bộ Cựu Ước của họ (gọi là "Ngụy thư").
+Với Cựu Ước cũng vậy: Hội Thánh sơ khai dùng bản dịch Hy Lạp **Bảy Mươi (Septuaginta)**, trong đó có các sách **đệ nhị quy điển** (deuterocanonical). Những sách đó đã là một phần Kinh Thánh Kitô giáo suốt hơn một ngàn năm, mãi tới thời Cải Cách mới bị các nhà Cải Cách Tin Lành loại khỏi bộ Cựu Ước của họ (gọi là "Ngụy thư", *apocrypha*).
 
 Sách Giáo Lý nói thẳng đâu là nguồn của danh mục ấy:
 
