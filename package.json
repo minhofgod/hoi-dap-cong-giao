@@ -2,6 +2,11 @@
   "name": "hoi-dap-cong-giao-website",
   "version": "0.1.0",
   "private": true,
+  "//browserslist": "Include Safari 15+ so the build downlevels ES2022 class static blocks (static {}), which SyntaxError on Safari < 16.4 (e.g. iPad Safari 16.2) and killed all JS site-wide. See docs / the favicon+shell notes.",
+  "browserslist": [
+    "defaults",
+    "safari >= 15"
+  ],
   "scripts": {
     "build:bible": "node scripts/build-bible.mjs",
     "predev": "node scripts/build-bible.mjs",
