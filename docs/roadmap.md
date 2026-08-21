@@ -415,29 +415,32 @@ resolved, the tool can show verse *references* + hand-glosses, not the full CGKP
 
 ## Still open
 
-- **🐛 KNOWN BUG (deprioritized by the owner 2026-08-19, but UNEXPLAINED — not an old-device issue).**
-  On the owner's iPad (**iPadOS 16.2**), the **hamburger menu** and the **buttons inside `/dong-hanh`**
-  do not respond. Owner chose not to fix it for now; recording it accurately so it isn't mis-filed.
-  - **Ruled out** (tested against the live site): hydration failure (React mounts; a companion button
-    click advances the flow), disabled buttons / `pointer-events`, an overlay (the menu panel is
-    conditionally rendered, absent from the DOM when closed), a hydration mismatch from
-    `TONG_LUAN_ENABLED` (build-time `NEXT_PUBLIC_*` constant), a companion sticky-sidebar collision
-    (`DongHanh.module.css` has no media queries/sticky at all), and `(hover:none)/(pointer:coarse)`
-    leaking beyond `SiteHeader.module.css`.
-  - **Also ruled out — the "old iPad" theory.** The bundle needs ~Safari 13.1+ (`?.`, `??`), 14+
-    (`||=`), and **15.4+ (`.at()`)**; **iPadOS 16.2 supports all of them**, so the JS parses and runs.
-    A too-old-WebKit dead-bundle does NOT explain it. **Do not record this as an old-device problem.**
-  - **Not reproduced:** the failing condition is a **wide viewport (~1024px) + coarse pointer**, which
-    the browser tooling can't emulate (touch emulation only engages below 768px). Needs a real iPad or
-    proper device emulation.
-  - **Remaining prime suspect:** commit `a57d078` (Session 8) — `@media (max-width: 899px),
-    (hover: none), (pointer: coarse)` now applies the compact header layout on **any touch device at
-    any width**. Check for overlapping/duplicated header elements at ~1024px coarse-pointer; the menu
-    button's `textContent` reads **"MenuMenu"** (doubled), which may indicate two overlapping buttons.
-  - **Worth re-examining:** `a57d078` was itself an "iPad fix" and changed behavior for **all** touch
-    users. If it's the cause, it may be solving a problem that no longer exists.
-  - **Lanes:** hamburger → **Session 8** (`SiteHeader`); companion buttons → **Session 7**
-    (`components/DongHanh*`). Both failing together suggests one shared cause — have 8 lead.
+- **🐛 ROOT CAUSE FOUND — iPad/Safari <16.4 gets ZERO JavaScript site-wide (diagnosed 2026-08-19).**
+  On the owner's **iPad Pro, iPadOS 16.2**, nothing interactive works anywhere on the site: the
+  hamburger, the `/dong-hanh` choices, and the `/giai-dap` filter chips are all dead, while cards and
+  links work normally. Identical in Safari and Chrome (same WebKit on iPad) and in both orientations.
+  - **Cause:** the deployed chunk `052wfoq6juuo3.js` contains a **class static initialization block** —
+    `class y extends React.Component{ static { this.contextType = AppRouterContext } … }` — which is
+    **Safari 16.4+ only**. On 16.2 it's a **SyntaxError at parse time**, so the chunk never loads,
+    React never hydrates, and every JS-driven control on every page is inert. Server-rendered HTML and
+    plain `<a>` links still work, which is exactly the observed pattern. The offending code is
+    **Next.js's own App Router code**, not the site's.
+  - **Fix:** `package.json` has **no `browserslist`**, so the build uses Next's default target, which
+    permits static blocks. Add an explicit target including older Safari (e.g. `"safari >= 15"`) and
+    rebuild. ⚠️ **Verify, don't assume** — Next ships some *precompiled* chunks that browserslist may
+    not reach; after deploying, re-scan the live chunks for `static {` and retest on a real iPad. If it
+    persists, escalate to a Next config/version fix.
+  - **Ruled out along the way** (don't re-tread): hydration mismatch, disabled buttons /
+    `pointer-events`, menu-panel overlay, the `TONG_LUAN_ENABLED` gate, `Promise.withResolvers`
+    (core-js polyfills it), storage exceptions (all `localStorage`/`sessionStorage` calls are
+    try/caught), duplicate/overlapping menu buttons ("MenuMenu" is just the `T` component rendering
+    both languages), the `.walkSide` sticky sidebar (dead in portrait too), and the "old device"
+    theory (16.2 supports `?.`/`??`/`||=`/`.at()`).
+  - **Impact is bigger than one device:** ANY visitor on Safari below 16.4 — iPhone and iPad — gets a
+    completely non-interactive site. Treat as high priority, not an edge case.
+  - **Also worth fixing separately:** `a57d078` routes every touch device to the compact header at any
+    width, which hides the VI/EN toggle behind the (currently dead) menu — so language switching is
+    unreachable on iPad regardless of this bug.
 
 - **Retrofit external `sources` / citations onto the OLDER content sections — Công Đồng (councils),
   Giáo Phụ (church fathers), Các Thánh (saints).** These were built *before* the `sources` field existed
