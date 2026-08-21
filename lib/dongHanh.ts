@@ -12,6 +12,7 @@
 import type { Bi } from './giaiDapTaxonomy';
 import type { EnrichedAnswer } from './bibleRefs';
 import { EVIDENCE_PATH_ENABLED } from './evidencePathFlag';
+import { CG_TL_ENABLED } from './congGiaoTinLanhFlag';
 
 export type { Bi };
 
@@ -31,7 +32,29 @@ export interface Step {
   question: Bi;
   intro?: Bi;
   choices: Choice[];
+  /** An optional cross-path CTA shown BELOW the choices on this question — for offering a whole
+   *  guided surface that doesn't belong to any single choice. Used on `defending` to hand the reader
+   *  the "Công Giáo và Tin Lành" path (written TO a Protestant reader, to share), before they sort
+   *  into an objection. Present only when its flag is on, so it's never a dead link. */
+  cta?: { href: string; prompt: Bi; label: Bi };
 }
+
+/** Cross-path CTA into "Công Giáo và Tin Lành" (/cong-giao-va-tin-lanh), shown on the `defending`
+ *  question. `defending` is written for a Catholic gathering answers; this path is written TO a
+ *  Protestant reader in the second person — so the offer is framed as something to SHARE with a
+ *  Protestant loved one, not more ammunition. Present ONLY when CG_TL_ENABLED is on (mirrors
+ *  EVIDENCE_PATH_CTA) — otherwise undefined, so nothing renders on the live companion until the path
+ *  ships. `?from=dong-hanh` lets the path offer a way back. */
+const CG_TL_CTA: Step['cta'] = CG_TL_ENABLED
+  ? {
+      href: '/cong-giao-va-tin-lanh?from=dong-hanh',
+      prompt: {
+        vi: 'Bạn có người thân, bạn bè theo đạo Tin Lành? Đây là trang viết cho chính họ — để gửi, không phải để tranh luận.',
+        en: "Have a loved one or friend who is Protestant? Here's a page written for them — to share, not to argue with.",
+      },
+      label: { vi: 'Công Giáo và Tin Lành', en: 'Catholic and Protestant' },
+    }
+  : undefined;
 
 /** The whole tree, keyed by step id. `start` is the entry step. Most paths are 2 questions; the
  *  pastoral paths (suffering) resolve in 1, on purpose — fewer clicks for someone who is hurting. */
@@ -127,6 +150,7 @@ export const STEPS: Record<string, Step> = {
   defending: {
     id: 'defending',
     question: { vi: 'Chủ đề nào bạn đang quan tâm?', en: 'Which topic are you asking about?' },
+    cta: CG_TL_CTA,
     choices: [
       {
         id: 'saints',

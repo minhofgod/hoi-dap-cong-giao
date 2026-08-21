@@ -13,6 +13,7 @@ import {
   RotateCcw,
   Search,
   Sparkles,
+  Users,
 } from 'lucide-react';
 import { useLang } from '@/lib/giao-phu/useLang';
 import {
@@ -282,6 +283,21 @@ function IntakeView({
           </button>
         ))}
       </div>
+
+      {/* Cross-path CTA (e.g. `defending` → the Công Giáo và Tin Lành path). Below the choices, and
+          offered BEFORE the reader sorts into an objection — because the destination is written for a
+          different reader (a Protestant), to be shared, not more ammunition. Present only when its
+          flag is on (see STEPS), so it never renders a dead link. */}
+      {step.cta && (
+        <Link href={step.cta.href} className={`${styles.evidenceCta} ${styles.stepCta}`}>
+          <Users size={20} strokeWidth={1.8} className={styles.evidenceCtaIcon} />
+          <span className={styles.evidenceCtaText}>
+            <span className={styles.evidenceCtaPrompt}>{pick(step.cta.prompt)}</span>
+            <span className={styles.evidenceCtaLabel}>{pick(step.cta.label)}</span>
+          </span>
+          <ArrowRight size={18} strokeWidth={2.2} className={styles.evidenceCtaArrow} />
+        </Link>
+      )}
     </div>
   );
 }

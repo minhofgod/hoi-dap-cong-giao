@@ -475,6 +475,12 @@
   transform: translateX(3px);
 }
 
+/* Same CTA panel, but placed BELOW the choices on an intake question (not above content like the
+   evidence CTA on the anchor) — so the spacing flips to a top margin. */
+.stepCta {
+  margin: 26px 0 0;
+}
+
 /* --- Video play badge + video meta (shared: follow-up buttons and the reading header) --- */
 .resourcePlay {
   display: inline-grid;
