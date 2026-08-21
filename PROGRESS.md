@@ -51,8 +51,14 @@ Set them in `.env.local` (gitignored) to preview locally. **Do not set them on V
 | `NEXT_PUBLIC_COMPANION` | `/dong-hanh` companion | **on by default** — set to `0` as a kill switch |
 | `NEXT_PUBLIC_EVIDENCE_PATH` | `/bang-chung` evidence path | local-only until the 4 bridge paragraphs are proofread |
 | `NEXT_PUBLIC_CG_TL` | `/cong-giao-va-tin-lanh` — Công Giáo và Tin Lành | local-only until the owner proofreads the framing text (landing copy + 4 branch intros, all in `lib/congGiaoTinLanhPath.ts`) |
+| `NEXT_PUBLIC_TONG_LUAN` | `/tong-luan` — Tổng luận Thần học (35 chapters) | local-only until the owner proofreads them. **The source text was AI-generated** and then fact-checked by Session 14 (`docs/tong-luan-verification.md`) — do not switch this on before that read. |
 
 Anything flag-gated must also be gated in **`app/sitemap.ts`**, or Google gets URLs that 404.
+
+**Not a feature flag, but the same footgun:** `NEXT_PUBLIC_SITE_URL` overrides the canonical origin
+in `lib/siteUrl.ts`. **If it is set in Vercel it WINS over the default** — so a stale value there would
+silently point every canonical, sitemap and `og:image` URL at the wrong host. Leave it unset in
+production.
 
 - Initial commit `c481fad`; git identity `minhofgod <minh.c.tran1992@gmail.com>` (repo-local).
 
