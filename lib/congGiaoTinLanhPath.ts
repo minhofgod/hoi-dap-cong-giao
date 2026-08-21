@@ -135,9 +135,13 @@ export const CG_TL_BRANCHES: CgTlBranch[] = [
   },
   {
     slug: 'hoi-thanh-va-bi-tich',
+    // "Bí tích có thật sự làm điều gì không?" was a calque of the English and read flat in
+    // Vietnamese (owner, 2026-08-21). Putting THIEN CHUA in the subject position is the fix: the
+    // question becomes whether God acts, not whether a rite works — which is also the better
+    // question for a reader whose worry about sacraments is that they are empty ritual.
     title: {
-      vi: 'Bí tích có thật sự làm điều gì không?',
-      en: 'Do the sacraments actually do something?',
+      vi: 'Thiên Chúa có thật sự hành động qua các bí tích không?',
+      en: 'Does God actually act through the sacraments?',
     },
     covers: {
       vi: 'Xưng tội với linh mục, quyền tha tội, Phép Rửa cho trẻ em, và Phép Rửa thật sự làm gì.',
@@ -148,7 +152,7 @@ export const CG_TL_BRANCHES: CgTlBranch[] = [
     // intro refuses to assume anything about the reader's own position. Only two traditions are
     // named, and both names were verified — see the header note.
     intro: {
-      vi: 'Đây có lẽ là chỗ khác biệt sắc nét nhất — và cũng là chỗ mà chính các hệ phái Tin Lành khác nhau nhiều nhất giữa mình với nhau: một tín hữu Báp-tít và một tín hữu Anh giáo không nói cùng một điều về Phép Rửa. Vì thế phần này không giả định sẵn bạn tin điều gì. Câu hỏi chung nằm dưới cả hai chủ đề ở đây chỉ là một: bí tích là dấu chỉ cho một điều đã xảy ra rồi, hay chính Thiên Chúa làm một điều gì đó qua nó?',
+      vi: 'Đây có lẽ là chỗ khác biệt sắc nét nhất — và cũng là chỗ mà chính các hệ phái Tin Lành khác nhau nhiều nhất giữa mình với nhau: một tín hữu Báp-tít và một tín hữu Anh giáo không có cùng quan điểm về Phép Rửa. Vì thế phần này không giả định sẵn bạn tin điều gì. Câu hỏi chung nằm dưới cả hai chủ đề ở đây chỉ là một: bí tích là dấu chỉ cho một điều đã xảy ra rồi, hay chính Thiên Chúa hành động qua đó?',
       en: 'This is probably where the difference is sharpest — and also where Protestant traditions differ most among themselves: a Baptist and an Anglican do not say the same thing about baptism. So this part does not assume in advance what you believe. There is one question underneath both topics here: is a sacrament a sign of something that has already happened, or does God actually do something through it?',
     },
     anchors: ['tai-sao-xung-toi-voi-linh-muc', 'phep-rua-co-can-thiet-de-duoc-cuu-do-khong'],
