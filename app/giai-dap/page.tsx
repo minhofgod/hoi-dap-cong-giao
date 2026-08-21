@@ -5,7 +5,15 @@ import { GiaiDapBrowser } from '@/components/GiaiDapBrowser';
 import { DongHanhCta } from '@/components/DongHanhCta';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { getCouncilApologetics } from '@/lib/councilsV2';
+import { staticPageMetadata } from '@/lib/pageMetadata';
 import styles from './giai-dap.module.css';
+
+export const generateMetadata = staticPageMetadata({
+  title: 'Giải Đáp',
+  description:
+    'Những câu hỏi thường gặp về đức tin Công Giáo, được giải đáp rõ ràng và song ngữ Việt–Anh, kèm tham chiếu Kinh Thánh và Giáo Lý Hội Thánh Công Giáo.',
+  path: '/giai-dap',
+});
 
 // Plain-text excerpt from the Markdown body: drop emphasis, headings, blockquote
 // markers and link syntax so the list preview reads as prose, not raw Markdown.

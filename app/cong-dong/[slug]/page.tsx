@@ -19,10 +19,29 @@ import { CatechismRef } from '@/components/CatechismRef';
 import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { resolveCatechism } from '@/lib/content';
 import { enrichBi } from '@/lib/bibleRefs';
+import { pageMetadata, plainExcerpt, resolveParentImages } from '@/lib/pageMetadata';
+import type { Metadata, ResolvingMetadata } from 'next';
 import styles from './council.module.css';
 
 export function generateStaticParams() {
   return getAllCouncils().map((c) => ({ slug: c.slug }));
+}
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const { slug } = await params;
+  const council = getCouncilBySlug(slug);
+  if (!council) return {};
+  const lead = [council.subtitle?.vi, council.background?.[0]?.vi].filter(Boolean).join('. ');
+  return pageMetadata({
+    title: council.name.vi,
+    description: plainExcerpt(lead),
+    path: `/cong-dong/${council.slug}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 const UI = {

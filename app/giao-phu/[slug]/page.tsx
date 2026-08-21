@@ -19,10 +19,29 @@ import { CatechismRef } from '@/components/CatechismRef';
 import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { resolveCatechism } from '@/lib/content';
 import { enrichBi } from '@/lib/bibleRefs';
+import { pageMetadata, plainExcerpt, resolveParentImages } from '@/lib/pageMetadata';
+import type { Metadata, ResolvingMetadata } from 'next';
 import styles from './father.module.css';
 
 export function generateStaticParams() {
   return getAllFigures().map((f) => ({ slug: f.slug }));
+}
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const { slug } = await params;
+  const figure = getFigureBySlug(slug);
+  if (!figure) return {};
+  const lead = [figure.role?.vi, figure.life?.[0]?.vi].filter(Boolean).join('. ');
+  return pageMetadata({
+    title: figure.name.vi,
+    description: plainExcerpt(lead),
+    path: `/giao-phu/${figure.slug}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 const UI = {

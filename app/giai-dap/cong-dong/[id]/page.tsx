@@ -4,6 +4,8 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
 import { Bi2 } from '@/components/giao-phu/Bi2';
 import { getCouncilApologetics } from '@/lib/councilsV2';
+import { pageMetadata, plainExcerpt, resolveParentImages } from '@/lib/pageMetadata';
+import type { Metadata, ResolvingMetadata } from 'next';
 import styles from '../../[slug]/answer.module.css';
 
 // Q&A pages sourced dynamically from each council's `apologetics` (see lib/councilsV2
@@ -11,6 +13,22 @@ import styles from '../../[slug]/answer.module.css';
 // renders one item as a standalone Q&A, with a link to read more about the council itself.
 export function generateStaticParams() {
   return getCouncilApologetics().map((qa) => ({ id: qa.id }));
+}
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ id: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const { id } = await params;
+  const qa = getCouncilApologetics().find((x) => x.id === id);
+  if (!qa) return {};
+  return pageMetadata({
+    title: qa.question.vi,
+    description: plainExcerpt(qa.answer.vi),
+    path: `/giai-dap/cong-dong/${qa.id}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 export default async function CouncilQAPage({ params }: { params: Promise<{ id: string }> }) {

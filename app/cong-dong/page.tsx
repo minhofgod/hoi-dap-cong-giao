@@ -4,10 +4,19 @@ import { Bi2 } from '@/components/giao-phu/Bi2';
 import { CouncilsBrowser } from '@/components/cong-dong/CouncilsBrowser';
 import Image from 'next/image';
 import { getEraGroups, getAllCouncils } from '@/lib/councilsV2';
+import { staticPageMetadata, plainExcerpt } from '@/lib/pageMetadata';
 import styles from './cong-dong.module.css';
 
 // Re-pick the featured 3 on every request (random on load).
 export const dynamic = 'force-dynamic';
+
+export const generateMetadata = staticPageMetadata({
+  title: 'Các Công Đồng Chung',
+  description: plainExcerpt(
+    'Từ Nicêa (325) đến Vaticanô II (1962–1965) — hai mươi mốt công đồng chung, nơi Hội Thánh cùng nhau xác định đức tin. Xếp theo dòng thời gian; vào bất cứ đâu cũng được.',
+  ),
+  path: '/cong-dong',
+});
 
 function pickThree<T>(arr: T[]): T[] {
   const a = [...arr];

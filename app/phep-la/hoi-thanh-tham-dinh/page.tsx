@@ -7,6 +7,7 @@ import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { CatechismRef } from '@/components/CatechismRef';
 import { resolveCatechism } from '@/lib/content';
 import { enrichBi } from '@/lib/bibleRefs';
+import { staticPageMetadata, plainExcerpt } from '@/lib/pageMetadata';
 import type { Bi } from '@/lib/miraclesV2';
 import styles from './explainer.module.css';
 
@@ -22,6 +23,13 @@ const HERO_LEDE = {
   vi: 'Phần lớn hiểu lầm về phép lạ và các cuộc hiện ra bắt nguồn từ một chỗ: người ta tưởng "Hội Thánh chuẩn nhận" nghĩa là "Hội Thánh chứng minh". Không phải vậy. Trang này giải thích Hội Thánh thật sự làm gì, nói gì, và cố ý không nói gì.',
   en: 'Most confusion about miracles and apparitions comes from one place: people take “the Church approved it” to mean “the Church proved it.” It does not. This page sets out what the Church actually does, what it says, and what it deliberately declines to say.',
 };
+
+export const generateMetadata = staticPageMetadata({
+  title: HERO_TITLE.vi,
+  description: plainExcerpt(HERO_LEDE.vi),
+  path: '/phep-la/hoi-thanh-tham-dinh',
+  type: 'article',
+});
 
 const SECTIONS: { heading: Bi; paragraphs: Bi[] }[] = [
   {

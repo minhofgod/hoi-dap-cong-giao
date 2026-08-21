@@ -7,6 +7,7 @@ import { CarloDedication } from '@/components/phep-la/CarloDedication';
 import { MiraclesBrowser } from '@/components/phep-la/MiraclesBrowser';
 import { getTypeBlocks, PRIVATE_REVELATION_NOTE } from '@/lib/miraclesV2';
 import { enrichBi } from '@/lib/bibleRefs';
+import { staticPageMetadata, plainExcerpt } from '@/lib/pageMetadata';
 import styles from './phep-la.module.css';
 
 const HERO_TITLE = { vi: 'Phép Lạ & Hiện Ra', en: 'Miracles & Apparitions' };
@@ -14,6 +15,12 @@ const HERO_LEDE = {
   vi: 'Dành cho người đang hỏi: "có bằng chứng nào không?" Chỉ những trường hợp Hội Thánh đã nhìn nhận, và mỗi trường hợp đều nói rõ Hội Thánh đã nói gì — và chưa nói gì. Chúng tôi không thổi phồng chứng cứ, không biến việc chuẩn nhận thành chứng minh, và ghi rõ nguồn để bạn tự kiểm chứng.',
   en: 'For anyone asking: “is there any evidence?” Only cases the Church has recognised, and every one of them says plainly what the Church has said — and what it has not. We do not inflate the evidence, we do not turn approval into proof, and we cite sources so you can check them yourself.',
 };
+
+export const generateMetadata = staticPageMetadata({
+  title: HERO_TITLE.vi,
+  description: plainExcerpt(HERO_LEDE.vi),
+  path: '/phep-la',
+});
 
 const NOTE_HEADING = { vi: 'Xin đọc trước', en: 'Read this first' };
 const APPROVAL_NOTE = {

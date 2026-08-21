@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { DongHanh } from '@/components/DongHanh';
@@ -10,12 +9,15 @@ import { SITUATIONS, type Resource } from '@/lib/dongHanh';
 import { resolveReference, enrichBody, enrichBi, type ResolvedReference } from '@/lib/bibleRefs';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
+import { staticPageMetadata } from '@/lib/pageMetadata';
 
-export const metadata: Metadata = {
-  title: 'Đồng hành · Hỏi Đáp Công Giáo',
+// Bare title only — the root layout's title.template appends " · Hỏi Đáp Công Giáo".
+export const generateMetadata = staticPageMetadata({
+  title: 'Đồng hành',
   description:
     'Một vài câu hỏi ngắn để tìm đúng những giải đáp, đoạn Kinh Thánh và bước tiếp theo hợp với hoàn cảnh của bạn.',
-};
+  path: '/dong-hanh',
+});
 
 // A short plain-text preview of an answer — shown inline as the reader walks the branching path.
 // Strips Markdown and inline Scripture refs (e.g. "(Ga 20,23)"), which belong to the full answer

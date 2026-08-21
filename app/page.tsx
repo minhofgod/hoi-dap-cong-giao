@@ -23,7 +23,15 @@ import { BrandMark } from '@/components/BrandMark';
 import { DongHanhCta } from '@/components/DongHanhCta';
 import { COMPANION_ENABLED } from '@/lib/companionFlag';
 import { T } from '@/components/T';
+import type { Metadata } from 'next';
 import styles from './page.module.css';
+
+// Home keeps the root layout's default title + Open Graph (its title, description, and card image),
+// so no title/openGraph here — only a self-canonical to "/". og:url is intentionally left to fall
+// back to the fetched URL, which for the homepage is the root anyway.
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 // First two body paragraphs as a plain-text teaser (drop quotes, headings, lists, and Markdown).
 function ledeParagraphs(bodyRaw: string, count = 2): string[] {

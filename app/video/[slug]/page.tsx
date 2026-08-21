@@ -7,21 +7,28 @@ import { T } from '@/components/T';
 import { getAllVideos, getVideoBySlug } from '@/lib/videos';
 import { getAllQuestions } from '@/lib/giaiDap';
 import { relatedByTaxonomy } from '@/lib/relatedContent';
+import { pageMetadata, plainExcerpt, resolveParentImages } from '@/lib/pageMetadata';
+import type { ResolvingMetadata } from 'next';
 import styles from '../video.module.css';
 
 export function generateStaticParams() {
   return getAllVideos().map((v) => ({ slug: v.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
   const { slug } = await params;
   const v = getVideoBySlug(slug);
-  if (!v) return { title: 'Video · Hỏi Đáp Công Giáo' };
-  return { title: `${v.title} · Hỏi Đáp Công Giáo`, description: v.summary };
+  if (!v) return {};
+  return pageMetadata({
+    title: v.title,
+    description: v.summary ? plainExcerpt(v.summary) : undefined,
+    path: `/video/${v.slug}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 export default async function VideoWatchPage({ params }: { params: Promise<{ slug: string }> }) {

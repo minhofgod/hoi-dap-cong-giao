@@ -21,10 +21,29 @@ import { CatechismRef } from '@/components/CatechismRef';
 import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { resolveCatechism } from '@/lib/content';
 import { enrichBi, enrichPlain } from '@/lib/bibleRefs';
+import { pageMetadata, plainExcerpt, resolveParentImages } from '@/lib/pageMetadata';
+import type { Metadata, ResolvingMetadata } from 'next';
 import styles from './saint.module.css';
 
 export function generateStaticParams() {
   return getAllSaints().map((s) => ({ slug: s.slug }));
+}
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const { slug } = await params;
+  const saint = getSaintBySlug(slug);
+  if (!saint) return {};
+  const lead = [saint.role?.vi, saint.life?.[0]?.vi].filter(Boolean).join('. ');
+  return pageMetadata({
+    title: saint.name.vi,
+    description: plainExcerpt(lead),
+    path: `/cac-thanh/${saint.slug}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 const UI = {

@@ -20,10 +20,28 @@ import {
 import { getSaintBySlug } from '@/lib/saintsV2';
 import { resolveCatechism } from '@/lib/content';
 import { enrichBi } from '@/lib/bibleRefs';
+import { pageMetadata, plainExcerpt, resolveParentImages } from '@/lib/pageMetadata';
+import type { Metadata, ResolvingMetadata } from 'next';
 import styles from './miracle.module.css';
 
 export function generateStaticParams() {
   return getAllMiracles().map((m) => ({ slug: m.slug }));
+}
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const { slug } = await params;
+  const miracle = getMiracleBySlug(slug);
+  if (!miracle) return {};
+  return pageMetadata({
+    title: miracle.title.vi,
+    description: plainExcerpt(miracle.summary.vi),
+    path: `/phep-la/${miracle.slug}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 const UI = {

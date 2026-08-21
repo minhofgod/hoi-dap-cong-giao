@@ -1,17 +1,19 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
 import { getChaptersByPart } from '@/lib/tongLuan';
 import { TONG_LUAN_ENABLED } from '@/lib/tongLuanFlag';
+import { staticPageMetadata } from '@/lib/pageMetadata';
 import styles from './tong-luan.module.css';
 
-export const metadata: Metadata = {
-  title: 'Tổng luận Thần học · Hỏi Đáp Công Giáo',
+// Bare title only — the root layout's title.template appends " · Hỏi Đáp Công Giáo".
+export const generateMetadata = staticPageMetadata({
+  title: 'Tổng luận Thần học',
   description:
     'Đọc bộ Tổng luận thần học của Thánh Tôma Aquinô qua 35 chương ngắn: Thiên Chúa, con người, nhân đức, Đức Kitô và các Bí tích.',
-};
+  path: '/tong-luan',
+});
 
 export default function TongLuanIndexPage() {
   if (!TONG_LUAN_ENABLED) notFound();

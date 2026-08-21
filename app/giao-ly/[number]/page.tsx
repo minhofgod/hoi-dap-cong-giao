@@ -15,10 +15,30 @@ import {
   getParagraphsForArticle,
 } from '@/lib/content';
 import { formatTocLabel } from '@/lib/titleFormat';
+import { pageMetadata, plainExcerpt, resolveParentImages } from '@/lib/pageMetadata';
+import type { Metadata, ResolvingMetadata } from 'next';
 import styles from './reader.module.css';
 
 export function generateStaticParams() {
   return flatArticles.map((a) => ({ number: String(a.paragraphRange[0]) }));
+}
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ number: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const { number } = await params;
+  const article = getArticleByStartNumber(Number(number));
+  if (!article) return {};
+  const label = formatTocLabel(article);
+  const firstPara = getParagraphsForArticle(article.id)[0]?.vi ?? '';
+  return pageMetadata({
+    title: `${label.title} (GLHTCG)`,
+    description: plainExcerpt(firstPara),
+    path: `/giao-ly/${article.paragraphRange[0]}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 export default async function GiaoLyReaderPage({ params }: { params: Promise<{ number: string }> }) {

@@ -20,6 +20,8 @@ import { enrichReferences, resolveReference } from '@/lib/bibleRefs';
 import { resolveCatechism } from '@/lib/content';
 import { SCRIPTURE_POPOVER_ENABLED } from '@/lib/scriptureFlag';
 import { CANVAS_ENABLED } from '@/lib/canvasFlag';
+import { pageMetadata, plainExcerpt, resolveParentImages } from '@/lib/pageMetadata';
+import type { Metadata, ResolvingMetadata } from 'next';
 import styles from './answer.module.css';
 
 // Topics that have a visual diagram at /so-do/<slug> (shown only when the canvas flag is on).
@@ -29,6 +31,22 @@ const CANVAS_FOR: Record<string, string> = {
 
 export function generateStaticParams() {
   return getAllQuestions().map((q) => ({ slug: q.slug }));
+}
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const { slug } = await params;
+  const question = getQuestionBySlug(slug);
+  if (!question) return {};
+  return pageMetadata({
+    title: question.questionVi,
+    description: plainExcerpt(question.bodyRaw),
+    path: `/giai-dap/${question.slug}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 // Make inline references in the answer prose clickable: Catechism (GLHTCG) always, Scripture only

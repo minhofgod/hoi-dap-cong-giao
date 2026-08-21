@@ -1,15 +1,17 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Play } from 'lucide-react';
 import { SiteHeader } from '@/components/SiteHeader';
 import { T } from '@/components/T';
 import { getAllVideos } from '@/lib/videos';
+import { staticPageMetadata } from '@/lib/pageMetadata';
 import styles from './video.module.css';
 
-export const metadata: Metadata = {
-  title: 'Video · Hỏi Đáp Công Giáo',
+// Bare title only — the root layout's title.template appends " · Hỏi Đáp Công Giáo".
+export const generateMetadata = staticPageMetadata({
+  title: 'Video',
   description: 'Các video ngắn về đức tin Công giáo — hộ giáo, Kinh Thánh và đời sống Kitô hữu.',
-};
+  path: '/video',
+});
 
 export default function VideoIndexPage() {
   const videos = getAllVideos();

@@ -39,12 +39,15 @@ export const metadata: Metadata = {
   applicationName: SITE_NAME,
   // Vietnamese-first social card (a bare link on Facebook/Zalo otherwise shows no title/image).
   // The image comes from app/opengraph-image.tsx via the file-based convention.
+  // NOTE: no `openGraph.url` here on purpose. A hardcoded root URL made EVERY page advertise
+  // og:url = the homepage, so Facebook/Zalo resolved every shared link back to "/". With it
+  // omitted, each content route sets its own url via lib/pageMetadata; pages without one fall back
+  // to the fetched URL, which is correct. metadataBase still makes those relative URLs absolute.
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    url: SITE_URL,
     locale: "vi_VN",
     alternateLocale: "en_US",
   },

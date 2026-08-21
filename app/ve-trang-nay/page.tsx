@@ -1,5 +1,13 @@
 import { SiteHeader } from '@/components/SiteHeader';
+import { staticPageMetadata } from '@/lib/pageMetadata';
 import styles from '../coming-soon.module.css';
+
+export const generateMetadata = staticPageMetadata({
+  title: 'Về trang này',
+  description:
+    'Hỏi Đáp Công Giáo là một trang tham khảo song ngữ Việt–Anh về đức tin Công Giáo: Giải Đáp, Giáo Lý Hội Thánh Công Giáo, và các bản văn Giáo Phụ.',
+  path: '/ve-trang-nay',
+});
 
 export default function AboutPage() {
   return (

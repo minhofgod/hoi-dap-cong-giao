@@ -4,10 +4,18 @@ import { Bi2 } from '@/components/giao-phu/Bi2';
 import { FathersBrowser } from '@/components/giao-phu/FathersBrowser';
 import Image from 'next/image';
 import { getEraGroups, getFigureBySlug } from '@/lib/churchFathersV2';
+import { staticPageMetadata } from '@/lib/pageMetadata';
 import styles from './giao-phu.module.css';
 
 // Re-pick the featured 3 on every request (random on load).
 export const dynamic = 'force-dynamic';
+
+export const generateMetadata = staticPageMetadata({
+  title: 'Giáo Phụ',
+  description:
+    'Các Giáo Phụ của Hội Thánh sơ khai — cuộc đời, tác phẩm và chứng từ đức tin của những thầy dạy đầu tiên, sắp theo dòng thời gian và song ngữ Việt–Anh.',
+  path: '/giao-phu',
+});
 
 // Pool of Fathers (each has a portrait) + a one-line "why" — 3 are drawn at random per load.
 const FEATURED_POOL: { slug: string; why: { vi: string; en: string } }[] = [

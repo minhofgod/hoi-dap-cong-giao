@@ -18,6 +18,8 @@ import {
   TONG_LUAN_PARTS,
   type TongLuanSource,
 } from '@/lib/tongLuan';
+import { pageMetadata, resolveParentImages } from '@/lib/pageMetadata';
+import type { ResolvingMetadata } from 'next';
 import styles from '../tong-luan.module.css';
 
 export function generateStaticParams() {
@@ -25,20 +27,23 @@ export function generateStaticParams() {
   return getAllChapters().map((c) => ({ slug: c.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
   const { slug } = await params;
   const chapter = getChapterBySlug(slug);
   if (!chapter) return {};
-  return {
-    title: `${chapter.titleVi} — Tổng luận Thần học · Hỏi Đáp Công Giáo`,
+  // Bare title (+ section context) only — the root layout's title.template appends the site name.
+  return pageMetadata({
+    title: `${chapter.titleVi} · Tổng luận Thần học`,
     description: chapter.summaRef
       ? `${chapter.titleVi} — Tổng luận thần học, ${chapter.summaRef}.`
       : chapter.titleVi,
-  };
+    path: `/tong-luan/${slug}`,
+    type: 'article',
+    images: await resolveParentImages(parent),
+  });
 }
 
 // Bible/Catechism popover chips declared in frontmatter. The Catechism is public so its chips are

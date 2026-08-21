@@ -16,13 +16,15 @@ import {
   type TimelineBand,
   type TimelineItem,
 } from '@/lib/lich-su-hoi-thanh/bands';
+import { staticPageMetadata } from '@/lib/pageMetadata';
 import styles from './lich-su-hoi-thanh.module.css';
 
-export const metadata = {
-  title: 'Lịch Sử Hội Thánh / Church History',
+export const generateMetadata = staticPageMetadata({
+  title: 'Lịch Sử Hội Thánh',
   description:
-    'Các Giáo Phụ và các Công Đồng Chung trên cùng một dòng thời gian — the Church Fathers and the Ecumenical Councils on one shared timeline.',
-};
+    'Các Giáo Phụ và các Công Đồng Chung trên cùng một dòng thời gian — from the first witnesses who heard the Apostles to the twenty-one ecumenical councils.',
+  path: '/lich-su-hoi-thanh',
+});
 
 const HERO_TITLE = { vi: 'Lịch Sử Hội Thánh', en: 'Church History' };
 const HERO_LEDE = {

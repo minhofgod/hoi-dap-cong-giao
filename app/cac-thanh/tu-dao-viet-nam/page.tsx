@@ -1,19 +1,21 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
 import { LanguageToggle } from '@/components/LanguageToggle';
 import { Bi2 } from '@/components/giao-phu/Bi2';
 import { ScriptureBi2 } from '@/components/ScriptureBi2';
 import { getGroupBlocks, type Bi } from '@/lib/saintsV2';
 import { enrichBi } from '@/lib/bibleRefs';
+import { staticPageMetadata } from '@/lib/pageMetadata';
 import styles from './overview.module.css';
 
-export const metadata: Metadata = {
-  title: 'Các Thánh Tử Đạo Việt Nam · Martyrs of Vietnam',
+export const generateMetadata = staticPageMetadata({
+  title: 'Các Thánh Tử Đạo Việt Nam',
   description:
     'Tổng quan 117 vị Thánh Tử Đạo Việt Nam được tuyên thánh năm 1988, cùng Á Thánh Anrê Phú Yên, vị tử đạo tiên khởi.',
-};
+  path: '/cac-thanh/tu-dao-viet-nam',
+  type: 'article',
+});
 
 const BACK = { vi: '← Các Thánh', en: '← The Saints' };
 const HERO_EYEBROW = { vi: 'Di sản Việt Nam', en: 'Vietnamese heritage' };
