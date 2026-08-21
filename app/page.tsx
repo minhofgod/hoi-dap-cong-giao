@@ -33,6 +33,12 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
+// Render per request so the hero can open on a RANDOM featured question each load (the pick happens
+// in the component below). Same trade-off the /cong-dong and /giao-phu indexes already make for their
+// random "featured" rows; the heavy work (mapping + ref resolution) stays at module scope, so a
+// request only pays for a shuffle.
+export const dynamic = 'force-dynamic';
+
 // First two body paragraphs as a plain-text teaser (drop quotes, headings, lists, and Markdown).
 function ledeParagraphs(bodyRaw: string, count = 2): string[] {
   return bodyRaw
@@ -48,6 +54,16 @@ function ledeParagraphs(bodyRaw: string, count = 2): string[] {
         .trim()
     )
     .slice(0, count);
+}
+
+// Fisher–Yates — same idiom as the /cong-dong and /giao-phu featured pickers.
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 const parts = toc.filter((n) => /^PHẦN/u.test(n.titleVi));
@@ -82,20 +98,27 @@ const resolveScripture = (refs: string[]) =>
 const resolveCcc = (nums: number[]) =>
   Object.fromEntries(nums.map((n) => [n, resolveCatechism(n)]));
 
-// Featured question first, so the hero opens on the anchor of each topic.
-const heroQuestions: HeroQuestion[] = [...questions]
-  .sort((a, b) => Number(b.featured) - Number(a.featured))
-  .map((q) => ({
-    slug: q.slug,
-    question: q.questionVi,
-    lede: ledeParagraphs(q.bodyRaw),
-    ccc: q.refsCcc,
-    scripture: q.refsScripture,
-    scriptureData: resolveScripture(q.refsScripture),
-    cccData: resolveCcc(q.refsCcc),
-  }));
+const toHero = (q: (typeof questions)[number]): HeroQuestion => ({
+  slug: q.slug,
+  question: q.questionVi,
+  lede: ledeParagraphs(q.bodyRaw),
+  ccc: q.refsCcc,
+  scripture: q.refsScripture,
+  scriptureData: resolveScripture(q.refsScripture),
+  cccData: resolveCcc(q.refsCcc),
+});
+
+// The hero opens on a `featured` question (the curated pool) and lets the reader swipe through the
+// rest. Split here — mapped once at module scope — so the component can shuffle just the featured
+// pool per request without re-resolving every question's refs. Non-featured keep alphabetical order.
+const featuredHero: HeroQuestion[] = questions.filter((q) => q.featured).map(toHero);
+const restHero: HeroQuestion[] = questions.filter((q) => !q.featured).map(toHero);
 
 export default function HomePage() {
+  // Random featured question leads the hero on each load; the rest follow in order for swiping.
+  // Falls back to the alphabetical list when nothing is flagged `featured`.
+  const heroQuestions: HeroQuestion[] = [...shuffle(featuredHero), ...restHero];
+
   return (
     <>
       <SiteHeader />
