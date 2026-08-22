@@ -311,6 +311,30 @@ add a part to an existing cluster:
 7. **Verify before done:** `npx tsc --noEmit` and `npm run lint` clean; the new files parse; the
    pages render at `/giai-dap/<slug>`.
 
+### Inline cross-references to another Q&A (decided 2026-08-21)
+
+When an answer refers mid-prose to another answer, make it a **real link**, not plain text:
+
+```markdown
+Xem thêm bài [Người chưa từng nghe biết Chúa có được cứu không?](/giai-dap/nguoi-chua-tung-nghe-biet-chua-co-duoc-cuu-khong).
+```
+
+- **This already works** — `lib/giaiDap.ts` runs bodies through `marked.parse()` and `ScriptureBody`
+  renders the resulting anchor. No framework change needed.
+- **Use the explicit slug.** Never rely on matching a title string — titles get reworded, slugs do not.
+  **Verify each slug resolves to a real file** before committing.
+- **Never put `target="_blank"` in content.** Link behaviour is the renderer's, site-wide.
+
+**Same tab — settled 2026-08-21** (owner asked for new tabs; Session 2 argued it back, owner agreed):
+every other internal link on the site — the `related:` list, prev/next, see-also, topic cards, the TOC —
+opens in the same tab, so `_blank` here would make one identical action behave differently for no
+visible reason. The worry it was meant to fix (losing your place in a long cluster article) is already
+handled by Back restoring scroll position, plus the anchor layout's TOC and scrollspy. It also hurts
+most on mobile — the Zalo/Messenger in-app browsers most readers arrive through — and an unexpected new
+window is disorienting for screen-reader users.
+
+*(`related:` frontmatter is a different thing: it renders the see-also list at the foot of the answer.
+Use it for sibling questions; use an inline link when the prose actually points at one.)*
 ### CGKPV — extracting verse text (never hand-type)
 
 The CGKPV Vietnamese Bible lives at `D:\Dropbox\Obsidian Vault\Bible\CGKPV` → `Cựu Ước` / `Tân Ước`
