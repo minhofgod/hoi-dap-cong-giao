@@ -418,7 +418,8 @@ export const SITUATIONS: Record<string, Situation> = {
     // category was previously unused; its content now lives here, not just under god-meaning).
     categories: ['god-meaning', 'science-faith'],
     tags: ['science', 'atheism', 'evolution', 'miracles'],
-    pastoral: true,
+    // No `pastoral` off-ramp: this is an intellectual question, not pain/loss/loneliness — the
+    // "talk to a priest, it weighs on your heart" consolation is a non-sequitur here.
     // Guarantee the on-the-nose answer leads the follow-ups over the broader cosmology cluster.
     seedPins: ['n:khoa-hoc-va-ton-giao-co-mau-thuan-khong'],
     scripture: {
@@ -450,7 +451,9 @@ export const SITUATIONS: Record<string, Situation> = {
     ],
     categories: ['evidence-history'],
     tags: ['resurrection', 'church-history', 'bible', 'miracles', 'jesus'],
-    pastoral: true,
+    // No `pastoral` off-ramp: "is there evidence?" is an intellectual question, not pain/loss — the
+    // "talk to a priest, it weighs on your heart" consolation doesn't fit (the walk offers the
+    // /bang-chung evidence CTA instead, which does fit).
     evidencePath: EVIDENCE_PATH_CTA,
     scripture: {
       ref: '1 Cr 15,3-4',
