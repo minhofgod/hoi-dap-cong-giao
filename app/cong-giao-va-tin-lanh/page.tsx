@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
@@ -58,6 +59,42 @@ export default function CongGiaoVaTinLanhPage() {
               enRecessedClassName={styles.heroLedeEnRecessed}
             />
           </div>
+
+          {/* Piero della Francesca's Baptism of Christ — already in the shared image library with
+              its CREDITS.csv row (it is the "Phép Rửa" topic banner). Referenced by path rather
+              than copied: one asset, one credit.
+
+              The choice is the page's own argument in paint. The shared-ground paragraph below
+              cites GLHTCG 1271 — Baptism as the bond uniting everyone reborn through it — and this
+              is that sentence as a picture. It also passes the test the whole surface has to pass:
+              the subject is CHRIST, not the Church, not a pope, not a saint, so there is nothing in
+              it for a Protestant reader to object to, and it casts them as nothing. (Rembrandt's
+              Prodigal Son — a Reformed painter, and the site's Xưng tội banner — was the tempting
+              alternative and is the one to avoid: on a page written to a Protestant reader, a
+              kneeling son coming home reads as "come back to Rome", which is exactly the
+              triumphalism the spec forbids.)
+
+              Decorative: alt="" and aria-hidden, because the visible credit line directly below
+              already names the painting and the painter in the reader's own language. */}
+          <div className={styles.heroMedia} aria-hidden="true">
+            <Image
+              src="/images/giai-dap/phep-rua-co-can-thiet-de-duoc-cuu-do-khong.jpg"
+              alt=""
+              width={1400}
+              height={2045}
+              sizes="(max-width: 760px) 200px, 240px"
+              priority
+              className={styles.heroImage}
+            />
+          </div>
+
+          <Bi2
+            value={CG_TL_LANDING.imageCredit}
+            as="p"
+            viClassName={styles.heroCredit}
+            enClassName={styles.heroCredit}
+            enRecessedClassName={styles.heroCreditEnRecessed}
+          />
         </div>
 
         {/* Shared ground comes BEFORE the branch cards, not after them — a reader who scrolls past

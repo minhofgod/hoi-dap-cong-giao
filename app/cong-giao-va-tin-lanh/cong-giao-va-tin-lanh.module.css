@@ -44,16 +44,53 @@
   color: var(--text-fainter);
 }
 
-/* ---- Dark hero band (landing) ---- */
+/* ---- Dark hero band (landing) ----
+   Two columns like the Church History hub and the evidence path: copy, then the banner painting.
+   The text column comes first in the DOM, so the mobile stack leads with the title rather than
+   with a picture. */
 .hero {
   margin: 16px var(--page-gutter) 0;
   background: var(--dark-ground);
   border-radius: var(--radius-band);
   padding: 48px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 44px;
+  align-items: center;
 }
 
 .heroText {
-  max-width: 720px;
+  max-width: 680px;
+}
+
+.heroMedia {
+  justify-self: center;
+  line-height: 0;
+}
+
+/* A tall portrait panel (the painting is roughly 2:3), so it is held to a narrow column and left
+   as a plain rounded rectangle — no disc mask like the evidence path's globe, which works there
+   only because that photo IS a circle on black. */
+.heroImage {
+  width: 240px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* TASL credit, visible on the page as the image-library rule requires — quiet, but present, and
+   it carries the painting's name so the picture itself can stay decorative to a screen reader. */
+.heroCredit {
+  grid-column: 1 / -1;
+  margin: 26px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #9a9186;
+}
+.heroCreditEnRecessed {
+  margin: 4px 0 0;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: #857d73;
 }
 
 .eyebrow {
@@ -563,6 +600,15 @@
   color: var(--text-faint);
 }
 
+/* Below ~860px the 240px picture column starves the text, so the hero stacks: title first, the
+   painting under it. */
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+}
+
 @media (max-width: 760px) {
   .hero {
     margin: 12px var(--mobile-gutter) 0;
@@ -570,6 +616,12 @@
   }
   .heroTitle {
     font-size: 32px;
+  }
+  .heroImage {
+    width: 200px;
+  }
+  .heroCredit {
+    margin-top: 20px;
   }
   .topBar,
   .sharedGround,

@@ -223,6 +223,15 @@ export const CG_TL_LANDING = {
     } satisfies Bi,
   },
 
+  // TASL credit for the hero painting, rendered visibly on the page — the image-library rule
+  // requires the attribution to be on the page itself, not only in CREDITS.csv. Piero della
+  // Francesca died in 1492, so the work is public domain by age; the file is the National Gallery
+  // scan via Wikimedia Commons, already in the library as the "Phép Rửa" topic banner.
+  imageCredit: {
+    vi: 'Ảnh: “Chúa Giêsu chịu phép rửa” — Piero della Francesca (khoảng 1450). Wikimedia Commons, phạm vi công cộng.',
+    en: 'Image: “The Baptism of Christ” — Piero della Francesca (c. 1450). Wikimedia Commons, public domain.',
+  } satisfies Bi,
+
   closing: {
     vi: 'Trang này không nói điều gì mới. Mọi câu trả lời ở đây đều đã có sẵn trong mục Giải Đáp — việc của trang này chỉ là gom chúng lại theo đúng những câu hỏi thường được đặt ra, và nói rõ mỗi phần đang bàn tới điều gì.',
     en: 'This page says nothing new. Every answer here already exists in the Giải Đáp section — all this page does is gather them under the questions people actually ask, and say what each part is about.',
