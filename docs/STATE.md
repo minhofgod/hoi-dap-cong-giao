@@ -223,16 +223,21 @@ launched as the coordinator, this is your role:
 **OWNER'S TRACK (not routed to a session)**
 12. **Pre-launch proofreading** — the gate before pointing the GoDaddy domain at the site. Offline
     tracker in Obsidian (*Hỏi Đáp — Proofreading Tracker*); ~215 pieces, re-sync it as content lands.
-13. **Content ideas approved, not yet specced:** ⭐ **Marian doctrines** (Mẹ Thiên Chúa · Vô nhiễm
-    nguyên tội · trọn đời đồng trinh · hồn xác lên trời) — **the clearest gap the Công Giáo và Tin
-    Lành path exposed**: its Mary branch covers intercession and images but carries a written
-    caveat that the dogmas themselves have no page, and those are exactly the Marian points
-    Protestants press hardest. Theotokos already has a home to link to — Êphêsô in `content/cong-dong`.
-    **When it ships, delete the caveat in `lib/congGiaoTinLanhPath.ts`** (see
-    `docs/cong-giao-tin-lanh-spec.md` → "Pending removal"). ⭐ **ancestor veneration (thờ cúng ông bà tổ tiên)** —
-    the most distinctive gap on the site; Vietnamese Catholic history (incl. quốc ngữ); "how to go to
-    confession"; cultural objections (*"đạo nào cũng tốt"*). Prayers → decided to live on **Visual
-    Rosary** instead (prayer *texts* there; *questions about* prayer stay here).
+13. **Content ideas → now consolidated and RANKED in `docs/content-backlog-clusters.md`** (2026-08-21).
+    Everything raised across sessions, plus gaps found by auditing every `tags:` id against
+    `lib/giaiDapTaxonomy.ts` — a tag the vocabulary defines but nothing carries is a subject the site
+    claims to cover and does not. Headline finding:
+    - ⭐ **Thánh Thể / the Eucharist has ZERO Q&As** — no answer carries the tag, no Real Presence
+      cluster. Meanwhile **6 `content/phep-la` entries are tagged `eucharist`**, so the site presents
+      Eucharistic miracles as evidence for a doctrine it never explains. Biggest gap on the site.
+    - Then: **Marian dogmas** (a live page already carries a written caveat about their absence) ·
+      **Papacy** and **canon of the Bible** (each has a placeholder cross-link already waiting —
+      memories `todo-papacy-crosslink-sola-scriptura`, `todo-canon-topic-crosslink`) ·
+      **development of doctrine** (specced, §G of `docs/proofread-fixes-round2-sola-scriptura.md`) ·
+      ⭐ **ancestor veneration** (the owner's starred idea and the site's most distinctive gap).
+    - Thin but real: purgatory · the *philosophical* problem of evil · afterlife · Trinity ·
+      evolution (tag defined, zero content) · "how to go to confession" · "đạo nào cũng tốt" ·
+      Vietnamese Catholic history.
 14. **Features approved, not yet specced:** feast-day / liturgical-calendar hook; offline/PWA; a
     "start here" path for the newly curious.
 15. **Backlog:** retrofit `sources` onto Councils/Fathers/Saints · 5 remaining saint portraits · audio
