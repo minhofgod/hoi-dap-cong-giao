@@ -311,6 +311,27 @@ add a part to an existing cluster:
 7. **Verify before done:** `npx tsc --noEmit` and `npm run lint` clean; the new files parse; the
    pages render at `/giai-dap/<slug>`.
 
+### Bible abbreviations — write the CGKPV form; other forms still resolve (2026-08-22)
+
+**When you author a Scripture reference, use the abbreviation the printed CGKPV Bible uses** — that is
+what the vault declares and what the popover treats as canonical. The two that catch people out:
+
+| Book | ✅ Write this | Also resolves (inbound only) |
+|---|---|---|
+| Do thái (Hebrews) | **`Dt`** | `Hr`, `Heb` |
+| Xôphônia (Zephaniah) | **`Xp`** | `Sp`, `Zeph` |
+
+**Why the second column exists — and why we did NOT "fix" the source.** The Vietnamese Catechism in
+`content/content.json` cites Hebrews as **`Hr`** and Zephaniah as **`Sp`** throughout. That text is
+HĐGM VN's translation, **not ours to edit** — the same rule that keeps CGKPV verse text untouched. So
+`scripts/build-bible.mjs` accepts those as **inbound aliases**: references written that way resolve,
+while the CGKPV form stays canonical for anything we write. (Session 6 confirmed `Dt` against the
+physical CGKPV Bible, 2026-08-19.)
+
+**Known and deliberate non-fix:** some `content.json` references drop the 1/2 prefix — `Pt`, `Cor`,
+`Tx`, `In` — so they cannot resolve to a specific book. **Leave them.** Editing HĐGM VN's text to suit
+our resolver is the wrong trade; an unresolved chip is the honest outcome. Do not "helpfully" repair
+these.
 ### Inline cross-references to another Q&A (decided 2026-08-21)
 
 When an answer refers mid-prose to another answer, make it a **real link**, not plain text:
