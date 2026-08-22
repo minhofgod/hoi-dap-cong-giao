@@ -1,7 +1,7 @@
 ---
 question_vi: "Ngay cả các Giáo phụ cũng bất đồng về quy điển — vậy làm sao biết Giáo hội Công giáo đã chọn đúng?"
 question_en: "Even the Church Fathers disagreed on the canon — so how do we know the Catholic Church got it right?"
-topic: "Duy Kinh Thánh (Sola Scriptura)"
+topic: "Quy điển Kinh Thánh"
 category: "scripture"
 tags: ["bible", "church-history", "protestant-objections"]
 subcategory: "Quy điển"
@@ -13,10 +13,11 @@ sources:
   - label: "Eusêbiô Xêdarêa, Lịch sử Giáo hội (Ecclesiastical History) III, 25 — phân biệt sách \"được công nhận\" với sách \"còn tranh cãi\""
     url: "https://www.newadvent.org/fathers/250103.htm"
 featured: false
-part_of: "chi-can-kinh-thanh-sola-scriptura-co-dung-khong"
+part_of: "nguoi-cong-giao-co-them-sach-vao-kinh-thanh-khong"
 related:
-  - "chi-can-kinh-thanh-sola-scriptura-co-dung-khong"
+  - "nguoi-cong-giao-co-them-sach-vao-kinh-thanh-khong"
   - "ai-quyet-dinh-sach-nao-thuoc-kinh-thanh"
+  - "chi-can-kinh-thanh-sola-scriptura-co-dung-khong"
 ---
 
 **Một phản đối tinh tế:** nếu ngay cả các Giáo phụ cũng không nhất trí về quy điển, thì làm sao biết Hội Thánh Công giáo đã chọn **đúng**? Có ba câu trả lời.

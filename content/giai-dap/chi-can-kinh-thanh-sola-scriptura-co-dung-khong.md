@@ -12,8 +12,6 @@ parts:
   - "2-timothe-3-16-co-day-chi-can-kinh-thanh-khong"
   - "kinh-thanh-noi-gi-ve-thanh-truyen"
   - "kinh-thanh-da-du-chua-sao-con-can-gi-nua"
-  - "ai-quyet-dinh-sach-nao-thuoc-kinh-thanh"
-  - "ngay-ca-cac-giao-phu-cung-bat-dong"
   - "thanh-than-huong-dan-moi-nguoi-sao-van-chia-re"
   - "chua-giesu-len-an-truyen-thong-trong-macco-7"
   - "nguoi-berea-tra-cuu-kinh-thanh-moi-ngay"
@@ -57,4 +55,4 @@ Và ngài gọi chính **Hội Thánh** — chứ không phải cuốn sách —
 
 Vậy điều gì **nâng đỡ** cả ba chân ghế ấy? — **Sự Kế Thừa Tông Đồ** (*apostolic succession*). Chúa Giêsu không viết một cuốn sách rồi để mặc đám đông tự lo; Người đã **chọn, sai đi và ban quyền** cho các Tông đồ — chính chữ "Tông đồ" (*apostolos*) nghĩa là "**người được sai đi**". Rồi các ngài đặt tay trao lại thừa tác vụ ấy cho những người kế vị, thành một **chuỗi sống động** kéo dài tới hôm nay. Vì thế thẩm quyền của Hội Thánh **không** phát xuất từ chính mình, mà từ **Đấng đã sai**: nên khi Hội Thánh gìn giữ Kinh Thánh, trao lại Thánh Truyền và giải thích cả hai, đó không phải là tiếm quyền Thiên Chúa, mà là **thi hành đúng sứ mạng Người đã ủy thác**. (Xem [Chính Kinh Thánh nói gì về Thánh Truyền?](/giai-dap/kinh-thanh-noi-gi-ve-thanh-truyen) ở phần liên quan.)
 
-**Duy Kinh Thánh** nghe đơn giản, nhưng tự nó **sụp đổ** ở hai điểm: **(1)** nó không giải thích nổi làm sao ta biết được **sách nào** là Kinh Thánh ngay từ đầu — chính Hội Thánh đã phân định quy điển; và **(2)** khi mỗi người tự làm toà phán quyết về ý nghĩa, nó sinh ra **chia rẽ bất tận**, không có thẩm quyền nào phân xử. Loạt bài dưới đây khai triển hai vấn đề ấy, trả lời từng câu Kinh Thánh mà người ta hay trích để bênh **Duy Kinh Thánh**, và cho thấy ngay các Giáo phụ thời sơ khai cũng không hề giải quyết tranh cãi đức tin theo lối "Duy Kinh Thánh".
+**Duy Kinh Thánh** nghe đơn giản, nhưng tự nó **sụp đổ** ở hai điểm: **(1)** nó không giải thích nổi làm sao ta biết được **sách nào** là Kinh Thánh ngay từ đầu — chính Hội Thánh đã phân định quy điển (xem loạt bài [Quy điển Kinh Thánh](/giai-dap/nguoi-cong-giao-co-them-sach-vao-kinh-thanh-khong)); và **(2)** khi mỗi người tự làm toà phán quyết về ý nghĩa, nó sinh ra **chia rẽ bất tận**, không có thẩm quyền nào phân xử. Loạt bài dưới đây khai triển hai vấn đề ấy, trả lời từng câu Kinh Thánh mà người ta hay trích để bênh **Duy Kinh Thánh**, và cho thấy ngay các Giáo phụ thời sơ khai cũng không hề giải quyết tranh cãi đức tin theo lối "Duy Kinh Thánh".

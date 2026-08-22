@@ -1,7 +1,7 @@
 ---
 question_vi: "Kinh Thánh vốn là Lời Chúa, tự nó đã có thẩm quyền — vậy tại sao lại cần Hội Thánh \"trao quyền\" hay công nhận nó?"
 question_en: "Scripture is God's Word with its own authority — so why would it need the Church to \"authorize\" or recognize it?"
-topic: "Duy Kinh Thánh (Sola Scriptura)"
+topic: "Quy điển Kinh Thánh"
 category: "scripture"
 tags: ["bible", "church-history", "protestant-objections"]
 subcategory: "Quy điển"
@@ -13,10 +13,11 @@ sources:
   - label: "Catholic Encyclopedia (1913), \"Canon of the Old Testament\""
     url: "https://www.newadvent.org/cathen/03267a.htm"
 featured: false
-part_of: "chi-can-kinh-thanh-sola-scriptura-co-dung-khong"
+part_of: "nguoi-cong-giao-co-them-sach-vao-kinh-thanh-khong"
 related:
+  - "nguoi-cong-giao-co-them-sach-vao-kinh-thanh-khong"
+  - "sao-khong-theo-quy-dien-do-thai-39-cuon"
   - "chi-can-kinh-thanh-sola-scriptura-co-dung-khong"
-  - "khai-huyen-22-cam-them-vao-kinh-thanh"
 ---
 
 **Bạn nói đúng ở một điểm rất quan trọng — và người Công giáo hoàn toàn đồng ý: thẩm quyền của Kinh Thánh đến từ *Thiên Chúa*, Đấng đã linh hứng, chứ *không* từ Hội Thánh.** Hội Thánh **không** "ban quyền" hay "làm cho" một cuốn sách trở thành Lời Chúa — sách được linh hứng thì đã là Lời Chúa ngay từ khi được viết ra. Vậy nên nếu ai hiểu lập trường Công giáo là "Hội Thánh trao thẩm quyền cho Kinh Thánh", thì đó là một **hiểu lầm**.
@@ -38,5 +39,7 @@ Sách Giáo Lý nói thẳng đâu là nguồn của danh mục ấy:
 > — GLHTCG 120
 
 Thử đẩy câu hỏi tới cùng theo chiều ngược lại: **giả như** ai đó **không** chịu nhận rằng Hội Thánh có thẩm quyền để phân định quy điển. Vậy họ căn cứ vào đâu mà chắc chắn rằng đúng **27** cuốn Tân Ước đang cầm trên tay — không dư, không thiếu — thật sự là Lời Thiên Chúa **không thể sai lầm** (*infallible*)? Gạt bỏ thẩm quyền của Hội Thánh rồi, thì tất cả những gì còn lại chỉ là một **phỏng đoán của con người** về việc sách nào được linh hứng — chẳng khác nào một "bộ sưu tập *có thể sai* gồm những cuốn sách *không thể sai*". Chính nền tảng của cuốn Kinh Thánh mà họ hết mực trân quý lại **tựa vào** đúng thẩm quyền mà họ muốn chối bỏ.
+
+Một số người nêu phép so sánh: "Giáo Hội nhận ra quy điển như ông Newton nhận ra trọng lực — chỉ **khám phá** điều đã có sẵn, chứ không tạo ra nó." Phần nào đúng: Giáo Hội không tạo ra ơn linh hứng của các sách. Nhưng phép ví khập khiễng ở một điểm then chốt — ta có thể **làm thí nghiệm** để kiểm chứng trọng lực, còn **không có thí nghiệm** nào chứng minh đúng 27 cuốn này (và không cuốn nào khác) là Lời Chúa được linh hứng. Vì thế việc nhận ra quy điển không phải một "khám phá" trung tính mà ai cũng tự làm được, mà là một **phán đoán có thẩm quyền** của Hội Thánh, dưới ơn Chúa Thánh Thần.
 
 Đây chính là chỗ lập luận **Duy Kinh Thánh** tự mâu thuẫn. **Cùng một Hội Thánh** — với hàng giám mục kế vị các Tông đồ, được Chúa Thánh Thần hướng dẫn — vừa phân định sách nào thuộc **Thư quy**, vừa gìn giữ Thánh Truyền và giải thích chính những sách ấy. Không thể vừa nhận thẩm quyền của Hội Thánh để có được **danh mục** Kinh Thánh, vừa chối thẩm quyền ấy khi tới việc giải thích. Nếu Hội Thánh đủ thẩm quyền để nói cho ta biết **sách nào** là Lời Thiên Chúa, thì Hội Thánh cũng đủ thẩm quyền để dạy **những sách ấy có nghĩa gì**.

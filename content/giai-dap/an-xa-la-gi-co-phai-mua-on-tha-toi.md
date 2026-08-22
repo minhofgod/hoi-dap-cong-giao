@@ -15,7 +15,7 @@ parts:
   - "luther-chi-don-dep-lam-dung-hay-di-xa-hon"
 related:
   - "giao-hoi-co-tung-bat-buoc-nop-thap-phan"
-  - "ai-quyet-dinh-sach-nao-thuoc-kinh-thanh"
+  - "nguoi-cong-giao-co-them-sach-vao-kinh-thanh-khong"
   - "duc-tin-va-viec-lam"
 ---
 
@@ -40,7 +40,7 @@ Sách Giáo Lý định nghĩa rõ: "Ân xá là việc tha thứ trước mặt
 
 Thánh Phaolô cũng nói tới một sự thanh luyện *sau khi* đã được cứu: có người "sẽ được cứu, nhưng như thể băng qua lửa" (x. **1 Cr 3,15**).
 - **Hội Thánh có quyền "cầm buộc và tháo cởi".** Chúa Kitô trao chìa khóa Nước Trời: "dưới đất, anh cầm buộc điều gì, trên trời cũng sẽ cầm buộc như vậy" (**Mt 16,19**; x. Mt 18,18) — chính quyền ấy làm nền cho việc Hội Thánh tháo cởi phần hình phạt tạm.
-- **Có thể giúp cả người đã khuất.** Sách Macabê kể việc "dâng lễ tế đền tạ cho những người đã chết, để họ được giải thoát khỏi tội lỗi" (**2 Mcb 12,46**). *(Macabê thuộc các sách **đệ nhị quy điển** — deuterocanonical — trong bộ Cựu Ước Công giáo, mà anh em Tin Lành gọi là "Ngụy thư", apocrypha; xem [bài về quy điển](/giai-dap/ai-quyet-dinh-sach-nao-thuoc-kinh-thanh) ở phần liên quan.)*
+- **Có thể giúp cả người đã khuất.** Sách Macabê kể việc "dâng lễ tế đền tạ cho những người đã chết, để họ được giải thoát khỏi tội lỗi" (**2 Mcb 12,46**). *(Macabê thuộc các sách **đệ nhị quy điển** — deuterocanonical — trong bộ Cựu Ước Công giáo, mà anh em Tin Lành gọi là "Ngụy thư", apocrypha; xem [loạt bài Quy điển Kinh Thánh](/giai-dap/nguoi-cong-giao-co-them-sach-vao-kinh-thanh-khong) ở phần liên quan.)*
 
 Cũng cần nói cho rõ: **ân xá không phải là "làm việc lành để mua ơn cứu độ".** Nó **giả thiết** người ta đã được tha tội và đang sống trong ân sủng — mà ơn cứu độ ấy hoàn toàn là **quà tặng cho không**, nhờ Đức Kitô. Ân xá chỉ đụng tới phần **hình phạt tạm còn lại *sau khi* đã được tha**, và sức mạnh của nó đến từ **kho tàng công đức của Đức Kitô**, chứ không từ "công trạng" con người tự lập ra. (Xem thêm [Đức tin và việc làm](/giai-dap/duc-tin-va-viec-lam) ở phần liên quan.)
 
