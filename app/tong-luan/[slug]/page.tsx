@@ -128,7 +128,7 @@ export default async function TongLuanChapterPage({
                     className={`${styles.sideLink} ${c.slug === slug ? styles.sideLinkActive : ''}`}
                     aria-current={c.slug === slug ? 'page' : undefined}
                   >
-                    {c.titleVi}
+                    <T vi={c.titleVi} en={c.titleEn || c.titleVi} />
                   </Link>
                 ))}
               </div>
@@ -143,8 +143,11 @@ export default async function TongLuanChapterPage({
                   {chapter.section ? ` · ${chapter.section}` : ''}
                 </div>
               )}
-              <h1 className={styles.chapterTitle}>{chapter.titleVi}</h1>
-              {chapter.titleEn && <div className={styles.chapterTitleEn}>{chapter.titleEn}</div>}
+              {/* Title swaps with the language toggle rather than stacking both — the site's <T>
+                  contract. summaRef is a citation ("I, q.2, a.3"), so it stays in both. */}
+              <h1 className={styles.chapterTitle}>
+                <T vi={chapter.titleVi} en={chapter.titleEn || chapter.titleVi} />
+              </h1>
               {chapter.summaRef && <div className={styles.summaRef}>{chapter.summaRef}</div>}
             </header>
 
@@ -178,7 +181,7 @@ export default async function TongLuanChapterPage({
                   <div className={styles.neighbourLabel}>
                     <T vi="Chương trước" en="Previous" />
                   </div>
-                  <div className={styles.neighbourTitle}>{prev.titleVi}</div>
+                  <div className={styles.neighbourTitle}><T vi={prev.titleVi} en={prev.titleEn || prev.titleVi} /></div>
                 </Link>
               ) : (
                 <span />
@@ -191,7 +194,7 @@ export default async function TongLuanChapterPage({
                   <div className={styles.neighbourLabel}>
                     <T vi="Chương sau" en="Next" />
                   </div>
-                  <div className={styles.neighbourTitle}>{next.titleVi}</div>
+                  <div className={styles.neighbourTitle}><T vi={next.titleVi} en={next.titleEn || next.titleVi} /></div>
                 </Link>
               )}
             </nav>

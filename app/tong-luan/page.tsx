@@ -61,14 +61,15 @@ export default function TongLuanIndexPage() {
                     <span className={styles.num}>{i + 1}.</span>
                     <span className={styles.rowMain}>
                       <span className={styles.rowTitle}>
-                        {c.titleVi}
+                        {/* Title swaps with the language toggle rather than stacking both — the
+                            site's <T> contract. The chapter bodies stay Vietnamese either way. */}
+                        <T vi={c.titleVi} en={c.titleEn || c.titleVi} />
                         {c.summaSource === 'supplementum' && (
                           <span className={styles.supplTag}>
                             <T vi="Phụ lục" en="Supplement" />
                           </span>
                         )}
                       </span>
-                      {c.titleEn && <span className={styles.rowTitleEn}>{c.titleEn}</span>}
                     </span>
                     {c.summaRef && <span className={styles.rowRef}>{c.summaRef}</span>}
                   </Link>
