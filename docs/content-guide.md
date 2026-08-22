@@ -311,6 +311,18 @@ add a part to an existing cluster:
 7. **Verify before done:** `npx tsc --noEmit` and `npm run lint` clean; the new files parse; the
    pages render at `/giai-dap/<slug>`.
 
+### Never alter a CGKPV word — restore structure only (proof-case, 2026-08-22)
+
+Repairing **structure** in the vault Bible is restoration and is fine: Session 6 restored missing
+verse markers in Thánh Vịnh 16, Lêvi 26 and Giôsuê 3, and all 1328 chapter files now pass a clean audit.
+Changing a **word** is a different act, and the rule is absolute — CGKPV text is never edited.
+
+**The case that proves why.** Ps 16:1 reads *"Se sẽ"*, which looks exactly like an OCR artifact. It
+is not: it is CGKPV's rendering of the Hebrew **Miktam** (owner-confirmed). Anyone who "fixed" it would
+have corrupted correct sacred text while believing they were tidying a scanning error.
+
+**So: report it, never fix it.** If a CGKPV word looks wrong, verify against the printed Bible and hand
+it to the owner as a decision. "Obviously wrong" is precisely how well-meant edits to sacred text begin.
 ### Bible abbreviations — write the CGKPV form; other forms still resolve (2026-08-22)
 
 **When you author a Scripture reference, use the abbreviation the printed CGKPV Bible uses** — that is
