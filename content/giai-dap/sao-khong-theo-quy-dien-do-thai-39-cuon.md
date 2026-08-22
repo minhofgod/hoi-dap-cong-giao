@@ -1,6 +1,6 @@
 ---
-question_vi: "Sao Kitô hữu không theo quy điển Do Thái (39 cuốn)? Chẳng phải bảy cuốn kia là \"thêm vào\"?"
-question_en: "Why don't Christians follow the Jewish canon (39 books)? Aren't the seven extra books additions?"
+question_vi: "Sao Công Giáo không theo quy điển Do Thái (39 cuốn)? Chẳng phải bảy cuốn kia là \"thêm vào\"?"
+question_en: "Why don't Catholics follow the Jewish canon (39 books)? Aren't the seven extra books additions?"
 topic: "Quy điển Kinh Thánh"
 category: "scripture"
 tags: ["bible", "church-history", "protestant-objections"]
