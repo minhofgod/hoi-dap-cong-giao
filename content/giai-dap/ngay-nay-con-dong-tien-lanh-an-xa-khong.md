@@ -22,7 +22,7 @@ related:
 **Ngày nay, không còn việc đóng tiền để lãnh ân xá nữa.** Sau những lạm dụng nghiêm trọng đầu thế kỷ 16, **Công đồng Trentô (1545–1563)** đã chấn chỉnh mạnh mẽ. Công đồng:
 
 - **Bãi bỏ** hệ thống các "người đi thu ân xá" (*quaestores*) vốn từng nhận hoa hồng — chính vì họ gây "nghi ngờ về lòng tham trong nhà Chúa".
-- **Cấm** gắn ân xá với việc thu lợi tài chính; ân xá phải được ban **nhưng không** (miễn phí).
+- **Cấm** gắn ân xá với việc thu lợi tài chính; ân xá phải được ban **hoàn toàn miễn phí**, không gắn với tiền bạc.
 - Đồng thời **giữ vững giáo lý**: việc dùng ân xá "rất hữu ích cho Kitô hữu", và kết án những ai phủ nhận quyền ban ân xá của Hội Thánh.
 
 (Ít năm sau, Đức Piô V, năm 1567, còn hủy mọi ân xá nào còn dính đến phí tổn hay giao dịch tiền bạc.) Từ đó đến nay, ân xá chỉ được lãnh qua **các việc thiêng liêng và bác ái** đúng nghĩa: xưng tội, rước lễ, cầu nguyện theo ý Đức Giáo hoàng, và các việc đạo đức như lần hạt Mân Côi, đi Đàng Thánh Giá, đọc Kinh Thánh, viếng nhà thờ trong dịp đặc biệt, làm việc bác ái… Đóng góp tiền cho Hội Thánh vẫn là việc tốt, nhưng **không còn liên quan** đến việc lãnh ân xá.
