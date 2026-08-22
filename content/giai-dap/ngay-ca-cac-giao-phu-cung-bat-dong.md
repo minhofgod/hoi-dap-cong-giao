@@ -39,4 +39,4 @@ Vì thế, việc một vài Giáo phụ do dự về Thư Do Thái hay sách Kh
 
 **3. Bất đồng chỉ ở một *nhúm* sách bên lề — không bao giờ ở phần cốt lõi.** Bức tranh "các Giáo phụ cãi nhau loạn xạ về Kinh Thánh" đã bị thổi phồng. Bốn sách **Tin Mừng** và các thư chính của **thánh Phaolô** thì **chưa bao giờ thật sự bị nghi ngờ** — chúng được công nhận rộng rãi từ rất sớm. Cuộc tranh luận chỉ xoay quanh **một số ít** sách ở mép rìa (như Thư Do Thái, Giacôbê, 2 Phêrô, 2–3 Gioan, Giuđa, Khải Huyền). Nói cách khác: "trái tim" của Tân Ước đã vững chắc ngay từ đầu; điều Hội Thánh làm là **chốt lại phần rìa** — và làm điều đó với thẩm quyền Chúa Kitô đã trao.
 
-(Xem thêm bài "Ai quyết định sách nào thuộc Kinh Thánh?" ở phần liên quan.)
+(Xem thêm bài [Ai quyết định sách nào thuộc Kinh Thánh?](/giai-dap/ai-quyet-dinh-sach-nao-thuoc-kinh-thanh) ở phần liên quan.)

@@ -38,7 +38,7 @@ Và chính Đức Kitô gắn liền lòng tin với Phép Rửa — cánh cửa
 >
 > — **Mc 16,16** (CGKPV)
 
-**3. "Tôi sống tốt là đủ rồi" — nhưng không ai tự trả nổi món nợ tội của mình.** Đây mới là gốc rễ vấn đề. Sống lương thiện là điều đáng quý, nhưng việc lành của ta **không** xóa được tội đã phạm — chỉ ơn cứu chuộc của Đức Kitô mới làm được điều đó (xem bài "Tôi sống tốt cả đời — sao vẫn không tự trả hết tội?" ở phần liên quan bên dưới). Nếu "làm người tốt" đã đủ để tự cứu mình, thì cái chết của Đức Kitô trên thập giá hóa ra vô ích. Chính vì không ai tự cứu được mình mà Thiên Chúa mới ban Con của Người, và lập Hội Thánh làm phương thế thông ban ơn cứu độ ấy.
+**3. "Tôi sống tốt là đủ rồi" — nhưng không ai tự trả nổi món nợ tội của mình.** Đây mới là gốc rễ vấn đề. Sống lương thiện là điều đáng quý, nhưng việc lành của ta **không** xóa được tội đã phạm — chỉ ơn cứu chuộc của Đức Kitô mới làm được điều đó (xem bài [Tôi sống tốt cả đời — sao vẫn không tự trả hết tội?](/giai-dap/song-tot-ca-doi-sao-khong-tu-tra-het-toi) ở phần liên quan bên dưới). Nếu "làm người tốt" đã đủ để tự cứu mình, thì cái chết của Đức Kitô trên thập giá hóa ra vô ích. Chính vì không ai tự cứu được mình mà Thiên Chúa mới ban Con của Người, và lập Hội Thánh làm phương thế thông ban ơn cứu độ ấy.
 
 **4. Đó cũng là lý do Hội Thánh phải loan báo Tin Mừng.** Vì đức tin thật sự quan trọng cho ơn cứu độ, nên Hội Thánh có "bổn phận, và đồng thời là một quyền thánh thiêng, phải rao giảng Tin Mừng" cho mọi người (x. GLHTCG 848). Khả năng Chúa cứu người vô tri không làm cho việc truyền giáo thành thừa thãi — trái lại, nó thúc đẩy việc ấy, để càng nhiều người càng tốt được biết và bước vào con đường chắc chắn Chúa đã mở.
 

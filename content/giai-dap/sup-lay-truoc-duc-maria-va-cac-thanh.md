@@ -47,4 +47,4 @@ Thật ra, truyền thống Công Giáo phân biệt rạch ròi **ba mức đ�
 
 Nắm được ba từ ấy là nắm được câu trả lời: người Công Giáo **không** thờ phượng Đức Maria hay các thánh. Cử chỉ bên ngoài có thể trông giống nhau, nhưng thực tại bên trong thuộc về ba bậc hoàn toàn khác biệt — và chỉ một bậc cao nhất, *latria*, mới là thờ phượng.
 
-Nói gọn: người Công Giáo chỉ tôn kính Đức Maria và các thánh, xin các ngài cầu bầu, và noi gương các ngài sống theo Chúa Kitô — chứ không hề tôn thờ các ngài. (Về việc *xin các thánh cầu nguyện* có phải là thờ phượng không, xem loạt bài "Cầu nguyện với các thánh" ở phần liên quan bên dưới.)
+Nói gọn: người Công Giáo chỉ tôn kính Đức Maria và các thánh, xin các ngài cầu bầu, và noi gương các ngài sống theo Chúa Kitô — chứ không hề tôn thờ các ngài. (Về việc *xin các thánh cầu nguyện* có phải là thờ phượng không, xem loạt bài [Cầu nguyện với các thánh](/giai-dap/tai-sao-cau-nguyen-voi-cac-thanh) ở phần liên quan bên dưới.)

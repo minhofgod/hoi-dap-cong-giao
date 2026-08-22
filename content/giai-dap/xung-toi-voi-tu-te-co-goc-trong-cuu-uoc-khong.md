@@ -30,4 +30,4 @@ Và chính Đức Kitô, khi kiện toàn Lề Luật, đã **không bỏ đi** 
 >
 > — **Ga 20,23** (CGKPV)
 
-Vậy điều mà Cựu Ước mới chỉ **phác họa** — xưng tội, một tư tế đứng làm trung gian, rồi được tha — thì trong Giao Ước Mới đã **thành sự thật trọn vẹn** nơi Bí tích Hòa Giải. (Xem thêm bài "Xưng tội riêng có phải do thời Trung cổ nghĩ ra?" — thực hành này cũng đã có nơi Hội Thánh sơ khai.)
+Vậy điều mà Cựu Ước mới chỉ **phác họa** — xưng tội, một tư tế đứng làm trung gian, rồi được tha — thì trong Giao Ước Mới đã **thành sự thật trọn vẹn** nơi Bí tích Hòa Giải. (Xem thêm bài [Xưng tội riêng có phải do thời Trung cổ nghĩ ra?](/giai-dap/xung-toi-rieng-co-phai-bia-dat-thoi-trung-co) — thực hành này cũng đã có nơi Hội Thánh sơ khai.)

@@ -32,4 +32,4 @@ Chính thánh Phaolô mô tả mình đúng như thế — một khí cụ, ch�
 
 Sách Giáo Lý dùng chính câu 1 Tm 2,5 để nói về chức tư tế: mọi chức tư tế được hoàn tất nơi Đức Kitô, "Đấng trung gian duy nhất giữa Thiên Chúa và loài người" (x. GLHTCG 1544); và **chức tư tế duy nhất của Đức Kitô hiện diện nhờ chức tư tế thừa tác, mà tính duy nhất ấy không hề bị suy giảm** (x. GLHTCG 1545). Nói cách khác, linh mục không làm lu mờ Đấng Trung Gian duy nhất — ngài làm cho Đấng ấy **hiện diện**.
 
-Vậy đến tòa giải tội không phải là **bỏ qua Chúa Kitô để tìm đến ai khác**, mà là **đến với chính Chúa Kitô** qua đúng phương thế Người đã thiết lập. (Đây cũng là nguyên tắc trả lời cho câu hỏi "cầu nguyện với các thánh có nghịch với Đấng Trung Gian duy nhất không" — xem bài liên quan.)
+Vậy đến tòa giải tội không phải là **bỏ qua Chúa Kitô để tìm đến ai khác**, mà là **đến với chính Chúa Kitô** qua đúng phương thế Người đã thiết lập. (Đây cũng là nguyên tắc trả lời cho câu hỏi [cầu nguyện với các thánh có nghịch với Đấng Trung Gian duy nhất không](/giai-dap/duc-kito-dang-trung-gian-duy-nhat) — xem bài liên quan.)
