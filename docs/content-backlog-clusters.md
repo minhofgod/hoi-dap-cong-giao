@@ -94,6 +94,44 @@ no English-language Catholic site serves this question for a Vietnamese reader. 
 
 ---
 
+---
+
+## Single Q&As / footnotes (not clusters)
+
+### Bible versification differences — ONE Q&A or a footnote · LOW priority
+
+Proposed by Session 4 via the owner, 2026-08-22. **Parked deliberately — not urgent.**
+
+**The reader problem.** A Protestant who looks up a CGKPV-numbered verse in their own Bible can hit a
+one-off mismatch and conclude *"Catholics moved it."* A short note preempts that, and it sits naturally
+beside the existing "the Church didn't change or add to the Bible" material — the canon subject (#4
+above) and `giao-hoi-co-chinh-sua-kinh-thanh-khong`.
+
+**Why low priority:** today's Q&A audience is Vietnamese-only and reads CGKPV natively, so the mismatch
+never arises for them. It matters **cross-tradition** — the `/cong-giao-va-tin-lanh` reader — and for the
+future English toggle (`docs/roadmap.md` → "English Q&A bodies").
+
+⚠️ **Keep it to ONE tight Q&A, or a footnote in the canon answer. Not a feature.** The temptation is a
+lookup table or a popover; that is a different (larger) thing and should not ride in on this.
+
+**Verified facts it can rest on** (confirmed against the CGKPV files themselves + a Masoretic source):
+- **CGKPV follows Hebrew/Masoretic numbering — NOT Vulgate/LXX.** *(This is the correction of a claim
+  that went the other way; see `docs/session-4-script-wikilink.md` → "CGKPV versification".)*
+- Protestant **Deut 12:32** = CGKPV **Đnl 13,1**
+- Protestant **Gen 32:28** (Jacob renamed Israel) = CGKPV **Sáng Thế 32,29**
+- Psalm superscriptions count as verse 1 → Protestant **Ps 22:1** = CGKPV **Tv 22,2**
+
+🚩 **Methodology caveat — this already produced a wrong answer once.** Verify further cases against a
+**Masoretic / CGKPV-aligned source (e.g. Sefaria)**, never a generic English Bible site: a plain web
+search reported *"no offset"* for Genesis 32 because it was reading English-numbered pages. The English
+web is numbered the way that hides exactly the difference being checked.
+
+**Two sub-tasks — route only when picked up, not now:**
+- **→ Session 3** — author the single Q&A from the verified facts (content lane).
+- **→ Session 6** (Bible backend) — scan the CGKPV files to compile the **complete** list of divergent
+  passages, so the answer is not limited to the three examples above. Session 4 notes this can piggyback
+  on the **Xuất Hành 25 structural-integrity audit** it has already flagged *(that audit is not recorded
+  in `docs/` — it lives in Session 6/4 notes; confirm it exists before relying on the pairing).*
 ## Sequencing notes
 
 - **#1 and #2 first.** Both have *published content already depending on them* — the Eucharistic
