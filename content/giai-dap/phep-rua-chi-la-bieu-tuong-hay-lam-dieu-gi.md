@@ -1,6 +1,6 @@
 ---
-question_vi: "Phép Rửa chỉ là một biểu tượng bên ngoài, hay nó thật sự làm điều gì về mặt thiêng liêng?"
-question_en: "Is Baptism just an outward symbol, or does it actually do something?"
+question_vi: "Rửa tội xong thì có gì thật sự thay đổi, hay chỉ là một nghi thức?"
+question_en: "After baptism, does anything really change — or is it just a ritual?"
 topic: "Phép Rửa"
 category: "the-church"
 tags: ["baptism", "sacraments", "protestant-objections"]
