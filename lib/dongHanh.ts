@@ -24,7 +24,12 @@ export interface Choice {
   id: string;
   label: Bi;
   hint?: Bi;
-  goto: { step: string } | { situation: string };
+  /** Selecting a choice either branches to another intake step, resolves to a situation (the end of
+   *  the flow, showing matched resources), or hands off to a whole external guided surface by `href`.
+   *  The `href` form is used only for the "Công Giáo và Tin Lành" door, which has no companion
+   *  situation of its own — the /cong-giao-va-tin-lanh path IS its destination. An `href` door is
+   *  gated at the point it's added to `choices` (see `CG_TL_DOOR`), so it is never a dead link. */
+  goto: { step: string } | { situation: string } | { href: string };
 }
 
 export interface Step {
@@ -56,8 +61,32 @@ const CG_TL_CTA: Step['cta'] = CG_TL_ENABLED
     }
   : undefined;
 
-/** The whole tree, keyed by step id. `start` is the entry step. Most paths are 2 questions; the
- *  pastoral paths (suffering) resolve in 1, on purpose — fewer clicks for someone who is hurting. */
+/** The one top-level door where identity genuinely changes the answer (docs/roadmap.md, "Companion
+ *  intake — DOORS, not identity"): a Protestant reader who wants to understand the Catholic faith.
+ *  Same doctrines, materially different framing — so the /cong-giao-va-tin-lanh path is written TO
+ *  them in the second person. Phrased as INTENT, not a category to be filed under. There is no
+ *  companion situation behind it (the path itself is the content), so it hands off by `href`. Present
+ *  ONLY when CG_TL_ENABLED is on (mirrors CG_TL_CTA) — spread into `start.choices`, so when the flag
+ *  is off the door simply isn't offered and is never a dead link. Paired with the Catholic-facing
+ *  `defending` door + its CTA (the same four clusters, framed for the reader answering objections). */
+const CG_TL_DOOR: Choice[] = CG_TL_ENABLED
+  ? [
+      {
+        id: 'protestant',
+        label: {
+          vi: 'Tôi là người Tin Lành, muốn hiểu người Công giáo tin gì',
+          en: 'I’m Protestant, and I want to understand what Catholics believe',
+        },
+        goto: { href: '/cong-giao-va-tin-lanh?from=dong-hanh' },
+      },
+    ]
+  : [];
+
+/** The whole tree, keyed by step id. `start` is the entry step, which is now a single flat set of
+ *  intent-shaped doors (docs/roadmap.md, "Companion intake — DOORS, not identity"): some resolve to
+ *  a situation in one click (evidence, science), some open a short sub-tree (suffering, persecuted,
+ *  loved-one, defending), and the gated Protestant door hands straight off to /cong-giao-va-tin-lanh.
+ *  The pastoral suffering paths keep their comforting one- or two-step depth on purpose. */
 export const STEPS: Record<string, Step> = {
   start: {
     id: 'start',
@@ -67,28 +96,24 @@ export const STEPS: Record<string, Step> = {
       en: 'Pick whichever is closest to you. There are no right or wrong answers — this is just to find what fits you.',
     },
     choices: [
+      // Intent-shaped doors, one question — docs/roadmap.md "Companion intake — DOORS, not identity".
+      // The old `exploring`/`doubting` grouping steps are gone: their surviving children were
+      // promoted here, with labels rewritten to stand alone (the old evidence label read "…cho thấy
+      // ĐIỀU NÀY là thật?", whose antecedent lived on the deleted `doubting` parent). `doubt-suffering`
+      // is NOT here — it re-parented into the suffering family (it's a person hurting, not an
+      // evidential doubt). See the analysis in the commit message / hand-off.
       {
-        id: 'exploring',
-        label: { vi: 'Tôi đang tìm hiểu về đức tin Công Giáo', en: "I'm exploring the Catholic faith" },
-        goto: { step: 'exploring' },
-      },
-      {
-        id: 'doubting',
-        label: { vi: 'Tôi đang hoài nghi, thấy khó tin', en: 'I have doubts, I find it hard to believe' },
-        goto: { step: 'doubting' },
-      },
-      {
-        id: 'defending',
+        id: 'evidence',
         label: {
-          vi: 'Tôi muốn hiểu và trả lời những phản đối về đạo',
-          en: 'I want to understand and answer objections to the faith',
+          vi: 'Có bằng chứng nào cho thấy Chúa Giêsu có thật không?',
+          en: 'Is there any evidence that Jesus was real?',
         },
-        goto: { step: 'defending' },
+        goto: { situation: 'doubt-evidence' },
       },
       {
-        id: 'loved-one',
-        label: { vi: 'Tôi lo cho một người thân chưa tin', en: "I'm concerned for a loved one who doesn't believe" },
-        goto: { step: 'loved-one' },
+        id: 'science',
+        label: { vi: 'Khoa học dường như mâu thuẫn với đức tin', en: 'Science seems to contradict faith' },
+        goto: { situation: 'doubt-science' },
       },
       {
         id: 'suffering',
@@ -100,50 +125,22 @@ export const STEPS: Record<string, Step> = {
         label: { vi: 'Tôi bị ghét bỏ, bách hại vì đức tin', en: "I'm hated or persecuted for my faith" },
         goto: { step: 'persecuted' },
       },
-    ],
-  },
-
-  exploring: {
-    id: 'exploring',
-    question: { vi: 'Bạn muốn bắt đầu từ đâu?', en: 'Where would you like to begin?' },
-    choices: [
       {
-        id: 'god',
-        label: { vi: 'Thiên Chúa có thật không, và Ngài là ai?', en: 'Is God real, and who is he?' },
-        goto: { situation: 'explore-god' },
+        id: 'loved-one',
+        label: { vi: 'Tôi lo cho một người thân chưa tin', en: "I'm concerned for a loved one who doesn't believe" },
+        goto: { step: 'loved-one' },
       },
       {
-        id: 'jesus-church',
-        label: { vi: 'Chúa Giêsu và Hội Thánh Người lập', en: 'Jesus and the Church he founded' },
-        goto: { situation: 'explore-jesus-church' },
+        id: 'defending',
+        label: {
+          vi: 'Tôi muốn hiểu và trả lời những phản đối về đạo',
+          en: 'I want to understand and answer objections to the faith',
+        },
+        goto: { step: 'defending' },
       },
-      {
-        id: 'basics',
-        label: { vi: 'Cứ cho tôi xem những câu hỏi thường gặp nhất', en: 'Just show me the most common questions' },
-        goto: { situation: 'explore-basics' },
-      },
-    ],
-  },
-
-  doubting: {
-    id: 'doubting',
-    question: { vi: 'Điều gì khiến bạn hoài nghi nhất?', en: 'What makes you doubt the most?' },
-    choices: [
-      {
-        id: 'science',
-        label: { vi: 'Khoa học dường như mâu thuẫn với đức tin', en: 'Science seems to contradict faith' },
-        goto: { situation: 'doubt-science' },
-      },
-      {
-        id: 'evidence',
-        label: { vi: 'Có bằng chứng nào cho thấy điều này là thật không?', en: 'Is there any evidence this is true?' },
-        goto: { situation: 'doubt-evidence' },
-      },
-      {
-        id: 'suffering',
-        label: { vi: 'Nếu Chúa có thật, sao lại có quá nhiều đau khổ?', en: 'If God is real, why is there so much suffering?' },
-        goto: { situation: 'doubt-suffering' },
-      },
+      // The Protestant door — gated, so it appears (adjacent to its Catholic-facing `defending` twin)
+      // only when the /cong-giao-va-tin-lanh path ships. Off by default in prod → not a dead link.
+      ...CG_TL_DOOR,
     ],
   },
 
@@ -211,6 +208,18 @@ export const STEPS: Record<string, Step> = {
         id: 'bereaved',
         label: { vi: 'Tôi vừa mất một người thân yêu', en: 'I have lost someone dear to me' },
         goto: { step: 'bereaved' },
+      },
+      // Re-parented out of the old `doubting` step (docs/roadmap.md): someone asking "if God is real,
+      // why so much suffering" is usually not requesting an argument — they are hurting and using the
+      // language of argument. So the problem of evil is met here, in the suffering family, alongside
+      // the "companions in suffering" saints bridge that doubt-suffering already shares.
+      {
+        id: 'why',
+        label: {
+          vi: 'Quá nhiều đau khổ khiến tôi khó tin vào một Thiên Chúa nhân lành',
+          en: 'So much suffering makes it hard to believe in a loving God',
+        },
+        goto: { situation: 'doubt-suffering' },
       },
     ],
   },
@@ -345,11 +354,6 @@ export interface Situation {
   nextStep: { href: string; label: Bi };
   /** Label shown above the matched resources ("Start with these"). Optional override. */
   resourcesLabel?: Bi;
-  /** "Show me the common questions" path — surface the featured cluster anchors regardless of
-   *  taxonomy. Only the explore-basics situation sets this; every other situation surfaces only
-   *  genuinely-matching Q&As (and none when the site has no fitting content yet, resting on the
-   *  hand-written advice instead of padding with off-topic answers). */
-  showCommon?: boolean;
   /** Heavy / pastoral branches (suffering, doubting, an unbelieving loved one). When true, the
    *  companion keeps a gentle "talk to a priest / RCIA / your parish" off-ramp visible across the
    *  whole walk — some burdens are better carried with a person than a web page. */
@@ -376,8 +380,9 @@ export interface Situation {
   companions?: { href: string; name: Bi; line: Bi }[];
 }
 
-/** Shared CTA into the guided evidence path, for the situations that land on "so is any of this
- *  actually true?" (doubt-evidence, explore-god). Present ONLY when EVIDENCE_PATH_ENABLED is on —
+/** Shared CTA into the guided evidence path, for the situation that lands on "so is any of this
+ *  actually true?" (doubt-evidence — now the destination of the top-level evidence door, which
+ *  absorbed the old explore-god). Present ONLY when EVIDENCE_PATH_ENABLED is on —
  *  otherwise undefined, so nothing renders (never a dead link to the 404'd /bang-chung on the live
  *  companion). The `?from=dong-hanh` param lets the path offer a way back. */
 const EVIDENCE_PATH_CTA: Situation['evidencePath'] = EVIDENCE_PATH_ENABLED
@@ -392,93 +397,6 @@ const EVIDENCE_PATH_CTA: Situation['evidencePath'] = EVIDENCE_PATH_ENABLED
   : undefined;
 
 export const SITUATIONS: Record<string, Situation> = {
-  'explore-god': {
-    id: 'explore-god',
-    title: { vi: 'Bắt đầu với câu hỏi lớn nhất', en: 'Starting with the biggest question' },
-    lead: {
-      vi: 'Bạn đang tìm hiểu xem Thiên Chúa có thật không, và Ngài là ai.',
-      en: "You're exploring whether God is real, and who he is.",
-    },
-    advice: [
-      {
-        vi: 'Đây là câu hỏi đáng để hỏi, và Hội Thánh không hề sợ nó. Đức tin Công Giáo tin rằng lý trí và đức tin không chống nhau: chính trật tự, vẻ đẹp và sự hiện hữu của vũ trụ đã là dấu chỉ mời gọi ta tìm đến Đấng Tạo Hóa. Bạn không cần “gạt lý trí sang một bên” để tin.',
-        en: "This is a question worth asking, and the Church is not afraid of it. Catholic faith holds that reason and faith are not enemies: the order, beauty, and sheer existence of the universe are signs that point toward a Creator. You don't have to switch off your mind to believe.",
-      },
-      {
-        vi: 'Hãy cứ đi từng bước. Bắt đầu bằng việc để cho câu hỏi được sống, đọc chậm rãi, và nếu có thể, trò chuyện với một người có đức tin mà bạn quý mến. Ơn tin là một quà tặng — ta xin, ta tìm, và Chúa không bỏ rơi người thành tâm tìm kiếm.',
-        en: 'Take it one step at a time. Begin by letting the question breathe, reading slowly, and if you can, talking with a believer you respect. Faith is a gift — we ask, we seek, and God does not abandon anyone who searches sincerely.',
-      },
-    ],
-    categories: ['god-meaning'],
-    tags: ['atheism', 'science', 'trinity', 'miracles'],
-    evidencePath: EVIDENCE_PATH_CTA,
-    scripture: {
-      ref: 'Rm 1,20',
-      gloss: {
-        vi: 'Thánh Phaolô nói rằng những gì Thiên Chúa dựng nên giúp ta nhận ra Ngài — trời đất như một lời mời.',
-        en: 'St Paul says that what God has made helps us recognize him — creation itself is an invitation.',
-      },
-    },
-    nextStep: { href: '/giai-dap', label: { vi: 'Xem mục Giải Đáp', en: 'Browse the Q&A' } },
-  },
-
-  'explore-jesus-church': {
-    id: 'explore-jesus-church',
-    title: { vi: 'Chúa Giêsu và Hội Thánh của Người', en: 'Jesus and his Church' },
-    lead: {
-      vi: 'Bạn muốn hiểu về Chúa Giêsu và Hội Thánh Người đã lập.',
-      en: 'You want to understand Jesus and the Church he founded.',
-    },
-    advice: [
-      {
-        vi: 'Trung tâm của đức tin không phải là một hệ thống ý tưởng, mà là một Con Người: Chúa Giêsu Kitô. Người có thật trong lịch sử, đã chết và sống lại, và đã lập một Hội Thánh hữu hình để tiếp tục sứ mạng của Người qua các thời đại. Tìm hiểu Hội Thánh chính là tìm hiểu xem Người đã để lại gì cho chúng ta.',
-        en: "The heart of the faith is not a system of ideas but a Person: Jesus Christ. He is real in history, died and rose, and founded a visible Church to continue his mission through the ages. To explore the Church is to explore what he left for us.",
-      },
-      {
-        vi: 'Các Công Đồng của Hội Thánh — từ Nicêa đến nay — là nơi Hội Thánh gìn giữ và làm sáng tỏ đức tin ấy qua từng thế kỷ. Đó là một mạch truyền liên tục, không đứt đoạn, từ các Tông Đồ cho đến hôm nay.',
-        en: 'The Councils of the Church — from Nicaea onward — are where the Church guarded and clarified that faith across the centuries. It is an unbroken line, from the Apostles down to today.',
-      },
-    ],
-    categories: ['the-church', 'evidence-history'],
-    // `authority` intentionally dropped: it's shared with defend-church and dragged medieval
-    // papal-politics councils in front of an explorer (audit F2). Keep this path doctrinal.
-    tags: ['jesus', 'church-history', 'trinity'],
-    scripture: {
-      ref: 'Mt 16,18',
-      gloss: {
-        vi: 'Chúa Giêsu nói Người sẽ xây Hội Thánh trên đá tảng, và cửa hỏa ngục sẽ không thắng được.',
-        en: 'Jesus says he will build his Church on rock, and the gates of hell will not prevail against it.',
-      },
-    },
-    nextStep: { href: '/cong-dong', label: { vi: 'Tìm hiểu các Công Đồng', en: 'Explore the Councils' } },
-  },
-
-  'explore-basics': {
-    id: 'explore-basics',
-    title: { vi: 'Những câu hỏi thường gặp nhất', en: 'The most common questions' },
-    lead: {
-      vi: 'Bạn muốn xem qua những thắc mắc mà nhiều người hay hỏi nhất.',
-      en: 'You want to see the questions people ask most often.',
-    },
-    advice: [
-      {
-        vi: 'Cách tốt nhất để bắt đầu thường là đọc những câu trả lời ngắn, rõ ràng, có trích dẫn nguồn. Dưới đây là những chủ đề được hỏi nhiều nhất trên trang — bạn có thể đọc bất cứ câu nào khiến bạn tò mò, không cần theo thứ tự.',
-        en: 'The best way to begin is often to read short, clear answers that cite their sources. Below are the topics asked about most on this site — read whichever one draws you, in any order.',
-      },
-    ],
-    categories: [],
-    tags: [],
-    showCommon: true,
-    scripture: {
-      ref: '1 Pr 3,15',
-      gloss: {
-        vi: 'Thánh Phêrô khuyên hãy luôn sẵn sàng trả lời cho những ai hỏi về niềm hy vọng nơi bạn.',
-        en: 'St Peter urges us to be always ready to give a reason for the hope that is in us.',
-      },
-    },
-    nextStep: { href: '/giai-dap', label: { vi: 'Mở toàn bộ mục Giải Đáp', en: 'Open the full Q&A' } },
-  },
-
   'doubt-science': {
     id: 'doubt-science',
     title: { vi: 'Khi khoa học và đức tin có vẻ va nhau', en: 'When science and faith seem to clash' },
@@ -1221,12 +1139,9 @@ export interface Resource {
  *  qualifies on its own. That stops an over-broad category from burying precise matches (e.g. a
  *  "suffering" path must not fill with abstract `god-meaning` apologetics that merely share the
  *  category). Returns ONLY genuine matches — a page shows an empty list rather than a misleading
- *  one when the site has no fitting content yet. The one exception is the "show me common
- *  questions" path (`showCommon`), which surfaces the featured anchors. Pure + stable. */
+ *  one when the site has no fitting content yet, resting on the hand-written advice instead of
+ *  padding with off-topic answers. Pure + stable. */
 export function matchResources(sit: Situation, pool: Resource[], limit = 6): Resource[] {
-  if (sit.showCommon) {
-    return pool.filter((r) => r.featured).slice(0, limit);
-  }
   // Curated seed pins lead, in listed order, ahead of tag scoring; the tag-scored rest follows with
   // the pinned items removed so they're never duplicated.
   const pinned = (sit.seedPins ?? [])

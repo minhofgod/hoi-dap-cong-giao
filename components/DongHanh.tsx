@@ -273,15 +273,31 @@ function IntakeView({
       {step.intro && <p className={styles.questionIntro}>{pick(step.intro)}</p>}
 
       <div className={styles.choices}>
-        {step.choices.map((c) => (
-          <button key={c.id} type="button" className={styles.choice} onClick={() => onChoose(c.goto)}>
-            <span className={styles.choiceText}>
-              <span className={styles.choiceLabel}>{pick(c.label)}</span>
-              {c.hint && <span className={styles.choiceHint}>{pick(c.hint)}</span>}
-            </span>
-            <ArrowRight size={18} strokeWidth={2} className={styles.choiceArrow} />
-          </button>
-        ))}
+        {step.choices.map((c) => {
+          // An `href` door hands off to a whole external surface (the Protestant path) — render it as
+          // a link, not a flow-advancing button. It's only present when its flag is on (see STEPS).
+          if ('href' in c.goto) {
+            return (
+              <Link key={c.id} href={c.goto.href} className={styles.choice}>
+                <span className={styles.choiceText}>
+                  <span className={styles.choiceLabel}>{pick(c.label)}</span>
+                  {c.hint && <span className={styles.choiceHint}>{pick(c.hint)}</span>}
+                </span>
+                <ArrowRight size={18} strokeWidth={2} className={styles.choiceArrow} />
+              </Link>
+            );
+          }
+          const goto = c.goto; // narrowed to { step } | { situation } — captured for the click handler
+          return (
+            <button key={c.id} type="button" className={styles.choice} onClick={() => onChoose(goto)}>
+              <span className={styles.choiceText}>
+                <span className={styles.choiceLabel}>{pick(c.label)}</span>
+                {c.hint && <span className={styles.choiceHint}>{pick(c.hint)}</span>}
+              </span>
+              <ArrowRight size={18} strokeWidth={2} className={styles.choiceArrow} />
+            </button>
+          );
+        })}
       </div>
 
       {/* Cross-path CTA (e.g. `defending` → the Công Giáo và Tin Lành path). Below the choices, and

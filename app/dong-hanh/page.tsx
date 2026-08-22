@@ -108,9 +108,8 @@ export default function DongHanhPage() {
     body: enrichBi(qa.answer),
   }));
 
-  // Videos join the same taxonomy-scored pool. Left without `featured`, so they never come through
-  // the explore-basics/showCommon path — a video only surfaces when it genuinely matches a
-  // situation's category/tags.
+  // Videos join the same taxonomy-scored pool. Left without `featured` (now only a small scoring
+  // tiebreak) — a video surfaces only when it genuinely matches a situation's category/tags.
   const video: Resource[] = getAllVideos().map((v) => ({
     key: `v:${v.slug}`,
     kind: 'video',
@@ -126,7 +125,7 @@ export default function DongHanhPage() {
   }));
 
   // Church-recognised miracles (Phép Lạ) join the same taxonomy-scored pool via their shared
-  // `category`/`tags` (Session 11). No `featured`, so they never come through explore-basics. The
+  // `category`/`tags` (Session 11). No `featured`, so they surface only on genuine matches. The
   // inline body is the summary + evidence; the `limits` ("what this does NOT establish") rides in
   // its own field so that honesty is never lost when a miracle surfaces in a walk.
   const miracle: Resource[] = getAllMiracles().map((m) => ({
