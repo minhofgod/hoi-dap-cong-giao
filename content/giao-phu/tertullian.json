@@ -16,11 +16,11 @@
     "died": 220
   },
   "quote": {
-    "vi": "Máu các vị tử đạo là hạt giống của Giáo hội.",
-    "en": "The blood of the martyrs is the seed of the Church.",
+    "vi": "Máu người Kitô hữu là hạt giống.",
+    "en": "The blood of Christians is seed.",
     "source": {
-      "vi": "Apologeticus, đoạn 50",
-      "en": "Apologeticus, 50"
+      "vi": "Apologeticus, đoạn 50,13",
+      "en": "Apologeticus, 50,13"
     }
   },
   "life": [
@@ -80,8 +80,8 @@
         "en": "Surviving works"
       },
       "value": {
-        "vi": "4 tác phẩm",
-        "en": "4 works"
+        "vi": "31 khảo luận còn lại",
+        "en": "31 extant treatises"
       }
     }
   ],
